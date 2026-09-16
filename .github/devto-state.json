@@ -158,9 +158,45 @@
       "article_title": "Verify any MCP server trust in 1 command (free, Ed25519, no auth)",
       "username": "topstar_ai",
       "created_at": "2026-07-30T01:09:52Z"
+    },
+    "3ehp6": {
+      "article_id": 4626923,
+      "article_title": "Re: @anp2network \u2014 round 3: the bound is a distribution, the mutants are generated, the log is in the loop",
+      "username": "anp2network",
+      "created_at": "2026-09-11T01:09:48Z"
+    },
+    "3ehcp": {
+      "article_id": 4626052,
+      "article_title": "Re: @anp2network \u2014 both bugs fixed in v1.3.3, your repro rerun, and the runner is now the tested thing",
+      "username": "anp2network",
+      "created_at": "2026-09-10T18:45:47Z"
+    },
+    "3ecg8": {
+      "article_id": 4610711,
+      "article_title": "Visa Has a Trusted Agent Protocol. Mastercard Has Verifiable Intent. Here's the Layer Neither One Gives You",
+      "username": "alexshev",
+      "created_at": "2026-09-09T03:14:50Z"
+    },
+    "3ec7d": {
+      "article_id": 4608610,
+      "article_title": "Re: @anp2network \u2014 generated. The accept side is no longer one card (vectors v1.3.0)",
+      "username": "anp2network",
+      "created_at": "2026-09-08T21:35:13Z"
+    },
+    "3e1j6": {
+      "article_id": 4549297,
+      "article_title": "Re: community \u2014 answers to 12 unanswered comments across 9 articles",
+      "username": "anp2network",
+      "created_at": "2026-09-02T01:40:38Z"
+    },
+    "3e191": {
+      "article_id": 4548505,
+      "article_title": "Re: @anp2network \u2014 you were right on all three counts. Here's the current state.",
+      "username": "anp2network",
+      "created_at": "2026-09-01T19:16:16Z"
     }
   },
-  "last_check": "2026-07-30T01:28:43.028496+00:00",
+  "last_check": "2026-09-16T09:37:48.903399+00:00",
   "initialized_at": "2026-07-07T04:55:55.856023+00:00",
   "notes": "Initial state \u2014 3 comments marked as seen because user replied manually before the monitor was deployed."
 }
