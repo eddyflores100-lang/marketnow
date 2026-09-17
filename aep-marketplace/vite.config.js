@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import tailwindcss from '@tailwindcss/vite';
 import fs from 'fs';
 import path from 'path';
 
@@ -72,8 +73,9 @@ const mockApiPlugin = () => ({
 });
 
 export default defineConfig({
-<<<<<<< Updated upstream
-  plugins: [react(), tailwindcss()],
+  // build: Tailwind 4 vite plugin (dep @tailwindcss/vite, index.css uses @import "tailwindcss")
+  // dev:   mockApiPlugin (in-file, mocks the Cloudflare worker API for local dev)
+  plugins: [react(), tailwindcss(), mockApiPlugin()],
   build: {
     rollupOptions: {
       output: {
@@ -84,7 +86,3 @@ export default defineConfig({
     },
   },
 })
-=======
-  plugins: [react(), mockApiPlugin()],
-});
->>>>>>> Stashed changes
