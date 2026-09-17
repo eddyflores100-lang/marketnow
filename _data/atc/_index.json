@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updated_at": "2026-08-08T00:50:59.310Z",
+  "updated_at": "2026-09-17T01:38:33.782Z",
   "total": 57,
   "cards": [
     {
       "card_id": "ATC-2026-1509360",
-      "status": "active",
+      "status": "revoked",
       "agent_id": "skill.mn-sub-51326",
       "agent_name": "awesome-mcp-servers",
       "sentinel_review_score": 0,
@@ -569,8 +569,8 @@
       "status": "revoked",
       "agent_id": "agent.alicelabs.marketnow",
       "agent_name": "MarketNow Discovery Agent",
-      "sentinel_review_score": 10,
-      "sentinel_score": 10,
+      "sentinel_review_score": 0,
+      "sentinel_score": 0,
       "risk_level": "low",
       "issued_at": "2026-07-18T03:38:56.297Z",
       "expires_at": "2026-10-16T03:38:56.297Z"
@@ -613,8 +613,8 @@
       "status": "active",
       "agent_id": "agent.alicelabs.marketnow",
       "agent_name": "MarketNow Discovery Agent",
-      "sentinel_review_score": 10,
-      "sentinel_score": 10,
+      "sentinel_review_score": 0,
+      "sentinel_score": 0,
       "risk_level": "low",
       "issued_at": "2026-07-23T03:36:17.670Z",
       "expires_at": "2026-10-21T03:36:17.670Z"
@@ -624,8 +624,8 @@
       "status": "revoked",
       "agent_id": "agent.alicelabs.marketnow",
       "agent_name": "MarketNow Discovery Agent",
-      "sentinel_review_score": 10,
-      "sentinel_score": 10,
+      "sentinel_review_score": 0,
+      "sentinel_score": 0,
       "risk_level": "low",
       "issued_at": "2026-07-22T03:11:20.252Z",
       "expires_at": "2026-10-20T03:11:20.252Z"

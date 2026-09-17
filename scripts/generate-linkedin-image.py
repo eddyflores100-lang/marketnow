@@ -190,7 +190,7 @@ draw.text((60, HEIGHT - 38), 'marketnow.site', font=font_body, fill=ACCENT_BLUE)
 draw.text((220, HEIGHT - 35), '|  Sentinel L2.5 gVisor sandbox now live', font=font_small, fill=TEXT_GRAY)
 
 # Right side of bottom bar
-draw.text((WIDTH - 280, HEIGHT - 35), 'github.com/edgarfloresguerra2011-a11y', font=font_small, fill=TEXT_GRAY)
+draw.text((WIDTH - 280, HEIGHT - 35), 'github.com/alicelabs-llc/marketnow', font=font_small, fill=TEXT_GRAY)
 
 # ═══════════════════════════════════════════════════════════════════════════
 # Save

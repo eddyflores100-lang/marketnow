@@ -13,7 +13,6 @@
     },
     "trust": {
       "sentinel_review_score": 0,
-      "sentinel_score": 0,
       "audit_layers_passed": {},
       "composite_trust": 0,
       "risk_level": "not_audited",
@@ -39,10 +38,16 @@
   },
   "signature": {
     "algorithm": "Ed25519 (RFC 8032)",
-    "value": "10df2b717f9a7422173610667d53b8b0383fba7f98a27ecbf2e48631ce89712e5b9b801feb1896047284fc19ea6799ac2f8fcb8cf7bb155e9d2226ca0c2bb901",
+    "value": "0930722ebd40593f93293f3dc87021b15b6973619e8cdc576a9edaee794a50693fc48db156a49ed80ecf01dd4aa690ec08f94da89104701171d4388aaebf8d03",
     "signed_by": "MarketNow Sentinel CA",
     "signed_at": "2026-07-30T15:05:44.883Z",
-    "canonical_json": "JSON.stringify(payload, Object.keys(payload).sort())",
-    "verify_with": "GET /api/atc?action=ca-key"
+    "canonical_json": "RFC 8785 JCS (JSON Canonicalization Scheme)",
+    "verify_with": "GET /api/atc?action=ca-key",
+    "signed_payload_hash": "6f58999159e5b13efeb885366140e37111563ef095ff69a9adc102e8fe1cd789",
+    "resigned_at": "2026-09-08T00:00:00Z",
+    "resign_reason": "CA rotation 2026-09-08: mn-ca-002 retired (private key material was found committed to a public repository). Re-signed under mn-ca-003. Canonicalization unchanged: RFC 8785 JCS over payload.",
+    "canonicalization_method": "RFC_8785_JCS",
+    "ca_key_id": "mn-ca-003",
+    "ca_key_fingerprint_sha256": "f2c8d4a885a70da9"
   }
 }

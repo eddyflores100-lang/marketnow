@@ -29,7 +29,9 @@ jobs:
 
       - name: Generate ATC index
         env:
-          MANDATES_GITHUB_TOKEN: ${{ secrets.MANDATES_GITHUB_TOKEN }}
-          MANDATES_REPO: edgarfloresguerra2011-a11y/marketnow
+          # Built-in ephemeral token — auto-provided by GitHub Actions,
+          # scoped to this repo, no secret management needed.
+          MANDATES_GITHUB_TOKEN: ${{ github.token }}
+          MANDATES_REPO: eddyflores100-lang/marketnow
         run: |
           node scripts/generate-atc-index.mjs

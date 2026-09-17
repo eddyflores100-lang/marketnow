@@ -153,7 +153,7 @@ The 12 tools:
 ## Links
 
 - **Website:** https://marketnow.site
-- **GitHub:** https://github.com/edgarfloresguerra2011-a11y/marketnow
+- **GitHub:** https://github.com/alicelabs-llc/marketnow
 - **npm:** https://www.npmjs.com/package/marketnow-mcp
 - **MCP Server:** `npx -y marketnow-mcp`
 - **Trust API:** https://marketnow.site/api/trust-score

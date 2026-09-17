@@ -12,6 +12,7 @@
 #   - id-token: write permission (for Sigstore)
 #   - npm CLI v9.5+ (Node 20+)
 
+# (re-registered 2026-09-17 — was orphaned after repo migration)
 name: Publish npm with Provenance
 
 on:
