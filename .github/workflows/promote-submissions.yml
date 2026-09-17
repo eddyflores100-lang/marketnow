@@ -37,8 +37,9 @@ jobs:
 
       - name: Run promotion script
         env:
-          MANDATES_GITHUB_TOKEN: ${{ secrets.MANDATES_GITHUB_TOKEN }}
-          MANDATES_REPO: edgarfloresguerra2011-a11y/marketnow
+          # Built-in ephemeral token — auto-provided by GitHub Actions.
+          MANDATES_GITHUB_TOKEN: ${{ github.token }}
+          MANDATES_REPO: eddyflores100-lang/marketnow
           ATC_API_URL: https://marketnow.site/api/atc
         run: |
           node scripts/promote-submissions.mjs

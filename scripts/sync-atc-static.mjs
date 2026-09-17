@@ -58,6 +58,8 @@ function main() {
   };
 
   let copied = 0;
+  let skippedResigned = 0; // anti-regression guard (2026-09-17)
+  let convergedBack = 0;
   for (const fileName of atcFiles) {
     const srcPath = join(ATC_DATA_DIR, fileName);
     const dstPath = join(PUBLIC_ATC_DIR, fileName);
@@ -65,6 +67,63 @@ function main() {
     try {
       const content = readFileSync(srcPath, 'utf8');
       const atc = JSON.parse(content);
+
+      // ── Anti-regression guard ──────────────────────────────────────
+      // The Aug/Sep 2026 re-signs (RFC 8785 JCS, mn-ca-002/003 rotation)
+      // updated public/ cards but NOT always _data/. Never overwrite a
+      // re-signed public card with a stale _data copy — converge the
+      // SOURCE instead (public → _data), so _data stays authoritative.
+      // ------------------------------------------------------------------
+      const isNewGen = (card) => {
+        const s = card?.signature || {};
+        return s.canonicalization_method === 'RFC_8785_JCS' || Boolean(s.resigned_at) || Boolean(s.ca_key_id);
+      };
+
+      if (existsSync(dstPath)) {
+        let publicCard = null;
+        try { publicCard = JSON.parse(readFileSync(dstPath, 'utf8')); } catch {}
+        if (publicCard && isNewGen(publicCard) && !isNewGen(atc)) {
+          // public is a newer-generation re-signed card → refresh _data from it
+          copyFileSync(dstPath, srcPath);
+          convergedBack++;
+          // index from the (now converged) authoritative copy
+          const fresh = JSON.parse(readFileSync(dstPath, 'utf8'));
+          index.cards.push({
+            card_id: fresh.card_id,
+            status: fresh.status || 'active',
+            agent_id: fresh.payload?.agent_id,
+            agent_name: fresh.payload?.agent_name,
+            sentinel_review_score: fresh.payload?.trust?.sentinel_review_score ?? fresh.payload?.trust?.sentinel_score ?? 0,
+            sentinel_score: fresh.payload?.trust?.sentinel_review_score ?? fresh.payload?.trust?.sentinel_score ?? 0,
+            risk_level: fresh.payload?.trust?.risk_level || 'unknown',
+            issued_at: fresh.payload?.metadata?.issued_at,
+            expires_at: fresh.payload?.metadata?.expires_at,
+          });
+          continue;
+        }
+        if (publicCard && isNewGen(publicCard) && isNewGen(atc)) {
+          // both new-gen: keep public if its resigned_at is newer
+          const pu = publicCard.signature?.resigned_at || publicCard.signature?.signed_at || '';
+          const lo = atc.signature?.resigned_at || atc.signature?.signed_at || '';
+          if (pu > lo) {
+            copyFileSync(dstPath, srcPath);
+            convergedBack++;
+            index.cards.push({
+              card_id: publicCard.card_id,
+              status: publicCard.status || 'active',
+              agent_id: publicCard.payload?.agent_id,
+              agent_name: publicCard.payload?.agent_name,
+              sentinel_review_score: publicCard.payload?.trust?.sentinel_review_score ?? publicCard.payload?.trust?.sentinel_score ?? 0,
+              sentinel_score: publicCard.payload?.trust?.sentinel_review_score ?? publicCard.payload?.trust?.sentinel_score ?? 0,
+              risk_level: publicCard.payload?.trust?.risk_level || 'unknown',
+              issued_at: publicCard.payload?.metadata?.issued_at,
+              expires_at: publicCard.payload?.metadata?.expires_at,
+            });
+            continue;
+          }
+        }
+      }
+      // ── end guard: normal flow (new card or _data is newer) ──────────
 
       copyFileSync(srcPath, dstPath);
       copied++;
@@ -85,7 +144,7 @@ function main() {
     }
   }
 
-  console.log(`✓ Copied ${copied}/${atcFiles.length} ATC files to public/api/atc/`);
+  console.log(`✓ Copied ${copied}/${atcFiles.length} ATC files to public/api/atc/ (guard: ${convergedBack} converged back, ${skippedResigned} skipped)`);
 
   // Write _index.json
   const indexPath = join(ATC_DATA_DIR, '_index.json');

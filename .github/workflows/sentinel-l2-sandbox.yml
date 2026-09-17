@@ -8,6 +8,7 @@
 # runtime behavior: network exfiltration, filesystem changes,
 # process spawning, credential leakage.
 
+# (re-registered 2026-09-17 — was orphaned after repo migration)
 name: Sentinel L2 Docker Sandbox
 
 on:

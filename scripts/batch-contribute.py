@@ -81,7 +81,7 @@ for i, issue in enumerate(unique):
     already = False
     if isinstance(comments, list):
         for c in comments:
-            if c.get("user", {}).get("login") == "edgarfloresguerra2011-a11y":
+            if c.get("user", {}).get("login") in ("edgarfloresguerra2011-a11y", "eddyflores100-lang"):
                 already = True
                 break
     if already:

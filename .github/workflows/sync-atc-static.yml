@@ -38,7 +38,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.MANDATES_GITHUB_TOKEN }}
+          # Built-in ephemeral token — auto-provided by GitHub Actions,
+          # scoped to this repo, works with `permissions: contents: write`.
+          token: ${{ github.token }}
           fetch-depth: 0
 
       - name: Setup Node.js
