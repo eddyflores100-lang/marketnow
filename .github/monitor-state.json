@@ -624,11 +624,16 @@
       "repo": "xnx3/translate",
       "issue_num": 108,
       "username": "xnx3"
+    },
+    "5561186150": {
+      "repo": "langchain-ai/langchain",
+      "issue_num": 40158,
+      "username": "SonitBahl"
     }
   },
   "npm_last_downloads": 730,
   "github_last_stars": 0,
   "last_report": null,
   "initialized_at": "2026-07-10T01:27:15.724696+00:00",
-  "last_check": "2026-09-18T04:37:45.356161+00:00"
+  "last_check": "2026-09-19T05:49:46.291552+00:00"
 }
