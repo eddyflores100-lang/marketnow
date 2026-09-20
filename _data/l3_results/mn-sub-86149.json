@@ -1,0 +1,12 @@
+{
+  "skill_id": "mn-sub-86149",
+  "skill_name": "langchain-mcp-adapters",
+  "checked_at": "2026-09-20T08:18:07.072Z",
+  "l3_status": "stable",
+  "drift_detected": false,
+  "drift_severity": "none",
+  "quarantine_recommended": false,
+  "drift_items": [],
+  "baseline_captured_at": "2026-07-27T04:00:28Z",
+  "message": "No drift detected. Skill behavior matches L2 baseline."
+}

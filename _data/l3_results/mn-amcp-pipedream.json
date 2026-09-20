@@ -1,7 +1,7 @@
 {
   "skill_id": "mn-amcp-pipedream",
   "skill_name": "pipedream",
-  "checked_at": "2026-07-26T06:09:45.427Z",
+  "checked_at": "2026-09-20T08:18:07.033Z",
   "l3_status": "stable",
   "drift_detected": false,
   "drift_severity": "none",

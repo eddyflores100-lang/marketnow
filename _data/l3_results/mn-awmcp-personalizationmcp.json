@@ -1,7 +1,7 @@
 {
   "skill_id": "mn-awmcp-personalizationmcp",
   "skill_name": "PersonalizationMCP",
-  "checked_at": "2026-07-26T06:09:45.447Z",
+  "checked_at": "2026-09-20T08:18:07.061Z",
   "l3_status": "stable",
   "drift_detected": false,
   "drift_severity": "none",

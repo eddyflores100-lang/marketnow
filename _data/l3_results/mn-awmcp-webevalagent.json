@@ -1,7 +1,7 @@
 {
   "skill_id": "mn-awmcp-webevalagent",
   "skill_name": "web-eval-agent",
-  "checked_at": "2026-07-26T06:09:45.453Z",
+  "checked_at": "2026-09-20T08:18:07.067Z",
   "l3_status": "stable",
   "drift_detected": false,
   "drift_severity": "none",

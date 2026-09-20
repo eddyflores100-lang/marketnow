@@ -1,7 +1,7 @@
 {
   "skill_id": "mn-awmcp-flstudiomcp",
   "skill_name": "flstudio-mcp",
-  "checked_at": "2026-07-26T06:09:45.438Z",
+  "checked_at": "2026-09-20T08:18:07.051Z",
   "l3_status": "stable",
   "drift_detected": false,
   "drift_severity": "none",

@@ -1,0 +1,12 @@
+{
+  "skill_id": "mn-sub-27364",
+  "skill_name": "chrome-devtools-mcp",
+  "checked_at": "2026-09-20T08:18:07.070Z",
+  "l3_status": "stable",
+  "drift_detected": false,
+  "drift_severity": "none",
+  "quarantine_recommended": false,
+  "drift_items": [],
+  "baseline_captured_at": "2026-07-27T00:19:25Z",
+  "message": "No drift detected. Skill behavior matches L2 baseline."
+}

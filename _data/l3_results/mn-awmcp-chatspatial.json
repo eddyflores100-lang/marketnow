@@ -1,7 +1,7 @@
 {
   "skill_id": "mn-awmcp-chatspatial",
   "skill_name": "ChatSpatial",
-  "checked_at": "2026-07-26T06:09:45.435Z",
+  "checked_at": "2026-09-20T08:18:07.048Z",
   "l3_status": "stable",
   "drift_detected": false,
   "drift_severity": "none",

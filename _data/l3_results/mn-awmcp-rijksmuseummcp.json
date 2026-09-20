@@ -1,7 +1,7 @@
 {
   "skill_id": "mn-awmcp-rijksmuseummcp",
   "skill_name": "rijksmuseum-mcp",
-  "checked_at": "2026-07-26T06:09:45.449Z",
+  "checked_at": "2026-09-20T08:18:07.063Z",
   "l3_status": "stable",
   "drift_detected": false,
   "drift_severity": "none",
