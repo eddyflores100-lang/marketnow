@@ -10,6 +10,13 @@
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Agent discovery: announce the MCP server card and AI catalog at the root
+         (SEP-2127 draft + AI Catalog convention; read by MCP Census-style crawlers
+         and any agent starting from the bare domain) -->
+    <link rel="mcp-server-card" href="https://marketnow.site/.well-known/mcp.json" />
+    <link rel="mcp-catalog" href="https://marketnow.site/.well-known/ai-catalog.json" />
+    <link rel="ai-catalog" href="https://marketnow.site/.well-known/ai-catalog.json" />
+
     <!-- CANONICAL — Google needs this. Default to homepage; JS updates per-route -->
     <link rel="canonical" href="https://marketnow.site/" />
     <script>

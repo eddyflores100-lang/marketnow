@@ -1,0 +1,24 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "MarketNow",
+    "identifier": "marketnow.site",
+    "documentationUrl": "https://marketnow.site/llms.txt"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:marketnow.site:mcp:marketplace",
+      "displayName": "MarketNow MCP",
+      "type": "application/mcp-server-card+json",
+      "url": "https://marketnow.site/.well-known/mcp.json",
+      "description": "Public MCP server over the MarketNow skills catalog: 8,845 MCP-compatible skills, each carrying a Sentinel L2.5 gVisor-sandbox security audit. Tools: search_skills, get_skill, list_categories, get_manifest, get_install_command. Streamable HTTP + SSE at https://marketnow.site/api/mcp, no authentication for read tools; stdio via npx -y marketnow-mcp.",
+      "tags": ["mcp-server", "marketplace", "security", "search", "skills", "read-only-tools"],
+      "representativeQueries": [
+        "search MCP skills for web scraping that passed a security audit",
+        "what is the install command for a MarketNow skill",
+        "list marketplace categories with counts",
+        "get the manifest of a security-audited MCP marketplace"
+      ]
+    }
+  ]
+}

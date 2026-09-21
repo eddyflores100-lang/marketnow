@@ -6,7 +6,10 @@
   "version": "1.0.1",
   "type": "stdio",
   "command": "npx",
-  "args": ["-y", "marketnow-mcp"],
+  "args": [
+    "-y",
+    "marketnow-mcp"
+  ],
   "tools": [
     {
       "name": "search_skills",
@@ -14,11 +17,27 @@
       "inputSchema": {
         "type": "object",
         "properties": {
-          "query": {"type": "string", "description": "Search query"},
-          "category": {"type": "string", "description": "Filter by category"},
-          "max_price": {"type": "number", "description": "Max price in USD"},
-          "language": {"type": "string", "description": "Filter by language (en, es, zh, pt, fr)"},
-          "limit": {"type": "number", "description": "Max results", "default": 20}
+          "query": {
+            "type": "string",
+            "description": "Search query"
+          },
+          "category": {
+            "type": "string",
+            "description": "Filter by category"
+          },
+          "max_price": {
+            "type": "number",
+            "description": "Max price in USD"
+          },
+          "language": {
+            "type": "string",
+            "description": "Filter by language (en, es, zh, pt, fr)"
+          },
+          "limit": {
+            "type": "number",
+            "description": "Max results",
+            "default": 20
+          }
         }
       }
     },
@@ -28,20 +47,31 @@
       "inputSchema": {
         "type": "object",
         "properties": {
-          "skill_id": {"type": "string", "description": "Skill ID or slug"}
+          "skill_id": {
+            "type": "string",
+            "description": "Skill ID or slug"
+          }
         },
-        "required": ["skill_id"]
+        "required": [
+          "skill_id"
+        ]
       }
     },
     {
       "name": "list_categories",
       "description": "List all 58 categories with skill counts",
-      "inputSchema": {"type": "object", "properties": {}}
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      }
     },
     {
       "name": "get_manifest",
       "description": "Get marketplace metadata: total skills, pricing tiers, commission rates",
-      "inputSchema": {"type": "object", "properties": {}}
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      }
     },
     {
       "name": "get_install_command",
@@ -49,9 +79,14 @@
       "inputSchema": {
         "type": "object",
         "properties": {
-          "skill_id": {"type": "string", "description": "Skill ID or slug"}
+          "skill_id": {
+            "type": "string",
+            "description": "Skill ID or slug"
+          }
         },
-        "required": ["skill_id"]
+        "required": [
+          "skill_id"
+        ]
       }
     }
   ],
@@ -69,10 +104,23 @@
   "metadata": {
     "website": "https://marketnow.site",
     "npm": "https://www.npmjs.com/package/marketnow-mcp",
-    "github": "https://github.com/edgarfloresguerra2011-a11y/marketnow",
+    "github": "https://github.com/eddyflores100-lang/marketnow",
     "license": "MIT",
-    "categories": ["marketplace", "ai", "tools", "search"],
-    "tags": ["marketplace", "ai", "tools", "search", "mcp", "skills", "agents"],
+    "categories": [
+      "marketplace",
+      "ai",
+      "tools",
+      "search"
+    ],
+    "tags": [
+      "marketplace",
+      "ai",
+      "tools",
+      "search",
+      "mcp",
+      "skills",
+      "agents"
+    ],
     "author": {
       "name": "alicelabs",
       "email": "info@alicelabs.site"
