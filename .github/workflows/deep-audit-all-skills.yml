@@ -58,6 +58,16 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MANDATES_GITHUB_TOKEN: ${{ secrets.MANDATES_GITHUB_TOKEN }}
         run: |
+          # The audit signs certificates and cannot run without the signing
+          # secret. It was never configured in this repository, so the
+          # script exited 1 ~26 seconds into every scheduled run — one
+          # failure email per day. Skip with a visible notice instead of
+          # failing; the audit resumes automatically once the secret exists.
+          if [ -z "$SENTINEL_CERT_SECRET" ]; then
+            echo "::notice::SENTINEL_CERT_SECRET is not configured — deep audit skipped. Set it under Settings → Secrets and variables → Actions to enable the daily audit."
+            exit 0
+          fi
+
           MAX="${{ github.event.inputs.max_skills || '0' }}"
           START="${{ github.event.inputs.start_from || '0' }}"
           
@@ -68,6 +78,7 @@ jobs:
           fi
 
       - name: Commit results
+        if: always()
         run: |
           git config user.name "MarketNow Sentinel Bot"
           git config user.email "info@alicelabs.site"
