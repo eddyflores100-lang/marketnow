@@ -644,11 +644,21 @@
       "repo": "langchain-ai/langchain",
       "issue_num": 40158,
       "username": "SonitBahl"
+    },
+    "5766591890": {
+      "repo": "hermes-labs-ai/fidelis",
+      "issue_num": 45,
+      "username": "roli-lpci"
+    },
+    "5766591303": {
+      "repo": "hermes-labs-ai/fidelis",
+      "issue_num": 40,
+      "username": "roli-lpci"
     }
   },
   "npm_last_downloads": 983,
   "github_last_stars": 0,
   "last_report": null,
   "initialized_at": "2026-07-10T01:27:15.724696+00:00",
-  "last_check": "2026-09-21T17:01:29.161598+00:00"
+  "last_check": "2026-09-21T21:01:59.320367+00:00"
 }
