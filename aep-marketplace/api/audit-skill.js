@@ -369,6 +369,22 @@ export default secureLight(async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Methods', 'POST, GET, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
+  // ── merged from api/not-found.js (Vercel Hobby: max 12 serverless functions) ──
+  // vercel.json rewrite: /(.*\.sh) → /api/audit-skill?_mode=not-found
+  // Fix del reporte de anp2network: rutas inexistentes devolvían 200 + index.html,
+  // haciendo que curl|bash ejecutara HTML. Ahora devuelven 404 text/plain.
+  if (req.query._mode === 'not-found') {
+    res.setHeader('Content-Type', 'text/plain; charset=utf-8');
+    res.setHeader('Cache-Control', 'no-store');
+    res.setHeader('X-MarketNow-Note', 'static-miss');
+    return res.status(404).send(
+      '404 Not Found — MarketNow\n\n' +
+      'This path does not exist as a static file.\n' +
+      'If you expected a script here, verify the URL at https://www.marketnow.site/\n' +
+      'Reported paths that end in .sh but do not exist intentionally return 404 (not HTML).\n'
+    );
+  }
+
   if (req.method === 'OPTIONS' || req.method === 'HEAD') return res.status(200).end();
   if (req.method !== 'POST' && req.method !== 'GET') {
     return res.status(405).json({ error: 'Method not allowed' });
