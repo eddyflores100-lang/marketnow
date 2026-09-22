@@ -475,9 +475,14 @@ export async function auditSkill(skill, options = {}) {
  *
  * @param {Object} report — the audit report from auditSkill()
  * @param {string} secret — signing secret (from env var SENTINEL_CERT_SECRET)
+ * @param {Object} [extras] — optional additional fields to include in the
+ *   SIGNED payload (e.g. deep-audit's checks, layers_run, source). Keys here
+ *   override the defaults, so callers can customize `auditor` etc. The
+ *   verification side only strips `signature`, `signature_algorithm` and
+ *   `verification_url` — everything else must hash identically.
  * @returns {Object} certificate
  */
-export async function generateCertificate(report, secret) {
+export async function generateCertificate(report, secret, extras = {}) {
   const { createHash } = await import('crypto');
 
   const certId = `MN-SC-${new Date().getFullYear()}-${String(Date.now()).slice(-7)}`;
@@ -508,6 +513,7 @@ export async function generateCertificate(report, secret) {
       l2_score: report.audit.layers.l2.score,
       l2_execution_status: report.audit.layers.l2.execution_status,
     },
+    ...extras,
   };
 
   // Sign: SHA-256 of canonical JSON + secret
@@ -527,13 +533,25 @@ export async function generateCertificate(report, secret) {
 /**
  * Verify a Sentinel certificate's signature.
  *
+ * The signature covers exactly the payload keys that existed at signing
+ * time. `signature_algorithm` and `verification_url` are appended to the
+ * certificate AFTER the hash is computed, so they (and `signature` itself)
+ * must be stripped before canonicalization — otherwise the recomputed hash
+ * covers a different string and every certificate would fail.
+ *
+ * Legacy certs written by the deep-audit script before unification carry a
+ * nested `signature: { algorithm, value }` object and hashed a raw
+ * auditResult that was never persisted — those are unverifiable by design
+ * and return false.
+ *
  * @param {Object} cert — the certificate object (must include signature)
  * @param {string} secret — same secret used to sign
  * @returns {boolean} true if signature is valid
  */
 export async function verifyCertificate(cert, secret) {
   const { createHash } = await import('crypto');
-  const { signature, ...payload } = cert;
+  if (!cert || !secret || typeof cert.signature !== 'string') return false;
+  const { signature, signature_algorithm, verification_url, ...payload } = cert;
   const canonical = JSON.stringify(payload, Object.keys(payload).sort());
   const expected = createHash('sha256')
     .update(canonical + '|' + secret)

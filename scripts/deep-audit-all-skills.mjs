@@ -31,6 +31,7 @@ import { runL16, SEMGREP_RULES, SECRET_PATTERNS } from '../aep-marketplace/lib/s
 import { runL17, MALWARE_PATTERNS } from '../aep-marketplace/lib/sentinel-l17.mjs';
 import { runL18, MALWARE_FAMILIES } from '../aep-marketplace/lib/sentinel-l18.mjs';
 import { runL19, INJECTION_RULES } from '../aep-marketplace/lib/sentinel-l19.mjs';
+import { generateCertificate } from '../aep-marketplace/lib/sentinel-audit.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -120,28 +121,44 @@ async function fetchReadme(repoUrl) {
 }
 
 // ─── Generate certificate ──────────────────────────────────────────────
-function generateCertificate(skill, auditResult) {
-  const cert = {
-    certificate_id: `MN-SC-2026-${String(Math.abs(crypto.createHash('md5').update(skill.id).digest('hex').slice(0, 7))).padStart(7, '0')}`,
-    skill_id: skill.id,
-    skill_name: skill.name,
-    timestamp: new Date().toISOString(),
+// UNIFIED with the shared signer in aep-marketplace/lib/sentinel-audit.mjs
+// (same code path as sentinel-certify-all.yml and the production verifier
+// api/audit-skill.js). The old local version signed an HMAC over the raw
+// auditResult object, which was never persisted — those certs could never
+// be verified server-side. The shared signer hashes the canonical cert
+// payload itself, so /api/audit-skill can recompute and confirm it.
+async function makeCertificate(skill, auditResult) {
+  const failed = (name) =>
+    auditResult.checks.some((c) => c.name === name && c.status === 'fail') ? 1 : 0;
+  const report = {
+    skill: { id: skill.id, name: skill.name },
+    audit: {
+      overall_score: auditResult.overallScore,
+      max_score: 10,
+      risk_level: auditResult.riskLevel,
+      risk_breakdown: auditResult.riskBreakdown,
+      layers: {
+        l15: { findings: failed('L1.5 AUTH') },
+        l16: {
+          semgrep_findings: failed('L1.6 SEMGREP'),
+          secret_findings: failed('L1.6 SECRETS'),
+          osv_findings: failed('L1.6 OSV'),
+        },
+        l2: {
+          has_results: !!skill.sentinel?.l2_score,
+          score: skill.sentinel?.l2_score ?? null,
+          execution_status: skill.sentinel?.l2_score ? 'completed' : 'not_run',
+        },
+      },
+    },
+  };
+  return generateCertificate(report, CERT_SECRET, {
     auditor: 'Sentinel L1.5 + L1.6 + L1.7 + L1.8 + L1.9 (Deep Individual Audit)',
-    overall_score: auditResult.overallScore,
-    max_score: 10,
-    risk_level: auditResult.riskLevel,
-    risk_breakdown: auditResult.riskBreakdown,
     quarantine_recommended: auditResult.quarantineRecommended,
     layers_run: auditResult.layersRun,
     checks: auditResult.checks,
     source: skill.source,
-    signature: {
-      algorithm: 'SHA-256',
-      value: crypto.createHmac('sha256', CERT_SECRET).update(JSON.stringify(auditResult)).digest('hex'),
-      signed_by: 'Sentinel Deep Auditor',
-    },
-  };
-  return cert;
+  });
 }
 
 // ─── Audit a single skill ──────────────────────────────────────────────
@@ -251,7 +268,7 @@ async function auditSkill(skill) {
 
     try {
       const auditResult = await auditSkill(skill);
-      const cert = generateCertificate(skill, auditResult);
+      const cert = await makeCertificate(skill, auditResult);
 
       // Write certificate
       if (cert.quarantine_recommended) {
