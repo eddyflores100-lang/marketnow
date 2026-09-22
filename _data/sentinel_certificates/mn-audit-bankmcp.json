@@ -1,0 +1,33 @@
+{
+  "certificate_id": "MN-SC-2026-5343991",
+  "skill_id": "mn-audit-bankmcp",
+  "skill_name": "bankmcp 0.1.14 (noskillish/bankmcp) — external security review",
+  "issued_at": "2026-09-22T03:01:16.450Z",
+  "expires_at": "2026-10-22T03:01:16.450Z",
+  "auditor": "Sentinel external review (L1.5 static + L1.6 dependency + manual code audit)",
+  "overall_score": 8,
+  "max_score": 10,
+  "risk_level": "medium",
+  "risk_breakdown": {
+    "l15_l16_l17": "medium",
+    "l17_quarantine_recommended": false,
+    "l2": "not_available",
+    "final": "medium"
+  },
+  "layers_run": {
+    "l15": true,
+    "l16": true,
+    "l2": false
+  },
+  "layer_details": {
+    "l15_findings": 5,
+    "l16_semgrep_findings": 0,
+    "l16_secret_findings": 0,
+    "l16_osv_findings": 0,
+    "l2_execution_status": null,
+    "audited_commit": "fa832b5"
+  },
+  "signature_algorithm": "SHA-256",
+  "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-audit-bankmcp",
+  "signature": "e715669513daa6e696b5bb9de30213d5daf28ec216861617bc7cb906e41c3c39"
+}
