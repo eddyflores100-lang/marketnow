@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-9882347",
+  "certificate_id": "MN-SC-2026-7492042",
   "skill_id": "mn-awmcp-bash",
   "skill_name": "bash",
-  "issued_at": "2026-07-26T04:24:42.347Z",
-  "expires_at": "2026-08-02T04:24:42.347Z",
+  "issued_at": "2026-09-22T03:24:52.042Z",
+  "expires_at": "2026-09-29T03:24:52.042Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -26,7 +26,7 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "7aab8f4090202602d9a07a5ceeb289a61fdeedadcca4cebb13ae32709eeae865",
+  "signature": "e1086c5d489ebfa39815988e043d83f1b994300353bb643df7a54186a0b70166",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-bash"
 }
