@@ -654,11 +654,16 @@
       "repo": "hermes-labs-ai/fidelis",
       "issue_num": 40,
       "username": "roli-lpci"
+    },
+    "5771195919": {
+      "repo": "TensorBlock/awesome-mcp-servers",
+      "issue_num": 2563,
+      "username": "wilsonccccc"
     }
   },
   "npm_last_downloads": 983,
   "github_last_stars": 0,
   "last_report": null,
   "initialized_at": "2026-07-10T01:27:15.724696+00:00",
-  "last_check": "2026-09-21T21:01:59.320367+00:00"
+  "last_check": "2026-09-22T04:48:53.910916+00:00"
 }
