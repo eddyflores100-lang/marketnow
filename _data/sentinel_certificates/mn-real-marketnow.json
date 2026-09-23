@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6228375",
+  "certificate_id": "MN-SC-2026-3147524",
   "skill_id": "mn-real-marketnow",
   "skill_name": "marketnow",
-  "issued_at": "2026-09-22T00:17:08.375Z",
-  "expires_at": "2026-09-29T00:17:08.375Z",
+  "issued_at": "2026-09-23T19:52:27.524Z",
+  "expires_at": "2026-09-30T19:52:27.524Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -26,7 +26,7 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "728d0f92e619a042c5e96e9331eeee934d952ae60597d1f537ae12fbd8774964",
+  "signature": "e0151b0f71aa9e463290aa73b6e26abc9d5d534815ce3e8cee546c442a2f02ce",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-marketnow"
 }
