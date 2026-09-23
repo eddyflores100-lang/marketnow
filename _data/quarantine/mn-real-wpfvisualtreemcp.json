@@ -1,8 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-0000NaN",
+  "certificate_id": "MN-SC-2026-3765619",
   "skill_id": "mn-real-wpfvisualtreemcp",
   "skill_name": "WPFVisualTreeMcp",
-  "timestamp": "2026-07-26T06:37:55.773Z",
+  "issued_at": "2026-09-23T08:56:05.619Z",
+  "expires_at": "2026-09-30T08:56:05.619Z",
   "auditor": "Sentinel L1.5 + L1.6 + L1.7 + L1.8 + L1.9 (Deep Individual Audit)",
   "overall_score": 5,
   "max_score": 10,
@@ -12,7 +13,6 @@
     "l2": "not_available",
     "final": "critical"
   },
-  "quarantine_recommended": true,
   "layers_run": {
     "l15": true,
     "l16": true,
@@ -22,6 +22,15 @@
     "l2": false,
     "l3": false
   },
+  "layer_details": {
+    "l15_findings": 0,
+    "l16_semgrep_findings": 0,
+    "l16_secret_findings": 0,
+    "l16_osv_findings": 0,
+    "l2_score": null,
+    "l2_execution_status": "not_run"
+  },
+  "quarantine_recommended": true,
   "checks": [
     {
       "name": "L1.5 AUTH",
@@ -74,9 +83,7 @@
     "language": "C#",
     "last_push": "2026-07-23T22:43:58Z"
   },
-  "signature": {
-    "algorithm": "SHA-256",
-    "value": "db7d789302c8e9e63d6a7215d4ba1f1e35291dda681314d27c9a2efcde518afb",
-    "signed_by": "Sentinel Deep Auditor"
-  }
+  "signature": "250e46b1aecb392e3e5da38e509ebc1543ed9ada156d58b0f5060489cf7e8dee",
+  "signature_algorithm": "SHA-256",
+  "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-wpfvisualtreemcp"
 }

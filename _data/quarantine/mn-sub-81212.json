@@ -1,18 +1,18 @@
 {
-  "certificate_id": "MN-SC-2026-0000NaN",
+  "certificate_id": "MN-SC-2026-3783264",
   "skill_id": "mn-sub-81212",
   "skill_name": "inspector",
-  "timestamp": "2026-07-27T07:32:39.599Z",
+  "issued_at": "2026-09-23T08:56:23.264Z",
+  "expires_at": "2026-09-30T08:56:23.264Z",
   "auditor": "Sentinel L1.5 + L1.6 + L1.7 + L1.8 + L1.9 (Deep Individual Audit)",
-  "overall_score": 1,
+  "overall_score": 5,
   "max_score": 10,
-  "risk_level": "critical",
+  "risk_level": "high",
   "risk_breakdown": {
-    "l15_l16_l17_l18_l19": "critical",
+    "l15_l16_l17_l18_l19": "high",
     "l2": "not_available",
-    "final": "critical"
+    "final": "high"
   },
-  "quarantine_recommended": true,
   "layers_run": {
     "l15": true,
     "l16": true,
@@ -22,6 +22,15 @@
     "l2": false,
     "l3": false
   },
+  "layer_details": {
+    "l15_findings": 0,
+    "l16_semgrep_findings": 0,
+    "l16_secret_findings": 0,
+    "l16_osv_findings": 0,
+    "l2_score": null,
+    "l2_execution_status": "not_run"
+  },
+  "quarantine_recommended": true,
   "checks": [
     {
       "name": "L1.5 AUTH",
@@ -55,9 +64,9 @@
     },
     {
       "name": "L1.8 FAMILIES",
-      "status": "fail",
-      "risk": "critical",
-      "detail": "1 malware families matched: Emotet"
+      "status": "pass",
+      "risk": "low",
+      "detail": "48 families checked, 0 matches (README scanned)"
     },
     {
       "name": "L1.9 INJECTION",
@@ -71,9 +80,7 @@
     "url": "https://github.com/modelcontextprotocol/inspector",
     "submitted_at": "2026-07-26T23:51:15.270Z"
   },
-  "signature": {
-    "algorithm": "SHA-256",
-    "value": "fbc251e9a547aed529ee4d85d5fadd3acabeaca5cef1d104d14d3c44a1ba68c6",
-    "signed_by": "Sentinel Deep Auditor"
-  }
+  "signature": "184acef26c593adf47fb9d2248f120d87025d1b4f9252a3ef159761a62b030ed",
+  "signature_algorithm": "SHA-256",
+  "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-sub-81212"
 }

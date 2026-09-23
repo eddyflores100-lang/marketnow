@@ -1,8 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-0000NaN",
+  "certificate_id": "MN-SC-2026-3720554",
   "skill_id": "mn-real-uappulse",
   "skill_name": "uap-pulse",
-  "timestamp": "2026-07-24T03:43:03.886Z",
+  "issued_at": "2026-09-23T08:55:20.554Z",
+  "expires_at": "2026-09-30T08:55:20.554Z",
   "auditor": "Sentinel L1.5 + L1.6 + L1.7 + L1.8 + L1.9 (Deep Individual Audit)",
   "overall_score": 5,
   "max_score": 10,
@@ -12,7 +13,6 @@
     "l2": "not_available",
     "final": "critical"
   },
-  "quarantine_recommended": true,
   "layers_run": {
     "l15": true,
     "l16": true,
@@ -22,6 +22,15 @@
     "l2": false,
     "l3": false
   },
+  "layer_details": {
+    "l15_findings": 0,
+    "l16_semgrep_findings": 0,
+    "l16_secret_findings": 0,
+    "l16_osv_findings": 0,
+    "l2_score": null,
+    "l2_execution_status": "not_run"
+  },
+  "quarantine_recommended": true,
   "checks": [
     {
       "name": "L1.5 AUTH",
@@ -74,9 +83,7 @@
     "language": "HTML",
     "last_push": "2026-07-13T19:39:02Z"
   },
-  "signature": {
-    "algorithm": "SHA-256",
-    "value": "b58b14e18a1d78a18bfb806a07ad074f17d56234965b99257c92b312a97be71f",
-    "signed_by": "Sentinel Deep Auditor"
-  }
+  "signature": "21881475e40962cad4a45931bf5cbe2db5a27cb22ffe60a7f899ba4b7993fa41",
+  "signature_algorithm": "SHA-256",
+  "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-uappulse"
 }

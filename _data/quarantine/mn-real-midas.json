@@ -1,0 +1,89 @@
+{
+  "certificate_id": "MN-SC-2026-3715257",
+  "skill_id": "mn-real-midas",
+  "skill_name": "Midas",
+  "issued_at": "2026-09-23T08:55:15.257Z",
+  "expires_at": "2026-09-30T08:55:15.257Z",
+  "auditor": "Sentinel L1.5 + L1.6 + L1.7 + L1.8 + L1.9 (Deep Individual Audit)",
+  "overall_score": 5,
+  "max_score": 10,
+  "risk_level": "critical",
+  "risk_breakdown": {
+    "l15_l16_l17_l18_l19": "critical",
+    "l2": "not_available",
+    "final": "critical"
+  },
+  "layers_run": {
+    "l15": true,
+    "l16": true,
+    "l17": true,
+    "l18": true,
+    "l19": true,
+    "l2": false,
+    "l3": false
+  },
+  "layer_details": {
+    "l15_findings": 0,
+    "l16_semgrep_findings": 0,
+    "l16_secret_findings": 0,
+    "l16_osv_findings": 0,
+    "l2_score": null,
+    "l2_execution_status": "not_run"
+  },
+  "quarantine_recommended": true,
+  "checks": [
+    {
+      "name": "L1.5 AUTH",
+      "status": "warning",
+      "risk": "medium",
+      "detail": "No auth required"
+    },
+    {
+      "name": "L1.6 SEMGREP",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 rules, 0 findings"
+    },
+    {
+      "name": "L1.6 SECRETS",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 patterns, 0 findings"
+    },
+    {
+      "name": "L1.7 BINARY",
+      "status": "pass",
+      "risk": "low",
+      "detail": "No binaries or launchers detected"
+    },
+    {
+      "name": "L1.7 MALWARE",
+      "status": "pass",
+      "risk": "low",
+      "detail": "7 patterns checked, 0 findings"
+    },
+    {
+      "name": "L1.8 FAMILIES",
+      "status": "fail",
+      "risk": "critical",
+      "detail": "1 malware families matched: Conti"
+    },
+    {
+      "name": "L1.9 INJECTION",
+      "status": "pass",
+      "risk": "low",
+      "detail": "32 rules checked, 0 injections"
+    }
+  ],
+  "source": {
+    "type": "github",
+    "url": "https://github.com/vornicx/Midas",
+    "note": "Real MCP server. 12 stars. Language: Python. Last push: 2026-07-12T13:02:58Z. Discovered via auto-discovery.",
+    "stars": 12,
+    "language": "Python",
+    "last_push": "2026-07-12T13:02:58Z"
+  },
+  "signature": "0f7031ff2b9cf34536b1dc98da14fa0c7418f6fff5af319aca31e989b71dd8f4",
+  "signature_algorithm": "SHA-256",
+  "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-midas"
+}
