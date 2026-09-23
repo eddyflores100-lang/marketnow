@@ -1,32 +1,89 @@
 {
-  "certificate_id": "MN-SC-2026-0898399",
+  "certificate_id": "MN-SC-2026-3705432",
   "skill_id": "mn-real-defluff",
   "skill_name": "defluff",
-  "issued_at": "2026-07-26T04:41:38.399Z",
-  "expires_at": "2026-08-02T04:41:38.399Z",
-  "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 7,
+  "issued_at": "2026-09-23T08:55:05.432Z",
+  "expires_at": "2026-09-30T08:55:05.432Z",
+  "auditor": "Sentinel L1.5 + L1.6 + L1.7 + L1.8 + L1.9 (Deep Individual Audit)",
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
-    "l15_l16_l17": "medium",
-    "l17_quarantine_recommended": false,
+    "l15_l16_l17_l18_l19": "medium",
     "l2": "not_available",
     "final": "medium"
   },
   "layers_run": {
     "l15": true,
     "l16": true,
-    "l2": false
+    "l17": true,
+    "l18": true,
+    "l19": true,
+    "l2": false,
+    "l3": false
   },
   "layer_details": {
-    "l15_findings": 3,
+    "l15_findings": 0,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
-    "l2_execution_status": null
+    "l2_score": null,
+    "l2_execution_status": "not_run"
   },
-  "signature": "ece1dfc34cdf18115354c9e2c82c9ebfc74750b4bd1912b3ecf80d490c1c338f",
+  "quarantine_recommended": false,
+  "checks": [
+    {
+      "name": "L1.5 AUTH",
+      "status": "warning",
+      "risk": "medium",
+      "detail": "No auth required"
+    },
+    {
+      "name": "L1.6 SEMGREP",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 rules, 0 findings"
+    },
+    {
+      "name": "L1.6 SECRETS",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 patterns, 0 findings"
+    },
+    {
+      "name": "L1.7 BINARY",
+      "status": "pass",
+      "risk": "low",
+      "detail": "No binaries or launchers detected"
+    },
+    {
+      "name": "L1.7 MALWARE",
+      "status": "pass",
+      "risk": "low",
+      "detail": "7 patterns checked, 0 findings"
+    },
+    {
+      "name": "L1.8 FAMILIES",
+      "status": "pass",
+      "risk": "low",
+      "detail": "48 families checked, 0 matches (README scanned)"
+    },
+    {
+      "name": "L1.9 INJECTION",
+      "status": "pass",
+      "risk": "low",
+      "detail": "32 rules checked, 0 injections"
+    }
+  ],
+  "source": {
+    "type": "github",
+    "url": "https://github.com/ahmedak/defluff",
+    "note": "Real MCP server. 0 stars. Language: Python. Last push: 2026-07-16T20:58:01Z. Discovered via auto-discovery.",
+    "stars": 0,
+    "language": "Python",
+    "last_push": "2026-07-16T20:58:01Z"
+  },
+  "signature": "cd06948b2bfd05a20e1a702866a5087f72a5fbc2cf1701383c4f6d0f1c359309",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-defluff"
 }

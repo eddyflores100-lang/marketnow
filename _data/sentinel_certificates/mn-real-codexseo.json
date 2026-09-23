@@ -1,32 +1,89 @@
 {
-  "certificate_id": "MN-SC-2026-0887672",
+  "certificate_id": "MN-SC-2026-3689622",
   "skill_id": "mn-real-codexseo",
   "skill_name": "codex-seo",
-  "issued_at": "2026-07-26T04:41:27.672Z",
-  "expires_at": "2026-08-02T04:41:27.672Z",
-  "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "issued_at": "2026-09-23T08:54:49.622Z",
+  "expires_at": "2026-09-30T08:54:49.622Z",
+  "auditor": "Sentinel L1.5 + L1.6 + L1.7 + L1.8 + L1.9 (Deep Individual Audit)",
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
-    "l15_l16_l17": "medium",
-    "l17_quarantine_recommended": false,
+    "l15_l16_l17_l18_l19": "medium",
     "l2": "not_available",
     "final": "medium"
   },
   "layers_run": {
     "l15": true,
     "l16": true,
-    "l2": false
+    "l17": true,
+    "l18": true,
+    "l19": true,
+    "l2": false,
+    "l3": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 0,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
-    "l2_execution_status": null
+    "l2_score": null,
+    "l2_execution_status": "not_run"
   },
-  "signature": "7dfcb8b67bf1ce64d2240987e5339c26f150ca22df2ad68f5cdac12a909629de",
+  "quarantine_recommended": false,
+  "checks": [
+    {
+      "name": "L1.5 AUTH",
+      "status": "warning",
+      "risk": "medium",
+      "detail": "No auth required"
+    },
+    {
+      "name": "L1.6 SEMGREP",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 rules, 0 findings"
+    },
+    {
+      "name": "L1.6 SECRETS",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 patterns, 0 findings"
+    },
+    {
+      "name": "L1.7 BINARY",
+      "status": "pass",
+      "risk": "low",
+      "detail": "No binaries or launchers detected"
+    },
+    {
+      "name": "L1.7 MALWARE",
+      "status": "pass",
+      "risk": "low",
+      "detail": "7 patterns checked, 0 findings"
+    },
+    {
+      "name": "L1.8 FAMILIES",
+      "status": "pass",
+      "risk": "low",
+      "detail": "48 families checked, 0 matches (README scanned)"
+    },
+    {
+      "name": "L1.9 INJECTION",
+      "status": "pass",
+      "risk": "low",
+      "detail": "32 rules checked, 0 injections"
+    }
+  ],
+  "source": {
+    "type": "github",
+    "url": "https://github.com/AgriciDaniel/codex-seo",
+    "note": "Real MCP server. 443 stars. Language: Python.",
+    "stars": 443,
+    "language": "Python",
+    "last_push": "2026-06-22T14:35:00Z"
+  },
+  "signature": "adae70076722706207eee2480dfb39d7955173dcebb69fa30bfafcea698a4e96",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-codexseo"
 }

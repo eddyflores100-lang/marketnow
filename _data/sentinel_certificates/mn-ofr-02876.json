@@ -1,0 +1,94 @@
+{
+  "certificate_id": "MN-SC-2026-4913857",
+  "skill_id": "mn-ofr-02876",
+  "skill_name": "sonnet-5-agent",
+  "issued_at": "2026-09-23T09:15:13.857Z",
+  "expires_at": "2026-09-30T09:15:13.857Z",
+  "auditor": "Sentinel L1.5 + L1.6 + L1.7 + L1.8 + L1.9 (Deep Individual Audit)",
+  "overall_score": 9,
+  "max_score": 10,
+  "risk_level": "medium",
+  "risk_breakdown": {
+    "l15_l16_l17_l18_l19": "medium",
+    "l2": "not_available",
+    "final": "medium"
+  },
+  "layers_run": {
+    "l15": true,
+    "l16": true,
+    "l17": true,
+    "l18": true,
+    "l19": true,
+    "l2": false,
+    "l3": false
+  },
+  "layer_details": {
+    "l15_findings": 0,
+    "l16_semgrep_findings": 0,
+    "l16_secret_findings": 0,
+    "l16_osv_findings": 0,
+    "l2_score": null,
+    "l2_execution_status": "not_run"
+  },
+  "quarantine_recommended": false,
+  "checks": [
+    {
+      "name": "L1.5 AUTH",
+      "status": "warning",
+      "risk": "medium",
+      "detail": "No auth required"
+    },
+    {
+      "name": "L1.6 SEMGREP",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 rules, 0 findings"
+    },
+    {
+      "name": "L1.6 SECRETS",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 patterns, 0 findings"
+    },
+    {
+      "name": "L1.7 BINARY",
+      "status": "pass",
+      "risk": "low",
+      "detail": "No binaries or launchers detected"
+    },
+    {
+      "name": "L1.7 MALWARE",
+      "status": "pass",
+      "risk": "low",
+      "detail": "7 patterns checked, 0 findings"
+    },
+    {
+      "name": "L1.8 FAMILIES",
+      "status": "pass",
+      "risk": "low",
+      "detail": "48 families checked, 0 matches"
+    },
+    {
+      "name": "L1.9 INJECTION",
+      "status": "pass",
+      "risk": "low",
+      "detail": "32 rules checked, 0 injections"
+    }
+  ],
+  "source": {
+    "type": "official-registry",
+    "url": "https://registry.modelcontextprotocol.io/v0.1/servers/com.llmotions.farm/sonnet-5-agent",
+    "registry_name": "com.llmotions.farm/sonnet-5-agent",
+    "status": "active",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://farm.llmotions.com/mcp/agents/sonnet-5-agent"
+      }
+    ],
+    "published_at": "2026-07-16T15:29:54.937237Z"
+  },
+  "signature": "063e3505612c4534361cef5f0ef64318f0dda0fbce84bfdac5e8272308c7d9c1",
+  "signature_algorithm": "SHA-256",
+  "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-ofr-02876"
+}

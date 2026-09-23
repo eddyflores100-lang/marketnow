@@ -1,32 +1,89 @@
 {
-  "certificate_id": "MN-SC-2026-0911133",
+  "certificate_id": "MN-SC-2026-3727312",
   "skill_id": "mn-real-verychicmcp",
   "skill_name": "verychic-mcp",
-  "issued_at": "2026-07-26T04:41:51.133Z",
-  "expires_at": "2026-08-02T04:41:51.133Z",
-  "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "issued_at": "2026-09-23T08:55:27.312Z",
+  "expires_at": "2026-09-30T08:55:27.312Z",
+  "auditor": "Sentinel L1.5 + L1.6 + L1.7 + L1.8 + L1.9 (Deep Individual Audit)",
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
-    "l15_l16_l17": "medium",
-    "l17_quarantine_recommended": false,
+    "l15_l16_l17_l18_l19": "medium",
     "l2": "not_available",
     "final": "medium"
   },
   "layers_run": {
     "l15": true,
     "l16": true,
-    "l2": false
+    "l17": true,
+    "l18": true,
+    "l19": true,
+    "l2": false,
+    "l3": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 0,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
-    "l2_execution_status": null
+    "l2_score": null,
+    "l2_execution_status": "not_run"
   },
-  "signature": "f3cf08fea6fa659b3625da3c30c700a4a7db541638bc2988e76b634e10c7aea8",
+  "quarantine_recommended": false,
+  "checks": [
+    {
+      "name": "L1.5 AUTH",
+      "status": "warning",
+      "risk": "medium",
+      "detail": "No auth required"
+    },
+    {
+      "name": "L1.6 SEMGREP",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 rules, 0 findings"
+    },
+    {
+      "name": "L1.6 SECRETS",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 patterns, 0 findings"
+    },
+    {
+      "name": "L1.7 BINARY",
+      "status": "pass",
+      "risk": "low",
+      "detail": "No binaries or launchers detected"
+    },
+    {
+      "name": "L1.7 MALWARE",
+      "status": "pass",
+      "risk": "low",
+      "detail": "7 patterns checked, 0 findings"
+    },
+    {
+      "name": "L1.8 FAMILIES",
+      "status": "pass",
+      "risk": "low",
+      "detail": "48 families checked, 0 matches (README scanned)"
+    },
+    {
+      "name": "L1.9 INJECTION",
+      "status": "pass",
+      "risk": "low",
+      "detail": "32 rules checked, 0 injections"
+    }
+  ],
+  "source": {
+    "type": "github",
+    "url": "https://github.com/jordantete/verychic-mcp",
+    "note": "Real MCP server. 1 stars. Language: Python. Last push: 2026-07-06T08:16:12Z. Discovered via auto-discovery.",
+    "stars": 1,
+    "language": "Python",
+    "last_push": "2026-07-06T08:16:12Z"
+  },
+  "signature": "814e25e3394cc8519e2e82c6743058168d8ab103b5c099fb3fff4effec854f51",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-verychicmcp"
 }

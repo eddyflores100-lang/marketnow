@@ -1,32 +1,89 @@
 {
-  "certificate_id": "MN-SC-2026-0902899",
+  "certificate_id": "MN-SC-2026-3714090",
   "skill_id": "mn-real-contextiummcpserver",
   "skill_name": "contextium-mcp-server",
-  "issued_at": "2026-07-26T04:41:42.899Z",
-  "expires_at": "2026-08-02T04:41:42.899Z",
-  "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "issued_at": "2026-09-23T08:55:14.090Z",
+  "expires_at": "2026-09-30T08:55:14.090Z",
+  "auditor": "Sentinel L1.5 + L1.6 + L1.7 + L1.8 + L1.9 (Deep Individual Audit)",
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
-    "l15_l16_l17": "medium",
-    "l17_quarantine_recommended": false,
+    "l15_l16_l17_l18_l19": "medium",
     "l2": "not_available",
     "final": "medium"
   },
   "layers_run": {
     "l15": true,
     "l16": true,
-    "l2": false
+    "l17": true,
+    "l18": true,
+    "l19": true,
+    "l2": false,
+    "l3": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 0,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
-    "l2_execution_status": null
+    "l2_score": null,
+    "l2_execution_status": "not_run"
   },
-  "signature": "41cdec17885b7d53396feb061edcf41e789790dac020c95625006eeb1103e84c",
+  "quarantine_recommended": false,
+  "checks": [
+    {
+      "name": "L1.5 AUTH",
+      "status": "warning",
+      "risk": "medium",
+      "detail": "No auth required"
+    },
+    {
+      "name": "L1.6 SEMGREP",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 rules, 0 findings"
+    },
+    {
+      "name": "L1.6 SECRETS",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 patterns, 0 findings"
+    },
+    {
+      "name": "L1.7 BINARY",
+      "status": "pass",
+      "risk": "low",
+      "detail": "No binaries or launchers detected"
+    },
+    {
+      "name": "L1.7 MALWARE",
+      "status": "pass",
+      "risk": "low",
+      "detail": "7 patterns checked, 0 findings"
+    },
+    {
+      "name": "L1.8 FAMILIES",
+      "status": "pass",
+      "risk": "low",
+      "detail": "48 families checked, 0 matches (README scanned)"
+    },
+    {
+      "name": "L1.9 INJECTION",
+      "status": "pass",
+      "risk": "low",
+      "detail": "32 rules checked, 0 injections"
+    }
+  ],
+  "source": {
+    "type": "github",
+    "url": "https://github.com/contextium-io/contextium-mcp-server",
+    "note": "Real MCP server. 0 stars. Language: Dockerfile. Last push: 2026-07-10T15:13:41Z. Discovered via auto-discovery.",
+    "stars": 0,
+    "language": "Dockerfile",
+    "last_push": "2026-07-10T15:13:41Z"
+  },
+  "signature": "60e539aed8289c67496cf8aede6780ef53eafa952175c3a15033e9934f29a478",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-contextiummcpserver"
 }

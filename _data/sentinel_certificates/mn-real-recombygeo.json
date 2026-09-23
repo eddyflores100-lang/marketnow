@@ -1,32 +1,89 @@
 {
-  "certificate_id": "MN-SC-2026-0884029",
+  "certificate_id": "MN-SC-2026-3685044",
   "skill_id": "mn-real-recombygeo",
   "skill_name": "recomby-geo",
-  "issued_at": "2026-07-26T04:41:24.029Z",
-  "expires_at": "2026-08-02T04:41:24.029Z",
-  "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "issued_at": "2026-09-23T08:54:45.044Z",
+  "expires_at": "2026-09-30T08:54:45.044Z",
+  "auditor": "Sentinel L1.5 + L1.6 + L1.7 + L1.8 + L1.9 (Deep Individual Audit)",
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
-    "l15_l16_l17": "medium",
-    "l17_quarantine_recommended": false,
+    "l15_l16_l17_l18_l19": "medium",
     "l2": "not_available",
     "final": "medium"
   },
   "layers_run": {
     "l15": true,
     "l16": true,
-    "l2": false
+    "l17": true,
+    "l18": true,
+    "l19": true,
+    "l2": false,
+    "l3": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 0,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
-    "l2_execution_status": null
+    "l2_score": null,
+    "l2_execution_status": "not_run"
   },
-  "signature": "e3a2357d15c010797a3bff233f7d12879a1b6b15a8afa7c5dec6415455f457f2",
+  "quarantine_recommended": false,
+  "checks": [
+    {
+      "name": "L1.5 AUTH",
+      "status": "warning",
+      "risk": "medium",
+      "detail": "No auth required"
+    },
+    {
+      "name": "L1.6 SEMGREP",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 rules, 0 findings"
+    },
+    {
+      "name": "L1.6 SECRETS",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 patterns, 0 findings"
+    },
+    {
+      "name": "L1.7 BINARY",
+      "status": "pass",
+      "risk": "low",
+      "detail": "No binaries or launchers detected"
+    },
+    {
+      "name": "L1.7 MALWARE",
+      "status": "pass",
+      "risk": "low",
+      "detail": "7 patterns checked, 0 findings"
+    },
+    {
+      "name": "L1.8 FAMILIES",
+      "status": "pass",
+      "risk": "low",
+      "detail": "48 families checked, 0 matches (README scanned)"
+    },
+    {
+      "name": "L1.9 INJECTION",
+      "status": "pass",
+      "risk": "low",
+      "detail": "32 rules checked, 0 injections"
+    }
+  ],
+  "source": {
+    "type": "github",
+    "url": "https://github.com/ViryaZheng/recomby-geo",
+    "note": "Real MCP server. 506 stars. Language: Python.",
+    "stars": 506,
+    "language": "Python",
+    "last_push": "2026-07-04T04:20:27Z"
+  },
+  "signature": "b7e37c3b961cd36b908a8c77f782dfe9f5a67fb659919ce5b21cb2b631e456b5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-recombygeo"
 }

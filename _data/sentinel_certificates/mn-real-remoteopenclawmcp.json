@@ -1,32 +1,89 @@
 {
-  "certificate_id": "MN-SC-2026-0892937",
+  "certificate_id": "MN-SC-2026-3697397",
   "skill_id": "mn-real-remoteopenclawmcp",
   "skill_name": "remoteopenclaw-mcp",
-  "issued_at": "2026-07-26T04:41:32.937Z",
-  "expires_at": "2026-08-02T04:41:32.937Z",
-  "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "issued_at": "2026-09-23T08:54:57.397Z",
+  "expires_at": "2026-09-30T08:54:57.397Z",
+  "auditor": "Sentinel L1.5 + L1.6 + L1.7 + L1.8 + L1.9 (Deep Individual Audit)",
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
-    "l15_l16_l17": "medium",
-    "l17_quarantine_recommended": false,
+    "l15_l16_l17_l18_l19": "medium",
     "l2": "not_available",
     "final": "medium"
   },
   "layers_run": {
     "l15": true,
     "l16": true,
-    "l2": false
+    "l17": true,
+    "l18": true,
+    "l19": true,
+    "l2": false,
+    "l3": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 0,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
-    "l2_execution_status": null
+    "l2_score": null,
+    "l2_execution_status": "not_run"
   },
-  "signature": "38e3924674edf183ec8f0d9884a91ddc86e455c25e8b042ede8cf4e98cedeff9",
+  "quarantine_recommended": false,
+  "checks": [
+    {
+      "name": "L1.5 AUTH",
+      "status": "warning",
+      "risk": "medium",
+      "detail": "No auth required"
+    },
+    {
+      "name": "L1.6 SEMGREP",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 rules, 0 findings"
+    },
+    {
+      "name": "L1.6 SECRETS",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 patterns, 0 findings"
+    },
+    {
+      "name": "L1.7 BINARY",
+      "status": "pass",
+      "risk": "low",
+      "detail": "No binaries or launchers detected"
+    },
+    {
+      "name": "L1.7 MALWARE",
+      "status": "pass",
+      "risk": "low",
+      "detail": "7 patterns checked, 0 findings"
+    },
+    {
+      "name": "L1.8 FAMILIES",
+      "status": "pass",
+      "risk": "low",
+      "detail": "48 families checked, 0 matches (README scanned)"
+    },
+    {
+      "name": "L1.9 INJECTION",
+      "status": "pass",
+      "risk": "low",
+      "detail": "32 rules checked, 0 injections"
+    }
+  ],
+  "source": {
+    "type": "github",
+    "url": "https://github.com/aidevelopers2/remoteopenclaw-mcp",
+    "note": "Real MCP server. 3 stars. Language: JavaScript. Last push: 2026-07-02T11:15:01Z. Discovered via auto-discovery.",
+    "stars": 3,
+    "language": "JavaScript",
+    "last_push": "2026-07-02T11:15:01Z"
+  },
+  "signature": "4b2f326f8928952b28ca6a60075bb9681f5b0807687a0b22fb7450690f908f86",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-remoteopenclawmcp"
 }

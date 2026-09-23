@@ -1,0 +1,94 @@
+{
+  "certificate_id": "MN-SC-2026-4916420",
+  "skill_id": "mn-ofr-03389",
+  "skill_name": "actors",
+  "issued_at": "2026-09-23T09:15:16.420Z",
+  "expires_at": "2026-09-30T09:15:16.420Z",
+  "auditor": "Sentinel L1.5 + L1.6 + L1.7 + L1.8 + L1.9 (Deep Individual Audit)",
+  "overall_score": 9,
+  "max_score": 10,
+  "risk_level": "medium",
+  "risk_breakdown": {
+    "l15_l16_l17_l18_l19": "medium",
+    "l2": "not_available",
+    "final": "medium"
+  },
+  "layers_run": {
+    "l15": true,
+    "l16": true,
+    "l17": true,
+    "l18": true,
+    "l19": true,
+    "l2": false,
+    "l3": false
+  },
+  "layer_details": {
+    "l15_findings": 0,
+    "l16_semgrep_findings": 0,
+    "l16_secret_findings": 0,
+    "l16_osv_findings": 0,
+    "l2_score": null,
+    "l2_execution_status": "not_run"
+  },
+  "quarantine_recommended": false,
+  "checks": [
+    {
+      "name": "L1.5 AUTH",
+      "status": "warning",
+      "risk": "medium",
+      "detail": "No auth required"
+    },
+    {
+      "name": "L1.6 SEMGREP",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 rules, 0 findings"
+    },
+    {
+      "name": "L1.6 SECRETS",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 patterns, 0 findings"
+    },
+    {
+      "name": "L1.7 BINARY",
+      "status": "pass",
+      "risk": "low",
+      "detail": "No binaries or launchers detected"
+    },
+    {
+      "name": "L1.7 MALWARE",
+      "status": "pass",
+      "risk": "low",
+      "detail": "7 patterns checked, 0 findings"
+    },
+    {
+      "name": "L1.8 FAMILIES",
+      "status": "pass",
+      "risk": "low",
+      "detail": "48 families checked, 0 matches"
+    },
+    {
+      "name": "L1.9 INJECTION",
+      "status": "pass",
+      "risk": "low",
+      "detail": "32 rules checked, 0 injections"
+    }
+  ],
+  "source": {
+    "type": "official-registry",
+    "url": "https://registry.modelcontextprotocol.io/v0.1/servers/com.publicsignaldata/actors",
+    "registry_name": "com.publicsignaldata/actors",
+    "status": "active",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.apify.com/?actors=splendorous_astrolabe_xs9/polymarket-odds-snapshot,splendorous_astrolabe_xs9/polymarket-whale-trades,splendorous_astrolabe_xs9/polymarket-wallet-pnl,splendorous_astrolabe_xs9/ats-jobs-workday,splendorous_astrolabe_xs9/new-business-filings,splendorous_astrolabe_xs9/govcon-monitor,splendorous_astrolabe_xs9/clinicaltrials-change-monitor"
+      }
+    ],
+    "published_at": "2026-08-12T03:04:24.841914Z"
+  },
+  "signature": "0c1511a764cf35492559c5d72df9a393fe4fddafd409d41e11b434853d1ad2eb",
+  "signature_algorithm": "SHA-256",
+  "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-ofr-03389"
+}

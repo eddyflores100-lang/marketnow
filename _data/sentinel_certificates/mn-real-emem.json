@@ -1,8 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-3139963",
+  "certificate_id": "MN-SC-2026-3761773",
   "skill_id": "mn-real-emem",
   "skill_name": "emem",
-  "timestamp": "2026-07-26T06:37:51.914Z",
+  "issued_at": "2026-09-23T08:56:01.773Z",
+  "expires_at": "2026-09-30T08:56:01.773Z",
   "auditor": "Sentinel L1.5 + L1.6 + L1.7 + L1.8 + L1.9 (Deep Individual Audit)",
   "overall_score": 9,
   "max_score": 10,
@@ -12,7 +13,6 @@
     "l2": "not_available",
     "final": "medium"
   },
-  "quarantine_recommended": false,
   "layers_run": {
     "l15": true,
     "l16": true,
@@ -22,6 +22,15 @@
     "l2": false,
     "l3": false
   },
+  "layer_details": {
+    "l15_findings": 0,
+    "l16_semgrep_findings": 0,
+    "l16_secret_findings": 0,
+    "l16_osv_findings": 0,
+    "l2_score": null,
+    "l2_execution_status": "not_run"
+  },
+  "quarantine_recommended": false,
   "checks": [
     {
       "name": "L1.5 AUTH",
@@ -57,7 +66,7 @@
       "name": "L1.8 FAMILIES",
       "status": "pass",
       "risk": "low",
-      "detail": "28 families checked, 0 matches (README scanned)"
+      "detail": "48 families checked, 0 matches (README scanned)"
     },
     {
       "name": "L1.9 INJECTION",
@@ -74,9 +83,7 @@
     "language": "Rust",
     "last_push": "2026-07-23T15:27:49Z"
   },
-  "signature": {
-    "algorithm": "SHA-256",
-    "value": "9127444cbb6f6be6596c72e11400f2c1e3711a3b9327c3402a32eb42fa7f69a4",
-    "signed_by": "Sentinel Deep Auditor"
-  }
+  "signature": "b48ec9a88f4f7da07feba25fa4daafb993a559b97324a446ba6c23f25b91f42a",
+  "signature_algorithm": "SHA-256",
+  "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-emem"
 }

@@ -1,8 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-0000NaN",
+  "certificate_id": "MN-SC-2026-3784143",
   "skill_id": "mn-sub-57505",
   "skill_name": "Scrapling",
-  "timestamp": "2026-07-27T07:32:41.174Z",
+  "issued_at": "2026-09-23T08:56:24.143Z",
+  "expires_at": "2026-09-30T08:56:24.143Z",
   "auditor": "Sentinel L1.5 + L1.6 + L1.7 + L1.8 + L1.9 (Deep Individual Audit)",
   "overall_score": 9,
   "max_score": 10,
@@ -12,7 +13,6 @@
     "l2": "not_available",
     "final": "medium"
   },
-  "quarantine_recommended": false,
   "layers_run": {
     "l15": true,
     "l16": true,
@@ -22,6 +22,15 @@
     "l2": false,
     "l3": false
   },
+  "layer_details": {
+    "l15_findings": 0,
+    "l16_semgrep_findings": 0,
+    "l16_secret_findings": 0,
+    "l16_osv_findings": 0,
+    "l2_score": null,
+    "l2_execution_status": "not_run"
+  },
+  "quarantine_recommended": false,
   "checks": [
     {
       "name": "L1.5 AUTH",
@@ -57,7 +66,7 @@
       "name": "L1.8 FAMILIES",
       "status": "pass",
       "risk": "low",
-      "detail": "28 families checked, 0 matches (README scanned)"
+      "detail": "48 families checked, 0 matches (README scanned)"
     },
     {
       "name": "L1.9 INJECTION",
@@ -71,9 +80,7 @@
     "url": "https://github.com/D4Vinci/Scrapling",
     "submitted_at": "2026-07-27T00:47:08.069Z"
   },
-  "signature": {
-    "algorithm": "SHA-256",
-    "value": "9127444cbb6f6be6596c72e11400f2c1e3711a3b9327c3402a32eb42fa7f69a4",
-    "signed_by": "Sentinel Deep Auditor"
-  }
+  "signature": "2675a833da3e6acd6319d04b2f49237872b98cbf728a5910da85e0aa9b3f444b",
+  "signature_algorithm": "SHA-256",
+  "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-sub-57505"
 }
