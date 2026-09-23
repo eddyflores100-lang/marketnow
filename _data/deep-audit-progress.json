@@ -1,8 +1,8 @@
 {
-  "last_index": 8039,
-  "audited": 8039,
-  "quarantined": 80,
+  "last_index": 68387,
+  "audited": 68387,
+  "quarantined": 1415,
   "errors": 0,
   "started_at": "2026-07-23T05:12:38.438Z",
-  "completed_at": "2026-09-22T00:26:14.037Z"
+  "completed_at": "2026-09-23T10:22:33.018Z"
 }
