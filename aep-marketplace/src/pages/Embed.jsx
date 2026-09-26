@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { useLang } from '../context/LanguageContext.jsx';
 
 // Badge data — SVG content, markdown, and HTML are literal code snippets
-// served to all users (brand names like MarketNow / Sentinel / MNNC-1.0
+// served to all users (brand names like MarketNow / Sentinel / license badge
 // stay English inside the SVG). The friendly `label` is translated per
 // language via CONTENT[lang].badgeLabels[id].
 const BADGES = [
@@ -16,15 +16,15 @@ const BADGES = [
   },
   {
     id: 'verified-skill',
-    svg: `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="28" viewBox="0 0 160 28"><rect width="160" height="28" rx="4" fill="#050505" stroke="#00F299"/><text x="80" y="19" font-family="monospace" font-size="11" font-weight="bold" fill="#00F299" text-anchor="middle">🛡️ Sentinel L1.5</text></svg>`,
-    markdown: '![Sentinel L1.5](https://marketnow.site/badges/verified-skill.svg)](https://marketnow.site/security)',
-    html: '<a href="https://marketnow.site/security"><img src="https://marketnow.site/badges/verified-skill.svg" alt="Sentinel L1.5 Verified" /></a>',
+    svg: `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="28" viewBox="0 0 160 28"><rect width="160" height="28" rx="4" fill="#050505" stroke="#00F299"/><text x="80" y="19" font-family="monospace" font-size="11" font-weight="bold" fill="#00F299" text-anchor="middle">🛡️ Sentinel v3.0</text></svg>`,
+    markdown: '![Sentinel v3.0](https://marketnow.site/badges/verified-skill.svg)](https://marketnow.site/security)',
+    html: '<a href="https://marketnow.site/security"><img src="https://marketnow.site/badges/verified-skill.svg" alt="Sentinel v3.0 Verified" /></a>',
   },
   {
     id: 'open-source',
-    svg: `<svg xmlns="http://www.w3.org/2000/svg" width="140" height="28" viewBox="0 0 140 28"><rect width="140" height="28" rx="4" fill="#050505" stroke="#00d1ff"/><text x="70" y="19" font-family="monospace" font-size="11" font-weight="bold" fill="#00d1ff" text-anchor="middle">🔓 MNNC-1.0 License</text></svg>`,
-    markdown: '![MNNC-1.0 License](https://marketnow.site/badges/open-source.svg)](https://github.com/edgarfloresguerra2011-a11y/marketnow)',
-    html: '<a href="https://github.com/edgarfloresguerra2011-a11y/marketnow"><img src="https://marketnow.site/badges/open-source.svg" alt="Source-Available MNNC-1.0" /></a>',
+    svg: `<svg xmlns="http://www.w3.org/2000/svg" width="140" height="28" viewBox="0 0 140 28"><rect width="140" height="28" rx="4" fill="#050505" stroke="#00d1ff"/><text x="70" y="19" font-family="monospace" font-size="11" font-weight="bold" fill="#00d1ff" text-anchor="middle">🔓 MIT OR Apache-2.0</text></svg>`,
+    markdown: '![MIT OR Apache-2.0 License](https://marketnow.site/badges/open-source.svg)](https://github.com/alicelabs-llc/universal-trust-adapter)',
+    html: '<a href="https://github.com/alicelabs-llc/universal-trust-adapter"><img src="https://marketnow.site/badges/open-source.svg" alt="Open-Core MIT OR Apache-2.0" /></a>',
   },
   {
     id: 'available-on',
@@ -41,11 +41,11 @@ const CONTENT = {
   en: {
     badge: 'SHAREABLE BADGES',
     title: 'Embed MarketNow',
-    subtitle: 'Add a badge to your README, docs, or landing page. Show that your MCP server is on MarketNow, that it passed Sentinel L1.5, or just that you support open source agent tooling.',
+    subtitle: 'Add a badge to your README, docs, or landing page. Show that your MCP server is on MarketNow, that it passed Sentinel v3.0, or just that you support open source agent tooling.',
     badgeLabels: {
       'powered-by': 'Powered by MarketNow',
-      'verified-skill': 'Sentinel L1.5 Verified',
-      'open-source': 'Source-Available MNNC-1.0',
+      'verified-skill': 'Sentinel v3.0 Verified',
+      'open-source': 'Open-Core: MIT OR Apache-2.0',
       'available-on': 'Available on MarketNow',
     },
     markdownLabel: 'MARKDOWN',
@@ -67,11 +67,11 @@ const CONTENT = {
   es: {
     badge: 'BADGES COMPARTIBLES',
     title: 'Incrustar MarketNow',
-    subtitle: 'Agrega un badge a tu README, docs o landing page. Muestra que tu MCP server está en MarketNow, que pasó Sentinel L1.5, o simplemente que apoyas el open source para agentes.',
+    subtitle: 'Agrega un badge a tu README, docs o landing page. Muestra que tu MCP server está en MarketNow, que pasó Sentinel v3.0, o simplemente que apoyas el open source para agentes.',
     badgeLabels: {
       'powered-by': 'Powered by MarketNow',
-      'verified-skill': 'Verificado por Sentinel L1.5',
-      'open-source': 'Source-Available MNNC-1.0',
+      'verified-skill': 'Verificado por Sentinel v3.0',
+      'open-source': 'Open-Core: MIT OR Apache-2.0',
       'available-on': 'Disponible en MarketNow',
     },
     markdownLabel: 'MARKDOWN',
@@ -93,11 +93,11 @@ const CONTENT = {
   pt: {
     badge: 'BADGES COMPARTILHÁVEIS',
     title: 'Incorporar MarketNow',
-    subtitle: 'Adicione um badge ao seu README, docs ou landing page. Mostre que seu MCP server está no MarketNow, que passou no Sentinel L1.5, ou apenas que você apoia tooling open source para agentes.',
+    subtitle: 'Adicione um badge ao seu README, docs ou landing page. Mostre que seu MCP server está no MarketNow, que passou no Sentinel v3.0, ou apenas que você apoia tooling open source para agentes.',
     badgeLabels: {
       'powered-by': 'Powered by MarketNow',
-      'verified-skill': 'Verificado por Sentinel L1.5',
-      'open-source': 'Source-Available MNNC-1.0',
+      'verified-skill': 'Verificado por Sentinel v3.0',
+      'open-source': 'Open-Core: MIT OR Apache-2.0',
       'available-on': 'Disponível no MarketNow',
     },
     markdownLabel: 'MARKDOWN',
@@ -119,11 +119,11 @@ const CONTENT = {
   zh: {
     badge: '可分享徽章',
     title: '嵌入 MarketNow',
-    subtitle: '在你的 README、文档或落地页添加徽章。展示你的 MCP server 在 MarketNow 上、通过了 Sentinel L1.5、或只是表明你支持开源 agent 工具。',
+    subtitle: '在你的 README、文档或落地页添加徽章。展示你的 MCP server 在 MarketNow 上、通过了 Sentinel v3.0、或只是表明你支持开源 agent 工具。',
     badgeLabels: {
       'powered-by': 'Powered by MarketNow',
-      'verified-skill': 'Sentinel L1.5 已验证',
-      'open-source': 'Source-Available MNNC-1.0',
+      'verified-skill': 'Sentinel v3.0 已验证',
+      'open-source': 'Open-Core: MIT OR Apache-2.0',
       'available-on': '在 MarketNow 上可用',
     },
     markdownLabel: 'MARKDOWN',
@@ -145,11 +145,11 @@ const CONTENT = {
   fr: {
     badge: 'BADGES PARTAGEABLES',
     title: 'Intégrer MarketNow',
-    subtitle: 'Ajoutez un badge à votre README, vos docs ou votre landing page. Montrez que votre MCP server est sur MarketNow, qu\'il a passé Sentinel L1.5, ou simplement que vous soutenez l\'open source pour agents.',
+    subtitle: 'Ajoutez un badge à votre README, vos docs ou votre landing page. Montrez que votre MCP server est sur MarketNow, qu\'il a passé Sentinel v3.0, ou simplement que vous soutenez l\'open source pour agents.',
     badgeLabels: {
       'powered-by': 'Powered by MarketNow',
-      'verified-skill': 'Vérifié par Sentinel L1.5',
-      'open-source': 'Source-Available MNNC-1.0',
+      'verified-skill': 'Vérifié par Sentinel v3.0',
+      'open-source': 'Open-Core: MIT OR Apache-2.0',
       'available-on': 'Disponible sur MarketNow',
     },
     markdownLabel: 'MARKDOWN',

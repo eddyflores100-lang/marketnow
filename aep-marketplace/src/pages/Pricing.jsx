@@ -11,7 +11,7 @@ import { useLang } from '../context/LanguageContext.jsx';
 const CONTENT = {
   en: {
     headerExtra:
-      "Start free with the Community plan. Upgrade to Team ($99/mo) when you need monitoring and analytics. Enterprise available for custom deployments.",
+      "Buyers pay no platform fee: 68,387 of 68,388 skills install free. Sellers list free and keep 80% of premium sales. Optional Sentinel subscriptions (PRO $9.99/mo · ENTERPRISE $49.99/mo) power priority audits.",
     billingMonthly: 'MONTHLY',
     billingYearly: 'YEARLY',
     billingYearlyDiscount: '-20%',
@@ -26,13 +26,13 @@ const CONTENT = {
 
     storageFeeTitle: 'Storage Fee (FREE tier only)',
     storageFeeBody:
-      'FREE tier includes your first {threshold} skills at no cost. After that, a storage fee of ${price} per skill per {period} applies. This covers hosting, Sentinel scanning, and continuous monitoring of your skills. PRO and ENTERPRISE tiers include unlimited storage — no per-skill fees.',
+      'Listing is free and unlimited — MarketNow charges no storage fees, ever. PRO and ENTERPRISE subscriptions exist for priority auditing and visibility, not for storage.',
 
     addonsTitle: 'ADD-ONS',
-    addonsSubtitle: 'Boost your skills with one-time purchases',
+    addonsSubtitle: 'Included with Sentinel subscriptions',
 
     commissionTitle: 'COMMISSION BREAKDOWN',
-    commissionSubtitle: "For every skill sold, here's how the revenue is split",
+    commissionSubtitle: "When a seller sells a skill, here's how the revenue is split",
     commissionSellerLabel: 'Seller',
     commissionSellerDesc: 'Receives the majority of each sale',
     commissionMarketnowLabel: 'MarketNow',
@@ -43,42 +43,42 @@ const CONTENT = {
     affiliateSale:
       "Affiliate sale (5% comes from MarketNow's share): Seller 80% · MarketNow 15% · Affiliate 5% = 100%",
     exampleLine:
-      'Example: A skill sold at $2.99 → Seller gets $2.39 (80%) · MarketNow gets $0.45 (15%) · Affiliate gets $0.15 (5%)',
+      'Example: a $10 premium sale → Seller $8.00 (80%) · MarketNow $2.00 (20%); with an affiliate referral, $0.10 of MarketNow\'s share goes to the referrer.',
 
     affiliateTitle: 'BECOME AN AFFILIATE',
     affiliateBody:
-      'Earn 5% commission on every sale you refer. Share your affiliate link, and when someone buys via your link, you get paid. Monthly payouts via Stripe Connect (minimum $50 threshold).',
+      'Referrers earn 5% of MarketNow\'s share on every premium sale. Buyers never pay extra — the 5% comes out of MarketNow\'s 20% commission. Get your link from the dashboard.',
     affiliateButton: 'GET YOUR AFFILIATE LINK →',
 
     faqTitle: 'FREQUENTLY ASKED QUESTIONS',
     faq: [
       {
         q: 'Do buyers need a subscription?',
-        a: 'No. MarketNow uses B2B pricing: Community (Free), Team ($99/mo), Enterprise (Custom). All 8,845 skills are Sentinel-certified and browsable for free.',
+        a: 'Buyers install free skills at no cost. Premium skills have a price set by the seller. MarketNow takes 20% commission on each sale. Sellers pay Sentinel subscription for security auditing.',
       },
       {
         q: 'What happens if I exceed my free tier limit?',
-        a: 'Community plan is free. For team monitoring, upgrade to Team ($99/mo). Enterprise available for custom deployments.',
+        a: 'You will not hit one: listing is free and unlimited for every seller. Optional PRO/ENTERPRISE subscriptions add priority scans and visibility — they never gate publishing.',
       },
       {
         q: 'How do I get paid as a seller?',
-        a: "Payouts are processed monthly via Stripe Connect. You'll receive 80% of each sale price. Minimum payout threshold is $50. Sign up for Stripe Connect from your dashboard after your first sale.",
+        a: "Sellers receive 80% of each sale. MarketNow takes 20% commission. Payouts are monthly. Sign up from your dashboard after your first sale.",
       },
       {
         q: 'Can I list my skill for free?',
-        a: 'Yes — your first 3 skills are completely free to list. You only pay if you want to list more, or if you want add-ons like Featured Listing or Verified Seller badge.',
+        a: 'Yes — listing is free and unlimited for every seller, forever. Optional add-ons (featured placement, verified badge) come bundled with PRO/ENTERPRISE subscriptions; publishing itself never costs anything.',
       },
       {
         q: 'What is the Verified Seller badge?',
-        a: 'A one-time $19.99 purchase that adds a ✓ Verified badge to all your skills. Requires KYC verification (government ID). Boosts buyer trust and conversion rates significantly.',
+        a: 'Included with the ENTERPRISE subscription ($49.99/mo): adds a ✓ Verified badge to all your skills. Requires KYC verification (government ID). Boosts buyer trust and conversion rates significantly.',
       },
       {
         q: 'How does the affiliate program work?',
-        a: 'Generate your unique affiliate code from /dashboard. Share links with your code (?ref=aff_xxxxx). When someone buys via your link, you earn 5% of the sale price. Payouts are monthly via Stripe Connect (min $50).',
+        a: 'Referrers earn 5% of MarketNow\'s share on every premium sale. Buyers never pay extra — the 5% comes out of MarketNow\'s 20% commission. Get your link from the dashboard.',
       },
       {
         q: 'Can agents buy skills programmatically?',
-        a: 'Yes! Agents can use our public API at /api/skills.json to discover skills, then complete the purchase via /api/checkout/create-session. The MarketNow MCP server (npx -y marketnow-mcp) lets agents search directly from their runtime.',
+        a: 'Agents discover skills via the public API (/api/skills.json) and install them with npx -y marketnow-install-stack <slug>. On-platform checkout is planned (commerce Gate C1); vendor-priced usage uses x402 (USDC on Base), billed 100% vendor-side.',
       },
       {
         q: 'Do you offer custom enterprise plans?',
@@ -87,13 +87,13 @@ const CONTENT = {
     ],
 
     finalCtaTitle: 'READY TO START SELLING?',
-    finalCtaBody: 'List your first 3 skills free. No credit card required.',
+    finalCtaBody: 'List your first skill free — no credit card required. Listing is always free.',
     finalCtaButton: 'SUBMIT YOUR FIRST SKILL →',
 
     tiers: {
       FREE: {
         features: [
-          'Up to 3 skills listed',
+          'Unlimited free listings',
           'Basic Sentinel L1 scan',
           'Standard review queue (24-48h)',
           'Community support',
@@ -101,7 +101,7 @@ const CONTENT = {
       },
       PRO: {
         features: [
-          'Up to 25 skills listed',
+          'Unlimited listings + priority queue',
           'Priority Sentinel scan (< 6h)',
           'Featured badge on listings',
           'Analytics dashboard',
@@ -132,7 +132,7 @@ const CONTENT = {
       },
       VERIFIED_SELLER: {
         name: 'Verified Seller Badge',
-        period: 'one-time',
+        period: 'free',
         description: 'Get a ✓ Verified badge on all your skills. Requires KYC verification.',
       },
       PRIORITY_REVIEW: {
@@ -145,7 +145,7 @@ const CONTENT = {
 
   es: {
     headerExtra:
-      'Empieza gratis con el plan Community. Sube a Team ($99/mes) cuando necesites monitoreo y analíticas. Enterprise disponible para despliegues personalizados.',
+      'Los compradores no pagan fee de plataforma: 68,387 de 68,388 skills se instalan gratis. Los vendedores publican gratis y conservan el 80% de las ventas premium. Suscripciones opcionales de Sentinel (PRO $9.99/mes · ENTERPRISE $49.99/mes).',
     billingMonthly: 'MENSUAL',
     billingYearly: 'ANUAL',
     billingYearlyDiscount: '-20%',
@@ -160,10 +160,10 @@ const CONTENT = {
 
     storageFeeTitle: 'Tarifa de almacenamiento (solo plan FREE)',
     storageFeeBody:
-      'El plan FREE incluye tus primeras {threshold} skills sin costo. Después, aplica una tarifa de ${price} por skill por {period}. Esto cubre hosting, escaneo Sentinel y monitoreo continuo de tus skills. Los planes PRO y ENTERPRISE incluyen almacenamiento ilimitado — sin tarifas por skill.',
+      'Publicar es gratis e ilimitado — MarketNow nunca cobra tarifas de almacenamiento. Las suscripciones PRO y ENTERPRISE existen para auditoría prioritaria y visibilidad, no para almacenamiento.',
 
     addonsTitle: 'ADD-ONS',
-    addonsSubtitle: 'Potencia tus skills con compras únicas',
+    addonsSubtitle: 'Incluidos con las suscripciones Sentinel',
 
     commissionTitle: 'DESGLOSE DE COMISIÓN',
     commissionSubtitle: 'Por cada skill vendida, así se reparten los ingresos',
@@ -177,42 +177,42 @@ const CONTENT = {
     affiliateSale:
       'Venta con afiliado (el 5% sale de la parte de MarketNow): Vendedor 80% · MarketNow 15% · Afiliado 5% = 100%',
     exampleLine:
-      'Ejemplo: Una skill vendida a $2.99 → Vendedor recibe $2.39 (80%) · MarketNow recibe $0.45 (15%) · Afiliado recibe $0.15 (5%)',
+      'Ejemplo: una venta premium de $10 → Vendedor $8.00 (80%) · MarketNow $2.00 (20%); con referidor, $0.10 de la parte de MarketNow va al referidor.',
 
     affiliateTitle: 'CONVIÉRTETE EN AFILIADO',
     affiliateBody:
-      'Gana 5% de comisión por cada venta que refieras. Comparte tu link de afiliado y cuando alguien compra vía tu link, te pagan. Pagos mensuales vía Stripe Connect (umbral mínimo $50).',
+      'Los referidores ganan el 5% de la parte de MarketNow en cada venta premium. Los compradores nunca pagan extra — el 5% sale de la comisión del 20% de MarketNow. Consigue tu enlace desde el dashboard.',
     affiliateButton: 'OBTENER TU LINK DE AFILIADO →',
 
     faqTitle: 'PREGUNTAS FRECUENTES',
     faq: [
       {
         q: '¿Los compradores necesitan suscripción?',
-        a: 'No. MarketNow usa precios B2B: Community (Gratis), Team ($99/mes), Enterprise (Custom). Las 8,845 skills están certificadas por Sentinel y son navegables gratis.',
+        a: 'Correcto: todo es gratis. Las 68,388 skills están certificadas por Sentinel y son navegables e instalables gratis.',
       },
       {
         q: '¿Qué pasa si excedo el límite del plan free?',
-        a: 'El plan Community es gratis. Para monitoreo de equipo, sube a Team ($99/mes). Enterprise disponible para despliegues personalizados.',
+        a: 'No lo alcanzarás: publicar es gratis e ilimitado para cada vendedor. Las suscripciones opcionales PRO/ENTERPRISE añaden escaneos prioritarios y visibilidad — nunca bloquean la publicación.',
       },
       {
         q: '¿Cómo recibo mis pagos como vendedor?',
-        a: 'Los pagos se procesan mensualmente vía Stripe Connect. Recibirás 80% del precio de cada venta. El umbral mínimo de pago es $50. Regístrate en Stripe Connect desde tu dashboard después de tu primera venta.',
+        a: 'Los vendedores reciben el 80% de cada venta premium. MarketNow retiene el 20%. Los payouts se procesan mensualmente tras tu primera venta (dashboard del vendedor).',
       },
       {
         q: '¿Puedo publicar mi skill gratis?',
-        a: 'Sí — tus primeras 3 skills son completamente gratis de publicar. Solo pagas si quieres publicar más, o si quieres add-ons como Featured Listing o el badge Verified Seller.',
+        a: 'Sí — publicar es gratis e ilimitado para cada vendedor, siempre. Los add-ons opcionales (posición destacada, badge verificado) vienen con las suscripciones PRO/ENTERPRISE; publicar nunca cuesta nada.',
       },
       {
         q: '¿Qué es el badge Verified Seller?',
-        a: 'Una compra única de $19.99 que añade un badge ✓ Verified a todas tus skills. Requiere verificación KYC (identificación oficial). Aumenta la confianza del comprador y las tasas de conversión significativamente.',
+        a: 'El badge ✓ Verified viene con la suscripción ENTERPRISE ($49.99/mo). Requiere verificación KYC (identificación oficial). Aumenta la confianza del comprador y las tasas de conversión significativamente.',
       },
       {
         q: '¿Cómo funciona el programa de afiliados?',
-        a: 'Genera tu código de afiliado único desde /dashboard. Comparte links con tu código (?ref=aff_xxxxx). Cuando alguien compra vía tu link, ganas 5% del precio de venta. Los pagos son mensuales vía Stripe Connect (mín $50).',
+        a: 'Los referidores ganan el 5% de la parte de MarketNow en cada venta premium. Los compradores nunca pagan extra — el 5% sale de la comisión del 20% de MarketNow. Consigue tu enlace desde el dashboard.',
       },
       {
         q: '¿Los agentes pueden comprar skills programáticamente?',
-        a: '¡Sí! Los agentes pueden usar nuestra API pública en /api/skills.json para descubrir skills, luego completar la compra vía /api/checkout/create-session. El servidor MCP de MarketNow (npx -y marketnow-mcp) deja a los agentes buscar directamente desde su runtime.',
+        a: 'Los agentes descubren skills vía la API pública (/api/skills.json) y las instalan con npx -y marketnow-install-stack <slug>. El checkout en plataforma está planificado (commerce Gate C1); el uso con precio de vendor usa x402 (USDC en Base), facturado 100% al vendor.',
       },
       {
         q: '¿Ofrecen planes enterprise personalizados?',
@@ -221,13 +221,13 @@ const CONTENT = {
     ],
 
     finalCtaTitle: '¿LISTO PARA EMPEZAR A VENDER?',
-    finalCtaBody: 'Publica tus primeras 3 skills gratis. No se requiere tarjeta de crédito.',
+    finalCtaBody: 'Publica tu primera skill gratis — sin tarjeta de crédito. Publicar siempre es gratis.',
     finalCtaButton: 'PUBLICA TU PRIMERA SKILL →',
 
     tiers: {
       FREE: {
         features: [
-          'Hasta 3 skills publicadas',
+          'Publicación ilimitada y gratuita',
           'Escaneo básico Sentinel L1',
           'Cola de revisión estándar (24-48h)',
           'Soporte comunitario',
@@ -235,7 +235,7 @@ const CONTENT = {
       },
       PRO: {
         features: [
-          'Hasta 25 skills publicadas',
+          'Publicación ilimitada + cola prioritaria',
           'Escaneo prioritario Sentinel (< 6h)',
           'Badge featured en tus listings',
           'Dashboard de analytics',
@@ -281,7 +281,7 @@ const CONTENT = {
 
   pt: {
     headerExtra:
-      'Comece grátis com o plano Community. Faça upgrade para Team ($99/mês) quando precisar de monitoramento e análises. Enterprise disponível para implantações personalizadas.',
+      'Compradores não pagam taxa de plataforma: 68,387 de 68,388 skills instalam grátis. Vendedores publicam grátis e ficam com 80% das vendas premium. Assinaturas opcionais de Sentinel (PRO $9.99/mês · ENTERPRISE $49.99/mês).',
     billingMonthly: 'MENSAL',
     billingYearly: 'ANUAL',
     billingYearlyDiscount: '-20%',
@@ -296,10 +296,10 @@ const CONTENT = {
 
     storageFeeTitle: 'Taxa de armazenamento (apenas plano FREE)',
     storageFeeBody:
-      'O plano FREE inclui suas primeiras {threshold} skills sem custo. Depois disso, aplica-se uma taxa de ${price} por skill por {period}. Isso cobre hospedagem, escaneamento Sentinel e monitoramento contínuo das suas skills. Os planos PRO e ENTERPRISE incluem armazenamento ilimitado — sem taxas por skill.',
+      'Publicar é grátis e ilimitado — o MarketNow nunca cobra taxas de armazenamento. As assinaturas PRO e ENTERPRISE existem para auditoria prioritária e visibilidade, não para armazenamento.',
 
     addonsTitle: 'ADD-ONS',
-    addonsSubtitle: 'Potencialize suas skills com compras únicas',
+    addonsSubtitle: 'Incluídos com as assinaturas Sentinel',
 
     commissionTitle: 'DETALHAMENTO DA COMISSÃO',
     commissionSubtitle: 'Para cada skill vendida, veja como a receita é dividida',
@@ -313,42 +313,42 @@ const CONTENT = {
     affiliateSale:
       'Venda com afiliado (os 5% vêm da parte do MarketNow): Vendedor 80% · MarketNow 15% · Afiliado 5% = 100%',
     exampleLine:
-      'Exemplo: Uma skill vendida por $2.99 → Vendedor recebe $2.39 (80%) · MarketNow recebe $0.45 (15%) · Afiliado recebe $0.15 (5%)',
+      'Exemplo: uma venda premium de $10 → Vendedor $8.00 (80%) · MarketNow $2.00 (20%); com referenciador, $0.10 da parte do MarketNow vai para ele.',
 
     affiliateTitle: 'TORNE-SE UM AFILIADO',
     affiliateBody:
-      'Ganhe 5% de comissão em cada venda que você indicar. Compartilhe seu link de afiliado e quando alguém compra via seu link, você recebe. Pagamentos mensais via Stripe Connect (limite mínimo $50).',
+      'Referenciadores ganham 5% da parte do MarketNow em cada venda premium. Compradores nunca pagam extra — os 5% saem da comissão de 20% do MarketNow. Pegue seu link no dashboard.',
     affiliateButton: 'OBTER SEU LINK DE AFILIADO →',
 
     faqTitle: 'PERGUNTAS FREQUENTES',
     faq: [
       {
         q: 'Compradores precisam de assinatura?',
-        a: 'Não. O MarketNow usa preços B2B: Community (Grátis), Team ($99/mês), Enterprise (Custom). Todas as 8,845 skills são certificadas pelo Sentinel e navegáveis gratuitamente.',
+        a: 'Correto: tudo é grátis. As 68,388 skills são certificadas pelo Sentinel e navegáveis/instaláveis gratuitamente.',
       },
       {
         q: 'O que acontece se eu exceder o limite do plano free?',
-        a: 'O plano Community é gratuito. Para monitoramento de equipe, faça upgrade para Team ($99/mês). Enterprise disponível para implantações personalizadas.',
+        a: 'Você não o atingirá: publicar é grátis e ilimitado para cada vendedor. As assinaturas opcionais PRO/ENTERPRISE adicionam escaneamentos prioritários e visibilidade — nunca bloqueiam a publicação.',
       },
       {
         q: 'Como recebo meus pagamentos como vendedor?',
-        a: 'Pagamentos são processados mensalmente via Stripe Connect. Você recebe 80% do preço de cada venda. Limite mínimo de pagamento é $50. Cadastre-se no Stripe Connect pelo seu dashboard após a primeira venda.',
+        a: 'Não há pagamentos: o MarketNow não cobra ninguém. Não existem payouts nem Stripe Connect.',
       },
       {
         q: 'Posso listar minha skill gratuitamente?',
-        a: 'Sim — suas primeiras 3 skills são totalmente gratuitas para listar. Você só paga se quiser listar mais, ou se quiser add-ons como Featured Listing ou badge Verified Seller.',
+        a: 'Sim — publicar é grátis e ilimitado para cada vendedor, para sempre. Os add-ons opcionais (posição destacada, badge verificado) vêm com as assinaturas PRO/ENTERPRISE; publicar nunca custa nada.',
       },
       {
         q: 'O que é o badge Verified Seller?',
-        a: 'Uma compra única de $19.99 que adiciona um badge ✓ Verified a todas as suas skills. Requer verificação KYC (documento de identidade). Aumenta significativamente a confiança do comprador e as taxas de conversão.',
+        a: 'O badge ✓ Verified vem com a assinatura ENTERPRISE ($49.99/mo). Requer verificação KYC (documento de identidade). Aumenta significativamente a confiança do comprador e as taxas de conversão.',
       },
       {
         q: 'Como funciona o programa de afiliados?',
-        a: 'Gere seu código de afiliado único em /dashboard. Compartilhe links com seu código (?ref=aff_xxxxx). Quando alguém compra via seu link, você ganha 5% do preço da venda. Pagamentos mensais via Stripe Connect (mín $50).',
+        a: 'Os referenciadores ganham 5% da parte do MarketNow em cada venda premium. Compradores nunca pagam extra — os 5% saem da comissão de 20% do MarketNow. Pegue seu link no dashboard.',
       },
       {
         q: 'Agentes podem comprar skills programaticamente?',
-        a: 'Sim! Agentes podem usar nossa API pública em /api/skills.json para descobrir skills, depois concluir a compra via /api/checkout/create-session. O servidor MCP do MarketNow (npx -y marketnow-mcp) permite que agentes busquem diretamente do runtime.',
+        a: 'Agentes descobrem skills via API pública (/api/skills.json) e as instalam com npx -y marketnow-install-stack <slug>. Checkout na plataforma está planejado (commerce Gate C1); uso com preço de vendor usa x402 (USDC na Base), faturado 100% ao vendor.',
       },
       {
         q: 'Vocês oferecem planos enterprise personalizados?',
@@ -357,13 +357,13 @@ const CONTENT = {
     ],
 
     finalCtaTitle: 'PRONTO PARA COMEÇAR A VENDER?',
-    finalCtaBody: 'Liste suas primeiras 3 skills gratuitamente. Sem cartão de crédito.',
+    finalCtaBody: 'Liste sua primeira skill grátis — sem cartão de crédito. Publicar é sempre grátis.',
     finalCtaButton: 'ENVIE SUA PRIMEIRA SKILL →',
 
     tiers: {
       FREE: {
         features: [
-          'Até 3 skills listadas',
+          'Publicação ilimitada e gratuita',
           'Escaneamento básico Sentinel L1',
           'Fila de revisão padrão (24-48h)',
           'Suporte da comunidade',
@@ -371,7 +371,7 @@ const CONTENT = {
       },
       PRO: {
         features: [
-          'Até 25 skills listadas',
+          'Publicação ilimitada + fila prioritária',
           'Escaneamento prioritário Sentinel (< 6h)',
           'Badge featured nos listings',
           'Dashboard de analytics',
@@ -417,7 +417,7 @@ const CONTENT = {
 
   zh: {
     headerExtra:
-      '从 Community 免费计划开始。需要团队监控和分析时升级到 Team（$99/月）。Enterprise 可用于定制部署。',
+      '买家无需支付平台费：68,388 个技能中 68,387 个免费安装。卖家免费上架并保留高级销售收入的 80%。可选 Sentinel 订阅（PRO $9.99/月 · ENTERPRISE $49.99/月）。',
     billingMonthly: '月付',
     billingYearly: '年付',
     billingYearlyDiscount: '-20%',
@@ -432,10 +432,10 @@ const CONTENT = {
 
     storageFeeTitle: '存储费（仅 FREE 套餐）',
     storageFeeBody:
-      'FREE 套餐包含前 {threshold} 个 skill，免费。之后每个 skill 每 {period} 收取 ${price} 存储费。这覆盖托管、Sentinel 扫描以及对你的 skill 的持续监控。PRO 和 ENTERPRISE 套餐包含无限存储 —— 无按 skill 计费。',
+      '上架免费且无上限 —— MarketNow 永不收取存储费。PRO 与 ENTERPRISE 订阅旨在提供优先审计与曝光，而非存储。',
 
     addonsTitle: '附加服务',
-    addonsSubtitle: '通过一次性购买提升你的 skill',
+    addonsSubtitle: '随 Sentinel 订阅附带',
 
     commissionTitle: '佣金分配',
     commissionSubtitle: '每售出一个 skill，收入这样分配',
@@ -448,42 +448,42 @@ const CONTENT = {
     standardSale: '标准销售（无推广者）：卖家 80% · MarketNow 20% = 100%',
     affiliateSale: '推广销售（5% 来自 MarketNow 的份额）：卖家 80% · MarketNow 15% · 推广者 5% = 100%',
     exampleLine:
-      '示例：一个 skill 以 $2.99 售出 → 卖家获得 $2.39（80%）· MarketNow 获得 $0.45（15%）· 推广者获得 $0.15（5%）',
+      '示例：一笔 $10 的高级技能销售 → 卖家 $8.00（80%）· MarketNow $2.00（20%）；若有推广者参与，MarketNow 份额中的 $0.10 归推广者。',
 
     affiliateTitle: '成为推广者',
     affiliateBody:
-      '每笔你推荐的销售可获得 5% 佣金。分享你的推广链接，当有人通过你的链接购买时，你就能获得报酬。每月通过 Stripe Connect 付款（最低起付 $50）。',
+      '推广者可获得 MarketNow 在每笔高级技能销售中分成的一部分（5%）。买家无需多付 —— 5% 来自 MarketNow 的 20% 佣金。在控制台获取你的推广链接。',
     affiliateButton: '获取你的推广链接 →',
 
     faqTitle: '常见问题',
     faq: [
       {
         q: '买家需要订阅吗？',
-        a: '不需要。MarketNow 使用 B2B 定价：Community（免费）、Team（$99/月）、Enterprise（定制）。所有 8,845 个技能都通过 Sentinel 认证，可免费浏览。',
+        a: '正确：一切免费。所有 68,388 个技能都通过 Sentinel 认证，可免费浏览和安装。',
       },
       {
         q: '如果超出免费套餐限额会怎样？',
-        a: 'Community 计划免费。如需团队监控，请升级到 Team（$99/月）。Enterprise 可用于定制部署。',
+        a: '不会碰到上限：所有卖家均可免费无限量上架。可选的 PRO/ENTERPRISE 订阅提供优先扫描与曝光 —— 绝不会限制发布。',
       },
       {
         q: '作为卖家如何收款？',
-        a: '通过 Stripe Connect 按月处理付款。你将获得每笔售价的 80%。最低起付金额为 $50。首次销售后可在 dashboard 注册 Stripe Connect。',
+        a: '卖家获得每笔高级技能销售的 80%，MarketNow 抽取 20%。首笔销售后可在卖家控制台按月结算。',
       },
       {
         q: '可以免费上架 skill 吗？',
-        a: '可以 —— 你的前 3 个 skill 完全免费上架。仅当你想上架更多，或购买 Featured Listing、Verified Seller 徽章等附加服务时才需付费。',
+        a: '可以 —— 所有卖家永远免费无限量上架。可选附加服务（精选展示、认证徽章）随 PRO/ENTERPRISE 订阅提供；发布本身永不收费。',
       },
       {
         q: 'Verified Seller 徽章是什么？',
-        a: '一次性支付 $19.99，为你的所有 skill 添加 ✓ Verified 徽章。需通过 KYC 验证（政府签发 ID）。可显著提升买家信任和转化率。',
+        a: '✓ Verified 徽章随 ENTERPRISE 订阅（$49.99/月）提供。需通过 KYC 验证（政府签发 ID）。可显著提升买家信任和转化率。',
       },
       {
         q: '推广者计划如何运作？',
-        a: '在 /dashboard 生成你专属的推广码。分享带推广码的链接（?ref=aff_xxxxx）。有人通过你的链接购买时，你获得售价的 5%。每月通过 Stripe Connect 付款（最低 $50）。',
+        a: '推广者获得 MarketNow 在每笔高级技能销售中 5% 的份额。买家无需多付 —— 5% 来自 MarketNow 的 20% 佣金。在控制台获取推广链接。',
       },
       {
         q: 'agent 可以通过 API 程序化购买 skill 吗？',
-        a: '可以！agent 可使用我们的公开 API /api/skills.json 发现 skill，然后通过 /api/checkout/create-session 完成购买。MarketNow MCP 服务器（npx -y marketnow-mcp）让 agent 可直接在其运行时内搜索。',
+        a: '代理通过公开 API（/api/skills.json）发现技能，并用 npx -y marketnow-install-stack <slug> 安装。平台内结算正在规划中（commerce Gate C1）；供应商定价的使用走 x402（Base 上的 USDC），100% 由供应商侧结算。',
       },
       {
         q: '提供定制企业套餐吗？',
@@ -492,7 +492,7 @@ const CONTENT = {
     ],
 
     finalCtaTitle: '准备好开始销售了吗？',
-    finalCtaBody: '免费上架你的前 3 个 skill。无需信用卡。',
+    finalCtaBody: '免费上架你的第一个技能 —— 无需信用卡。上架永远免费。',
     finalCtaButton: '提交你的第一个 skill →',
 
     tiers: {
@@ -549,7 +549,7 @@ const CONTENT = {
 
   fr: {
     headerExtra:
-      "Commencez gratuitement avec le plan Community. Passez à Team ($99/mois) quand vous avez besoin de surveillance et d'analyses. Enterprise disponible pour les déploiements personnalisés.",
+      "Les acheteurs ne paient aucun frais de plateforme : 68,387 skills sur 68,388 s\'installent gratuitement. Les vendeurs publient gratuitement et gardent 80% des ventes premium. Abonnements Sentinel optionnels (PRO $9.99/mois · ENTERPRISE $49.99/mois).",
     billingMonthly: 'MENSUEL',
     billingYearly: 'ANNUEL',
     billingYearlyDiscount: '-20%',
@@ -564,10 +564,10 @@ const CONTENT = {
 
     storageFeeTitle: 'Frais de stockage (plan FREE uniquement)',
     storageFeeBody:
-      "Le plan FREE inclut vos {threshold} premières skills gratuitement. Ensuite, des frais de stockage de ${price} par skill par {period} s'appliquent. Cela couvre l'hébergement, le scan Sentinel et la surveillance continue de vos skills. Les plans PRO et ENTERPRISE incluent un stockage illimité — pas de frais par skill.",
+      "La publication est gratuite et illimitée — MarketNow ne facture jamais de frais de stockage. Les abonnements PRO et ENTERPRISE existent pour l\'audit prioritaire et la visibilité, pas pour le stockage.",
 
     addonsTitle: 'ADD-ONS',
-    addonsSubtitle: 'Boostez vos skills avec des achats uniques',
+    addonsSubtitle: 'Inclus avec les abonnements Sentinel',
 
     commissionTitle: 'DÉTAIL DES COMMISSIONS',
     commissionSubtitle: 'Pour chaque skill vendue, voici comment les revenus sont répartis',
@@ -581,42 +581,42 @@ const CONTENT = {
     affiliateSale:
       "Vente avec affilié (les 5% viennent de la part de MarketNow) : Vendeur 80% · MarketNow 15% · Affilié 5% = 100%",
     exampleLine:
-      'Exemple : Une skill vendue $2.99 → Vendeur reçoit $2.39 (80%) · MarketNow reçoit $0.45 (15%) · Affilié reçoit $0.15 (5%)',
+      'Exemple : une vente premium de $10 → Vendeur $8.00 (80%) · MarketNow $2.00 (20%) ; avec un parrain, $0.10 de la part de MarketNow lui revient.',
 
     affiliateTitle: 'DEVENEZ AFFILIÉ',
     affiliateBody:
-      "Gagnez 5% de commission sur chaque vente que vous référez. Partagez votre lien d'affiliation, et quand quelqu'un achète via votre lien, vous êtes payé. Paiements mensuels via Stripe Connect (seuil minimum $50).",
+      "Les parrains gagnent 5% de la part de MarketNow sur chaque vente premium. Les acheteurs ne paient jamais plus — les 5% sortent de la commission de 20% de MarketNow. Obtenez votre lien depuis le dashboard.",
     affiliateButton: 'OBTENIR VOTRE LIEN AFFILIÉ →',
 
     faqTitle: 'QUESTIONS FRÉQUENTES',
     faq: [
       {
         q: 'Les acheteurs ont-ils besoin d\'un abonnement ?',
-        a: "Non. MarketNow utilise une tarification B2B : Community (Gratuit), Team ($99/mois), Enterprise (Sur mesure). Les 8 582 skills sont certifiées par Sentinel et naviguables gratuitement.",
+        a: "Exact : tout est gratuit. Les 66 496 skills sont certifiées par Sentinel et navigables/installables gratuitement.",
       },
       {
         q: 'Que se passe-t-il si je dépasse la limite du plan gratuit ?',
-        a: 'Le plan Community est gratuit. Pour la surveillance d`équipe, passez à Team ($99/mois). Enterprise disponible pour les déploiements personnalisés.',
+        a: 'Vous ne l\'atteindrez pas : la publication est gratuite et illimitée pour chaque vendeur. Les abonnements optionnels PRO/ENTERPRISE ajoutent scans prioritaires et visibilité — ils ne bloquent jamais la publication.',
       },
       {
         q: 'Comment suis-je payé en tant que vendeur ?',
-        a: "Les paiements sont traités mensuellement via Stripe Connect. Vous recevez 80% du prix de chaque vente. Le seuil minimum de paiement est $50. Inscrivez-vous à Stripe Connect depuis votre dashboard après votre première vente.",
+        a: 'Les vendeurs reçoivent 80% de chaque vente premium ; MarketNow retient 20%. Les paiements sont mensuels, depuis le dashboard vendeur après votre première vente.',
       },
       {
         q: 'Puis-je lister ma skill gratuitement ?',
-        a: 'Oui — vos 3 premières skills sont entièrement gratuites à lister. Vous ne payez que si vous voulez en lister plus, ou si vous voulez des add-ons comme Featured Listing ou le badge Verified Seller.',
+        a: 'Oui — la publication est gratuite et illimitée pour chaque vendeur, pour toujours. Les add-ons optionnels (mise en avant, badge vérifié) sont inclus dans les abonnements PRO/ENTERPRISE ; publier ne coûte jamais rien.',
       },
       {
         q: "Qu'est-ce que le badge Verified Seller ?",
-        a: 'Un achat unique de $19.99 qui ajoute un badge ✓ Verified à toutes vos skills. Nécessite une vérification KYC (pièce d\'identité officielle). Augmente significativement la confiance des acheteurs et les taux de conversion.',
+        a: 'Le badge ✓ Verified est inclus avec l\'abonnement ENTERPRISE ($49.99/mo). Nécessite une vérification KYC (pièce d\'identité officielle). Augmente significativement la confiance des acheteurs et les taux de conversion.',
       },
       {
         q: 'Comment fonctionne le programme d\'affiliation ?',
-        a: "Générez votre code d'affiliation unique depuis /dashboard. Partagez des liens avec votre code (?ref=aff_xxxxx). Quand quelqu'un achète via votre lien, vous gagnez 5% du prix de vente. Les paiements sont mensuels via Stripe Connect (min $50).",
+        a: 'Les parrains gagnent 5% de la part de MarketNow sur chaque vente premium. Les acheteurs ne paient jamais plus — les 5% sortent de la commission de 20% de MarketNow. Obtenez votre lien depuis le dashboard.',
       },
       {
         q: 'Les agents peuvent-ils acheter des skills programmatiquement ?',
-        a: 'Oui ! Les agents peuvent utiliser notre API publique sur /api/skills.json pour découvrir des skills, puis finaliser l\'achat via /api/checkout/create-session. Le serveur MCP de MarketNow (npx -y marketnow-mcp) permet aux agents de chercher directement depuis leur runtime.',
+        a: 'Les agents découvrent les skills via l\'API publique (/api/skills.json) et les installent avec npx -y marketnow-install-stack <slug>. Le checkout sur la plateforme est prévu (commerce Gate C1) ; l\'usage au prix du vendeur utilise x402 (USDC sur Base), facturé 100% côté vendeur.',
       },
       {
         q: 'Proposez-vous des plans enterprise personnalisés ?',
@@ -625,7 +625,7 @@ const CONTENT = {
     ],
 
     finalCtaTitle: 'PRÊT À COMMENCER À VENDRE ?',
-    finalCtaBody: 'Listez vos 3 premières skills gratuitement. Aucune carte de crédit requise.',
+    finalCtaBody: 'Listez votre première skill gratuitement — sans carte bancaire. La publication est toujours gratuite.',
     finalCtaButton: 'SOUMETTEZ VOTRE PREMIÈRE SKILL →',
 
     tiers: {
@@ -698,7 +698,7 @@ function fmt(str, vars) {
  *
  * Modelo de monetización completo:
  * - Compradores: B2B pricing (Community/Team/Enterprise)
- * - Planes: Community (Free) / Team ($99/mo) / Enterprise (Custom)
+ * - Planes: todo es gratis (no hay planes pagos)
  * - Add-ons: Featured listing, Verified Seller badge, Priority Review
  * - Afiliados: 5% comisión por venta referida
  */

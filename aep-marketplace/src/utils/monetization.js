@@ -2,23 +2,20 @@
  * MarketNow — Monetization System
  * =================================
  *
- * Modelo de revenue completo:
+ * MODELO CANÓNICO (agent.json → pricing_source_of_truth; audit-6th-round):
  *
  * 1. COMPRADORES (agents + humans):
- *    - Pagan el precio de cada skill ($0.99 - $9.99)
- *    - MarketNow cobra 20% comisión al vendedor
+ *    - Sin platform fee. 68,387 de 68,388 skills se instalan gratis.
+ *    - Skills premium: precio fijado por el vendedor (comisión 20% MarketNow).
+ *    - Vendor-priced usage (x402, USDC on Base) se factura 100% vendor-side.
  *
  * 2. VENDEDORES (sellers):
- *    - FREE TIER: hasta 3 skills gratis
- *    - PRO TIER: $9.99/mes → hasta 25 skills + featured badge + analytics
- *    - ENTERPRISE: $49.99/mes → unlimited + API + priority review
- *    - STORAGE FEE: $0.50 por skill/mes después del free tier
- *    - FEATURED LISTING: $4.99 por 30 días (boost en búsquedas)
- *    - VERIFIED SELLER: $19.99 one-time (badge + trust boost)
+ *    - Listing gratis e ilimitado. Los vendedores conservan el 80% de cada
+ *      venta premium (MarketNow 20%).
+ *    - Suscripciones opcionales: Sentinel PRO $9.99/mo, ENTERPRISE $49.99/mo.
  *
  * 3. AFILIADOS:
- *    - 5% comisión por venta referida
- *    - Payout mensual vía Stripe Connect (min $50)
+ *    - 5% de la parte de MarketNow en ventas premium referidas.
  */
 
 export const TIERS = {
@@ -26,9 +23,9 @@ export const TIERS = {
     name: 'FREE',
     price: 0,
     period: 'forever',
-    maxSkills: 3,
+    maxSkills: Infinity,
     features: [
-      'Up to 3 skills listed',
+      'Unlimited free listings',
       'Basic Sentinel L1 scan',
       'Standard review queue (24-48h)',
       'Community support',
@@ -39,9 +36,9 @@ export const TIERS = {
     name: 'PRO',
     price: 9.99,
     period: 'month',
-    maxSkills: 25,
+    maxSkills: Infinity,
     features: [
-      'Up to 25 skills listed',
+      'Unlimited free listings',
       'Priority Sentinel scan (< 6h)',
       'Featured badge on listings',
       'Analytics dashboard',
@@ -72,33 +69,33 @@ export const TIERS = {
 export const ADDONS = {
   FEATURED_LISTING: {
     name: 'Featured Listing',
-    price: 4.99,
-    period: '30 days',
-    description: 'Boost your skill to the top of search results and the homepage featured section.',
+    price: 0,
+    period: 'included in PRO',
+    description: 'Included with Sentinel PRO ($9.99/mo): boost your skill to the top of search results and the homepage featured section.',
   },
   VERIFIED_SELLER: {
     name: 'Verified Seller Badge',
-    price: 19.99,
-    period: 'one-time',
-    description: 'Get a ✓ Verified badge on all your skills. Requires KYC verification.',
+    price: 0,
+    period: 'included in ENTERPRISE',
+    description: 'Included with Sentinel ENTERPRISE ($49.99/mo): ✓ Verified badge on all your skills. Requires KYC verification.',
   },
   PRIORITY_REVIEW: {
     name: 'Priority Review',
-    price: 2.99,
-    period: 'per skill',
-    description: 'Skip the queue. Your skill is reviewed within 6 hours instead of 24-48h.',
+    price: 0,
+    period: 'included in PRO',
+    description: 'Included with Sentinel PRO ($9.99/mo): your skill is reviewed within 6 hours instead of 24-48h.',
   },
 };
 
 export const COMMISSION = {
-  seller: 0.80,    // Seller keeps 80%
-  marketnow: 0.20, // MarketNow takes 20% (15% when affiliate is used)
-  affiliate: 0.05, // Affiliate gets 5% (deducted from MarketNow's share, not seller's)
+  seller: 0.80,     // Seller keeps 80% of premium sales
+  marketnow: 0.20,  // MarketNow takes 20% commission
+  affiliate: 0.05,  // Affiliates earn 5% (from MarketNow's share)
 };
 
 export const STORAGE_FEE = {
-  freeThreshold: 3,    // First 3 skills free
-  pricePerSkill: 0.50, // $0.50 per skill per month after threshold
+  freeThreshold: Infinity, // unlimited free listings — no storage fees, ever
+  pricePerSkill: 0, // moot: listing is free
   period: 'month',
 };
 
@@ -162,7 +159,7 @@ export function calculateAffiliatePayout(priceUsd) {
 
 /**
  * Get the user's current tier from localStorage.
- * In production, this would come from the backend (Stripe subscription status).
+ * In production, this would come from the backend. Everything is free — no Stripe.
  */
 export function getUserTier() {
   try {
@@ -228,7 +225,7 @@ export function isSkillFeatured(skillId) {
 }
 
 /**
- * Feature a skill for 30 days (after payment).
+ * Feature a skill for 30 days (free).
  */
 export function featureSkill(skillId) {
   try {

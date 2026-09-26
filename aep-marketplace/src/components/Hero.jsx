@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 
 export default function Hero({ onSignIn }) {
-  const [stats, setStats] = useState({ total: 5054, categories: 25, avgPrice: 2.50 });
+  const [stats, setStats] = useState({ total: 68388, categories: 16, avgPrice: 2.50 });
 
   useEffect(() => {
     fetch('/api/manifest.json')
@@ -59,8 +59,9 @@ export default function Hero({ onSignIn }) {
 
           {/* Subtitle — for agents */}
           <p className="text-zinc-400 text-lg md:text-xl mb-8 max-w-2xl mx-auto leading-relaxed">
-            Discover, evaluate, and install {stats.total.toLocaleString()}+ verified MCP skills
-            through a public JSON API. Micro-priced from $0.99 — designed for autonomous
+            Discover, evaluate, and install {stats.total.toLocaleString()}+ indexed MCP servers
+            through a public JSON API — install-risk and evidence-based trust scores on every entry.
+            Free to install — designed for autonomous
             agents to buy and deploy without human intervention.
           </p>
 
@@ -70,7 +71,7 @@ export default function Hero({ onSignIn }) {
               to="/registry"
               className="px-8 py-4 bg-[#00F299] text-black font-bold rounded-xl hover:bg-[#00F299]/90 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 shadow-lg shadow-[#00F299]/20"
             >
-              BROWSE 5,054 SKILLS →
+              BROWSE {stats.total.toLocaleString()} SKILLS →
             </Link>
             <Link
               to="/submit"
@@ -96,7 +97,7 @@ export default function Hero({ onSignIn }) {
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#00F299]/5 border border-[#00F299]/20">
               <span className="w-2 h-2 rounded-full bg-[#00F299] animate-pulse" />
               <span className="text-[#00F299] text-xs font-mono tracking-wider">
-                JOIN 5,000+ SKILLS ALREADY LISTED · LIST YOUR FIRST 3 FREE
+                INDEX-CERTIFIED SKILLS · L2 DEEP-SCANNED · LIST YOUR FIRST 3 FREE
               </span>
             </div>
           </motion.div>
@@ -104,9 +105,9 @@ export default function Hero({ onSignIn }) {
           {/* Stats — agent-relevant */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
             {[
-              { value: stats.total.toLocaleString() + '+', label: 'VERIFIED SKILLS' },
+              { value: stats.total.toLocaleString() + '+', label: 'INDEX-CERTIFIED (L1)' },
               { value: '$' + stats.avgPrice.toFixed(2), label: 'AVG PRICE (USD)' },
-              { value: '$0.99', label: 'MINIMUM PRICE' },
+              { value: '0', label: 'COST FOR BUYERS' },
               { value: 'MCP v1.0', label: 'PROTOCOL' },
             ].map((stat) => (
               <motion.div

@@ -32,7 +32,7 @@ const CATEGORIES = [
 // Price tier canonical labels (kept English here); translated at render time
 // via CONTENT[lang].tierLabels / tierDescs.
 const PRICE_TIERS = [
-  { price: 0.99, label: 'Utility', desc: 'Single-function MCP servers, simple wrappers' },
+  { price: 0, label: 'Free', desc: 'Free skills install at no cost. Premium skills have a price set by the seller' },
   { price: 1.99, label: 'Standard', desc: 'Standard integrations, one API/service' },
   { price: 2.99, label: 'Multi-feature', desc: 'Multi-feature tools, common choice' },
   { price: 4.99, label: 'Sophisticated', desc: 'Multi-endpoint, complex logic' },
@@ -58,8 +58,8 @@ const CONTENT = {
     limitReached: 'You have reached your plan limit. Upgrade to submit more skills.',
     upgradeBtn: 'UPGRADE →',
     paywallTitle: 'UPGRADE TO SUBMIT MORE',
-    paywallBody: 'You\'ve reached the FREE tier limit of {n} skills. Upgrade to PRO for $9.99/mo and list up to 25 skills — or pay $0.50/month per additional skill.',
-    upgradeProBtn: 'UPGRADE TO PRO ($9.99/mo)',
+    paywallBody: 'Unlimited free listings — you will never hit a paywall ({n} skills listed so far).',
+    upgradeProBtn: 'SEE PRO BENEFITS',
     maybeLaterBtn: 'MAYBE LATER',
     step1Title: 'REPOSITORY URL',
     step1Desc: 'Paste the public GitHub URL of your MCP server. Sentinel L1 will scan it for: README, package manifest, license, hardcoded secrets, and malicious patterns.',
@@ -76,11 +76,11 @@ const CONTENT = {
     updatedUnknown: 'unknown',
     scanFailedMsg: 'Your skill did not pass the minimum Sentinel L1 threshold (4/6). Fix the failing checks and try again.',
     commissionTitle: 'HOW COMMISSION WORKS',
-    commissionBodyPre: 'When an agent or human buys your skill for $X.XX, MarketNow keeps ',
+    commissionBodyPre: 'When you sell a premium skill, MarketNow keeps ',
     commissionBodyComm: '20%',
     commissionBodyMid: ' and you receive ',
     commissionBodySeller: '80%',
-    commissionBodyPost: '. Payouts are processed monthly via Stripe Connect. Example: skill priced at $2.99 → you receive $2.39 per sale.',
+    commissionBodyPost: '. Listing is free — no payment required to publish.',
     step2Title: 'SKILL METADATA',
     step2Desc: 'Review and complete the skill details. These will be shown to buyers and agents.',
     form: {
@@ -151,8 +151,8 @@ const CONTENT = {
     limitReached: 'Has alcanzado el límite de tu plan. Mejora para enviar más skills.',
     upgradeBtn: 'MEJORAR →',
     paywallTitle: 'MEJORA PARA ENVIAR MÁS',
-    paywallBody: 'Has alcanzado el límite del nivel FREE de {n} skills. Mejora a PRO por $9.99/mes y publica hasta 25 skills — o paga $0.50/mes por cada skill adicional.',
-    upgradeProBtn: 'MEJORAR A PRO ($9.99/mes)',
+    paywallBody: 'Publicación gratuita ilimitada — nunca llegarás a un muro de pago ({n} skills publicadas hasta ahora).',
+    upgradeProBtn: 'VER BENEFICIOS PRO',
     maybeLaterBtn: 'AHORA NO',
     step1Title: 'URL DEL REPOSITORIO',
     step1Desc: 'Pega la URL pública de GitHub de tu MCP server. Sentinel L1 la escaneará para: README, manifest de paquete, licencia, secrets hardcoded y patrones maliciosos.',
@@ -169,11 +169,11 @@ const CONTENT = {
     updatedUnknown: 'desconocido',
     scanFailedMsg: 'Tu skill no superó el umbral mínimo de Sentinel L1 (4/6). Corrige los checks fallidos e inténtalo de nuevo.',
     commissionTitle: 'CÓMO FUNCIONA LA COMISIÓN',
-    commissionBodyPre: 'Cuando un agente o humano compra tu skill por $X.XX, MarketNow se queda con ',
+    commissionBodyPre: 'Cuando vendes una skill premium, MarketNow se queda con ',
     commissionBodyComm: '20%',
     commissionBodyMid: ' y tú recibes ',
     commissionBodySeller: '80%',
-    commissionBodyPost: '. Los pagos se procesan mensualmente vía Stripe Connect. Ejemplo: skill con precio de $2.99 → recibes $2.39 por venta.',
+    commissionBodyPost: '. Publicar es gratis — no se requiere pago para publicar.',
     step2Title: 'METADATA DE LA SKILL',
     step2Desc: 'Revisa y completa los detalles de la skill. Se mostrarán a compradores y agentes.',
     form: {
@@ -244,8 +244,8 @@ const CONTENT = {
     limitReached: 'Você atingiu o limite do seu plano. Faça upgrade para enviar mais skills.',
     upgradeBtn: 'UPGRADE →',
     paywallTitle: 'FAÇA UPGRADE PARA ENVIAR MAIS',
-    paywallBody: 'Você atingiu o limite do nível FREE de {n} skills. Faça upgrade para PRO por $9.99/mês e liste até 25 skills — ou pague $0.50/mês por skill adicional.',
-    upgradeProBtn: 'UPGRADE PARA PRO ($9.99/mês)',
+    paywallBody: 'Publicação gratuita ilimitada — você nunca atingirá um paywall ({n} skills publicadas até agora).',
+    upgradeProBtn: 'VER BENEFÍCIOS PRO',
     maybeLaterBtn: 'TALVEZ DEPOIS',
     step1Title: 'URL DO REPOSITÓRIO',
     step1Desc: 'Cole a URL pública do GitHub do seu MCP server. O Sentinel L1 vai escanear por: README, manifest de pacote, licença, secrets hardcoded e padrões maliciosos.',
@@ -262,11 +262,11 @@ const CONTENT = {
     updatedUnknown: 'desconhecido',
     scanFailedMsg: 'Sua skill não atingiu o limite mínimo do Sentinel L1 (4/6). Corrija os checks que falharam e tente de novo.',
     commissionTitle: 'COMO FUNCIONA A COMISSÃO',
-    commissionBodyPre: 'Quando um agente ou humano compra sua skill por $X.XX, o MarketNow fica com ',
+    commissionBodyPre: 'Quando você vende uma skill premium, o MarketNow fica com ',
     commissionBodyComm: '20%',
     commissionBodyMid: ' e você recebe ',
     commissionBodySeller: '80%',
-    commissionBodyPost: '. Pagamentos são processados mensalmente via Stripe Connect. Exemplo: skill precificada em $2.99 → você recebe $2.39 por venda.',
+    commissionBodyPost: '. Publicar é grátis — nenhum pagamento é exigido para publicar.',
     step2Title: 'METADATA DA SKILL',
     step2Desc: 'Revise e complete os detalhes da skill. Eles serão mostrados a compradores e agentes.',
     form: {
@@ -337,8 +337,8 @@ const CONTENT = {
     limitReached: '你已达到计划上限。升级以提交更多 skills。',
     upgradeBtn: '升级 →',
     paywallTitle: '升级以提交更多',
-    paywallBody: '你已达到 FREE 级别的 {n} 个 skills 上限。升级到 PRO（$9.99/月）可发布最多 25 个 skills —— 或为每个额外 skill 支付 $0.50/月。',
-    upgradeProBtn: '升级到 PRO ($9.99/月)',
+    paywallBody: '免费发布无上限 —— 你永远不会遇到付费墙（目前已发布 {n} 个 skills）。',
+    upgradeProBtn: '查看 PRO 权益',
     maybeLaterBtn: '以后再说',
     step1Title: '仓库 URL',
     step1Desc: '粘贴你 MCP server 的公开 GitHub URL。Sentinel L1 会扫描：README、包清单、许可证、硬编码 secrets 以及恶意模式。',
@@ -355,11 +355,11 @@ const CONTENT = {
     updatedUnknown: '未知',
     scanFailedMsg: '你的 skill 未通过 Sentinel L1 最低门槛 (4/6)。请修复失败的检查项后重试。',
     commissionTitle: '佣金如何运作',
-    commissionBodyPre: '当 agent 或人类以 $X.XX 购买你的 skill 时，MarketNow 保留 ',
+    commissionBodyPre: '当你出售高级技能时，MarketNow 保留 ',
     commissionBodyComm: '20%',
     commissionBodyMid: '，你获得 ',
     commissionBodySeller: '80%',
-    commissionBodyPost: '。付款通过 Stripe Connect 每月处理。示例：定价 $2.99 的 skill → 每笔销售你获得 $2.39。',
+    commissionBodyPost: '。上架免费 —— 发布无需任何付款。',
     step2Title: 'SKILL 元数据',
     step2Desc: '审阅并补全 skill 详情。这些信息会展示给买家和 agents。',
     form: {
@@ -430,8 +430,8 @@ const CONTENT = {
     limitReached: 'Vous avez atteint la limite de votre plan. Passez à un plan supérieur pour soumettre plus de skills.',
     upgradeBtn: 'METTRE À NIVEAU →',
     paywallTitle: 'METTRE À NIVEAU POUR SOUMETTRE PLUS',
-    paywallBody: 'Vous avez atteint la limite du niveau FREE de {n} skills. Passez à PRO pour 9,99 $/mois et publiez jusqu\'à 25 skills — ou payez 0,50 $/mois par skill supplémentaire.',
-    upgradeProBtn: 'PASSER À PRO (9,99 $/mois)',
+    paywallBody: 'La publication est gratuite et illimitée — aucun paywall ({n} skills publiées à ce jour).',
+    upgradeProBtn: 'VOIR LES BENEFITS PRO',
     maybeLaterBtn: 'PEUT-ÊTRE PLUS TARD',
     step1Title: 'URL DU DÉPÔT',
     step1Desc: 'Collez l\'URL GitHub publique de votre MCP server. Sentinel L1 va scanner : README, manifeste de paquet, licence, secrets codés en dur et motifs malveillants.',
@@ -448,11 +448,11 @@ const CONTENT = {
     updatedUnknown: 'inconnu',
     scanFailedMsg: 'Votre skill n\'a pas atteint le seuil minimum de Sentinel L1 (4/6). Corrigez les checks échoués et réessayez.',
     commissionTitle: 'COMMENT FONCTIONNE LA COMMISSION',
-    commissionBodyPre: 'Quand un agent ou un humain achète votre skill pour $X.XX, MarketNow garde ',
+    commissionBodyPre: 'Quand vous vendez une skill premium, MarketNow garde ',
     commissionBodyComm: '20 %',
     commissionBodyMid: ' et vous recevez ',
     commissionBodySeller: '80 %',
-    commissionBodyPost: '. Les paiements sont traités mensuellement via Stripe Connect. Exemple : skill au prix de $2.99 → vous recevez $2.39 par vente.',
+    commissionBodyPost: ". La publication est gratuite — aucun paiement n'est requis pour publier.",
     step2Title: 'MÉTADONNÉES DE LA SKILL',
     step2Desc: 'Vérifiez et complétez les détails de la skill. Ils seront affichés aux acheteurs et aux agents.',
     form: {
@@ -660,7 +660,7 @@ export default function Submit() {
           slug: repoData.name.toLowerCase().replace(/[^a-z0-9-]/g, '-'),
           description: repoData.description || '',
           author: owner,
-          install: `npx -y @marketnow/install ${repoData.name.toLowerCase().replace(/[^a-z0-9-]/g, '-')}`,
+          install: `npx -y marketnow-install-stack ${repoData.name.toLowerCase().replace(/[^a-z0-9-]/g, '-')}`,
         }));
         setStep(2);
       }
@@ -844,7 +844,7 @@ If all checks pass, merge this skill into \`public/api/skills_index.json\` via P
               <div className="text-5xl mb-4 text-center">🚀</div>
               <h2 className="text-2xl font-bold text-white text-center mb-2">{c.paywallTitle}</h2>
               <p className="text-zinc-400 text-center text-sm mb-6">
-                {fmt(c.paywallBody, { n: TIERS.FREE.maxSkills })}
+                {c.paywallBody}
               </p>
               <div className="space-y-3">
                 <Link
