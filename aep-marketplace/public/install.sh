@@ -3,35 +3,37 @@
 # Usage: curl -fsSL https://www.marketnow.site/install.sh | bash
 #
 # What it does:
-#   1. Detects OS (macOS / Linux) and architecture (x64 / arm64)
-#   2. Downloads the appropriate binary from the GitHub releases page
-#   3. Verifies the SHA-256 checksum against the published release manifest
-#   4. Verifies the Sigstore signature (if cosign is available)
-#   5. Installs to /usr/local/bin/uta-verify (may require sudo)
+#   1. Verifies Node.js + npm are available (the npm registry is the live
+#      release channel: every MarketNow package is published there and
+#      mirrored by jsDelivr/unpkg automatically)
+#   2. Installs @marketnow/uta-verify globally (the `uta-verify` CLI)
+#   3. Verifies the installed CLI actually runs before reporting success
+#   4. Prints the optional next steps (MCP server, ATC SDK)
+#
+# Binary release channel note: a cosign-verified prebuilt-binary channel
+# (GitHub Releases + SHA-256 manifest) is planned; the npm channel is the
+# live, working path today.
 #
 # Exit codes:
 #   0  success
 #   1  general error
-#   2  unsupported OS / architecture
-#   3  checksum mismatch (potential tampering)
-#   4  signature verification failed
-#   5  network error
-#   6  permission denied (try with sudo)
+#   2  Node.js / npm not available
+#   5  network error (npm registry unreachable)
+#   6  permission denied on global install (try sudo, or use npx)
 #
-# Repository: https://github.com/alicelabs-llc/universal-trust-adapter
-# License: AL-1.0 (AliceLabs Source-Available License v1.0)
+# Repository: https://github.com/alicelabs-llc/MARKETNOW
+# Protocol:  https://github.com/alicelabs-llc/universal-trust-adapter
+# License: MIT OR Apache-2.0 (packages); AL-1.0 (engine core)
 
 set -euo pipefail
 
 # ============================================================================
 # Configuration
 # ============================================================================
-REPO="alicelabs-llc/universal-trust-adapter"
-GITHUB_API="https://api.github.com/repos/${REPO}"
-DOWNLOAD_BASE="https://github.com/${REPO}/releases/download"
-INSTALL_PATH="/usr/local/bin/uta-verify"
-TEMP_DIR="${TMPDIR:-/tmp}/uta-install-$$"
-trap 'rm -rf "$TEMP_DIR"' EXIT
+NPM_REGISTRY="https://registry.npmjs.org"
+CLI_PACKAGE="@marketnow/uta-verify"
+MCP_PACKAGE="marketnow-mcp"
+SDK_PACKAGE="agent-trust-card"
 
 # Colors for output
 if [ -t 1 ]; then
@@ -40,7 +42,7 @@ if [ -t 1 ]; then
   YELLOW='\033[0;33m'
   BLUE='\033[0;34m'
   BOLD='\033[1m'
-  NC='\033[0m' # No Color
+  NC='\033[0m'
 else
   RED='' GREEN='' YELLOW='' BLUE='' BOLD='' NC=''
 fi
@@ -51,226 +53,108 @@ warn() { echo -e "${YELLOW}!${NC} $*" >&2; }
 err()  { echo -e "${RED}✗${NC} $*" >&2; }
 
 # ============================================================================
-# Step 1: Detect platform
+# Step 1: Verify prerequisites (Node.js + npm)
 # ============================================================================
-detect_platform() {
-  local os arch
+check_prerequisites() {
+  log "Checking prerequisites..."
 
-  os="$(uname -s)"
-  arch="$(uname -m)"
+  if ! command -v node >/dev/null 2>&1; then
+    err "Node.js is required but not installed."
+    err "  Install it from https://nodejs.org (LTS) or your package manager:"
+    err "    macOS:  brew install node"
+    err "    Linux:  sudo apt install nodejs npm   (or use nvm)"
+    exit 2
+  fi
+  ok "Node.js $(node --version)"
 
-  case "$os" in
-    Darwin) os="darwin" ;;
-    Linux)  os="linux" ;;
-    *) err "Unsupported OS: $os (only macOS and Linux are supported)"; exit 2 ;;
-  esac
+  if ! command -v npm >/dev/null 2>&1; then
+    err "npm is required but not installed (it ships with Node.js)."
+    err "  Re-install Node.js from https://nodejs.org"
+    exit 2
+  fi
+  ok "npm $(npm --version)"
 
-  case "$arch" in
-    x86_64|amd64) arch="amd64" ;;
-    arm64|aarch64) arch="arm64" ;;
-    *) err "Unsupported architecture: $arch (only amd64 and arm64 are supported)"; exit 2 ;;
-  esac
-
-  PLATFORM="${os}-${arch}"
-  ok "Detected platform: $PLATFORM"
-}
-
-# ============================================================================
-# Step 2: Fetch latest release info from GitHub API
-# ============================================================================
-fetch_release_info() {
-  log "Fetching latest release information from GitHub..."
-  
-  if ! RELEASE_JSON="$(curl -fsSL \
-    -H "Accept: application/vnd.github+json" \
-    -H "User-Agent: uta-installer/1.0" \
-    "${GITHUB_API}/releases/latest" 2>&1)"; then
-    err "Failed to fetch release info from GitHub"
-    err "Response: $RELEASE_JSON"
+  if ! curl -fsSL --max-time 10 "$NPM_REGISTRY/$MCP_PACKAGE" -o /dev/null 2>/dev/null; then
+    err "npm registry unreachable ($NPM_REGISTRY)."
+    err "  Check your network connection and try again."
     exit 5
   fi
-
-  # Extract tag_name (e.g. "v1.0.1")
-  RELEASE_TAG="$(echo "$RELEASE_JSON" | python3 -c "
-import json, sys
-d = json.load(sys.stdin)
-print(d.get('tag_name', ''))
-" 2>/dev/null || echo "")"
-
-  if [ -z "$RELEASE_TAG" ]; then
-    err "Could not parse release tag from GitHub API response"
-    exit 5
-  fi
-
-  ok "Latest release: $RELEASE_TAG"
+  ok "npm registry reachable"
 }
 
 # ============================================================================
-# Step 3: Download binary and checksum
+# Step 2: Install the uta-verify CLI (global)
 # ============================================================================
-download_files() {
-  mkdir -p "$TEMP_DIR"
+install_cli() {
+  log "Installing ${BOLD}${CLI_PACKAGE}${NC} (the uta-verify CLI)..."
 
-  local binary_name="uta-verify-${PLATFORM}"
-  local checksum_name="checksums.txt"
-  local sig_name="checksums.txt.sig"
-
-  BINARY_PATH="${TEMP_DIR}/${binary_name}"
-  CHECKSUM_PATH="${TEMP_DIR}/${checksum_name}"
-  SIG_PATH="${TEMP_DIR}/${sig_name}"
-
-  log "Downloading ${binary_name}..."
-  if ! curl -fsSL \
-    -o "$BINARY_PATH" \
-    "${DOWNLOAD_BASE}/${RELEASE_TAG}/${binary_name}"; then
-    err "Failed to download binary"
-    exit 5
-  fi
-  ok "Downloaded binary: $(du -h "$BINARY_PATH" | cut -f1)"
-
-  log "Downloading checksum file..."
-  if ! curl -fsSL \
-    -o "$CHECKSUM_PATH" \
-    "${DOWNLOAD_BASE}/${RELEASE_TAG}/${checksum_name}"; then
-    warn "Checksum file not found in release (older release may not have it)"
-    SKIP_CHECKSUM=1
-  else
-    ok "Downloaded checksums.txt"
-    SKIP_CHECKSUM=0
-  fi
-
-  log "Downloading signature file..."
-  if ! curl -fsSL \
-    -o "$SIG_PATH" \
-    "${DOWNLOAD_BASE}/${RELEASE_TAG}/${sig_name}"; then
-    warn "Signature file not found in release (older release may not have it)"
-    SKIP_SIG=1
-  else
-    ok "Downloaded checksums.txt.sig"
-    SKIP_SIG=0
-  fi
-}
-
-# ============================================================================
-# Step 4: Verify checksum
-# ============================================================================
-verify_checksum() {
-  if [ "${SKIP_CHECKSUM:-1}" = "1" ]; then
-    warn "Skipping checksum verification (no checksums.txt in release)"
-    return 0
-  fi
-
-  log "Verifying SHA-256 checksum..."
-  local expected_hash actual_hash binary_basename
-  binary_basename="$(basename "$BINARY_PATH")"
-
-  expected_hash="$(grep "${binary_basename}" "$CHECKSUM_PATH" | awk '{print $1}')"
-  if [ -z "$expected_hash" ]; then
-    err "Binary not found in checksums.txt: $binary_basename"
-    exit 3
-  fi
-
-  actual_hash="$(sha256sum "$BINARY_PATH" | awk '{print $1}')"
-
-  if [ "$expected_hash" != "$actual_hash" ]; then
-    err "Checksum mismatch!"
-    err "  Expected: $expected_hash"
-    err "  Actual:   $actual_hash"
-    err "This may indicate tampering. DO NOT proceed."
-    exit 3
-  fi
-  ok "Checksum verified: $actual_hash"
-}
-
-# ============================================================================
-# Step 5: Verify signature (if cosign is available)
-# ============================================================================
-verify_signature() {
-  if [ "${SKIP_SIG:-1}" = "1" ]; then
-    warn "Skipping signature verification (no checksums.txt.sig in release)"
-    return 0
-  fi
-
-  if ! command -v cosign >/dev/null 2>&1; then
-    warn "cosign not installed — skipping signature verification"
-    warn "To verify Sigstore signature, install cosign:"
-    warn "  https://docs.sigstore.dev/cosign/installation"
-    return 0
-  fi
-
-  log "Verifying Sigstore signature..."
-  if cosign verify-blob \
-    --certificate-identity "https://github.com/${REPO}/.github/workflows/release.yml@refs/tags/${RELEASE_TAG}" \
-    --certificate-oidc-issuer "https://token.actions.githubusercontent.com" \
-    --signature "$SIG_PATH" \
-    --certificate "$CHECKSUM_PATH.cert" \
-    "$CHECKSUM_PATH" 2>/dev/null; then
-    ok "Sigstore signature verified (keyless signing via GitHub Actions OIDC)"
-  else
-    err "Signature verification failed — release may be tampered with"
-    exit 4
-  fi
-}
-
-# ============================================================================
-# Step 6: Install binary
-# ============================================================================
-install_binary() {
-  log "Installing to $INSTALL_PATH..."
-
-  chmod +x "$BINARY_PATH"
-
-  if [ -w "/usr/local/bin" ]; then
-    mv "$BINARY_PATH" "$INSTALL_PATH"
-  else
-    warn "/usr/local/bin is not writable — retrying with sudo"
-    if ! sudo mv "$BINARY_PATH" "$INSTALL_PATH"; then
-      err "Permission denied. Try running this installer with sudo:"
-      err "  curl -fsSL https://www.marketnow.site/install.sh | sudo bash"
+  if ! npm install -g "$CLI_PACKAGE" 2>/tmp/uta-npm-err.$$; then
+    local npm_err
+    npm_err="$(cat /tmp/uta-npm-err.$$ 2>/dev/null || true)"
+    rm -f /tmp/uta-npm-err.$$
+    if echo "$npm_err" | grep -q "EACCES\|permission"; then
+      err "Permission denied on the global npm prefix."
+      err "  Either re-run with sudo:"
+      err "    curl -fsSL https://www.marketnow.site/install.sh | sudo bash"
+      err "  Or skip the global install and run on demand:"
+      err "    npx -y $CLI_PACKAGE --help"
       exit 6
     fi
+    err "npm install failed: $npm_err"
+    exit 1
   fi
-  ok "Installed: $INSTALL_PATH"
+  rm -f /tmp/uta-npm-err.$$
+  ok "Installed $CLI_PACKAGE"
 }
 
 # ============================================================================
-# Step 7: Verify install
+# Step 3: Verify the CLI actually runs
 # ============================================================================
 verify_install() {
-  log "Verifying install..."
-  if ! "$INSTALL_PATH" --version 2>/dev/null; then
-    warn "Could not run uta-verify --version (binary may need different invocation)"
-    return 0
+  log "Verifying the install..."
+  if ! command -v uta-verify >/dev/null 2>&1; then
+    warn "uta-verify is not on PATH yet (new global bin dir not picked up by this shell)."
+    warn "  Open a NEW terminal, or add \$(npm prefix -g)/bin to your PATH."
+  elif ! uta-verify --help >/dev/null 2>&1; then
+    err "uta-verify was installed but failed to run:"
+    uta-verify --help >&2 || true
+    exit 1
+  else
+    ok "uta-verify runs"
   fi
-  ok "uta-verify installed successfully"
-  echo
-  echo -e "${BOLD}Usage:${NC}"
-  echo "  uta-verify --help              Show help"
-  echo "  uta-verify <card.json>         Verify an ATC card"
-  echo "  uta-verify --auto <payload>     Auto-detect format and verify"
-  echo
-  echo -e "${BOLD}Documentation:${NC} https://www.marketnow.site/uta/docs"
-  echo -e "${BOLD}Repository:${NC}    https://github.com/${REPO}"
-  echo -e "${BOLD}Status:${NC}       https://status.marketnow.site"
+}
+
+# ============================================================================
+# Step 4: Next steps
+# ============================================================================
+print_next_steps() {
+  echo "" >&2
+  echo -e "${BOLD}Installed:${NC}" >&2
+  echo -e "  uta-verify        CLI credential verifier (ATC v3, JWT, VC, A2A, EAT, ZTA, MCP)" >&2
+  echo "" >&2
+  echo -e "${BOLD}Optional (not installed):${NC}" >&2
+  echo -e "  npm i -g $MCP_PACKAGE     # MCP server for Claude Desktop / Cursor / Cline" >&2
+  echo -e "  npm i    $SDK_PACKAGE     # ATC SDK (issue, verify, inspect trust cards)" >&2
+  echo -e "  npx -y @marketnow/uta-conformance   # run the 14-vector conformance suite" >&2
+  echo "" >&2
+  echo -e "${BOLD}Try it:${NC}" >&2
+  echo -e "  uta-verify card.json --ca-key ca.pem" >&2
+  echo "" >&2
+  echo -e "Docs: https://www.marketnow.site/uta/docs" >&2
+  echo -e "Status: https://status.marketnow.site" >&2
 }
 
 # ============================================================================
 # Main
 # ============================================================================
 main() {
-  echo
-  echo -e "${BOLD}MarketNow Universal Trust Adapter (UTA) — Installer${NC}"
-  echo "Repo: https://github.com/${REPO}"
-  echo "License: AL-1.0 (AliceLabs Source-Available License)"
-  echo
-
-  detect_platform
-  fetch_release_info
-  download_files
-  verify_checksum
-  verify_signature
-  install_binary
+  echo -e "${BOLD}MarketNow UTA installer${NC} (npm channel)" >&2
+  echo "" >&2
+  check_prerequisites
+  install_cli
   verify_install
+  print_next_steps
+  echo -e "${GREEN}Done.${NC}" >&2
 }
 
 main "$@"

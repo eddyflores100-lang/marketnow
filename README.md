@@ -79,7 +79,7 @@ curl https://marketnow.site/api/trust-score?skillId=mn-gen-00003
 | gVisor sandbox runs | 257 |
 | Agent Trust Cards issued | 57 |
 | CA algorithm | Ed25519 (RFC 8032) |
-| npm packages | marketnow-mcp v1.9.0, marketnow-install-stack v1.1.0 |
+| npm packages | marketnow-mcp v1.14.1, marketnow-install-stack v1.2.1, agent-trust-card v1.4.1 |
 
 ### What Sentinel caught
 
@@ -118,11 +118,11 @@ curl -X POST https://marketnow.site/api/interceptor \
   -d '{"jsonrpc":"2.0","method":"tools/call","params":{"name":"read_file","arguments":{"path":"/.env"}}}'
 ```
 
-## MCP Server v1.9.0 — Agent Contract
+## MCP Server v1.14.1 — Agent Contract
 
-The npm package `marketnow-mcp@1.9.0` exposes **12 tools, all under the `marketnow_*` namespace** so Claude Desktop, Cursor, Cline, LangChain, and LlamaIndex can disambiguate them at tool-choice time.
+The npm package `marketnow-mcp@1.14.1` exposes **15 tools, all under the `marketnow_*` namespace** so Claude Desktop, Cursor, Cline, LangChain, and LlamaIndex can disambiguate them at tool-choice time.
 
-The four golden rules enforced (full audit in [`mcp-server/AUDIT.md`](./mcp-server/AUDIT.md)):
+The four golden rules enforced (full audit in [`mcp-server/AUDIT.md`](https://github.com/alicelabs-llc/MARKETNOW/blob/master/mcp-server/AUDIT.md) — product code lives in the MARKETNOW repo since the 2026-09-26 split):
 
 | # | Rule | What it means |
 |---|------|---------------|
