@@ -1,0 +1,67 @@
+# MarketNow — Deploy producción Vercel (git source)
+# =================================================================
+# Reemplaza el pipeline manual de file-upload (la raíz histórica del
+# drift producción-vs-repo): cada push que toca aep-marketplace/ dispara
+# un deployment PRODUCCIÓN construido por Vercel desde git master
+# (proyecto marketnow-uta, rootDirectory aep-marketplace).
+# El cron de 6h garantiza frescura de datos aunque un commit de datos
+# no toque aep-marketplace/.
+#
+# Requiere el secret VERCEL_TOKEN (token de la API de Vercel) en este repo.
+# Límite del plan Hobby: 12 funciones serverless por deployment — el set
+# vive documentado en aep-marketplace/.vercelignore.
+name: Deploy to Vercel (production)
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'aep-marketplace/**'
+      - '.github/workflows/vercel-deploy.yml'
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: vercel-production-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Trigger production deployment (git master → marketnow-uta)
+        id: trigger
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          resp=$(curl -sS -X POST \
+            "https://api.vercel.com/v13/deployments?teamId=team_DmoZusxMIKcqJhgRBmQ8B3dK&skipAutoDetectionConfirmation=1" \
+            -H "Authorization: Bearer $VERCEL_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d '{"name":"marketnow-uta","target":"production","gitSource":{"type":"github","repo":"eddyflores100-lang/marketnow","repoId":1372516297,"ref":"master"}}')
+          did=$(echo "$resp" | jq -r '.id // empty')
+          if [ -z "$did" ]; then echo "TRIGGER FAILED:"; echo "$resp" | jq . 2>/dev/null || echo "$resp"; exit 1; fi
+          echo "did=$did" >> "$GITHUB_OUTPUT"
+          echo "deployment $did triggered"
+
+      - name: Wait for READY
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          did="${{ steps.trigger.outputs.did }}"
+          for i in $(seq 1 40); do
+            sleep 20
+            state=$(curl -sS "https://api.vercel.com/v13/deployments/$did?teamId=team_DmoZusxMIKcqJhgRBmQ8B3dK" \
+              -H "Authorization: Bearer $VERCEL_TOKEN" | jq -r '.readyState // "UNKNOWN"')
+            echo "[${i}] $state"
+            case "$state" in
+              READY) echo "https://www.marketnow.site live con $did"; exit 0 ;;
+              ERROR|CANCELED) exit 1 ;;
+            esac
+          done
+          echo "timeout esperando READY"; exit 1

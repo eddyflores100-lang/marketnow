@@ -1131,20 +1131,23 @@ export default async function handler(req, res) {
         });
       }
 
-      // ── list / revocation-list (default GET): list all ATCs ──
+      // ── list / revocation-list / ledger (default GET): list all ATCs ──
       // Security fix (Aug 12, 2026): unrecognized actions now return 404
       // instead of falling through to the default listing.
       // Fix (Aug 13, 2026): 'revocation-list' is treated as an alias for the
       // default listing — it was previously caught by the 404 handler because
       // it was never an explicit action handler, just the default response.
-      if (action && action !== '' && action !== 'list' && action !== 'revocation-list') {
+      // Fix (Sep 26, 2026): 'ledger' added as alias — the npm package
+      // (marketnow-mcp, verify_trust tool description) documents
+      // /api/atc?action=ledger as the live CRL/ledger source.
+      if (action && action !== '' && action !== 'list' && action !== 'revocation-list' && action !== 'ledger') {
         // If an action was specified but none of the handlers above matched,
         // return 404 so the caller knows the action doesn't exist.
         return res.status(404).json({
           error: 'unknown_action',
           action,
-          message: `Unknown action '${action}'. Valid actions: verify, envelope, ca-key, spec, verify-receipt, verify-vibe-receipt, trust, translate, resign-all, list, revocation-list.`,
-          valid_actions: ['verify', 'envelope', 'ca-key', 'spec', 'verify-receipt', 'verify-vibe-receipt', 'trust', 'translate', 'resign-all', 'list', 'revocation-list'],
+          message: `Unknown action '${action}'. Valid actions: verify, envelope, ca-key, spec, verify-receipt, verify-vibe-receipt, trust, translate, resign-all, list, ledger, revocation-list.`,
+          valid_actions: ['verify', 'envelope', 'ca-key', 'spec', 'verify-receipt', 'verify-vibe-receipt', 'trust', 'translate', 'resign-all', 'list', 'ledger', 'revocation-list'],
         });
       }
 
