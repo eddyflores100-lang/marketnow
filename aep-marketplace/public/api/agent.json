@@ -58,8 +58,8 @@
         ],
         "tools_count": 9,
         "package_tools_count": 15,
-        "package": "marketnow-mcp@1.14.1 (npm)",
-        "tools_note": "The remote endpoint (marketnow.site/api/mcp) exposes 9 public discovery/trust tools. The npm package marketnow-mcp@1.14.1 exposes 15 LOCAL trust/security tools (verify_trust, verify_receipt, check_revocation, fingerprint_tool, mint_referral, ...) that run client-side against local credentials and the public APIs. Remote discovery surface and local package surface are different by design."
+        "package": "marketnow-mcp@1.15.0 (npm)",
+        "tools_note": "The remote endpoint (marketnow.site/api/mcp) exposes 9 public discovery/trust tools. The npm package marketnow-mcp@1.15.0 exposes 15 LOCAL trust/security tools (verify_trust, verify_receipt, check_revocation, fingerprint_tool, mint_referral, ...) that run client-side against local credentials and the public APIs. Remote discovery surface and local package surface are different by design."
       },
       "a2a": {
         "version": "1.0",
@@ -170,12 +170,12 @@
   "metrics": {
     "skills_indexed": 68388,
     "security_checks_performed": 766211,
-    "npm_versions_published": 20,
-    "npm_latest_version": "1.14.1",
+    "npm_versions_published": 25,
+    "npm_latest_version": "1.15.0",
     "npm_first_release_date": "2026-06-29",
-    "npm_latest_release_date": "2026-09-25",
+    "npm_latest_release_date": "2026-09-26",
     "github_org_created_at": "2026-03-30",
-    "as_of": "2026-09-25",
+    "as_of": "2026-09-26",
     "source": "live API: https://marketnow.site/api/skills-lite.json + npm registry",
     "skills_tracked_all_sources": 132737,
     "security_checks_methodology": "766,211 total = 683,880 L1 (10 L1 checks × 68,388 entries) + 82,331 L2 (29 L2 rules × 2,839 tarballs; top 2,868 npm targets, 99% completion)",
@@ -192,7 +192,7 @@
       "total": 766211
     },
     "npm_packages_published": 14,
-    "npm_monthly_downloads": 9585
+    "npm_monthly_downloads": 8707
   },
   "pricing_source_of_truth": "agent.json is the canonical pricing source. Landing page and README must match. MarketNow does NOT sell skills to buyers — buyers install all 68,388 skills free. Revenue comes from sellers who subscribe to Sentinel (PRO $9.99/mo, ENTERPRISE $49.99/mo) and 20% commission on seller sales.",
   "buyer_pricing": {

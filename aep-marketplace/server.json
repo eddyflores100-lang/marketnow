@@ -1,38 +1,37 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.edgarfloresguerra2011-a11y/marketnow-mcp",
+  "name": "io.github.alicelabs-llc/marketnow",
   "title": "MarketNow — Trust Layer for Agent Commerce",
-  "description": "Trust layer for agent commerce. 8,760 MCP-compatible skills with Sentinel L2 security audits (L1.5 + L1.6 + L2 v2.0 + L2.5 gVisor), x402 payments (HTTP 402 + USDC on Base), and AP2 delegated mandates. Human-in-the-loop by default. Maintained by AliceLabs LLC (Wyoming, USA, 2026).",
-  "version": "1.3.1",
-  "license": "MNNC-1.0",
-  "homepage": "https://marketnow.site",
+  "description": "Search 68,388 indexed MCP servers, install-risk scoring and Ed25519-signed Agent Trust Cards.",
   "repository": {
-    "url": "https://github.com/edgarfloresguerra2011-a11y/marketnow",
+    "id": "1359597749",
+    "url": "https://github.com/alicelabs-llc/MARKETNOW",
     "source": "github"
   },
-  "remotes": [],
-  "tools": [
+  "version": "1.15.0",
+  "websiteUrl": "https://www.marketnow.site",
+  "remotes": [
     {
-      "name": "search_skills",
-      "description": "Search 8,760 MCP skills by query, category, price, language, or sentinel score"
-    },
-    {
-      "name": "get_skill",
-      "description": "Get full details: system prompt, sentinel report, setup, install command"
-    },
-    {
-      "name": "list_categories",
-      "description": "List all 58 skill categories with counts"
-    },
-    {
-      "name": "get_manifest",
-      "description": "Get marketplace metadata (live stats)"
-    },
-    {
-      "name": "get_install_command",
-      "description": "Get npx install command for a skill"
+      "type": "streamable-http",
+      "url": "https://www.marketnow.site/api/mcp"
     }
   ],
-  "install_hint": "npx -y marketnow-mcp",
-  "transport_note": "stdio only (npx -y marketnow-mcp). HTTP/SSE transport is on the roadmap — see https://marketnow.site/trust. The previously-declared remote URL https://marketnow.site/api/mcp was never deployed and has been removed."
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "marketnow-mcp",
+      "version": "1.15.0",
+      "transport": {
+        "type": "stdio"
+      }
+    },
+    {
+      "registryType": "docker",
+      "identifier": "ghcr.io/alicelabs-llc/marketnow-mcp",
+      "version": "1.15.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
 }

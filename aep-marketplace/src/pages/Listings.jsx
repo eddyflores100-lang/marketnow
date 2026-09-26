@@ -63,7 +63,7 @@ const CONTENT = {
         name: 'npm (marketnow-mcp)',
         url: 'https://www.npmjs.com/package/marketnow-mcp',
         status: 'updated',
-        version: '1.14.1',
+        version: '1.15.0',
         lastChecked: '2026-09-26',
         whatWeFixed: [
           'v1.3.0: description said "8,535+ verified skills" → v1.4.0: "8,560 MCP-compatible skills"',
@@ -73,9 +73,10 @@ const CONTENT = {
           'v1.4.0: added "trust-layer" and "aliceLabs" keywords',
           'License field: MIT → MNNC-1.0 (corrected in v1.4.0 source)',
           'v1.14.1: license MNNC-1.0 → dual MIT OR Apache-2.0 (open-core relicensing)',
+          'v1.15.0: repository field repaired → github.com/alicelabs-llc/MARKETNOW; tools check_revocation + fingerprint_tool restored (15 tools, same as npm 1.14.x)',
         ],
         notes:
-          'npm package v1.14.1 published 2026-09-20. Old versions are immutable in the registry — they cannot be changed. v1.14.1 is the current canonical version. Mirrors propagate within 24h.',
+          'npm package v1.15.0 published 2026-09-26 (repository field now points to alicelabs-llc/MARKETNOW). Old versions are immutable in the registry — they cannot be changed. v1.15.0 is the current canonical version. Mirrors propagate within 24h.',
       },
       {
         name: 'Smithery',
@@ -213,7 +214,7 @@ const CONTENT = {
         name: 'npm (marketnow-mcp)',
         url: 'https://www.npmjs.com/package/marketnow-mcp',
         status: 'updated',
-        version: '1.14.1',
+        version: '1.15.0',
         lastChecked: '2026-09-26',
         whatWeFixed: [
           'v1.3.0: la descripción decía "8,535+ verified skills" → v1.4.0: "8,560 MCP-compatible skills"',
@@ -223,9 +224,10 @@ const CONTENT = {
           'v1.4.0: se añadieron las keywords "trust-layer" y "aliceLabs"',
           'Campo de licencia: MIT → MNNC-1.0 (corregido en el código fuente v1.4.0)',
           'v1.14.1: licencia MNNC-1.0 → dual MIT OR Apache-2.0 ( relicensing open-core)',
+          'v1.15.0: campo repository reparado → github.com/alicelabs-llc/MARKETNOW; tools check_revocation + fingerprint_tool restauradas (15 tools, igual que npm 1.14.x)',
         ],
         notes:
-          'Paquete npm v1.14.1 publicado el 2026-09-20. Las versiones antiguas son inmutables en el registro — no pueden cambiarse. v1.14.1 es la versión canónica actual. Los mirrors se propagan en 24h.',
+          'Paquete npm v1.15.0 publicado el 2026-09-26 (el campo repository ahora apunta a alicelabs-llc/MARKETNOW). Las versiones antiguas son inmutables en el registro — no pueden cambiarse. v1.15.0 es la versión canónica actual. Los mirrors se propagan en 24h.',
       },
       {
         name: 'Smithery',
@@ -363,7 +365,7 @@ const CONTENT = {
         name: 'npm (marketnow-mcp)',
         url: 'https://www.npmjs.com/package/marketnow-mcp',
         status: 'updated',
-        version: '1.14.1',
+        version: '1.15.0',
         lastChecked: '2026-09-26',
         whatWeFixed: [
           'v1.3.0: a descrição dizia "8,535+ verified skills" → v1.4.0: "8,560 MCP-compatible skills"',
@@ -373,9 +375,10 @@ const CONTENT = {
           'v1.4.0: adicionadas as keywords "trust-layer" e "aliceLabs"',
           'Campo de licença: MIT → MNNC-1.0 (corrigido no código-fonte v1.4.0)',
           'v1.14.1: licença MNNC-1.0 → dupla MIT OR Apache-2.0 (relicensing open-core)',
+          'v1.15.0: campo repository reparado → github.com/alicelabs-llc/MARKETNOW; tools check_revocation + fingerprint_tool restauradas (15 tools, igual ao npm 1.14.x)',
         ],
         notes:
-          'Pacote npm v1.14.1 publicado em 2026-09-20. Versões antigas são imutáveis no registro — não podem ser alteradas. v1.14.1 é a versão canônica atual. Mirrors propagam em 24h.',
+          'Pacote npm v1.15.0 publicado em 2026-09-26 (o campo repository agora aponta para alicelabs-llc/MARKETNOW). Versões antigas são imutáveis no registro — não podem ser alteradas. v1.15.0 é a versão canônica atual. Mirrors propagam em 24h.',
       },
       {
         name: 'Smithery',
@@ -511,7 +514,7 @@ const CONTENT = {
         name: 'npm (marketnow-mcp)',
         url: 'https://www.npmjs.com/package/marketnow-mcp',
         status: 'updated',
-        version: '1.14.1',
+        version: '1.15.0',
         lastChecked: '2026-09-26',
         whatWeFixed: [
           'v1.3.0：描述中曾写为 "8,535+ verified skills" → v1.4.0："8,560 MCP-compatible skills"',
@@ -521,9 +524,10 @@ const CONTENT = {
           'v1.4.0：添加了 "trust-layer" 与 "aliceLabs" 关键词',
           'License 字段：MIT → MNNC-1.0（已在 v1.4.0 源码中更正）',
           'v1.14.1：许可证 MNNC-1.0 → 双许可 MIT OR Apache-2.0（open-core 重许可）',
+          'v1.15.0：repository 字段修复 → github.com/alicelabs-llc/MARKETNOW；恢复 check_revocation + fingerprint_tool（15 个工具，与 npm 1.14.x 一致）',
         ],
         notes:
-          'npm 包 v1.14.1 发布于 2026-09-20。旧版本在 registry 中不可变 —— 无法更改。v1.14.1 是当前的权威版本。镜像在 24 小时内传播完成。',
+          'npm 包 v1.15.0 发布于 2026-09-26（repository 字段现指向 alicelabs-llc/MARKETNOW）。旧版本在 registry 中不可变 —— 无法更改。v1.15.0 是当前的权威版本。镜像在 24 小时内传播完成。',
       },
       {
         name: 'Smithery',
@@ -661,7 +665,7 @@ const CONTENT = {
         name: 'npm (marketnow-mcp)',
         url: 'https://www.npmjs.com/package/marketnow-mcp',
         status: 'updated',
-        version: '1.14.1',
+        version: '1.15.0',
         lastChecked: '2026-09-26',
         whatWeFixed: [
           'v1.3.0 : la description disait "8,535+ verified skills" → v1.4.0 : "8,560 MCP-compatible skills"',
@@ -671,9 +675,10 @@ const CONTENT = {
           'v1.4.0 : ajout des mots-clés "trust-layer" et "aliceLabs"',
           'Champ de licence : MIT → MNNC-1.0 (corrigé dans le code source v1.4.0)',
           'v1.14.1 : licence MNNC-1.0 → double MIT OR Apache-2.0 (relicensing open-core)',
+          'v1.15.0 : champ repository réparé → github.com/alicelabs-llc/MARKETNOW ; tools check_revocation + fingerprint_tool restaurées (15 tools, comme npm 1.14.x)',
         ],
         notes:
-          "Paquet npm v1.14.1 publié le 2026-09-20. Les anciennes versions sont immuables dans le registre — elles ne peuvent pas être modifiées. v1.14.1 est la version canonique actuelle. Les miroirs se propagent en 24h.",
+          "Paquet npm v1.15.0 publié le 2026-09-26 (le champ repository pointe désormais vers alicelabs-llc/MARKETNOW). Les anciennes versions sont immuables dans le registre — elles ne peuvent pas être modifiées. v1.15.0 est la version canonique actuelle. Les miroirs se propagent en 24h.",
       },
       {
         name: 'Smithery',

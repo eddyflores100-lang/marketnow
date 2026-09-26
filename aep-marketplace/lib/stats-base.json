@@ -1,10 +1,10 @@
 {
   "_stamp": {
-    "mcp_server_version": "1.14.1",
+    "mcp_server_version": "1.15.0",
     "atc_sdk_version": "1.4.1",
-    "npm_latest_version": "1.14.1",
-    "npm_latest_release_date": "2026-09-20",
-    "npm_versions_published": 24,
+    "npm_latest_version": "1.15.0",
+    "npm_latest_release_date": "2026-09-26",
+    "npm_versions_published": 25,
     "npm_downloads_last_month": 1839,
     "stamped_at": "2026-09-25T03:55:30Z",
     "note": "npm figures verified live against registry.npmjs.org on stamp date. mcp_server_version must match api/mcp.js SERVER_INFO (sync-versions.js).",
@@ -78,7 +78,7 @@
   "tools": {
     "mcp_server_tools_count": 15,
     "mcp_server_package": "marketnow-mcp",
-    "mcp_server_version": "1.14.1",
+    "mcp_server_version": "1.15.0",
     "atc_sdk_package": "agent-trust-card",
     "atc_sdk_version": "1.4.1"
   },
@@ -132,9 +132,9 @@
   },
   "distribution": {
     "npm_package": "marketnow-mcp",
-    "npm_latest_version": "1.14.1",
-    "npm_latest_release_date": "2026-09-20",
-    "npm_versions_published": 24,
+    "npm_latest_version": "1.15.0",
+    "npm_latest_release_date": "2026-09-26",
+    "npm_versions_published": 25,
     "npm_downloads_last_month": 1839,
     "npm_org": "alicelabs-llc",
     "packages_on_npm": 14

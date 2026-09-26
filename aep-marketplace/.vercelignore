@@ -1,0 +1,16 @@
+# Deploy set (Vercel CLI / CI desde aep-marketplace/): solo las funciones que
+# sirven rutas vivas. Las 8 funciones api/*.js excluidas abajo están superadas
+# por los rewrites de vercel.json — deployarlas ensombrecería el rewrite y
+# cambiaría el routing en vivo:
+#   /api/agent-purchase, /api/stripe-webhook, /api/mandates → /api/skills?_mode=commerce
+#   /api/search → /api/skills · /api/security → /api/skills?_mode=security
+#   /api/health → /api/health.json · /api/manifest → /api/manifest.json
+#   /api/agent-economy → sin referencias (404 hoy, excluida a propósito)
+api/agent-economy.js
+api/agent-purchase.js
+api/health.js
+api/manifest.js
+api/mandates.js
+api/search.js
+api/security.js
+api/stripe-webhook.js

@@ -58,7 +58,7 @@ npm install -g marketnow-mcp       # MCP server (15 trust tools; remote endpoint
 
 | Package | Version | Description | Monthly downloads |
 |---|---|---|---|
-| [`marketnow-mcp`](https://www.npmjs.com/package/marketnow-mcp) | 1.14.1 | MCP server with 15 trust tools (remote endpoint exposes 9) | 1,839 |
+| [`marketnow-mcp`](https://www.npmjs.com/package/marketnow-mcp) | 1.15.0 | MCP server with 15 trust tools (remote endpoint exposes 9) | 1,839 |
 | [`agent-trust-card`](https://www.npmjs.com/package/agent-trust-card) | 1.4.1 | ATC/1.0 SDK (issue, verify, inspect) | 878 |
 | [`marketnow-install-stack`](https://www.npmjs.com/package/marketnow-install-stack) | 1.2.1 | Multi-source installer | 577 |
 | [`@marketnow/uts`](https://www.npmjs.com/package/@marketnow/uts) | 2.0.3 | Universal Trust Schema | 576 |

@@ -2,7 +2,7 @@
   "$schema": "https://marketnow.site/.well-known/mcp.schema.json",
   "name": "marketnow",
   "description": "MarketNow — Trust layer for agent commerce. 68,388 index-certified MCP-compatible skills (132,737 total tracked). Sentinel L1 index certification on every entry, L2 deep-scan on top npm tarballs, x402 payments (HTTP 402 + USDC on Base), and AP2 delegated mandates. AliceLabs LLC Proprietary. Maintained by AliceLabs LLC (Wyoming, USA).",
-  "version": "1.14.1",
+  "version": "1.15.0",
   "homepage": "https://marketnow.site",
   "repository": "https://github.com/alicelabs-llc/marketnow",
   "npm_package": "marketnow-mcp",
@@ -142,5 +142,5 @@
     "remote_endpoint": 9,
     "npm_package": 15
   },
-  "tools_note": "The remote endpoint (marketnow.site/api/mcp) exposes 9 public discovery/trust tools. The npm package marketnow-mcp@1.14.1 exposes 15 LOCAL trust/security tools (verify_trust, verify_receipt, check_revocation, fingerprint_tool, mint_referral, ...) that run client-side against local credentials and the public APIs. Remote discovery surface and local package surface are different by design."
+  "tools_note": "The remote endpoint (marketnow.site/api/mcp) exposes 9 public discovery/trust tools. The npm package marketnow-mcp@1.15.0 exposes 15 LOCAL trust/security tools (verify_trust, verify_receipt, check_revocation, fingerprint_tool, mint_referral, ...) that run client-side against local credentials and the public APIs. Remote discovery surface and local package surface are different by design."
 }

@@ -137,7 +137,7 @@
     },
     "sentinel_version": "v3.0 (12 stages / 10 layers)",
     "mcp_registry_listed": true,
-    "npm_package": "marketnow-mcp@1.14.1",
+    "npm_package": "marketnow-mcp@1.15.0",
     "stats_source_of_truth": "GET /api/stats.json",
     "generated_at": "2026-09-25"
   }

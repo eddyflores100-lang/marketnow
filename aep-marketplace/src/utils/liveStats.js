@@ -25,7 +25,7 @@ export const FALLBACK_STATS = {
   ownPackages: 13,       // security.l2_own_packages
   ownVulns: 0,           // security.npm_vulnerabilities_own_packages
   mcpTools: 15,          // tools.mcp_server_tools_count
-  mcpVersion: '1.14.1',  // tools.mcp_server_version
+  mcpVersion: '1.15.0',  // tools.mcp_server_version
   atcSdkVersion: '1.4.1',// tools.atc_sdk_version
   sentinelVersion: 'v3.0',
   adapters: 9,
@@ -38,7 +38,7 @@ export const FALLBACK_STATS = {
   // (fuente: lib/npm-versions.json, sincronizado del registry por sync_npm_versions.py).
   // Fallback = último estado conocido del registry (13 paquetes, 2026-09-26).
   utaPackages: [
-    { name: 'marketnow-mcp', version: '1.14.1' },
+    { name: 'marketnow-mcp', version: '1.15.0' },
     { name: 'agent-trust-card', version: '1.4.1' },
     { name: 'marketnow-install-stack', version: '1.2.1' },
     { name: 'marketnow-audit', version: '1.0.1' },
