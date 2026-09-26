@@ -2,25 +2,16 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useLang } from '../context/LanguageContext.jsx';
+import { useLiveStats, statNumbers } from '../utils/liveStats.js';
 
 export default function AgentLanding() {
   const { t, lang } = useLang();
-  const [stats, setStats] = useState({ total: 9248, audited: 5662, checks: 1211488, quarantined: 80 });
+  // Single source of truth: /api/stats.json — never hardcode catalog figures.
+  const stats = useLiveStats();
   const [topPaid, setTopPaid] = useState([]);
 
   useEffect(() => {
-    fetch('/api/agent-ping.json')
-      .then(r => r.json())
-      .then(d => setStats(s => ({
-        ...s,
-        total: d.stats?.total_skills || 9248,
-        audited: d.stats?.audited || 5662,
-        checks: d.stats?.security_checks_performed || 1211488,
-        quarantined: d.stats?.critical_blocked || 80,
-      })))
-      .catch(() => {});
-
-    fetch('/api/skills.json')
+    fetch('/api/skills-lite.json')
       .then(r => r.json())
       .then(d => {
         const trending = d
@@ -44,8 +35,8 @@ export default function AgentLanding() {
   ];
 
   const features = [
-    { icon: '🛡️', title: 'Sentinel 10-layer audit', desc: '1.2M checks, 80 quarantined, 8,288 verified safe' },
-    { icon: '🔑', title: 'Agent Trust Card (ATC)', desc: 'Ed25519 (RFC 8032) signed identity, RFC 8785 JCS canonical JSON' },
+    { icon: '🛡️', title: 'UTA 12-stage trust pipeline', desc: `L1: ${stats.l1.toLocaleString()} index-certified (${stats.l1Checks}/${stats.l1Checks} checks) · L2: ${stats.l2.toLocaleString()} npm tarballs deep-scanned (29 Sentinel rules) · L3: trust-chain (ATC)` },
+    { icon: '🔑', title: 'Agent Trust Card (ATC)', desc: `Ed25519 (RFC 8032) + RFC 8785 JCS. ${stats.adapters} format adapters · ATC/1.0: 5 frozen vectors · ATC v3: 36 vectors · UTA conformance: 14 public vectors` },
     { icon: '🚦', title: 'Runtime Interceptor', desc: '5 policy rules: blocks .env, rm -rf, process spawns, system writes' },
     { icon: '📋', title: 'OWASP MCP Cheat Sheet', desc: '12 controls mapped (4 live, 8 planned v5.1-v6.0)' },
     { icon: '🤝', title: t('home.feat.humanLoopTitle'), desc: t('home.feat.humanLoopDesc') },
@@ -55,18 +46,19 @@ export default function AgentLanding() {
   ];
 
   const statItems = [
-    { v: stats.total.toLocaleString()+'+', l: 'MCP skills analyzed' },
-    { v: (stats.checks/1_000_000).toFixed(2)+'M', l: 'Security checks performed' },
-    { v: stats.quarantined.toString(), l: 'Quarantined (critical)' },
-    { v: '12', l: 'MCP tools (marketnow_*)' },
+    { v: stats.total.toLocaleString()+'+', l: 'index-certified entries (L1)' },
+    { v: stats.l2.toLocaleString(), l: 'L2 tarballs deep-scanned' },
+    { v: (stats.warn + stats.err).toLocaleString(), l: 'L2 flagged for review' },
+    { v: stats.mcpTools.toString(), l: `MCP tools (marketnow_* @${stats.mcpVersion})` },
   ];
 
+  const n = statNumbers(stats);
   const tweetText = {
-    en: "MarketNow — security infrastructure for AI agents. Sentinel: 10-layer audit pipeline, 1.2M checks, 1,030 threats detected, 80 quarantined. 12 MCP tools (marketnow_* namespace). v1.9.0.",
-    es: "MarketNow — infraestructura de seguridad para agentes IA. Sentinel: pipeline de auditoría de 10 capas, 1.2M chequeos, 1,030 amenazas detectadas, 80 en cuarentena. 12 herramientas MCP (namespace marketnow_*). v1.9.0.",
-    pt: "MarketNow — infraestrutura de segurança para agentes IA. Sentinel: pipeline de auditoria de 10 camadas, 1.2M verificações, 1.030 ameaças detectadas, 80 em quarentena. 12 ferramentas MCP (namespace marketnow_*). v1.9.0.",
-    zh: "MarketNow — AI 代理安全基础设施。Sentinel: 10 层审计管道, 120 万次检查, 1,030 个威胁已检测, 80 个已隔离。12 个 MCP 工具 (marketnow_* 命名空间)。v1.9.0。",
-    fr: "MarketNow — infrastructure de sécurité pour agents IA. Sentinel: pipeline d'audit 10 couches, 1.2M vérifications, 1.030 menaces détectées, 80 en quarantaine. 12 outils MCP (namespace marketnow_*). v1.9.0.",
+    en: `MarketNow — security infrastructure for AI agents. Sentinel two-level certification: ${n.l1} skills index-certified (${stats.l1Checks}/${stats.l1Checks} checks), ${n.l2} top npm tarballs deep-scanned with 29 rules. ${stats.mcpTools} MCP tools (marketnow_* namespace). marketnow-mcp v${n.mcpVersion}.`,
+    es: `MarketNow — infraestructura de seguridad para agentes IA. Certificación Sentinel de dos niveles: ${n.l1} skills index-certified (${stats.l1Checks}/${stats.l1Checks} checks), ${n.l2} tarballs npm deep-scanned con 29 reglas. ${stats.mcpTools} herramientas MCP (namespace marketnow_*). marketnow-mcp v${n.mcpVersion}.`,
+    pt: `MarketNow — infraestrutura de segurança para agentes IA. Certificação Sentinel em dois níveis: ${n.l1} skills index-certified (${stats.l1Checks}/${stats.l1Checks} checks), ${n.l2} tarballs npm deep-scanned com 29 regras. ${stats.mcpTools} ferramentas MCP (namespace marketnow_*). marketnow-mcp v${n.mcpVersion}.`,
+    zh: `MarketNow — AI 代理安全基础设施。Sentinel 两级认证：${n.l1} 个技能通过索引认证（${stats.l1Checks}/${stats.l1Checks} 检查），${n.l2} 个热门 npm 包经 29 条规则深度扫描。${stats.mcpTools} 个 MCP 工具（marketnow_* 命名空间）。marketnow-mcp v${n.mcpVersion}。`,
+    fr: `MarketNow — infrastructure de sécurité pour agents IA. Certification Sentinel à deux niveaux : ${n.l1} skills index-certified (${stats.l1Checks}/${stats.l1Checks} checks), ${n.l2} tarballs npm deep-scanned avec 29 règles. ${stats.mcpTools} outils MCP (namespace marketnow_*). marketnow-mcp v${n.mcpVersion}.`,
   };
 
   return (
@@ -125,7 +117,7 @@ export default function AgentLanding() {
 
             {/* Install command */}
             <div className="inline-block px-4 py-2 rounded-lg bg-black/40 border border-white/5 mb-2">
-              <code className="text-[#00F299] text-xs font-mono">npx -y @marketnow/install &lt;slug&gt;</code>
+              <code className="text-[#00F299] text-xs font-mono">npx -y marketnow-install-stack</code>
               <span className="text-zinc-600 text-xs ml-2">{t('home.or')}</span>
               <code className="text-[#00d1ff] text-xs font-mono ml-2">npx -y marketnow-mcp</code>
             </div>
@@ -139,35 +131,35 @@ export default function AgentLanding() {
             <div className="flex items-center justify-between mb-6 flex-wrap gap-3">
               <div>
                 <h2 className="text-white text-2xl font-bold mb-1">Sentinel Transparency Report</h2>
-                <p className="text-zinc-400 text-sm">1,211,488 checks · 1,030 threats detected · 80 quarantined · 8,288 verified safe</p>
+                <p className="text-zinc-400 text-sm">{stats.l1.toLocaleString()} index-certified (L1, {stats.l1Checks}/{stats.l1Checks} checks) · {stats.l2.toLocaleString()} L2 tarballs scanned ({stats.l2Pct}% of {stats.l2Targets.toLocaleString()} targets) · {stats.clean.toLocaleString()} clean · {stats.warn.toLocaleString()} flagged-warning · {stats.err.toLocaleString()} flagged-error · {stats.ownVulns} npm vulns (own packages) · data verified {stats.generatedAt}</p>
               </div>
-              <a href="/api/audit-report.json" target="_blank" rel="noopener" className="text-[#00F299] text-sm hover:underline">View full report →</a>
+              <a href="/api/certification.json" target="_blank" rel="noopener" className="text-[#00F299] text-sm hover:underline">View certification →</a>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
               <div className="p-4 rounded-xl bg-black/40 border border-white/5">
-                <div className="text-[#00F299] text-2xl font-bold font-mono">1.2M</div>
-                <div className="text-zinc-500 text-xs mt-1">checks performed</div>
+                <div className="text-[#00F299] text-2xl font-bold font-mono">{stats.l1.toLocaleString()}</div>
+                <div className="text-zinc-500 text-xs mt-1">index-certified (L1)</div>
               </div>
               <div className="p-4 rounded-xl bg-black/40 border border-white/5">
-                <div className="text-[#00d1ff] text-2xl font-bold font-mono">1,030</div>
-                <div className="text-zinc-500 text-xs mt-1">threats detected</div>
+                <div className="text-[#00d1ff] text-2xl font-bold font-mono">{stats.l2.toLocaleString()}</div>
+                <div className="text-zinc-500 text-xs mt-1">L2 tarballs scanned</div>
               </div>
               <div className="p-4 rounded-xl bg-black/40 border border-red-500/20">
-                <div className="text-red-400 text-2xl font-bold font-mono">80</div>
-                <div className="text-zinc-500 text-xs mt-1">quarantined</div>
+                <div className="text-red-400 text-2xl font-bold font-mono">{stats.err.toLocaleString()}</div>
+                <div className="text-zinc-500 text-xs mt-1">flagged-error (install risk)</div>
               </div>
               <div className="p-4 rounded-xl bg-black/40 border border-[#00F299]/20">
-                <div className="text-[#00F299] text-2xl font-bold font-mono">8,288</div>
-                <div className="text-zinc-500 text-xs mt-1">verified safe</div>
+                <div className="text-[#00F299] text-2xl font-bold font-mono">{stats.clean.toLocaleString()}</div>
+                <div className="text-zinc-500 text-xs mt-1">clean (L2)</div>
               </div>
             </div>
             <div className="mt-4 p-3 rounded-lg bg-black/40 border border-white/5">
-              <div className="text-zinc-500 text-[10px] mb-1">Public audit report</div>
-              <code className="text-[#00F299] text-xs font-mono">GET /api/audit-report.json</code>
+              <div className="text-zinc-500 text-[10px] mb-1">Public certification reports</div>
+              <code className="text-[#00F299] text-xs font-mono">GET /api/certification.json</code>
               <span className="text-zinc-700 text-[10px] mx-2">·</span>
-              <code className="text-[#00d1ff] text-xs font-mono">GET /api/owasp</code>
+              <code className="text-[#00d1ff] text-xs font-mono">GET /api/certification-scans.json</code>
               <span className="text-zinc-700 text-[10px] mx-2">·</span>
-              <code className="text-[#00d1ff] text-xs font-mono">POST /api/interceptor</code>
+              <code className="text-[#00d1ff] text-xs font-mono">POST /api/audit-skill</code>
             </div>
           </motion.div>
         </section>
@@ -195,22 +187,37 @@ export default function AgentLanding() {
           </section>
         )}
 
-        {/* ============ TRY ATC PLAYGROUND ============ */}
+        {/* ============ UTA — UNIVERSAL TRUST ADAPTER ============ */}
         <section className="max-w-5xl mx-auto px-6 pb-16">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.35 }} className="premium-card p-6 md:p-8">
             <div className="flex items-center justify-between mb-4 flex-wrap gap-3">
               <div>
-                <h2 className="text-white text-2xl font-bold mb-1">Try ATC/1.0 — Issue & Verify in your browser</h2>
-                <p className="text-zinc-400 text-sm">The Agent Trust Card spec, live. Issue a card in 30 seconds, verify any ATC against the open spec. No signup, no install, no backend.</p>
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#00d1ff]/10 border border-[#00d1ff]/20 mb-3">
+                  <span className="text-[#00d1ff] text-[10px] font-mono tracking-wider">UTA · OPEN CORE · CONFORMANCE v{stats.utaConformance}</span>
+                </div>
+                <h2 className="text-white text-2xl font-bold mb-1">Universal Trust Adapter (UTA)</h2>
+                <p className="text-zinc-400 text-sm">The USB-C of agent trust. Translates between {stats.adapters} trust credential formats via canonical Universal Trust Schema ({stats.uts}).</p>
               </div>
-              <a href="/atc/playground" target="_blank" rel="noopener" className="px-4 py-2 bg-[#00F299] text-black font-bold rounded-lg hover:bg-[#00F299]/90 transition-all text-sm whitespace-nowrap">
-                Open Playground →
-              </a>
+              <Link to="/uta" className="px-4 py-2 bg-[#00F299] text-black font-bold rounded-lg hover:bg-[#00F299]/90 transition-all text-sm whitespace-nowrap">
+                Explore UTA →
+              </Link>
             </div>
+
+            {/* Format adapters (sourced from /api/stats.json) */}
+            <div className="mb-4">
+              <div className="text-zinc-500 text-[10px] mb-2">{stats.adapters} FORMAT ADAPTERS</div>
+              <div className="flex flex-wrap gap-2">
+                {stats.adapterList.map(fmt => (
+                  <span key={fmt} className="px-2 py-1 rounded bg-[#00d1ff]/10 text-[#00d1ff] text-[10px] font-mono font-bold border border-[#00d1ff]/20">{fmt}</span>
+                ))}
+              </div>
+            </div>
+
+            {/* Stats grid */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
               <div className="p-3 rounded-lg bg-black/40 border border-white/5">
-                <div className="text-[#00F299] text-xl font-bold font-mono">10</div>
-                <div className="text-zinc-500 text-[10px] mt-1">controls in spec</div>
+                <div className="text-[#00F299] text-xl font-bold font-mono">12</div>
+                <div className="text-zinc-500 text-[10px] mt-1">verification stages</div>
               </div>
               <div className="p-3 rounded-lg bg-black/40 border border-white/5">
                 <div className="text-[#00d1ff] text-xl font-bold font-mono">Ed25519</div>
@@ -221,18 +228,91 @@ export default function AgentLanding() {
                 <div className="text-zinc-500 text-[10px] mt-1">JCS canonical JSON</div>
               </div>
               <div className="p-3 rounded-lg bg-black/40 border border-white/5">
-                <div className="text-[#00d1ff] text-xl font-bold font-mono">3 SDKs</div>
-                <div className="text-zinc-500 text-[10px] mt-1">JS / Python / Rust</div>
+                <div className="text-[#00d1ff] text-xl font-bold font-mono">5 / 36 / 14</div>
+                <div className="text-zinc-500 text-[10px] mt-1">vectors: ATC/1.0 frozen · ATC v3 · UTA conformance</div>
               </div>
             </div>
+
+            {/* ATC versions */}
+            <div className="mb-4 p-3 rounded-lg bg-black/40 border border-white/5">
+              <div className="text-zinc-500 text-[10px] mb-2">ATC SPECIFICATIONS</div>
+              <div className="flex flex-wrap gap-3 text-xs">
+                <a href="/uta/docs/atc-spec/SPEC.md" target="_blank" rel="noopener" className="text-[#00F299] hover:underline">ATC/1.0 spec (public, stable) →</a>
+                <a href="/uta/docs/atc-spec/RFC-ATC-v3-Draft-00.md" target="_blank" rel="noopener" className="text-[#00d1ff] hover:underline">ATC v3.0 RFC Draft (multi-sig) →</a>
+                <a href="/uta/docs/atc-spec/test-vectors/_index.json" target="_blank" rel="noopener" className="text-[#00F299] hover:underline">ATC/1.0 vectors (5 frozen) →</a>
+                <a href="/uta/docs/atc-spec/test-vectors-v3/MANIFEST.json" target="_blank" rel="noopener" className="text-[#00F299] hover:underline">ATC v3 vectors (36) →</a>
+                <a href="/uta/conformance/vectors/_index.json" target="_blank" rel="noopener" className="text-[#00d1ff] hover:underline">UTA conformance vectors (14 public) →</a>
+                <a href="/uta/docs/atc-spec/test-vectors/_test-ca-keys.json" target="_blank" rel="noopener" className="text-[#00d1ff] hover:underline">Test CA keys →</a>
+              </div>
+            </div>
+
+            {/* NPM packages — versions synced with /api/stats.json (section uta → lib/npm-versions.json ← registry); downloads live from registry */}
+            <div className="mb-4 p-3 rounded-lg bg-black/40 border border-white/5">
+              <div className="text-zinc-500 text-[10px] mb-2">NPM PACKAGES{stats.npmDownloads != null ? ` (${stats.npmDownloads.toLocaleString()} downloads/mo — marketnow-mcp, live from registry)` : ' (downloads: live from npm registry)'} · {stats.utaPackagesCount} packages (registry-synced)</div>
+              <div className="flex flex-wrap gap-2">
+                {stats.utaPackages.map((p, i) => (
+                  <code key={p.name} className={i % 2 === 0 ? 'text-[#00F299] text-[10px] font-mono px-2 py-1 rounded bg-[#00F299]/5' : 'text-[#00d1ff] text-[10px] font-mono px-2 py-1 rounded bg-[#00d1ff]/5'}>{p.name}@{p.version}</code>
+                ))}
+              </div>
+            </div>
+
+            {/* Links + install */}
             <div className="p-3 rounded-lg bg-black/40 border border-white/5 flex items-center gap-3 flex-wrap">
               <span className="text-zinc-500 text-[10px]">Install:</span>
-              <code className="text-[#00F299] text-xs font-mono">npm install agent-trust-card</code>
+              <code className="text-[#00F299] text-xs font-mono">npm install agent-trust-card@{stats.atcSdkVersion}</code>
               <span className="text-zinc-700">·</span>
-              <code className="text-[#00d1ff] text-xs font-mono">pip install agent-trust-card</code>
-              <span className="text-zinc-700">·</span>
-              <code className="text-[#00d1ff] text-xs font-mono">cargo add agent-trust-card</code>
-              <a href="/atc/spec" target="_blank" rel="noopener" className="text-[#00F299] text-xs hover:underline ml-auto">Read spec →</a>
+              <code className="text-[#00d1ff] text-xs font-mono">npx -y marketnow-mcp@{stats.mcpVersion}</code>
+              <a href="/uta/README.md" target="_blank" rel="noopener" className="text-[#00F299] text-xs hover:underline ml-auto">README →</a>
+              <a href="/uta/CONTRIBUTING.md" target="_blank" rel="noopener" className="text-[#00d1ff] text-xs hover:underline">CONTRIBUTING →</a>
+              <a href="/uta/SECURITY.md" target="_blank" rel="noopener" className="text-[#00F299] text-xs hover:underline">SECURITY →</a>
+              <a href="/trust/audit-status.json" target="_blank" rel="noopener" className="text-[#00d1ff] text-xs hover:underline">AUDIT (14/14 fixed) →</a>
+            </div>
+          </motion.div>
+        </section>
+
+
+        {/* ============ WHY MARKETNOW ============ */}
+        <section className="max-w-5xl mx-auto px-6 pb-16">
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }}>
+            <h2 className="text-white text-2xl font-bold text-center mb-2">Why MarketNow?</h2>
+            <p className="text-zinc-500 text-sm text-center mb-8">The trust infrastructure for AI agents — Sentinel scans, ATC identifies, UTA interoperates, Interceptor enforces. Here's the value for everyone.</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="premium-card p-6">
+                <div className="text-3xl mb-3">🤖</div>
+                <h3 className="text-white font-bold text-sm mb-2">For Buyers (Agents)</h3>
+                <ul className="text-zinc-400 text-xs space-y-1">
+                  <li>✓ Browse {stats.total.toLocaleString()} index-certified skills — free and premium</li>
+                  <li>✓ Free skills need no payment. Premium skills pay the seller's price</li>
+                  <li>✓ L1 index certification + install-risk tier on every skill</li>
+                  <li>✓ Trust scores (0-10) for every skill</li>
+                  <li>✓ L2 deep-scan on the {stats.l2.toLocaleString()} highest-download tarballs ({stats.l2Pct}% of {stats.l2Targets.toLocaleString()} targets)</li>
+                  <li>✓ Works with Claude, Cursor, Cline, Continue, Aider</li>
+                </ul>
+              </div>
+              <div className="premium-card p-6">
+                <div className="text-3xl mb-3">🛠️</div>
+                <h3 className="text-white font-bold text-sm mb-2">For Sellers (Developers)</h3>
+                <ul className="text-zinc-400 text-xs space-y-1">
+                  <li>✓ List skills FREE — set your own price</li>
+                  <li>✓ Free skills: no cost, no commission</li>
+                  <li>✓ Premium skills: keep 80% of every sale</li>
+                  <li>✓ Sentinel {stats.sentinelVersion} audit (free)</li>
+                  <li>✓ gVisor sandbox (free)</li>
+                  <li>✓ Listed alongside {stats.total.toLocaleString()} indexed skills</li>
+                </ul>
+              </div>
+              <div className="premium-card p-6">
+                <div className="text-3xl mb-3">💰</div>
+                <h3 className="text-white font-bold text-sm mb-2">How We Earn</h3>
+                <ul className="text-zinc-400 text-xs space-y-1">
+                  <li>✓ Buyers: free skills cost nothing, premium skills pay the seller's price</li>
+                  <li>✓ Sellers: free listing + free Sentinel {stats.sentinelVersion} audits</li>
+                  <li>✓ 20% commission on seller sales</li>
+                  <li>✓ Affiliate program: 5% referral commission</li>
+                  <li>✓ No ads, no data selling</li>
+                  <li>✓ Open-core: source-available (AL-1.0 core · MIT components)</li>
+                </ul>
+              </div>
             </div>
           </motion.div>
         </section>
@@ -262,7 +342,7 @@ export default function AgentLanding() {
                 <div className="text-3xl mb-3">⚡</div>
                 <h3 className="text-white font-bold text-sm mb-2">{t('home.step3Title')}</h3>
                 <p className="text-zinc-400 text-xs leading-relaxed">
-                  <code className="text-[#00F299]">npx -y @marketnow/install &lt;slug&gt;</code>
+                  <code className="text-[#00F299]">npx -y marketnow-install-stack</code>
                   <br />{t('home.step3Desc')}
                 </p>
               </div>
@@ -338,7 +418,7 @@ export default function AgentLanding() {
               </a>
 
               <a
-                href={`https://news.ycombinator.com/submitlink?u=${encodeURIComponent("https://marketnow.site")}&t=${encodeURIComponent("MarketNow — Security infrastructure for AI agents. Sentinel 10-layer audit pipeline (1.2M checks, 80 quarantined)")}`}
+                href={`https://news.ycombinator.com/submitlink?u=${encodeURIComponent("https://marketnow.site")}&t=${encodeURIComponent(`MarketNow — Security infrastructure for AI agents. Sentinel two-level certification (${stats.l1.toLocaleString()} index-certified, ${stats.l2.toLocaleString()} L2 deep-scanned)`)}`}
                 target="_blank"
                 rel="noopener"
                 className="flex items-center gap-3 p-3 rounded-lg bg-black/40 border border-white/5 hover:border-[#00F299]/30 transition-all"

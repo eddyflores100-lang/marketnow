@@ -1,0 +1,84 @@
+{
+  "$schema": "https://marketnow.site/api/npm-versions.schema.json",
+  "generated_at": "2026-09-26T03:08:27Z",
+  "source": "registry.npmjs.org dist-tags + api.npmjs.org downloads (last-month) — re-derived by scripts/sync_npm_versions.py (weekly workflow + audit gate)",
+  "packages": [
+    {
+      "name": "marketnow-mcp",
+      "version": "1.14.1",
+      "dl_month": 1690
+    },
+    {
+      "name": "agent-trust-card",
+      "version": "1.4.1",
+      "dl_month": 744
+    },
+    {
+      "name": "marketnow-install-stack",
+      "version": "1.2.1",
+      "dl_month": 443
+    },
+    {
+      "name": "marketnow-audit",
+      "version": "1.0.1",
+      "dl_month": 328
+    },
+    {
+      "name": "@marketnow/uts",
+      "version": "2.0.3",
+      "dl_month": 411
+    },
+    {
+      "name": "@marketnow/trust-core",
+      "version": "2.0.3",
+      "dl_month": 895
+    },
+    {
+      "name": "@marketnow/trust-adapters",
+      "version": "1.0.4",
+      "dl_month": 562
+    },
+    {
+      "name": "@marketnow/trust-gateway",
+      "version": "1.0.5",
+      "dl_month": 735
+    },
+    {
+      "name": "@marketnow/uta-verify",
+      "version": "1.0.2",
+      "dl_month": 416
+    },
+    {
+      "name": "@marketnow/uta-conformance",
+      "version": "1.3.5",
+      "dl_month": 423
+    },
+    {
+      "name": "@marketnow/cline-trust-plugin",
+      "version": "1.1.2",
+      "dl_month": 468
+    },
+    {
+      "name": "@marketnow/sentinel-rules",
+      "version": "1.1.2",
+      "dl_month": 603
+    },
+    {
+      "name": "@marketnow/trust-mcp-middleware",
+      "version": "1.0.2",
+      "dl_month": 421
+    },
+    {
+      "name": "@marketnow/trust-observability",
+      "version": "1.0.3",
+      "dl_month": 568
+    }
+  ],
+  "totals": {
+    "packages": 14,
+    "dl_month": 8707
+  },
+  "conformance_version": "1.3.5",
+  "test_vectors": 41,
+  "conformance_checks": 24
+}

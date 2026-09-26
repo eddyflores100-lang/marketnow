@@ -178,3 +178,31 @@ For support: support@alicelabs.site
 General: info@alicelabs.site
 
 Built by AliceLabs LLC (Wyoming, USA) — founder Edison Flores.
+
+
+## Taxonomy — which count belongs to which system
+
+Three different counts coexist in this ecosystem. They are **not** three ways of
+counting the same thing:
+
+| System | Count | What it counts | Where to verify |
+|---|---|---|---|
+| **Sentinel** (audit pipeline) | **12 stages / 10 layers** | Index certification (L1), static analysis (L1.5–L1.9), deep tarball scan (L2, 29 rules), sandbox (L2.5), runtime monitoring (L3), dependency/secrets/SBOM/policy (L4–L9) | [/security/sentinel-v3.0](https://marketnow.site/security/sentinel-v3.0) |
+| **ATC/1.0** (credential verification) | **10 controls — 8 required + 2 optional** | Signature, key selection, expiry, status, revocation… per ATC card | [SPEC.md](https://marketnow.site/atc/spec/SPEC.md) |
+| **UTA** (interop layer) | **9 format adapters** | Credential formats translated through UTS: ATC, EAT-AI, ZTA, A2A, MCP Card, W3C VC, OAuth, SPIFFE, X.509 | [/uta](https://marketnow.site/uta) |
+
+If a surface says "8-layer audit" anywhere, it is stale — the Sentinel pipeline is
+12 stages grouped into 10 audit layers (L1–L9). ATC's "8" is the count of *required*
+verification controls (10 total). UTA's number is *formats*, not layers.
+
+## Test CA keypair (cross-language reproducibility)
+
+The test CA keypair is intentionally published (including private key) so any
+stranger can regenerate and re-sign the conformance vectors in any language.
+
+> ⚠️ **TEST ONLY — this private key is intentionally public. It MUST NEVER be trusted in production.**
+> `ca-test-2` exists so any stranger can regenerate and re-sign the conformance vectors in any language.
+> Signatures under `ca-test-2` prove conformance-suite behavior — nothing else. Production CAs
+> (`mn-ca-003`) are separate keys, never published, and their lifecycle is auditable in the
+> [revocation registry](https://marketnow.site/api/crl) and the
+> [2026-09-08 incident postmortem](https://marketnow.site/security/incidents/2026-09-08).

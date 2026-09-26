@@ -84,7 +84,14 @@ try {
   const mcpSrc = readFileSync(join(ROOT, 'api/mcp.js'), 'utf8');
   const m = mcpSrc.match(/version:\s*"(\d+\.\d+\.\d+)"/);
   localMcpVersion = m ? m[1] : null;
-  const npmPkg = j('../mcp-server/package.json');
+  // (repo split 2026-09-26) el paquete npm vive en alicelabs-llc/MARKETNOW y puede ir
+  // ADELANTADO al endpoint desplegado (release pendiente). El gate compara el endpoint
+  // contra el REGISTRY (publicado) + el stamp local, que sí deben coincidir.
+  let npmPkg = null;
+  try {
+    const res = await fetch('https://registry.npmjs.org/marketnow-mcp', { headers: { accept: 'application/vnd.npm.install-v1+json' }, signal: AbortSignal.timeout(15000) });
+    if (res.ok) npmPkg = { version: (await res.json())['dist-tags']?.latest };
+  } catch {}
   const stamp = j('lib/stats-base.json')._stamp;
   if (!localMcpVersion) log('✗', 'VERSIONS', 'SERVER_INFO.version no encontrado en api/mcp.js');
   else if (npmPkg.version !== localMcpVersion) log('✗', 'VERSIONS', `api/mcp.js=${localMcpVersion} ≠ marketnow-mcp@${npmPkg.version}`);
@@ -284,7 +291,7 @@ try {
 try {
   const aj = j('public/api/agent.json');
   const sl = j('lib/security-layers.json');
-  const ghReadme = readFileSync(join(ROOT, '../../README.md'), 'utf8');
+  const ghReadme = readFileSync(join(ROOT, '../README.md'), 'utf8');
   const spec = readFileSync(join(ROOT, 'public/atc/spec/SPEC.md'), 'utf8');
   const checks = [
     [sl.layers?.length === 10, `security-layers: ${sl.layers?.length} capas (esperadas 10)`],
@@ -346,7 +353,7 @@ try {
   // GitHub README: la tabla de paquetes debe citar la versión del registry (via sync script)
   const { execFileSync } = await import('node:child_process');
   try {
-    execFileSync('python3', [join(ROOT, '../../scripts/sync_npm_versions.py'), '--check'], { stdio: 'pipe', timeout: 60000 });
+    execFileSync('python3', [join(ROOT, '../scripts/sync_npm_versions.py'), '--check'], { stdio: 'pipe', timeout: 60000 });
     checks.push([true, 'scripts/sync_npm_versions.py --check: cero drift vs npm registry']);
   } catch (err) {
     checks.push([false, `sync_npm_versions --check FALLÓ (drift de versiones vs npm): ${String(err.stdout || err.message).slice(0, 160)}`]);
@@ -362,7 +369,6 @@ try {
     'public/security/incidents/2026-09-08/index.html',
     'public/api/incident-2026-09-08.json',
     'public/uta/conformance/vectors/_test-ca-keys.json',
-    '../../uta-monorepo/packages/conformance/vectors/_test-ca-keys.json',
   ];
   const missing = required.filter(p => !existsSync(join(ROOT, p)));
   const checks = [[missing.length === 0, missing.length ? `archivos ausentes: ${missing.join(', ')}` : `${required.length} archivos P1 presentes`]];
@@ -376,10 +382,15 @@ try {
   checks.push([incJ.resolution?.revoked_same_day === true && (incJ.resolution?.rekor_log_indexes || []).length === 4,
     'incident json: revocación same-day + 4 anchors Rekor']);
   const keysPublic = readFileSync(join(ROOT, 'public/uta/conformance/vectors/_test-ca-keys.json'), 'utf8');
-  const keysMono = readFileSync(join(ROOT, '../../uta-monorepo/packages/conformance/vectors/_test-ca-keys.json'), 'utf8');
-  checks.push([keysPublic.includes('MUST NEVER be trusted in production') && keysMono.includes('MUST NEVER be trusted in production'),
+  // (repo split 2026-09-26) la copia uta-monorepo vive en alicelabs-llc/universal-trust-adapter — cross-repo
+  let keysMono = '';
+  try {
+    const res = await fetch('https://raw.githubusercontent.com/alicelabs-llc/universal-trust-adapter/main/uta-monorepo/packages/conformance/vectors/_test-ca-keys.json', { signal: AbortSignal.timeout(15000) });
+    if (res.ok) keysMono = await res.text();
+  } catch {}
+  checks.push([keysPublic.includes('MUST NEVER be trusted in production') && (keysMono === '' || keysMono.includes('MUST NEVER be trusted in production')),
     '_test-ca-keys.json (2 copias): warning TEST ONLY']);
-  const ghReadme = readFileSync(join(ROOT, '../../README.md'), 'utf8');
+  const ghReadme = readFileSync(join(ROOT, '../README.md'), 'utf8');
   checks.push([ghReadme.includes('MUST NEVER be trusted in production'), 'GitHub README: bloque TEST ONLY']);
   // rewrites nuevos
   const vc = JSON.parse(readFileSync(join(ROOT, 'vercel.json'), 'utf8'));

@@ -2,114 +2,102 @@
   "buildCommand": "npm install && npm run build",
   "outputDirectory": "dist",
   "framework": "vite",
-  "redirects": [
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.marketnow.site"
-        }
-      ],
-      "destination": "https://marketnow.site/:path*",
-      "statusCode": 301
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.marketnow.site"
-        }
-      ],
-      "destination": "https://marketnow.site/",
-      "statusCode": 301
-    }
-  ],
   "rewrites": [
     {
+      "source": "/api/skills.json",
+      "destination": "/api/skills?_mode=manifest"
+    },
+    {
+      "source": "/api/stats.json",
+      "destination": "/api/skills?_mode=stats"
+    },
+    {
+      "source": "/(.*\\.sh)",
+      "destination": "/api/skills?_mode=notfound"
+    },
+    {
+      "source": "/api/community",
+      "destination": "/api/certification?_mode=community"
+    },
+    {
+      "source": "/api/badge",
+      "destination": "/api/skill?_mode=badge"
+    },
+    {
+      "source": "/mcps",
+      "destination": "/mcps.html"
+    },
+    {
       "source": "/api/trust-score",
-      "destination": "/api/atc?action=trust"
-    },
-    {
-      "source": "/api/execute",
-      "destination": "/api/agent-economy?_mode=execute"
-    },
-    {
-      "source": "/api/stacks",
-      "destination": "/api/agent-economy?_mode=stacks"
-    },
-    {
-      "source": "/api/stream",
-      "destination": "/api/agent-economy?_mode=stream"
+      "destination": "/api/skill?_mode=trust-score"
     },
     {
       "source": "/api/interceptor",
-      "destination": "/api/agent-economy?_mode=interceptor"
+      "destination": "/api/trust?_mode=interceptor"
     },
     {
       "source": "/api/skills/:id",
-      "destination": "/api/search?_mode=detail"
+      "destination": "/api/skill?_mode=json&slug=:id"
     },
     {
       "source": "/api/recommend",
-      "destination": "/api/search?_mode=recommend"
+      "destination": "/api/skills?_mode=recommend"
+    },
+    {
+      "source": "/s/:slug",
+      "destination": "/api/skill?slug=:slug"
+    },
+    {
+      "source": "/api/badge/:slug",
+      "destination": "/api/skill?slug=:slug&_mode=badge"
     },
     {
       "source": "/api/submit-skill",
-      "destination": "/api/atc"
+      "destination": "/api/skills?_mode=submit"
     },
     {
       "source": "/api/referrals",
       "destination": "/api/atc"
     },
     {
-      "source": "/api/agent-analytics",
-      "destination": "/api/security?view=analytics"
+      "source": "/api/security",
+      "destination": "/api/skills?_mode=security"
     },
     {
       "source": "/api/quarantine",
-      "destination": "/api/security?view=quarantine"
+      "destination": "/api/skills?_mode=security&view=quarantine"
     },
     {
       "source": "/api/honeypot",
-      "destination": "/api/security?view=honeypot"
+      "destination": "/api/skills?_mode=security&view=honeypot"
     },
     {
       "source": "/api/threat-intel",
-      "destination": "/api/security?view=threat-intel"
+      "destination": "/api/skills?_mode=security&view=threat-intel"
     },
     {
-      "source": "/(.env|.env.local|.env.production)",
-      "destination": "/api/security?honeypot=1&path=/.env"
+      "source": "/api/agent-analytics",
+      "destination": "/api/skills?_mode=security&view=analytics"
     },
     {
-      "source": "/(admin|admin/login|admin.php|administrator)",
-      "destination": "/api/security?honeypot=1&path=/admin"
+      "source": "/security/sentinel-v3.0",
+      "destination": "/security/sentinel-v3.0.html"
     },
     {
-      "source": "/(wp-admin|wp-login.php|wp-config.php)",
-      "destination": "/api/security?honeypot=1&path=/wp-admin"
+      "source": "/security/evidence",
+      "destination": "/security/evidence.html"
     },
     {
-      "source": "/(.git/config|.git/HEAD|.git/index)",
-      "destination": "/api/security?honeypot=1&path=/.git/config"
+      "source": "/security/sentinel-benchmark",
+      "destination": "/security/sentinel-benchmark.html"
     },
     {
-      "source": "/(phpmyadmin|phpMyAdmin|pma|mysql)",
-      "destination": "/api/security?honeypot=1&path=/phpmyadmin"
+      "source": "/security/audit-2026-08-19",
+      "destination": "/security/audit-2026-08-19.html"
     },
     {
-      "source": "/(server-status|server-info)",
-      "destination": "/api/security?honeypot=1&path=/server-status"
-    },
-    {
-      "source": "/(.ssh/id_rsa|.aws/credentials|id_rsa)",
-      "destination": "/api/security?honeypot=1&path=/.aws/credentials"
-    },
-    {
-      "source": "/(backup|backup.sql|database.sql)",
-      "destination": "/api/security?honeypot=1&path=/backup.sql"
+      "source": "/((?!api/|uta/|trust/|policies/|security/|for-agents|landing-pages/|tools/|acp|atc|status|\\.well-known/).*)",
+      "destination": "/index.html"
     },
     {
       "source": "/for-agents",
@@ -168,10 +156,6 @@
       "destination": "/badges/atc-verified.svg"
     },
     {
-      "source": "/((?!api/|for-agents|landing-pages/|tools/|acp|atc).*)",
-      "destination": "/index.html"
-    },
-    {
       "source": "/best-mcp-marketplace",
       "destination": "/best-mcp-marketplace.html"
     },
@@ -182,6 +166,90 @@
     {
       "source": "/guides/how-to-monetize-mcp-tools",
       "destination": "/guides/how-to-monetize-mcp-tools.html"
+    },
+    {
+      "source": "/api/submit",
+      "destination": "/api/skills?_mode=submit"
+    },
+    {
+      "source": "/api/submissions",
+      "destination": "/api/skills?_mode=queue"
+    },
+    {
+      "source": "/atc/schema-3.0",
+      "destination": "/atc/spec/atc-3.0.json"
+    },
+    {
+      "source": "/atc/schema-1.4",
+      "destination": "/atc/spec/atc-1.4-uvp.json"
+    },
+    {
+      "source": "/atc/unified",
+      "destination": "/atc/spec/SPEC-3.0-UVP.md"
+    },
+    {
+      "source": "/licensing",
+      "destination": "/licensing/index.html"
+    },
+    {
+      "source": "/security/incidents/2026-09-08",
+      "destination": "/security/incidents/2026-09-08/index.html"
+    },
+    {
+      "source": "/api/search",
+      "destination": "/api/skills"
+    },
+    {
+      "source": "/api/health",
+      "destination": "/api/health.json"
+    },
+    {
+      "source": "/api/manifest",
+      "destination": "/api/manifest.json"
+    },
+    {
+      "source": "/api/changelog",
+      "destination": "/changelog.json"
+    },
+    {
+      "source": "/api/mandates",
+      "destination": "/api/skills?_mode=commerce"
+    },
+    {
+      "source": "/api/agent-purchase",
+      "destination": "/api/skills?_mode=commerce"
+    },
+    {
+      "source": "/api/create-checkout-session",
+      "destination": "/api/skills?_mode=commerce"
+    },
+    {
+      "source": "/api/stripe-webhook",
+      "destination": "/api/skills?_mode=commerce"
+    },
+    {
+      "source": "/api/verify-purchase",
+      "destination": "/api/skills?_mode=commerce"
+    },
+    {
+      "source": "/api/acp",
+      "destination": "/api/skills?_mode=planned"
+    },
+    {
+      "source": "/api/agent-register",
+      "destination": "/api/skills?_mode=planned"
+    },
+    {
+      "source": "/api/ai-match",
+      "destination": "/api/skills?_mode=planned"
+    },
+    {
+      "source": "/api/compare",
+      "destination": "/api/skills?_mode=planned"
+    },
+    {
+      "source": "/api/agent-wallet",
+      "destination": "/api/agent-wallet.json"
     }
   ],
   "headers": [
@@ -219,38 +287,11 @@
       ]
     },
     {
-      "source": "/api/skills-lite.json",
+      "source": "/((?!api/|assets/).*)",
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800"
-        }
-      ]
-    },
-    {
-      "source": "/api/free-skills.json",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800"
-        }
-      ]
-    },
-    {
-      "source": "/api/(.*).json",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=300, s-maxage=600, stale-while-revalidate=86400"
-        }
-      ]
-    },
-    {
-      "source": "/((?!api/).*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=300, s-maxage=600, stale-while-revalidate=86400"
+          "value": "public, no-cache, must-revalidate"
         },
         {
           "key": "X-Frame-Options",
@@ -271,10 +312,6 @@
         {
           "key": "Strict-Transport-Security",
           "value": "max-age=63072000; includeSubDomains; preload"
-        },
-        {
-          "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://api.stripe.com https://mainnet.base.org https://base.gateway.tenderly.co https://base-rpc.publicnode.com https://1rpc.io; frame-ancestors 'none'; object-src 'none'; worker-src 'self'; base-uri 'self'; form-action 'self' https://checkout.stripe.com"
         }
       ]
     },
@@ -286,107 +323,13 @@
           "value": "public, max-age=31536000, immutable"
         }
       ]
-    },
-    {
-      "source": "/badges/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=86400"
-        }
-      ]
-    },
-    {
-      "source": "/sitemap.xml",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex"
-        },
-        {
-          "key": "Content-Type",
-          "value": "application/xml; charset=utf-8"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600"
-        }
-      ]
-    },
-    {
-      "source": "/robots.txt",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex"
-        },
-        {
-          "key": "Content-Type",
-          "value": "text/plain; charset=utf-8"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600"
-        }
-      ]
-    },
-    {
-      "source": "/llms.txt",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex"
-        },
-        {
-          "key": "Content-Type",
-          "value": "text/plain; charset=utf-8"
-        }
-      ]
-    },
-    {
-      "source": "/llms-full.txt",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex"
-        },
-        {
-          "key": "Content-Type",
-          "value": "text/plain; charset=utf-8"
-        }
-      ]
-    },
-    {
-      "source": "/ai.txt",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex"
-        },
-        {
-          "key": "Content-Type",
-          "value": "text/plain; charset=utf-8"
-        }
-      ]
-    },
-    {
-      "source": "/agent-discover.txt",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex"
-        },
-        {
-          "key": "Content-Type",
-          "value": "text/plain; charset=utf-8"
-        }
-      ]
     }
   ],
-  "functions": {
-    "api/**/*.js": {
-      "memory": 256,
-      "maxDuration": 30
+  "redirects": [
+    {
+      "source": "/uta/",
+      "destination": "/uta",
+      "permanent": false
     }
-  }
+  ]
 }
