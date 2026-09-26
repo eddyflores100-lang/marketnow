@@ -1,11 +1,18 @@
 # Deploy set (Vercel CLI / CI desde aep-marketplace/): solo las funciones que
-# sirven rutas vivas. Las 8 funciones api/*.js excluidas abajo están superadas
-# por los rewrites de vercel.json — deployarlas ensombrecería el rewrite y
-# cambiaría el routing en vivo:
+# sirven rutas vivas. El plan Hobby de Vercel permite máximo 12 funciones
+# serverless por deployment — este set es exactamente 12:
+#   atc · audit-skill · certification · crl · mcp · ocsp · owasp ·
+#   scam-check · skill · skills · trust · trust-card
+#
+# Funciones api/*.js excluidas — superadas por rewrites de vercel.json o sin
+# referencias (deployarlas ensombrecería el rewrite y cambiaría el routing):
 #   /api/agent-purchase, /api/stripe-webhook, /api/mandates → /api/skills?_mode=commerce
 #   /api/search → /api/skills · /api/security → /api/skills?_mode=security
 #   /api/health → /api/health.json · /api/manifest → /api/manifest.json
 #   /api/agent-economy → sin referencias (404 hoy, excluida a propósito)
+#   /api/resilience → SIN referencias en SPA/npm/docs (se sacrifica para dar
+#     cupo a owasp.js: /api/owasp la consume marketnow_get_owasp_compliance
+#     del npm package — hoy 404 = tool rota; /api/resilience no la usa nadie)
 api/agent-economy.js
 api/agent-purchase.js
 api/health.js
@@ -14,3 +21,5 @@ api/mandates.js
 api/search.js
 api/security.js
 api/stripe-webhook.js
+api/resilience.js
+
