@@ -1,0 +1,49 @@
+# Marketplace audit gate — portado de alicelabs-llc/universal-trust-adapter (split 2026-09-26)
+# El gate de 14+3 checks valida LAS superficies del marketplace (este repo):
+# en cada push/PR corre el modo repositorio; el cron mensual verifica
+# producción en vivo (modo --live).
+name: Marketplace audit gate
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - "aep-marketplace/**"
+      - ".github/workflows/audit-gate.yml"
+  pull_request:
+    paths:
+      - "aep-marketplace/**"
+      - ".github/workflows/audit-gate.yml"
+  schedule:
+    # Reauditoría programada: día 1 de cada mes, 09:00 UTC (04:00 America/Guayaquil)
+    - cron: '0 9 1 * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: audit-gate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  audit-gate:
+    name: 17-point consistency gate
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: aep-marketplace
+    steps:
+      # Pinned by commit SHA — OpenSSF Scorecard: Pinned-Actions
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24'
+      - name: Audit gate (repo mode)
+        run: node scripts/audit-gate.mjs
+      - name: Audit gate (live production)
+        if: github.event_name == 'schedule'
+        run: node scripts/audit-gate.mjs --live
+      - name: Asset size gate (F-06 — dumps prohibidos + allowlist 50MB)
+        run: node scripts/check-asset-sizes.mjs

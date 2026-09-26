@@ -1,5 +1,13 @@
 # MarketNow — Security Infrastructure for AI Agents
 
+> **Repo ecosystem (one owner per concern, split 2026-09-26):** this repo owns
+> the **live marketplace** — site (`aep-marketplace/`), catalog data
+> (`_data/`, `skills/`, `public/api/`), the scheduled data pipelines and the
+> Vercel deploys of marketnow.site. Product code (`mcp-server` = npm
+> `marketnow-mcp`, `atc-sdk`, Docker/Cline/Cursor integrations) lives in
+> `alicelabs-llc/MARKETNOW`; the ATC/1.0 protocol lives in
+> `alicelabs-llc/universal-trust-adapter`.
+
 > **MarketNow doesn't sell AI tools. It determines whether AI agents should be allowed to trust and execute them.**
 
 [![npm version](https://img.shields.io/npm/v/marketnow-mcp)](https://www.npmjs.com/package/marketnow-mcp)
