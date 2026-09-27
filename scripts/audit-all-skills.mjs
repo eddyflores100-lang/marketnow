@@ -48,7 +48,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const REPO_ROOT = path.join(__dirname, '..');
-const SKILLS_PATH = path.join(REPO_ROOT, 'aep-marketplace', 'public', 'api', 'skills_index.json');
+const SKILLS_PATH = path.join(REPO_ROOT, 'aep-marketplace', 'public', 'api', 'skills-lite.json'); // post-split 2026-09-26: skills_index.json removed; lite catalog is the live source
 const CERTS_DIR = path.join(REPO_ROOT, '_data', 'sentinel_certificates');
 const QUARANTINE_DIR = path.join(REPO_ROOT, '_data', 'quarantine');
 
