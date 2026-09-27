@@ -659,11 +659,16 @@
       "repo": "TensorBlock/awesome-mcp-servers",
       "issue_num": 2563,
       "username": "wilsonccccc"
+    },
+    "5853992427": {
+      "repo": "langchain-ai/langchain",
+      "issue_num": 40158,
+      "username": "SonitBahl"
     }
   },
   "npm_last_downloads": 564,
   "github_last_stars": 0,
   "last_report": null,
   "initialized_at": "2026-07-10T01:27:15.724696+00:00",
-  "last_check": "2026-09-26T19:49:03.271223+00:00"
+  "last_check": "2026-09-27T08:04:29.169689+00:00"
 }
