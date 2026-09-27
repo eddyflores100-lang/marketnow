@@ -7,7 +7,7 @@
  *   1. Scan _data/pending_submissions/*.json for skills with status="pending_l2_audit"
  *   2. Check if the corresponding _data/l2_results/{skill_id}.json exists
  *   3. If L2 passed (execution_status="ran", failure_reason=null):
- *      - Move the skill from pending_submissions to the main catalog (skills.json)
+ *      - Move the skill from pending_submissions to the main catalog (skills-lite.json, post-split)
  *      - Update the submission status to "promoted"
  *      - Trigger ATC issuance for the skill (via /api/atc?action=issue)
  *   4. If L2 failed: mark submission status as "l2_failed", do NOT promote
@@ -153,10 +153,10 @@ async function main() {
   }
 
   log('Loading current skills catalog...');
-  const skillsR = await fetch(`https://raw.githubusercontent.com/${REPO}/${BRANCH}/aep-marketplace/public/api/skills.json`, {
+  const skillsR = await fetch(`https://raw.githubusercontent.com/${REPO}/${BRANCH}/aep-marketplace/public/api/skills-lite.json`, {
     headers: { Authorization: `Bearer ${GITHUB_TOKEN}`, 'User-Agent': 'marketnow-promote' },
   });
-  if (!skillsR.ok) throw new Error(`Failed to load skills.json: ${skillsR.status}`);
+  if (!skillsR.ok) throw new Error(`Failed to load skills-lite.json (live catalog): ${skillsR.status}`);
   const skills = await skillsR.json();
   log(`Catalog has ${skills.length} skills`);
 
@@ -299,9 +299,18 @@ async function main() {
 
   if (newSkills.length > 0) {
     log(`\nAppending ${newSkills.length} new skill(s) to catalog...`);
-    const updatedSkills = [...skills, ...newSkills];
+    // POST-SPLIT (2026-09-26, fb8fd50c5): skills.json (99MB) was removed from the
+    // repo surface. skills-lite.json is the live catalog the site serves, so
+    // promotions append lite-shaped entries there (same shape as before).
+    const newLite = newSkills.map(s => ({
+      id: s.id, name: s.name, slug: s.slug, description: s.description,
+      category: s.category, tags: s.tags, price: s.price,
+      sentinel_score: s.sentinel_score, install: s.install,
+      author: s.author, version: s.version,
+    }));
+    const updatedSkills = [...skills, ...newLite];
     await ghPut(
-      'aep-marketplace/public/api/skills.json',
+      'aep-marketplace/public/api/skills-lite.json',
       updatedSkills,
       `promote ${newSkills.length} skill(s) from pending_submissions to catalog
 
@@ -309,28 +318,7 @@ Skills promoted:
 ${newSkills.map(s => `- ${s.id} (${s.name}) — Sentinel ${s.sentinel_score}/10`).join('\n')}`
     );
 
-    try {
-      const liteR = await fetch(`https://raw.githubusercontent.com/${REPO}/${BRANCH}/aep-marketplace/public/api/skills-lite.json`, {
-        headers: { Authorization: `Bearer ${GITHUB_TOKEN}`, 'User-Agent': 'marketnow-promote' },
-      });
-      if (liteR.ok) {
-        const lite = await liteR.json();
-        const newLite = newSkills.map(s => ({
-          id: s.id, name: s.name, slug: s.slug, description: s.description,
-          category: s.category, tags: s.tags, price: s.price,
-          sentinel_score: s.sentinel_score, install: s.install,
-          author: s.author, version: s.version,
-        }));
-        await ghPut(
-          'aep-marketplace/public/api/skills-lite.json',
-          [...lite, ...newLite],
-          `promote ${newLite.length} skill(s) to skills-lite.json`
-        );
-        log(`✓ Updated skills-lite.json`);
-      }
-    } catch (e) {
-      log(`⚠️  skills-lite.json update failed (non-fatal): ${e.message}`);
-    }
+    // (skills-lite.json is now the MAIN write above — no separate update needed.)
 
     // Also update skills_index.json (read by generate_skills.cjs during build)
     // Without this, promoted skills won't appear in production builds.
