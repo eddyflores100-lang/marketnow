@@ -65,7 +65,9 @@ jobs:
         env:
           SENTINEL_CERT_SECRET: ${{ secrets.SENTINEL_CERT_SECRET }}
           MANDATES_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MAX_SKILLS: ${{ github.event.inputs.max_skills || '0' }}
+          # Scheduled weekly runs audit a batch (2000) to stay inside the job
+          # timeout now that the catalog is 68,388 entries. Manual: 0 = all.
+          MAX_SKILLS: ${{ github.event.inputs.max_skills || '2000' }}
           ONLY_SKILL: ${{ github.event.inputs.skill_id || '' }}
         run: |
           if [ -z "$SENTINEL_CERT_SECRET" ]; then
