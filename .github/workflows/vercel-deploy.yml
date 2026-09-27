@@ -34,6 +34,25 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
+      - name: Check VERCEL_TOKEN is valid (skip with notice, don't fail)
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          # 2026-09-27: the stored token lost access to scope
+          # edisons-projects-b0f771d8 (Vercel requires re-authentication for the
+          # scope). Failing every 6h only generated notification spam. Instead:
+          # validate the token first and SKIP with a visible notice until a
+          # fresh token is stored as the VERCEL_TOKEN secret.
+          code=$(curl -sS -o /tmp/vercel_user.json -w '%{http_code}' \
+            "https://api.vercel.com/v2/user" \
+            -H "Authorization: Bearer $VERCEL_TOKEN")
+          if [ "$code" != "200" ]; then
+            echo "::notice::VERCEL_TOKEN rejected (HTTP $code) — production deploy SKIPPED. Create a fresh Vercel token with access to scope edisons-projects-b0f771d8 and team DmoZusxMIKcqJhgRBmQ8B3dK, store it as the VERCEL_TOKEN secret, and deployments resume automatically."
+            cat /tmp/vercel_user.json || true
+            exit 0
+          fi
+          echo "VERCEL_TOKEN OK — proceeding"
+
       - name: Trigger production deployment (git master → marketnow-uta)
         id: trigger
         env:
