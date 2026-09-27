@@ -68,7 +68,9 @@ jobs:
             exit 0
           fi
 
-          MAX="${{ github.event.inputs.max_skills || '0' }}"
+          # Scheduled runs audit in daily batches (auto-resume from
+          # _data/deep-audit-progress.json). Manual dispatch with 0 = all.
+          MAX="${{ github.event.inputs.max_skills || '800' }}"
           START="${{ github.event.inputs.start_from || '0' }}"
           
           if [ "$MAX" = "0" ]; then
