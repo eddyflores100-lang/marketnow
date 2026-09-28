@@ -42,8 +42,11 @@ on:
         type: string
 
 # Required to fire repository_dispatch events
+# FIX 403: POST /repos/{repo}/dispatches requiere contents WRITE — con solo
+# 'read' todos los dispatches vuelven 403 (bug del original, nunca detectado
+# porque el workflow estaba roto y disabled con 0 runs).
 permissions:
-  contents: read
+  contents: write
 
 # Prevent overlapping weekly runs
 concurrency:
@@ -69,6 +72,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MAX_SKILLS: ${{ github.event.inputs.max_skills || '0' }}
         run: |
+          set -o pipefail
           node <<'JS' 2>&1 | tee /tmp/reaudit.log
           const fs = require('fs');
 
