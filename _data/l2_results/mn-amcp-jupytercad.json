@@ -1,6 +1,7 @@
 {
   "skill_id": "mn-amcp-jupytercad",
-  "timestamp": "2026-07-06T02:53:25Z",
+  "timestamp": "2026-09-28T01:19:42Z",
+  "l2_version": "2.5",
   "sandbox_config": {
     "network": "none",
     "filesystem": "read-only",
@@ -8,20 +9,86 @@
     "memory": "256m",
     "cpu": "0.5",
     "pids": "64",
-    "timeout": "60s"
+    "timeout": "60s",
+    "gvisor": "gvisor-active",
+    "seccomp_profile": "n/a (gVisor userspace kernel active)"
   },
-  "execution_status": "failed_to_start",
-  "failure_reason": "Node.js MODULE_NOT_FOUND \u2014 the fallback Dockerfile CMD [\"node\", \"index.js\"] does not match this server's entrypoint. The MCP server never actually ran.",
-  "behavioral_analysis": {
-    "network_attempts": 0,
-    "fs_write_attempts": 0,
-    "process_spawns": 0,
-    "credential_leakage": 0,
-    "crash_detected": 0,
-    "dynamic_imports": 0
+  "execution_status": "ran",
+  "failure_reason": null,
+  "analysis_layers": {
+    "stdout_passive": {
+      "network_attempts": 0,
+      "fs_write_attempts": 0,
+      "process_spawns": 1,
+      "credential_leakage": 0,
+      "crash_detected": 0,
+      "dynamic_imports": 0
+    },
+    "strace_syscalls": {
+      "file_access_sensitive": 0,
+      "file_write_outside_tmp": 0,
+      "network_connect": 0,
+      "process_exec": 0,
+      "process_fork": 0,
+      "permission_escalation": 0,
+      "sensitive_paths_accessed": []
+    },
+    "mcp_probe_active": {
+      "tools_discovered": 0,
+      "tools_tested": 0,
+      "adversarial_findings": 0,
+      "critical_findings": 0,
+      "high_findings": 0,
+      "details": [],
+      "leaked_data": []
+    },
+    "filesystem_diff": {
+      "files_created": 0,
+      "files_modified": 0,
+      "files_deleted": 0,
+      "suspicious_changes": []
+    },
+    "l25_seccomp_violations": {
+      "total_violations": 0,
+      "ptrace_attempted": false,
+      "bpf_attempted": false,
+      "mount_attempted": false,
+      "kexec_attempted": false,
+      "clone3_attempted": false,
+      "unshare_attempted": false,
+      "blocked_syscalls": []
+    },
+    "l25_suspicious_files": {
+      "ssh_files": false,
+      "env_files": false,
+      "cron_files": false,
+      "key_files": false,
+      "details": []
+    },
+    "l26_egress_proxy": {
+      "total_requests": 0,
+      "allowed_requests": 0,
+      "blocked_requests": 0,
+      "blocked_domains": [],
+      "allowed_domains": [],
+      "metadata_endpoint_access": false,
+      "localhost_access": false,
+      "private_range_access": false
+    }
   },
-  "stdout_size_bytes": 443,
-  "stdout_sample": "node:internal/modules/cjs/loader:1210   throw err;   ^  Error: Cannot find module '/app/index.js'     at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)     at Module._load (node:internal/modules/cjs/loader:1038:27)     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)     at node:internal/main/run_main_module:28:49 {   code: 'MODULE_NOT_FOUND',   requireStack: [] }  Node.js v20.20.2 ",
-  "l2_score": 0,
-  "l2_risk_level": "unknown"
+  "stdout_size_bytes": 421,
+  "stdout_sample": "docker: Error response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: unable to retrieve OCI runtime error (open /run/containerd/io.containerd.runtime.v2.task/moby/dc3b40a67647cf76c62ce6286e7511ff0633c4e3e22e144bea4c82347718dcd4/log.json: no such file or directory): fork/exec /usr/local/bin/runsc: exec format error  Run 'docker run --help' for more information ",
+  "l2_score": 10,
+  "l2_risk_level": "low",
+  "findings_summary": {
+    "total_critical": 0,
+    "total_high": 0,
+    "sensitive_paths_accessed": [],
+    "leaked_data": [],
+    "suspicious_fs_changes": [],
+    "egress_blocked_domains": [],
+    "egress_metadata_access": false
+  },
+  "pinned_commit_sha": "",
+  "audited_tree": ""
 }
