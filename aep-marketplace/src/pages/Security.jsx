@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useLang } from '../context/LanguageContext.jsx';
+import { useLiveStats } from '../utils/liveStats.js';
 
 // ═══════════════════════════════════════════════════════════════════════════
 // CONTENT — full Security page in 5 languages
@@ -229,7 +230,7 @@ const CONTENT = {
       l2None: 'No L2 sandbox results yet — they appear here automatically after the first /api/audit-skill call for a skill with a GitHub repo.',
       l2Dedup: 'Dedup window',
       l2DedupValue: '30 min (per Vercel instance, prevents duplicate dispatches)',
-      l2RolloutNote: 'L2 rollout in progress — 2,839 of the top 2,868 npm targets deep-scanned (99% completion). Remaining catalog entries are certified with v3.0 + L1.6 static analysis. L2 coverage grows as more skills get source.url populated.',
+      l2RolloutNote: 'L2 rollout in progress — {scanned} of the top {targets} npm targets deep-scanned ({pct}% completion). Remaining catalog entries are certified with v3.0 + L1.6 static analysis. L2 coverage grows as more skills get source.url populated.',
       viewRaw: '→ View raw JSON in repo',
       refresh: '↻ Refresh',
       loading: 'Loading live audit data…',
@@ -1045,6 +1046,9 @@ export default function Security() {
   const c = CONTENT[lang] || CONTENT.en;
   // liveStatus is only defined for EN and ES — fall back to EN for the others.
   const ls = c.liveStatus || CONTENT.en.liveStatus;
+  // M-01: cifras L2 vivas (mismo pipeline que la homepage) — el texto del
+  // rollout ya no hardcodea 2,839/2,868/99% que caducaban con cada refresh.
+  const liveStats = useLiveStats();
   const [stats, setStats] = useState({
     total: 0,
     scanned: 0,
@@ -1562,7 +1566,10 @@ export default function Security() {
                 </div>
                 {ls.l2RolloutNote && (
                   <div className="mt-2 p-2 rounded bg-orange-500/5 border border-orange-500/10 text-orange-400/80 text-[10px] leading-relaxed">
-                    ⚠️ {ls.l2RolloutNote}
+                    ⚠️ {ls.l2RolloutNote
+                      .replace('{scanned}', liveStats.l2.toLocaleString('en-US'))
+                      .replace('{targets}', liveStats.l2Targets.toLocaleString('en-US'))
+                      .replace('{pct}', String(Math.round(liveStats.l2Pct)))}
                   </div>
                 )}
               </div>

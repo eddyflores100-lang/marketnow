@@ -8,21 +8,21 @@
 //   database / canonical stats  ->  /api/stats.json  ->  this module  ->  UI
 import { useEffect, useState } from 'react';
 
-// Fallback values = last-known values of /api/stats.json (v2.1.0, 2026-09-25).
+// Fallback values = last-known values of /api/stats.json (v2.1.0, 2026-09-28).
 // Only used while the fetch is in flight or if the API is unreachable.
 export const FALLBACK_STATS = {
   total: 68388,          // discovery.total_mcp_servers
   tracked: 132737,       // discovery.total_tracked_all_sources
   l1: 68388,             // security.l1_index_certified
   l1Checks: 10,          // security.l1_checks
-  l2: 2839,              // security.l2_sentinel_scanned
-  l2Targets: 2868,       // security.l2_targets
-  l2Pct: 99,             // security.l2_completion_pct
-  clean: 885,            // security.l2_clean
-  warn: 791,             // security.l2_flagged_warning
-  err: 1156,             // security.l2_flagged_error
-  scanErrs: 29,          // security.l2_scan_errors
-  ownPackages: 13,       // security.l2_own_packages
+  l2: 2754,              // security.l2_sentinel_scanned
+  l2Targets: 2882,       // security.l2_targets
+  l2Pct: 96,             // security.l2_completion_pct
+  clean: 891,            // security.l2_clean
+  warn: 799,             // security.l2_flagged_warning
+  err: 1163,             // security.l2_flagged_error
+  scanErrs: 1,          // security.l2_scan_errors
+  ownPackages: 14,       // security.l2_own_packages
   ownVulns: 0,           // security.npm_vulnerabilities_own_packages
   mcpTools: 15,          // tools.mcp_server_tools_count
   mcpVersion: '1.15.0',  // tools.mcp_server_version

@@ -42,6 +42,12 @@ jobs:
           node-version: '24'
       - name: Audit gate (repo mode)
         run: node scripts/audit-gate.mjs
+      - name: Transparency sync gate (M-01 — superficies vs fuentes vivas)
+        # Cierre del hallazgo M-01 (auditoría externa 2026-09-28): el snapshot
+        # congelado de audit-report.json nunca puede volver. El gate falla si
+        # CUALQUIER superficie de transparencia diverge de sus fuentes
+        # (certification-scans / certificados / certification / bundle).
+        run: node scripts/audit-report-sync.mjs --check
       - name: Audit gate (live production)
         if: github.event_name == 'schedule'
         run: node scripts/audit-gate.mjs --live

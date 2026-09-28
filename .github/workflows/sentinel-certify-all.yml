@@ -86,6 +86,12 @@ jobs:
           echo "Running batch audit with args: $ARGS"
           node scripts/audit-all-skills.mjs $ARGS
 
+      - name: Sync transparency surfaces (M-01)
+        # El batch semanal regenera _summary.json (cifras de certificación) —
+        # audit-report.json y demás superficies deben reflejarlo en el MISMO
+        # commit (cierre M-01: transparencia sincronizada con el pipeline).
+        run: node aep-marketplace/scripts/audit-report-sync.mjs
+
       - name: Commit certificates
         run: |
           # Check if any certificates were generated
@@ -100,8 +106,14 @@ jobs:
           git config user.name "Sentinel Cert Bot"
           git config user.email "support@alicelabs.site"
 
-          # Add all certificates
+          # Add all certificates + transparency surfaces reconciled (M-01)
           git add _data/sentinel_certificates/
+          git add aep-marketplace/public/api/audit-report.json \
+            aep-marketplace/public/api/skills_stats.json \
+            aep-marketplace/lib/stats-base.json \
+            aep-marketplace/public/api/agent.json \
+            aep-marketplace/public/api/sentinel-roadmap.json \
+            aep-marketplace/src/utils/liveStats.js || true
 
           # Build commit message with stats from the audit
           LOW=$(find _data/sentinel_certificates -name "*.json" -exec grep -l '"risk_level": "low"' {} \; | wc -l)

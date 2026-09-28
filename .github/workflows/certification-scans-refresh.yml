@@ -98,23 +98,40 @@ jobs:
             console.log('JSON OK — scans:', d.scans.length, '| stats:', JSON.stringify(d.stats).slice(0, 160));
           "
 
+      - name: Sync transparency surfaces (M-01)
+        # Reconcilia audit-report.json + skills_stats.json + stats-base +
+        # agent.json + roadmap + fallback SPA con las cifras del refresh L2
+        # recién escrito. Todo en el MISMO commit: la superficie pública nunca
+        # vuelve a quedar atrás de certification-scans.json.
+        run: node aep-marketplace/scripts/audit-report-sync.mjs
+
       - name: Commit refreshed data (with retry on race)
         run: |
           git config user.name "MarketNow Scans Bot"
           git config user.email "scans@marketnow.site"
 
-          if git diff --quiet HEAD -- aep-marketplace/public/api/certification-scans.json; then
+          SYNC_FILES="aep-marketplace/public/api/certification-scans.json \
+          aep-marketplace/public/api/audit-report.json \
+          aep-marketplace/public/api/skills_stats.json \
+          aep-marketplace/lib/stats-base.json \
+          aep-marketplace/public/api/agent.json \
+          aep-marketplace/public/api/sentinel-roadmap.json \
+          aep-marketplace/src/utils/liveStats.js"
+
+          if git diff --quiet HEAD -- ${SYNC_FILES}; then
             echo "No changes — nothing to commit."
             exit 0
           fi
 
           REFRESHED=$(node -e "console.log(require('./aep-marketplace/public/api/certification-scans.json').stats.refreshed_this_run)")
 
-          git add aep-marketplace/public/api/certification-scans.json
+          git add ${SYNC_FILES}
           git commit -m "data(l2): rolling certification-scans refresh — ${REFRESHED} rescanned
 
           Daily rolling L2 tarball scan (top npm pool + @marketnow own pkgs).
           Stats recomputed honestly; see stats.refreshed_this_run and rotation.*.
+          M-01 sync: audit-report/stats-base/agent/roadmap/SPA reconciled with
+          this revision in the same commit (audit-report-sync.mjs).
           Push triggers production deploy via paths filter."
 
           for i in 1 2 3 4 5; do
