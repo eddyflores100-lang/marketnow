@@ -1,0 +1,157 @@
+{
+  "schema": "marketnow-release-manifest/1.0",
+  "release_id": "rel-2026-09-28-012631",
+  "generated_at": "2026-09-28T01:26:31.568Z",
+  "generator": "scripts/release-manifest.mjs",
+  "git": {
+    "sha": "9a8710017b57fc3d578a90b23e9a9af0e7c5d864",
+    "branch": "master"
+  },
+  "deployment": {
+    "uid": "dpl_79muKbsnjiSffnkFvbihdV1f3SyV",
+    "name": "marketnow-uta",
+    "url": "marketnow-omojb1dqm-edisons-projects-b0f771d8.vercel.app",
+    "state": "READY",
+    "created_at": "2026-09-28T01:13:05.529Z",
+    "deployed_git_sha": "d330f248409f082f57961cb0cf1760ce9d28775b",
+    "deployed_git_ref": "master"
+  },
+  "npm": [
+    {
+      "name": "marketnow-mcp",
+      "version": "1.15.0",
+      "tarball_sha256": "f263a7e6e3b2bae2e15036848941bb2ea786ef161fa9db34fba7a7d69d1908de",
+      "tarball_bytes": 35312,
+      "integrity": "sha512-UsC2ifn/zDTZLgvJybQrQX03IsZnXyNdN6kzDYoo21hFvIaseCKYPDeLPHkWkmsEVDYszrBpyz75GP2wuK4+jg==",
+      "published_at": "2026-09-26T04:34:10.923Z"
+    },
+    {
+      "name": "agent-trust-card",
+      "version": "1.4.1",
+      "tarball_sha256": "57087b7b9204db13c110e4474936c2f6cee0cf36f757ba261b3f768b935eab17",
+      "tarball_bytes": 33674,
+      "integrity": "sha512-LVJ8sthocijAUnigubC41DGRzfMLNd8LMY+UUDlCwf9La5wv/wlVSPR7tS3gWmtnXac6LRnoxi35PmJFXsQZeQ==",
+      "published_at": "2026-09-20T15:35:20.699Z"
+    },
+    {
+      "name": "marketnow-install-stack",
+      "version": "1.2.1",
+      "tarball_sha256": "3f4ff91c6ca85c37512cbe3d9f7ee443239db1f8dbfcecdf844a0dbb5012db42",
+      "tarball_bytes": 9885,
+      "integrity": "sha512-J+xhRx2NcjB+5Gms5qVmNNeUGdzLC26VFnaID6cBcSJjZV44fk3V7GFStKLqFDd2RoJ8kXVr2fw+Gnujk/80Tg==",
+      "published_at": "2026-09-20T15:29:20.072Z"
+    },
+    {
+      "name": "marketnow-audit",
+      "version": "1.0.1",
+      "tarball_sha256": "6b952cafa621849b8010e6d296aacf895c0d879e87d1e8bc59544862a584f1d0",
+      "tarball_bytes": 9233,
+      "integrity": "sha512-v33ztX9aiZuX+TG/CrT9rfb/qGF+ISj2rZamh2eN/A4leSN4KUCC90HrSRZ3hheehKJnN8ak7DrJfmSHyU+m0A==",
+      "published_at": "2026-09-20T15:30:12.213Z"
+    },
+    {
+      "name": "@marketnow/uts",
+      "version": "2.0.3",
+      "tarball_sha256": "8ac24b2487f1aacb8d8d25bc522d68e1c9fda5a5556bf9563652edc2494a8e55",
+      "tarball_bytes": 9525,
+      "integrity": "sha512-qVgBI6iPFxnsV9rK95ShHhhRXFiJ8OnOxoRwMga0mK7pgNOjNZ8IJiN8BjaD/KVEPbvinDyiLWMsM7eAC5g92g==",
+      "published_at": "2026-09-20T15:29:24.966Z"
+    },
+    {
+      "name": "@marketnow/trust-core",
+      "version": "2.0.3",
+      "tarball_sha256": "f6f19860a4c4eec24b9948ec81903cb2b4c85634f1f2b1ccc2ad8dfebc428923",
+      "tarball_bytes": 89785,
+      "integrity": "sha512-z4K4AtRBRDKz8ciHJoWaqnhGzBmrpmbF6h3EuT4YE2x8Vk5ep6FaA1TQtCWUiNJlxjw7GhhpdwdeF5OhwZJDlA==",
+      "published_at": "2026-09-20T15:34:54.402Z"
+    },
+    {
+      "name": "@marketnow/trust-adapters",
+      "version": "1.0.4",
+      "tarball_sha256": "c24f021540c452e7e4a57d2e520efda63989905d2165e1b1d7817c7e324c6b90",
+      "tarball_bytes": 48322,
+      "integrity": "sha512-dUHa55imfPSwNPIMMh5scDW3DaMDwuWecrPks9tvg8j5GnTe/VMm2irw0oOoeqZzxXg1zUCtblUNqU1sbcZ7KQ==",
+      "published_at": "2026-09-20T15:36:30.111Z"
+    },
+    {
+      "name": "@marketnow/trust-gateway",
+      "version": "1.0.5",
+      "tarball_sha256": "0b63dc04969a6ead96732880bb1b7417fb626d213c6dd277202dc64fe4de101e",
+      "tarball_bytes": 21351,
+      "integrity": "sha512-5mrUKtmUxtQM7xE/h/0kt89Flvphdpnq8edRrROvqUHlaaLm3naJarHzumktbuqRgsXyrcyKB1su/FWaLhvZDQ==",
+      "published_at": "2026-09-20T15:34:15.376Z"
+    },
+    {
+      "name": "@marketnow/uta-verify",
+      "version": "1.0.2",
+      "tarball_sha256": "fe140ddd36b7d2dc5c708091c74dc8675aa5c986f94b167594a4dc450dadba96",
+      "tarball_bytes": 11179,
+      "integrity": "sha512-pNSy4oRSWjuQ9cJUG7wzl1QeBQJqx1uj+MWH5KKXA2FnCrEbp7zWWRNp0A13uy/mOgOV8XEmCQx/nGwGAErFPQ==",
+      "published_at": "2026-09-20T15:34:19.471Z"
+    },
+    {
+      "name": "@marketnow/uta-conformance",
+      "version": "1.3.5",
+      "tarball_sha256": "60467286d768d69963ec03608a705d3cea10e84d2fbd583734e95b0e57c9950e",
+      "tarball_bytes": 43137,
+      "integrity": "sha512-CwxhhX0riSXzFBSyNjPg8zCSOKgnw3uJS5AwWFYnnF3+ggIRtAsKt0bXPPETpL9tOPpBUqpyy4GSGO1SwVpwpA==",
+      "published_at": "2026-09-20T15:35:33.970Z"
+    },
+    {
+      "name": "@marketnow/cline-trust-plugin",
+      "version": "1.1.2",
+      "tarball_sha256": "f83adea017b4b300b4e98742ea23005988d5976194f41dbdb13108c7179af0e8",
+      "tarball_bytes": 13007,
+      "integrity": "sha512-vuENoM1A10ioGw1wwMvDsrDMpu2PpRLmo1WIu5Jg8lGeCO/bVN/JCf87qxriygn9BwUFHeULKWskVbvLejuXGg==",
+      "published_at": "2026-09-20T15:29:23.797Z"
+    },
+    {
+      "name": "@marketnow/sentinel-rules",
+      "version": "1.1.2",
+      "tarball_sha256": "a792ad5ace33ba5dabbd2517888f1f36e6a6f40c9503863c01db9626e2e238b2",
+      "tarball_bytes": 13329,
+      "integrity": "sha512-4UxJWSysA9/UaLRTQQ4P0Dw8BjMpuK7SRNJ/nPGO0rEpu99Vi8gxThYUCRV3DSi+e3U2O3zW5z9JeaiFuPLUkw==",
+      "published_at": "2026-09-20T15:35:04.363Z"
+    },
+    {
+      "name": "@marketnow/trust-mcp-middleware",
+      "version": "1.0.2",
+      "tarball_sha256": "612bb1168f4d773e789684b48d1b2e20e60209661c4b74fc446b8db3e30ec467",
+      "tarball_bytes": 8469,
+      "integrity": "sha512-ZuEPdZt4Je3UoqaB3bpax838HiA3jYKPoPC2HBI1ND0WJmlahFWrO7rk47mq8YRAvZi0Nt375/4Gh0Hr/uyk7g==",
+      "published_at": "2026-09-20T15:34:48.017Z"
+    },
+    {
+      "name": "@marketnow/trust-observability",
+      "version": "1.0.3",
+      "tarball_sha256": "398cc3c5634c6258869768b1bd4a8a7313413392e1a502ac353d63a4262eee18",
+      "tarball_bytes": 8671,
+      "integrity": "sha512-D+fusDFbThlYtIb+0rh9BSGWNQqcEMY80jUVh2f8czf7fkBriMfn7fH/S4ufED97zqzuwHvXdlJXBsoRBunGnw==",
+      "published_at": "2026-09-20T15:35:06.760Z"
+    }
+  ],
+  "catalog": {
+    "bundle_entries": 68388,
+    "certification": {
+      "generated_at": "2026-09-28T01:06:50Z",
+      "level": 1,
+      "level_name": "index-certified",
+      "all_checks_pass": true,
+      "checks_passed": 10,
+      "checks_total": 10,
+      "coverage": "683880/683880"
+    }
+  },
+  "links": {
+    "verify_script": "scripts/verify-release.mjs",
+    "public_key": "/_data/releases/release-public-key.json",
+    "api": "/api/release-manifest.json"
+  },
+  "signature": {
+    "algorithm": "Ed25519 (RFC 8032)",
+    "key_id": "mn-release-001",
+    "value": "374aade2f806e6f154f8cbd62d4804fbd98a3c20e54cde74be5b2a0b99377400881ff7348b0ba6c625e7bb2af4b561b7f62e484083464a2bb58b1978e105ee0b",
+    "signed_object": "canonical(manifest sin signature)",
+    "canonical_sha256": "98b058e6cf10787384ef6942883a9c62ff9fb35f0b1942247c5b15c16e07c126"
+  }
+}

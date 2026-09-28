@@ -1,0 +1,87 @@
+# MarketNow — Release Manifest (F-01 remediation)
+# ================================================
+# Genera y FIRMA el manifest que ata (binding verificable):
+#   git SHA ↔ npm tarball sha256 (14 paquetes propios) ↔ deployment Vercel ↔ catálogo
+#
+# La llave privada Ed25519 (mn-release-001) vive SOLO como secret
+# MARKETNOW_RELEASE_KEY. La pública está commiteada en
+# _data/releases/release-public-key.json — cualquiera puede verificar:
+#   node scripts/verify-release.mjs --live
+#   curl -s https://marketnow.site/api/release-manifest.json
+#
+# Triggers:
+#   - workflow_run: cuando "Deploy to Vercel (production)" termina en success
+#     (el manifest describe exactamente el release que acaba de desplegar)
+#   - schedule: diario 04:30 UTC — refresca hashes npm + reporta drift
+#     (F-01: paquete publicado sin deploy = drift visible al día siguiente)
+#   - workflow_dispatch: manual
+#
+# El commit usa [skip ci] (evita loop de deploy) — el manifest sale al sitio
+# con el siguiente deploy programado (cada 6h).
+
+name: Release Manifest
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 4 * * *'  # diario 04:30 UTC
+  workflow_run:
+    workflows: ['Deploy to Vercel (production)']
+    types: [completed]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-manifest
+  cancel-in-progress: false
+
+jobs:
+  manifest:
+    name: Generate + sign + commit release manifest
+    runs-on: ubuntu-latest
+    # solo en deploy exitoso (schedule/dispatch no tienen conclusion)
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # el manifest firma el HEAD actual de master (no el SHA del evento,
+          # que puede haber avanzado con resultados L2/promotions)
+          ref: master
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate + sign manifest (fail closed sin llave)
+        env:
+          MARKETNOW_RELEASE_KEY: ${{ secrets.MARKETNOW_RELEASE_KEY }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: node scripts/release-manifest.mjs
+
+      - name: Verify signature BEFORE committing (fail closed)
+        run: node scripts/verify-release.mjs aep-marketplace/public/api/release-manifest.json
+
+      - name: Commit manifest (skip ci — sale con el próximo deploy)
+        run: |
+          git config user.name 'marketnow-release[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add _data/releases/ aep-marketplace/public/api/release-manifest.json
+          if git diff --cached --quiet; then
+            echo 'Sin cambios de manifest — nada que commitear.'
+            exit 0
+          fi
+          git commit -m 'chore(release): manifest firmado [skip ci]'
+          MAX_RETRIES=5
+          for i in $(seq 1 $MAX_RETRIES); do
+            if git push 2>&1; then
+              echo "✓ Push ok (intento $i)"
+              exit 0
+            fi
+            echo "⚠ push $i falló (race) — rebase y reintento..."
+            sleep $((i * 2))
+            git pull --rebase origin master || { git rebase --abort 2>/dev/null || true; exit 1; }
+          done
+          echo '✗ no se pudo pushear el manifest (queda como working tree del runner)'
+          exit 1

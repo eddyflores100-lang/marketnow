@@ -2,13 +2,15 @@
 # Portado de alicelabs-llc/universal-trust-adapter (split 2026-09-26):
 # escribe SOLO archivos de este repo (agent.json, stats-base, liveStats,
 # public/uta/README). El README de UTA lo sincroniza el workflow propio de UTA.
+# P1 2026-09-28: semanal -> DIARIO (audit F-01: la ventana de drift npm→site
+# era de hasta 7 días; ahora máx 24h + el sync es idempotente).
 name: Version sync (npm -> site data)
 
 on:
   workflow_dispatch:
   schedule:
-    # Lunes 08:30 UTC (03:30 America/Guayaquil)
-    - cron: '30 8 * * 1'
+    # Diario 08:30 UTC (03:30 America/Guayaquil)
+    - cron: '30 8 * * *'
 
 permissions:
   contents: write

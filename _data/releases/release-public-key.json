@@ -1,0 +1,9 @@
+{
+  "key_id": "mn-release-001",
+  "algorithm": "Ed25519 (RFC 8032)",
+  "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAila1uImZpK+4lRSYFuMp864Z8lYBLirQpEIxUZbO3rs=\n-----END PUBLIC KEY-----\n",
+  "public_key_sha256": "db77cd7ab4fbedac",
+  "created_at": "2026-09-28T01:30:00Z",
+  "purpose": "Firma los release manifests de marketnow (binding git SHA + npm tarball sha256 + deployment). El manifest se verifica con scripts/verify-release.mjs o con esta llave p\u00fablica.",
+  "note": "La llave privada vive SOLO como GitHub secret MARKETNOW_RELEASE_KEY. Nunca en el repo."
+}
