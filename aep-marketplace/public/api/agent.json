@@ -169,7 +169,7 @@
   },
   "metrics": {
     "skills_indexed": 68388,
-    "security_checks_performed": 763746,
+    "security_checks_performed": 766588,
     "npm_versions_published": 25,
     "npm_latest_version": "1.15.0",
     "npm_first_release_date": "2026-06-29",
@@ -178,18 +178,18 @@
     "as_of": "2026-09-28",
     "source": "live API: https://marketnow.site/api/skills-lite.json + npm registry",
     "skills_tracked_all_sources": 132737,
-    "security_checks_methodology": "763,746 total = 683,880 L1 (10 L1 checks × 68,388 entries) + 79,866 L2 (29 L2 rules × 2,754 tarballs; top 2,882 npm targets, 95.6% completion)",
-    "l2_tarballs_deep_scanned": 2754,
-    "l2_flagged_for_review": 1962,
-    "l2_clean": 891,
+    "security_checks_methodology": "766,588 total = 683,880 L1 (10 L1 checks × 68,388 entries) + 82,708 L2 (29 L2 rules × 2,852 tarballs; top 2,882 npm targets, 99% completion)",
+    "l2_tarballs_deep_scanned": 2852,
+    "l2_flagged_for_review": 2036,
+    "l2_clean": 915,
     "npm_downloads_last_month": 939,
     "npm_vulnerabilities_own_packages": 0,
     "security_checks_breakdown": {
       "l1_index_checks": 683880,
       "l1_formula": "10 L1 checks x 68388 entries",
-      "l2_sentinel_rule_checks": 79866,
-      "l2_formula": "29 L2 rules x 2754 tarballs",
-      "total": 763746
+      "l2_sentinel_rule_checks": 82708,
+      "l2_formula": "29 L2 rules x 2852 tarballs",
+      "total": 766588
     },
     "npm_packages_published": 14,
     "npm_monthly_downloads": 8707

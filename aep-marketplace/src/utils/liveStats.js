@@ -15,13 +15,13 @@ export const FALLBACK_STATS = {
   tracked: 132737,       // discovery.total_tracked_all_sources
   l1: 68388,             // security.l1_index_certified
   l1Checks: 10,          // security.l1_checks
-  l2: 2754,              // security.l2_sentinel_scanned
+  l2: 2852,              // security.l2_sentinel_scanned
   l2Targets: 2882,       // security.l2_targets
-  l2Pct: 96,             // security.l2_completion_pct
-  clean: 891,            // security.l2_clean
-  warn: 799,             // security.l2_flagged_warning
-  err: 1163,             // security.l2_flagged_error
-  scanErrs: 1,          // security.l2_scan_errors
+  l2Pct: 99,             // security.l2_completion_pct
+  clean: 915,            // security.l2_clean
+  warn: 833,             // security.l2_flagged_warning
+  err: 1203,             // security.l2_flagged_error
+  scanErrs: 30,          // security.l2_scan_errors
   ownPackages: 14,       // security.l2_own_packages
   ownVulns: 0,           // security.npm_vulnerabilities_own_packages
   mcpTools: 15,          // tools.mcp_server_tools_count
