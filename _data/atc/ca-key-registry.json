@@ -1,15 +1,33 @@
 {
-  "version": 1,
-  "description": "CA Key Registry — lists all CA keys used to sign ATCs. Verifiers check this to reject ATCs signed by retired keys.",
-  "updated_at": "2026-07-23T00:00:00Z",
+  "version": 2,
+  "description": "CA Key Registry — lists all CA keys used to sign ATCs. Verifiers check this to reject ATCs signed by retired keys. UPDATE 2026-09-28: registry realineado con la realidad (mn-ca-002 retirada por exposición; mn-ca-003 activa desde 2026-09-08). Fuente de verdad del anchor activo: aep-marketplace/lib/trust-handler.mjs (spki mn-ca-003).",
+  "updated_at": "2026-09-28T01:15:00Z",
   "keys": [
     {
       "key_id": "ca-key-001",
       "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA8p1XlAnt5QRCGbyDRi8+U9MCvt8Xyzq36Rar45JHszM=\n-----END PUBLIC KEY-----",
       "algorithm": "Ed25519",
-      "status": "active",
+      "status": "retired",
       "created_at": "2026-07-16T00:00:00Z",
-      "note": "Initial CA keypair generated when ATC was first implemented."
+      "retired_at": "2026-08-12T22:53:26Z",
+      "note": "Initial CA keypair. Superseded by mn-ca-002 (JCS migration, resign-all-atcs.mjs 2026-08-12)."
+    },
+    {
+      "key_id": "mn-ca-002",
+      "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEATlD16v6Fy/+GM4je2SxwCz7yFEeo9d8LwqZf0yN8oFY=\n-----END PUBLIC KEY-----",
+      "algorithm": "Ed25519",
+      "status": "retired",
+      "created_at": "2026-08-12T22:53:26Z",
+      "retired_at": "2026-09-08T00:00:00Z",
+      "note": "RETIRADA POR EXPOSICIÓN: la llave privada fue commiteada en _data/atc/ca-keypair.json (eliminada 2026-09-28, commit de remediación F-06/F-07). Ningún ATC vivo la usa: los 57 ATCs activos están firmados por mn-ca-003 (ca_key_id verificado). El verificador en producción (trust-handler.mjs) solo confía mn-ca-003 y fail-closed ante anchors desconocidos desde 2026-09-08. Cualquier tarjeta firmada por mn-ca-002 DEBE ser rechazada."
+    },
+    {
+      "key_id": "mn-ca-003",
+      "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAUWJgyMWp9oKIGwN9EG8ayz/mYYp1lcQBI58rtpOs8CM=\n-----END PUBLIC KEY-----",
+      "algorithm": "Ed25519",
+      "status": "active",
+      "created_at": "2026-09-08T00:00:00Z",
+      "note": "CA activa. Llave privada SOLO en Vercel env var MARKETNOW_ATC_CA_PRIVATE_KEY (nunca en el repo). Verificación live: /api/atc?action=ca-key. Anchor espejo en aep-marketplace/lib/trust-handler.mjs (MARKETNOW_CA.spki_b64)."
     }
   ]
 }
