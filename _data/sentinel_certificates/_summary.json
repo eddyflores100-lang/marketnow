@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-28T00:31:20.143Z",
+  "generated_at": "2026-09-28T10:16:44.999Z",
   "total_certified": 74916,
-  "total_failed": 0,
   "by_risk": {
     "low": 7,
     "medium": 74507,
     "high": 370,
-    "critical": 32,
-    "unknown": 0
+    "critical": 32
   },
   "by_score": {
     "0": 18,
@@ -21,7 +19,5 @@
     "8": 8127,
     "9": 63820,
     "10": 7
-  },
-  "with_l2": 208,
-  "l2_coverage_pct": "0.28%"
+  }
 }
