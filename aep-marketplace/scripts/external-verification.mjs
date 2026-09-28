@@ -131,6 +131,18 @@ function record(id, desc, ok, detail, warn = false) {
       { level: scans.level, scanned, targets, age_days: +ageDays.toFixed(2) },
       ageDays > 2 && ageDays <= 8); // 2-8 days = weekend cadence, acceptable
   }
+  // A5: the F-06 regression class — a UI dataset that silently becomes a
+  // deprecation manifest leaves client pages rendering 0 skills (found in
+  // production 2026-09-28: Registry/Catalog/Security were broken for 3 days
+  // after /api/skills.json was retired while pages still fetched it).
+  try {
+    const lite = await jget('/api/skills-lite.json');
+    const rows = Array.isArray(lite.json) ? lite.json : [];
+    record('A5', '/api/skills-lite.json is a live ARRAY dataset (UI data source, not a manifest)',
+      lite.status === 200 && rows.length > 60000, { http: lite.status, entries: rows.length });
+  } catch (e) {
+    record('A5', '/api/skills-lite.json reachable', false, e.message);
+  }
 
   // ─── B. MCP protocol ─────────────────────────────────────────────────────
   console.log('\nB. MCP protocol (live JSON-RPC)');

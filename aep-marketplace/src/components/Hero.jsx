@@ -141,7 +141,7 @@ export default function Hero({ onSignIn }) {
                 Try the API
               </div>
               <code className="text-[#00F299] text-sm font-mono break-all">
-                curl https://marketnow.site/api/skills.json | jq '.[0:3] | .[] | {"{{name, price}}"}'
+                curl 'https://marketnow.site/api/skills?page=1&limit=3' | jq '.skills[] | {"{{name, price}}"}'
               </code>
             </div>
           </motion.div>

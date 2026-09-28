@@ -484,7 +484,9 @@ export default function Catalog() {
   useEffect(() => {
     (async () => {
       try {
-        const r = await fetch('/api/skills.json');
+        // FIX (2026-09-28): /api/skills.json responde deprecation manifest
+        // desde F-06 (25-09) — usar el dataset vivo skills-lite.json.
+        const r = await fetch('/api/skills-lite.json');
         const skills = await r.json();
         const total = skills.length;
         const withGithub = skills.filter(s => s.repo || s.github_url || (s.author && s.author !== 'Open Source Community')).length;

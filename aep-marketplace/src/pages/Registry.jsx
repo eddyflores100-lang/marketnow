@@ -233,7 +233,11 @@ export default function Registry() {
       try {
         setLoading(true);
         const [skillsRes, catsRes] = await Promise.all([
-          fetch('/api/skills.json'),
+          // FIX (2026-09-28): /api/skills.json fue retirado el 25-09 (F-06:
+          // dump de 94MB) y ahora responde un manifest de deprecación —
+          // este fetch dejaba el registry en 0 skills desde entonces.
+          // skills-lite.json es el dataset vivo que consume toda la UI.
+          fetch('/api/skills-lite.json'),
           fetch('/api/categories.json'),
         ]);
         if (!skillsRes.ok) throw new Error('HTTP ' + skillsRes.status);

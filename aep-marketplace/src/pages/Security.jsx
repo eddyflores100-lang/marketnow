@@ -1086,7 +1086,9 @@ export default function Security() {
         setStats(s => ({ ...s, total, scanned: total }));
       }
 
-      const sres = await fetch('/api/skills.json');
+      // FIX (2026-09-28): /api/skills.json responde deprecation manifest
+      // desde F-06 (25-09) — usar el dataset vivo skills-lite.json.
+      const sres = await fetch('/api/skills-lite.json');
       if (sres.ok) {
         const skills = await sres.json();
         if (Array.isArray(skills) && skills.length > 0) {
@@ -1108,7 +1110,7 @@ export default function Security() {
 
   const loadLogs = async () => {
     try {
-      const res = await fetch('/api/skills.json');
+      const res = await fetch('/api/skills-lite.json');
       if (!res.ok) return;
       const skills = await res.json();
       if (!Array.isArray(skills) || skills.length === 0) return;
