@@ -1,6 +1,6 @@
 {
   "schema": "marketnow-discovery-queue/1.0",
-  "generated_at": "2026-09-28T02:00:16.542Z",
+  "generated_at": "2026-09-28T02:01:39.552Z",
   "mode": "queue — review before import",
   "note": "Candidatos descubiertos (awesome-mcp + GitHub Search, L1.7 pre-filtrado). La importación al catálogo es deliberada (flujo dev): exige actualizar la constelación de conteos (skills-lite, free-skills, stats-base.discovery, catalog-meta, mcp.json, ai-plugin.json, landing) y regenerar certification.json para no recrear el drift F-02. Consumir con scripts/auto-discover-mcp.mjs --import + sync de conteos.",
   "stats": {
