@@ -50,7 +50,14 @@ import { runL17, MALWARE_PATTERNS } from '../aep-marketplace/lib/sentinel-l17.mj
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.join(__dirname, '..');
-const SKILLS_PATH = path.join(REPO_ROOT, 'aep-marketplace', 'public', 'api', 'skills_index.json');
+// POST-SPLIT (2026-09-26): skills_index.json (85MB) fue eliminado. El catálogo
+// vivo que sirve el sitio es skills-lite.json — se usa SOLO para dedupe/lookups
+// en modo cola; la importación directa (--import) es una operación deliberada
+// del flujo dev porque exige actualizar la constelación de conteos (stats-base,
+// free-skills, catalog-meta, mcp.json, ai-plugin, landing) y regenerar
+// certification.json — de lo contrario se recrea el drift F-02 del audit.
+const SKILLS_PATH = path.join(REPO_ROOT, 'aep-marketplace', 'public', 'api', 'skills-lite.json');
+const QUEUE_PATH = path.join(REPO_ROOT, '_data', 'discovery_queue.json');
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || process.env.MANDATES_GITHUB_TOKEN;
 if (!GITHUB_TOKEN) {
@@ -63,6 +70,9 @@ const DRY_RUN = args.includes('--dry-run');
 const SOURCE_FILTER = args.includes('--source') ? args[args.indexOf('--source') + 1] : null;
 const MAX_ARG = args.indexOf('--max');
 const MAX_NEW = MAX_ARG > -1 ? parseInt(args[MAX_ARG + 1], 10) : 0;
+// --import: escribe al catálogo (solo flujo dev, con actualización de la
+// constelación de conteos). Por defecto: cola de revisión en _data/discovery_queue.json.
+const IMPORT = args.includes('--import');
 
 const stats = {
   discovered_awesome: 0,
@@ -458,18 +468,26 @@ function findSyntheticMatch(realRepo, synthetics) {
         skill.replaced_synthetic = true;
         skill.replaced_at = new Date().toISOString();
 
-        // Find and replace in the skills array
-        const idx = skills.findIndex(s => s.id === oldId);
-        if (idx >= 0) {
-          skills[idx] = skill;
-          replacements.push({ synthetic_id: oldId, real_repo: meta.full_name });
+        if (IMPORT) {
+          // Find and replace in the skills array
+          const idx = skills.findIndex(s => s.id === oldId);
+          if (idx >= 0) {
+            skills[idx] = skill;
+            replacements.push({ synthetic_id: oldId, real_repo: meta.full_name });
+            stats.replaced++;
+            console.log(`  🔄 Replaced synthetic ${oldId} with real repo ${meta.full_name} (${meta.stargazers_count}★)`);
+            continue;
+          }
+        } else {
+          // MODO COLA: reemplazo propuesto sin tocar el catálogo
+          replacements.push({ synthetic_id: oldId, real_repo: meta.full_name, queued_skill: skill });
           stats.replaced++;
-          console.log(`  🔄 Replaced synthetic ${oldId} with real repo ${meta.full_name} (${meta.stargazers_count}★)`);
+          console.log(`  🔄 [queue] synthetic ${oldId} → real repo ${meta.full_name} (${meta.stargazers_count}★)`);
           continue;
         }
       }
 
-      // No match — add as new skill
+      // No match — new skill (al catálogo con --import; a la cola por defecto)
       newSkills.push(skill);
       stats.imported++;
     }
@@ -479,11 +497,12 @@ function findSyntheticMatch(realRepo, synthetics) {
     }
   }
 
-  // Add all new skills
-  skills.push(...newSkills);
+  // Add all new skills (solo en modo --import; en modo cola van al queue)
+  if (IMPORT) skills.push(...newSkills);
 
   // Mark remaining synthetics as synthetic: true (honest disclosure)
-  for (const s of skills) {
+  // (solo tiene sentido mutando el catálogo — modo --import)
+  if (IMPORT) for (const s of skills) {
     if (s.id?.startsWith('mn-') && !s.id.startsWith('mn-prompt-') &&
         !s.id.startsWith('mn-mcp-') && !s.id.startsWith('mn-amcp-') &&
         !s.id.startsWith('mn-awmcp-') && !s.id.startsWith('mn-real-') &&
@@ -494,12 +513,43 @@ function findSyntheticMatch(realRepo, synthetics) {
     }
   }
 
-  stats.total_after = skills.length;
+  stats.total_after = skills.length + (IMPORT ? 0 : newSkills.length);
 
-  // Write updated catalog
+  // Write: catálogo (--import, compacto — 47MB jamás pretty-print, límite GH)
+  // o cola de revisión (_data/discovery_queue.json)
   if (!DRY_RUN) {
-    fs.writeFileSync(SKILLS_PATH, JSON.stringify(skills, null, 2));
-    console.log(`\n✅ Updated skills_index.json`);
+    if (IMPORT) {
+      fs.writeFileSync(SKILLS_PATH, JSON.stringify(skills));
+      console.log(`\n✅ Updated skills-lite.json (${skills.length} skills, compact)`);
+    } else {
+      const prevQueue = fs.existsSync(QUEUE_PATH)
+        ? JSON.parse(fs.readFileSync(QUEUE_PATH, 'utf8')) : { entries: [] };
+      const known = new Set((prevQueue.entries || []).map(e => e.repo));
+      const fresh = [
+        ...newSkills.map(s => ({
+          repo: s.source?.url || `https://github.com/${s.author}/${s.name}`,
+          kind: 'new', status: 'pending-review', queued_at: new Date().toISOString(),
+          skill: s,
+        })),
+        ...replacements.filter(r => r.queued_skill).map(r => ({
+          repo: `https://github.com/${r.real_repo}`,
+          kind: 'replaces-synthetic', replaces: r.synthetic_id,
+          status: 'pending-review', queued_at: new Date().toISOString(),
+          skill: r.queued_skill,
+        })),
+      ].filter(e => e.repo && !known.has(e.repo));
+      const queue = {
+        schema: 'marketnow-discovery-queue/1.0',
+        generated_at: new Date().toISOString(),
+        mode: 'queue — review before import',
+        note: 'Candidatos descubiertos (awesome-mcp + GitHub Search, L1.7 pre-filtrado). La importación al catálogo es deliberada (flujo dev): exige actualizar la constelación de conteos (skills-lite, free-skills, stats-base.discovery, catalog-meta, mcp.json, ai-plugin.json, landing) y regenerar certification.json para no recrear el drift F-02. Consumir con scripts/auto-discover-mcp.mjs --import + sync de conteos.',
+        stats,
+        entries: [...(prevQueue.entries || []), ...fresh].slice(-2000),
+      };
+      fs.mkdirSync(path.dirname(QUEUE_PATH), { recursive: true });
+      fs.writeFileSync(QUEUE_PATH, JSON.stringify(queue, null, 2));
+      console.log(`\n✅ Discovery queue updated: ${queue.entries.length} entries (+${fresh.length} nuevos)`);
+    }
   } else {
     console.log(`\n[DRY RUN] No files written.`);
   }

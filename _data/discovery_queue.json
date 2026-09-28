@@ -1,0 +1,363 @@
+{
+  "schema": "marketnow-discovery-queue/1.0",
+  "generated_at": "2026-09-28T02:00:16.542Z",
+  "mode": "queue — review before import",
+  "note": "Candidatos descubiertos (awesome-mcp + GitHub Search, L1.7 pre-filtrado). La importación al catálogo es deliberada (flujo dev): exige actualizar la constelación de conteos (skills-lite, free-skills, stats-base.discovery, catalog-meta, mcp.json, ai-plugin.json, landing) y regenerar certification.json para no recrear el drift F-02. Consumir con scripts/auto-discover-mcp.mjs --import + sync de conteos.",
+  "stats": {
+    "discovered_awesome": 4083,
+    "discovered_github": 756,
+    "already_in_catalog": 4144,
+    "imported": 5,
+    "replaced": 0,
+    "marked_synthetic": 0,
+    "total_before": 68388,
+    "total_after": 68393
+  },
+  "entries": [
+    {
+      "repo": "https://github.com/402signalhq/402signal",
+      "kind": "new",
+      "status": "pending-review",
+      "queued_at": "2026-09-28T02:00:16.542Z",
+      "skill": {
+        "id": "mn-real-402signal",
+        "name": "402signal",
+        "slug": "real-402signal",
+        "description": "Endpoint selection, buyer protection, and verifiable records for AI payments. Public clients, adapters, and independent verification.",
+        "category": "Finance",
+        "tags": [
+          "mcp",
+          "real",
+          "javascript",
+          "402signalhq"
+        ],
+        "price": 0,
+        "currency": "USD",
+        "payment": "free",
+        "license": "MIT",
+        "verified": false,
+        "sentinel_score": 7,
+        "install": "npx -y 402signal",
+        "author": "402signalhq",
+        "version": "1.0.0",
+        "doc": {
+          "setup": {
+            "required_env": [],
+            "install": "npx -y 402signal",
+            "estimated_cost": "free"
+          },
+          "usage": "agent.call('real-402signal', { ... })",
+          "system_prompt": "# 402signal\n\n## Source\nhttps://github.com/402signalhq/402signal\n\n## Description\nEndpoint selection, buyer protection, and verifiable records for AI payments. Public clients, adapters, and independent verification.\n\n## Stars\n0\n\n## Language\nJavaScript\n"
+        },
+        "capabilities": {
+          "execution_context": "local_runtime",
+          "requires_auth": false,
+          "requires_network": false,
+          "input_types": [
+            "json"
+          ],
+          "output_types": [
+            "json",
+            "text"
+          ]
+        },
+        "sentinel": {
+          "scanned_at": "2026-09-28T02:00:16.539Z",
+          "scan_version": "L1.5+L1.6+L1.7",
+          "warnings": []
+        },
+        "source": {
+          "type": "github",
+          "url": "https://github.com/402signalhq/402signal",
+          "note": "Real MCP server. 0 stars. Language: JavaScript. Last push: 2026-09-25T14:19:16Z. Discovered via auto-discovery.",
+          "stars": 0,
+          "language": "JavaScript",
+          "last_push": "2026-09-25T14:19:16Z"
+        },
+        "l2_eligible": true,
+        "synthetic": false,
+        "discovered_at": "2026-09-28T02:00:16.540Z",
+        "discovered_by": "auto-discover-mcp.mjs"
+      }
+    },
+    {
+      "repo": "https://github.com/GarphenGate/moltline-mcp",
+      "kind": "new",
+      "status": "pending-review",
+      "queued_at": "2026-09-28T02:00:16.542Z",
+      "skill": {
+        "id": "mn-real-moltlinemcp",
+        "name": "moltline-mcp",
+        "slug": "real-moltline-mcp",
+        "description": "Zero-dependency stdio bridge for the Moltline Studio MCP fleet - 19 hosted streamable-HTTP servers, 132 tools, 92 of them free with no signup.",
+        "category": "Developer Tools",
+        "tags": [
+          "mcp",
+          "real",
+          "python",
+          "garphengate",
+          "agent-skills",
+          "ai-agents",
+          "claude",
+          "mcp",
+          "mcp-server"
+        ],
+        "price": 0,
+        "currency": "USD",
+        "payment": "free",
+        "license": "MIT",
+        "verified": false,
+        "sentinel_score": 7,
+        "install": "pip install moltline-mcp || uvx moltline-mcp",
+        "author": "GarphenGate",
+        "version": "1.0.0",
+        "doc": {
+          "setup": {
+            "required_env": [],
+            "install": "pip install moltline-mcp || uvx moltline-mcp",
+            "estimated_cost": "free"
+          },
+          "usage": "agent.call('real-moltline-mcp', { ... })",
+          "system_prompt": "# moltline-mcp\n\n## Source\nhttps://github.com/GarphenGate/moltline-mcp\n\n## Description\nZero-dependency stdio bridge for the Moltline Studio MCP fleet - 19 hosted streamable-HTTP servers, 132 tools, 92 of them free with no signup.\n\n## Stars\n0\n\n## Language\nPython\n"
+        },
+        "capabilities": {
+          "execution_context": "local_runtime",
+          "requires_auth": false,
+          "requires_network": true,
+          "input_types": [
+            "json"
+          ],
+          "output_types": [
+            "json",
+            "text"
+          ]
+        },
+        "sentinel": {
+          "scanned_at": "2026-09-28T02:00:16.541Z",
+          "scan_version": "L1.5+L1.6+L1.7",
+          "warnings": []
+        },
+        "source": {
+          "type": "github",
+          "url": "https://github.com/GarphenGate/moltline-mcp",
+          "note": "Real MCP server. 0 stars. Language: Python. Last push: 2026-09-22T05:11:45Z. Discovered via auto-discovery.",
+          "stars": 0,
+          "language": "Python",
+          "last_push": "2026-09-22T05:11:45Z"
+        },
+        "l2_eligible": true,
+        "synthetic": false,
+        "discovered_at": "2026-09-28T02:00:16.541Z",
+        "discovered_by": "auto-discover-mcp.mjs"
+      }
+    },
+    {
+      "repo": "https://github.com/BotHireAgent/BotHireMCPServer",
+      "kind": "new",
+      "status": "pending-review",
+      "queued_at": "2026-09-28T02:00:16.542Z",
+      "skill": {
+        "id": "mn-real-bothiremcpserver",
+        "name": "BotHireMCPServer",
+        "slug": "real-bothiremcpserver",
+        "description": "MCP server for BotHire — the machine-to-machine labor market where AI agents hire each other and pay agent-to-agent in USDT/USDC (x402, gasless, multi-chain: Base, Arbitrum, BNB, Solana) with ownerless on-chain escrow. Read-only discovery tools: search skills/agents, market stats, hire guide.",
+        "category": "Search",
+        "tags": [
+          "mcp",
+          "real",
+          "typescript",
+          "bothireagent",
+          "agent-marketplace",
+          "agent-payments",
+          "ai-agents",
+          "arbitrum",
+          "base"
+        ],
+        "price": 0,
+        "currency": "USD",
+        "payment": "free",
+        "license": "MIT",
+        "verified": false,
+        "sentinel_score": 7,
+        "install": "npx -y BotHireMCPServer",
+        "author": "BotHireAgent",
+        "version": "1.0.0",
+        "doc": {
+          "setup": {
+            "required_env": [],
+            "install": "npx -y BotHireMCPServer",
+            "estimated_cost": "free"
+          },
+          "usage": "agent.call('real-bothiremcpserver', { ... })",
+          "system_prompt": "# BotHireMCPServer\n\n## Source\nhttps://github.com/BotHireAgent/BotHireMCPServer\n\n## Description\nMCP server for BotHire — the machine-to-machine labor market where AI agents hire each other and pay agent-to-agent in USDT/USDC (x402, gasless, multi-chain: Base, Arbitrum, BNB, Solana) with ownerless on-chain escrow. Read-only discovery tools: search skills/agents, market stats, hire guide.\n\n## Stars\n0\n\n## Language\nTypeScript\n"
+        },
+        "capabilities": {
+          "execution_context": "local_runtime",
+          "requires_auth": false,
+          "requires_network": false,
+          "input_types": [
+            "json"
+          ],
+          "output_types": [
+            "json",
+            "text"
+          ]
+        },
+        "sentinel": {
+          "scanned_at": "2026-09-28T02:00:16.541Z",
+          "scan_version": "L1.5+L1.6+L1.7",
+          "warnings": []
+        },
+        "source": {
+          "type": "github",
+          "url": "https://github.com/BotHireAgent/BotHireMCPServer",
+          "note": "Real MCP server. 0 stars. Language: TypeScript. Last push: 2026-09-15T07:54:23Z. Discovered via auto-discovery.",
+          "stars": 0,
+          "language": "TypeScript",
+          "last_push": "2026-09-15T07:54:23Z"
+        },
+        "l2_eligible": true,
+        "synthetic": false,
+        "discovered_at": "2026-09-28T02:00:16.541Z",
+        "discovered_by": "auto-discover-mcp.mjs"
+      }
+    },
+    {
+      "repo": "https://github.com/neoninnovationlab/neon-mcp-gateway",
+      "kind": "new",
+      "status": "pending-review",
+      "queued_at": "2026-09-28T02:00:16.542Z",
+      "skill": {
+        "id": "mn-real-neonmcpgateway",
+        "name": "neon-mcp-gateway",
+        "slug": "real-neon-mcp-gateway",
+        "description": "Enterprise Zero-Trust security gateway, token rate-limiter, and secure SSE proxy for Model Context Protocol (MCP) servers.",
+        "category": "Security",
+        "tags": [
+          "mcp",
+          "real",
+          "javascript",
+          "neoninnovationlab",
+          "ai-agents",
+          "gateway",
+          "mcp",
+          "model-context-protocol",
+          "zero-trust"
+        ],
+        "price": 0,
+        "currency": "USD",
+        "payment": "free",
+        "license": "See repo",
+        "verified": false,
+        "sentinel_score": 7,
+        "install": "npx -y neon-mcp-gateway",
+        "author": "neoninnovationlab",
+        "version": "1.0.0",
+        "doc": {
+          "setup": {
+            "required_env": [],
+            "install": "npx -y neon-mcp-gateway",
+            "estimated_cost": "free"
+          },
+          "usage": "agent.call('real-neon-mcp-gateway', { ... })",
+          "system_prompt": "# neon-mcp-gateway\n\n## Source\nhttps://github.com/neoninnovationlab/neon-mcp-gateway\n\n## Description\nEnterprise Zero-Trust security gateway, token rate-limiter, and secure SSE proxy for Model Context Protocol (MCP) servers.\n\n## Stars\n0\n\n## Language\nJavaScript\n"
+        },
+        "capabilities": {
+          "execution_context": "local_runtime",
+          "requires_auth": false,
+          "requires_network": false,
+          "input_types": [
+            "json"
+          ],
+          "output_types": [
+            "json",
+            "text"
+          ]
+        },
+        "sentinel": {
+          "scanned_at": "2026-09-28T02:00:16.541Z",
+          "scan_version": "L1.5+L1.6+L1.7",
+          "warnings": []
+        },
+        "source": {
+          "type": "github",
+          "url": "https://github.com/neoninnovationlab/neon-mcp-gateway",
+          "note": "Real MCP server. 0 stars. Language: JavaScript. Last push: 2026-09-15T23:07:47Z. Discovered via auto-discovery.",
+          "stars": 0,
+          "language": "JavaScript",
+          "last_push": "2026-09-15T23:07:47Z"
+        },
+        "l2_eligible": true,
+        "synthetic": false,
+        "discovered_at": "2026-09-28T02:00:16.541Z",
+        "discovered_by": "auto-discover-mcp.mjs"
+      }
+    },
+    {
+      "repo": "https://github.com/minia2auk/minia2a-mcp",
+      "kind": "new",
+      "status": "pending-review",
+      "queued_at": "2026-09-28T02:00:16.542Z",
+      "skill": {
+        "id": "mn-real-minia2amcp",
+        "name": "minia2a-mcp",
+        "slug": "real-minia2a-mcp",
+        "description": "Remote MCP server for minia2a.uk — x402 pay-per-call agent tools. USDC on Base, 5 free trial calls per signed wallet (EIP-191 signature, no registration).",
+        "category": "Developer Tools",
+        "tags": [
+          "mcp",
+          "real",
+          "typescript",
+          "minia2auk"
+        ],
+        "price": 0,
+        "currency": "USD",
+        "payment": "free",
+        "license": "MIT",
+        "verified": false,
+        "sentinel_score": 7,
+        "install": "npx -y minia2a-mcp",
+        "author": "minia2auk",
+        "version": "1.0.0",
+        "doc": {
+          "setup": {
+            "required_env": [],
+            "install": "npx -y minia2a-mcp",
+            "estimated_cost": "free"
+          },
+          "usage": "agent.call('real-minia2a-mcp', { ... })",
+          "system_prompt": "# minia2a-mcp\n\n## Source\nhttps://github.com/minia2auk/minia2a-mcp\n\n## Description\nRemote MCP server for minia2a.uk — x402 pay-per-call agent tools. USDC on Base, 5 free trial calls per signed wallet (EIP-191 signature, no registration).\n\n## Stars\n1\n\n## Language\nTypeScript\n"
+        },
+        "capabilities": {
+          "execution_context": "local_runtime",
+          "requires_auth": false,
+          "requires_network": false,
+          "input_types": [
+            "json"
+          ],
+          "output_types": [
+            "json",
+            "text"
+          ]
+        },
+        "sentinel": {
+          "scanned_at": "2026-09-28T02:00:16.541Z",
+          "scan_version": "L1.5+L1.6+L1.7",
+          "warnings": []
+        },
+        "source": {
+          "type": "github",
+          "url": "https://github.com/minia2auk/minia2a-mcp",
+          "note": "Real MCP server. 1 stars. Language: TypeScript. Last push: 2026-09-26T15:31:42Z. Discovered via auto-discovery.",
+          "stars": 1,
+          "language": "TypeScript",
+          "last_push": "2026-09-26T15:31:42Z"
+        },
+        "l2_eligible": true,
+        "synthetic": false,
+        "discovered_at": "2026-09-28T02:00:16.541Z",
+        "discovered_by": "auto-discover-mcp.mjs"
+      }
+    }
+  ]
+}

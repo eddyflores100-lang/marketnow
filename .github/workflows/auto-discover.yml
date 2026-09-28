@@ -1,21 +1,31 @@
-# MarketNow — Auto-Discovery & Synthetic Replacement (Weekly)
-# ==============================================================
+# MarketNow — Auto-Discovery (Weekly, queue mode)
+# ================================================
+# REVIVAL 2026-09-28 (P2-a2, mismo patrón de rot que el F-08): este workflow
+# llevaba 1 run fallido (20-sep) y estado disabled_manually desde entonces.
+# Causa raíz del fallo: el pipeline pre-split regeneraba skills.json (120MB) +
+# skills_index.json (85MB) → el push moría en el pre-receive hook GH001
+# (límite 100MB por archivo). Además referenciaba archivos eliminados en el
+# split del 2026-09-26.
 #
-# Runs automatically every week to:
-#   1. Discover new MCP servers from awesome-mcp-servers + GitHub Search
-#   2. Import them as real skills with GitHub source.url
-#   3. Replace synthetic skills with real counterparts (keeping IDs)
-#   4. Mark remaining synthetics as `synthetic: true` (honest disclosure)
-#   5. Regenerate the catalog (skills.json, skills-lite.json, etc.)
-#   6. Commit changes to master
+# MODO COLA (decisión de diseño post-audit):
+#   El discovery NO importa automáticamente al catálogo. Los candidatos
+#   descubiertos (awesome-mcp-servers + GitHub Search, pre-filtrados por
+#   L1.7 anti-malware) van a _data/discovery_queue.json con status
+#   'pending-review'. Razones:
+#     a) La importación exige actualizar la constelación de conteos
+#        (skills-lite, free-skills, stats-base.discovery, catalog-meta,
+#        mcp.json, ai-plugin.json, landing) y regenerar certification.json —
+#        si no, se recrea el drift F-02 (números anunciados ≠ realidad).
+#     b) Auto-certificar repos no revisados en un catálogo "index-certified"
+#        es una decisión de producto, no un default.
+#   El flujo dev consume la cola con: auto-discover-mcp.mjs --import + sync
+#   de la constelación + regeneración de certificación.
 #
-# The sentinel-l2-reaudit.yml workflow (runs at 02:00 UTC) will pick up
-# the new skills and trigger L2 sandbox audits for all of them.
-# The sentinel-certify-all.yml workflow (runs at 01:00 UTC) will
-# regenerate all certificates with the new L2 results.
+# massive-indexer.cjs fue retirado del pipeline: escribe skills_index.json
+# (eliminado) — su aporte (GitHub Search multi-query) ya lo cubre el
+# discoverFromGitHubSearch() del propio auto-discover-mcp.mjs.
 #
-# Schedule: Sunday 00:30 UTC (30 min before certify-all at 01:00)
-# Manual: workflow_dispatch
+# Triggers: Sunday 00:30 UTC + manual (max_new = límite de candidatos).
 
 name: Auto-Discovery & Synthetic Replacement
 
@@ -25,7 +35,7 @@ on:
   workflow_dispatch:
     inputs:
       max_new:
-        description: 'Max new skills to import (0 = no limit)'
+        description: 'Max new candidates this run (0 = no limit)'
         required: false
         default: '0'
         type: string
@@ -49,16 +59,9 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
 
-      - name: Run massive GitHub indexer (40+ queries, 1000s of repos)
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          echo "Running massive indexer..."
-          node scripts/massive-indexer.cjs || true
-
-      - name: Run auto-discovery (awesome-mcp + replacement)
+      - name: Run auto-discovery (queue mode)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MAX_NEW: ${{ github.event.inputs.max_new || '0' }}
@@ -69,47 +72,26 @@ jobs:
           fi
           node scripts/auto-discover-mcp.mjs $ARGS
 
-      - name: Regenerate catalog
-        run: |
-          cd aep-marketplace
-          node generate_skills.cjs
-          node scripts/generate-skills-lite.cjs
-
-      - name: Commit changes
+      - name: Commit discovery queue (with retry on race)
         run: |
           git config user.name "MarketNow Discovery Bot"
           git config user.email "discovery@marketnow.site"
 
-          # Check if anything changed
-          if git diff --quiet HEAD -- aep-marketplace/public/api/skills_index.json; then
-            echo "No new skills discovered. Exiting."
+          if git diff --quiet HEAD -- _data/discovery_queue.json; then
+            echo "No new candidates — nothing to commit."
             exit 0
           fi
 
-          # Count changes
-          NEW_COUNT=$(git diff --stat HEAD -- aep-marketplace/public/api/skills_index.json | tail -1)
-          echo "Changes: $NEW_COUNT"
+          NEW=$(node -e "const q=require('./_data/discovery_queue.json'); console.log(q.entries.filter(e=>e.status==='pending-review').length)")
 
-          git add aep-marketplace/public/api/skills_index.json \
-                  aep-marketplace/public/api/skills.json \
-                  aep-marketplace/public/api/skills-lite.json \
-                  aep-marketplace/public/api/categories.json \
-                  aep-marketplace/public/api/manifest.json \
-                  aep-marketplace/public/api/agent.json \
-                  aep-marketplace/src/data/all_skills.json
+          git add _data/discovery_queue.json
+          git commit -m "discovery: queue update — ${NEW} candidates pending review
 
-          git commit -m "auto-discovery: import new MCP servers + replace synthetics
+          Weekly discovery run (awesome-mcp-servers + GitHub Search).
+          Queue mode: candidates are NOT auto-imported into the catalog.
+          Import requires the count-constellation sync + certification
+          regen (see queue file note). L1.7 pre-filter applied."
 
-          Weekly automated discovery run.
-          Sources: awesome-mcp-servers + GitHub Search API (topic:mcp-server)
-          Actions: imported new real MCP servers, replaced matching synthetics,
-          marked remaining synthetics with synthetic: true flag.
-
-          The sentinel-l2-reaudit workflow (next run) will trigger L2 sandbox
-          audits for all new skills with source.url.
-          The sentinel-certify-all workflow will regenerate certificates."
-
-          # Push with retry
           for i in 1 2 3 4 5; do
             if git push 2>&1; then
               echo "✓ Push succeeded on attempt $i"
@@ -118,6 +100,7 @@ jobs:
             echo "⚠ Push attempt $i failed — pulling rebase and retrying..."
             sleep $((i * 2))
             git pull --rebase origin master || {
+              echo "✗ git pull --rebase failed on attempt $i"
               git rebase --abort 2>/dev/null || true
               exit 1
             }
@@ -131,8 +114,6 @@ jobs:
         with:
           name: discovery-report-${{ github.run_id }}
           path: |
-            scripts/discovery-report.json
-            scripts/import-log.json
-            _data/
+            _data/discovery_queue.json
           retention-days: 7
           if-no-files-found: ignore
