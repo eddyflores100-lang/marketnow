@@ -1,37 +1,37 @@
 {
   "schema": "marketnow-certification-scans/1.0",
-  "generated_at": "2026-09-28T01:52:46.543Z",
+  "generated_at": "2026-09-28T01:54:46.736Z",
   "baseline_generated_at": "2026-09-10T07:13:04Z",
   "refresh_mode": "rolling-ci",
-  "last_refresh_at": "2026-09-28T01:52:46.543Z",
+  "last_refresh_at": "2026-09-28T01:54:46.736Z",
   "level": 2,
   "level_name": "sentinel-scanned",
-  "description": "Rolling CI deep scan of the SHIPPED registry artifacts (not repo metadata): each npm tarball is downloaded, integrity-checked (shasum) and scanned with the 29 MarketNow Sentinel rules in tarball mode (dist/ included — the code that actually runs). Lite engine: 22 exact regex rules + 7 approximations of structural rules; full AST via semgrep (see /api/certification). Refresh: rolling batch in GitHub Actions (daily) — every run re-scans the oldest entries plus all @marketnow own packages, so results never go stale.",
+  "description": "Rolling CI deep scan of the SHIPPED registry artifacts (not repo metadata): each npm tarball is downloaded, integrity-checked (shasum) and scanned with the 29 MarketNow Sentinel rules in tarball mode (dist/ included — the code that actually runs). Lite engine: 22 exact regex rules + 7 approximations of structural rules; full AST via semgrep (see /api/certification). Refresh: rolling batch in GitHub Actions (daily) — every run re-scans the oldest entries plus all @marketnow own packages, so results never go stale. Refresh: rolling batch in GitHub Actions (daily) — every run re-scans the oldest entries plus all @marketnow own packages, so results never go stale.",
   "stats": {
     "targets": 2882,
-    "scanned": 2738,
+    "scanned": 2754,
     "scan_errors": 1,
-    "completion": 95,
-    "clean": 887,
-    "flagged_warning": 792,
-    "flagged_error": 1158,
+    "completion": 95.6,
+    "clean": 891,
+    "flagged_warning": 799,
+    "flagged_error": 1163,
     "info_only": 7,
     "own_packages": 14,
-    "weekly_download_volume_covered": 16461690,
+    "weekly_download_volume_covered": 20423922,
     "selection": "top 2868 npm packages by weekly downloads from the MarketNow catalog + all 14 @marketnow own packages; rolling refresh (oldest-first)",
-    "refreshed_this_run": 19,
-    "errors_this_run": 1
+    "refreshed_this_run": 30,
+    "errors_this_run": 0
   },
   "top_rules_hit": {
-    "MCP-SS-002": 15940,
-    "MCP-PI-006": 9999,
-    "MCP-PT-001": 5723,
-    "MCP-CI-001": 3102,
-    "MCP-EX-002": 2850,
-    "MCP-AC-001": 2067,
-    "MCP-TP-002": 1244,
+    "MCP-SS-002": 16231,
+    "MCP-PI-006": 10022,
+    "MCP-PT-001": 5756,
+    "MCP-CI-001": 3103,
+    "MCP-EX-002": 2864,
+    "MCP-AC-001": 2068,
+    "MCP-TP-002": 1263,
     "MCP-PI-005": 1013,
-    "MCP-PT-002": 488,
+    "MCP-PT-002": 490,
     "MCP-CI-003": 472
   },
   "error_packages": [
@@ -157391,525 +157391,6 @@
       "verify": "npm view @rithwikbabu/packwright-mcp@0.5.0 dist.shasum == 4f807efc55cf61448955184abbee63f583a608a4"
     },
     {
-      "name": "marketnow-mcp",
-      "version": "1.15.0",
-      "own": true,
-      "weekly_downloads": 0,
-      "shasum": "9a51899172eb5c1b4b7458b9233a03097bb72fa3",
-      "integrity": "sha512-UsC2ifn/zDTZLgvJybQrQX03IsZnXyNdN6kzDYoo21hFvIaseCKYPDeLPHkWkmsEVDYszrBpyz75GP2wuK4+jg==",
-      "license": null,
-      "deps_count": 3,
-      "tarball_bytes": 35312,
-      "files_scanned": 4,
-      "rules": 29,
-      "findings": 2,
-      "by_severity": {
-        "ERROR": 0,
-        "WARNING": 2,
-        "INFO": 0
-      },
-      "by_rule": {
-        "MCP-PI-006": 2
-      },
-      "top_findings": [
-        {
-          "rule": "MCP-PI-006",
-          "severity": "WARNING",
-          "file": "index.js",
-          "line": 811,
-          "snippet": "/shell/credentials/process inference) for any re"
-        },
-        {
-          "rule": "MCP-PI-006",
-          "severity": "WARNING",
-          "file": "index.js",
-          "line": 835,
-          "snippet": "/shell/credentials/process), evidence, risk (wit"
-        }
-      ],
-      "verdict": "flagged-warning",
-      "scanner": "sentinel-rules@lite --no-skip",
-      "scanned_at": "2026-09-28T01:51:37.014Z",
-      "duration_ms": 172
-    },
-    {
-      "name": "marketnow-audit",
-      "version": "1.0.1",
-      "own": true,
-      "weekly_downloads": 0,
-      "shasum": "28a90f5eaa8e8a97adc1dd74873776fafce9005d",
-      "integrity": "sha512-v33ztX9aiZuX+TG/CrT9rfb/qGF+ISj2rZamh2eN/A4leSN4KUCC90HrSRZ3hheehKJnN8ak7DrJfmSHyU+m0A==",
-      "license": null,
-      "deps_count": 0,
-      "tarball_bytes": 9233,
-      "files_scanned": 2,
-      "rules": 29,
-      "findings": 0,
-      "by_severity": {
-        "ERROR": 0,
-        "WARNING": 0,
-        "INFO": 0
-      },
-      "by_rule": {},
-      "top_findings": [],
-      "verdict": "clean",
-      "scanner": "sentinel-rules@lite --no-skip",
-      "scanned_at": "2026-09-28T01:51:37.115Z",
-      "duration_ms": 99
-    },
-    {
-      "name": "marketnow-install-stack",
-      "version": "1.2.1",
-      "own": true,
-      "weekly_downloads": 0,
-      "shasum": "1ae411d2ba79bae3f800281f5ebe2a142945abb9",
-      "integrity": "sha512-J+xhRx2NcjB+5Gms5qVmNNeUGdzLC26VFnaID6cBcSJjZV44fk3V7GFStKLqFDd2RoJ8kXVr2fw+Gnujk/80Tg==",
-      "license": null,
-      "deps_count": 0,
-      "tarball_bytes": 9885,
-      "files_scanned": 2,
-      "rules": 29,
-      "findings": 1,
-      "by_severity": {
-        "ERROR": 0,
-        "WARNING": 1,
-        "INFO": 0
-      },
-      "by_rule": {
-        "MCP-PT-001": 1
-      },
-      "top_findings": [
-        {
-          "rule": "MCP-PT-001",
-          "severity": "WARNING",
-          "file": "index.js",
-          "line": 212,
-          "snippet": "fs.readFileSync(configPath, 'utf8')); if (!exist"
-        }
-      ],
-      "verdict": "flagged-warning",
-      "scanner": "sentinel-rules@lite --no-skip",
-      "scanned_at": "2026-09-28T01:51:37.197Z",
-      "duration_ms": 81
-    },
-    {
-      "name": "agent-trust-card",
-      "version": "1.4.1",
-      "own": true,
-      "weekly_downloads": 0,
-      "shasum": "eb1776d6a561506e4f0122d6c4e9e9cc7903add5",
-      "integrity": "sha512-LVJ8sthocijAUnigubC41DGRzfMLNd8LMY+UUDlCwf9La5wv/wlVSPR7tS3gWmtnXac6LRnoxi35PmJFXsQZeQ==",
-      "license": null,
-      "deps_count": 1,
-      "tarball_bytes": 33674,
-      "files_scanned": 10,
-      "rules": 29,
-      "findings": 0,
-      "by_severity": {
-        "ERROR": 0,
-        "WARNING": 0,
-        "INFO": 0
-      },
-      "by_rule": {},
-      "top_findings": [],
-      "verdict": "clean",
-      "scanner": "sentinel-rules@lite --no-skip",
-      "scanned_at": "2026-09-28T01:51:37.283Z",
-      "duration_ms": 86
-    },
-    {
-      "name": "@marketnow/uts",
-      "version": "2.0.3",
-      "own": true,
-      "weekly_downloads": 0,
-      "shasum": "b2ae4b6d597ffd22239d3559e42cf84883824f9c",
-      "integrity": "sha512-qVgBI6iPFxnsV9rK95ShHhhRXFiJ8OnOxoRwMga0mK7pgNOjNZ8IJiN8BjaD/KVEPbvinDyiLWMsM7eAC5g92g==",
-      "license": null,
-      "deps_count": 0,
-      "tarball_bytes": 9525,
-      "files_scanned": 5,
-      "rules": 29,
-      "findings": 0,
-      "by_severity": {
-        "ERROR": 0,
-        "WARNING": 0,
-        "INFO": 0
-      },
-      "by_rule": {},
-      "top_findings": [],
-      "verdict": "clean",
-      "scanner": "sentinel-rules@lite --no-skip",
-      "scanned_at": "2026-09-28T01:51:37.384Z",
-      "duration_ms": 100
-    },
-    {
-      "name": "@marketnow/trust-core",
-      "version": "2.0.3",
-      "own": true,
-      "weekly_downloads": 0,
-      "shasum": "4bcf3c69397c2307b7caf3e89f15cfd27e93ee43",
-      "integrity": "sha512-z4K4AtRBRDKz8ciHJoWaqnhGzBmrpmbF6h3EuT4YE2x8Vk5ep6FaA1TQtCWUiNJlxjw7GhhpdwdeF5OhwZJDlA==",
-      "license": null,
-      "deps_count": 0,
-      "tarball_bytes": 89785,
-      "files_scanned": 39,
-      "rules": 29,
-      "findings": 17,
-      "by_severity": {
-        "ERROR": 8,
-        "WARNING": 9,
-        "INFO": 0
-      },
-      "by_rule": {
-        "MCP-AC-002": 1,
-        "MCP-CI-001": 1,
-        "MCP-AC-001": 5,
-        "MCP-AC-003": 1,
-        "MCP-SS-002": 7,
-        "MCP-PI-006": 2
-      },
-      "top_findings": [
-        {
-          "rule": "MCP-AC-002",
-          "severity": "ERROR",
-          "file": "dist/cross-agent-trust.js",
-          "line": 135,
-          "snippet": "atob\\(/i, /base64 (decode|encode).*exec/i, ]; co"
-        },
-        {
-          "rule": "MCP-CI-001",
-          "severity": "ERROR",
-          "file": "dist/supply-chain.js",
-          "line": 411,
-          "snippet": "execSync(`openssl req -new -x509 -key \"${tmpKey}"
-        },
-        {
-          "rule": "MCP-AC-001",
-          "severity": "ERROR",
-          "file": "dist/trajectory-analysis.js",
-          "line": 26,
-          "snippet": "downloads payload, executes it', sequence: ['sea"
-        },
-        {
-          "rule": "MCP-AC-003",
-          "severity": "ERROR",
-          "file": "dist/trajectory-analysis.js",
-          "line": 34,
-          "snippet": ".env → Exfiltrate via network', description: 'Ag"
-        },
-        {
-          "rule": "MCP-AC-001",
-          "severity": "ERROR",
-          "file": "dist/trajectory-analysis.js",
-          "line": 45,
-          "snippet": "fetch'], max_window_ms: 2 * 60 * 1000, sever"
-        },
-        {
-          "rule": "MCP-AC-001",
-          "severity": "ERROR",
-          "file": "dist/trajectory-analysis.js",
-          "line": 62,
-          "snippet": "downloads a file, writes it to disk, then execut"
-        },
-        {
-          "rule": "MCP-AC-001",
-          "severity": "ERROR",
-          "file": "dist/trajectory-analysis.js",
-          "line": 72,
-          "snippet": "fetch'], max_window_ms: 30 * 1000, severity:"
-        },
-        {
-          "rule": "MCP-AC-001",
-          "severity": "ERROR",
-          "file": "dist/trajectory-analysis.js",
-          "line": 81,
-          "snippet": "fetch', 'execute'], max_window_ms: 60 * 1000,"
-        }
-      ],
-      "verdict": "flagged-error",
-      "scanner": "sentinel-rules@lite --no-skip",
-      "scanned_at": "2026-09-28T01:51:37.517Z",
-      "duration_ms": 133
-    },
-    {
-      "name": "@marketnow/trust-adapters",
-      "version": "1.0.4",
-      "own": true,
-      "weekly_downloads": 0,
-      "shasum": "19767947a8b3bdd1aa50bf5ef0e5b92a9e08202d",
-      "integrity": "sha512-dUHa55imfPSwNPIMMh5scDW3DaMDwuWecrPks9tvg8j5GnTe/VMm2irw0oOoeqZzxXg1zUCtblUNqU1sbcZ7KQ==",
-      "license": null,
-      "deps_count": 0,
-      "tarball_bytes": 48322,
-      "files_scanned": 32,
-      "rules": 29,
-      "findings": 0,
-      "by_severity": {
-        "ERROR": 0,
-        "WARNING": 0,
-        "INFO": 0
-      },
-      "by_rule": {},
-      "top_findings": [],
-      "verdict": "clean",
-      "scanner": "sentinel-rules@lite --no-skip",
-      "scanned_at": "2026-09-28T01:51:38.465Z",
-      "duration_ms": 947
-    },
-    {
-      "name": "@marketnow/trust-gateway",
-      "version": "1.0.5",
-      "own": true,
-      "weekly_downloads": 0,
-      "shasum": "3c27795dd50540c2bffe749eda22bc4e5c1c2243",
-      "integrity": "sha512-5mrUKtmUxtQM7xE/h/0kt89Flvphdpnq8edRrROvqUHlaaLm3naJarHzumktbuqRgsXyrcyKB1su/FWaLhvZDQ==",
-      "license": null,
-      "deps_count": 0,
-      "tarball_bytes": 21351,
-      "files_scanned": 8,
-      "rules": 29,
-      "findings": 0,
-      "by_severity": {
-        "ERROR": 0,
-        "WARNING": 0,
-        "INFO": 0
-      },
-      "by_rule": {},
-      "top_findings": [],
-      "verdict": "clean",
-      "scanner": "sentinel-rules@lite --no-skip",
-      "scanned_at": "2026-09-28T01:51:39.586Z",
-      "duration_ms": 1121
-    },
-    {
-      "name": "@marketnow/cline-trust-plugin",
-      "version": "1.1.2",
-      "own": true,
-      "weekly_downloads": 0,
-      "shasum": "a3dcd3b3a2d7b4d6abbd8f1cba65bb181431bcbe",
-      "integrity": "sha512-vuENoM1A10ioGw1wwMvDsrDMpu2PpRLmo1WIu5Jg8lGeCO/bVN/JCf87qxriygn9BwUFHeULKWskVbvLejuXGg==",
-      "license": null,
-      "deps_count": 0,
-      "tarball_bytes": 13007,
-      "files_scanned": 2,
-      "rules": 29,
-      "findings": 0,
-      "by_severity": {
-        "ERROR": 0,
-        "WARNING": 0,
-        "INFO": 0
-      },
-      "by_rule": {},
-      "top_findings": [],
-      "verdict": "clean",
-      "scanner": "sentinel-rules@lite --no-skip",
-      "scanned_at": "2026-09-28T01:51:40.532Z",
-      "duration_ms": 946
-    },
-    {
-      "name": "@marketnow/uta-conformance",
-      "version": "1.3.5",
-      "own": true,
-      "weekly_downloads": 0,
-      "shasum": "97137bcd72d497be42d1a97f8b9c6ae791967aa6",
-      "integrity": "sha512-CwxhhX0riSXzFBSyNjPg8zCSOKgnw3uJS5AwWFYnnF3+ggIRtAsKt0bXPPETpL9tOPpBUqpyy4GSGO1SwVpwpA==",
-      "license": null,
-      "deps_count": 0,
-      "tarball_bytes": 43137,
-      "files_scanned": 20,
-      "rules": 29,
-      "findings": 0,
-      "by_severity": {
-        "ERROR": 0,
-        "WARNING": 0,
-        "INFO": 0
-      },
-      "by_rule": {},
-      "top_findings": [],
-      "verdict": "clean",
-      "scanner": "sentinel-rules@lite --no-skip",
-      "scanned_at": "2026-09-28T01:51:41.489Z",
-      "duration_ms": 956
-    },
-    {
-      "name": "@marketnow/sentinel-rules",
-      "version": "1.1.2",
-      "own": true,
-      "weekly_downloads": 0,
-      "shasum": "f7b8daa40fa9a5f6462db21049d0ec19f00a407c",
-      "integrity": "sha512-4UxJWSysA9/UaLRTQQ4P0Dw8BjMpuK7SRNJ/nPGO0rEpu99Vi8gxThYUCRV3DSi+e3U2O3zW5z9JeaiFuPLUkw==",
-      "license": null,
-      "deps_count": 0,
-      "tarball_bytes": 13329,
-      "files_scanned": 3,
-      "rules": 29,
-      "findings": 20,
-      "by_severity": {
-        "ERROR": 11,
-        "WARNING": 9,
-        "INFO": 0
-      },
-      "by_rule": {
-        "MCP-PI-001": 1,
-        "MCP-PI-002": 1,
-        "MCP-PI-004": 1,
-        "MCP-PI-005": 1,
-        "MCP-CI-003": 1,
-        "MCP-EX-002": 3,
-        "MCP-AC-001": 1,
-        "MCP-AC-002": 2,
-        "MCP-PI-006": 8,
-        "MCP-SS-002": 1
-      },
-      "top_findings": [
-        {
-          "rule": "MCP-PI-001",
-          "severity": "ERROR",
-          "file": "rules/rules-lite.json",
-          "line": 8,
-          "snippet": "ignore previous instructions' detected\", \"severi"
-        },
-        {
-          "rule": "MCP-PI-002",
-          "severity": "ERROR",
-          "file": "rules/rules-lite.json",
-          "line": 20,
-          "snippet": "disregard the above' detected\", \"severity\": \"ERR"
-        },
-        {
-          "rule": "MCP-PI-004",
-          "severity": "ERROR",
-          "file": "rules/rules-lite.json",
-          "line": 44,
-          "snippet": "forget everything' detected\", \"severity\": \"ERROR"
-        },
-        {
-          "rule": "MCP-PI-005",
-          "severity": "ERROR",
-          "file": "rules/rules-lite.json",
-          "line": 63,
-          "snippet": "exfiltrate|steal|send).*(?:to|via).*(?:email|web"
-        },
-        {
-          "rule": "MCP-CI-003",
-          "severity": "ERROR",
-          "file": "rules/rules-lite.json",
-          "line": 103,
-          "snippet": "eval() with dynamic input\", \"severity\": \"ERROR\","
-        },
-        {
-          "rule": "MCP-EX-002",
-          "severity": "ERROR",
-          "file": "rules/rules-lite.json",
-          "line": 280,
-          "snippet": "~/.claude, ~/.openclaw, ~/.cursor, MCP auth stor"
-        },
-        {
-          "rule": "MCP-EX-002",
-          "severity": "ERROR",
-          "file": "rules/rules-lite.json",
-          "line": 280,
-          "snippet": "~/.openclaw, ~/.cursor, MCP auth stores)\", \"seve"
-        },
-        {
-          "rule": "MCP-EX-002",
-          "severity": "ERROR",
-          "file": "rules/rules-lite.json",
-          "line": 280,
-          "snippet": "~/.cursor, MCP auth stores)\", \"severity\": \"ERROR"
-        }
-      ],
-      "verdict": "flagged-error",
-      "scanner": "sentinel-rules@lite --no-skip",
-      "scanned_at": "2026-09-28T01:51:42.388Z",
-      "duration_ms": 899
-    },
-    {
-      "name": "@marketnow/trust-mcp-middleware",
-      "version": "1.0.2",
-      "own": true,
-      "weekly_downloads": 0,
-      "shasum": "2bfb9ab7eacc5374a6c1f2b1d8b036dedf145b6e",
-      "integrity": "sha512-ZuEPdZt4Je3UoqaB3bpax838HiA3jYKPoPC2HBI1ND0WJmlahFWrO7rk47mq8YRAvZi0Nt375/4Gh0Hr/uyk7g==",
-      "license": null,
-      "deps_count": 2,
-      "tarball_bytes": 8469,
-      "files_scanned": 3,
-      "rules": 29,
-      "findings": 1,
-      "by_severity": {
-        "ERROR": 0,
-        "WARNING": 0,
-        "INFO": 1
-      },
-      "by_rule": {
-        "MCP-IS-001": 1
-      },
-      "top_findings": [
-        {
-          "rule": "MCP-IS-001",
-          "severity": "INFO",
-          "file": "dist/index.js",
-          "line": 112,
-          "snippet": "registerTool(name, handler) { this.tools.set(nam"
-        }
-      ],
-      "verdict": "info-only",
-      "scanner": "sentinel-rules@lite --no-skip",
-      "scanned_at": "2026-09-28T01:51:43.381Z",
-      "duration_ms": 993
-    },
-    {
-      "name": "@marketnow/uta-verify",
-      "version": "1.0.2",
-      "own": true,
-      "weekly_downloads": 0,
-      "shasum": "f7db4847f4d786e425320a78a095cde036fb875e",
-      "integrity": "sha512-pNSy4oRSWjuQ9cJUG7wzl1QeBQJqx1uj+MWH5KKXA2FnCrEbp7zWWRNp0A13uy/mOgOV8XEmCQx/nGwGAErFPQ==",
-      "license": null,
-      "deps_count": 0,
-      "tarball_bytes": 11179,
-      "files_scanned": 3,
-      "rules": 29,
-      "findings": 0,
-      "by_severity": {
-        "ERROR": 0,
-        "WARNING": 0,
-        "INFO": 0
-      },
-      "by_rule": {},
-      "top_findings": [],
-      "verdict": "clean",
-      "scanner": "sentinel-rules@lite --no-skip",
-      "scanned_at": "2026-09-28T01:51:44.325Z",
-      "duration_ms": 943
-    },
-    {
-      "name": "@marketnow/trust-observability",
-      "version": "1.0.3",
-      "own": true,
-      "weekly_downloads": 0,
-      "shasum": "6e71318152a4095d05850475c80948446be8e385",
-      "integrity": "sha512-D+fusDFbThlYtIb+0rh9BSGWNQqcEMY80jUVh2f8czf7fkBriMfn7fH/S4ufED97zqzuwHvXdlJXBsoRBunGnw==",
-      "license": null,
-      "deps_count": 0,
-      "tarball_bytes": 8671,
-      "files_scanned": 3,
-      "rules": 29,
-      "findings": 0,
-      "by_severity": {
-        "ERROR": 0,
-        "WARNING": 0,
-        "INFO": 0
-      },
-      "by_rule": {},
-      "top_findings": [],
-      "verdict": "clean",
-      "scanner": "sentinel-rules@lite --no-skip",
-      "scanned_at": "2026-09-28T01:51:45.224Z",
-      "duration_ms": 898
-    },
-    {
       "name": "@playwright/mcp",
       "version": "0.0.82",
       "own": false,
@@ -158289,16 +157770,1414 @@
       "name": "eve",
       "error": "scanner: Unterminated string in JSON at position 140141 (line 3357 column 64)",
       "scanned_at": "2026-09-28T01:52:46.492Z"
+    },
+    {
+      "name": "marketnow-mcp",
+      "version": "1.15.0",
+      "own": true,
+      "weekly_downloads": 0,
+      "shasum": "9a51899172eb5c1b4b7458b9233a03097bb72fa3",
+      "integrity": "sha512-UsC2ifn/zDTZLgvJybQrQX03IsZnXyNdN6kzDYoo21hFvIaseCKYPDeLPHkWkmsEVDYszrBpyz75GP2wuK4+jg==",
+      "license": null,
+      "deps_count": 3,
+      "tarball_bytes": 35312,
+      "files_scanned": 4,
+      "rules": 29,
+      "findings": 2,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 2,
+        "INFO": 0
+      },
+      "by_rule": {
+        "MCP-PI-006": 2
+      },
+      "top_findings": [
+        {
+          "rule": "MCP-PI-006",
+          "severity": "WARNING",
+          "file": "index.js",
+          "line": 811,
+          "snippet": "/shell/credentials/process inference) for any re"
+        },
+        {
+          "rule": "MCP-PI-006",
+          "severity": "WARNING",
+          "file": "index.js",
+          "line": 835,
+          "snippet": "/shell/credentials/process), evidence, risk (wit"
+        }
+      ],
+      "verdict": "flagged-warning",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:39.983Z",
+      "duration_ms": 245
+    },
+    {
+      "name": "marketnow-audit",
+      "version": "1.0.1",
+      "own": true,
+      "weekly_downloads": 0,
+      "shasum": "28a90f5eaa8e8a97adc1dd74873776fafce9005d",
+      "integrity": "sha512-v33ztX9aiZuX+TG/CrT9rfb/qGF+ISj2rZamh2eN/A4leSN4KUCC90HrSRZ3hheehKJnN8ak7DrJfmSHyU+m0A==",
+      "license": null,
+      "deps_count": 0,
+      "tarball_bytes": 9233,
+      "files_scanned": 2,
+      "rules": 29,
+      "findings": 0,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 0,
+        "INFO": 0
+      },
+      "by_rule": {},
+      "top_findings": [],
+      "verdict": "clean",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:40.140Z",
+      "duration_ms": 157
+    },
+    {
+      "name": "marketnow-install-stack",
+      "version": "1.2.1",
+      "own": true,
+      "weekly_downloads": 0,
+      "shasum": "1ae411d2ba79bae3f800281f5ebe2a142945abb9",
+      "integrity": "sha512-J+xhRx2NcjB+5Gms5qVmNNeUGdzLC26VFnaID6cBcSJjZV44fk3V7GFStKLqFDd2RoJ8kXVr2fw+Gnujk/80Tg==",
+      "license": null,
+      "deps_count": 0,
+      "tarball_bytes": 9885,
+      "files_scanned": 2,
+      "rules": 29,
+      "findings": 1,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 1,
+        "INFO": 0
+      },
+      "by_rule": {
+        "MCP-PT-001": 1
+      },
+      "top_findings": [
+        {
+          "rule": "MCP-PT-001",
+          "severity": "WARNING",
+          "file": "index.js",
+          "line": 212,
+          "snippet": "fs.readFileSync(configPath, 'utf8')); if (!exist"
+        }
+      ],
+      "verdict": "flagged-warning",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:40.310Z",
+      "duration_ms": 169
+    },
+    {
+      "name": "agent-trust-card",
+      "version": "1.4.1",
+      "own": true,
+      "weekly_downloads": 0,
+      "shasum": "eb1776d6a561506e4f0122d6c4e9e9cc7903add5",
+      "integrity": "sha512-LVJ8sthocijAUnigubC41DGRzfMLNd8LMY+UUDlCwf9La5wv/wlVSPR7tS3gWmtnXac6LRnoxi35PmJFXsQZeQ==",
+      "license": null,
+      "deps_count": 1,
+      "tarball_bytes": 33674,
+      "files_scanned": 10,
+      "rules": 29,
+      "findings": 0,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 0,
+        "INFO": 0
+      },
+      "by_rule": {},
+      "top_findings": [],
+      "verdict": "clean",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:40.472Z",
+      "duration_ms": 162
+    },
+    {
+      "name": "@marketnow/uts",
+      "version": "2.0.3",
+      "own": true,
+      "weekly_downloads": 0,
+      "shasum": "b2ae4b6d597ffd22239d3559e42cf84883824f9c",
+      "integrity": "sha512-qVgBI6iPFxnsV9rK95ShHhhRXFiJ8OnOxoRwMga0mK7pgNOjNZ8IJiN8BjaD/KVEPbvinDyiLWMsM7eAC5g92g==",
+      "license": null,
+      "deps_count": 0,
+      "tarball_bytes": 9525,
+      "files_scanned": 5,
+      "rules": 29,
+      "findings": 0,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 0,
+        "INFO": 0
+      },
+      "by_rule": {},
+      "top_findings": [],
+      "verdict": "clean",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:40.849Z",
+      "duration_ms": 377
+    },
+    {
+      "name": "@marketnow/trust-core",
+      "version": "2.0.3",
+      "own": true,
+      "weekly_downloads": 0,
+      "shasum": "4bcf3c69397c2307b7caf3e89f15cfd27e93ee43",
+      "integrity": "sha512-z4K4AtRBRDKz8ciHJoWaqnhGzBmrpmbF6h3EuT4YE2x8Vk5ep6FaA1TQtCWUiNJlxjw7GhhpdwdeF5OhwZJDlA==",
+      "license": null,
+      "deps_count": 0,
+      "tarball_bytes": 89785,
+      "files_scanned": 39,
+      "rules": 29,
+      "findings": 17,
+      "by_severity": {
+        "ERROR": 8,
+        "WARNING": 9,
+        "INFO": 0
+      },
+      "by_rule": {
+        "MCP-AC-002": 1,
+        "MCP-CI-001": 1,
+        "MCP-AC-001": 5,
+        "MCP-AC-003": 1,
+        "MCP-SS-002": 7,
+        "MCP-PI-006": 2
+      },
+      "top_findings": [
+        {
+          "rule": "MCP-AC-002",
+          "severity": "ERROR",
+          "file": "dist/cross-agent-trust.js",
+          "line": 135,
+          "snippet": "atob\\(/i, /base64 (decode|encode).*exec/i, ]; co"
+        },
+        {
+          "rule": "MCP-CI-001",
+          "severity": "ERROR",
+          "file": "dist/supply-chain.js",
+          "line": 411,
+          "snippet": "execSync(`openssl req -new -x509 -key \"${tmpKey}"
+        },
+        {
+          "rule": "MCP-AC-001",
+          "severity": "ERROR",
+          "file": "dist/trajectory-analysis.js",
+          "line": 26,
+          "snippet": "downloads payload, executes it', sequence: ['sea"
+        },
+        {
+          "rule": "MCP-AC-003",
+          "severity": "ERROR",
+          "file": "dist/trajectory-analysis.js",
+          "line": 34,
+          "snippet": ".env → Exfiltrate via network', description: 'Ag"
+        },
+        {
+          "rule": "MCP-AC-001",
+          "severity": "ERROR",
+          "file": "dist/trajectory-analysis.js",
+          "line": 45,
+          "snippet": "fetch'], max_window_ms: 2 * 60 * 1000, sever"
+        },
+        {
+          "rule": "MCP-AC-001",
+          "severity": "ERROR",
+          "file": "dist/trajectory-analysis.js",
+          "line": 62,
+          "snippet": "downloads a file, writes it to disk, then execut"
+        },
+        {
+          "rule": "MCP-AC-001",
+          "severity": "ERROR",
+          "file": "dist/trajectory-analysis.js",
+          "line": 72,
+          "snippet": "fetch'], max_window_ms: 30 * 1000, severity:"
+        },
+        {
+          "rule": "MCP-AC-001",
+          "severity": "ERROR",
+          "file": "dist/trajectory-analysis.js",
+          "line": 81,
+          "snippet": "fetch', 'execute'], max_window_ms: 60 * 1000,"
+        }
+      ],
+      "verdict": "flagged-error",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:41.270Z",
+      "duration_ms": 420
+    },
+    {
+      "name": "@marketnow/trust-adapters",
+      "version": "1.0.4",
+      "own": true,
+      "weekly_downloads": 0,
+      "shasum": "19767947a8b3bdd1aa50bf5ef0e5b92a9e08202d",
+      "integrity": "sha512-dUHa55imfPSwNPIMMh5scDW3DaMDwuWecrPks9tvg8j5GnTe/VMm2irw0oOoeqZzxXg1zUCtblUNqU1sbcZ7KQ==",
+      "license": null,
+      "deps_count": 0,
+      "tarball_bytes": 48322,
+      "files_scanned": 32,
+      "rules": 29,
+      "findings": 0,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 0,
+        "INFO": 0
+      },
+      "by_rule": {},
+      "top_findings": [],
+      "verdict": "clean",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:41.636Z",
+      "duration_ms": 365
+    },
+    {
+      "name": "@marketnow/trust-gateway",
+      "version": "1.0.5",
+      "own": true,
+      "weekly_downloads": 0,
+      "shasum": "3c27795dd50540c2bffe749eda22bc4e5c1c2243",
+      "integrity": "sha512-5mrUKtmUxtQM7xE/h/0kt89Flvphdpnq8edRrROvqUHlaaLm3naJarHzumktbuqRgsXyrcyKB1su/FWaLhvZDQ==",
+      "license": null,
+      "deps_count": 0,
+      "tarball_bytes": 21351,
+      "files_scanned": 8,
+      "rules": 29,
+      "findings": 0,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 0,
+        "INFO": 0
+      },
+      "by_rule": {},
+      "top_findings": [],
+      "verdict": "clean",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:41.997Z",
+      "duration_ms": 360
+    },
+    {
+      "name": "@marketnow/cline-trust-plugin",
+      "version": "1.1.2",
+      "own": true,
+      "weekly_downloads": 0,
+      "shasum": "a3dcd3b3a2d7b4d6abbd8f1cba65bb181431bcbe",
+      "integrity": "sha512-vuENoM1A10ioGw1wwMvDsrDMpu2PpRLmo1WIu5Jg8lGeCO/bVN/JCf87qxriygn9BwUFHeULKWskVbvLejuXGg==",
+      "license": null,
+      "deps_count": 0,
+      "tarball_bytes": 13007,
+      "files_scanned": 2,
+      "rules": 29,
+      "findings": 0,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 0,
+        "INFO": 0
+      },
+      "by_rule": {},
+      "top_findings": [],
+      "verdict": "clean",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:42.355Z",
+      "duration_ms": 358
+    },
+    {
+      "name": "@marketnow/uta-conformance",
+      "version": "1.3.5",
+      "own": true,
+      "weekly_downloads": 0,
+      "shasum": "97137bcd72d497be42d1a97f8b9c6ae791967aa6",
+      "integrity": "sha512-CwxhhX0riSXzFBSyNjPg8zCSOKgnw3uJS5AwWFYnnF3+ggIRtAsKt0bXPPETpL9tOPpBUqpyy4GSGO1SwVpwpA==",
+      "license": null,
+      "deps_count": 0,
+      "tarball_bytes": 43137,
+      "files_scanned": 20,
+      "rules": 29,
+      "findings": 0,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 0,
+        "INFO": 0
+      },
+      "by_rule": {},
+      "top_findings": [],
+      "verdict": "clean",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:42.730Z",
+      "duration_ms": 375
+    },
+    {
+      "name": "@marketnow/sentinel-rules",
+      "version": "1.1.2",
+      "own": true,
+      "weekly_downloads": 0,
+      "shasum": "f7b8daa40fa9a5f6462db21049d0ec19f00a407c",
+      "integrity": "sha512-4UxJWSysA9/UaLRTQQ4P0Dw8BjMpuK7SRNJ/nPGO0rEpu99Vi8gxThYUCRV3DSi+e3U2O3zW5z9JeaiFuPLUkw==",
+      "license": null,
+      "deps_count": 0,
+      "tarball_bytes": 13329,
+      "files_scanned": 3,
+      "rules": 29,
+      "findings": 20,
+      "by_severity": {
+        "ERROR": 11,
+        "WARNING": 9,
+        "INFO": 0
+      },
+      "by_rule": {
+        "MCP-PI-001": 1,
+        "MCP-PI-002": 1,
+        "MCP-PI-004": 1,
+        "MCP-PI-005": 1,
+        "MCP-CI-003": 1,
+        "MCP-EX-002": 3,
+        "MCP-AC-001": 1,
+        "MCP-AC-002": 2,
+        "MCP-PI-006": 8,
+        "MCP-SS-002": 1
+      },
+      "top_findings": [
+        {
+          "rule": "MCP-PI-001",
+          "severity": "ERROR",
+          "file": "rules/rules-lite.json",
+          "line": 8,
+          "snippet": "ignore previous instructions' detected\", \"severi"
+        },
+        {
+          "rule": "MCP-PI-002",
+          "severity": "ERROR",
+          "file": "rules/rules-lite.json",
+          "line": 20,
+          "snippet": "disregard the above' detected\", \"severity\": \"ERR"
+        },
+        {
+          "rule": "MCP-PI-004",
+          "severity": "ERROR",
+          "file": "rules/rules-lite.json",
+          "line": 44,
+          "snippet": "forget everything' detected\", \"severity\": \"ERROR"
+        },
+        {
+          "rule": "MCP-PI-005",
+          "severity": "ERROR",
+          "file": "rules/rules-lite.json",
+          "line": 63,
+          "snippet": "exfiltrate|steal|send).*(?:to|via).*(?:email|web"
+        },
+        {
+          "rule": "MCP-CI-003",
+          "severity": "ERROR",
+          "file": "rules/rules-lite.json",
+          "line": 103,
+          "snippet": "eval() with dynamic input\", \"severity\": \"ERROR\","
+        },
+        {
+          "rule": "MCP-EX-002",
+          "severity": "ERROR",
+          "file": "rules/rules-lite.json",
+          "line": 280,
+          "snippet": "~/.claude, ~/.openclaw, ~/.cursor, MCP auth stor"
+        },
+        {
+          "rule": "MCP-EX-002",
+          "severity": "ERROR",
+          "file": "rules/rules-lite.json",
+          "line": 280,
+          "snippet": "~/.openclaw, ~/.cursor, MCP auth stores)\", \"seve"
+        },
+        {
+          "rule": "MCP-EX-002",
+          "severity": "ERROR",
+          "file": "rules/rules-lite.json",
+          "line": 280,
+          "snippet": "~/.cursor, MCP auth stores)\", \"severity\": \"ERROR"
+        }
+      ],
+      "verdict": "flagged-error",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:42.853Z",
+      "duration_ms": 123
+    },
+    {
+      "name": "@marketnow/trust-mcp-middleware",
+      "version": "1.0.2",
+      "own": true,
+      "weekly_downloads": 0,
+      "shasum": "2bfb9ab7eacc5374a6c1f2b1d8b036dedf145b6e",
+      "integrity": "sha512-ZuEPdZt4Je3UoqaB3bpax838HiA3jYKPoPC2HBI1ND0WJmlahFWrO7rk47mq8YRAvZi0Nt375/4Gh0Hr/uyk7g==",
+      "license": null,
+      "deps_count": 2,
+      "tarball_bytes": 8469,
+      "files_scanned": 3,
+      "rules": 29,
+      "findings": 1,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 0,
+        "INFO": 1
+      },
+      "by_rule": {
+        "MCP-IS-001": 1
+      },
+      "top_findings": [
+        {
+          "rule": "MCP-IS-001",
+          "severity": "INFO",
+          "file": "dist/index.js",
+          "line": 112,
+          "snippet": "registerTool(name, handler) { this.tools.set(nam"
+        }
+      ],
+      "verdict": "info-only",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:43.392Z",
+      "duration_ms": 538
+    },
+    {
+      "name": "@marketnow/uta-verify",
+      "version": "1.0.2",
+      "own": true,
+      "weekly_downloads": 0,
+      "shasum": "f7db4847f4d786e425320a78a095cde036fb875e",
+      "integrity": "sha512-pNSy4oRSWjuQ9cJUG7wzl1QeBQJqx1uj+MWH5KKXA2FnCrEbp7zWWRNp0A13uy/mOgOV8XEmCQx/nGwGAErFPQ==",
+      "license": null,
+      "deps_count": 0,
+      "tarball_bytes": 11179,
+      "files_scanned": 3,
+      "rules": 29,
+      "findings": 0,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 0,
+        "INFO": 0
+      },
+      "by_rule": {},
+      "top_findings": [],
+      "verdict": "clean",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:43.751Z",
+      "duration_ms": 359
+    },
+    {
+      "name": "@marketnow/trust-observability",
+      "version": "1.0.3",
+      "own": true,
+      "weekly_downloads": 0,
+      "shasum": "6e71318152a4095d05850475c80948446be8e385",
+      "integrity": "sha512-D+fusDFbThlYtIb+0rh9BSGWNQqcEMY80jUVh2f8czf7fkBriMfn7fH/S4ufED97zqzuwHvXdlJXBsoRBunGnw==",
+      "license": null,
+      "deps_count": 0,
+      "tarball_bytes": 8671,
+      "files_scanned": 3,
+      "rules": 29,
+      "findings": 0,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 0,
+        "INFO": 0
+      },
+      "by_rule": {},
+      "top_findings": [],
+      "verdict": "clean",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:44.135Z",
+      "duration_ms": 383
+    },
+    {
+      "name": "@modelcontextprotocol/server-filesystem",
+      "version": "2026.8.31",
+      "own": false,
+      "weekly_downloads": 636150,
+      "shasum": "7f88dfab06d4521a4bf937dccbaeb79d46a3e717",
+      "integrity": "sha512-kKaFkyAh6oipvc9+EAbJ552JafnMnOq5nzmzWkp1jJdBhTAAGpmIpWihUG1+rfNhmEFM98gUZDdCHCDD4v6a7Q==",
+      "license": null,
+      "deps_count": 4,
+      "tarball_bytes": 18746,
+      "files_scanned": 6,
+      "rules": 29,
+      "findings": 2,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 2,
+        "INFO": 0
+      },
+      "by_rule": {
+        "MCP-PT-001": 2
+      },
+      "top_findings": [
+        {
+          "rule": "MCP-PT-001",
+          "severity": "WARNING",
+          "file": "dist/lib.js",
+          "line": 149,
+          "snippet": "fs.readFile(filePath, encoding); } export async "
+        },
+        {
+          "rule": "MCP-PT-001",
+          "severity": "WARNING",
+          "file": "dist/lib.js",
+          "line": 209,
+          "snippet": "fs.readFile(filePath, 'utf-8')); // Apply edits "
+        }
+      ],
+      "verdict": "flagged-warning",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:44.246Z",
+      "duration_ms": 111
+    },
+    {
+      "name": "mcp-proxy",
+      "version": "6.7.19",
+      "own": false,
+      "weekly_downloads": 486105,
+      "shasum": "173bd0ccc2023edb07017f0180a14f91698326d4",
+      "integrity": "sha512-Nbfjj4VwVka1yAR/0fdD2G8borGOfjHEmfUzPFCH2nfQUNjWIij6s3gXMUhi2GUYE3FpUu8iFKE75ZQe/g1n8Q==",
+      "license": null,
+      "deps_count": 3,
+      "tarball_bytes": 909052,
+      "files_scanned": 41,
+      "rules": 29,
+      "findings": 128,
+      "by_severity": {
+        "ERROR": 5,
+        "WARNING": 123,
+        "INFO": 0
+      },
+      "by_rule": {
+        "MCP-TP-002": 5,
+        "MCP-PT-001": 7,
+        "MCP-SS-002": 115,
+        "MCP-PI-006": 1
+      },
+      "top_findings": [
+        {
+          "rule": "MCP-TP-002",
+          "severity": "ERROR",
+          "file": "dist/startStdioServer-DHm0KcPu.mjs",
+          "line": 9791,
+          "snippet": "\"; exports.PrependBOM = PrependBOMWrapper; funct"
+        },
+        {
+          "rule": "MCP-TP-002",
+          "severity": "ERROR",
+          "file": "dist/startStdioServer-DHm0KcPu.mjs",
+          "line": 10804,
+          "snippet": "‌‍ں\\xA0،¢£¤¥¦§¨©ھ«¬­®¯°±²³´µ¶·¸¹؛»¼½¾؟ہءآأؤإئابة"
+        },
+        {
+          "rule": "MCP-TP-002",
+          "severity": "ERROR",
+          "file": "dist/startStdioServer-DHm0KcPu.mjs",
+          "line": 10804,
+          "snippet": "‍ں\\xA0،¢£¤¥¦§¨©ھ«¬­®¯°±²³´µ¶·¸¹؛»¼½¾؟ہءآأؤإئابةت"
+        },
+        {
+          "rule": "MCP-TP-002",
+          "severity": "ERROR",
+          "file": "dist/startStdioServer-DHm0KcPu.mjs",
+          "line": 11077,
+          "snippet": "​–—฿เแโใไๅๆ็่้๊๋์ํ™๏๐๑๒๓๔๕๖๗๘๙®©����\" }, \"mactur"
+        },
+        {
+          "rule": "MCP-TP-002",
+          "severity": "ERROR",
+          "file": "dist/startStdioServer-DHm0KcPu.mjs",
+          "line": 11077,
+          "snippet": "​–—฿เแโใไๅๆ็่้๊๋์ํ™๏๐๑๒๓๔๕๖๗๘๙®©����\" }, \"mactur"
+        },
+        {
+          "rule": "MCP-PT-001",
+          "severity": "WARNING",
+          "file": "dist/bin/mcp-proxy.mjs",
+          "line": 1890,
+          "snippet": "fs.readFileSync(languageFile, \"utf-8\")); } catch"
+        },
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/startStdioServer-DHm0KcPu.mjs",
+          "line": 7637,
+          "snippet": "localhost\"}${req.url ?? \"/\"}`; const headers = n"
+        },
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/startStdioServer-DHm0KcPu.mjs",
+          "line": 18761,
+          "snippet": "localhost\"); endpointUrl.searchParams.set(\"sessi"
+        }
+      ],
+      "verdict": "flagged-error",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:44.443Z",
+      "duration_ms": 197
+    },
+    {
+      "name": "fastmcp",
+      "version": "4.22.0",
+      "own": false,
+      "weekly_downloads": 455885,
+      "shasum": "079fbb57190269e5719b4c53deed7cde7b3b8efa",
+      "integrity": "sha512-cjC53MW0+e9uwlyGZSSYvTjYD1plaXBiAnCaPfhCIYKzQqK0GaAid4ZqCIH3ASjzizCZ1iXLmvGdxO00TgabIA==",
+      "license": null,
+      "deps_count": 14,
+      "tarball_bytes": 507392,
+      "files_scanned": 26,
+      "rules": 29,
+      "findings": 84,
+      "by_severity": {
+        "ERROR": 1,
+        "WARNING": 83,
+        "INFO": 0
+      },
+      "by_rule": {
+        "MCP-AC-001": 1,
+        "MCP-SS-001": 4,
+        "MCP-SS-002": 71,
+        "MCP-PI-006": 8
+      },
+      "top_findings": [
+        {
+          "rule": "MCP-AC-001",
+          "severity": "ERROR",
+          "file": "dist/FastMCP.d.ts",
+          "line": 198,
+          "snippet": "fetch`, a database driver, a subprocess) so * th"
+        },
+        {
+          "rule": "MCP-SS-001",
+          "severity": "WARNING",
+          "file": "dist/chunk-43N2Q6ZI.js",
+          "line": 229,
+          "snippet": "fetch(input.url, { signal: AbortSignal.timeout(t"
+        },
+        {
+          "rule": "MCP-SS-001",
+          "severity": "WARNING",
+          "file": "dist/chunk-43N2Q6ZI.js",
+          "line": 291,
+          "snippet": "fetch(input.url, { signal: AbortSignal.timeout(t"
+        },
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/chunk-43N2Q6ZI.js",
+          "line": 2918,
+          "snippet": "localhost\"; const endpoint = overrides?.httpStre"
+        },
+        {
+          "rule": "MCP-SS-001",
+          "severity": "WARNING",
+          "file": "dist/chunk-V4JBWBT4.cjs",
+          "line": 229,
+          "snippet": "fetch(input.url, { signal: AbortSignal.timeout(t"
+        },
+        {
+          "rule": "MCP-SS-001",
+          "severity": "WARNING",
+          "file": "dist/chunk-V4JBWBT4.cjs",
+          "line": 291,
+          "snippet": "fetch(input.url, { signal: AbortSignal.timeout(t"
+        },
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/chunk-V4JBWBT4.cjs",
+          "line": 2918,
+          "snippet": "localhost\"; const endpoint = _optionalChain([ove"
+        },
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/chunk-XPKMA7DH.js",
+          "line": 399,
+          "snippet": "localhost\" || host === \"0.0.0.0\") { return true;"
+        }
+      ],
+      "verdict": "flagged-error",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:44.586Z",
+      "duration_ms": 143
+    },
+    {
+      "name": "@hono/mcp",
+      "version": "0.3.2",
+      "own": false,
+      "weekly_downloads": 325890,
+      "shasum": "2dd109454509baec2a426d0584b7ed1ffb0c8892",
+      "integrity": "sha512-IJQ4RazhwFLRwcTM95Dj9YfNBYXwOQzd1IfnDy4S3hiaBbtnVY0sWiT83auOOnhaCiE0TTbud4JV9UD30zknXA==",
+      "license": null,
+      "deps_count": 1,
+      "tarball_bytes": 50876,
+      "files_scanned": 5,
+      "rules": 29,
+      "findings": 8,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 8,
+        "INFO": 0
+      },
+      "by_rule": {
+        "MCP-SS-002": 8
+      },
+      "top_findings": [
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/auth.cjs",
+          "line": 46,
+          "snippet": "localhost\", \"127.0.0.1\", \"[::1]\" ]; /** * RFC 82"
+        },
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/auth.cjs",
+          "line": 47,
+          "snippet": "127.0.0.1\", \"[::1]\" ]; /** * RFC 8252 Section 7."
+        },
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/auth.cjs",
+          "line": 256,
+          "snippet": "localhost\" && issuer.hostname !== \"127.0.0.1\") t"
+        },
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/auth.cjs",
+          "line": 256,
+          "snippet": "127.0.0.1\") throw new Error(\"Issuer URL must be "
+        },
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/auth.mjs",
+          "line": 22,
+          "snippet": "localhost\", \"127.0.0.1\", \"[::1]\" ]; /** * RFC 82"
+        },
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/auth.mjs",
+          "line": 23,
+          "snippet": "127.0.0.1\", \"[::1]\" ]; /** * RFC 8252 Section 7."
+        },
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/auth.mjs",
+          "line": 232,
+          "snippet": "localhost\" && issuer.hostname !== \"127.0.0.1\") t"
+        },
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/auth.mjs",
+          "line": 232,
+          "snippet": "127.0.0.1\") throw new Error(\"Issuer URL must be "
+        }
+      ],
+      "verdict": "flagged-warning",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:44.710Z",
+      "duration_ms": 124
+    },
+    {
+      "name": "@modelcontextprotocol/server-pdf",
+      "version": "2.0.3",
+      "own": false,
+      "weekly_downloads": 288061,
+      "shasum": "c0b57f080d21933917bc118f8c07210b26b74a51",
+      "integrity": "sha512-Eh8zRvFXpFGIK72gdaGUPKpoqbvZn07ad/VP4j1C0gRPeVp/LurAlg8WaJov3XxMamVkhE1jQLnL2UG02TGJ6g==",
+      "license": null,
+      "deps_count": 10,
+      "tarball_bytes": 1892966,
+      "files_scanned": 8,
+      "rules": 29,
+      "findings": 40,
+      "by_severity": {
+        "ERROR": 14,
+        "WARNING": 26,
+        "INFO": 0
+      },
+      "by_rule": {
+        "MCP-TP-002": 14,
+        "MCP-PI-006": 5,
+        "MCP-SS-002": 21
+      },
+      "top_findings": [
+        {
+          "rule": "MCP-TP-002",
+          "severity": "ERROR",
+          "file": "dist/index.js",
+          "line": 2771,
+          "snippet": "‌‍ں ،¢£¤¥¦§¨©ھ«¬­®¯°±²³´µ¶·¸¹؛»¼½¾؟ہءآأؤإئابةتثج"
+        },
+        {
+          "rule": "MCP-TP-002",
+          "severity": "ERROR",
+          "file": "dist/index.js",
+          "line": 2771,
+          "snippet": "‍ں ،¢£¤¥¦§¨©ھ«¬­®¯°±²³´µ¶·¸¹؛»¼½¾؟ہءآأؤإئابةتثجح"
+        },
+        {
+          "rule": "MCP-TP-002",
+          "severity": "ERROR",
+          "file": "dist/index.js",
+          "line": 3045,
+          "snippet": "​–—฿เแโใไๅๆ็่้๊๋์ํ™๏๐๑๒๓๔๕๖๗๘๙®©����\" }, macturk"
+        },
+        {
+          "rule": "MCP-TP-002",
+          "severity": "ERROR",
+          "file": "dist/index.js",
+          "line": 6599,
+          "snippet": "‌‍ں ،¢£¤¥¦§¨©ھ«¬­®¯°±²³´µ¶·¸¹؛»¼½¾؟ہءآأؤإئابةتثج"
+        },
+        {
+          "rule": "MCP-TP-002",
+          "severity": "ERROR",
+          "file": "dist/index.js",
+          "line": 6599,
+          "snippet": "‍ں ،¢£¤¥¦§¨©ھ«¬­®¯°±²³´µ¶·¸¹؛»¼½¾؟ہءآأؤإئابةتثجح"
+        },
+        {
+          "rule": "MCP-TP-002",
+          "severity": "ERROR",
+          "file": "dist/index.js",
+          "line": 6873,
+          "snippet": "​–—฿เแโใไๅๆ็่้๊๋์ํ™๏๐๑๒๓๔๕๖๗๘๙®©����\" }, macturk"
+        },
+        {
+          "rule": "MCP-TP-002",
+          "severity": "ERROR",
+          "file": "dist/server.js",
+          "line": 5684,
+          "snippet": "‌بایست instanceof ${issue2.expected} می‌بود، ${r"
+        },
+        {
+          "rule": "MCP-TP-002",
+          "severity": "ERROR",
+          "file": "dist/server.js",
+          "line": 5684,
+          "snippet": "‌بود، ${received} دریافت شد`; } return `ورود"
+        }
+      ],
+      "verdict": "flagged-error",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:45.030Z",
+      "duration_ms": 320
+    },
+    {
+      "name": "pi-mcp-adapter",
+      "version": "3.1.0",
+      "own": false,
+      "weekly_downloads": 261681,
+      "shasum": "1a30f19f8caa0a6e5e34acb594752022db5d1f83",
+      "integrity": "sha512-jW3ucLFvt1YtV7yHctXloQshaW+hWEQYylNGHR6chR7pOHJNC8dJiSoeKuz9bmRFIZfAY+vhM0DUTmIkXEX8dQ==",
+      "license": null,
+      "deps_count": 16,
+      "tarball_bytes": 1843437,
+      "files_scanned": 179,
+      "rules": 29,
+      "findings": 69,
+      "by_severity": {
+        "ERROR": 12,
+        "WARNING": 57,
+        "INFO": 0
+      },
+      "by_rule": {
+        "MCP-EX-002": 11,
+        "MCP-CI-001": 1,
+        "MCP-SS-002": 47,
+        "MCP-PT-001": 2,
+        "MCP-PI-006": 8
+      },
+      "top_findings": [
+        {
+          "rule": "MCP-EX-002",
+          "severity": "ERROR",
+          "file": "commands.ts",
+          "line": 150,
+          "snippet": "~/.config/mcp/mcp.json for all projects.\", \"mcp-"
+        },
+        {
+          "rule": "MCP-EX-002",
+          "severity": "ERROR",
+          "file": "commands.ts",
+          "line": 210,
+          "snippet": "~/.config/mcp/mcp.json\"); } ctx.ui.notify(lines."
+        },
+        {
+          "rule": "MCP-EX-002",
+          "severity": "ERROR",
+          "file": "commands.ts",
+          "line": 584,
+          "snippet": "~/.config/mcp/mcp.json for all projects. The ada"
+        },
+        {
+          "rule": "MCP-CI-001",
+          "severity": "ERROR",
+          "file": "glimpse-ui.ts",
+          "line": 38,
+          "snippet": "execFileSync(\"npm\", [\"root\", \"-g\"], { encoding: "
+        },
+        {
+          "rule": "MCP-EX-002",
+          "severity": "ERROR",
+          "file": "mcp-setup-panel.ts",
+          "line": 258,
+          "snippet": "~/.config/mcp/mcp.json for all projects. Adopt h"
+        },
+        {
+          "rule": "MCP-EX-002",
+          "severity": "ERROR",
+          "file": "mcp-setup-panel.ts",
+          "line": 263,
+          "snippet": "~/.config/mcp/mcp.json for all projects. mcp-ada"
+        },
+        {
+          "rule": "MCP-EX-002",
+          "severity": "ERROR",
+          "file": "mcp-setup-panel.ts",
+          "line": 282,
+          "snippet": "~/.config/mcp/mcp.json\"; } private getActionPrev"
+        },
+        {
+          "rule": "MCP-EX-002",
+          "severity": "ERROR",
+          "file": "mcp-setup-panel.ts",
+          "line": 305,
+          "snippet": "~/.config/mcp/mcp.json\", \"Known server presets a"
+        }
+      ],
+      "verdict": "flagged-error",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:45.248Z",
+      "duration_ms": 217
+    },
+    {
+      "name": "mcporter",
+      "version": "0.14.1",
+      "own": false,
+      "weekly_downloads": 235988,
+      "shasum": "8dbc86c05013e4dfbfdc155555202a36a3936015",
+      "integrity": "sha512-/6pvMjFPlCtFU3NhzWEV8vj2EwvbY2nisc8XYDwtPiyApj8v6A+B0Va5ul018oqSEkw7BiKCLoazBc4l+8QsdQ==",
+      "license": null,
+      "deps_count": 10,
+      "tarball_bytes": 464028,
+      "files_scanned": 339,
+      "rules": 29,
+      "findings": 47,
+      "by_severity": {
+        "ERROR": 6,
+        "WARNING": 41,
+        "INFO": 0
+      },
+      "by_rule": {
+        "MCP-EX-002": 3,
+        "MCP-PT-002": 2,
+        "MCP-AC-002": 1,
+        "MCP-SS-002": 20,
+        "MCP-PT-001": 21
+      },
+      "top_findings": [
+        {
+          "rule": "MCP-EX-002",
+          "severity": "ERROR",
+          "file": "dist/cli/record-command.js",
+          "line": 19,
+          "snippet": "~/.mcporter/recordings/<session-name>.ndjson. Fl"
+        },
+        {
+          "rule": "MCP-EX-002",
+          "severity": "ERROR",
+          "file": "dist/cli/replay-command.js",
+          "line": 20,
+          "snippet": "~/.mcporter/recordings/<session-name>.ndjson. Fl"
+        },
+        {
+          "rule": "MCP-PT-002",
+          "severity": "ERROR",
+          "file": "dist/daemon/client.js",
+          "line": 10,
+          "snippet": "../process-utils.js'; import { getDaemonMetadata"
+        },
+        {
+          "rule": "MCP-PT-002",
+          "severity": "ERROR",
+          "file": "dist/daemon/migration.js",
+          "line": 7,
+          "snippet": "../process-utils.js'; import { mcporterDir } fro"
+        },
+        {
+          "rule": "MCP-AC-002",
+          "severity": "ERROR",
+          "file": "dist/daemon/process-retirement.js",
+          "line": 112,
+          "snippet": "base64'), ], { timeout: 5000, maxBuffer: 4 * 102"
+        },
+        {
+          "rule": "MCP-EX-002",
+          "severity": "ERROR",
+          "file": "dist/oauth-persistence-stores.js",
+          "line": 546,
+          "snippet": "~/.mcporter/<name>) into the vault if present. c"
+        },
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/chrome-devtools-relay-discovery.js",
+          "line": 464,
+          "snippet": "localhost' || normalized === '::1') return true;"
+        },
+        {
+          "rule": "MCP-PT-001",
+          "severity": "WARNING",
+          "file": "dist/chrome-devtools-relay-handoff.js",
+          "line": 199,
+          "snippet": "fs.readFileSync(descriptor, 'utf8'); try { fs.un"
+        }
+      ],
+      "verdict": "flagged-error",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:45.429Z",
+      "duration_ms": 182
+    },
+    {
+      "name": "@modelcontextprotocol/server-everything",
+      "version": "2026.8.31",
+      "own": false,
+      "weekly_downloads": 207134,
+      "shasum": "851a43bf34a83d9579aab22a2291d9473f10aeac",
+      "integrity": "sha512-5U3OZh8Xq0Li4nA26l6uNvV9/1suMDuWSn+NjLZIhzinhMY6N3A4DCrxVecBGPf2PsNFKTEv5krxGPRwzxc7jQ==",
+      "license": null,
+      "deps_count": 5,
+      "tarball_bytes": 57343,
+      "files_scanned": 44,
+      "rules": 29,
+      "findings": 0,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 0,
+        "INFO": 0
+      },
+      "by_rule": {},
+      "top_findings": [],
+      "verdict": "clean",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:45.539Z",
+      "duration_ms": 109
+    },
+    {
+      "name": "@langchain/mcp-adapters",
+      "version": "1.1.4",
+      "own": false,
+      "weekly_downloads": 198618,
+      "shasum": "251240dfe83f305e48bec314b3760ed15a9faa09",
+      "integrity": "sha512-6E8ULWoI9w+lxydeb8yHILyEluonZ4JS42OwSLL1k/RvG/trjGuLYm7P9gE+/pFOxLuNk9wHZ7BLfGju4tcJEQ==",
+      "license": null,
+      "deps_count": 3,
+      "tarball_bytes": 165066,
+      "files_scanned": 24,
+      "rules": 29,
+      "findings": 1,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 1,
+        "INFO": 0
+      },
+      "by_rule": {
+        "MCP-PI-006": 1
+      },
+      "top_findings": [
+        {
+          "rule": "MCP-PI-006",
+          "severity": "WARNING",
+          "file": "package.json",
+          "line": 46,
+          "snippet": "/debug\": \"^4.1.13\", \"@types/express\": \"^5.0.6\", "
+        }
+      ],
+      "verdict": "flagged-warning",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:45.673Z",
+      "duration_ms": 133
+    },
+    {
+      "name": "@azure-devops/mcp",
+      "version": "2.10.0",
+      "own": false,
+      "weekly_downloads": 151759,
+      "shasum": "86c9bd3e920c6c118b6718520078905e59a9cbe2",
+      "integrity": "sha512-Wwd3kszlm+ag43X1fs7+kOt7ACLXF+hymNYQA8hzvbIFtrKsKmhrU6gnU1rsOqQEnueFR1rQLGNvjB3uA3AngA==",
+      "license": null,
+      "deps_count": 13,
+      "tarball_bytes": 60365,
+      "files_scanned": 27,
+      "rules": 29,
+      "findings": 1,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 1,
+        "INFO": 0
+      },
+      "by_rule": {
+        "MCP-SS-002": 1
+      },
+      "top_findings": [
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "package.json",
+          "line": 30,
+          "snippet": "127.0.0.1:6274 npx @modelcontextprotocol/inspect"
+        }
+      ],
+      "verdict": "flagged-warning",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:45.831Z",
+      "duration_ms": 157
+    },
+    {
+      "name": "@posthog/mcp",
+      "version": "0.18.1",
+      "own": false,
+      "weekly_downloads": 148642,
+      "shasum": "cf005cb45a9dc64f99934433aa2b35f13934d286",
+      "integrity": "sha512-w+mu1kWRgZ6sZ0b4geABAS2QiuKX8MJlKiCe2DSwZ6gB48YF3Ijo67V7XPrpT1tph6X90lMvQm3lS8CxdYJfHQ==",
+      "license": null,
+      "deps_count": 1,
+      "tarball_bytes": 208285,
+      "files_scanned": 153,
+      "rules": 29,
+      "findings": 0,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 0,
+        "INFO": 0
+      },
+      "by_rule": {},
+      "top_findings": [],
+      "verdict": "clean",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:46.047Z",
+      "duration_ms": 215
+    },
+    {
+      "name": "supergateway",
+      "version": "4.0.0",
+      "own": false,
+      "weekly_downloads": 129716,
+      "shasum": "2ec29ed58e150d2f0bf9a015be8e0784a8d3b80a",
+      "integrity": "sha512-puVDDT5lB1tf0Pa3iw42e0yomEIInCweFmkb38zPjAsA1zh+sbq4PwzA5brrUkjVTOUuVMemsNdRnMEc0DBKAQ==",
+      "license": null,
+      "deps_count": 11,
+      "tarball_bytes": 34496,
+      "files_scanned": 24,
+      "rules": 29,
+      "findings": 6,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 6,
+        "INFO": 0
+      },
+      "by_rule": {
+        "MCP-SS-002": 6
+      },
+      "top_findings": [
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/gateways/stdioToSse.js",
+          "line": 134,
+          "snippet": "localhost:${port}${ssePath}`); logger.info(`POST"
+        },
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/gateways/stdioToSse.js",
+          "line": 135,
+          "snippet": "localhost:${port}${messagePath}`); }); const dec"
+        },
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/gateways/stdioToStatefulStreamableHttp.js",
+          "line": 309,
+          "snippet": "localhost:${port}${streamableHttpPath}`); }); }"
+        },
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/gateways/stdioToStatelessStreamableHttp.js",
+          "line": 368,
+          "snippet": "localhost:${port}${streamableHttpPath}`); }); }"
+        },
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/gateways/stdioToWs.js",
+          "line": 123,
+          "snippet": "localhost:${port}${messagePath}`); }); } cat"
+        },
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/index.js",
+          "line": 10,
+          "snippet": "localhost:8000 --ssePath /sse --messagePath /mes"
+        }
+      ],
+      "verdict": "flagged-warning",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:46.137Z",
+      "duration_ms": 90
+    },
+    {
+      "name": "add-mcp",
+      "version": "2.4.0",
+      "own": false,
+      "weekly_downloads": 114499,
+      "shasum": "69c707d80654aa94b4ff70d984dd1a093f2fc719",
+      "integrity": "sha512-fR2PZlcgq2VhDp53Bs3gLftf1FTVz8foXjMclIfc967D3sEKn7gWmmaSIAV5MhXfcT0ELx8yRkxgG10wbKX0kg==",
+      "license": null,
+      "deps_count": 6,
+      "tarball_bytes": 48546,
+      "files_scanned": 6,
+      "rules": 29,
+      "findings": 0,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 0,
+        "INFO": 0
+      },
+      "by_rule": {},
+      "top_findings": [],
+      "verdict": "clean",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:46.334Z",
+      "duration_ms": 196
+    },
+    {
+      "name": "@better-auth/mcp",
+      "version": "1.7.6",
+      "own": false,
+      "weekly_downloads": 114280,
+      "shasum": "5f677b00fa30d08b4454fd9cce9ac3c2367786e7",
+      "integrity": "sha512-SgwrXMYAvvNax+I1Ms6bNgKNozEL1DD2WEmWFSI83WtsCx0jETu4hDjpMait/Ej18pOnSgiwiz6GMxavnEncjA==",
+      "license": null,
+      "deps_count": 2,
+      "tarball_bytes": 7542,
+      "files_scanned": 2,
+      "rules": 29,
+      "findings": 2,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 2,
+        "INFO": 0
+      },
+      "by_rule": {
+        "MCP-SS-002": 2
+      },
+      "top_findings": [
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/index.mjs",
+          "line": 7,
+          "snippet": "localhost\" || hostname === \"[::1]\" || isIpv4Loop"
+        },
+        {
+          "rule": "MCP-SS-002",
+          "severity": "WARNING",
+          "file": "dist/index.mjs",
+          "line": 25,
+          "snippet": "localhost or loopback IP development URLs\"); ret"
+        }
+      ],
+      "verdict": "flagged-warning",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:46.442Z",
+      "duration_ms": 108
+    },
+    {
+      "name": "@modelcontextprotocol/server-sequential-thinking",
+      "version": "2026.8.31",
+      "own": false,
+      "weekly_downloads": 109354,
+      "shasum": "a286b9b678b9ead1fc0ae0d58e1351bd478a23a7",
+      "integrity": "sha512-/EMH++1j2e+VmHwpibw1IUPHxA0tcQY09Yo5/OIPwW/8irEKLAufJNGSZQhCK18n8TUvV6WwZyQOuaDKxe/CeQ==",
+      "license": null,
+      "deps_count": 3,
+      "tarball_bytes": 6248,
+      "files_scanned": 4,
+      "rules": 29,
+      "findings": 0,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 0,
+        "INFO": 0
+      },
+      "by_rule": {},
+      "top_findings": [],
+      "verdict": "clean",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:46.617Z",
+      "duration_ms": 175
+    },
+    {
+      "name": "@modelcontextprotocol/server-memory",
+      "version": "2026.8.31",
+      "own": false,
+      "weekly_downloads": 98470,
+      "shasum": "809f9f4c7e30e5c4e0b34ad0a3781c40664c0bfa",
+      "integrity": "sha512-ljj/3S4aGjxdNSQWw6gucKKGnTLdBPWxzapyY/MT2tOVyZwvxChvevXSLPwx59nKJAlVpUVW+cOlnVRXRwiqMQ==",
+      "license": null,
+      "deps_count": 1,
+      "tarball_bytes": 8015,
+      "files_scanned": 2,
+      "rules": 29,
+      "findings": 1,
+      "by_severity": {
+        "ERROR": 0,
+        "WARNING": 1,
+        "INFO": 0
+      },
+      "by_rule": {
+        "MCP-PT-001": 1
+      },
+      "top_findings": [
+        {
+          "rule": "MCP-PT-001",
+          "severity": "WARNING",
+          "file": "dist/index.js",
+          "line": 54,
+          "snippet": "fs.readFile(this.memoryFilePath, \"utf-8\"); const"
+        }
+      ],
+      "verdict": "flagged-warning",
+      "scanner": "sentinel-rules@lite --no-skip",
+      "scanned_at": "2026-09-28T01:54:46.730Z",
+      "duration_ms": 113
     }
   ],
   "rotation": {
     "mode": "oldest-first + own-always",
-    "batch_size": 20,
-    "batch_minutes_budget": 4,
+    "batch_size": 30,
+    "batch_minutes_budget": 8,
     "pool_size": 2882,
-    "fresh_scans_30d": 2844,
+    "fresh_scans_30d": 2860,
     "note": "Full pool rotation completes in pool_size / batch_size runs. Own @marketnow packages are re-scanned every run."
   },
   "disclaimer": "Lite-engine findings require human triage: a hit is a PATTERN match (e.g. eval(, child_process, prompt-injection phrasing) that may be legitimate code. We publish ALL findings raw — unlike popularity-scored directories, you see what our scanner sees. ERROR-severity hits deserve review before installing; WARNING hits are usually benign-but-noteworthy.",
-  "note": "Rows are scan-time records: each row's version/shasum/findings are what Sentinel L2 actually scanned at that row's scanned_at. Package versions evolve after scanning — current versions live in the npm registry and /api/agent.json (metrics). Own-package rows (own:true) are rescanned on each Sentinel batch run; latest own-package rescan lands with the next batch. [2026-09-28] Refresh rodante en CI: ver rotation.* y stats.refreshed_this_run."
+  "note": "Rows are scan-time records: each row's version/shasum/findings are what Sentinel L2 actually scanned at that row's scanned_at. Package versions evolve after scanning — current versions live in the npm registry and /api/agent.json (metrics). Own-package rows (own:true) are rescanned on each Sentinel batch run; latest own-package rescan lands with the next batch. [2026-09-28] Refresh rodante en CI: ver rotation.* y stats.refreshed_this_run. [2026-09-28] Refresh rodante en CI: ver rotation.* y stats.refreshed_this_run."
 }
