@@ -120,7 +120,7 @@ jobs:
           for i in 1 2 3 4 5; do
             if git push 2>&1; then
               echo "✓ Push succeeded on attempt $i"
-              exit 0
+              break
             fi
             echo "⚠ Push attempt $i failed — pulling rebase and retrying..."
             sleep $((i * 2))
@@ -130,5 +130,13 @@ jobs:
               exit 1
             }
           done
-          echo "✗ Could not push after 5 attempts"
-          exit 1
+          # El push-trigger del deploy es intermitente (observado en el deploy
+          # del commit d5304b28c: paths matcheaban y no disparó). Dispatch
+          # explícito: los datos del refresh llegan a producción el mismo día
+          # sin depender del cron 0 */6 de respaldo.
+          curl -s -X POST \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/vercel-deploy.yml/dispatches" \
+            -d '{"ref":"master"}' \
+            -w "deploy-dispatch: %{http_code}\n"
