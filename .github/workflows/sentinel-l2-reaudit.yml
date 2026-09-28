@@ -11,10 +11,17 @@
 #   3. For each, fires a repository_dispatch event (same as /api/audit-skill
 #      does on demand). The sentinel-l2-sandbox.yml workflow picks it up
 #      and runs the Docker sandbox.
-#   4. The 30-min dedup cache in lib/sentinel-l2-trigger.mjs doesn't apply
-#      here (we're calling GitHub API directly, not via Vercel) — but the
-#      sentinel-l2-sandbox.yml workflow itself is idempotent: if a result
-#      already exists for the skill, the new run will overwrite it.
+#   4. F-03: if the catalog entry carries source.pinned_commit_sha, the
+#      dispatch includes it so the sandbox audits EXACTLY the pinned tree
+#      (immutable reference), not a moving branch.
+#
+# FIX 2026-09-28 (remediación audit externo F-08): este workflow estaba
+# disabled_manually con 0 runs por TRES bugs:
+#   a) paso upload-artifact malformado (YAML inválido — nunca parseaba)
+#   b) leía skills_index.json, eliminado en el split del 2026-09-26
+#   c) sin límite: ~11.4k skills elegibles x 5s = ~16h > timeout de 30 min
+# Ahora: skills-lite.json (fuente viva), tope por defecto (100/lote semanal
+# rotativo), timeout 60, log subido como artifact correctamente.
 #
 # Triggers:
 #   - schedule: weekly (Sunday 02:00 UTC, offset from L1.6 batch at 00:00
@@ -29,7 +36,7 @@ on:
   workflow_dispatch:
     inputs:
       max_skills:
-        description: 'Max skills to re-audit (0 = all eligible)'
+        description: 'Max skills to re-audit (0 = default rolling batch of 100)'
         required: false
         default: '0'
         type: string
@@ -46,7 +53,7 @@ concurrency:
 jobs:
   trigger:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
 
     steps:
       - name: Checkout repo
@@ -57,40 +64,69 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Re-audit all eligible skills
+      - name: Re-audit eligible skills (bounded, pinned-SHA aware)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MAX_SKILLS: ${{ github.event.inputs.max_skills || '0' }}
         run: |
-          node <<'JS'
+          node <<'JS' 2>&1 | tee /tmp/reaudit.log
           const fs = require('fs');
-          const path = require('path');
 
           const TOKEN = process.env.GITHUB_TOKEN;
           const REPO = 'eddyflores100-lang/marketnow';
-          const MAX = parseInt(process.env.MAX_SKILLS || '0', 10);
+          // F-08 fix: 0 (cron sin inputs) ya no significa "todos" (16h de dispatches):
+          // rueda un lote rotativo de 100 por semana.
+          const RAW_MAX = parseInt(process.env.MAX_SKILLS || '0', 10);
+          const MAX = RAW_MAX > 0 ? RAW_MAX : 100;
 
           if (!TOKEN) {
             console.error('✗ GITHUB_TOKEN not set');
             process.exit(1);
           }
 
-          // Load catalog
-          const skillsPath = 'aep-marketplace/public/api/skills_index.json';
-          const skills = JSON.parse(fs.readFileSync(skillsPath, 'utf8'));
+          // F-08 fix: skills_index.json fue eliminado (split 2026-09-26);
+          // skills-lite.json es la fuente viva del catálogo.
+          const skillsPath = 'aep-marketplace/public/api/skills-lite.json';
+          let skills;
+          try {
+            skills = JSON.parse(fs.readFileSync(skillsPath, 'utf8'));
+          } catch (e) {
+            console.error('✗ No pude leer ' + skillsPath + ': ' + e.message);
+            process.exit(1);
+          }
           const eligible = skills.filter(s =>
             s.source?.url && s.source.url.includes('github.com')
           );
 
-          console.log(`Found ${eligible.length} L2-eligible skills (have source.url → github.com).`);
-          if (MAX > 0 && eligible.length > MAX) {
-            console.log(`Limiting to first ${MAX} skills (max_skills input).`);
-            eligible.length = MAX;
-          }
+          console.log(`Catálogo: ${skills.length} skills; ${eligible.length} L2-eligible (source.url → github.com).`);
+          console.log(`Lote de esta corrida: ${Math.min(MAX, eligible.length)} (tope por defecto 100 — rotativo semanal).`);
 
-          let triggered = 0, failed = 0, skipped = 0;
+          // Rotación: empieza donde terminó la semana anterior (determinístico por fecha)
+          const weekIndex = Math.floor(Date.now() / (7 * 24 * 3600 * 1000));
+          const start = (weekIndex * MAX) % Math.max(eligible.length, 1);
+          const batch = [];
+          for (let i = 0; i < Math.min(MAX, eligible.length); i++) {
+            batch.push(eligible[(start + i) % eligible.length]);
+          }
+          console.log(`Offset rotativo: ${start} → skills ${batch[0]?.id}..${batch[batch.length - 1]?.id}`);
+
+          let triggered = 0, failed = 0, skipped = 0, pinned = 0;
 
           async function triggerOne(skill) {
+            const payload = {
+              event_type: 'sentinel-l2-audit',
+              client_payload: {
+                skill_id: skill.id,
+                repo_url: skill.source.url,
+                triggered_at: new Date().toISOString(),
+                triggered_by: 'sentinel-l2-reaudit.yml (weekly cron)',
+              },
+            };
+            // F-03: si la entrada del catálogo está pineada, audita ESE árbol
+            if (skill.source?.pinned_commit_sha && /^[0-9a-f]{40}$/.test(skill.source.pinned_commit_sha)) {
+              payload.client_payload.commit_sha = skill.source.pinned_commit_sha;
+              pinned++;
+            }
             const res = await fetch(
               `https://api.github.com/repos/${REPO}/dispatches`,
               {
@@ -101,22 +137,14 @@ jobs:
                   'Content-Type': 'application/json',
                   'User-Agent': 'marketnow-l2-reaudit',
                 },
-                body: JSON.stringify({
-                  event_type: 'sentinel-l2-audit',
-                  client_payload: {
-                    skill_id: skill.id,
-                    repo_url: skill.source.url,
-                    triggered_at: new Date().toISOString(),
-                    triggered_by: 'sentinel-l2-reaudit.yml (weekly cron)',
-                  },
-                }),
+                body: JSON.stringify(payload),
               }
             );
             return res.status;
           }
 
           (async () => {
-            for (const skill of eligible) {
+            for (const skill of batch) {
               try {
                 const status = await triggerOne(skill);
                 if (status === 204) {
@@ -140,11 +168,14 @@ jobs:
             }
 
             console.log(`\n=== L2 Re-Audit Summary ===`);
-            console.log(`  Triggered: ${triggered}`);
-            console.log(`  Skipped:   ${skipped}`);
-            console.log(`  Failed:    ${failed}`);
+            console.log(`  Batch:      ${batch.length} (rotativo, offset ${start})`);
+            console.log(`  Triggered:  ${triggered}`);
+            console.log(`  Pinned-F03: ${pinned} (auditan SHA inmutable)`);
+            console.log(`  Skipped:    ${skipped}`);
+            console.log(`  Failed:     ${failed}`);
             console.log(`\nResults will appear in _data/l2_results/ as Actions completes.`);
             console.log(`Monitor: https://github.com/${REPO}/actions`);
+            if (triggered === 0 && failed > 0) process.exit(1);
           })().catch(e => {
             console.error('Fatal:', e);
             process.exit(1);
@@ -156,6 +187,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: sentinel-l2-reaudit-${{ github.run_id }}
-          /path: /tmp/reaudit.log
-          retention-days: 7|
-            /tmp/reaudit.log
+          path: /tmp/reaudit.log
+          retention-days: 7
