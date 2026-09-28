@@ -45,12 +45,29 @@ router.post('/create-session', authenticateToken, async (req, res) => {
 
         return res.json({ url: session.url, sessionId: session.id });
       } catch (stripeErr) {
-        console.error('Stripe error, falling back to simulated purchase:', stripeErr.message);
-        // Fall through to simulated purchase
+        // F-12 hardening 2026-09-28: un error de Stripe NUNCA debe degradar a
+        // "compra simulada" — eso regala licencias en un outage. El fallback
+        // simulado queda exclusivamente para desarrollo local, detras de un
+        // env flag explícito (default OFF).
+        console.error('Stripe error:', stripeErr.message);
+        if (process.env.ENABLE_SIMULATED_PURCHASES !== 'true') {
+          return res.status(502).json({
+            error: 'Payment provider error',
+            message: 'Stripe checkout failed. No purchase was recorded — please retry.',
+          });
+        }
+        console.error('Falling back to SIMULATED purchase (ENABLE_SIMULATED_PURCHASES=true)');
+        // Fall through to simulated purchase (dev mode only)
       }
     }
 
-    // Simulated purchase (no Stripe key)
+    // Simulated purchase (dev only — requires ENABLE_SIMULATED_PURCHASES=true)
+    if (process.env.ENABLE_SIMULATED_PURCHASES !== 'true') {
+      return res.status(503).json({
+        error: 'Payments not configured',
+        message: 'STRIPE_SECRET_KEY is not set and simulated purchases are disabled.',
+      });
+    }
     const purchase = {
       id: `pur_${Date.now()}`,
       userId: req.user.id,
