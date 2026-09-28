@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-9711746",
+  "certificate_id": "MN-SC-2026-5427357",
   "skill_id": "mn-gen-02586",
   "skill_name": "codewiki-mcp",
-  "issued_at": "2026-07-26T04:21:51.746Z",
-  "expires_at": "2026-08-02T04:21:51.746Z",
+  "issued_at": "2026-09-28T00:30:27.357Z",
+  "expires_at": "2026-10-05T00:30:27.357Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -26,7 +26,7 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "266e268d13bafe11071d5678360248f03f290f58a31291eb39b63b9a95a7dedd",
+  "signature": "3e0e46a81e22c902233a747c282e754c317635c51cef00dcd0eea40086c1db79",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02586"
 }

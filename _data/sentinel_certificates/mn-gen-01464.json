@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9704634",
+  "certificate_id": "MN-SC-2026-5420185",
   "skill_id": "mn-gen-01464",
   "skill_name": "blogburst-mcp-server",
-  "issued_at": "2026-07-26T04:21:44.634Z",
-  "expires_at": "2026-08-02T04:21:44.634Z",
+  "issued_at": "2026-09-28T00:30:20.185Z",
+  "expires_at": "2026-10-05T00:30:20.185Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "fe291cf8d764e4161fe8ad97bea613b1f944aa67b1b234463460c1051610e43d",
+  "signature": "07b340cd465b58ade573d0137c3cdecc1930c9090b6f01b7cbfe0469c6a62285",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01464"
 }

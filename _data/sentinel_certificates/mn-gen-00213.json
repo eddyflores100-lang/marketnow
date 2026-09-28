@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9695416",
+  "certificate_id": "MN-SC-2026-5411859",
   "skill_id": "mn-gen-00213",
   "skill_name": "after-effects-mcp",
-  "issued_at": "2026-07-26T04:21:35.416Z",
-  "expires_at": "2026-08-02T04:21:35.416Z",
+  "issued_at": "2026-09-28T00:30:11.859Z",
+  "expires_at": "2026-10-05T00:30:11.859Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "4c4e3816217a0beef9f3556b276d5c59220391475631fc4d62ce98aeb68db242",
+  "signature": "3e3a8f5bd5152d07534feb07597b98380eb6b5877747da717dee2c939b159b82",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00213"
 }

@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9702020",
+  "certificate_id": "MN-SC-2026-5417610",
   "skill_id": "mn-gen-01076",
   "skill_name": "attio-mcp-server",
-  "issued_at": "2026-07-26T04:21:42.020Z",
-  "expires_at": "2026-08-02T04:21:42.020Z",
+  "issued_at": "2026-09-28T00:30:17.610Z",
+  "expires_at": "2026-10-05T00:30:17.610Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "9bffac6a89701c8e3e352cfdadfed94ad5fb290664ce039abcde979e7ece207b",
+  "signature": "eb0f8740b4e4b18a6e5395ac72d186674f41a5d611b5b104cabbd9c316ed0938",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01076"
 }

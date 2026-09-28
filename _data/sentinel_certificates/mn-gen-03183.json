@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9716317",
+  "certificate_id": "MN-SC-2026-5431998",
   "skill_id": "mn-gen-03183",
   "skill_name": "deeplook",
-  "issued_at": "2026-07-26T04:21:56.317Z",
-  "expires_at": "2026-08-02T04:21:56.317Z",
+  "issued_at": "2026-09-28T00:30:31.998Z",
+  "expires_at": "2026-10-05T00:30:31.998Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "00193a18bc994af37fdf855ad44125da8903f46fd578e5c8462f837cde100a0a",
+  "signature": "7ddfff2ac479d8e1a753f3fc01d828dd67a1b5c905d7355a2818199f2670313a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03183"
 }

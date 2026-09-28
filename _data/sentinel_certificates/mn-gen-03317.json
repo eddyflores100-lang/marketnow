@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9717217",
+  "certificate_id": "MN-SC-2026-5432815",
   "skill_id": "mn-gen-03317",
   "skill_name": "mcp-dotnet-diagnostics",
-  "issued_at": "2026-07-26T04:21:57.217Z",
-  "expires_at": "2026-08-02T04:21:57.217Z",
+  "issued_at": "2026-09-28T00:30:32.815Z",
+  "expires_at": "2026-10-05T00:30:32.815Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "53738f430af819893d774d20586c7d8442adcb4afa9b2aa1fb2f94085757bb9b",
+  "signature": "cf3bc1ca9070c7321f2896a9ac920dabbefc499c2208902be287f8d5327c4f4f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03317"
 }

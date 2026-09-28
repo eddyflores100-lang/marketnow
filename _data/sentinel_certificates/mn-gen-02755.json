@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9713068",
+  "certificate_id": "MN-SC-2026-5428783",
   "skill_id": "mn-gen-02755",
   "skill_name": "context-sync",
-  "issued_at": "2026-07-26T04:21:53.068Z",
-  "expires_at": "2026-08-02T04:21:53.068Z",
+  "issued_at": "2026-09-28T00:30:28.783Z",
+  "expires_at": "2026-10-05T00:30:28.783Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "a21d4090f2c3bb638ac233b7a18136c34f2b0c41948ac05403acba033a07d8cc",
+  "signature": "0e0c6fff1c95d6457b1420204038375d984f97275dfbe135290e23efe1296b23",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02755"
 }

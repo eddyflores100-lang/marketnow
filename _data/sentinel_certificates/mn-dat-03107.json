@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9715790",
+  "certificate_id": "MN-SC-2026-5431400",
   "skill_id": "mn-dat-03107",
   "skill_name": "mcp-dataverse",
-  "issued_at": "2026-07-26T04:21:55.790Z",
-  "expires_at": "2026-08-02T04:21:55.790Z",
+  "issued_at": "2026-09-28T00:30:31.400Z",
+  "expires_at": "2026-10-05T00:30:31.400Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 7,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 3,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "b158d87a158aaeee990a72096fde3c43a9e152e90c0555e87fafa879380efacd",
+  "signature": "9534f41f7bf5cd488c209f97c08a5f33a531d75be2d3da848782213b1fa1f73e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-dat-03107"
 }

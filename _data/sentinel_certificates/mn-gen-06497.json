@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9739808",
+  "certificate_id": "MN-SC-2026-5454571",
   "skill_id": "mn-gen-06497",
   "skill_name": "decompose",
-  "issued_at": "2026-07-26T04:22:19.808Z",
-  "expires_at": "2026-08-02T04:22:19.808Z",
+  "issued_at": "2026-09-28T00:30:54.571Z",
+  "expires_at": "2026-10-05T00:30:54.571Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "59f07d5e14fecd4ab2a23f00b8229c01d3aa4fdcd7b13598332736e4f32f7a6b",
+  "signature": "6e08eb4d3170fad0882e4dc64f2107ae860ef3daba3d3d51de1b5a21cc6b4460",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-06497"
 }

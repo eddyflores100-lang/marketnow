@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9758103",
+  "certificate_id": "MN-SC-2026-5472953",
   "skill_id": "mn-gen-09191",
   "skill_name": "lemonade",
-  "issued_at": "2026-07-26T04:22:38.103Z",
-  "expires_at": "2026-08-02T04:22:38.103Z",
+  "issued_at": "2026-09-28T00:31:12.953Z",
+  "expires_at": "2026-10-05T00:31:12.953Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 7,
+  "overall_score": 8,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 3,
+    "l15_findings": 2,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "46119b842b56195ffd73e31ad9b24fc172920fb2c6a06fc259a871e38e356b56",
+  "signature": "6394a521618e7aa4d192270c70fe3158d0c7897652c204ddf1b3c74760b30521",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09191"
 }

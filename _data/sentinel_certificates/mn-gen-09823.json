@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9763138",
+  "certificate_id": "MN-SC-2026-5478191",
   "skill_id": "mn-gen-09823",
   "skill_name": "ollama-mcp-bridge",
-  "issued_at": "2026-07-26T04:22:43.138Z",
-  "expires_at": "2026-08-02T04:22:43.138Z",
+  "issued_at": "2026-09-28T00:31:18.191Z",
+  "expires_at": "2026-10-05T00:31:18.191Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "f774ed35c3554e0d53bd8a0fe76b8a3102f628ca74638a873041161ef572ad79",
+  "signature": "163a86323ec9ea2736da62fdc3f13e0066daf71d2ad5a792b93a55cafc7fc40b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09823"
 }

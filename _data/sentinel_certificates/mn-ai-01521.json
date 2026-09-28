@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9705154",
+  "certificate_id": "MN-SC-2026-5420532",
   "skill_id": "mn-ai-01521",
   "skill_name": "finbrain-mcp",
-  "issued_at": "2026-07-26T04:21:45.154Z",
-  "expires_at": "2026-08-02T04:21:45.154Z",
+  "issued_at": "2026-09-28T00:30:20.532Z",
+  "expires_at": "2026-10-05T00:30:20.532Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 7,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 3,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "a69e2018739504df24d66722f6fb5179aaabe4c6ccecbb2b805c2250c0117cb7",
+  "signature": "bf3abfa9f4ce20a89461e6a9f6f471bb74dffbc0cafd4de880860a2667650dd7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-ai-01521"
 }

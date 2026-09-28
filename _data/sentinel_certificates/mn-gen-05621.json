@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9735057",
+  "certificate_id": "MN-SC-2026-5449834",
   "skill_id": "mn-gen-05621",
   "skill_name": "mcp-language-server",
-  "issued_at": "2026-07-26T04:22:15.057Z",
-  "expires_at": "2026-08-02T04:22:15.057Z",
+  "issued_at": "2026-09-28T00:30:49.834Z",
+  "expires_at": "2026-10-05T00:30:49.834Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "e76a51054c798365ae451405924c34ed679750e158c39ddf356371421ef7cff9",
+  "signature": "f65f730b90aaa257b4ab6d2e7198a9a1962b7a5e25ab9827700caf14b483787b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05621"
 }

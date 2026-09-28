@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9726362",
+  "certificate_id": "MN-SC-2026-5441654",
   "skill_id": "mn-gen-04421",
   "skill_name": "gia-mcp-server",
-  "issued_at": "2026-07-26T04:22:06.362Z",
-  "expires_at": "2026-08-02T04:22:06.362Z",
+  "issued_at": "2026-09-28T00:30:41.654Z",
+  "expires_at": "2026-10-05T00:30:41.654Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 7,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 3,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "9a1bf2b852881cd50732eb7456a8574e534affae1064433ac8a4d4efc767fc2f",
+  "signature": "a9860c40127f8a4ff0e7994e50fdaea083efeb95af255d52e09aa0fd4a800a86",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04421"
 }

@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9721625",
+  "certificate_id": "MN-SC-2026-5436889",
   "skill_id": "mn-net-03965",
   "skill_name": "fetch-mcp",
-  "issued_at": "2026-07-26T04:22:01.625Z",
-  "expires_at": "2026-08-02T04:22:01.625Z",
+  "issued_at": "2026-09-28T00:30:36.889Z",
+  "expires_at": "2026-10-05T00:30:36.889Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 7,
+  "overall_score": 8,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 3,
+    "l15_findings": 2,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "05c3d7ea320abf2c52d153b4eb4d7ed8402c40b91dadd3ab64dcecbe01997bca",
+  "signature": "1770f83231a3c1a3422e22f28d966bd7a713c45d6dd8b8239fde08fe581b8c34",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-net-03965"
 }

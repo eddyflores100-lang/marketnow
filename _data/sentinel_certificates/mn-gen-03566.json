@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9718978",
+  "certificate_id": "MN-SC-2026-5434291",
   "skill_id": "mn-gen-03566",
   "skill_name": "dynatrace-mcp",
-  "issued_at": "2026-07-26T04:21:58.978Z",
-  "expires_at": "2026-08-02T04:21:58.978Z",
+  "issued_at": "2026-09-28T00:30:34.291Z",
+  "expires_at": "2026-10-05T00:30:34.291Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "2b937f83412febf13a028a697f27b49a3d87f951d02d6644513b06820139fcf9",
+  "signature": "401d0cdcca1008f17c64c25036498c02ce22289baaa7a87edfdee5e5c96db572",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03566"
 }

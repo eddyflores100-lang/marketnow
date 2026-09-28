@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9712396",
+  "certificate_id": "MN-SC-2026-5428230",
   "skill_id": "mn-gen-02687",
   "skill_name": "computer-use-mcp",
-  "issued_at": "2026-07-26T04:21:52.396Z",
-  "expires_at": "2026-08-02T04:21:52.396Z",
+  "issued_at": "2026-09-28T00:30:28.230Z",
+  "expires_at": "2026-10-05T00:30:28.230Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "5280ba208b0ec4774aff7a70a8f799a2cd7077c4623b5affbfe21aba81d73988",
+  "signature": "ddda723611cc263d151d7aa70115ec53cb8505979314a7c05f9930e951457ffe",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02687"
 }

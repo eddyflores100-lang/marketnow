@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9753385",
+  "certificate_id": "MN-SC-2026-5467935",
   "skill_id": "mn-gen-07919",
   "skill_name": "skills",
-  "issued_at": "2026-07-26T04:22:33.385Z",
-  "expires_at": "2026-08-02T04:22:33.385Z",
+  "issued_at": "2026-09-28T00:31:07.935Z",
+  "expires_at": "2026-10-05T00:31:07.935Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "430ba91cc3c4baeb3954afda5522013072cef439f6adecd2a4a5aa27b0e6a884",
+  "signature": "2e8d513eca03b2d324258350d3511c6dc8f3f3e27069360921f78edef0a13cf5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07919"
 }

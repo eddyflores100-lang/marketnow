@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9713934",
+  "certificate_id": "MN-SC-2026-5429520",
   "skill_id": "mn-gen-02788",
   "skill_name": "coolify-mcp",
-  "issued_at": "2026-07-26T04:21:53.934Z",
-  "expires_at": "2026-08-02T04:21:53.934Z",
+  "issued_at": "2026-09-28T00:30:29.520Z",
+  "expires_at": "2026-10-05T00:30:29.520Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "9a6c7d5bd22caf51a080eabe8f301f80caa3106e6aa99186edd2e807b3b763c2",
+  "signature": "b53db365252db717aa2c61875de4d94b01266712eed3b6579d70f0d43468a432",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02788"
 }

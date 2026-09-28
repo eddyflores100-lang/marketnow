@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9749228",
+  "certificate_id": "MN-SC-2026-5463928",
   "skill_id": "mn-gen-07663",
   "skill_name": "mcp-server-github-gist",
-  "issued_at": "2026-07-26T04:22:29.228Z",
-  "expires_at": "2026-08-02T04:22:29.228Z",
+  "issued_at": "2026-09-28T00:31:03.928Z",
+  "expires_at": "2026-10-05T00:31:03.928Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "2a7fc71eed31fd70d9d11258463f21b973a7700237637868acd4bcf23ade2e93",
+  "signature": "5af865e14c477189ebbe807cf0afe0f937e4aaac8114e25791886dc08411dbb0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07663"
 }

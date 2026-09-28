@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9713670",
+  "certificate_id": "MN-SC-2026-5429342",
   "skill_id": "mn-gen-02778",
   "skill_name": "conversation-handoff-mcp",
-  "issued_at": "2026-07-26T04:21:53.670Z",
-  "expires_at": "2026-08-02T04:21:53.670Z",
+  "issued_at": "2026-09-28T00:30:29.342Z",
+  "expires_at": "2026-10-05T00:30:29.342Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "4095b348f940b09c60c808975f59267a971eb67e0610a867df69b6a42293aeb4",
+  "signature": "5f7b6c992cc04b53f0bc2b24fdec4e43169b00e9c1afa8c8477728e081a37c0b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02778"
 }

@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9700351",
+  "certificate_id": "MN-SC-2026-5416144",
   "skill_id": "mn-gen-00867",
   "skill_name": "app-publish-mcp",
-  "issued_at": "2026-07-26T04:21:40.351Z",
-  "expires_at": "2026-08-02T04:21:40.351Z",
+  "issued_at": "2026-09-28T00:30:16.144Z",
+  "expires_at": "2026-10-05T00:30:16.144Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "d9a69876bca749ed5f2c18fdba6505d5ed807a4a938ffdf1a22f2335f3674355",
+  "signature": "bd2113aad924729aaeb9e8d6021a6e08daf1e1f5bf9f9d6897e17f5afb6d888e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00867"
 }

@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9707237",
+  "certificate_id": "MN-SC-2026-5422726",
   "skill_id": "mn-gen-01757",
   "skill_name": "cclsp",
-  "issued_at": "2026-07-26T04:21:47.237Z",
-  "expires_at": "2026-08-02T04:21:47.237Z",
+  "issued_at": "2026-09-28T00:30:22.726Z",
+  "expires_at": "2026-10-05T00:30:22.726Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "ea91c01bfe70e7b818602766bd9631302f93e1ef3983a7541374952bfb006638",
+  "signature": "08972c97ad7f7c4a2db4d2f4ca1d5d6f16c18203ad127cb633f7b5654f17073f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01757"
 }

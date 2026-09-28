@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9755599",
+  "certificate_id": "MN-SC-2026-5470453",
   "skill_id": "mn-gen-08633",
   "skill_name": "warden-mcp",
-  "issued_at": "2026-07-26T04:22:35.599Z",
-  "expires_at": "2026-08-02T04:22:35.599Z",
+  "issued_at": "2026-09-28T00:31:10.453Z",
+  "expires_at": "2026-10-05T00:31:10.453Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 7,
+  "overall_score": 8,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 3,
+    "l15_findings": 2,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "626735f55d23c4c06168ab989a17ee41af736a378ec9cab74ea33819005af307",
+  "signature": "9ec7cc27deea12b43992ea81a1c77ea7ddd8555e83314efe470fbd901a4022cc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-08633"
 }

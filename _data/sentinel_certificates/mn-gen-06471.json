@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-9739652",
+  "certificate_id": "MN-SC-2026-5454402",
   "skill_id": "mn-gen-06471",
   "skill_name": "code-graph-rag",
-  "issued_at": "2026-07-26T04:22:19.652Z",
-  "expires_at": "2026-08-02T04:22:19.652Z",
+  "issued_at": "2026-09-28T00:30:54.402Z",
+  "expires_at": "2026-10-05T00:30:54.402Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -26,7 +26,7 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "0cfdaeab667be451596128156666097c229bafe04367df86a2bff9ab118a7dd3",
+  "signature": "a54d2a1e1b0c1b616085363283984a17213a75b32f8137b21f6750d3e62725cd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-06471"
 }

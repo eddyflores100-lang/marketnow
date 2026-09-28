@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9735372",
+  "certificate_id": "MN-SC-2026-5450183",
   "skill_id": "mn-gen-05683",
   "skill_name": "glean",
-  "issued_at": "2026-07-26T04:22:15.372Z",
-  "expires_at": "2026-08-02T04:22:15.372Z",
+  "issued_at": "2026-09-28T00:30:50.183Z",
+  "expires_at": "2026-10-05T00:30:50.183Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "1738f2365b4815c856494e08e1a495ac6bbdd53ac615e6a425651eceb4001fe1",
+  "signature": "3009891392838199e5b6feabc94da3d6bac7459cce03139e1678851ee4bbfe67",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05683"
 }

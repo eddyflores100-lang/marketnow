@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9758862",
+  "certificate_id": "MN-SC-2026-5473999",
   "skill_id": "mn-gen-09244",
   "skill_name": "magic",
-  "issued_at": "2026-07-26T04:22:38.862Z",
-  "expires_at": "2026-08-02T04:22:38.862Z",
+  "issued_at": "2026-09-28T00:31:13.999Z",
+  "expires_at": "2026-10-05T00:31:13.999Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "641e25f182249b7c742d08dc089a917637a60aef74de184f26bc3404eccc1f35",
+  "signature": "f8b83c71001f2bf338f72c73abaddcb1f67e15e3da0ddcff15d74df610a16eb5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09244"
 }

@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9716934",
+  "certificate_id": "MN-SC-2026-5432640",
   "skill_id": "mn-gen-03309",
   "skill_name": "dexpaprika-mcp",
-  "issued_at": "2026-07-26T04:21:56.934Z",
-  "expires_at": "2026-08-02T04:21:56.934Z",
+  "issued_at": "2026-09-28T00:30:32.640Z",
+  "expires_at": "2026-10-05T00:30:32.640Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "43258220861b72536cdcb77927863f8bf792321d52b555fc54d59743d4d55411",
+  "signature": "287b4728e978a37423f5d6aadebd8660b1d90f316edff8105d6bcfc0a3cfbeb4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03309"
 }

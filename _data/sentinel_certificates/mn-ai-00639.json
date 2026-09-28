@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9698530",
+  "certificate_id": "MN-SC-2026-5414741",
   "skill_id": "mn-ai-00639",
   "skill_name": "airtable-mcp",
-  "issued_at": "2026-07-26T04:21:38.530Z",
-  "expires_at": "2026-08-02T04:21:38.530Z",
+  "issued_at": "2026-09-28T00:30:14.741Z",
+  "expires_at": "2026-10-05T00:30:14.741Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "fbba358964680602ef278bbcccd02d4f0af5c0548e954984a3e9ee87aa1fb488",
+  "signature": "bf8f570cf2d9b85dc56438a67aa231d608f1663babe1bb516cd9ed482e539984",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-ai-00639"
 }

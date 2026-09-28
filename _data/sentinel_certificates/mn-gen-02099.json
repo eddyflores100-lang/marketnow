@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9708529",
+  "certificate_id": "MN-SC-2026-5424305",
   "skill_id": "mn-gen-02099",
   "skill_name": "claude-debugs-for-you",
-  "issued_at": "2026-07-26T04:21:48.529Z",
-  "expires_at": "2026-08-02T04:21:48.529Z",
+  "issued_at": "2026-09-28T00:30:24.305Z",
+  "expires_at": "2026-10-05T00:30:24.305Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "5a1bb529950f85c2b625ffd7e7aee5a8e45ddff02639fc880e17a7e4c3ccdb9c",
+  "signature": "126c80fd86c8cb40739c88373ab10a695ddc9ed079f0ffee0f3bead1be3d266d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02099"
 }

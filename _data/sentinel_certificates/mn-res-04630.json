@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9728398",
+  "certificate_id": "MN-SC-2026-5443586",
   "skill_id": "mn-res-04630",
   "skill_name": "mcp-google-ads",
-  "issued_at": "2026-07-26T04:22:08.398Z",
-  "expires_at": "2026-08-02T04:22:08.398Z",
+  "issued_at": "2026-09-28T00:30:43.586Z",
+  "expires_at": "2026-10-05T00:30:43.586Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "887d29ad3c5424dc602e031280e210c4498382b52b3b789632313b24c5def28a",
+  "signature": "56188697f363fdae77ee39319f657d3a5dae8aa1dfc55830089fad440d744241",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-res-04630"
 }

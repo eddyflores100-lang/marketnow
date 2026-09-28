@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9704069",
+  "certificate_id": "MN-SC-2026-5419602",
   "skill_id": "mn-gen-01411",
   "skill_name": "mcp-server-bitbucket",
-  "issued_at": "2026-07-26T04:21:44.069Z",
-  "expires_at": "2026-08-02T04:21:44.069Z",
+  "issued_at": "2026-09-28T00:30:19.602Z",
+  "expires_at": "2026-10-05T00:30:19.602Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 7,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 3,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "d3e0c1545c1ed7985352eb4ce2fa89a7d182d3e47dcd71acec24d45c8dca9539",
+  "signature": "1163954d1b9a3c3fc0694c03aff4471a48f04f39cfd93a985c86ab843cc0b32c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01411"
 }

@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9754248",
+  "certificate_id": "MN-SC-2026-5468856",
   "skill_id": "mn-gen-08194",
   "skill_name": "vet",
-  "issued_at": "2026-07-26T04:22:34.248Z",
-  "expires_at": "2026-08-02T04:22:34.248Z",
+  "issued_at": "2026-09-28T00:31:08.856Z",
+  "expires_at": "2026-10-05T00:31:08.856Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,13 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "6c69215b7b104120a540e02ffe6c6dc8230df4f360fd42b9c7865277125d9315",
+  "signature": "d4850eea72e38287a38f8e5da7e056a3067a4cd8bd37129aa3c88622713a7e53",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-08194"
 }

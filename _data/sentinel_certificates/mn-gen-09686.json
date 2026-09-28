@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-9761626",
+  "certificate_id": "MN-SC-2026-5476673",
   "skill_id": "mn-gen-09686",
   "skill_name": "mcp-opennutrition",
-  "issued_at": "2026-07-26T04:22:41.626Z",
-  "expires_at": "2026-08-02T04:22:41.626Z",
+  "issued_at": "2026-09-28T00:31:16.673Z",
+  "expires_at": "2026-10-05T00:31:16.673Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -26,7 +26,7 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "1f6bc739af9fee7b3ea0e8e0da98919fab294eb37af2ec3195a3b89451bc10a6",
+  "signature": "3162cf040da2309b606ee11f8b9ba83fa62dfb86cb2910d2c0d7c4e29751d1fa",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09686"
 }
