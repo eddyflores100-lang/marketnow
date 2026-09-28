@@ -40,7 +40,7 @@ concurrency:
 jobs:
   certify:
     runs-on: ubuntu-latest
-    timeout-minutes: 120  # 2 hours max — 8582 skills × ~200ms = ~30 min
+    timeout-minutes: 240  # 4h — measured 2026-09-27: 2000-skill batch ≈ 117 min (L2 fetches ~3.5s/skill), 120 was razor-thin
 
     steps:
       - name: Checkout repo
