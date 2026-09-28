@@ -49,7 +49,7 @@
     "model": "two-level: L1 index-certified (all entries) + L2 sentinel-scanned (shipped npm tarballs)",
     "l1_index_certified": 68388,
     "l1_checks": 10,
-    "l1_checks_passed": 9,
+    "l1_checks_passed": 10,
     "l2_targets": 2868,
     "l2_sentinel_scanned": 2839,
     "l2_completion_pct": 99.0,

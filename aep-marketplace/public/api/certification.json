@@ -1,7 +1,7 @@
 {
   "schema": "marketnow-certification/1.0",
-  "generated_at": "2026-09-25T02:40:00Z",
-  "supersedes_generated_at": "2026-09-12T00:00:00Z",
+  "generated_at": "2026-09-28T01:06:50Z",
+  "supersedes_generated_at": "2026-09-25T02:40:00Z",
   "level": 1,
   "level_name": "index-certified",
   "catalog_total": 68388,
@@ -53,31 +53,11 @@
       "id": "C4",
       "desc": "provenance URL well-formed (https + real host); resolvability spot-checked by audit-gate",
       "total": 68388,
-      "pass": 68384,
-      "fail": 4,
-      "fail_rate": 5.8e-05,
-      "examples": [
-        {
-          "id": "mn-sm2-03074",
-          "slug": "dynamicendpoints-psadt-mcp",
-          "why": "provenance URL is null (smithery import with unknown source) — see repairs_applied.smithery_provenance_urls_2026_09_25"
-        },
-        {
-          "id": "mn-sm2-04323",
-          "slug": "kj455-mcp-kibela",
-          "why": "provenance URL is null (smithery import with unknown source) — see repairs_applied.smithery_provenance_urls_2026_09_25"
-        },
-        {
-          "id": "mn-sm2-04842",
-          "slug": "devlimelabs-meilisearch-ts-mcp",
-          "why": "provenance URL is null (smithery import with unknown source) — see repairs_applied.smithery_provenance_urls_2026_09_25"
-        },
-        {
-          "id": "mn-sm2-05927",
-          "slug": "cdugo-mcp-get-docs",
-          "why": "provenance URL is null (smithery import with unknown source) — see repairs_applied.smithery_provenance_urls_2026_09_25"
-        }
-      ]
+      "pass": 68388,
+      "fail": 0,
+      "fail_rate": 0,
+      "examples": [],
+      "note": "Las 4 excepciones smithery null-URL fueron reparadas 2026-09-28 resolviendo su procedencia real (3 GitHub + 1 registry smithery). Historial completo en repairs_applied.c4_provenance_urls_2026_09_28."
     },
     {
       "id": "C5",
@@ -135,9 +115,9 @@
     }
   ],
   "index_certification": {
-    "coverage": "683876/683880",
-    "all_checks_pass": false,
-    "checks_passed": 9,
+    "coverage": "683880/683880",
+    "all_checks_pass": true,
+    "checks_passed": 10,
     "checks_total": 10,
     "scope": "L1 index certification only: 10 checks x 68388 entries (683880 checks). L2 Sentinel adds 82331 rule checks (29 x 2839) — see agent.json security_checks_breakdown."
   },
@@ -170,6 +150,16 @@
       "fixed": 40,
       "nulled_unknown": 3,
       "detail": "import Smithery con typos de esquema (ttps://, htts://, htttps://, Http://), espacios y rutas sin host; 3 entradas quedan con url=null + url_note (provenance desconocido — fail residual documentado de C4)"
+    },
+    "c4_provenance_urls_2026_09_28": {
+      "fixed": 4,
+      "detail": {
+        "mn-sm2-03074": "https://smithery.ai/servers/dynamicendpoints/psadt-mcp (hostado smithery, sin repo)",
+        "mn-sm2-04323": "https://github.com/kj455/mcp-kibela",
+        "mn-sm2-04842": "https://github.com/devlimelabs/meilisearch-ts-mcp",
+        "mn-sm2-05927": "https://github.com/cdugo/package-documentation-mcp"
+      },
+      "method": "resolución manual vía GitHub API + smithery registry, verificada 200/OK antes de escribir"
     }
   },
   "deep_scan": {
