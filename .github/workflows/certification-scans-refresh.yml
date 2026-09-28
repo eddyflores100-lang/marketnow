@@ -1,0 +1,134 @@
+# MarketNow — Certification Scans Refresh (L2 rolling, CI)
+# ========================================================
+# P2-a del plan de mitigación del audit externo (F-02/F-08):
+# certification-scans.json era un snapshot de DEV-MACHINE (10-sep) que nunca
+# se refrescaba. Este workflow lo convierte en un pipeline vivo:
+#
+#   - Diario 05:30 UTC (slot libre: después de release-manifest 04:30,
+#     antes de version-sync 08:30).
+#   - Cada corrida re-escanea un lote RODANTE (oldest-first, nunca-escaneado
+#     primero) del pool top-2868 npm + los 14 paquetes @marketnow SIEMPRE.
+#     Con batch=200/día el pool rota completo en ~15 días y el dato público
+#     nunca vuelve a congelarse.
+#   - El scanner se instala desde npm con sha256 PINEADO y se verifica
+#     ANTES de ejecutar nada (fail-closed): el binario que corre en CI es
+#     bit-exacto al auditado. Sin sha256 válido → el job muere.
+#   - Cada tarball se descarga del registry y se valida su shasum contra
+#     dist.shasum antes de extraer/escanear.
+#   - Commit de datos al master (SIN [skip ci]: el push dispara el deploy
+#     por paths aep-marketplace/** → mismo día en producción; el cron 0 */6
+#     queda de respaldo).
+#
+# Script: aep-marketplace/scripts/certification-scans-refresh.mjs
+# (port CI del deep_scan_npm.mjs de dev; mismo motor y schema de salida,
+#  stats recalculados de verdad + campos rotation.*)
+
+name: Certification Scans Refresh
+
+on:
+  schedule:
+    - cron: '30 5 * * *'  # Daily 05:30 UTC
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: 'Batch size (default 200)'
+        required: false
+        default: '200'
+        type: string
+      minutes:
+        description: 'Time budget in minutes (default 20)'
+        required: false
+        default: '20'
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: certification-scans-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Node 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install pinned sentinel-rules (sha256 fail-closed)
+        env:
+          # @marketnow/sentinel-rules@1.1.2 — sha256 del tarball auditado.
+          # Si npm sirviera bits distintos, el job MUERE aquí.
+          SENTINEL_SHA256: a792ad5ace33ba5dabbd2517888f1f36e6a6f40c9503863c01db9626e2e238b2
+        run: |
+          set -euo pipefail
+          cd /tmp
+          npm pack @marketnow/sentinel-rules@1.1.2 --silent
+          TB=$(ls marketnow-sentinel-rules-*.tgz)
+          echo "${SENTINEL_SHA256}  ${TB}" | sha256sum -c -
+          mkdir -p scanner
+          tar xzf "${TB}" -C scanner --strip-components=1
+          node scanner/bin/sentinel-scan.mjs --list | head -3
+          echo "SCANNER_OK /tmp/scanner/bin/sentinel-scan.mjs"
+
+      - name: Run rolling refresh
+        env:
+          BATCH: ${{ github.event.inputs.batch || '200' }}
+          MINUTES: ${{ github.event.inputs.minutes || '20' }}
+        run: |
+          cd aep-marketplace
+          node scripts/certification-scans-refresh.mjs \
+            --batch "${BATCH}" \
+            --minutes "${MINUTES}" \
+            --scanner-path /tmp/scanner/bin/sentinel-scan.mjs
+
+      - name: Validate JSON (fail-closed before commit)
+        run: |
+          node -e "
+            const d = require('./aep-marketplace/public/api/certification-scans.json');
+            if (!Array.isArray(d.scans) || d.scans.length === 0) throw new Error('scans vacío');
+            if (!d.stats || !Number.isFinite(d.stats.targets)) throw new Error('stats inválidas');
+            console.log('JSON OK — scans:', d.scans.length, '| stats:', JSON.stringify(d.stats).slice(0, 160));
+          "
+
+      - name: Commit refreshed data (with retry on race)
+        run: |
+          git config user.name "MarketNow Scans Bot"
+          git config user.email "scans@marketnow.site"
+
+          if git diff --quiet HEAD -- aep-marketplace/public/api/certification-scans.json; then
+            echo "No changes — nothing to commit."
+            exit 0
+          fi
+
+          REFRESHED=$(node -e "console.log(require('./aep-marketplace/public/api/certification-scans.json').stats.refreshed_this_run)")
+
+          git add aep-marketplace/public/api/certification-scans.json
+          git commit -m "data(l2): rolling certification-scans refresh — ${REFRESHED} rescanned
+
+          Daily rolling L2 tarball scan (top npm pool + @marketnow own pkgs).
+          Stats recomputed honestly; see stats.refreshed_this_run and rotation.*.
+          Push triggers production deploy via paths filter."
+
+          for i in 1 2 3 4 5; do
+            if git push 2>&1; then
+              echo "✓ Push succeeded on attempt $i"
+              exit 0
+            fi
+            echo "⚠ Push attempt $i failed — pulling rebase and retrying..."
+            sleep $((i * 2))
+            git pull --rebase origin master || {
+              echo "✗ git pull --rebase failed on attempt $i"
+              git rebase --abort 2>/dev/null || true
+              exit 1
+            }
+          done
+          echo "✗ Could not push after 5 attempts"
+          exit 1
