@@ -115,10 +115,10 @@ t('RES-03', 'resolution', 'tools/call sin name → error limpio, no crash', asyn
 });
 
 // ── Type confusion ──────────────────────────────────────────────────────────
-t('TYPE-01', 'type-confusion', 'toolName numérico → -32601 (sin excepción)', async () => {
+t('TYPE-01', 'type-confusion', 'toolName numérico → -32601 top-level (sin excepción)', async () => {
   const r = await rpc('tools/call', { name: 12345, arguments: {} });
-  return r.json?.result?.error?.code === -32601 && r.status === 200
-    ? ok('TYPE-01', 'número no resuelve tool, rechazo limpio') : fail('TYPE-01', `HTTP ${r.status} ${JSON.stringify(r.json).slice(0, 120)}`);
+  return r.json?.error?.code === -32601 && r.status === 200
+    ? ok('TYPE-01', 'número no resuelve tool, rechazo limpio top-level') : fail('TYPE-01', `HTTP ${r.status} ${JSON.stringify(r.json).slice(0, 120)}`);
 });
 t('TYPE-02', 'type-confusion', 'search_skills limit string/0/negativo/51 → default acotado', async () => {
   const bad = ['50', 0, -5, 51, 9999, null, {}];
