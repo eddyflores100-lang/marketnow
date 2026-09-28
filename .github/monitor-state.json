@@ -664,11 +664,16 @@
       "repo": "langchain-ai/langchain",
       "issue_num": 40158,
       "username": "SonitBahl"
+    },
+    "5870078182": {
+      "repo": "langchain-ai/langchain",
+      "issue_num": 40158,
+      "username": "SonitBahl"
     }
   },
-  "npm_last_downloads": 721,
+  "npm_last_downloads": 466,
   "github_last_stars": 0,
   "last_report": null,
   "initialized_at": "2026-07-10T01:27:15.724696+00:00",
-  "last_check": "2026-09-27T13:54:59.200675+00:00"
+  "last_check": "2026-09-28T15:23:00.513912+00:00"
 }
