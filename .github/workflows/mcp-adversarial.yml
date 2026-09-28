@@ -1,0 +1,64 @@
+# MarketNow — MCP Adversarial Suite (M-05, auditoría externa 2026-09-28)
+# ============================================================================
+# Pruebas adversarias CONTINUAS del endpoint MCP en producción (/api/mcp):
+#   · envelope JSON-RPC estricto (2.0, batch, notificaciones)
+#   · resolución de método/tool, type confusion, unknown fields
+#   · malformed/oversized, replay, error leakage
+#   · mutación no autenticada (submit_skill: claims falsos, secretos, dry_run)
+#   · rate/concurrencia, tool-poisoning (fingerprint drift)
+#
+# La auditoría funcional (initialize → tools/list → tools/call) demuestra que
+# FUNCIONA; esta suite demuestra que resiste. Exit 1 = regresión → el run
+# queda rojo y salta a la vista.
+#
+# Cadencia: semanal (lunes 04:10 UTC, tras el L3 re-audit) + manual.
+# Es NO-DESTRUCTIVA: dry_run en mutaciones, claims falsos rechazados en
+# validación, ráfagas cortas (12 calls), lecturas acotadas (≤ 50).
+
+name: MCP Adversarial Suite
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 4 * * 1'
+
+permissions:
+  contents: read
+
+jobs:
+  adversarial:
+    name: 31-point adversarial gate (production)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Run adversarial suite against production
+        run: node aep-marketplace/scripts/mcp-adversarial-suite.mjs
+
+      - name: Run against repo-mode MCP handler (same build)
+        # Doble verificación: el handler local (mismo código que despliega
+        # Vercel) debe comportarse idéntico al de producción.
+        run: |
+          node -e "
+            import('./aep-marketplace/api/mcp.js').then(async (mod) => {
+              const mk = () => ({ body: null, status(c) { this.statusCode = c; return this; }, json(b) { this.body = b; return this; }, end() { return this; }, setHeader() {} });
+              // envelope inválido → -32600 top-level
+              let r = mk();
+              await mod.default({ method: 'POST', body: { jsonrpc: '1.0', method: 'ping', id: 1 } }, r);
+              if (r.body?.error?.code !== -32600) { console.error('envelope:', JSON.stringify(r.body)); process.exit(1); }
+              // método desconocido → -32601 top-level (fix M-05)
+              r = mk();
+              await mod.default({ method: 'POST', body: { jsonrpc: '2.0', method: 'foo/bar', id: 2 } }, r);
+              if (r.body?.error?.code !== -32601 || r.body?.result !== undefined) { console.error('unknown method:', JSON.stringify(r.body)); process.exit(1); }
+              // tool válido sigue en result (sin regresión)
+              r = mk();
+              await mod.default({ method: 'POST', body: { jsonrpc: '2.0', method: 'ping', id: 4 } }, r);
+              if (r.body?.result === undefined) { console.error('ping:', JSON.stringify(r.body)); process.exit(1); }
+              console.log('✓ handler local: envelope -32600 top-level · unknown method -32601 top-level · ping result OK');
+            }).catch(e => { console.error('import falló:', e.message); process.exit(1); });
+          "

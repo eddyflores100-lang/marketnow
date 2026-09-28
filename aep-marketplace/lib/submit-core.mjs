@@ -187,6 +187,21 @@ const SECRET_PATTERNS = [
   [/AIza[0-9A-Za-z\-_]{35}/, 'critical', 'Google API key'],
   [/-----BEGIN (RSA |EC |OPENSSH )?PRIVATE KEY-----/, 'critical', 'private key'],
   [/Bearer [A-Za-z0-9._\-]{30,}/, 'high', 'bearer token'],
+  // M-05/M-03 (auditoría externa 2026-09-28): PoC del suite adversarial demostró
+  // que un sk_live_ (Stripe) embebido pasaba el scanner y la submission era
+  // aceptada — contradiciendo el contrato público "the scanner rejects them".
+  // Formatos de alta confianza añadidos (critical = blocker):
+  [/sk_live_[A-Za-z0-9]{16,}/, 'critical', 'Stripe live secret key'],
+  [/sk_test_[A-Za-z0-9]{16,}/, 'critical', 'Stripe test secret key'],
+  [/rk_live_[A-Za-z0-9]{16,}/, 'critical', 'Stripe restricted key'],
+  [/pk_test_[A-Za-z0-9]{16,}/, 'medium', 'Stripe publishable test key (not secret, but embedded in code)'],
+  [/npm_[A-Za-z0-9]{30,}/, 'critical', 'npm granular access token'],
+  [/pypi-AgEIcHlwaS5vcmc[A-Za-z0-9_-]{20,}/, 'critical', 'PyPI upload token'],
+  [/glpat-[A-Za-z0-9_-]{20,}/, 'critical', 'GitLab personal access token'],
+  [/eyJ[A-Za-z0-9_-]{15,}\.[A-Za-z0-9_-]{10,}\.[A-Za-z0-9_-]{10,}/, 'high', 'embedded JWT — move tokens out of the skill'],
+  // Genérico (medium = warning, no bloquea): asignación con nombre de credencial
+  // y valor largo. Evita falsos positivos bloqueantes con placeholders evidentes.
+  [/\b(?:api[_-]?key|apikey|secret|passwd|password|auth[_-]?token|access[_-]?token)\b\s*[:=]\s*["'][A-Za-z0-9+\/_.-]{24,}["']/i, 'medium', 'credential-looking assignment — verify it is a placeholder, not a real secret'],
 ];
 
 const DANGEROUS_API = [

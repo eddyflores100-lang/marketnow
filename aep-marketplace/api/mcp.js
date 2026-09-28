@@ -475,7 +475,15 @@ export default async function handler(req, res) {
         for (const r of body) {
           const result = await handleRequest(r.method, r.params, r.id);
           if (result !== null) {
-            results.push({ jsonrpc: "2.0", result, id: r.id });
+            // M-05 (auditoría externa): errores de PROTOCOLO van a nivel top-level
+            // (JSON-RPC 2.0 §5.1), no anidados dentro de result. Solo se
+            // normalizan los envelopes {error:{code,message}} sin content —
+            // los errores de dominio (isError/content) son semántica tools/call.
+            if (result && result.error && typeof result.error.code === 'number' && !result.content) {
+              results.push({ jsonrpc: "2.0", error: result.error, id: r.id });
+            } else {
+              results.push({ jsonrpc: "2.0", result, id: r.id });
+            }
           }
         }
         return res.status(200).json(results);
@@ -491,10 +499,19 @@ export default async function handler(req, res) {
 
       // Single request
       const result = await handleRequest(body.method, body.params, body.id);
-      
+
       // Notification (no id) — no response
       if (body.id === undefined || body.id === null) {
         return res.status(202).end();
+      }
+
+      // M-05: normalización de errores de protocolo a top-level (spec JSON-RPC)
+      if (result && result.error && typeof result.error.code === 'number' && !result.content) {
+        return res.status(200).json({
+          jsonrpc: "2.0",
+          error: result.error,
+          id: body.id
+        });
       }
 
       return res.status(200).json({
