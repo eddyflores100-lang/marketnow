@@ -1,0 +1,50 @@
+# MarketNow — Submission Index Repair (M-09)
+# ===========================================
+# Manual recovery for the public submission queue index. Records are durable
+# (one JSON per submission, atomic PUT); the index is derived and can be
+# rebuilt from the tree at any time:
+#   node aep-marketplace/scripts/regen-submission-index.mjs
+#
+# Run this when /api/submissions shows fewer entries than the submissions
+# repo actually contains (lost index race, corrupted index, etc).
+
+name: Submission Index Repair (M-09)
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (list what would be written, no commit)'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: read
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Rebuild submission index from the durable tree
+        env:
+          MN_SUBMIT_TOKEN: ${{ secrets.MN_SUBMIT_TOKEN }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          if [ -z "$MN_SUBMIT_TOKEN" ]; then
+            echo "::notice::MN_SUBMIT_TOKEN is not configured — running in read-only mode (records are public, the index write will be skipped)."
+            ARGS="$ARGS --dry-run"
+          fi
+          node aep-marketplace/scripts/regen-submission-index.mjs $ARGS

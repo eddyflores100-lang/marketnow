@@ -175,6 +175,9 @@ async function handleCertificate(req, res) {
         console.error('CRITICAL: SENTINEL_CERT_SECRET env var is not set. Certificate verification cannot be performed.');
         return res.status(200).json({
           status: 'certified',
+          // M-03: explicit flat flag — clients can gate on signature_valid
+          // instead of trusting status alone when the server cannot verify.
+          signature_valid: false,
           certificate: cert,
           verification: {
             valid: false,
@@ -190,6 +193,25 @@ async function handleCertificate(req, res) {
         console.error('Certificate verification error:', e.message);
       }
 
+      // M-02/M-06: artifact drift — compare the certified artifact identity
+      // (version bound inside the signature) against the LIVE catalog row.
+      // Certificates without an artifact block (pre-M-02 legacy, or L1-only
+      // without a resolved registry row) report artifact: null and no drift.
+      let artifactDrift = null;
+      let liveRow = null;
+      if (cert.artifact && cert.artifact.version) {
+        try {
+          liveRow = await findSkill(skillId);
+        } catch {}
+        if (liveRow && liveRow.version) {
+          artifactDrift = {
+            certified_version: cert.artifact.version,
+            current_version: liveRow.version,
+            matches: String(cert.artifact.version) === String(liveRow.version),
+          };
+        }
+      }
+
       return res.status(200).json({
         status: 'certified',
         // Flat fields for agent compatibility (agents expect top-level fields)
@@ -200,7 +222,10 @@ async function handleCertificate(req, res) {
         risk_level: cert.risk_level || cert.risk || null,
         signature: cert.signature || null,
         signature_algorithm: cert.signature_algorithm || 'SHA-256',
+        signature_valid: signatureValid,
         layers_run: cert.layers_run || {},
+        artifact: cert.artifact || null,
+        artifact_drift: artifactDrift,
         expires_at: cert.expires_at || null,
         verification_url: `https://marketnow.site/verify?skillId=${skillId}`,
         // Nested structure (for human-readable verification)

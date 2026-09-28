@@ -97,7 +97,9 @@ export default function Hero({ onSignIn }) {
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#00F299]/5 border border-[#00F299]/20">
               <span className="w-2 h-2 rounded-full bg-[#00F299] animate-pulse" />
               <span className="text-[#00F299] text-xs font-mono tracking-wider">
-                INDEX-CERTIFIED SKILLS · L2 DEEP-SCANNED · LIST YOUR FIRST 3 FREE
+                {/* M-08: claim honesto — L2 deep-scan es un subconjunto, no
+                    todo el índice. El hero ya distinguía L1 abajo. */}
+                INDEX-CERTIFIED SKILLS (L1) · TOP PACKAGES L2 DEEP-SCANNED · LIST YOUR FIRST 3 FREE
               </span>
             </div>
           </motion.div>

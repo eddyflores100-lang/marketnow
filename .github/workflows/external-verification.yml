@@ -1,0 +1,45 @@
+# MarketNow — External Independent Verification (M-10)
+# =====================================================
+# Verifies the PUBLIC security/trust claims of marketnow.site using ONLY
+# publicly available surfaces (no tokens, no special access). Anyone can run
+# the same script locally:
+#   node aep-marketplace/scripts/external-verification.mjs
+#
+# This makes the claims independently re-verifiable by third parties and
+# turns claim drift into a CI failure.
+#
+# Schedule: weekly (Sunday 05:30 UTC, after all weekly batches) + dispatch.
+
+name: External Verification (M-10)
+
+on:
+  schedule:
+    - cron: '30 5 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run external verification against production
+        run: node aep-marketplace/scripts/external-verification.mjs
+
+      - name: Upload verification report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: external-verification-report
+          path: external-verification-report.json
+          retention-days: 90

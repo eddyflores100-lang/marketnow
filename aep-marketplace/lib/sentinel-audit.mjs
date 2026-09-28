@@ -513,11 +513,26 @@ export async function generateCertificate(report, secret, extras = {}) {
       l2_score: report.audit.layers.l2.score,
       l2_execution_status: report.audit.layers.l2.execution_status,
     },
+    // M-02/M-06: artifact identity INSIDE the signed payload. A certificate
+    // must state WHICH artifact it certifies. When the signer knows the
+    // registry digest (L2 scan row), `bound: true` + shasum/integrity are
+    // included and covered by the signature. When not resolvable, the
+    // certificate says so explicitly instead of implying coverage.
+    artifact: {
+      bound: false,
+      version: report.skill.version || null,
+      reason: 'artifact hash not resolved at signing time (no L2 scan row for this skill)',
+    },
+    // cert_v 2 = signed with the RECURSIVE canonical form (see canonicalJsonV2).
+    // v1 signatures (pre-2026-10-12) only covered top-level scalars — nested
+    // objects (artifact identity, layer details) were serialized as {} by
+    // JSON.stringify's array-filter semantics and were NOT covered.
+    cert_v: 2,
     ...extras,
   };
 
-  // Sign: SHA-256 of canonical JSON + secret
-  const canonical = JSON.stringify(payload, Object.keys(payload).sort());
+  // Sign: SHA-256 of canonical JSON (recursive key sort) + secret
+  const canonical = canonicalJsonV2(payload);
   const signature = createHash('sha256')
     .update(canonical + '|' + secret)
     .digest('hex');
@@ -531,18 +546,51 @@ export async function generateCertificate(report, secret, extras = {}) {
 }
 
 /**
+ * Canonical JSON v2 — deterministic, RECURSIVELY key-sorted serialization.
+ *
+ * Why v2 exists: the v1 canonical form was
+ *   JSON.stringify(payload, Object.keys(payload).sort())
+ * The second argument is an inclusion FILTER, not a key-sorter — and it
+ * applies at every nesting level. Since the filter only listed top-level
+ * keys, every NESTED object (artifact identity, layer_details, layers_run,
+ * risk_breakdown) serialized as {} — the v1 signature covered ONLY the
+ * top-level scalars. Tampering any nested value (e.g. swapping the certified
+ * artifact shasum) did NOT break the signature. Found by the M-02/M-06
+ * artifact-binding round-trip test, 2026-09-28.
+ */
+export function canonicalJsonV2(value) {
+  if (value === null || typeof value !== 'object') return JSON.stringify(value);
+  if (Array.isArray(value)) return '[' + value.map(canonicalJsonV2).join(',') + ']';
+  const keys = Object.keys(value).sort();
+  return '{' + keys.map(k => JSON.stringify(k) + ':' + canonicalJsonV2(value[k])).join(',') + '}';
+}
+
+// Legacy (v1) certificates are accepted only if genuinely issued before this
+// cutoff. v1 certs expire 7 days after issue, so this branch is unreachable
+// (and can be deleted) after ~2026-10-19. It exists so the weekly batch's
+// rollout of cert_v: 2 does not invalidate every still-valid certificate on
+// the day the fix ships.
+const LEGACY_V1_CUTOFF = '2026-10-12T00:00:00.000Z';
+
+/**
  * Verify a Sentinel certificate's signature.
  *
- * The signature covers exactly the payload keys that existed at signing
- * time. `signature_algorithm` and `verification_url` are appended to the
- * certificate AFTER the hash is computed, so they (and `signature` itself)
- * must be stripped before canonicalization — otherwise the recomputed hash
- * covers a different string and every certificate would fail.
+ * cert_v 2: strict — the signature must match the recursive canonical form,
+ * so EVERY field (including nested artifact identity and layer details) is
+ * covered. Any modification anywhere breaks the signature.
  *
- * Legacy certs written by the deep-audit script before unification carry a
- * nested `signature: { algorithm, value }` object and hashed a raw
- * auditResult that was never persisted — those are unverifiable by design
- * and return false.
+ * Legacy v1 (no cert_v): the old weak canonical form, accepted ONLY for
+ * certificates genuinely issued before LEGACY_V1_CUTOFF (issued_at is itself
+ * a signed top-level scalar, so it cannot be forged to enter this branch).
+ * Post-cutoff certificates without cert_v are rejected outright — new certs
+ * are always v2, so a stripped version marker cannot downgrade a fresh cert
+ * into the weak path (the issued_at would have to be old, which means the
+ * cert has already expired).
+ *
+ * `signature_algorithm` and `verification_url` are appended AFTER the hash is
+ * computed and are stripped before canonicalization. Legacy certs from the
+ * pre-unification deep-audit script (nested signature object) remain
+ * unverifiable by design and return false.
  *
  * @param {Object} cert — the certificate object (must include signature)
  * @param {string} secret — same secret used to sign
@@ -552,9 +600,23 @@ export async function verifyCertificate(cert, secret) {
   const { createHash } = await import('crypto');
   if (!cert || !secret || typeof cert.signature !== 'string') return false;
   const { signature, signature_algorithm, verification_url, ...payload } = cert;
-  const canonical = JSON.stringify(payload, Object.keys(payload).sort());
-  const expected = createHash('sha256')
-    .update(canonical + '|' + secret)
-    .digest('hex');
-  return signature === expected;
+
+  if (payload.cert_v === 2) {
+    const expected = createHash('sha256')
+      .update(canonicalJsonV2(payload) + '|' + secret)
+      .digest('hex');
+    return signature === expected;
+  }
+
+  // Legacy v1 path — pre-cutoff issuance only (see LEGACY_V1_CUTOFF).
+  if (typeof payload.issued_at === 'string' && payload.issued_at < LEGACY_V1_CUTOFF) {
+    const legacyCanonical = JSON.stringify(payload, Object.keys(payload).sort());
+    const expected = createHash('sha256')
+      .update(legacyCanonical + '|' + secret)
+      .digest('hex');
+    return signature === expected;
+  }
+
+  // Post-cutoff certificate without cert_v: 2 — not one we issued. Fail closed.
+  return false;
 }

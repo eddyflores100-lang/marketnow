@@ -107,6 +107,17 @@ Example HTML:
 Combined requests are cached separately from the individual files, so the
 first request is slower than the second.
 
+**Integrity (M-7 hygiene):** if you embed MarketNow scripts from the CDN, pin
+an exact version and add SRI (`integrity` + `crossorigin`) so a compromised
+CDN cannot run modified code on your page:
+
+```html
+<!-- hash for YOUR pinned version — compute with:
+     curl -s <cdn-url> | openssl dgst -sha384 -binary | openssl base64 -A -->
+<script src="https://cdn.jsdelivr.net/npm/marketnow-mcp@1.15.0/index.js"
+        integrity="sha384-<hash>" crossorigin="anonymous"></script>
+```
+
 ---
 
 ## 4. Use as a fallback for ANY static asset

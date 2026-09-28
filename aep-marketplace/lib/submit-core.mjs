@@ -574,25 +574,41 @@ export async function processSubmission(payload, { dryRun = false, remoteIp = 'u
           : { ok: false, reason: `github ${String((r1.json.message) || 'put failed').slice(0, 120)}` };
         // 2. actualizar el índice (read-modify-write; el listing lee el índice, no el árbol)
         if (r1.ok) {
-          try {
-            // leer el índice vía Contents API (fresco, con sha — evita perder entries si el CDN raw está stale)
-            let index = { updated_at: null, entries: [] };
-            let sha = null;
-            const idxApi = await fetch(`${GH_API}/repos/${SUBMIT_REPO}/contents/submissions/index.json`,
-              { headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json', 'User-Agent': 'marketnow-submit' }, signal: AbortSignal.timeout(10000) });
-            if (idxApi.ok) {
-              const idxJ = await idxApi.json();
-              sha = idxJ.sha;
-              try { index = JSON.parse(Buffer.from(idxJ.content, 'base64').toString('utf-8')); } catch { index = { entries: [] }; }
-            }
-            index.entries = (index.entries || []).slice(-499);
-            index.entries.push({ id, name: skill.name, version: skill.version, verdict: record.verdict,
-              status: record.status, trust: accepted ? trust : null, submitted_at: record.submitted_at,
-              from: record.submitted_from, eligible: record.merge.eligible, path });
-            index.updated_at = new Date().toISOString();
-            await put('submissions/index.json', `index: +${skill.name} (${id})`,
-                      JSON.stringify(index, null, 1), sha);
-          } catch { /* el registro individual ya está guardado; el índice se regenera */ }
+          // M-09 crash/recovery: a read-modify-write race loses entries when
+          // two concurrent submissions PUT with the same stale sha (GitHub
+          // answers 409 Conflict and the previous code swallowed it silently).
+          // Now we retry with a FRESH index read on conflict and re-merge
+          // idempotently (by id). The individual record PUT in step 1 is
+          // atomic and durable, so the index is recoverable BY CONSTRUCTION:
+          // scripts/regen-submission-index.mjs rebuilds it from the repo tree.
+          for (let attempt = 1; attempt <= 2; attempt++) {
+            try {
+              // leer el índice vía Contents API (fresco, con sha — evita perder entries si el CDN raw está stale)
+              let index = { updated_at: null, entries: [] };
+              let sha = null;
+              const idxApi = await fetch(`${GH_API}/repos/${SUBMIT_REPO}/contents/submissions/index.json`,
+                { headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json', 'User-Agent': 'marketnow-submit' }, signal: AbortSignal.timeout(10000) });
+              if (idxApi.ok) {
+                const idxJ = await idxApi.json();
+                sha = idxJ.sha;
+                try { index = JSON.parse(Buffer.from(idxJ.content, 'base64').toString('utf-8')); } catch { index = { entries: [] }; }
+              }
+              index.entries = (index.entries || []).slice(-499);
+              // idempotent merge: on a retry after a lost race the entry may
+              // already be present — re-adding would duplicate it in the queue
+              if (!index.entries.some(e => e.id === id)) {
+                index.entries.push({ id, name: skill.name, version: skill.version, verdict: record.verdict,
+                  status: record.status, trust: accepted ? trust : null, submitted_at: record.submitted_at,
+                  from: record.submitted_from, eligible: record.merge.eligible, path });
+              }
+              index.updated_at = new Date().toISOString();
+              const idxPut = await put('submissions/index.json', `index: +${skill.name} (${id})`,
+                        JSON.stringify(index, null, 1), sha);
+              if (idxPut.ok) break;
+              console.warn(`[submit-index] attempt ${attempt} failed: ${String((idxPut.json && idxPut.json.message) || 'put failed').slice(0, 100)}` +
+                (attempt < 2 ? ' — retrying with a fresh index read' : ' — record is durable; index recoverable via regen-submission-index.mjs'));
+            } catch { /* el registro individual ya está guardado; el índice se regenera */ }
+          }
         }
         if (!storage.ok) record.status = 'accepted (scan passed) — STORAGE FAILED';
       } catch (e) {

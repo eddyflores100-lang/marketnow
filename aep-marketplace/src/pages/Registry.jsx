@@ -42,6 +42,8 @@ const CONTENT = {
     loadingRegistry: 'Loading registry...',
     showingOf: 'Showing {shown} of {total} skills',
     verified: '✓ VERIFIED',
+    // M-08 honest badges: L1-only cards (auto-scanned) no longer claim VERIFIED
+    indexed: 'L1 INDEXED',
     noSkillsFound: 'No skills found',
   },
   es: {
@@ -78,6 +80,7 @@ const CONTENT = {
     loadingRegistry: 'Cargando registro...',
     showingOf: 'Mostrando {shown} de {total} skills',
     verified: '✓ VERIFICADA',
+    indexed: 'L1 INDEXADO',
     noSkillsFound: 'No se encontraron skills',
   },
   pt: {
@@ -114,6 +117,7 @@ const CONTENT = {
     loadingRegistry: 'Carregando registro...',
     showingOf: 'Mostrando {shown} de {total} skills',
     verified: '✓ VERIFICADA',
+    indexed: 'L1 INDEXADO',
     noSkillsFound: 'Nenhuma skill encontrada',
   },
   zh: {
@@ -150,6 +154,7 @@ const CONTENT = {
     loadingRegistry: '正在加载注册表...',
     showingOf: '显示 {shown} / {total} 个 skill',
     verified: '✓ 已验证',
+    indexed: 'L1 已索引',
     noSkillsFound: '未找到 skill',
   },
   fr: {
@@ -186,6 +191,7 @@ const CONTENT = {
     loadingRegistry: 'Chargement du registre...',
     showingOf: 'Affichage de {shown} sur {total} skills',
     verified: '✓ VÉRIFIÉE',
+    indexed: 'L1 INDEXÉ',
     noSkillsFound: 'Aucune skill trouvée',
   },
 };
@@ -581,9 +587,17 @@ export default function Registry() {
                         <span className="text-[#00F299] font-mono text-sm font-bold">
                           ${skill.price.toFixed(2)}
                         </span>
-                        <span className="px-2 py-0.5 rounded bg-[#00F299]/10 text-[#00F299] text-[10px] font-mono border border-[#00F299]/20">
-                          {c.verified}
-                        </span>
+                        {/* M-08: badge honesto — solo skills con revisión L2/humana
+                            pueden decir "VERIFIED"; el resto declara su nivel real (L1). */}
+                        {(skill.review_status === 'l2-reviewed' || skill.review_status === 'human-reviewed') ? (
+                          <span className="px-2 py-0.5 rounded bg-[#00F299]/10 text-[#00F299] text-[10px] font-mono border border-[#00F299]/20">
+                            {c.verified}
+                          </span>
+                        ) : (
+                          <span className="px-2 py-0.5 rounded bg-white/5 text-zinc-400 text-[10px] font-mono border border-white/10" title="Auto-scanned by Sentinel L1 (index-level) — not deep-scanned">
+                            {c.indexed}
+                          </span>
+                        )}
                       </div>
                     </div>
                   </Link>

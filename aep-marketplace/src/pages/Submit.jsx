@@ -1161,7 +1161,7 @@ If all checks pass, merge this skill into \`public/api/skills_index.json\` via P
                 <h3 className="text-white text-sm font-semibold">Sentinel Certification Preview</h3>
               </div>
               <p className="text-zinc-500 text-xs mb-4">
-                Once your skill is listed, it will receive a signed Sentinel certificate with a verified score. Here's what buyers will see:
+                Once your skill is listed, it enters the Sentinel audit pipeline. Here's the pre-check running right now (client-side, 6 checks — the real audit runs server-side):
               </p>
               <div className="bg-black/30 rounded-lg p-4 flex items-center justify-between gap-4">
                 <div className="flex items-center gap-3">
@@ -1170,11 +1170,13 @@ If all checks pass, merge this skill into \`public/api/skills_index.json\` via P
                       ? 'bg-[#00F299]/10 text-[#00F299] border-[#00F299]/20'
                       : 'bg-orange-500/10 text-orange-400 border-orange-500/20'
                   }`}>
-                    🛡️ CERTIFIED {scanResult?.score || '?'}/10
+                    {/* M-08: prescan client-side de 6 checks — NO es el score
+                        Sentinel real ni una certificación. Etiqueta honesta. */}
+                    🛡️ PRESCAN {scanResult?.score || '?'}/{scanResult?.maxScore || 6}
                   </div>
                   <div className="text-zinc-500 text-xs">
-                    <div>Badge in your skill page + README</div>
-                    <div className="text-zinc-600 text-[10px]">Color-coded by risk level</div>
+                    <div>Client-side pre-check before submission — NOT a certification</div>
+                    <div className="text-zinc-600 text-[10px]">Full Sentinel audit runs server-side after submit</div>
                   </div>
                 </div>
                 <Link to="/verify" className="text-[#00d1ff] text-xs hover:underline whitespace-nowrap">
@@ -1205,10 +1207,10 @@ If all checks pass, merge this skill into \`public/api/skills_index.json\` via P
             <div className="bg-[#00F299]/5 border border-[#00F299]/10 rounded-lg p-4 mb-6 max-w-md mx-auto">
               <div className="flex items-center justify-center gap-2 mb-2">
                 <span className="text-lg">🛡️</span>
-                <span className="text-[#00F299] text-sm font-semibold">Sentinel Certified</span>
+                <span className="text-[#00F299] text-sm font-semibold">Sentinel Certification (pending)</span>
               </div>
               <p className="text-zinc-400 text-xs mb-3">
-                Once listed, your skill will receive a signed certificate with a verified score. Buyers can verify it anytime at:
+                Once listed, your skill will be audited by the Sentinel pipeline and — if it passes — will receive a signed certificate with a verified score. Buyers can verify it anytime at:
               </p>
               <Link to="/verify" className="text-[#00d1ff] text-xs hover:underline font-mono">
                 marketnow.site/verify

@@ -21,7 +21,7 @@ const CONTENT = {
         colorClass: 'text-[#00F299]',
         title: '68,388 skills — Index-certified MCP servers',
         bodyPre:
-          'Sourced from public GitHub repositories tagged with "mcp-server" or "model-context-protocol". Each was scanned by Sentinel v3.0, given a category based on its README, and certified by Sentinel with a signed SHA-256 certificate.',
+          'Sourced from public GitHub repositories tagged with "mcp-server" or "model-context-protocol". Each was scanned by Sentinel v3.0 (index-level L1 scan), given a category based on its README, and carries an index certification. Top packages additionally carry L2 deep-scan results with a pinned artifact shasum.',
         bodyStrong: 'These are real, working MCP servers you can verify on GitHub.',
         bodyPost: '',
       },

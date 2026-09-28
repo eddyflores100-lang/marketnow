@@ -51,6 +51,45 @@ const REPO_ROOT = path.join(__dirname, '..');
 const SKILLS_PATH = path.join(REPO_ROOT, 'aep-marketplace', 'public', 'api', 'skills-lite.json'); // post-split 2026-09-26: skills_index.json removed; lite catalog is the live source
 const CERTS_DIR = path.join(REPO_ROOT, '_data', 'sentinel_certificates');
 const QUARANTINE_DIR = path.join(REPO_ROOT, '_data', 'quarantine');
+const SCANS_PATH = path.join(REPO_ROOT, 'aep-marketplace', 'public', 'api', 'certification-scans.json');
+
+// M-02/M-06: artifact binding index — every L2 scan row in
+// certification-scans.json carries the npm dist.shasum + integrity of the
+// EXACT tarball that was deep-scanned. Certificates generated for those
+// skills bind that digest inside the signed payload, so a certificate can
+// no longer be silently re-attached to a different artifact version.
+const scanIndex = new Map();
+try {
+  const scansDoc = JSON.parse(fs.readFileSync(SCANS_PATH, 'utf8'));
+  const rows = Array.isArray(scansDoc) ? scansDoc : (scansDoc.scans || []);
+  for (const row of rows) {
+    if (row && row.name && row.shasum) scanIndex.set(row.name, row);
+  }
+  console.log(`Artifact binding: ${scanIndex.size} L2 scan row(s) with registry shasum loaded.`);
+} catch (e) {
+  console.log(`Artifact binding: certification-scans.json unavailable (${e.message}) — certificates will carry an explicit unbound-artifact block.`);
+}
+
+/**
+ * Build the signed-payload extras for a skill: artifact identity when the
+ * L2 scan row is known (bound: true), otherwise nothing (generateCertificate
+ * falls back to the explicit unbound block).
+ */
+function artifactExtrasFor(skill) {
+  const row = scanIndex.get(skill.name) || scanIndex.get(skill.slug);
+  if (!row) return {};
+  return {
+    artifact: {
+      bound: true,
+      source: 'npm',
+      version: row.version ?? skill.version ?? null,
+      shasum: row.shasum,
+      integrity: row.integrity ?? null,
+      tarball_bytes: row.tarball_bytes ?? null,
+      resolved_at: row.scanned_at ?? null,
+    },
+  };
+}
 
 // SECURITY: NO fallback secret. The old default 'marketnow-sentinel-default-secret-2026'
 // is now public in git history and must never be used. If SENTINEL_CERT_SECRET
@@ -152,8 +191,9 @@ async function processBatch(batch, batchNum) {
       // Run the full audit (L1.5 + L1.6 + L1.7 + L2)
       const report = await auditSkill(skill, { skipL2: false });
 
-      // Generate certificate
-      const cert = await generateCertificate(report, CERT_SECRET);
+      // Generate certificate (M-02/M-06: with artifact binding when the L2
+      // scan row for this skill carries the registry shasum)
+      const cert = await generateCertificate(report, CERT_SECRET, artifactExtrasFor(skill));
       stats.audited++;
 
       // L1.7 QUARANTINE: if the report recommends quarantine, move the
@@ -262,6 +302,7 @@ async function processBatch(batch, batchNum) {
     const summaryByRisk = { low: 0, medium: 0, high: 0, critical: 0, unknown: 0 };
     const summaryByScore = {};
     let summaryWithL2 = 0;
+    let summaryBound = 0;
 
     for (const f of allFiles) {
       try {
@@ -269,6 +310,7 @@ async function processBatch(batch, batchNum) {
         if (cert.risk_level) summaryByRisk[cert.risk_level] = (summaryByRisk[cert.risk_level] || 0) + 1;
         if (cert.overall_score !== undefined) summaryByScore[cert.overall_score] = (summaryByScore[cert.overall_score] || 0) + 1;
         if (cert.layers_run?.l2 === true) summaryWithL2++;
+        if (cert.artifact?.bound === true) summaryBound++;
       } catch (e) {}
     }
 
@@ -279,13 +321,14 @@ async function processBatch(batch, batchNum) {
       by_risk: summaryByRisk,
       by_score: summaryByScore,
       with_l2: summaryWithL2,
+      artifact_bound: summaryBound,
       l2_coverage_pct: allFiles.length > 0 ? (summaryWithL2 / allFiles.length * 100).toFixed(2) + '%' : '0%',
     };
     fs.writeFileSync(
       path.join(CERTS_DIR, '_summary.json'),
       JSON.stringify(summary, null, 2)
     );
-    console.log(`✅ Summary regenerated: ${allFiles.length} certified, ${summaryWithL2} with L2 (${summary.l2_coverage_pct})`);
+    console.log(`✅ Summary regenerated: ${allFiles.length} certified, ${summaryWithL2} with L2 (${summary.l2_coverage_pct}), ${summaryBound} with bound artifact shasum`);
 
     console.log(`\n✅ ${stats.audited} certificates written to _data/sentinel_certificates/`);
     console.log(`   Summary: _data/sentinel_certificates/_summary.json`);

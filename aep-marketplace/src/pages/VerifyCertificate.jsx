@@ -98,6 +98,14 @@ export default function VerifyCertificate() {
 
   const riskInfo = result?.certificate ? RISK_COLORS[result.certificate.risk_level] || RISK_COLORS.unknown : null;
   const isExpired = result?.certificate ? new Date(result.certificate.expires_at) < new Date() : false;
+  // M-08/M-03: "VALID" ya exige firma verificada server-side — antes solo
+  // miraba expiración y mostraba verde incluso con verification.valid=false.
+  const signatureValid = result?.verification?.valid === true;
+  const certState = !signatureValid
+    ? { icon: '⛔', label: 'SIGNATURE INVALID', color: 'text-red-400' }
+    : isExpired
+    ? { icon: '⚠️', label: 'CERTIFICATE EXPIRED', color: 'text-red-400' }
+    : { icon: '🛡️', label: 'CERTIFICATE VALID', color: 'text-[#00F299]' };
 
   return (
     <div className="min-h-screen pt-20 pb-12 px-4">
@@ -155,10 +163,10 @@ export default function VerifyCertificate() {
               {/* Status bar */}
               <div className={`flex items-center justify-between mb-6 pb-4 border-b border-white/10`}>
                 <div className="flex items-center gap-3">
-                  <span className="text-3xl">{isExpired ? '⚠️' : '🛡️'}</span>
+                  <span className="text-3xl">{certState.icon}</span>
                   <div>
-                    <div className={`text-lg font-bold ${isExpired ? 'text-red-400' : 'text-[#00F299]'}`}>
-                      {isExpired ? 'CERTIFICATE EXPIRED' : 'CERTIFICATE VALID'}
+                    <div className={`text-lg font-bold ${certState.color}`}>
+                      {certState.label}
                     </div>
                     <div className="text-zinc-500 text-xs font-mono">{result.certificate.certificate_id}</div>
                   </div>
@@ -192,6 +200,44 @@ export default function VerifyCertificate() {
                   <div className={`text-sm font-mono ${isExpired ? 'text-red-400' : 'text-zinc-300'}`}>{new Date(result.certificate.expires_at).toLocaleString()}</div>
                 </div>
               </div>
+
+              {/* M-02/M-06: identidad del artefacto certificado (binding hash) +
+                  drift vs el catálogo vivo. Un certificado sin artifact.bound
+                  ahora lo dice explícitamente en vez de insinuar cobertura. */}
+              {result.certificate.artifact && (
+                <div className="mb-6">
+                  <div className="text-zinc-500 text-xs uppercase tracking-wider mb-3">Certified Artifact</div>
+                  <div className="bg-black/30 rounded-lg p-4 space-y-2 text-xs font-mono">
+                    <div className="flex justify-between">
+                      <span className="text-zinc-500">Hash binding:</span>
+                      <span className={result.certificate.artifact.bound ? 'text-[#00F299]' : 'text-yellow-400'}>
+                        {result.certificate.artifact.bound ? '✓ bound (inside signature)' : '⚠ not bound (L1-only certificate)'}
+                      </span>
+                    </div>
+                    {result.certificate.artifact.version && (
+                      <div className="flex justify-between">
+                        <span className="text-zinc-500">Certified version:</span>
+                        <span className="text-zinc-300">{result.certificate.artifact.version}</span>
+                      </div>
+                    )}
+                    {result.certificate.artifact.shasum && (
+                      <div className="flex justify-between gap-4">
+                        <span className="text-zinc-500 whitespace-nowrap">Artifact shasum:</span>
+                        <span className="text-zinc-300 break-all text-right">{result.certificate.artifact.shasum}</span>
+                      </div>
+                    )}
+                    {result.artifact_drift && (
+                      <div className="flex justify-between">
+                        <span className="text-zinc-500">Live catalog version:</span>
+                        <span className={result.artifact_drift.matches ? 'text-zinc-300' : 'text-orange-400'}>
+                          {result.artifact_drift.current_version || '?'}
+                          {!result.artifact_drift.matches && ' · DRIFT: artifact changed since certification'}
+                        </span>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
 
               {/* Layers */}
               <div className="mb-6">
@@ -278,7 +324,9 @@ export default function VerifyCertificate() {
               <div className="bg-black/30 rounded-lg p-3">
                 <div className="text-zinc-500 text-xs uppercase tracking-wider mb-1">Signature ({result.certificate.signature_algorithm})</div>
                 <div className="text-zinc-400 text-[10px] font-mono break-all">{result.certificate.signature}</div>
-                <div className="text-[#00F299] text-xs mt-2">{result.verification.message}</div>
+                {/* M-08: el color del mensaje sigue al resultado real de la
+                    verificación server-side, no es verde hardcodeado. */}
+                <div className={`text-xs mt-2 ${signatureValid ? 'text-[#00F299]' : 'text-red-400'}`}>{result.verification.message}</div>
               </div>
             </div>
           </motion.div>

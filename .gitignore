@@ -58,3 +58,6 @@ Thumbs.db
 # To work with them locally, clone them into a SEPARATE repo or just drop
 # the folder back in for development — it won't be tracked by git.
 n8n-workflows/
+
+# M-10: output of scripts/external-verification.mjs (CI uploads it as an artifact)
+external-verification-report.json

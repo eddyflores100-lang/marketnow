@@ -1,0 +1,23 @@
+/* MarketNow — interactive docs page styles (extracted from inline <style> for
+ * strict CSP: style-src no longer needs 'unsafe-inline' for this page). */
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:ui-sans-serif,system-ui,sans-serif;background:#050505}
+#swagger-ui{max-width:1200px;margin:0 auto;padding:24px}
+.swagger-ui{background:#0a0a0b;border-radius:12px;padding:24px}
+.swagger-ui .info{background:transparent}
+.swagger-ui .scheme-container{background:transparent}
+.swagger-ui .opblock{border:1px solid #1f1f23!important;background:#0a0a0b!important}
+.swagger-ui .opblock-tag{color:#fff!important}
+.swagger-ui .opblock-summary-method{background:#00F299!important;color:#050505!important}
+.swagger-ui .opblock-summary-path{color:#00d1ff!important}
+.swagger-ui table thead tr th{color:#71717b!important;border-color:#1f1f23!important}
+.swagger-ui .parameters-col_name{color:#d4d4d8!important}
+.swagger-ui .parameter__name{color:#fff!important}
+.swagger-ui .btn{background:#00F299!important;color:#050505!important;border:none!important}
+.swagger-ui .btn:hover{opacity:.9}
+.swagger-ui .response-col_status{color:#00F299!important}
+.swagger-ui .response-col_description{color:#d4d4d8!important}
+.swagger-ui section.models{background:#0a0a0b;border:1px solid #1f1f23;border-radius:8px}
+.swagger-ui .model-container{background:#050505}
+.swagger-ui input[type=text],.swagger-ui textarea{background:#050505!important;color:#fff!important;border:1px solid #1f1f23!important}
+.swagger-ui .topbar{display:none}

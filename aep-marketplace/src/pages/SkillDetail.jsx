@@ -437,7 +437,10 @@ function normalizeSkill(s) {
     slug: s.slug || s.id,
     sentinel_score: s.sentinel_score ?? 6,
     install: s.install || `npx -y marketnow-install-stack ${s.slug || s.id}`,
-    verified: s.verified ?? true,
+    // M-08: "verified" ya no se inventa — solo L2-reviewed / human-reviewed
+    // lo ganan. El resto declara su nivel real (auto-scanned = L1 index).
+    review_status: s.review_status || 'auto-scanned',
+    verified: s.verified ?? (s.review_status === 'l2-reviewed' || s.review_status === 'human-reviewed'),
     translations: s.translations || null,
     language: s.language || 'en',
   };
@@ -679,8 +682,11 @@ export default function SkillDetail() {
                       </span>
                     )}
                     {skill.sentinel_score >= 8 && (
-                      <span className="px-2 py-0.5 rounded bg-purple-500/10 text-purple-400 text-[10px] font-mono border border-purple-500/20">
-                        🛡️ SENTINEL {skill.sentinel_score}/10
+                      <span
+                        className="px-2 py-0.5 rounded bg-purple-500/10 text-purple-400 text-[10px] font-mono border border-purple-500/20"
+                        title="Sentinel L1 index-level heuristic score (metadata + README + registry signals). Not a deep code scan."
+                      >
+                        🛡️ SENTINEL L1 {skill.sentinel_score}/10
                       </span>
                     )}
                     {/* Sentinel Certificate badge — shows verified score from weekly batch audit */}
@@ -689,6 +695,7 @@ export default function SkillDetail() {
                         🛡️ VERIFYING...
                       </span>
                     ) : certificate ? (
+                      <>
                       <span
                         className={`px-2 py-0.5 rounded text-[10px] font-mono border cursor-help ${
                           certificate.risk_level === 'low'
@@ -704,10 +711,23 @@ Issued: ${new Date(certificate.issued_at).toLocaleDateString()}
 Expires: ${new Date(certificate.expires_at).toLocaleDateString()}
 Score: ${certificate.overall_score}/10
 Risk: ${certificate.risk_level}
-Layers: v3.0 ✓  L1.6 ✓  L2 ${certificate.layers_run.l2 ? '✓' : '—'}`}
+Layers: v3.0 ✓  L1.6 ✓  L2 ${certificate.layers_run?.l2 ? '✓' : '—'}${certificate.artifact?.bound ? `\nArtifact: ${certificate.artifact.version || '?'} · shasum ${String(certificate.artifact.shasum || '').slice(0, 12)}…` : '\nArtifact: hash not bound (L1-only certificate)'}`}
                       >
                         🛡️ CERTIFIED {certificate.overall_score}/10
                       </span>
+                      {/* M-08: chip de capa VISIBLE (antes solo en tooltip hover) —
+                          un certificado L1-only no puede mostrarse igual que uno L2. */}
+                      <span
+                        className={`px-2 py-0.5 rounded text-[9px] font-mono border ${
+                          certificate.layers_run?.l2
+                            ? 'bg-[#00d1ff]/10 text-[#00d1ff] border-[#00d1ff]/20'
+                            : 'bg-white/5 text-zinc-400 border-white/10'
+                        }`}
+                        title={certificate.layers_run?.l2 ? 'Deep scan (L2 sandbox) was executed for this certificate' : 'L1-only certificate: L2 deep scan NOT executed for this skill yet'}
+                      >
+                        {certificate.layers_run?.l2 ? 'L2 DEEP-SCANNED' : 'L1 ONLY'}
+                      </span>
+                      </>
                     ) : null}
                   </div>
                   <h1 className="text-3xl font-bold text-white mb-2 break-words">{skill.name}</h1>
