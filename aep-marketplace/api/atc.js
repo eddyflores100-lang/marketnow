@@ -1609,23 +1609,52 @@ export default async function handler(req, res) {
           return res.status(502).json({ error: 'github_fetch_failed', message: e.message });
         }
 
-        // Fetch README + package.json
-        let readmeText = null;
-        for (const ref of ['main', 'master', 'HEAD']) {
+        // F-03 FIX (supply-chain integrity): pin the EXACT commit being validated.
+        // Every submission is evaluated against an immutable SHA, never a moving
+        // branch — kills the submit-time TOCTOU (bait-and-switch after validation).
+        // Fail closed: if we cannot pin, we do not accept the submission.
+        let pinnedSha = null, pinnedCommitDate = null;
+        try {
+          const r = await fetch(
+            `https://api.github.com/repos/${owner}/${repoName}/commits/${repoMeta.default_branch || 'HEAD'}`,
+            {
+              headers: {
+                Authorization: `Bearer ${GITHUB_TOKEN}`,
+                Accept: 'application/vnd.github+json',
+                'User-Agent': 'marketnow-submit',
+              },
+            }
+          );
+          if (!r.ok) throw new Error(`GitHub ${r.status}`);
+          const head = await r.json();
+          pinnedSha = head.sha;
+          pinnedCommitDate = head.commit?.committer?.date || null;
+          if (!pinnedSha || !/^[0-9a-f]{40}$/.test(pinnedSha)) throw new Error('invalid SHA from GitHub API');
+        } catch (e) {
+          return res.status(502).json({
+            error: 'commit_pin_failed',
+            message: `Could not pin an immutable commit SHA for ${owner}/${repoName}: ${e.message}`,
+          });
+        }
+
+        // Fetch README + package.json — pinned SHA first, so L1.5/L1.7 evaluate
+        // the exact tree that will be recorded in the submission.
+        let readmeText = null, readmeRef = null;
+        for (const ref of [pinnedSha, 'main', 'master', 'HEAD']) {
           try {
             const r = await fetch(`https://raw.githubusercontent.com/${owner}/${repoName}/${ref}/README.md`, {
               headers: { Authorization: `Bearer ${GITHUB_TOKEN}`, 'User-Agent': 'marketnow-submit' },
             });
-            if (r.ok) { readmeText = await r.text(); break; }
+            if (r.ok) { readmeText = await r.text(); readmeRef = ref; break; }
           } catch {}
         }
-        let pkgJson = null;
-        for (const ref of ['main', 'master', 'HEAD']) {
+        let pkgJson = null, pkgRef = null;
+        for (const ref of [pinnedSha, 'main', 'master', 'HEAD']) {
           try {
             const r = await fetch(`https://raw.githubusercontent.com/${owner}/${repoName}/${ref}/package.json`, {
               headers: { Authorization: `Bearer ${GITHUB_TOKEN}`, 'User-Agent': 'marketnow-submit' },
             });
-            if (r.ok) { pkgJson = JSON.parse(await r.text()); break; }
+            if (r.ok) { pkgJson = JSON.parse(await r.text()); pkgRef = ref; break; }
           } catch {}
         }
 
@@ -1703,6 +1732,11 @@ export default async function handler(req, res) {
             pushed_at: repoMeta.pushed_at,
             archived: repoMeta.archived,
             topics: repoMeta.topics || [],
+            // F-03: immutable reference — what was validated is what gets certified
+            default_branch: repoMeta.default_branch || null,
+            commit_sha: pinnedSha,
+            commit_date: pinnedCommitDate,
+            pinned_at: now,
           },
           skill: {
             id: skillId,
@@ -1712,7 +1746,13 @@ export default async function handler(req, res) {
             category: 'Community Submitted',
             price: 0,
             review_status: 'auto-scanned',
-            source: { type: 'community-submitted', url: repo_url, submitted_at: now },
+            source: {
+              type: 'community-submitted',
+              url: repo_url,
+              submitted_at: now,
+              // F-03: el catálogo promueve referencias inmutables (via promote-submissions.mjs)
+              pinned_commit_sha: pinnedSha,
+            },
             install: pkgJson?.name ? `npx -y ${pkgJson.name}` : `git clone ${repo_url}`,
             author: owner,
             version: pkgJson?.version || '0.0.0',
@@ -1722,6 +1762,9 @@ export default async function handler(req, res) {
             l15_findings: findings,
             l17_blocked: false,
             l17_findings: l17Findings,
+            // F-03: evidence trail — on which refs the checks actually ran
+            pinned_sha: pinnedSha,
+            content_refs: { readme: readmeRef, package_json: pkgRef },
             l2_status: 'queued',
             l2_scheduled_at: new Date(Date.now() + 60 * 60 * 1000).toISOString(),
           },
@@ -1762,11 +1805,16 @@ export default async function handler(req, res) {
             stars: repoMeta.stargazers_count || 0,
             language: repoMeta.language,
             license: repoMeta.license?.spdx_id || null,
+            // F-03: la submission queda pineada a este SHA inmutable
+            default_branch: repoMeta.default_branch || null,
+            commit_sha: pinnedSha,
+            commit_date: pinnedCommitDate,
           },
           audit: {
             l15_score: l15Score,
             l15_findings: findings,
             l17_blocked: false,
+            pinned_sha: pinnedSha,
             l2_status: 'queued',
             l2_estimated_completion: submission.audit.l2_scheduled_at,
           },

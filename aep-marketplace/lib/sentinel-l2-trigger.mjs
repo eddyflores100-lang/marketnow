@@ -74,9 +74,12 @@ function _markTriggered(skillId) {
  * Trigger L2 Docker sandbox analysis via GitHub Actions.
  * @param {string} skillId - The skill ID
  * @param {string} repoUrl - GitHub repo URL of the MCP server
+ * @param {string|null} [commitSha] - F-03: immutable commit SHA to audit (pinned at
+ *   submission time). When provided, the sandbox checks out EXACTLY this commit —
+ *   the audit can no longer be pointed at different content than what was validated.
  * @returns {Object} { triggered, workflow_url, message }
  */
-export async function triggerL2(skillId, repoUrl) {
+export async function triggerL2(skillId, repoUrl, commitSha = null) {
   if (!GITHUB_TOKEN) {
     return { triggered: false, message: 'L2 trigger not configured (no GitHub token)' };
   }
@@ -114,6 +117,8 @@ export async function triggerL2(skillId, repoUrl) {
           client_payload: {
             skill_id: skillId,
             repo_url: repoUrl,
+            // F-03: pin the audited tree to the immutable submission SHA
+            commit_sha: (commitSha && /^[0-9a-f]{40}$/.test(commitSha)) ? commitSha : null,
             triggered_at: new Date().toISOString(),
           },
         }),

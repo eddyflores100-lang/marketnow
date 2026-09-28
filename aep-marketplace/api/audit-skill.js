@@ -647,9 +647,12 @@ export default secureLight(async function handler(req, res) {
         overallScore = Math.round(overallScore * l2Mult);
       }
     } else if (skill.source?.url && skill.source.url.includes('github.com')) {
-      const l2Trig = await triggerL2(skill.id, skill.source.url);
+      // F-03: if the catalog entry carries a pinned SHA, audit EXACTLY that tree
+      const pinnedSha = skill.source?.pinned_commit_sha || skill.source?.pinned_sha || null;
+      const l2Trig = await triggerL2(skill.id, skill.source.url, pinnedSha);
       l2Data.status = l2Trig.triggered ? 'triggered_async' : (l2Trig.deduped ? 'deduped' : 'not_available');
       l2Data.trigger = l2Trig;
+      if (pinnedSha) l2Data.pinned_commit_sha = pinnedSha;
     } else {
       l2Data.status = 'no_github_repo';
     }

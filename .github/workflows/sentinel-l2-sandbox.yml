@@ -20,6 +20,9 @@ on:
       repo_url:
         description: 'GitHub repo URL of the MCP server'
         required: true
+      commit_sha:
+        description: 'F-03: immutable commit SHA pinned at submission time (optional; audits EXACTLY this tree)'
+        required: false
   repository_dispatch:
     types:
       - sentinel-l2-audit
@@ -43,16 +46,20 @@ jobs:
         env:
           DISPATCH_SKILL_ID: ${{ github.event.client_payload.skill_id }}
           DISPATCH_REPO_URL: ${{ github.event.client_payload.repo_url }}
+          DISPATCH_COMMIT_SHA: ${{ github.event.client_payload.commit_sha }}
           INPUT_SKILL_ID: ${{ inputs.skill_id }}
           INPUT_REPO_URL: ${{ inputs.repo_url }}
+          INPUT_COMMIT_SHA: ${{ inputs.commit_sha }}
           EVENT_NAME: ${{ github.event_name }}
         run: |
           if [ "$EVENT_NAME" = "repository_dispatch" ]; then
             SKILL_ID="$DISPATCH_SKILL_ID"
             REPO_URL="$DISPATCH_REPO_URL"
+            COMMIT_SHA="$DISPATCH_COMMIT_SHA"
           else
             SKILL_ID="$INPUT_SKILL_ID"
             REPO_URL="$INPUT_REPO_URL"
+            COMMIT_SHA="$INPUT_COMMIT_SHA"
           fi
           # C10 FIX: Validate skill_id (alphanumeric + dashes only)
           if ! echo "$SKILL_ID" | grep -qE '^[a-zA-Z0-9_-]+$'; then
@@ -64,16 +71,24 @@ jobs:
             echo "::error::Invalid repo_url: $REPO_URL"
             exit 1
           fi
+          # F-03 FIX: validate optional pinned SHA (full 40-hex), fail closed on garbage
+          if [ -n "$COMMIT_SHA" ] && ! echo "$COMMIT_SHA" | grep -qE '^[0-9a-f]{40}$'; then
+            echo "::error::Invalid commit_sha (expected 40-hex): $COMMIT_SHA"
+            exit 1
+          fi
           echo "skill_id=$SKILL_ID" >> $GITHUB_OUTPUT
           echo "repo_url=$REPO_URL" >> $GITHUB_OUTPUT
+          echo "commit_sha=$COMMIT_SHA" >> $GITHUB_OUTPUT
 
       - name: Clone MCP server repo (supports subpath URLs)
         env:
           REPO_URL: ${{ steps.vars.outputs.repo_url }}
           SKILL_ID: ${{ steps.vars.outputs.skill_id }}
+          PINNED_SHA: ${{ steps.vars.outputs.commit_sha }}
         run: |
           echo "Auditing skill: $SKILL_ID"
           echo "Repo URL: $REPO_URL"
+          echo "Pinned SHA: ${PINNED_SHA:-<none — default branch HEAD>}"
 
           # The repo_url can be in 3 forms:
           #   1. https://github.com/owner/repo                    → clone full repo, default branch
@@ -111,6 +126,24 @@ jobs:
             echo "$SUBPATH" > /tmp/mcp-server-subpath.txt
           else
             echo "" > /tmp/mcp-server-subpath.txt
+          fi
+
+          # F-03 FIX: if a pinned commit SHA was provided (submission-time pin),
+          # checkout EXACTLY that commit. Fail closed: if the pinned commit
+          # cannot be fetched, the audit FAILS instead of silently auditing
+          # different content than what was validated at submission time.
+          if [ -n "$PINNED_SHA" ]; then
+            echo "  → F-03: checking out pinned commit $PINNED_SHA"
+            cd /tmp/mcp-server || exit 1
+            if ! git fetch --depth 1 origin "$PINNED_SHA" 2>&1; then
+              echo "::error::Pinned commit $PINNED_SHA could not be fetched (force-pushed away or pruned?). Refusing to audit un-pinned content — the submission is now invalid."
+              exit 1
+            fi
+            git checkout --detach "$PINNED_SHA" || exit 1
+            echo "  ✓ audited tree == pinned tree: $(git rev-parse HEAD)"
+            echo "$PINNED_SHA" > /tmp/mcp-server-pinned-sha.txt
+          else
+            echo "" > /tmp/mcp-server-pinned-sha.txt
           fi
 
       - name: Build Docker image (or use fallback)
@@ -217,6 +250,12 @@ jobs:
         run: |
           mkdir -p _data/l2_results
           cp /tmp/l2_output/result.json "_data/l2_results/${SKILL_ID}.json"
+
+          # F-03: stamp the pinned SHA into the result (evidence: what tree was audited)
+          if [ -s /tmp/mcp-server-pinned-sha.txt ]; then
+            PINNED=$(cat /tmp/mcp-server-pinned-sha.txt)
+            RESULT_FILE="_data/l2_results/${SKILL_ID}.json" PINNED_SHA_VAL="$PINNED" python3 -c "import json, os; p = os.environ['RESULT_FILE']; d = json.load(open(p)); sha = os.environ['PINNED_SHA_VAL']; d['pinned_commit_sha'] = sha; d['audited_tree'] = sha; json.dump(d, open(p, 'w'), indent=2); print('  stamped pinned SHA ' + sha)"
+          fi
 
           # Build the commit message summary in Python (single-line to avoid heredoc issues).
           SUMMARY=$(python3 -c "import json; d=json.load(open('/tmp/l2_output/result.json')); print(f\"score={d['l2_score']}/10 risk={d['l2_risk_level']}\")")
