@@ -113,7 +113,12 @@ jobs:
             aep-marketplace/lib/stats-base.json \
             aep-marketplace/public/api/agent.json \
             aep-marketplace/public/api/sentinel-roadmap.json \
-            aep-marketplace/src/utils/liveStats.js || true
+            aep-marketplace/src/utils/liveStats.js \
+            aep-marketplace/public/api/certification.json \
+            aep-marketplace/public/security/sentinel-v3.0.html \
+            aep-marketplace/public/security/evidence.html \
+            aep-marketplace/public/api/owasp.json \
+            README.md || true
 
           # Build commit message with stats from the audit
           LOW=$(find _data/sentinel_certificates -name "*.json" -exec grep -l '"risk_level": "low"' {} \; | wc -l)

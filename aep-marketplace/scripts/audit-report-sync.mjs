@@ -285,7 +285,119 @@ const lsPatched = lsText
   .replace(/err: \d+,/, `err: ${L2.flagged_error},`)
   .replace(/scanErrs: \d+,/, `scanErrs: ${L2.scan_errors},`)
   .replace(/ownPackages: \d+,/, `ownPackages: ${L2.own_packages},`)
+  .replace(/generatedAt: '[\d-]+',/, `generatedAt: '${revDate}',`)
   .replace(/\(v2\.1\.0, [\d-]+\)\./, `(v2.1.0, ${revDate}).`);
+
+// ── 7. M-01b: números vivos en las superficies estáticas de evidencia ───────
+// 3ª auditoría externa (2026-09-28): las páginas /security/* y owasp.json
+// incrustaban cifras L2 de una generación anterior (2,839/2,868/99% · 5.59M),
+// certification.json arrastraba un deep_scan del 2026-09-10, la nota C4 de
+// stats-base contradecía el C4 reparado, y el README raíz seguía en la era
+// 9,248/v1.14.1/80-quarantined. Todas esas cifras se derivan ahora de las
+// mismas fuentes vivas — con --check como gate, la clase completa de bug
+// («discrepancia de números desde el día uno») queda estructuralmente muerta.
+const c4 = (certification.checks || []).find(c => c.id === 'C4') || {};
+const c4Fail = Number(c4.fail || 0);
+const c4Green = c4Fail > 0 ? 9 : 10;
+const c4RepairKey = Object.keys(certification.repairs_applied || {})
+  .find(k => /^c4_.*\d{4}_\d{2}_\d{2}$/.test(k)) || '';
+const c4RepairDate = ((c4RepairKey.match(/\d{4}_\d{2}_\d{2}$/) || [''])[0] || '').replace(/_/g, '-');
+const pct = L2.completion ?? 0;
+const dlVol = Number(L2.weekly_download_volume_covered || 0);
+const dlM = (dlVol / 1e6).toFixed(1);
+const npmOnly = (L2.targets || 0) - (L2.own_packages || 0);
+
+// 7a) certification.json — deep_scan re-derivado de certification-scans.json
+//     (antes: snapshot 2026-09-10 con 2,839/885/791/1,156/29).
+certification.deep_scan = {
+  level: 2,
+  level_name: 'sentinel-scanned',
+  detail_url: '/api/certification-scans.json',
+  scanned: L2.scanned,
+  clean: L2.clean,
+  flagged_warning: L2.flagged_warning,
+  flagged_error: L2.flagged_error,
+  scan_errors: L2.scan_errors,
+  weekly_download_volume_covered: dlVol,
+  generated_at: revision,
+};
+
+// 7b) stats-base — la nota C4 refleja el estado real (excepciones o reparación)
+sb.l1_checks_note = c4Fail > 0
+  ? `C4 documents ${c4Fail} entries with url=null (provenance unknown) — see /api/certification.json checks`
+  : `C4 provenance green: ${nf(c4.pass || totalIndexed)}/${nf(c4.total || totalIndexed)} pass` +
+    (c4RepairDate ? ` — Smithery null-URL exceptions repaired ${c4RepairDate} (see repairs_applied.${c4RepairKey} in /api/certification.json)` : '');
+
+// 7c) /security/sentinel-v3.0.html — badge, KPI de descargas, filas y STAGES
+const sentHtml = readFileSync(join(ROOT, 'public/security/sentinel-v3.0.html'), 'utf8')
+  .replace(/L2: [\d,]+ \/ [\d,]+ tarballs scanned \(\d+(?:\.\d+)?%\)/,
+    `L2: ${nf(L2.scanned)} / ${nf(L2.targets)} tarballs scanned (${pct}%)`)
+  .replace(/<div class="n">[\d.]+M<\/div><div class="l">weekly downloads covered/,
+    `<div class="n">${dlM}M</div><div class="l">weekly downloads covered`)
+  .replace(/(<tr><td>Auto-scanned<\/td><td>)[\d,]+/, `$1${nf(L2.scanned)}`)
+  .replace(/<td>[\d,]+ error \/ [\d,]+ warning verdicts<\/td>/,
+    `<td>${nf(L2.flagged_error)} error / ${nf(L2.flagged_warning)} warning verdicts</td>`)
+  .replace(/top [\d,]+ npm targets by weekly downloads — long-tail packages carry L1 certification only \(\d+(?:\.\d+)?% completion of the covered set\)/,
+    `top ${nf(npmOnly)} npm targets by weekly downloads — long-tail packages carry L1 certification only (${pct}% completion of the covered set)`)
+  .replace(/raw L2 results per package \([\d,]+\)/, `raw L2 results per package (${nf(L2.scanned)})`)
+  .replace(/counts:\{certified:\d+, checks:10, checks_fully_green:\d+, c4_exceptions:\d+\}/,
+    `counts:{certified:${totalIndexed}, checks:10, checks_fully_green:${c4Green}, c4_exceptions:${c4Fail}}`)
+  .replace(/counts:\{targets:\d+, scanned:\d+, completion:'\d+(?:\.\d+)?%', clean:\d+, flagged_warning:\d+, flagged_error:\d+\}/,
+    `counts:{targets:${L2.targets}, scanned:${L2.scanned}, completion:'${pct}', clean:${L2.clean}, flagged_warning:${L2.flagged_warning}, flagged_error:${L2.flagged_error}}`)
+  .replace(/evidence page generated [\d-]+/, `evidence page generated ${revDate}`);
+
+// 7d) /security/evidence.html — KPIs, celda C4, fila L2, aritmética, honestidad
+const c4Li = c4Fail > 0
+  ? `<li>C4 documents ${c4Fail} entries with <code>source.url = null</code> (provenance unknown, smithery import) — published as C4 exceptions in the certification, not hidden.</li>`
+  : `<li>The Smithery entries with <code>source.url = null</code> were repaired ${c4RepairDate || '2026-09-28'} by resolving their real provenance — history in <code>repairs_applied</code> (/api/certification.json). Unknown provenance is never trusted.</li>`;
+const c4Cell = c4Fail > 0
+  ? `<td class="hide-sm">${nf(totalIndexed)} certified · C4: ${c4Fail} documented exceptions (provenance unknown, url=null)</td>`
+  : `<td class="hide-sm">${nf(totalIndexed)} certified · C4: ${nf(c4.total || totalIndexed)}/${nf(c4.total || totalIndexed)} pass${c4RepairDate ? ` — Smithery null-URL repaired ${c4RepairDate} (repairs_applied)` : ''}</td>`;
+const evidHtml = readFileSync(join(ROOT, 'public/security/evidence.html'), 'utf8')
+  .replace(/<div class="n">[\d,]+<\/div><div class="l">L1-certified entries · 10 checks · \d+ fully green/,
+    `<div class="n">${nf(totalIndexed)}</div><div class="l">L1-certified entries · 10 checks · ${c4Green} fully green`)
+  .replace(/<div class="n">[\d,]+<\/div><div class="l">tarballs deep-scanned \(29 rules\)/,
+    `<div class="n">${nf(L2.scanned)}</div><div class="l">tarballs deep-scanned (29 rules)`)
+  .replace(/<td class="hide-sm">[\d,]+ certified · C4: [^<]*<\/td>/, c4Cell)
+  .replace(/<td class="hide-sm">[\d,]+ \/ [\d,]+ targets \(\d+(?:\.\d+)?%\) · [\d,]+ clean · [\d,]+ warn · [\d,]+ error · [\d.]+M weekly dl covered<\/td>/,
+    `<td class="hide-sm">${nf(L2.scanned)} / ${nf(L2.targets)} targets (${pct}%) · ${nf(L2.clean)} clean · ${nf(L2.flagged_warning)} warn · ${nf(L2.flagged_error)} error · ${dlM}M weekly dl covered</td>`)
+  .replace(/<td>[\d,]+ security checks performed = [\d,]+ L1 \(10 × [\d,]+\) \+ [\d,]+ L2 \(29 × [\d,]+\)[^<]*<\/td>/,
+    `<td>${nf(checksTotal)} security checks performed = ${nf(l1Total)} L1 (10 × ${nf(totalIndexed)}) + ${nf(l2Total)} L2 (29 × ${nf(L2.scanned)}) — breakdown in agent.json</td>`)
+  .replace(/top-[\d,]+ npm targets \(\d+(?:\.\d+)?% completion of that selection\)/,
+    `top-${nf(npmOnly)} npm targets (${pct}% completion of that selection)`)
+  .replace(/<li>(?:Four catalog entries have|C4 documents \d+ entries with|The Smithery entries with)[^\n]*<\/li>/, c4Li);
+
+// 7e) owasp.json — cifras L2 en los textos de implementación/evidencia
+const owaspText = readFileSync(join(ROOT, 'public/api/owasp.json'), 'utf8')
+  .replace(/top [\d,]+ npm targets/, `top ${nf(npmOnly)} npm targets`)
+  .replace(/certification-scans\.json \([\d,]+ scanned\)/, `certification-scans.json (${nf(L2.scanned)} scanned)`);
+JSON.parse(owaspText); // fail-closed: nunca escribir JSON corrupto
+
+// 7f) README raíz — tabla de stats regenerada desde fuentes + prosa al día
+const npmVers = {};
+for (const p of (read('lib/npm-versions.json').packages || [])) npmVers[p.name] = p.version;
+const mcpVer = npmVers['marketnow-mcp'] || (statsBase.tools || {}).mcp_server_version || '1.15.0';
+const statsTable = [
+  '| Metric | Value |',
+  '|--------|-------|',
+  `| Security checks performed | **${nf(checksTotal)}** (${nf(l1Total)} L1 + ${nf(l2Total)} L2) |`,
+  `| MCP skills indexed (L1) | ${nf(totalIndexed)} |`,
+  `| L2 deep-scanned tarballs (29 rules) | ${nf(L2.scanned)} / ${nf(L2.targets)} (${pct}%) |`,
+  `| Batch certificates (weekly) | ${nf(certsSummary.total_certified || 0)} · ${nf(certsSummary.total_failed || 0)} failed |`,
+  `| Sentinel risk buckets | low ${certsSummary.by_risk?.low ?? 0} · medium ${nf(certsSummary.by_risk?.medium ?? 0)} · high ${certsSummary.by_risk?.high ?? 0} · critical ${certsSummary.by_risk?.critical ?? 0} |`,
+  `| Quarantined decisions (public ledger) | ${nf(quarantinedTotal)} |`,
+  '| MCP tools | 9 remote endpoint (/api/mcp) · 15 npm package |',
+  `| npm packages | marketnow-mcp v${mcpVer}, marketnow-install-stack v${npmVers['marketnow-install-stack'] || '1.2.1'}, agent-trust-card v${npmVers['agent-trust-card'] || '1.4.1'} |`,
+  '| CA algorithm | Ed25519 (RFC 8032) |',
+].join('\n');
+const readmePatched = readFileSync(join(REPO, 'README.md'), 'utf8')
+  .replace(/\| Metric \| Value \|\n\|[-|]+\|\n(?:\|.*\n)+(?=\n### What Sentinel caught)/, statsTable + '\n')
+  .replace(/\([\d,]+ MCP skills/g, `(${nf(totalIndexed)} MCP skills`)
+  .replace(/[\d,]+ (?:skills quarantined for:|quarantine decisions published \(public ledger\) for:)/,
+    `${nf(quarantinedTotal)} quarantine decisions published (public ledger) for:`)
+  .replace(/## MCP Server v[\d.]+ — Agent Contract/, `## MCP Server v${mcpVer} — Agent Contract`)
+  .replace(/marketnow-mcp v[\d.]+/g, `marketnow-mcp v${mcpVer}`)
+  .replace(/marketnow-mcp@[\d.]+/g, `marketnow-mcp@${mcpVer}`);
 
 // ── Escritura / comparación ─────────────────────────────────────────────────
 const targets = [
@@ -295,6 +407,12 @@ const targets = [
   { path: 'public/api/agent.json', text: JSON.stringify(agent, null, 2) + '\n', semantic: true },
   { path: 'public/api/sentinel-roadmap.json', text: JSON.stringify(roadmap, null, 2) + '\n', semantic: true },
   { path: 'src/utils/liveStats.js', text: lsPatched },
+  // M-01b: superficies estáticas de evidencia + README (números vivos)
+  { path: 'public/api/certification.json', text: JSON.stringify(certification, null, 2) + '\n', semantic: true },
+  { path: 'public/security/sentinel-v3.0.html', text: sentHtml },
+  { path: 'public/security/evidence.html', text: evidHtml },
+  { path: 'public/api/owasp.json', text: owaspText },
+  { path: '../README.md', text: readmePatched },
 ];
 
 const drift = [];

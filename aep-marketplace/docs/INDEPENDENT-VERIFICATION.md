@@ -28,6 +28,9 @@ writes `external-verification-report.json` with the full evidence.
 | CSP enforced on document root | `/` | C1 — HSTS + XFO + nosniff + `script-src 'self'` |
 | CDN scripts are pinned + SRI-hashed | `/interactive-docs/` | C2 — exact version + `integrity="sha384-…"` on all three assets |
 | APIs serve `default-src 'none'` | `/api/*` | C3 |
+| Static evidence pages carry LIVE numbers | `/security/sentinel-v3.0.html`, `/security/evidence.html` | C4/C5 — the L2 badge/KPIs must equal the live scan stats, not a frozen generation |
+| Certification deep_scan is not stale | `/api/certification.json` | C6 — `deep_scan` block must equal certification-scans.json and carry its revision |
+| README stats table is current | GitHub raw README | C7 — catalog total must match stats; no legacy 9,248/80-quarantined numbers |
 | Commerce mutations are NOT live | `/api/mandates` etc. | D1 — typed planned-stub, never a success mutation |
 | Submit requires valid schema | `/api/submit` | D2/D3 — 400/422 typed rejections; dry-run never persists |
 

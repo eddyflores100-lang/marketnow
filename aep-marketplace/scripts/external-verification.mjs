@@ -33,6 +33,11 @@
  *      C2  /interactive-docs/ serves its own CSP and the CDN scripts are
  *          version-pinned AND carry SRI integrity hashes.
  *      C3  /api/* responses carry default-src 'none' CSP.
+ *      C4  /security/sentinel-v3.0.html L2 badge carries the LIVE numbers
+ *          (no generaciones anteriores congeladas — M-01b).
+ *      C5  /security/evidence.html KPIs + L2 row match the live scan stats.
+ *      C6  /api/certification.json deep_scan block matches scans (no stale).
+ *      C7  GitHub README stats table carries the live catalog total.
  *
  *   D. AUTHORIZATION BOUNDARIES (M-03, non-destructive)
  *      D1  Commerce endpoints (mandates/agent-purchase/stripe-webhook) are
@@ -202,6 +207,54 @@ function record(id, desc, ok, detail, warn = false) {
       { csp: apiCsp });
   } catch (e) {
     record('C0', 'site reachable', false, e.message);
+  }
+
+  // ─── Cbis. Static evidence pages carry the LIVE numbers (M-01b) ──────────
+  // 3ª auditoría externa: las páginas /security/*, owasp.json y el README
+  // arrastraban cifras de generaciones anteriores (2,839/2,868/99% · 9,248).
+  // Estos checks hacen que CUALQUIER recurrencia sea visible desde afuera.
+  console.log('\nC-static. Evidence pages carry live numbers (M-01b)');
+  try {
+    const sec = stats?.security || {};
+    const parseN = (s) => Number(String(s).replace(/,/g, ''));
+
+    const sent = await raw('/security/sentinel-v3.0.html');
+    const badge = /L2: ([\d,]+) \/ ([\d,]+) tarballs scanned \(([\d.]+)%\)/.exec(sent.text);
+    record('C4', 'sentinel-v3.0.html L2 badge matches the live scan stats',
+      sent.status === 200 && !!badge && parseN(badge[1]) === (sec.l2_sentinel_scanned ?? -1)
+        && parseN(badge[2]) === (sec.l2_targets ?? -1)
+        && Math.abs(Number(badge[3]) - (sec.l2_completion_pct ?? -1)) < 0.05,
+      badge
+        ? { page: `${badge[1]}/${badge[2]} (${badge[3]}%)`, api: `${sec.l2_sentinel_scanned}/${sec.l2_targets} (${sec.l2_completion_pct}%)` }
+        : { found: null });
+
+    const evid = await raw('/security/evidence.html');
+    const kpi = /<div class="n">([\d,]+)<\/div><div class="l">tarballs deep-scanned/.exec(evid.text);
+    const l2row = /([\d,]+) \/ ([\d,]+) targets \(([\d.]+)%\)/.exec(evid.text);
+    record('C5', 'evidence.html KPI + L2 row match the live scan stats',
+      evid.status === 200 && !!kpi && parseN(kpi[1]) === (sec.l2_sentinel_scanned ?? -1)
+        && !!l2row && parseN(l2row[1]) === (sec.l2_sentinel_scanned ?? -1)
+        && parseN(l2row[2]) === (sec.l2_targets ?? -1),
+      { kpi: kpi?.[1] || null, row: l2row ? `${l2row[1]}/${l2row[2]} (${l2row[3]}%)` : null });
+
+    const cert = (await jget('/api/certification.json')).json;
+    const ds = cert?.deep_scan || {};
+    record('C6', 'certification.json deep_scan block matches certification-scans.json (no stale block)',
+      ds.scanned === (scans?.stats?.scanned ?? -1) && ds.clean === (scans?.stats?.clean ?? -1)
+        && ds.flagged_error === (scans?.stats?.flagged_error ?? -1)
+        && ds.generated_at === scans?.generated_at,
+      { deep_scan: `${ds.scanned} scanned · ${ds.clean} clean · gen ${ds.generated_at}`, scans: `${scans?.stats?.scanned} scanned · gen ${scans?.generated_at}` });
+
+    const ghReadme = await fetch('https://raw.githubusercontent.com/eddyflores100-lang/marketnow/master/README.md',
+      { signal: AbortSignal.timeout(TIMEOUT) });
+    const readmeText = await ghReadme.text().catch(() => '');
+    const skillsRow = /\| MCP skills indexed \(L1\) \| ([\d,]+) \|/.exec(readmeText);
+    record('C7', 'GitHub README stats table carries the live catalog total (no 9,248-era numbers)',
+      ghReadme.status === 200 && !!skillsRow && parseN(skillsRow[1]) === (sec.l1_index_certified ?? -1)
+        && !readmeText.includes('9,248 MCP skills') && !readmeText.includes('80 skills quarantined'),
+      { readme: skillsRow?.[1] || null, stats: sec.l1_index_certified });
+  } catch (e) {
+    record('C0b', 'static evidence pages reachable', false, e.message);
   }
 
   // ─── D. Authorization boundaries (non-destructive) ───────────────────────

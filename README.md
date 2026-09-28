@@ -18,7 +18,7 @@
 
 MarketNow is **security infrastructure for AI agents**. Not a marketplace.
 
-The marketplace (9,248 MCP skills, all free) is distribution. The product is **Sentinel** — a 10-layer security audit pipeline that determines whether AI agents should be allowed to trust and execute tools.
+The marketplace (68,388 MCP skills, all free) is distribution. The product is **Sentinel** — a 10-layer security audit pipeline that determines whether AI agents should be allowed to trust and execute tools.
 
 ## Products
 
@@ -69,21 +69,19 @@ curl https://marketnow.site/api/trust-score?skillId=mn-gen-00003
 
 | Metric | Value |
 |--------|-------|
-| Security checks performed | **1,211,488** |
-| MCP skills analyzed | 9,248 |
-| Threats detected | **1,030** |
-| Skills quarantined (critical) | **80** |
-| Skills flagged risky | 71 |
-| Skills flagged caution | 879 |
-| Verified safe (score ≥ 8) | **8,288** |
-| gVisor sandbox runs | 257 |
-| Agent Trust Cards issued | 57 |
+| Security checks performed | **763,746** (683,880 L1 + 79,866 L2) |
+| MCP skills indexed (L1) | 68,388 |
+| L2 deep-scanned tarballs (29 rules) | 2,754 / 2,882 (95.6%) |
+| Batch certificates (weekly) | 74,916 · 0 failed |
+| Sentinel risk buckets | low 7 · medium 74,507 · high 370 · critical 32 |
+| Quarantined decisions (public ledger) | 3 |
+| MCP tools | 9 remote endpoint (/api/mcp) · 15 npm package |
+| npm packages | marketnow-mcp v1.15.0, marketnow-install-stack v1.2.1, agent-trust-card v1.4.1 |
 | CA algorithm | Ed25519 (RFC 8032) |
-| npm packages | marketnow-mcp v1.14.1, marketnow-install-stack v1.2.1, agent-trust-card v1.4.1 |
 
 ### What Sentinel caught
 
-80 skills quarantined for:
+3 quarantine decisions published (public ledger) for:
 - Malware patterns (binary launchers, suspicious install scripts)
 - Malware family signatures (48 YARA-equivalent rules matched)
 - Prompt injection (32 rules, jailbreak attempts detected)
@@ -118,9 +116,9 @@ curl -X POST https://marketnow.site/api/interceptor \
   -d '{"jsonrpc":"2.0","method":"tools/call","params":{"name":"read_file","arguments":{"path":"/.env"}}}'
 ```
 
-## MCP Server v1.14.1 — Agent Contract
+## MCP Server v1.15.0 — Agent Contract
 
-The npm package `marketnow-mcp@1.14.1` exposes **15 tools, all under the `marketnow_*` namespace** so Claude Desktop, Cursor, Cline, LangChain, and LlamaIndex can disambiguate them at tool-choice time.
+The npm package `marketnow-mcp@1.15.0` exposes **15 tools, all under the `marketnow_*` namespace** so Claude Desktop, Cursor, Cline, LangChain, and LlamaIndex can disambiguate them at tool-choice time.
 
 The four golden rules enforced (full audit in [`mcp-server/AUDIT.md`](https://github.com/alicelabs-llc/MARKETNOW/blob/master/mcp-server/AUDIT.md) — product code lives in the MARKETNOW repo since the 2026-09-26 split):
 
@@ -131,7 +129,7 @@ The four golden rules enforced (full audit in [`mcp-server/AUDIT.md`](https://gi
 | C | Strict JSON-Schema | `type` + `enum` + `pattern` + `minimum`/`maximum` on every parameter, no `any` |
 | D | Structured `{ content, isError }` responses | Errors never throw into the agent loop — they normalize to `INVALID_ARGUMENT` / `NOT_FOUND` / `UNKNOWN_TOOL` / `INTERNAL_ERROR` with contextual hints |
 
-The 12 tools:
+The 15 tools:
 
 1. `marketnow_search_skills` — keyword/category/price-bounded search
 2. `marketnow_get_skill` — full skill detail by ID/slug
@@ -145,10 +143,13 @@ The 12 tools:
 10. `marketnow_lookup_referral` — referral stats
 11. `marketnow_recommend_skills` — AI-ranked recommendations for a task
 12. `marketnow_get_owasp_compliance` — OWASP MCP Cheat Sheet (12 controls) + SHA-256 tool fingerprints + capability manifest
+13. `marketnow_check_revocation` — check an Agent Trust Card or CA key against the signed Revocation Registry (MNR-CRL-1.0) + live ledger
+14. `marketnow_fingerprint_tool` — RFC 8785 JCS + SHA-256 fingerprint of MCP tool definitions (drift/rug-pull detection)
+15. `marketnow_verify_atc_spec` — verify any Agent Trust Card against the ATC/1.0 spec (10 controls, 8 required)
 
 ## Pricing
 
-> **Pricing coherence note (v5.0.0):** MarketNow is **security infrastructure**, not a marketplace. The marketplace (9,248 MCP skills, all free to install) is **distribution**. The paid product is **Sentinel** — the security audit pipeline. The MCP server itself is free to install and use; paid actions kick in when you need a signed Trust Card, runtime testing, or continuous monitoring.
+> **Pricing coherence note (v5.0.0):** MarketNow is **security infrastructure**, not a marketplace. The marketplace (68,388 MCP skills, all free to install) is **distribution**. The paid product is **Sentinel** — the security audit pipeline. The MCP server itself is free to install and use; paid actions kick in when you need a signed Trust Card, runtime testing, or continuous monitoring.
 
 | Tier | Price | Features |
 |------|-------|----------|
@@ -161,7 +162,7 @@ The 12 tools:
 ## Links
 
 - **Website:** https://marketnow.site
-- **GitHub:** https://github.com/alicelabs-llc/marketnow
+- **GitHub:** https://github.com/eddyflores100-lang/marketnow (this repo — live marketplace) · https://github.com/alicelabs-llc/MARKETNOW (product/protocol)
 - **npm:** https://www.npmjs.com/package/marketnow-mcp
 - **MCP Server:** `npx -y marketnow-mcp`
 - **Trust API:** https://marketnow.site/api/trust-score

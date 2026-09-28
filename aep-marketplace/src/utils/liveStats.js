@@ -31,7 +31,7 @@ export const FALLBACK_STATS = {
   adapters: 9,
   adapterList: ['ATC', 'EAT-AI', 'ZTA', 'A2A', 'MCP-Card', 'W3C-VC', 'OAuth', 'SPIFFE', 'X.509'],
   uts: 'UTS v2.0.0',
-  generatedAt: '2026-09-25',
+  generatedAt: '2026-09-28',
   npmDownloads: null,    // live from registry.npmjs.org, null until known
   // uta.* — 4ª ronda de auditoría: la página /uta y los chips de paquetes del
   // landing ya NO hardcodean versiones: vienen de /api/stats.json → seccion uta

@@ -64,7 +64,7 @@
     "sentinel_version": "v3.0",
     "sentinel_pipeline_stages": 12,
     "methodology_url": "https://marketnow.site/api/certification.json",
-    "l1_checks_note": "C4 documents 4 smithery entries with url=null (provenance unknown) — see /api/certification.json checks",
+    "l1_checks_note": "C4 provenance green: 68,388/68,388 pass — Smithery null-URL exceptions repaired 2026-09-28 (see repairs_applied.c4_provenance_urls_2026_09_28 in /api/certification.json)",
     "security_checks_breakdown": {
       "l1_index_checks": 683880,
       "l1_formula": "10 L1 checks x 68388 entries",

@@ -28,7 +28,7 @@
       "total": 68388,
       "pass": 68388,
       "fail": 0,
-      "fail_rate": 0.0,
+      "fail_rate": 0,
       "examples": []
     },
     {
@@ -37,7 +37,7 @@
       "total": 68388,
       "pass": 68388,
       "fail": 0,
-      "fail_rate": 0.0,
+      "fail_rate": 0,
       "examples": []
     },
     {
@@ -46,7 +46,7 @@
       "total": 68388,
       "pass": 68388,
       "fail": 0,
-      "fail_rate": 0.0,
+      "fail_rate": 0,
       "examples": []
     },
     {
@@ -65,7 +65,7 @@
       "total": 68388,
       "pass": 68388,
       "fail": 0,
-      "fail_rate": 0.0,
+      "fail_rate": 0,
       "examples": []
     },
     {
@@ -74,7 +74,7 @@
       "total": 68388,
       "pass": 68388,
       "fail": 0,
-      "fail_rate": 0.0,
+      "fail_rate": 0,
       "examples": []
     },
     {
@@ -83,7 +83,7 @@
       "total": 68388,
       "pass": 68388,
       "fail": 0,
-      "fail_rate": 0.0,
+      "fail_rate": 0,
       "examples": []
     },
     {
@@ -92,7 +92,7 @@
       "total": 68388,
       "pass": 68388,
       "fail": 0,
-      "fail_rate": 0.0,
+      "fail_rate": 0,
       "examples": []
     },
     {
@@ -101,7 +101,7 @@
       "total": 68388,
       "pass": 68388,
       "fail": 0,
-      "fail_rate": 0.0,
+      "fail_rate": 0,
       "examples": []
     },
     {
@@ -110,7 +110,7 @@
       "total": 68388,
       "pass": 68388,
       "fail": 0,
-      "fail_rate": 0.0,
+      "fail_rate": 0,
       "examples": []
     }
   ],
@@ -166,20 +166,20 @@
     "level": 2,
     "level_name": "sentinel-scanned",
     "detail_url": "/api/certification-scans.json",
-    "scanned": 2839,
-    "clean": 885,
-    "flagged_warning": 791,
-    "flagged_error": 1156,
-    "scan_errors": 29,
-    "weekly_download_volume_covered": 5591092,
-    "generated_at": "2026-09-10T07:13:04Z"
+    "scanned": 2754,
+    "clean": 891,
+    "flagged_warning": 799,
+    "flagged_error": 1163,
+    "scan_errors": 1,
+    "weekly_download_volume_covered": 20423922,
+    "generated_at": "2026-09-28T01:54:46.736Z"
   },
   "benchmark": {
     "url": "/api/sentinel-benchmark.json",
     "html": "/security/sentinel-benchmark",
     "f1": 0.857,
     "precision": 0.75,
-    "recall": 1.0,
+    "recall": 1,
     "n_decisions": 18
   },
   "layers_evidence": "/api/security"

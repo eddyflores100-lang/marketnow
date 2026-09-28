@@ -116,7 +116,12 @@ jobs:
           aep-marketplace/lib/stats-base.json \
           aep-marketplace/public/api/agent.json \
           aep-marketplace/public/api/sentinel-roadmap.json \
-          aep-marketplace/src/utils/liveStats.js"
+          aep-marketplace/src/utils/liveStats.js \
+          aep-marketplace/public/api/certification.json \
+          aep-marketplace/public/security/sentinel-v3.0.html \
+          aep-marketplace/public/security/evidence.html \
+          aep-marketplace/public/api/owasp.json \
+          README.md"
 
           if git diff --quiet HEAD -- ${SYNC_FILES}; then
             echo "No changes — nothing to commit."
