@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useLang } from '../context/LanguageContext.jsx';
 import { useLiveStats, statNumbers } from '../utils/liveStats.js';
+import AddToCursor from '../components/AddToCursor.jsx';
 
 export default function AgentLanding() {
   const { t, lang } = useLang();
@@ -121,7 +122,10 @@ export default function AgentLanding() {
               <span className="text-zinc-600 text-xs ml-2">{t('home.or')}</span>
               <code className="text-[#00d1ff] text-xs font-mono ml-2">npx -y marketnow-mcp</code>
             </div>
-            <p className="text-zinc-600 text-[10px]">{t('home.compatibleWith')}</p>
+            <p className="text-zinc-600 text-[10px] mb-8">{t('home.compatibleWith')}</p>
+
+            {/* Add to Cursor — 1 click install panel */}
+            <AddToCursor />
           </motion.div>
         </section>
 
