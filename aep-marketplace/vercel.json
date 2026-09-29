@@ -4,6 +4,14 @@
   "framework": "vite",
   "rewrites": [
     {
+      "source": "/mcp",
+      "destination": "/api/mcp"
+    },
+    {
+      "source": "/mcp/",
+      "destination": "/api/mcp"
+    },
+    {
       "source": "/api/skills.json",
       "destination": "/api/skills?_mode=manifest"
     },
@@ -253,6 +261,23 @@
     }
   ],
   "headers": [
+    {
+      "source": "/",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://marketnow.site/.well-known/ai-catalog.json>; rel=\"ai-catalog\", <https://marketnow.site/.well-known/mcp.json>; rel=\"mcp-server-card\""
+        },
+        {
+          "key": "Access-Control-Expose-Headers",
+          "value": "Link"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    },
     {
       "source": "/api/(.*)",
       "headers": [
