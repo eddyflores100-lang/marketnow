@@ -1,11 +1,36 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 
-// Deep-link 1-click de Cursor (verificado en vivo 2026-09-30):
-// requiere params name + config (JSON urlencoded) — NO name + url.
-const CURSOR_INSTALL_URL =
-  'https://cursor.com/install-mcp?name=MarketNow&config=' +
-  encodeURIComponent(JSON.stringify({ url: 'https://marketnow.site/api/mcp' }));
+// ─────────────────────────────────────────────────────────────────────────────
+// Instalación 1-click de Cursor.
+//
+// El botón dispara el protocolo DIRECTO de Cursor (cursor://anysphere.cursor-deeplink),
+// que es exactamente el mecanismo interno que usa la página cursor.com/install-mcp
+// (window.location.href = "<scheme>://anysphere.cursor-deeplink/mcp/install?...").
+// Ventajas de lanzarlo desde aquí, sin página intermedia:
+//   · Cursor se abre de inmediato (el navegador muestra "¿Abrir Cursor?" una sola vez)
+//   · el usuario NUNCA sale de marketnow.site (no hay pestaña que se abra y se cierre)
+//   · sin muro de auth ni texto de "manual install" de por medio
+// Fallbacks si el protocolo no está registrado (móvil, Cursor no instalado):
+//   · "web installer" → cursor.com/install-mcp (página oficial, config visible)
+//   · "manual config" → JSON mcp.json para cualquier cliente MCP
+// ─────────────────────────────────────────────────────────────────────────────
+
+const MCP_NAME = 'MarketNow';
+const MCP_SERVER = { url: 'https://marketnow.site/api/mcp' };
+
+// Deep-link directo al protocolo de Cursor (mismo formato que construye cursor.com):
+// cursor://anysphere.cursor-deeplink/mcp/install?name=<enc>&config=<enc JSON>
+const CURSOR_DEEPLINK =
+  'cursor://anysphere.cursor-deeplink/mcp/install' +
+  '?name=' + encodeURIComponent(MCP_NAME) +
+  '&config=' + encodeURIComponent(JSON.stringify(MCP_SERVER));
+
+// Fallback web oficial (muestra el JSON y reintenta el protocolo; auto-cierra su pestaña).
+const CURSOR_WEB_INSTALL =
+  'https://cursor.com/install-mcp' +
+  '?name=' + encodeURIComponent(MCP_NAME) +
+  '&config=' + encodeURIComponent(JSON.stringify(MCP_SERVER));
 
 const MCP_JSON = `{
   "mcpServers": {
@@ -18,6 +43,7 @@ const MCP_JSON = `{
 export default function AddToCursor() {
   const [copied, setCopied] = useState(false);
   const [open, setOpen] = useState(false);
+  const [launched, setLaunched] = useState(false);
 
   const copyConfig = async () => {
     try {
@@ -47,10 +73,11 @@ export default function AddToCursor() {
         </div>
 
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+          {/* 1-click: lanza el protocolo cursor:// directamente — Cursor se abre
+              y el usuario se queda en esta página (sin pestañas intermedias). */}
           <a
-            href={CURSOR_INSTALL_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+            href={CURSOR_DEEPLINK}
+            onClick={() => setLaunched(true)}
             className="flex items-center justify-center gap-2 px-6 py-3 bg-[#00F299] text-black font-bold rounded-lg hover:bg-[#00F299]/90 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 shadow-lg shadow-[#00F299]/20"
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -69,9 +96,34 @@ export default function AddToCursor() {
             className="px-4 py-3 border border-white/10 text-zinc-300 font-medium rounded-lg hover:bg-white/5 transition-all duration-300 cursor-pointer"
             aria-expanded={open}
           >
-            {open ? 'HIDE CONFIG' : 'OTHER AGENTS'}
+            {open ? 'HIDE CONFIG' : 'MANUAL CONFIG'}
           </button>
         </div>
+
+        {/* Aparece justo tras el clic: confirmación + rutas de escape si el
+            protocolo no lanzó (móvil / Cursor no instalado / prompt bloqueado). */}
+        {launched && (
+          <div className="mt-3 text-xs text-zinc-400 leading-relaxed">
+            <span className="text-[#00F299] font-semibold">Opening Cursor…</span>{' '}
+            If the browser asked, choose <em>“Open Cursor”</em>. Nothing happened?{' '}
+            <a
+              href={CURSOR_WEB_INSTALL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#00d1ff] underline decoration-dotted underline-offset-2"
+            >
+              open the web installer
+            </a>{' '}
+            or{' '}
+            <button
+              onClick={() => setOpen(true)}
+              className="text-[#00d1ff] underline decoration-dotted underline-offset-2 cursor-pointer"
+            >
+              use the manual config
+            </button>
+            .
+          </div>
+        )}
 
         <p className="mt-3 text-xs text-zinc-500 leading-relaxed">
           Remote streamable-http · no auth required · works with Cursor, Claude Desktop,
@@ -87,6 +139,17 @@ export default function AddToCursor() {
             <pre className="p-3 rounded-lg bg-black/80 border border-white/5 text-[#00F299] text-xs font-mono overflow-x-auto">
 {MCP_JSON}
             </pre>
+            <div className="mt-2 text-[10px] text-zinc-600">
+              No protocol handler?{' '}
+              <a
+                href={CURSOR_WEB_INSTALL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#00d1ff]/80 underline decoration-dotted underline-offset-2"
+              >
+                Official web installer →
+              </a>
+            </div>
           </div>
         )}
       </div>
