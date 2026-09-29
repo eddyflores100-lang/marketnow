@@ -7,6 +7,15 @@
 //   - domain_age: free RDAP registry lookup (rdap.org — no API key, no signup)
 //   - ssl: real TLS handshake on :443 with certificate validation (issuer, expiry, SAN)
 //
+// v2.1 (2026-09-29): per-domain LIVE-LOOKUP CACHE. Reason: the Vercel usage alert
+// of 2026-09-29 (Function Invocations at 100% of the Hobby free tier) — repeat
+// scans of the same domain were re-running full RDAP + TLS every time. Now the
+// raw live results are cached per warm instance (1h TTL for definitive answers,
+// 60s for transient errors) with in-flight de-dup to absorb bursts. Derived
+// checks (age in days, cert days-left) are STILL recomputed per request from the
+// cached raw data, so freshness is preserved. Transparency: the response reports
+// cache hit + data age; nothing is hidden.
+//
 // Returns:
 //   {
 //     "domain": "example.com",
@@ -75,6 +84,47 @@ const TYPOSQUATTING_PATTERNS = [
 // ── v2: live lookup timeouts (keep total latency ≈1-2s, both run in parallel) ──
 const RDAP_TIMEOUT_MS = 3500;
 const TLS_TIMEOUT_MS = 3000;
+
+// ── v2.1 (2026-09-29): per-domain live-lookup cache ─────────────────────────
+// Module scope: survives across invocations on warm serverless instances.
+// Bounded (FIFO eviction), TTL-split (definitive vs transient-error), and
+// stampede-safe (in-flight promise de-dup). Cache stores the RAW lookup
+// results only — all derived checks are recomputed per request.
+const LIVE_CACHE_TTL_MS = 60 * 60 * 1000;    // 1h — definitive answers (registered / notFound / TLS ok)
+const LIVE_CACHE_ERR_TTL_MS = 60 * 1000;     // 60s — transient failures self-heal fast
+const LIVE_CACHE_MAX = 2000;                  // bounded memory, oldest-first eviction
+const liveCache = new Map();                  // cleanDomain -> { at, ttl, rdap, tls }
+const inflight = new Map();                   // cleanDomain -> Promise<{rdap, tls, cache}>
+
+function liveResultIsDefinitive(rdap, tls) {
+  const rdapOk = !!(rdap && (rdap.registeredAt || rdap.notFound));
+  const tlsOk = !!(tls && tls.ok);
+  return rdapOk || tlsOk; // any definitive signal earns the long TTL
+}
+
+function liveLookups(domain) {
+  const hit = liveCache.get(domain);
+  if (hit && Date.now() - hit.at < hit.ttl) {
+    return Promise.resolve({
+      rdap: hit.rdap,
+      tls: hit.tls,
+      cache: { hit: true, age_seconds: Math.round((Date.now() - hit.at) / 1000) }
+    });
+  }
+  liveCache.delete(domain);
+  if (inflight.has(domain)) return inflight.get(domain); // burst de-dup
+  const p = Promise.all([rdapLookup(domain), tlsLookup(domain)]).then(([rdap, tls]) => {
+    const ttl = liveResultIsDefinitive(rdap, tls) ? LIVE_CACHE_TTL_MS : LIVE_CACHE_ERR_TTL_MS;
+    liveCache.set(domain, { at: Date.now(), ttl, rdap, tls });
+    if (liveCache.size > LIVE_CACHE_MAX) {
+      liveCache.delete(liveCache.keys().next().value); // FIFO: drop the oldest entry
+    }
+    inflight.delete(domain);
+    return { rdap, tls, cache: { hit: false, age_seconds: 0 } };
+  });
+  inflight.set(domain, p);
+  return p;
+}
 
 function levenshtein(a, b) {
   const m = a.length, n = b.length;
@@ -372,7 +422,9 @@ export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-  res.setHeader('Cache-Control', 'public, max-age=300');
+  // v2.1: browser keeps 5 min freshness; shared/CDN caches 1h + 24h stale-while-revalidate.
+  // Cuts repeat invocations hard without changing what the user sees.
+  res.setHeader('Cache-Control', 'public, max-age=300, s-maxage=3600, stale-while-revalidate=86400');
 
   if (req.method === 'OPTIONS') {
     return res.status(200).end();
@@ -383,7 +435,7 @@ export default async function handler(req, res) {
   if (!domain) {
     return res.status(200).json({
       service: 'UTA Scam Checker',
-      version: '2.0.0',
+      version: '2.1.0',
       description: 'Free domain reputation heuristic with LIVE server-side RDAP registry age check and TLS certificate inspection. No API key, no registration, CORS open, cacheable.',
       usage: 'GET /api/scam-check?domain=example.com',
       honest_disclaimer: 'Engine v2: 6 static heuristics + 2 live checks (RDAP domain age, TLS certificate). No threat feeds. A new clean scam returns UNKNOWN, not TRUSTED.',
@@ -410,15 +462,17 @@ export default async function handler(req, res) {
     });
   }
 
-  // v2: run the two live checks (in parallel) only when they can add signal —
-  // first-party and popular domains short-circuit with known-good answers.
+  // v2.1: cached + de-duplicated live lookups (RDAP + TLS raw results).
+  // First-party and popular domains short-circuit with known-good answers.
   const knownGood = OPERATED_DOMAINS.has(cleanDomain) || POPULAR_DOMAINS.has(cleanDomain);
   let rdapResult = null, tlsResult = { ok: false, reason: 'skipped' };
+  let cacheMeta = null;
   if (!knownGood) {
-    [rdapResult, tlsResult] = await Promise.all([
-      rdapLookup(cleanDomain),
-      tlsLookup(cleanDomain)
-    ]);
+    const live = await liveLookups(cleanDomain);
+    rdapResult = live.rdap;
+    tlsResult = live.tls;
+    cacheMeta = live.cache;
+    res.setHeader('X-Scam-Check-Cache', cacheMeta.hit ? 'HIT' : 'MISS');
   }
 
   const checks = {
@@ -471,6 +525,9 @@ export default async function handler(req, res) {
     decision,
     risk_score: riskScore,
     first_party: isOperated,
+    live_lookup_cache: cacheMeta
+      ? { hit: cacheMeta.hit, age_seconds: cacheMeta.age_seconds, ttl_policy: 'definitive=3600s / transient-error=60s', note: 'raw RDAP+TLS results cached per instance; derived checks recomputed per request' }
+      : 'bypassed (first-party/popular domain — no live lookups needed)',
     reasons,
     checks,
     honest_disclaimer: 'Engine v2: heuristics + LIVE RDAP registry age and TLS certificate checks (server-side, no API key). Still no threat feeds — a new clean scam returns UNKNOWN, not TRUSTED. First-party domains (marketnow.site, alicelabs.site) are vouched directly by the operator — stated in the reason. Not a substitute for commercial threat intelligence.',
