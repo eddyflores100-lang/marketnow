@@ -1,20 +1,30 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
 // ─────────────────────────────────────────────────────────────────────────────
-// Instalación 1-click de Cursor · INSTALLER v4
+// Instalación 1-click de Cursor · INSTALLER v5 — PROTOCOLO DIRECTO
 //
-// Clic → abre la página oficial de instalación de Cursor (cursor.com/install-mcp)
-// en la MISMA pestaña. Esa página dispara el protocolo cursor:// por sí sola y
-// Cursor se abre automáticamente (el navegador pide permiso una vez, como con
-// cualquier enlace de Zoom/Telegram — ningún sitio web puede saltarse ese paso).
+// Clic → el navegador lanza DIRECTO el protocolo que Cursor registra en el SO:
+//   cursor://anysphere.cursor-deeplink/mcp/install?name=<enc>&config=<enc JSON>
+// (mecanismo idéntico al que ejecuta la página de cursor.com — extraído de su
+// propio JS — pero SIN página intermedia: la navegación a protocolos externos
+// no cambia la URL, el usuario se queda en marketnow.site).
 //
-// MISMA pestaña = sin rebote: la página de cursor solo puede auto-cerrarse
-// (window.close) cuando fue abierta como pestaña nueva por script; navegando
-// en la misma pestaña se queda visible mostrando "Launched Cursor".
+// El SO pedirá permiso UNA vez ("¿Abrir Cursor?"): regla ineludible para
+// cualquier app de escritorio (Zoom, Telegram, VS Code — todos pasan por ahí).
+// Tras aceptar, Cursor abre solo con el diálogo de instalación de MarketNow.
 //
-// Panel mínimo: botón + COPY. Nada más.
+// UX: botón + COPY. Sin páginas, sin manual, sin estados ruidosos.
+// Única ayuda: una línea discreta a los 8s SOLO si no hubo señal de apertura.
 // ─────────────────────────────────────────────────────────────────────────────
+
+const MCP_NAME = 'MarketNow';
+const MCP_SERVER = { url: 'https://marketnow.site/api/mcp' };
+
+const CURSOR_DEEPLINK =
+  'cursor://anysphere.cursor-deeplink/mcp/install' +
+  '?name=' + encodeURIComponent(MCP_NAME) +
+  '&config=' + encodeURIComponent(JSON.stringify(MCP_SERVER));
 
 const MCP_JSON = `{
   "mcpServers": {
@@ -24,13 +34,27 @@ const MCP_JSON = `{
   }
 }`;
 
-const CURSOR_INSTALL_URL =
-  'https://cursor.com/install-mcp?name=MarketNow&config=' +
-  encodeURIComponent(JSON.stringify({ url: 'https://marketnow.site/api/mcp' }));
-
 export default function AddToCursor() {
   const [copied, setCopied] = useState(false);
-  const [open, setOpen] = useState(false);
+  const [status, setStatus] = useState('idle'); // idle → opening → opened
+  const [hint, setHint] = useState(false);
+
+  // Éxito ≈ la pestaña pierde el foco: el diálogo "Open Cursor?" (o el propio
+  // Cursor ya en primer plano) tomaron el foco del SO. Heurística estándar de
+  // los botones "open in app". La ayuda a los 8s se cancela sola con el éxito.
+  useEffect(() => {
+    if (status !== 'opening') return undefined;
+    const focusLost = () => setStatus('opened');
+    const onVisibility = () => { if (document.hidden) focusLost(); };
+    window.addEventListener('blur', focusLost);
+    document.addEventListener('visibilitychange', onVisibility);
+    const hintTimer = setTimeout(() => setHint(true), 8000);
+    return () => {
+      window.removeEventListener('blur', focusLost);
+      document.removeEventListener('visibilitychange', onVisibility);
+      clearTimeout(hintTimer);
+    };
+  }, [status]);
 
   const copyConfig = async () => {
     try {
@@ -38,7 +62,7 @@ export default function AddToCursor() {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
-      /* clipboard bloqueado — el JSON desplegable es el fallback */
+      /* clipboard bloqueado — irrelevante para el flujo 1-click */
     }
   };
 
@@ -55,15 +79,16 @@ export default function AddToCursor() {
             Use MarketNow inside your agent
           </div>
           <div className="text-[10px] text-[#00F299]/60 font-mono tracking-wider">
-            REGISTRY v1.15.0 · INSTALLER v4
+            REGISTRY v1.15.0 · INSTALLER v5
           </div>
         </div>
 
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
-          {/* 1 click → página oficial de instalación de Cursor (misma pestaña).
-              Cursor se abre automáticamente tras permitirlo en el navegador. */}
+          {/* href = protocolo cursor:// DIRECTO. La navegación externa no mueve
+              la página: queda el prompt nativo del navegador y Cursor abre. */}
           <a
-            href={CURSOR_INSTALL_URL}
+            href={CURSOR_DEEPLINK}
+            onClick={() => { setStatus('opening'); setHint(false); }}
             className="flex items-center justify-center gap-2 px-6 py-3 bg-[#00F299] text-black font-bold rounded-lg hover:bg-[#00F299]/90 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 shadow-lg shadow-[#00F299]/20"
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -79,40 +104,22 @@ export default function AddToCursor() {
           </button>
         </div>
 
-        <p className="mt-3 text-xs text-zinc-500 leading-relaxed">
-          One click → Cursor opens. Remote streamable-http · no auth · also Claude
-          Desktop, Cline, VS Code, Windsurf.{' '}
-          <button
-            onClick={() => setOpen(o => !o)}
-            className="text-zinc-400 underline decoration-dotted underline-offset-2 cursor-pointer"
-          >
-            {open ? 'hide manual steps' : 'manual steps'}
-          </button>
-        </p>
-
-        {open && (
-          <div className="mt-3 text-left">
-            <div className="text-[10px] text-zinc-500 font-mono mb-2 uppercase tracking-wider">
-              Manual — no deep link needed
-            </div>
-            <ol className="text-xs text-zinc-400 leading-relaxed list-decimal list-inside space-y-2">
-              <li>
-                Cursor: <span className="text-white">Settings → MCP → “+ Add new MCP Server”</span>
-                {' '}→ name <span className="text-white">MarketNow</span>, URL:
-                <div className="mt-1 p-2 rounded-lg bg-black/80 border border-white/5 text-[#00F299] font-mono overflow-x-auto">
-                  https://marketnow.site/api/mcp
-                </div>
-              </li>
-              <li>
-                Or <span className="text-white">~/.cursor/mcp.json</span> /
-                {' '}<span className="text-white">claude_desktop_config.json</span> /
-                {' '}<span className="text-white">.mcp.json</span>:
-                <pre className="mt-1 p-3 rounded-lg bg-black/80 border border-white/5 text-[#00F299] text-xs font-mono overflow-x-auto">
-{MCP_JSON}
-                </pre>
-              </li>
-            </ol>
-          </div>
+        {status === 'opening' && (
+          <p className="mt-3 text-xs text-zinc-400 leading-relaxed">
+            Opening Cursor… your browser may ask once — choose{' '}
+            <span className="text-white">Open Cursor</span>.
+          </p>
+        )}
+        {status === 'opened' && (
+          <p className="mt-3 text-xs text-[#00F299] leading-relaxed">
+            Cursor is opening — accept the MarketNow install prompt inside Cursor.
+          </p>
+        )}
+        {hint && status !== 'opened' && (
+          <p className="mt-2 text-[11px] text-zinc-500 leading-relaxed">
+            Cursor didn&apos;t open? Click the button again, or open this page in your
+            desktop browser (Chrome / Edge / Firefox) — in-app webviews block app links.
+          </p>
         )}
       </div>
     </motion.div>
