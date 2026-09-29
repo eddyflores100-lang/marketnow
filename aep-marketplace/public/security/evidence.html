@@ -44,7 +44,7 @@ record. Where a layer is partial or planned, the row says so — that is the poi
 <div class="kpis">
 <div class="kpi"><div class="n">10</div><div class="l">declared layers (L1→L3 + L4–L9 grouped)</div></div>
 <div class="kpi"><div class="n">68,388</div><div class="l">L1-certified entries · 10 checks · 10 fully green</div></div>
-<div class="kpi"><div class="n">2,852</div><div class="l">tarballs deep-scanned (29 rules)</div></div>
+<div class="kpi"><div class="n">2,851</div><div class="l">tarballs deep-scanned (29 rules)</div></div>
 <div class="kpi"><div class="n">0.857</div><div class="l">benchmark F1 (decision level, n=18)</div></div>
 </div>
 
@@ -70,7 +70,7 @@ record. Where a layer is partial or planned, the row says so — that is the poi
 <td class="hide-sm">1 public catch (ledger qd_2026_08_15_001)</td>
 <td><a href="https://marketnow.site/api/quarantine">/api/quarantine (ledger)</a></td></tr>
 <tr><td class="lvl">L2</td><td>Deep scan of shipped npm tarballs: download, shasum-verify, 29 rules in tarball mode (dist/ included — the code that runs).</td><td class="st"><span class="badge ok">live</span></td>
-<td class="hide-sm">2,852 / 2,882 targets (99%) · 915 clean · 833 warn · 1,203 error · 21.4M weekly dl covered</td>
+<td class="hide-sm">2,851 / 2,882 targets (98.9%) · 916 clean · 833 warn · 1,201 error · 21.4M weekly dl covered</td>
 <td><a href="https://marketnow.site/api/certification-scans.json">/api/certification-scans.json</a><a href="https://marketnow.site/api/certification?summary=1">/api/certification?summary=1</a></td></tr>
 <tr><td class="lvl">L2.5</td><td>Sandbox execution: Docker --network none + seccomp + cap-drop ALL (GitHub Actions, async). gVisor: planned v3.1.</td><td class="st"><span class="badge warn">partial</span></td>
 <td class="hide-sm">1 runtime catch (trojan via clone() denial)</td>
@@ -90,7 +90,7 @@ record. Where a layer is partial or planned, the row says so — that is the poi
 <tr><td>Sentinel benchmark — precision 0.75 · recall 1.00 · F1 0.857 (n=18, all inputs public)</td><td><a href="https://marketnow.site/security/sentinel-benchmark">/security/sentinel-benchmark</a></td></tr>
 <tr><td>Independent pentest — NOT performed yet; scope published, compensating controls live</td><td><a href="https://marketnow.site/security/audit-2026-08-19#pentest">/security/audit-2026-08-19#pentest</a></td></tr>
 <tr><td>Current audit state — AUD-2026-0925 supersedes AUD-2026-0821-MN; re-audit 2026-12-25</td><td><a href="https://marketnow.site/trust/audit-status.json">/trust/audit-status.json</a></td></tr>
-<tr><td>766,588 security checks performed = 683,880 L1 (10 × 68,388) + 82,708 L2 (29 × 2,852) — breakdown in agent.json</td><td><a href="https://marketnow.site/api/agent.json">/api/agent.json</a></td></tr>
+<tr><td>766,559 security checks performed = 683,880 L1 (10 × 68,388) + 82,679 L2 (29 × 2,851) — breakdown in agent.json</td><td><a href="https://marketnow.site/api/agent.json">/api/agent.json</a></td></tr>
 <tr><td>Taxonomy — Sentinel 12 stages / 10 layers; ATC/1.0 10 controls (8 required); UTA 9 adapters</td><td><a href="https://marketnow.site/security/sentinel-v3.0">/security/sentinel-v3.0</a></td></tr>
 <tr><td>CA incident 2026-09-08 — mn-ca-002 revoked (KEY_COMPROMISE), fail-closed, 4 Rekor anchors</td><td><a href="https://marketnow.site/security/incidents/2026-09-08">/security/incidents/2026-09-08</a></td></tr>
 <tr><td>License matrix — every component, one table, registry-verifiable</td><td><a href="https://marketnow.site/licensing">/licensing</a></td></tr>
@@ -100,7 +100,7 @@ record. Where a layer is partial or planned, the row says so — that is the poi
 <h2>What this matrix does not claim</h2>
 <div class="warnbox"><b>Honesty notes.</b>
 <ul style="margin:8px 0 0; padding-left:20px">
-<li>L2 covers the top-2,868 npm targets (99% completion of that selection); the long tail carries L1 certification only.</li>
+<li>L2 covers the top-2,868 npm targets (98.9% completion of that selection); the long tail carries L1 certification only.</li>
 <li>The Smithery entries with <code>source.url = null</code> were repaired 2026-09-28 by resolving their real provenance — history in <code>repairs_applied</code> (/api/certification.json). Unknown provenance is never trusted.</li>
 <li>Benchmark n is small (18 decisions); it demonstrates verifiable transparency, not statistical power.</li>
 <li>gVisor (L2.5) and the maintainer-verified program are planned, not shipped.</li>
