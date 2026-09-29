@@ -99,6 +99,21 @@ Full transparency report: `GET https://marketnow.site/api/audit-report.json`
 npx -y marketnow-mcp
 ```
 
+### Add to Cursor — 1 click (no terminal)
+[![Add to Cursor](https://img.shields.io/badge/Cursor-Add_MarketNow-00F299?style=for-the-badge&logo=cursor)](https://cursor.com/install-mcp?name=MarketNow&config=%7B%22url%22%3A%20%22https%3A%2F%2Fmarketnow.site%2Fapi%2Fmcp%22%7D)
+
+Or manually — `~/.cursor/mcp.json`, `claude_desktop_config.json`, or any MCP client:
+```json
+{
+  "mcpServers": {
+    "MarketNow": {
+      "url": "https://marketnow.site/api/mcp"
+    }
+  }
+}
+```
+Remote streamable-http, no auth required. Also listed in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.alicelabs-llc%2Fmarketnow/versions/1.15.0).
+
 ### Install a skill stack
 ```bash
 npx -y marketnow-install-stack security-analyst

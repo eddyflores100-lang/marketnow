@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
+import AddToCursor from './AddToCursor';
 
 export default function Hero({ onSignIn }) {
   const [stats, setStats] = useState({ total: 68388, categories: 16, avgPrice: 2.50 });
@@ -145,6 +146,9 @@ export default function Hero({ onSignIn }) {
               </code>
             </div>
           </motion.div>
+
+          {/* Add to Cursor / MCP install panel */}
+          <AddToCursor />
         </motion.div>
       </div>
     </div>
