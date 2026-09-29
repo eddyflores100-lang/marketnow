@@ -4,8 +4,10 @@
 # drift producción-vs-repo): cada push que toca aep-marketplace/ dispara
 # un deployment PRODUCCIÓN construido por Vercel desde git master
 # (proyecto marketnow-uta, rootDirectory aep-marketplace).
-# El cron de 6h garantiza frescura de datos aunque un commit de datos
-# no toque aep-marketplace/.
+# 2026-09-29: schedule 6h ELIMINADO (ahorro de uso del plan free de Vercel:
+# 4 deploys/dia sin cambios = build + storage). Deploys: push a master +
+# manual (Actions -> Deploy to Vercel -> Run workflow). Para restaurarlo
+# agrega de nuevo el bloque schedule.
 #
 # Requiere el secret VERCEL_TOKEN (token de la API de Vercel) en este repo.
 # Límite del plan Hobby: 12 funciones serverless por deployment — el set
@@ -18,8 +20,6 @@ on:
     paths:
       - 'aep-marketplace/**'
       - '.github/workflows/vercel-deploy.yml'
-  schedule:
-    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 permissions:
