@@ -104,6 +104,10 @@
       "destination": "/security/audit-2026-08-19.html"
     },
     {
+      "source": "/privacy",
+      "destination": "/privacy.html"
+    },
+    {
       "source": "/((?!api/|uta/|trust/|policies/|security/|for-agents|landing-pages/|tools/|acp|atc|status|\\.well-known/).*)",
       "destination": "/index.html"
     },
@@ -258,10 +262,6 @@
     {
       "source": "/api/agent-wallet",
       "destination": "/api/agent-wallet.json"
-    },
-    {
-      "source": "/privacy",
-      "destination": "/privacy.html"
     }
   ],
   "headers": [
