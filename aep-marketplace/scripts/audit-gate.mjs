@@ -22,7 +22,7 @@
 //  13 STALE-DRIFT   — generación vieja (23/23, 116/409, UTA v1.0.0) erradicada (P0-1)
 //  14 NEW-SURFACES  — /licensing, /security/incidents/2026-09-08, TEST ONLY (P1-7/8/9)
 //  15 SPA-SYNC      — chips/stats del SPA driven del registry, cero generación vieja (4ª ronda)
-//  16 TRACKED       — 132,737/68,388 consistentes en todos los well-known (4ª ronda)
+//  16 TRACKED       — 132,966/68,617 consistentes en todos los well-known (4ª ronda)
 //  17 FORMATS-9     — 9 adapters en stats/trust.js/mcp.js/agent.json (4ª ronda)
 //  (live) LIVE-PROD — MCP initialize serverInfo + /api/stats.json vs bundle
 //  (live) LIVE-SEC  — superficies de seguridad vivas + cert/benchmark vivo == repo
@@ -182,7 +182,7 @@ try {
   const sb = j('lib/stats-base.json');
   const checks = [
     [cert.catalog_total === bundle.length, `cert catalog_total=${cert.catalog_total} vs bundle=${bundle.length}`],
-    [(/^2026-09-2[0-9]|^202[7-9]-/).test(cert.generated_at || ''), `cert generated_at=${cert.generated_at}` + (/^2026-09-2[0-9]|^202[7-9]-/.test(cert.generated_at || '') ? '' : ' — snapshot viejo (regenera con scripts/certify_regen_2026_09_25.py)')],
+    [(/^2026-09-(2[0-9]|30)|^202[7-9]-/).test(cert.generated_at || ''), `cert generated_at=${cert.generated_at}` + (/^2026-09-(2[0-9]|30)|^202[7-9]-/.test(cert.generated_at || '') ? '' : ' — snapshot viejo (regenera con scripts/certify_regen_2026_09_25.py)')],
     [(cert.checks || []).length === 10, `cert checks=${(cert.checks || []).length} (esperados 10)`],
     [cert.index_certification?.checks_passed === sb.security?.l1_checks_passed,
       `cert checks_passed=${cert.index_certification?.checks_passed} vs stats l1_checks_passed=${sb.security?.l1_checks_passed}`],
@@ -436,7 +436,7 @@ try {
   for (const [ok, msg] of checks) log(ok ? '✓' : '✗', 'SPA-SYNC', msg);
 } catch (e) { log('✗', 'SPA-SYNC', e.message); }
 
-// ── Gate 16: TRACKED-CONSISTENCY (4ª auditoría: 132,737 en todas partes) ────
+// ── Gate 16: TRACKED-CONSISTENCY (4ª auditoría: 132,966 en todas partes) ────
 try {
   const sbT = j('lib/stats-base.json').discovery?.total_tracked_all_sources;
   const ajT = j('public/api/agent.json').metrics?.skills_tracked_all_sources;
@@ -449,12 +449,12 @@ try {
   const aip = readFileSync(join(ROOT, 'public/.well-known/ai-plugin.json'), 'utf8');
   const aipN = Number((aip.match(/install ([\d,]{4,7}) index-certified/) || [])[1]?.replace(/,/g, ''));
   const checks = [
-    [sbT === 132737, `stats-base total_tracked=${sbT}`],
+    [sbT === 132966, `stats-base total_tracked=${sbT}`],
     [ajT === sbT && wkT === sbT, `agent.json (canonical=${ajT}, well-known=${wkT}) == stats-base`],
     [mcpT === sbT, `mcp.json "${mcpT} total tracked" == ${sbT}`],
-    [mkT === 68388, `mcp-marketplace.json stats.total_skills=${mkT} (== bundle)`],
+    [mkT === 68617, `mcp-marketplace.json stats.total_skills=${mkT} (== bundle)`],
     [scT === sbT, `server-card.json "${scT} total tracked" == ${sbT}`],
-    [aipN === 68388, `ai-plugin.json "${aipN} index-certified" == 68,388`],
+    [aipN === 68617, `ai-plugin.json "${aipN} index-certified" == 68,617`],
   ];
   for (const [ok, msg] of checks) log(ok ? '✓' : '✗', 'TRACKED', msg);
 } catch (e) { log('✗', 'TRACKED', e.message); }
