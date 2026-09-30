@@ -1,0 +1,58 @@
+{
+  "submission_id": "sub_c1320f485700",
+  "skill_id": "mn-sub-99191",
+  "status": "pending_l2_audit",
+  "submitted_at": "2026-09-30T17:26:15.094Z",
+  "submitter": {
+    "agent_id": "agent_mcp_suite_2026",
+    "email": "agent@mcp-suite.dev",
+    "ref_code": null,
+    "ip_hash": null
+  },
+  "repo": {
+    "url": "https://github.com/eddyflores100-lang/mcp-suite/tree/main/servers/mcp-quote-negotiator",
+    "full_name": "eddyflores100-lang/mcp-suite",
+    "owner": "eddyflores100-lang",
+    "name": "mcp-quote-negotiator",
+    "description": "Protocolo de oferta y contraoferta con precio de reserva, BATNA y concesiones decrecientes",
+    "stars": 0,
+    "language": "TypeScript",
+    "license": "MIT",
+    "pushed_at": "2026-09-30T17:26:15.094Z",
+    "archived": false,
+    "topics": [
+      "mcp",
+      "ai-agent",
+      "model-context-protocol",
+      "typescript",
+      "local-first"
+    ]
+  },
+  "skill": {
+    "id": "mn-sub-99191",
+    "name": "mcp-quote-negotiator",
+    "slug": "mcp-quote-negotiator",
+    "description": "Protocolo de oferta y contraoferta con precio de reserva, BATNA y concesiones decrecientes Dolor que resuelve: Dos agentes 'negocian' intercambiando números sin estructura: sin precio de reserva, sin alternativa de respaldo, sin estrategia de concesión. Uno acaba aceptando cualquier cosa o los dos en bucle infinito. Incluye 6 tools (+health_check), 100% local (Node/TS, stdio), persistencia en ~/.mcp-suite/.",
+    "category": "Community Submitted",
+    "price": 4.99,
+    "review_status": "auto-scanned",
+    "source": {
+      "type": "community-submitted",
+      "url": "https://github.com/eddyflores100-lang/mcp-suite/tree/main/servers/mcp-quote-negotiator",
+      "submitted_at": "2026-09-30T17:26:15.094Z"
+    },
+    "install": "git clone https://github.com/eddyflores100-lang/mcp-suite.git && cd mcp-suite && node install.mjs --client claude --only quote-negotiator",
+    "author": "AliceLabs",
+    "version": "1.0.0"
+  },
+  "audit": {
+    "l15_score": 6,
+    "l15_findings": [],
+    "l17_blocked": false,
+    "l2_status": "pending",
+    "l2_scheduled_at": "2026-09-30T18:26:15.112Z",
+    "overall_score": null
+  },
+  "atc_preallocated": false,
+  "atc_card_id": null
+}

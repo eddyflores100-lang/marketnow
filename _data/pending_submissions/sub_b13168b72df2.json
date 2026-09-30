@@ -1,0 +1,58 @@
+{
+  "submission_id": "sub_b13168b72df2",
+  "skill_id": "mn-sub-99223",
+  "status": "pending_l2_audit",
+  "submitted_at": "2026-09-30T17:26:15.094Z",
+  "submitter": {
+    "agent_id": "agent_mcp_suite_2026",
+    "email": "agent@mcp-suite.dev",
+    "ref_code": null,
+    "ip_hash": null
+  },
+  "repo": {
+    "url": "https://github.com/eddyflores100-lang/mcp-suite/tree/main/servers/mcp-error-taxonomy",
+    "full_name": "eddyflores100-lang/mcp-suite",
+    "owner": "eddyflores100-lang",
+    "name": "mcp-error-taxonomy",
+    "description": "Agrupa los errores del agente en familias con firma común: el error 47 y el 3 son el MISMO error, ahora lo verás",
+    "stars": 0,
+    "language": "TypeScript",
+    "license": "MIT",
+    "pushed_at": "2026-09-30T17:26:15.094Z",
+    "archived": false,
+    "topics": [
+      "mcp",
+      "ai-agent",
+      "model-context-protocol",
+      "typescript",
+      "local-first"
+    ]
+  },
+  "skill": {
+    "id": "mn-sub-99223",
+    "name": "mcp-error-taxonomy",
+    "slug": "mcp-error-taxonomy",
+    "description": "Agrupa los errores del agente en familias con firma común: el error 47 y el 3 son el MISMO error, ahora lo verás Dolor que resuelve: El agente acumula 200 errores registrados como 200 eventos únicos: sin clustering por similitud, el patrón que se repite 40 veces es invisible y cada 'arreglo' ataca el síntoma de la semana. Incluye 5 tools (+health_check), 100% local (Node/TS, stdio), persistencia en ~/.mcp-suite/.",
+    "category": "Community Submitted",
+    "price": 4.99,
+    "review_status": "auto-scanned",
+    "source": {
+      "type": "community-submitted",
+      "url": "https://github.com/eddyflores100-lang/mcp-suite/tree/main/servers/mcp-error-taxonomy",
+      "submitted_at": "2026-09-30T17:26:15.094Z"
+    },
+    "install": "git clone https://github.com/eddyflores100-lang/mcp-suite.git && cd mcp-suite && node install.mjs --client claude --only error-taxonomy",
+    "author": "AliceLabs",
+    "version": "1.0.0"
+  },
+  "audit": {
+    "l15_score": 6,
+    "l15_findings": [],
+    "l17_blocked": false,
+    "l2_status": "pending",
+    "l2_scheduled_at": "2026-09-30T18:26:15.114Z",
+    "overall_score": null
+  },
+  "atc_preallocated": false,
+  "atc_card_id": null
+}

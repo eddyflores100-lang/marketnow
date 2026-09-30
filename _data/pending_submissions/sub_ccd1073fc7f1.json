@@ -1,0 +1,58 @@
+{
+  "submission_id": "sub_ccd1073fc7f1",
+  "skill_id": "mn-sub-99218",
+  "status": "pending_l2_audit",
+  "submitted_at": "2026-09-30T17:26:15.094Z",
+  "submitter": {
+    "agent_id": "agent_mcp_suite_2026",
+    "email": "agent@mcp-suite.dev",
+    "ref_code": null,
+    "ip_hash": null
+  },
+  "repo": {
+    "url": "https://github.com/eddyflores100-lang/mcp-suite/tree/main/servers/mcp-counterfactual-lab",
+    "full_name": "eddyflores100-lang/mcp-suite",
+    "owner": "eddyflores100-lang",
+    "name": "mcp-counterfactual-lab",
+    "description": "Laboratorio de contrafactuales: cambia UNA variable del pasado y compara mundos con el conjunto mínimo de cambios",
+    "stars": 0,
+    "language": "TypeScript",
+    "license": "MIT",
+    "pushed_at": "2026-09-30T17:26:15.094Z",
+    "archived": false,
+    "topics": [
+      "mcp",
+      "ai-agent",
+      "model-context-protocol",
+      "typescript",
+      "local-first"
+    ]
+  },
+  "skill": {
+    "id": "mn-sub-99218",
+    "name": "mcp-counterfactual-lab",
+    "slug": "mcp-counterfactual-lab",
+    "description": "Laboratorio de contrafactuales: cambia UNA variable del pasado y compara mundos con el conjunto mínimo de cambios Dolor que resuelve: El agente razona 'si hubiéramos hecho X habría pasado Y' por pura narrativa: cambia cinco cosas a la vez, atribuye el resultado a la que le conviene y la lección aprendida es ficción retrospectiva. Incluye 4 tools (+health_check), 100% local (Node/TS, stdio), persistencia en ~/.mcp-suite/.",
+    "category": "Community Submitted",
+    "price": 4.99,
+    "review_status": "auto-scanned",
+    "source": {
+      "type": "community-submitted",
+      "url": "https://github.com/eddyflores100-lang/mcp-suite/tree/main/servers/mcp-counterfactual-lab",
+      "submitted_at": "2026-09-30T17:26:15.094Z"
+    },
+    "install": "git clone https://github.com/eddyflores100-lang/mcp-suite.git && cd mcp-suite && node install.mjs --client claude --only counterfactual-lab",
+    "author": "AliceLabs",
+    "version": "1.0.0"
+  },
+  "audit": {
+    "l15_score": 6,
+    "l15_findings": [],
+    "l17_blocked": false,
+    "l2_status": "pending",
+    "l2_scheduled_at": "2026-09-30T18:26:15.113Z",
+    "overall_score": null
+  },
+  "atc_preallocated": false,
+  "atc_card_id": null
+}

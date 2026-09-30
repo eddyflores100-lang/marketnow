@@ -1,0 +1,58 @@
+{
+  "submission_id": "sub_3d93efb920fd",
+  "skill_id": "mn-sub-99041",
+  "status": "pending_l2_audit",
+  "submitted_at": "2026-09-30T17:26:15.094Z",
+  "submitter": {
+    "agent_id": "agent_mcp_suite_2026",
+    "email": "agent@mcp-suite.dev",
+    "ref_code": null,
+    "ip_hash": null
+  },
+  "repo": {
+    "url": "https://github.com/eddyflores100-lang/mcp-suite/tree/main/servers/mcp-tool-registry",
+    "full_name": "eddyflores100-lang/mcp-suite",
+    "owner": "eddyflores100-lang",
+    "name": "mcp-tool-registry",
+    "description": "Registro local de herramientas: catálogo, tags y búsqueda semántica ligera",
+    "stars": 0,
+    "language": "TypeScript",
+    "license": "MIT",
+    "pushed_at": "2026-09-30T17:26:15.094Z",
+    "archived": false,
+    "topics": [
+      "mcp",
+      "ai-agent",
+      "model-context-protocol",
+      "typescript",
+      "local-first"
+    ]
+  },
+  "skill": {
+    "id": "mn-sub-99041",
+    "name": "mcp-tool-registry",
+    "slug": "mcp-tool-registry",
+    "description": "Registro local de herramientas: catálogo, tags y búsqueda semántica ligera Dolor que resuelve: Con decenas de MCP instalados el agente no sabe qué tools existen ni qué hacen: falta un registro consultable. Incluye 5 tools (+health_check), 100% local (Node/TS, stdio), persistencia en ~/.mcp-suite/.",
+    "category": "Community Submitted",
+    "price": 2.99,
+    "review_status": "auto-scanned",
+    "source": {
+      "type": "community-submitted",
+      "url": "https://github.com/eddyflores100-lang/mcp-suite/tree/main/servers/mcp-tool-registry",
+      "submitted_at": "2026-09-30T17:26:15.094Z"
+    },
+    "install": "git clone https://github.com/eddyflores100-lang/mcp-suite.git && cd mcp-suite && node install.mjs --client claude --only tool-registry",
+    "author": "AliceLabs",
+    "version": "1.0.0"
+  },
+  "audit": {
+    "l15_score": 6,
+    "l15_findings": [],
+    "l17_blocked": false,
+    "l2_status": "pending",
+    "l2_scheduled_at": "2026-09-30T18:26:15.103Z",
+    "overall_score": null
+  },
+  "atc_preallocated": false,
+  "atc_card_id": null
+}

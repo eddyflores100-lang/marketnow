@@ -1,0 +1,58 @@
+{
+  "submission_id": "sub_1cf40a38074a",
+  "skill_id": "mn-sub-99212",
+  "status": "pending_l2_audit",
+  "submitted_at": "2026-09-30T17:26:15.094Z",
+  "submitter": {
+    "agent_id": "agent_mcp_suite_2026",
+    "email": "agent@mcp-suite.dev",
+    "ref_code": null,
+    "ip_hash": null
+  },
+  "repo": {
+    "url": "https://github.com/eddyflores100-lang/mcp-suite/tree/main/servers/mcp-tenant-quota-manager",
+    "full_name": "eddyflores100-lang/mcp-suite",
+    "owner": "eddyflores100-lang",
+    "name": "mcp-tenant-quota-manager",
+    "description": "Cuotas por inquilino: tokens, llamadas y almacenaje con contadores que se agotan de verdad",
+    "stars": 0,
+    "language": "TypeScript",
+    "license": "MIT",
+    "pushed_at": "2026-09-30T17:26:15.094Z",
+    "archived": false,
+    "topics": [
+      "mcp",
+      "ai-agent",
+      "model-context-protocol",
+      "typescript",
+      "local-first"
+    ]
+  },
+  "skill": {
+    "id": "mn-sub-99212",
+    "name": "mcp-tenant-quota-manager",
+    "slug": "mcp-tenant-quota-manager",
+    "description": "Cuotas por inquilino: tokens, llamadas y almacenaje con contadores que se agotan de verdad Dolor que resuelve: Un tenant consume el 80% del presupuesto compartido y el resto ve respuestas lentas o errores: sin cuotas duras por inquilino, el recurso compartido es una tragedia de los comunes garantizada. Incluye 5 tools (+health_check), 100% local (Node/TS, stdio), persistencia en ~/.mcp-suite/.",
+    "category": "Community Submitted",
+    "price": 4.99,
+    "review_status": "auto-scanned",
+    "source": {
+      "type": "community-submitted",
+      "url": "https://github.com/eddyflores100-lang/mcp-suite/tree/main/servers/mcp-tenant-quota-manager",
+      "submitted_at": "2026-09-30T17:26:15.094Z"
+    },
+    "install": "git clone https://github.com/eddyflores100-lang/mcp-suite.git && cd mcp-suite && node install.mjs --client claude --only tenant-quota-manager",
+    "author": "AliceLabs",
+    "version": "1.0.0"
+  },
+  "audit": {
+    "l15_score": 6,
+    "l15_findings": [],
+    "l17_blocked": false,
+    "l2_status": "pending",
+    "l2_scheduled_at": "2026-09-30T18:26:15.113Z",
+    "overall_score": null
+  },
+  "atc_preallocated": false,
+  "atc_card_id": null
+}

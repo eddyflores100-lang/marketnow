@@ -1,0 +1,58 @@
+{
+  "submission_id": "sub_6aa80dde9db7",
+  "skill_id": "mn-sub-99213",
+  "status": "pending_l2_audit",
+  "submitted_at": "2026-09-30T17:26:15.094Z",
+  "submitter": {
+    "agent_id": "agent_mcp_suite_2026",
+    "email": "agent@mcp-suite.dev",
+    "ref_code": null,
+    "ip_hash": null
+  },
+  "repo": {
+    "url": "https://github.com/eddyflores100-lang/mcp-suite/tree/main/servers/mcp-noisy-neighbor-detector",
+    "full_name": "eddyflores100-lang/mcp-suite",
+    "owner": "eddyflores100-lang",
+    "name": "mcp-noisy-neighbor-detector",
+    "description": "Detecta al inquilino ruidoso: quién consume más de lo justo y degrada la experiencia de los demás",
+    "stars": 0,
+    "language": "TypeScript",
+    "license": "MIT",
+    "pushed_at": "2026-09-30T17:26:15.094Z",
+    "archived": false,
+    "topics": [
+      "mcp",
+      "ai-agent",
+      "model-context-protocol",
+      "typescript",
+      "local-first"
+    ]
+  },
+  "skill": {
+    "id": "mn-sub-99213",
+    "name": "mcp-noisy-neighbor-detector",
+    "slug": "mcp-noisy-neighbor-detector",
+    "description": "Detecta al inquilino ruidoso: quién consume más de lo justo y degrada la experiencia de los demás Dolor que resuelve: Todos los tenants ven 'el agente va lento' pero nadie ve quién lo causa: sin medición de consumo relativo por inquilino, el vecino ruidoso es invisible y la degradación se achaca al sistema. Incluye 4 tools (+health_check), 100% local (Node/TS, stdio), persistencia en ~/.mcp-suite/.",
+    "category": "Community Submitted",
+    "price": 4.99,
+    "review_status": "auto-scanned",
+    "source": {
+      "type": "community-submitted",
+      "url": "https://github.com/eddyflores100-lang/mcp-suite/tree/main/servers/mcp-noisy-neighbor-detector",
+      "submitted_at": "2026-09-30T17:26:15.094Z"
+    },
+    "install": "git clone https://github.com/eddyflores100-lang/mcp-suite.git && cd mcp-suite && node install.mjs --client claude --only noisy-neighbor-detector",
+    "author": "AliceLabs",
+    "version": "1.0.0"
+  },
+  "audit": {
+    "l15_score": 6,
+    "l15_findings": [],
+    "l17_blocked": false,
+    "l2_status": "pending",
+    "l2_scheduled_at": "2026-09-30T18:26:15.113Z",
+    "overall_score": null
+  },
+  "atc_preallocated": false,
+  "atc_card_id": null
+}
