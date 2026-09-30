@@ -1,7 +1,7 @@
 {
   "submission_id": "sub_486b0fa9ff72",
   "skill_id": "mn-sub-99117",
-  "status": "pending_l2_audit",
+  "status": "promoted",
   "submitted_at": "2026-09-30T17:26:15.094Z",
   "submitter": {
     "agent_id": "agent_mcp_suite_2026",
@@ -49,10 +49,11 @@
     "l15_score": 6,
     "l15_findings": [],
     "l17_blocked": false,
-    "l2_status": "pending",
+    "l2_status": "completed",
     "l2_scheduled_at": "2026-09-30T18:26:15.109Z",
-    "overall_score": null
+    "overall_score": 7
   },
   "atc_preallocated": false,
-  "atc_card_id": null
+  "atc_card_id": null,
+  "promoted_at": "2026-09-30T18:06:53.604Z"
 }
