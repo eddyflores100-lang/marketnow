@@ -30,6 +30,8 @@ const TOOLS = [
   {
     name: "marketnow_verify_trust",
     description: "Verify any AI agent credential (ATC v3, JWT/OAuth, W3C VC, MCP Card, A2A, EAT-AI, ZTA, SPIFFE SVID, X.509) through the UTA 12-stage credential-verification pipeline (PARSE→DECISION — distinct from Sentinel's 12 skill-audit stages). Returns validity, format, trust score, and issues.",
+    title: "Verify agent credential",
+    annotations: { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
     inputSchema: {
       type: "object",
       properties: {
@@ -44,6 +46,8 @@ const TOOLS = [
   {
     name: "marketnow_translate_credential",
     description: "Translate a credential between the 9 adapter formats (ATC, JWT/OAuth, W3C VC, A2A, EAT-AI, ZTA, MCP Card, SPIFFE, X.509). Lossless conversion through Universal Trust Schema (UTS). See /api/trust?action=formats.",
+    title: "Translate credential format",
+    annotations: { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
     inputSchema: {
       type: "object",
       properties: {
@@ -57,16 +61,22 @@ const TOOLS = [
   {
     name: "marketnow_list_formats",
     description: "List all 9 supported credential adapter formats (ATC, EAT-AI, ZTA, A2A, MCP Card, W3C VC, OAuth, SPIFFE, X.509) with their algorithms and status.",
+    title: "List credential formats",
+    annotations: { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
     inputSchema: { type: "object", properties: {} }
   },
   {
     name: "marketnow_get_pipeline",
     description: "Get the 12-stage credential-verification pipeline details (PARSE→DECISION).",
+    title: "Get verification pipeline",
+    annotations: { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
     inputSchema: { type: "object", properties: {} }
   },
   {
     name: "marketnow_check_domain",
     description: "Check if a domain is suspicious (scam checker). Returns risk score and reasons.",
+    title: "Check domain risk",
+    annotations: { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: true },
     inputSchema: {
       type: "object",
       properties: {
@@ -78,6 +88,8 @@ const TOOLS = [
   {
     name: "marketnow_search_skills",
     description: "Search the MarketNow registry of indexed MCP servers (68k+ across GitHub, npm and PyPI, security-first scored).",
+    title: "Search MCP servers",
+    annotations: { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
     inputSchema: {
       type: "object",
       properties: {
@@ -89,6 +101,8 @@ const TOOLS = [
   {
     name: "marketnow_check_revocation",
     description: "Check the revocation status of an Agent Trust Card (card_id) or CA key (kid) against the signed MarketNow Revocation Registry (MNR-CRL-1.0) + live ledger. Returns VALID/EXPIRED/REVOKED/SUPERSEDED/UNKNOWN with PERMIT/DENY recommendation. Fail-closed: unknown subjects answer UNKNOWN+DENY. The signed CRL layer is independently verifiable via Ed25519 (RFC 8785 JCS).",
+    title: "Check revocation status",
+    annotations: { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
     inputSchema: {
       type: "object",
       properties: {
@@ -101,6 +115,8 @@ const TOOLS = [
   {
     name: "marketnow_fingerprint_tool",
     description: "Cryptographically fingerprint MCP tool definitions (OWASP MCP Cheat Sheet: 'verify tool descriptions haven't changed'). Computes RFC 8785 JCS + sha256 per tool plus a manifest fingerprint for the whole tools/list surface. Pass a previous manifest in 'pinned' to get a drift report (added/removed/changed) — the core defense against tool poisoning and rug-pull redefinitions.",
+    title: "Fingerprint MCP tools",
+    annotations: { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
     inputSchema: {
       type: "object",
       properties: {
@@ -120,6 +136,8 @@ const TOOLS = [
   {
     name: "marketnow_submit_skill",
     description: "Publish a skill to the MarketNow catalog (the write side). The package is validated and Sentinel-scanned (injection patterns, embedded secrets, dangerous APIs, suspicious URLs, typosquat, dedup against the 68k+ catalog) AND its claims are verified live: repo_url must exist (HTTP 200), install must reference a real package on npm/PyPI/crates/Docker Hub. False claims are rejected (422). Accepted skills with real substance (files/code/verifiable repo) are stored in the public auditable queue as certified-L1.5, pending L2 review and catalog merge. Description-only submissions are accepted but never merged. Any pricing model is accepted — free, per-call (x402), subscription or custom: the vendor sets the price, MarketNow verifies the security. No authentication required. Do NOT include secrets — the scanner rejects them.",
+    title: "Submit MCP skill",
+    annotations: { readOnlyHint: false, destructiveHint: false, idempotentHint: false, openWorldHint: true },
     inputSchema: {
       type: "object",
       properties: {
