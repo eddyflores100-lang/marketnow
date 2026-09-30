@@ -1,10 +1,10 @@
 {
   "schema": "marketnow-certification/1.0",
-  "generated_at": "2026-09-28T01:06:50Z",
-  "supersedes_generated_at": "2026-09-25T02:40:00Z",
+  "generated_at": "2026-09-30T18:31:27.645Z",
+  "supersedes_generated_at": "2026-09-28T01:06:50Z",
   "level": 1,
   "level_name": "index-certified",
-  "catalog_total": 68388,
+  "catalog_total": 68617,
   "methodology": {
     "model": "Two-level risk model (documented in changelog 5.2.0): risk_level = INSTALL mechanics; trust_score_100 = source evidence heuristic. Levels: L1 index-certified (all entries), L2 sentinel-scanned (29-rule code scan of shipped artifact), L3 trust-chain (ATC/OCSP/CRL).",
     "risk_model": {
@@ -115,11 +115,11 @@
     }
   ],
   "index_certification": {
-    "coverage": "683880/683880",
+    "coverage": "686170/686170",
     "all_checks_pass": true,
     "checks_passed": 10,
     "checks_total": 10,
-    "scope": "L1 index certification only: 10 checks x 68388 entries (683880 checks). L2 Sentinel adds 82331 rule checks (29 x 2839) — see agent.json security_checks_breakdown."
+    "scope": "L1 index certification only: 10 checks x 68617 entries (686170 checks). L2 Sentinel adds 82331 rule checks (29 x 2839) — see agent.json security_checks_breakdown."
   },
   "distributions": {
     "sources": {
@@ -130,18 +130,18 @@
       "smithery": 6195,
       "crates": 1933,
       "docker": 625,
-      "community-submitted": 18,
+      "community-submitted": 247,
       "community-submission": 3,
       "first-party": 1
     },
     "risk": {
       "red": 50644,
-      "yellow": 17741,
+      "yellow": 17970,
       "green": 3
     },
     "free_vs_paid": {
-      "free": 68387,
-      "paid": 1
+      "free": 68424,
+      "paid": 193
     }
   },
   "repairs_applied": {

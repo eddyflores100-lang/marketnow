@@ -284,7 +284,7 @@ try {
       'metodología cita ambas fórmulas (10 L1 + 29 L2)'],
   ];
   for (const [ok, msg] of checks) log(ok ? '✓' : '✗', 'CHECKS-MATH', msg);
-  log('✓', 'CHECKS-MATH', `${m.security_checks_performed?.toLocaleString('en-US')} = 683,880 L1 + 82,331 L2 (desglose público)`);
+  log('✓', 'CHECKS-MATH', `${m.security_checks_performed?.toLocaleString('en-US')} = 686,170 L1 + 82,679 L2 (desglose público)`);
 } catch (e) { log('✗', 'CHECKS-MATH', e.message); }
 
 // ── Gate 11: taxonomía oficial 12/10/10 (3ª auditoría, P0-3) ────────────────
@@ -536,12 +536,12 @@ try {
   // 18e. MCP-CANON: mcp.json bien-known canónico (descripción 132,737 + stats + tool_counts + schema)
   try {
     const mcp = j('public/.well-known/mcp.json');
-    const ok = mcp.description.includes('(132,737 total tracked)') &&
-      mcp.marketplace_stats?.total_skills === 68388 &&
+    const ok = mcp.description.includes('(132,966 total tracked)') &&
+      mcp.marketplace_stats?.total_skills === 68617 &&
       mcp.tool_counts?.remote_endpoint === 9 && mcp.tool_counts?.npm_package === 15 &&
       existsSync(join(ROOT, 'public/.well-known/mcp.schema.json')) &&
       JSON.stringify(mcp.tools).includes('9 adapter formats');
-    log(ok ? '✓' : '✗', 'MCP-CANON', ok ? 'mcp.json: desc 132,737 · 68,388 · tools 9 remotas (9 adapter formats) · tool_counts 9/15 · schema presente' : 'mcp.json canónico diverge (desc/stats/tool_counts/schema/9-formats)');
+    log(ok ? '✓' : '✗', 'MCP-CANON', ok ? 'mcp.json: desc 132,966 · 68,617 · tools 9 remotas (9 adapter formats) · tool_counts 9/15 · schema presente' : 'mcp.json canónico diverge (desc/stats/tool_counts/schema/9-formats)');
   } catch (e) { log('✗', 'MCP-CANON', e.message); }
 
   // 18f. COMMERCE-HONEST: endpoints de comercio declarados PLANNED en docs + respuesta tipada
@@ -627,7 +627,7 @@ if (LIVE) {
       const ajLive = await ajRes.json();
       const repoTotal = j('public/api/agent.json').metrics?.security_checks_performed;
       log(ajLive.metrics?.security_checks_performed === repoTotal
-        ? '✓' : '✗', 'LIVE-SEC', `agent.json vivo security_checks=${ajLive.metrics?.security_checks_performed} vs repo ${repoTotal} (766,211 = 683,880 + 82,331)`);
+        ? '✓' : '✗', 'LIVE-SEC', `agent.json vivo security_checks=${ajLive.metrics?.security_checks_performed} vs repo ${repoTotal} (768,849 = 686,170 + 82,679)`);
       log(ajLive.capabilities?.protocols?.mcp?.tools_count === 9
         ? '✓' : '✗', 'LIVE-SEC', `agent.json vivo: ${ajLive.capabilities?.protocols?.mcp?.tools_count} tools remotas declaradas (esperadas 9)`);
     } catch (e2) { log('✗', 'LIVE-SEC', `agent.json vivo falló: ${e2.message}`); }

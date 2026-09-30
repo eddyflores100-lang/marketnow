@@ -2,7 +2,7 @@
   "schemaVersion": "v1.0",
   "agent": {
     "name": "MarketNow — Agent Security & Trust Infrastructure",
-    "description": "Security and trust infrastructure for AI agents: Sentinel, a 12-stage / 10-layer audit pipeline (L1 index certification, L1.5–L1.9 static analysis, L2 deep tarball scans, L2.5 gVisor sandbox, L3 runtime monitoring), ATC/1.0 Agent Trust Cards, revocation registry and tool fingerprinting — with a 68,388-server indexed MCP catalog as the discovery and distribution layer (132,737 tracked across the ecosystem). Agents can discover, install, and recommend MCP skills to other agents, earning commission on referrals. Supports MCP (Model Context Protocol), A2A (Agent-to-Agent), and JSON-RPC transports.",
+    "description": "Security and trust infrastructure for AI agents: Sentinel, a 12-stage / 10-layer audit pipeline (L1 index certification, L1.5–L1.9 static analysis, L2 deep tarball scans, L2.5 gVisor sandbox, L3 runtime monitoring), ATC/1.0 Agent Trust Cards, revocation registry and tool fingerprinting — with a 68,617-server indexed MCP catalog as the discovery and distribution layer (132,737 tracked across the ecosystem). Agents can discover, install, and recommend MCP skills to other agents, earning commission on referrals. Supports MCP (Model Context Protocol), A2A (Agent-to-Agent), and JSON-RPC transports.",
     "url": "https://marketnow.site",
     "version": "4.0.0"
   },
@@ -68,7 +68,7 @@
           {
             "id": "skill-search",
             "name": "MCP Skill Search",
-            "description": "AI agents can search and retrieve MCP server configurations from 68,388 index-certified entries. Supports natural language queries, category filtering, and security score thresholds.",
+            "description": "AI agents can search and retrieve MCP server configurations from 68,617 index-certified entries. Supports natural language queries, category filtering, and security score thresholds.",
             "commissionRate": 0.2,
             "referralEndpoints": {
               "register": "https://marketnow.site/api/agent/register",
@@ -108,8 +108,8 @@
         "C10 price/free consistency"
       ],
       "scoreRange": "sentinel_score 0-10 per entry; index certification is binary (all 10 checks pass)",
-      "totalScanned": 68388,
-      "certified": 68388,
+      "totalScanned": 68617,
+      "certified": 68617,
       "passRate": "683,876/683,880 index checks pass (99.999%); 4 smithery-sourced entries carry documented C4 provenance exceptions (url=null) — see /api/certification.json checks",
       "methodology": "https://marketnow.site/api/certification.json",
       "checksTotal": 10,
@@ -133,8 +133,8 @@
       "Seller Sentinel subscriptions (PRO $9.99/mo, ENTERPRISE $49.99/mo)",
       "Affiliate program (5% from MarketNow's share)"
     ],
-    "buyer_value": "All 68,388 catalog entries install free. Vendor-priced usage (x402) is billed by the vendor — MarketNow verifies security, not pricing.",
-    "seller_value": "Publish to the 68,388-server catalog and its agent traffic. Keep 80% of sales. Sentinel audits boost trust and conversion.",
+    "buyer_value": "All 68,617 catalog entries install free. Vendor-priced usage (x402) is billed by the vendor — MarketNow verifies security, not pricing.",
+    "seller_value": "Publish to the 68,617-server catalog and its agent traffic. Keep 80% of sales. Sentinel audits boost trust and conversion.",
     "commissionPolicy": "https://marketnow.site/policies#comisiones",
     "wallet_type": "single-sig (migration to 2-of-3 multisig pending Q4 2026)",
     "wallet_governance": "https://marketnow.site/policies#wallet"
@@ -168,8 +168,8 @@
     "audit_scope": "Documented inconsistencies across agent.json, npm package.json, LICENSE files, README, and landing HTML."
   },
   "metrics": {
-    "skills_indexed": 68388,
-    "security_checks_performed": 766559,
+    "skills_indexed": 68617,
+    "security_checks_performed": 768849,
     "npm_versions_published": 25,
     "npm_latest_version": "1.15.0",
     "npm_first_release_date": "2026-06-29",
@@ -178,28 +178,28 @@
     "as_of": "2026-09-30",
     "source": "live API: https://marketnow.site/api/skills-lite.json + npm registry",
     "skills_tracked_all_sources": 132737,
-    "security_checks_methodology": "766,559 total = 683,880 L1 (10 L1 checks × 68,388 entries) + 82,679 L2 (29 L2 rules × 2,851 tarballs; top 2,882 npm targets, 98.9% completion)",
+    "security_checks_methodology": "768,849 total = 686,170 L1 (10 L1 checks × 68,617 entries) + 82,679 L2 (29 L2 rules × 2,851 tarballs; top 2,882 npm targets, 98.9% completion)",
     "l2_tarballs_deep_scanned": 2851,
     "l2_flagged_for_review": 2037,
     "l2_clean": 913,
     "npm_downloads_last_month": 939,
     "npm_vulnerabilities_own_packages": 0,
     "security_checks_breakdown": {
-      "l1_index_checks": 683880,
-      "l1_formula": "10 L1 checks x 68388 entries",
+      "l1_index_checks": 686170,
+      "l1_formula": "10 L1 checks x 68617 entries",
       "l2_sentinel_rule_checks": 82679,
       "l2_formula": "29 L2 rules x 2851 tarballs",
-      "total": 766559
+      "total": 768849
     },
     "npm_packages_published": 14,
     "npm_monthly_downloads": 8707
   },
-  "pricing_source_of_truth": "agent.json is the canonical pricing source. Landing page and README must match. MarketNow does NOT sell skills to buyers — buyers install all 68,388 skills free. Revenue comes from sellers who subscribe to Sentinel (PRO $9.99/mo, ENTERPRISE $49.99/mo) and 20% commission on seller sales.",
+  "pricing_source_of_truth": "agent.json is the canonical pricing source. Landing page and README must match. MarketNow does NOT sell skills to buyers — buyers install all 68,617 skills free. Revenue comes from sellers who subscribe to Sentinel (PRO $9.99/mo, ENTERPRISE $49.99/mo) and 20% commission on seller sales.",
   "buyer_pricing": {
     "model": "free",
     "per_skill_fee": 0,
     "subscription_fee": 0,
-    "explanation": "Buyers never pay MarketNow. All 68,388 skills are free to install."
+    "explanation": "Buyers never pay MarketNow. All 68,617 skills are free to install."
   },
   "generated_at": "2026-09-30T00:00:00.000Z",
   "metadata": {
