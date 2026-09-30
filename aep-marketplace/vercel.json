@@ -258,6 +258,10 @@
     {
       "source": "/api/agent-wallet",
       "destination": "/api/agent-wallet.json"
+    },
+    {
+      "source": "/privacy",
+      "destination": "/privacy.html"
     }
   ],
   "headers": [
