@@ -14,7 +14,7 @@
   },
   "$schema": "https://marketnow.site/api/stats.schema.json",
   "version": "2.1.0",
-  "generated_at": "2026-09-29",
+  "generated_at": "2026-09-30",
   "source_of_truth": "Live-computed at request time by /api/skills?_mode=stats from the deployed catalog bundle (skills-lite.json) — see computed_at. Static sections (L2 scans, npm stamp) carry their own generation dates. CI fails if any surface diverges.",
   "discovery": {
     "total_mcp_servers": 68388,
@@ -53,9 +53,9 @@
     "l2_targets": 2882,
     "l2_sentinel_scanned": 2851,
     "l2_completion_pct": 98.9,
-    "l2_clean": 916,
-    "l2_flagged_warning": 833,
-    "l2_flagged_error": 1201,
+    "l2_clean": 913,
+    "l2_flagged_warning": 832,
+    "l2_flagged_error": 1205,
     "l2_scan_errors": 31,
     "l2_own_packages": 14,
     "npm_vulnerabilities_own_packages": 0,
@@ -74,7 +74,7 @@
     },
     "sentinel_layers": 10,
     "l2_sentinel_rule_count": 29,
-    "l2_revision": "2026-09-29T11:29:19.059Z"
+    "l2_revision": "2026-09-30T11:17:18.677Z"
   },
   "tools": {
     "mcp_server_tools_count": 15,
