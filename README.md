@@ -14,6 +14,8 @@
 [![npm downloads](https://img.shields.io/npm/dw/marketnow-mcp)](https://www.npmjs.com/package/marketnow-mcp)
 [![License: AliceLabs LLC Proprietary](https://img.shields.io/badge/License-Proprietary-red)](LICENSE)
 [![Official MCP Registry](https://img.shields.io/badge/MCP_Registry-official-4f46e5)](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.alicelabs-llc%2Fmarketnow/versions/1.15.0)
+[![M8ven](https://m8ven.ai/badge/mcp/alicelabs-llc/universal-trust-adapter)](https://www.m8ven.com/mcp/alicelabs-llc/universal-trust-adapter)
+[![mcpservers.org](https://img.shields.io/badge/mcpservers.org-listed-2EA44F)](https://mcpservers.org/servers/alicelabs-llc/marketnow)
 
 ## What is MarketNow?
 
