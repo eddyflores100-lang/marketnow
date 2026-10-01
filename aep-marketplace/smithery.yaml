@@ -1,44 +1,48 @@
 name: marketnow-mcp
-displayName: MarketNow — Trust Layer for Agent Commerce
-description: "Trust layer for agent commerce. 8,560 MCP-compatible skills with Sentinel L2 security audits, x402 payments (HTTP 402 + USDC on Base), and AP2 delegated mandates. Human-in-the-loop by default."
-version: "1.3.0"
+displayName: MarketNow — Security Infrastructure for AI Agents
+description: "Security infrastructure for AI agents: verify credentials across 9 formats (ATC, JWT/OAuth, W3C VC, A2A, EAT-AI, ZTA, MCP Card...), check domains and revocations, and search 68,617 audited MCP skills with Sentinel trust scores. Free, no auth needed."
+version: "1.15.0"
 license: MNNC-1.0
 homepage: https://marketnow.site
-repository: https://github.com/edgarfloresguerra2011-a11y/marketnow
+repository: https://github.com/eddyflores100-lang/marketnow
 icon: https://marketnow.site/favicon.svg
 
 server:
-  type: sse
+  type: http
   url: https://marketnow.site/api/mcp
 
 tools:
-  - name: search_skills
-    description: Search 8,560 MCP skills by name, category, price, language, or sentinel score
-  - name: get_skill
-    description: Get full details (system prompt, sentinel report, setup, install command) for a specific skill
-  - name: list_categories
-    description: List all 58 skill categories with counts
-  - name: get_manifest
-    description: Get marketplace metadata (live stats: skill count, categories, pricing)
-  - name: get_install_command
-    description: Get npx install command for a skill
+  - name: marketnow_verify_trust
+    description: Verify any AI agent credential (ATC v3, JWT/OAuth, W3C VC, MCP Card, A2A, EAT-AI, ZTA, SPIFFE) through the 12-stage verification pipeline
+  - name: marketnow_translate_credential
+    description: Translate a credential between the 9 supported adapter formats (ATC, JWT/OAuth, W3C VC, A2A, EAT-AI, ZTA, MCP Card...)
+  - name: marketnow_list_formats
+    description: List all 9 supported credential adapter formats
+  - name: marketnow_get_pipeline
+    description: Get the 12-stage credential-verification pipeline details (PARSE to DECISION)
+  - name: marketnow_check_domain
+    description: Check if a domain is suspicious (scam checker) with risk score and reasons
+  - name: marketnow_search_skills
+    description: Search the MarketNow registry of 68,617 indexed MCP servers and skills (GitHub, npm, PyPI) with Sentinel trust scores
+  - name: marketnow_check_revocation
+    description: Check revocation status of an Agent Trust Card or CA key
+  - name: marketnow_fingerprint_tool
+    description: Cryptographically fingerprint MCP tool definitions (OWASP MCP Cheat Sheet)
+  - name: marketnow_submit_skill
+    description: Publish a skill to the MarketNow catalog (validated and Sentinel-audited)
 
 categories:
+  - security
+  - developer-tools
   - marketplace
   - ai-tools
-  - developer-tools
-  - security
-  - payments
 
 tags:
   - mcp
-  - marketplace
-  - agent-commerce
+  - security
   - trust-layer
+  - atc
   - sentinel
-  - x402
-  - usdc
-  - base
-  - ap2
-  - security-audit
+  - credential-verification
+  - agent-commerce
   - alicelabs
