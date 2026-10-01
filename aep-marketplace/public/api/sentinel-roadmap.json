@@ -17,8 +17,8 @@
       "certified": 68388,
       "with_l2": 2851,
       "l2_clean": 913,
-      "l2_flagged_warning": 832,
-      "l2_flagged_error": 1205,
+      "l2_flagged_warning": 824,
+      "l2_flagged_error": 1213,
       "l2_note": "L2 numbers track /api/stats.json (security block) — this file never hardcodes them again",
       "source_of_truth": "https://marketnow.site/api/stats.json"
     }

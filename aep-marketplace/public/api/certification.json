@@ -168,11 +168,11 @@
     "detail_url": "/api/certification-scans.json",
     "scanned": 2851,
     "clean": 913,
-    "flagged_warning": 832,
-    "flagged_error": 1205,
+    "flagged_warning": 824,
+    "flagged_error": 1213,
     "scan_errors": 31,
     "weekly_download_volume_covered": 21356882,
-    "generated_at": "2026-09-30T11:17:18.677Z"
+    "generated_at": "2026-10-01T11:45:38.408Z"
   },
   "benchmark": {
     "url": "/api/sentinel-benchmark.json",
