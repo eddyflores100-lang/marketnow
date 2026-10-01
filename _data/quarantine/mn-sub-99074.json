@@ -1,0 +1,92 @@
+{
+  "certificate_id": "MN-SC-2026-0777538",
+  "skill_id": "mn-sub-99074",
+  "skill_name": "mcp-allowlist-proxy",
+  "issued_at": "2026-10-01T10:32:57.538Z",
+  "expires_at": "2026-10-08T10:32:57.538Z",
+  "auditor": "Sentinel L1.5 + L1.6 + L1.7 + L1.8 + L1.9 (Deep Individual Audit)",
+  "overall_score": 0,
+  "max_score": 10,
+  "risk_level": "critical",
+  "risk_breakdown": {
+    "l15_l16_l17_l18_l19": "critical",
+    "l2": "not_available",
+    "final": "critical"
+  },
+  "layers_run": {
+    "l15": true,
+    "l16": true,
+    "l17": true,
+    "l18": true,
+    "l19": true,
+    "l2": false,
+    "l3": false
+  },
+  "layer_details": {
+    "l15_findings": 0,
+    "l16_semgrep_findings": 1,
+    "l16_secret_findings": 0,
+    "l16_osv_findings": 0,
+    "l2_score": null,
+    "l2_execution_status": "not_run"
+  },
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "quarantine_recommended": true,
+  "checks": [
+    {
+      "name": "L1.5 AUTH",
+      "status": "warning",
+      "risk": "medium",
+      "detail": "No auth required"
+    },
+    {
+      "name": "L1.6 SEMGREP",
+      "status": "fail",
+      "risk": "low",
+      "detail": "18 rules, 1 findings"
+    },
+    {
+      "name": "L1.6 SECRETS",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 patterns, 0 findings"
+    },
+    {
+      "name": "L1.7 BINARY",
+      "status": "pass",
+      "risk": "low",
+      "detail": "No binaries or launchers detected"
+    },
+    {
+      "name": "L1.7 MALWARE",
+      "status": "pass",
+      "risk": "low",
+      "detail": "7 patterns checked, 0 findings"
+    },
+    {
+      "name": "L1.8 FAMILIES",
+      "status": "fail",
+      "risk": "critical",
+      "detail": "2 malware families matched: Atomic Stealer, Conti"
+    },
+    {
+      "name": "L1.9 INJECTION",
+      "status": "pass",
+      "risk": "low",
+      "detail": "32 rules checked, 0 injections"
+    }
+  ],
+  "source": {
+    "type": "community-submitted",
+    "url": "https://github.com/eddyflores100-lang/mcp-suite/tree/main/servers/mcp-allowlist-proxy",
+    "submitted_at": "2026-09-30T17:26:15.094Z"
+  },
+  "signature": "18fd4b4bef7fb73915b8cff2dcdc1f64225a956bdc1b69bcf057503bbc4665cd",
+  "signature_algorithm": "SHA-256",
+  "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-sub-99074"
+}
