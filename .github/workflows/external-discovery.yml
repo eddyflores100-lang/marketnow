@@ -1,0 +1,108 @@
+# MarketNow — External Directory Discovery (Weekly, queue mode)
+# ================================================================
+#
+# Complementa a auto-discover.yml (awesome-mcp + GitHub Search) con
+# directorios EXTERNOS que ese pipeline no cubre:
+#
+#   - mcpservers.org  → sitemaps públicos (/sitemaps/servers/*.xml,
+#                        ~10.5k repos GitHub; sin auth, sin fetch de páginas)
+#   - Smithery        → registry API pública (18k+ servers, cap de
+#                        paginación: 50 páginas × 10 = 500 por corrida)
+#   - npm             → search API pública (queries MCP × 250)
+#   - Glama           → BLOQUEADO (render client-side, sitemap vacío,
+#                        API requiere key) — documentado en la cola.
+#
+# MODO COLA (mismo diseño que auto-discover.yml): los candidatos van a
+# _data/discovery_queue.json con status 'pending-review'. NO se importan
+# automáticamente al catálogo — la importación es flujo dev deliberado
+# (constelación de conteos + regeneración de certificación, ver la nota
+# dentro del propio archivo de cola).
+#
+# Enriquecimiento GitHub: usa GITHUB_TOKEN (efímero de Actions). El script
+# vigila x-ratelimit-remaining y detiene el enriquecimiento bajo 300,
+# dejando el resto como backlog documentado para la siguiente corrida
+# (el delta se re-descubre cada semana; la cola deduplica por repo).
+#
+# Trigger: sábado 02:30 UTC (auto-discover corre domingo 00:30) + manual.
+
+name: External Directory Discovery
+
+on:
+  schedule:
+    - cron: '30 2 * * 6'  # Saturday 02:30 UTC
+  workflow_dispatch:
+    inputs:
+      max_new:
+        description: 'Max new candidates this run (default 1995 — design cap 2000)'
+        required: false
+        default: '1995'
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: external-discovery
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Run external directory discovery (queue mode)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ARGS=""
+          MAX_NEW="${{ github.event.inputs.max_new }}"
+          if [ -n "$MAX_NEW" ] && [ "$MAX_NEW" != "1995" ] && [ "$MAX_NEW" != "0" ]; then
+            ARGS="--max $MAX_NEW"
+          fi
+          node scripts/external-discover-mcp.mjs $ARGS
+
+      - name: Commit discovery queue (with retry on race)
+        run: |
+          git config user.name "MarketNow Discovery Bot"
+          git config user.email "discovery@marketnow.site"
+
+          if git diff --quiet HEAD -- _data/discovery_queue.json; then
+            echo "No new candidates — nothing to commit."
+            exit 0
+          fi
+
+          STATS=$(node -e "const q=require('./_data/discovery_queue.json'); const s=q.stats||{}; console.log('+'+(s.queued_new||0)+' queued, '+(s.enriched_github||0)+' github, '+(s.npm_enriched||0)+' npm, backlog '+(s.enrichment_backlog||0))")
+
+          git add _data/discovery_queue.json
+          git commit -m "discovery: external directories queue update — ${STATS}
+
+          Weekly external discovery run (mcpservers.org sitemaps +
+          Smithery registry + npm search; Glama blocked — documented).
+          Queue mode: candidates are NOT auto-imported into the catalog.
+          Import requires the count-constellation sync + certification
+          regen (see queue file note). L1.7 pre-filter applied."
+
+          for i in 1 2 3 4 5; do
+            if git push 2>&1; then
+              echo "✓ Push succeeded on attempt $i"
+              exit 0
+            fi
+            echo "⚠ Push attempt $i failed — pulling rebase and retrying..."
+            sleep $((i * 2))
+            git pull --rebase origin master || {
+              echo "✗ git pull --rebase failed on attempt $i"
+              git rebase --abort 2>/dev/null || true
+              exit 1
+            }
+          done
+          echo "✗ Could not push after 5 attempts"
+          exit 1
