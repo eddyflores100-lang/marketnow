@@ -11,6 +11,10 @@
 name: Submission Index Repair (M-09)
 
 on:
+  schedule:
+    # cada 6h: auto-heal del índice de la cola (author en cada entry) — repo
+    # público, minutos gratis. El diff-check del script evita commits vacíos.
+    - cron: '0 */6 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
