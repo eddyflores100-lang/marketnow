@@ -8,8 +8,8 @@
   "methodology": {
     "model": "Two-level risk model (documented in changelog 5.2.0): risk_level = INSTALL mechanics; trust_score_100 = source evidence heuristic. Levels: L1 index-certified (all entries), L2 sentinel-scanned (29-rule code scan of shipped artifact), L3 trust-chain (ATC/OCSP/CRL).",
     "risk_model": {
-      "red": "npx/uvx/pip/pipx \u2014 registry code executed on every run (arbitrary code execution surface)",
-      "yellow": "git clone / cargo / go install / docker / remote http \u2014 reviewable, sandboxed or network-only",
+      "red": "npx/uvx/pip/pipx — registry code executed on every run (arbitrary code execution surface)",
+      "yellow": "git clone / cargo / go install / docker / remote http — reviewable, sandboxed or network-only",
       "green": "verified trust chain (MarketNow own packages: audited, 0 vulnerabilities, published from source)"
     },
     "repair_passes": [
@@ -19,7 +19,7 @@
       "P3 required fields",
       "P4 scoring bounds"
     ],
-    "reproducibility": "python3 scripts/import_discovery_130.py regen over the deployed catalog bundle (public/api/skills-lite.json, 70510 entries \u2014 the same bundle the UI and /api/skills serve). Checks C1-C10 recomputed in full; distributions recomputed from data. C4 checks URL well-formedness (https + host); live resolvability is spot-checked by the audit-gate workflow. Report served at /api/certification",
+    "reproducibility": "python3 scripts/import_discovery_130.py regen over the deployed catalog bundle (public/api/skills-lite.json, 70510 entries — the same bundle the UI and /api/skills serve). Checks C1-C10 recomputed in full; distributions recomputed from data. C4 checks URL well-formedness (https + host); live resolvability is spot-checked by the audit-gate workflow. Report served at /api/certification",
     "import_2026_10_02": {
       "imported": 1893,
       "from": "_data/discovery_queue.json (auto-discover + external-discovery: mcpservers.org sitemaps + Smithery registry + npm search, L1.7 pre-filtered, 0 blocked)",
@@ -34,7 +34,7 @@
       "total": 70510,
       "pass": 70510,
       "fail": 0,
-      "fail_rate": 0.0,
+      "fail_rate": 0,
       "examples": []
     },
     {
@@ -43,7 +43,7 @@
       "total": 70510,
       "pass": 70510,
       "fail": 0,
-      "fail_rate": 0.0,
+      "fail_rate": 0,
       "examples": []
     },
     {
@@ -52,7 +52,7 @@
       "total": 70510,
       "pass": 70510,
       "fail": 0,
-      "fail_rate": 0.0,
+      "fail_rate": 0,
       "examples": []
     },
     {
@@ -61,7 +61,7 @@
       "total": 70510,
       "pass": 70510,
       "fail": 0,
-      "fail_rate": 0.0,
+      "fail_rate": 0,
       "examples": []
     },
     {
@@ -70,7 +70,7 @@
       "total": 70510,
       "pass": 70510,
       "fail": 0,
-      "fail_rate": 0.0,
+      "fail_rate": 0,
       "examples": []
     },
     {
@@ -79,7 +79,7 @@
       "total": 70510,
       "pass": 70510,
       "fail": 0,
-      "fail_rate": 0.0,
+      "fail_rate": 0,
       "examples": []
     },
     {
@@ -88,7 +88,7 @@
       "total": 70510,
       "pass": 70510,
       "fail": 0,
-      "fail_rate": 0.0,
+      "fail_rate": 0,
       "examples": []
     },
     {
@@ -97,7 +97,7 @@
       "total": 70510,
       "pass": 70510,
       "fail": 0,
-      "fail_rate": 0.0,
+      "fail_rate": 0,
       "examples": []
     },
     {
@@ -106,16 +106,16 @@
       "total": 70510,
       "pass": 70510,
       "fail": 0,
-      "fail_rate": 0.0,
+      "fail_rate": 0,
       "examples": []
     },
     {
       "id": "C10",
-      "desc": "price/free consistency (free\u21d2price 0; paid\u21d2payment model declared)",
+      "desc": "price/free consistency (free⇒price 0; paid⇒payment model declared)",
       "total": 70510,
       "pass": 70510,
       "fail": 0,
-      "fail_rate": 0.0,
+      "fail_rate": 0,
       "examples": []
     }
   ],
@@ -124,7 +124,7 @@
     "all_checks_pass": true,
     "checks_passed": 10,
     "checks_total": 10,
-    "scope": "L1 index certification only: 10 checks x 70510 entries (705100 checks). L2 Sentinel adds 82679 rule checks (29 x 2851) \u2014 see agent.json security_checks_breakdown."
+    "scope": "L1 index certification only: 10 checks x 70510 entries (705100 checks). L2 Sentinel adds 82679 rule checks (29 x 2851) — see agent.json security_checks_breakdown."
   },
   "distributions": {
     "sources": {
@@ -154,7 +154,7 @@
     "smithery_provenance_urls_2026_09_25": {
       "fixed": 40,
       "nulled_unknown": 3,
-      "detail": "import Smithery con typos de esquema (ttps://, htts://, htttps://, Http://), espacios y rutas sin host; 3 entradas quedan con url=null + url_note (provenance desconocido \u2014 fail residual documentado de C4)"
+      "detail": "import Smithery con typos de esquema (ttps://, htts://, htttps://, Http://), espacios y rutas sin host; 3 entradas quedan con url=null + url_note (provenance desconocido — fail residual documentado de C4)"
     },
     "c4_provenance_urls_2026_09_28": {
       "fixed": 4,
@@ -164,7 +164,7 @@
         "mn-sm2-04842": "https://github.com/devlimelabs/meilisearch-ts-mcp",
         "mn-sm2-05927": "https://github.com/cdugo/package-documentation-mcp"
       },
-      "method": "resoluci\u00f3n manual v\u00eda GitHub API + smithery registry, verificada 200/OK antes de escribir"
+      "method": "resolución manual vía GitHub API + smithery registry, verificada 200/OK antes de escribir"
     },
     "c4_provenance_urls_2026_10_02": {
       "fixed": 12,
@@ -182,7 +182,7 @@
         "mn-sm2-04498": "https://codeqr.io",
         "mn-sm2-05397": "https://profound.fate-craft.com/tools"
       },
-      "method": "http\u2192https upgrade verificado 200 en vivo (browser UA) + 2 resoluciones v\u00eda redirect de la GitHub API (AIRA-SemanticScholar, aeriis-kr/opendata-mcp)"
+      "method": "http→https upgrade verificado 200 en vivo (browser UA) + 2 resoluciones vía redirect de la GitHub API (AIRA-SemanticScholar, aeriis-kr/opendata-mcp)"
     },
     "import_external_discovery_2026_10_02": {
       "imported": 1893,
@@ -191,20 +191,20 @@
         "npm-registry": 271,
         "smithery": 9
       },
-      "detail": "Cola de discovery externo (mcpservers.org + Smithery + npm + auto-discover) importada al cat\u00e1logo: tier core, risk reclasificado por mec\u00e1nica de install, trust por heur\u00edstica de evidencia documentada arriba. Ids/slugs sufijados en colisi\u00f3n."
+      "detail": "Cola de discovery externo (mcpservers.org + Smithery + npm + auto-discover) importada al catálogo: tier core, risk reclasificado por mecánica de install, trust por heurística de evidencia documentada arriba. Ids/slugs sufijados en colisión."
     }
   },
   "deep_scan": {
     "level": 2,
     "level_name": "sentinel-scanned",
     "detail_url": "/api/certification-scans.json",
-    "scanned": 2851,
-    "clean": 913,
-    "flagged_warning": 824,
-    "flagged_error": 1213,
-    "scan_errors": 31,
-    "weekly_download_volume_covered": 21356882,
-    "generated_at": "2026-10-01T11:45:38.408Z"
+    "scanned": 2850,
+    "clean": 911,
+    "flagged_warning": 823,
+    "flagged_error": 1215,
+    "scan_errors": 32,
+    "weekly_download_volume_covered": 21356558,
+    "generated_at": "2026-10-02T11:14:18.321Z"
   },
   "benchmark": {
     "url": "/api/sentinel-benchmark.json",
