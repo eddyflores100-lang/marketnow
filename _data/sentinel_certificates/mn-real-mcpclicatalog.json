@@ -1,0 +1,95 @@
+{
+  "certificate_id": "MN-SC-2026-5935771",
+  "skill_id": "mn-real-mcpclicatalog",
+  "skill_name": "mcp-cli-catalog",
+  "issued_at": "2026-10-02T10:12:15.771Z",
+  "expires_at": "2026-10-09T10:12:15.771Z",
+  "auditor": "Sentinel L1.5 + L1.6 + L1.7 + L1.8 + L1.9 (Deep Individual Audit)",
+  "overall_score": 9,
+  "max_score": 10,
+  "risk_level": "medium",
+  "risk_breakdown": {
+    "l15_l16_l17_l18_l19": "medium",
+    "l2": "not_available",
+    "final": "medium"
+  },
+  "layers_run": {
+    "l15": true,
+    "l16": true,
+    "l17": true,
+    "l18": true,
+    "l19": true,
+    "l2": false,
+    "l3": false
+  },
+  "layer_details": {
+    "l15_findings": 0,
+    "l16_semgrep_findings": 0,
+    "l16_secret_findings": 0,
+    "l16_osv_findings": 0,
+    "l2_score": null,
+    "l2_execution_status": "not_run"
+  },
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "quarantine_recommended": false,
+  "checks": [
+    {
+      "name": "L1.5 AUTH",
+      "status": "warning",
+      "risk": "medium",
+      "detail": "No auth required"
+    },
+    {
+      "name": "L1.6 SEMGREP",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 rules, 0 findings"
+    },
+    {
+      "name": "L1.6 SECRETS",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 patterns, 0 findings"
+    },
+    {
+      "name": "L1.7 BINARY",
+      "status": "pass",
+      "risk": "low",
+      "detail": "No binaries or launchers detected"
+    },
+    {
+      "name": "L1.7 MALWARE",
+      "status": "pass",
+      "risk": "low",
+      "detail": "7 patterns checked, 0 findings"
+    },
+    {
+      "name": "L1.8 FAMILIES",
+      "status": "pass",
+      "risk": "low",
+      "detail": "48 families checked, 0 matches (README scanned)"
+    },
+    {
+      "name": "L1.9 INJECTION",
+      "status": "pass",
+      "risk": "low",
+      "detail": "32 rules checked, 0 injections"
+    }
+  ],
+  "source": {
+    "type": "github",
+    "url": "https://github.com/abcpro1/mcp-cli-catalog",
+    "note": "Real MCP server. 1 stars. Language: JavaScript. Last push: 2025-11-16T20:50:03Z. Discovered via external directory discovery (mcpservers.org).",
+    "stars": 1,
+    "language": "JavaScript",
+    "last_push": "2025-11-16T20:50:03Z"
+  },
+  "signature": "780fea8dbc2a4bfa3a7ed51a9463fb572d4c143b87d365d061b831999750b1fd",
+  "signature_algorithm": "SHA-256",
+  "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpclicatalog"
+}
