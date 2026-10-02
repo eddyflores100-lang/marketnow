@@ -1,13 +1,19 @@
 /**
  * MarketNow — Search API (lightweight, no fetch needed)
  * Uses a pre-built search index instead of fetching skills-lite.json at runtime.
- * 
+ * 2026-10-02 (Task 130): the index is imported statically (like api/skills.js
+ * imports skills-lite.json) — the old per-request self-fetch of
+ * /api/search-index.json grew to 16MB with the 70,510-entry catalog and
+ * risked the 8s timeout. Static import = zero network cost, warm per lambda.
+ *
  * GET /api/search?q=<query>&category=<cat>&limit=<n>
- * 
+ *
  * Strategy: Return search instructions + skill count if data too large.
  * For real search, use the client-side search in the SPA.
  * For agents, use skills-lite.json directly.
  */
+
+import searchIndex from '../public/api/search-index.json' with { type: 'json' };
 
 const corsHeaders = {
   'Access-Control-Allow-Origin': '*',
@@ -27,7 +33,7 @@ export default async function handler(req, res) {
   if (!q && !category) {
     return res.status(200).json({
       ok: true,
-      total_skills: 9248,
+      total_skills: Array.isArray(searchIndex) ? searchIndex.length : 0,
       hint: 'Use ?q=<search_term> or ?category=<category>',
       examples: [
         '/api/search?q=discord',
@@ -43,23 +49,11 @@ export default async function handler(req, res) {
 
   // For actual search, use the pre-built search index
   // This is a lightweight index with just name, slug, category, description
-  // Built by scripts/generate-search-index.mjs
+  // Built by scripts/generate-search-index.mjs (regen 2026-10-02 over the full
+  // 70,510-entry bundle — the 9,248 snapshot is gone)
   try {
-    const baseUrl = process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}`
-      : 'https://marketnow.site';
-
-    // Try the small search index first (only ~1MB)
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 8000);
-
-    const resp = await fetch(`${baseUrl}/api/search-index.json`, {
-      signal: controller.signal,
-    });
-    clearTimeout(timeout);
-
-    if (resp.ok) {
-      const skills = await resp.json();
+    // Static import (see header) — no per-request fetch
+    const skills = searchIndex;
       let results = skills.filter(s => {
         if (category && (s.c || '').toLowerCase() !== category.toLowerCase()) return false;
         if (q) {
@@ -102,7 +96,6 @@ export default async function handler(req, res) {
         limit,
         results,
       });
-    }
   } catch (err) {
     // Fall through to fallback
   }

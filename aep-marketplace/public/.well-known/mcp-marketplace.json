@@ -2,14 +2,14 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "MarketNow",
   "tagline": "Trust layer for agent commerce",
-  "description": "Trust layer for agent commerce. Discovery is solved (MCP registry, Smithery, Glama); trust is not. MarketNow provides Sentinel security certification, AP2-compatible mandates, x402 payments, and human-in-the-loop-by-default agent spending. 68,617 index-certified MCP skills (132,966 total tracked), all free to install. Open-core (MIT OR Apache-2.0), maintained by AliceLabs LLC.",
+  "description": "Trust layer for agent commerce. Discovery is solved (MCP registry, Smithery, Glama); trust is not. MarketNow provides Sentinel security certification, AP2-compatible mandates, x402 payments, and human-in-the-loop-by-default agent spending. 70,510 index-certified MCP skills (134,859 total tracked), all free to install. Open-core (MIT OR Apache-2.0), maintained by AliceLabs LLC.",
   "url": "https://marketnow.site",
   "api_base": "https://marketnow.site/api",
   "version": "2.0.0",
   "last_updated": "2026-09-26T00:00:00.000Z",
   "stats": {
-    "total_skills": 68617,
-    "index_certified": 68617,
+    "total_skills": 70510,
+    "index_certified": 70510,
     "free_skills": 68387,
     "paid_skills": 1,
     "l2_tarballs_deep_scanned": 2839,
@@ -97,7 +97,7 @@
     "largest MCP marketplace (we are the trust layer, not the largest)",
     "no humans needed (human-in-loop is default; silent requires opt-in)",
     "ETH/BSC/SOL/BTC payments (USDC on Base only)",
-    "9,248 skills (stale count — today: 68,617 index-certified / 132,966 tracked; canonical: /api/agent.json skills_indexed)",
+    "9,248 skills (stale count — today: 70,510 index-certified / 134,859 tracked; canonical: /api/agent.json skills_indexed)",
     "open registry with no manual approval (mandates default to notify mode)"
   ],
   "canonical_sources": {

@@ -128,7 +128,7 @@ threat model: <a href="https://github.com/alicelabs-llc/universal-trust-adapter/
 <script>
 const STAGES = [
  {id:'L1', nm:'Index certification', st:'live', what:'10 catalog checks (unique ids/slugs, required fields, risk model, price consistency) recomputed over the full bundle.',
-  ev:['/api/certification.json','/api/stats.json'], counts:{certified:68617, checks:10, checks_fully_green:10, c4_exceptions:0}}},
+  ev:['/api/certification.json','/api/stats.json'], counts:{certified:70510, checks:10, checks_fully_green:10, c4_exceptions:0}}},
  {id:'L1.5', nm:'Metadata static checks', st:'live', what:'6 metadata checks (auth, injection hints, validation, CORS, OAuth, rate limiting) on every real-time audit call (~200ms).',
   ev:['/api/audit-skill?skillId=mn-gen-00003'], counts:{checks:6, latency_ms:200}},
  {id:'L1.6', nm:'Semgrep-equivalent + secrets + OSV', st:'live', what:'18 Semgrep-style rules + 18 secret patterns + OSV dependency check. Real-time on audit calls and weekly batch.',

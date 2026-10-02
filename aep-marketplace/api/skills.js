@@ -77,7 +77,7 @@ export default function handler(req, res) {
         'AP2 delegated mandates ledger (see /api/mandates-info.json for the policy)'
       ],
       what_works_today: {
-        free_install: 'every free skill (68,387 of 68,388) installs directly — see /api/free-skills.json',
+        free_install: 'every free skill (70,317 of 70,510) installs directly — see /api/free-skills.json',
         skill_detail: '/s/<slug> (page) · /api/skills/<slug> (JSON)',
         trust: '/api/trust-score?skillId=<slug> · certificates: /api/audit-skill?certificate=1&skillId=<slug>',
         payments_today: 'none — no payment is collected anywhere on the site today'

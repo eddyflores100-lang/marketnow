@@ -43,7 +43,7 @@ record. Where a layer is partial or planned, the row says so — that is the poi
 
 <div class="kpis">
 <div class="kpi"><div class="n">10</div><div class="l">declared layers (L1→L3 + L4–L9 grouped)</div></div>
-<div class="kpi"><div class="n">68,617</div><div class="l">L1-certified entries · 10 checks · 10 fully green</div></div>
+<div class="kpi"><div class="n">70,510</div><div class="l">L1-certified entries · 10 checks · 10 fully green</div></div>
 <div class="kpi"><div class="n">2,851</div><div class="l">tarballs deep-scanned (29 rules)</div></div>
 <div class="kpi"><div class="n">0.857</div><div class="l">benchmark F1 (decision level, n=18)</div></div>
 </div>
@@ -52,7 +52,7 @@ record. Where a layer is partial or planned, the row says so — that is the poi
 <table>
 <tr><th>Layer</th><th>What it does</th><th>Status</th><th class="hide-sm">Live numbers</th><th>Verify at</th></tr>
 <tr><td class="lvl">L1</td><td>Index certification — 10 checks recomputed over the live bundle (unique ids/slugs, required fields, risk model, price consistency, provenance URL).</td><td class="st"><span class="badge ok">live</span></td>
-<td class="hide-sm">68,617 certified · C4: 68,388/68,388 pass — Smithery null-URL repaired 2026-09-28 (repairs_applied)</td>
+<td class="hide-sm">70,510 certified · C4: 70,510/70,510 pass — Smithery null-URL repaired 2026-09-28 (repairs_applied)</td>
 <td><a href="https://marketnow.site/api/certification.json">/api/certification.json</a><a href="https://marketnow.site/api/stats.json">/api/stats.json</a></td></tr>
 <tr><td class="lvl">L1.5</td><td>Metadata static checks — auth, injection hints, validation, CORS, OAuth, rate-limit — on every real-time audit call.</td><td class="st"><span class="badge ok">live</span></td>
 <td class="hide-sm">6 checks · ~200ms per call</td>
@@ -90,7 +90,7 @@ record. Where a layer is partial or planned, the row says so — that is the poi
 <tr><td>Sentinel benchmark — precision 0.75 · recall 1.00 · F1 0.857 (n=18, all inputs public)</td><td><a href="https://marketnow.site/security/sentinel-benchmark">/security/sentinel-benchmark</a></td></tr>
 <tr><td>Independent pentest — NOT performed yet; scope published, compensating controls live</td><td><a href="https://marketnow.site/security/audit-2026-08-19#pentest">/security/audit-2026-08-19#pentest</a></td></tr>
 <tr><td>Current audit state — AUD-2026-0925 supersedes AUD-2026-0821-MN; re-audit 2026-12-25</td><td><a href="https://marketnow.site/trust/audit-status.json">/trust/audit-status.json</a></td></tr>
-<tr><td>768,849 security checks performed = 686,170 L1 (10 × 68,617) + 82,679 L2 (29 × 2,851) — breakdown in agent.json</td><td><a href="https://marketnow.site/api/agent.json">/api/agent.json</a></td></tr>
+<tr><td>787,779 security checks performed = 705,100 L1 (10 × 70,510) + 82,679 L2 (29 × 2,851) — breakdown in agent.json</td><td><a href="https://marketnow.site/api/agent.json">/api/agent.json</a></td></tr>
 <tr><td>Taxonomy — Sentinel 12 stages / 10 layers; ATC/1.0 10 controls (8 required); UTA 9 adapters</td><td><a href="https://marketnow.site/security/sentinel-v3.0">/security/sentinel-v3.0</a></td></tr>
 <tr><td>CA incident 2026-09-08 — mn-ca-002 revoked (KEY_COMPROMISE), fail-closed, 4 Rekor anchors</td><td><a href="https://marketnow.site/security/incidents/2026-09-08">/security/incidents/2026-09-08</a></td></tr>
 <tr><td>License matrix — every component, one table, registry-verifiable</td><td><a href="https://marketnow.site/licensing">/licensing</a></td></tr>
