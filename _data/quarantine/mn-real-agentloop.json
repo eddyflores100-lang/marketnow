@@ -1,0 +1,95 @@
+{
+  "certificate_id": "MN-SC-2026-5723012",
+  "skill_id": "mn-real-agentloop",
+  "skill_name": "agent-loop",
+  "issued_at": "2026-10-02T10:08:43.012Z",
+  "expires_at": "2026-10-09T10:08:43.012Z",
+  "auditor": "Sentinel L1.5 + L1.6 + L1.7 + L1.8 + L1.9 (Deep Individual Audit)",
+  "overall_score": 5,
+  "max_score": 10,
+  "risk_level": "critical",
+  "risk_breakdown": {
+    "l15_l16_l17_l18_l19": "critical",
+    "l2": "not_available",
+    "final": "critical"
+  },
+  "layers_run": {
+    "l15": true,
+    "l16": true,
+    "l17": true,
+    "l18": true,
+    "l19": true,
+    "l2": false,
+    "l3": false
+  },
+  "layer_details": {
+    "l15_findings": 0,
+    "l16_semgrep_findings": 0,
+    "l16_secret_findings": 0,
+    "l16_osv_findings": 0,
+    "l2_score": null,
+    "l2_execution_status": "not_run"
+  },
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "quarantine_recommended": true,
+  "checks": [
+    {
+      "name": "L1.5 AUTH",
+      "status": "warning",
+      "risk": "medium",
+      "detail": "No auth required"
+    },
+    {
+      "name": "L1.6 SEMGREP",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 rules, 0 findings"
+    },
+    {
+      "name": "L1.6 SECRETS",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 patterns, 0 findings"
+    },
+    {
+      "name": "L1.7 BINARY",
+      "status": "pass",
+      "risk": "low",
+      "detail": "No binaries or launchers detected"
+    },
+    {
+      "name": "L1.7 MALWARE",
+      "status": "pass",
+      "risk": "low",
+      "detail": "7 patterns checked, 0 findings"
+    },
+    {
+      "name": "L1.8 FAMILIES",
+      "status": "fail",
+      "risk": "critical",
+      "detail": "1 malware families matched: Conti"
+    },
+    {
+      "name": "L1.9 INJECTION",
+      "status": "pass",
+      "risk": "low",
+      "detail": "32 rules checked, 0 injections"
+    }
+  ],
+  "source": {
+    "type": "github",
+    "url": "https://github.com/AlessandroAnnini/agent-loop",
+    "note": "Real MCP server. 28 stars. Language: Python. Last push: 2026-01-12T10:05:20Z. Discovered via external directory discovery (mcpservers.org).",
+    "stars": 28,
+    "language": "Python",
+    "last_push": "2026-01-12T10:05:20Z"
+  },
+  "signature": "3497ea68900c01e0865d641ad07e80f1d077416d375f70adb4de602b1428af0b",
+  "signature_algorithm": "SHA-256",
+  "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-agentloop"
+}
