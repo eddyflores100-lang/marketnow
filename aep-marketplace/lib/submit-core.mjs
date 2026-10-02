@@ -597,7 +597,7 @@ export async function processSubmission(payload, { dryRun = false, remoteIp = 'u
               // idempotent merge: on a retry after a lost race the entry may
               // already be present — re-adding would duplicate it in the queue
               if (!index.entries.some(e => e.id === id)) {
-                index.entries.push({ id, name: skill.name, version: skill.version, verdict: record.verdict,
+                index.entries.push({ id, name: skill.name, version: skill.version, author: (skill.author || '').trim() || null, verdict: record.verdict,
                   status: record.status, trust: accepted ? trust : null, submitted_at: record.submitted_at,
                   from: record.submitted_from, eligible: record.merge.eligible, path });
               }
