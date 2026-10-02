@@ -83,6 +83,7 @@ for (let i = 0; i < paths.length; i += FETCH_BATCH) {
         id: record.id || path.split('/').pop().replace(/\.json$/, ''),
         name: record.skill?.name || record.name || 'unknown',
         version: record.skill?.version || record.version || null,
+        author: record.skill?.author || record.author || null,
         verdict: record.verdict || null,
         status: record.status || null,
         trust: record.sentinel?.trust_score_100 ?? record.trust ?? null,
