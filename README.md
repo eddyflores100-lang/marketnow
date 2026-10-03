@@ -72,11 +72,11 @@ curl https://marketnow.site/api/trust-score?skillId=mn-gen-00003
 
 | Metric | Value |
 |--------|-------|
-| Security checks performed | **787,750** (705,100 L1 + 82,650 L2) |
+| Security checks performed | **787,721** (705,100 L1 + 82,621 L2) |
 | MCP skills indexed (L1) | 70,510 |
-| L2 deep-scanned tarballs (29 rules) | 2,850 / 2,882 (98.9%) |
-| Batch certificates (weekly) | 75,601 · 0 failed |
-| Sentinel risk buckets | low 7 · medium 75,190 · high 372 · critical 32 |
+| L2 deep-scanned tarballs (29 rules) | 2,849 / 2,882 (98.9%) |
+| Batch certificates (weekly) | 76,338 · 0 failed |
+| Sentinel risk buckets | low 7 · medium 75,921 · high 378 · critical 32 |
 | Quarantined decisions (public ledger) | 3 |
 | MCP tools | 9 remote endpoint (/api/mcp) · 15 npm package |
 | npm packages | marketnow-mcp v1.15.0, marketnow-install-stack v1.2.1, agent-trust-card v1.4.1 |

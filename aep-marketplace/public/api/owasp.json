@@ -81,7 +81,7 @@
       "name": "Supply chain / SBOM verification",
       "status": "partial",
       "implementation": "npm audit clean (0 vulnerabilities) on own packages; L4 SBOM checks run on catalog packages batch-side; per-tarball L2 sandbox scans cover the top 2,868 npm targets",
-      "evidence": "scripts l4-sbom-check.py; certification-scans.json (2,850 scanned)"
+      "evidence": "scripts l4-sbom-check.py; certification-scans.json (2,849 scanned)"
     },
     {
       "id": "OC-12",
