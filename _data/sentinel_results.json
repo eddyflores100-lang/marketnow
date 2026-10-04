@@ -1,20 +1,20 @@
 {
   "audit_type": "sentinel-l16-batch",
-  "timestamp": "2026-09-27T04:26:22.742Z",
+  "timestamp": "2026-10-04T05:02:40.162Z",
   "tools": {
     "semgrep": {
       "rules": 18,
       "findings": 0
     },
     "gitleaks": {
-      "findings": 542
+      "findings": 566
     },
     "osv": {
-      "vulnerabilities": 0
+      "vulnerabilities": 1
     }
   },
   "totals": {
-    "critical": 542,
+    "critical": 566,
     "high": 0,
     "medium": 0
   },
@@ -28,27 +28,15 @@
     },
     {
       "rule": "generic-api-key",
-      "file": "_data/atc-test-vectors/ATC-2026-6449889.json",
-      "startLine": 11,
-      "secret": "dGVz…tleQ"
-    },
-    {
-      "rule": "generic-api-key",
       "file": "_data/atc-test-vectors/ATC-2026-4794938.json",
       "startLine": 11,
       "secret": "dGVz…tleQ"
     },
     {
       "rule": "generic-api-key",
-      "file": "_data/atc/ca-keypair.json",
-      "startLine": 6,
-      "secret": "MC4C…hymY"
-    },
-    {
-      "rule": "private-key",
-      "file": "_data/atc/ca-keypair.json",
-      "startLine": 4,
-      "secret": "----…----"
+      "file": "_data/atc-test-vectors/ATC-2026-6449889.json",
+      "startLine": 11,
+      "secret": "dGVz…tleQ"
     },
     {
       "rule": "generic-api-key",
@@ -57,10 +45,64 @@
       "secret": "MN-T…ABCD"
     },
     {
-      "rule": "github-pat",
-      "file": "aep-marketplace/api/security.js",
-      "startLine": 27,
-      "secret": "ghp_…XXXX"
+      "rule": "generic-api-key",
+      "file": "_data/discovery_queue.json",
+      "startLine": 48231,
+      "secret": "akhi…s236"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "_data/discovery_queue.json",
+      "startLine": 56801,
+      "secret": "3641…llab"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "_data/discovery_queue.json",
+      "startLine": 71995,
+      "secret": "Conr…2740"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "_data/discovery_queue.json",
+      "startLine": 75393,
+      "secret": "abdo…z124"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "_data/discovery_queue.json",
+      "startLine": 75464,
+      "secret": "abdu…k4vr"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "_data/discovery_queue.json",
+      "startLine": 75890,
+      "secret": "abhi…1047"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "_data/discovery_queue.json",
+      "startLine": 81653,
+      "secret": "Alex…CGO2"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "_data/discovery_queue.json",
+      "startLine": 82885,
+      "secret": "aman…3110"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "_data/discovery_queue.json",
+      "startLine": 97647,
+      "secret": "capt…e210"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "_data/discovery_queue.json",
+      "startLine": 105380,
+      "secret": "chri…e310"
     },
     {
       "rule": "aws-access-token",
@@ -75,6 +117,12 @@
       "secret": "AKIA…2026"
     },
     {
+      "rule": "github-pat",
+      "file": "aep-marketplace/api/security.js",
+      "startLine": 27,
+      "secret": "ghp_…XXXX"
+    },
+    {
       "rule": "generic-api-key",
       "file": "aep-marketplace/docs/ALCHEMY_SETUP.md",
       "startLine": 56,
@@ -87,12 +135,6 @@
       "secret": "MCow…AyEA"
     },
     {
-      "rule": "github-pat",
-      "file": "aep-marketplace/lib/honeypot.mjs",
-      "startLine": 95,
-      "secret": "ghp_…XXXX"
-    },
-    {
       "rule": "aws-access-token",
       "file": "aep-marketplace/lib/honeypot.mjs",
       "startLine": 96,
@@ -103,6 +145,12 @@
       "file": "aep-marketplace/lib/honeypot.mjs",
       "startLine": 116,
       "secret": "AKIA…2026"
+    },
+    {
+      "rule": "github-pat",
+      "file": "aep-marketplace/lib/honeypot.mjs",
+      "startLine": 95,
+      "secret": "ghp_…XXXX"
     },
     {
       "rule": "generic-api-key",
@@ -285,16 +333,16 @@
       "secret": "MCow…AyEA"
     },
     {
-      "rule": "generic-api-key",
-      "file": "aep-marketplace/public/playground.html",
-      "startLine": 268,
-      "secret": "MCow…8CM="
+      "rule": "jwt",
+      "file": "aep-marketplace/public/playground.js",
+      "startLine": 10,
+      "secret": "eyJh…dXJl"
     },
     {
-      "rule": "jwt",
-      "file": "aep-marketplace/public/playground.html",
-      "startLine": 249,
-      "secret": "eyJh…dXJl"
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/playground.js",
+      "startLine": 29,
+      "secret": "MCow…8CM="
     },
     {
       "rule": "generic-api-key",
@@ -310,8 +358,8 @@
     },
     {
       "rule": "generic-api-key",
-      "file": "aep-marketplace/public/translate.html",
-      "startLine": 260,
+      "file": "aep-marketplace/public/translate.js",
+      "startLine": 16,
       "secret": "MCow…8CM="
     },
     {
@@ -340,57 +388,21 @@
     },
     {
       "rule": "generic-api-key",
-      "file": "aep-marketplace/public/uta/conformance/runner-tests/mutant-sweep-twosite.json",
-      "startLine": 7,
-      "secret": "79a5…4d0c"
-    },
-    {
-      "rule": "generic-api-key",
       "file": "aep-marketplace/public/uta/conformance/runner-tests/mutant-sweep-v140.json",
       "startLine": 8,
       "secret": "4063…c738"
     },
     {
       "rule": "generic-api-key",
-      "file": "aep-marketplace/public/uta/conformance/runner-tests/mutant-sweep.json",
-      "startLine": 8,
+      "file": "aep-marketplace/public/uta/conformance/runner-tests/mutant-sweep-twosite.json",
+      "startLine": 7,
       "secret": "79a5…4d0c"
     },
     {
       "rule": "generic-api-key",
-      "file": "aep-marketplace/public/uta/conformance/vectors/_index.json",
-      "startLine": 49,
-      "secret": "MCow…Wsg="
-    },
-    {
-      "rule": "generic-api-key",
-      "file": "aep-marketplace/public/uta/conformance/vectors/_index.json",
-      "startLine": 75,
-      "secret": "MCow…Wsg="
-    },
-    {
-      "rule": "generic-api-key",
-      "file": "aep-marketplace/public/uta/conformance/vectors/_index.json",
-      "startLine": 151,
-      "secret": "MCow…Wsg="
-    },
-    {
-      "rule": "generic-api-key",
-      "file": "aep-marketplace/public/uta/conformance/vectors/_index.json",
-      "startLine": 307,
-      "secret": "ca-s….b64"
-    },
-    {
-      "rule": "generic-api-key",
-      "file": "aep-marketplace/public/uta/conformance/vectors/_index.json",
-      "startLine": 326,
-      "secret": "807f…e09d"
-    },
-    {
-      "rule": "generic-api-key",
-      "file": "aep-marketplace/public/uta/conformance/vectors/_index.json",
-      "startLine": 408,
-      "secret": "9ccd…442a"
+      "file": "aep-marketplace/public/uta/conformance/runner-tests/mutant-sweep.json",
+      "startLine": 8,
+      "secret": "79a5…4d0c"
     },
     {
       "rule": "generic-api-key",
@@ -430,6 +442,42 @@
     },
     {
       "rule": "generic-api-key",
+      "file": "aep-marketplace/public/uta/conformance/vectors/_index.json",
+      "startLine": 49,
+      "secret": "MCow…Wsg="
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/uta/conformance/vectors/_index.json",
+      "startLine": 75,
+      "secret": "MCow…Wsg="
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/uta/conformance/vectors/_index.json",
+      "startLine": 151,
+      "secret": "MCow…Wsg="
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/uta/conformance/vectors/_index.json",
+      "startLine": 307,
+      "secret": "ca-s….b64"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/uta/conformance/vectors/_index.json",
+      "startLine": 327,
+      "secret": "807f…e09d"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/uta/conformance/vectors/_index.json",
+      "startLine": 409,
+      "secret": "9ccd…442a"
+    },
+    {
+      "rule": "generic-api-key",
       "file": "aep-marketplace/public/uta/conformance/vectors/premature-atc.canonical.txt",
       "startLine": 1,
       "secret": "MCow…Wsg="
@@ -445,6 +493,30 @@
       "file": "aep-marketplace/public/uta/conformance/vectors/premature-atc.json",
       "startLine": 47,
       "secret": "MCow…Wsg="
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/uta/conformance/vectors/third-party/agentbouncer-transport-allowed.json",
+      "startLine": 27,
+      "secret": "MCow…ZFA="
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/uta/conformance/vectors/third-party/agentbouncer-transport-allowed.json",
+      "startLine": 132,
+      "secret": "esyN…Ae74"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/uta/conformance/vectors/third-party/agentbouncer-transport-denied.json",
+      "startLine": 27,
+      "secret": "MCow…ZFA="
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/uta/conformance/vectors/third-party/agentbouncer-transport-denied.json",
+      "startLine": 132,
+      "secret": "esyN…Ae74"
     },
     {
       "rule": "generic-api-key",
@@ -493,6 +565,18 @@
       "file": "aep-marketplace/public/uta/conformance/vectors/valid-unknown-field.json",
       "startLine": 52,
       "secret": "MCow…Wsg="
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/uta/conformance/vectors/third-party/traces_20261002_final.json",
+      "startLine": 136,
+      "secret": "esyN…Ae74"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/uta/conformance/vectors/third-party/traces_20261002_final.json",
+      "startLine": 257,
+      "secret": "esyN…Ae74"
     },
     {
       "rule": "generic-api-key",
@@ -580,30 +664,6 @@
     },
     {
       "rule": "generic-api-key",
-      "file": "aep-marketplace/public/uta/docs/atc-spec/test-vectors/_index.json",
-      "startLine": 31,
-      "secret": "MCow…jqY="
-    },
-    {
-      "rule": "generic-api-key",
-      "file": "aep-marketplace/public/uta/docs/atc-spec/test-vectors/_index.json",
-      "startLine": 68,
-      "secret": "MCow…jqY="
-    },
-    {
-      "rule": "generic-api-key",
-      "file": "aep-marketplace/public/uta/docs/atc-spec/test-vectors/_index.json",
-      "startLine": 103,
-      "secret": "MCow…jqY="
-    },
-    {
-      "rule": "generic-api-key",
-      "file": "aep-marketplace/public/uta/docs/atc-spec/test-vectors/_index.json",
-      "startLine": 179,
-      "secret": "MCow…jqY="
-    },
-    {
-      "rule": "generic-api-key",
       "file": "aep-marketplace/public/uta/docs/atc-spec/test-vectors/_test-ca-keys.json",
       "startLine": 6,
       "secret": "MCow…jqY="
@@ -685,6 +745,30 @@
       "file": "aep-marketplace/public/uta/docs/atc-spec/test-vectors/wrong-ca-key.json",
       "startLine": 20,
       "secret": "MCow…ykI="
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/uta/docs/atc-spec/test-vectors/_index.json",
+      "startLine": 31,
+      "secret": "MCow…jqY="
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/uta/docs/atc-spec/test-vectors/_index.json",
+      "startLine": 68,
+      "secret": "MCow…jqY="
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/uta/docs/atc-spec/test-vectors/_index.json",
+      "startLine": 103,
+      "secret": "MCow…jqY="
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/uta/docs/atc-spec/test-vectors/_index.json",
+      "startLine": 179,
+      "secret": "MCow…jqY="
     },
     {
       "rule": "generic-api-key",
@@ -3271,7 +3355,69 @@
       "file": "aep-marketplace/public/api/skills-lite.json",
       "startLine": 1,
       "secret": "quan…4772"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/api/skills-lite.json",
+      "startLine": 1,
+      "secret": "akhi…s236"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/api/skills-lite.json",
+      "startLine": 1,
+      "secret": "3641…llab"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/api/skills-lite.json",
+      "startLine": 1,
+      "secret": "Conr…2740"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/api/skills-lite.json",
+      "startLine": 1,
+      "secret": "abdo…z124"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/api/skills-lite.json",
+      "startLine": 1,
+      "secret": "abdu…k4vr"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/api/skills-lite.json",
+      "startLine": 1,
+      "secret": "abhi…1047"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/api/skills-lite.json",
+      "startLine": 1,
+      "secret": "Alex…CGO2"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/api/skills-lite.json",
+      "startLine": 1,
+      "secret": "aman…3110"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/api/skills-lite.json",
+      "startLine": 1,
+      "secret": "capt…e210"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/api/skills-lite.json",
+      "startLine": 1,
+      "secret": "chri…e310"
     }
   ],
-  "osv_findings": []
+  "osv_findings": [
+    {}
+  ]
 }
