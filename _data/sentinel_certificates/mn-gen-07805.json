@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5465980",
+  "certificate_id": "MN-SC-2026-6001365",
   "skill_id": "mn-gen-07805",
   "skill_name": "servicenow-mcp",
-  "issued_at": "2026-09-28T00:31:05.980Z",
-  "expires_at": "2026-10-05T00:31:05.980Z",
+  "issued_at": "2026-10-04T06:40:01.365Z",
+  "expires_at": "2026-10-11T06:40:01.365Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "1252a4a217658cc0dbd7b080b65e0af80763e37f0ffdfe8eb67915601d3c5d38",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "bc13ebc4dc780e2b13021df7ffa46dc28e0590bdd17aac79b120a791081663e6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07805"
 }

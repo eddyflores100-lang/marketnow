@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-9772473",
+  "certificate_id": "MN-SC-2026-6026782",
   "skill_id": "mn-sec-11572",
   "skill_name": "mcp-security-hub",
-  "issued_at": "2026-07-26T04:22:52.473Z",
-  "expires_at": "2026-08-02T04:22:52.473Z",
+  "issued_at": "2026-10-04T06:40:26.782Z",
+  "expires_at": "2026-10-11T06:40:26.782Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "af1aa1b27a3f25f1b9986742dd2b4d9759b191fcb804c24b5078eecb5f732afa",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "413822edf663cee084b3f132e283fbb4632512849a387ac5636495f95ce6d752",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-sec-11572"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5425897",
+  "certificate_id": "MN-SC-2026-5953368",
   "skill_id": "mn-gen-02331",
   "skill_name": "mcp-proxy-server",
-  "issued_at": "2026-09-28T00:30:25.897Z",
-  "expires_at": "2026-10-05T00:30:25.897Z",
+  "issued_at": "2026-10-04T06:39:13.368Z",
+  "expires_at": "2026-10-11T06:39:13.368Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "8e5c6ef8ff93e8a24a47450c04ba38423bc942d2c950466e9e6ec9fca2eade3a",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "70fa984539281f7c06a6ac2f7ede77dad206a0fd056982778e070d7e97a38e69",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02331"
 }

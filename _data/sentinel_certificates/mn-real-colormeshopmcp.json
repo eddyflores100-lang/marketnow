@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9959759",
+  "certificate_id": "MN-SC-2026-6217170",
   "skill_id": "mn-real-colormeshopmcp",
   "skill_name": "colormeshop-mcp",
-  "issued_at": "2026-07-26T04:25:59.759Z",
-  "expires_at": "2026-08-02T04:25:59.759Z",
+  "issued_at": "2026-10-04T06:43:37.170Z",
+  "expires_at": "2026-10-11T06:43:37.170Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "5e6011b4985a44b31216a9971a5821b75fd30e8bc112cb3c027009897a61eea4",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "c979289bbed962679f199ec32ac6b0fa7bd75165b6222c60b0946629b803e739",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-colormeshopmcp"
 }

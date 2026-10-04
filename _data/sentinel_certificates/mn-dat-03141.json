@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5431638",
+  "certificate_id": "MN-SC-2026-5960386",
   "skill_id": "mn-dat-03141",
   "skill_name": "dbhub",
-  "issued_at": "2026-09-28T00:30:31.638Z",
-  "expires_at": "2026-10-05T00:30:31.638Z",
+  "issued_at": "2026-10-04T06:39:20.386Z",
+  "expires_at": "2026-10-11T06:39:20.386Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "7d41a0db5c2d776343817d5e21d81f64938badf27ee781321a7d9ba7f99c5ed5",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "923bd2cf5b609a7ca9bffbbb3e0cce6a449bbf6ab924154116719fb2a3d815f7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-dat-03141"
 }

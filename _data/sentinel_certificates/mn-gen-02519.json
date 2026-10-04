@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5426684",
+  "certificate_id": "MN-SC-2026-5954501",
   "skill_id": "mn-gen-02519",
   "skill_name": "codedb",
-  "issued_at": "2026-09-28T00:30:26.684Z",
-  "expires_at": "2026-10-05T00:30:26.684Z",
+  "issued_at": "2026-10-04T06:39:14.501Z",
+  "expires_at": "2026-10-11T06:39:14.501Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "36c94e8676c42417e32e66940170870f7e73ac4e44de43e9a9b56a2b93e2011e",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "282049d5061d4aacb019f15e6cb8935ec42c68e557c062436b1fbef00d0a9052",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02519"
 }

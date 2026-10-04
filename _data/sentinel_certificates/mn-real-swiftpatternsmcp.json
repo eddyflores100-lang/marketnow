@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9924070",
+  "certificate_id": "MN-SC-2026-6176069",
   "skill_id": "mn-real-swiftpatternsmcp",
   "skill_name": "swift-patterns-mcp",
-  "issued_at": "2026-07-26T04:25:24.070Z",
-  "expires_at": "2026-08-02T04:25:24.070Z",
+  "issued_at": "2026-10-04T06:42:56.069Z",
+  "expires_at": "2026-10-11T06:42:56.069Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "054c272131a740187fffcdd22c688b9cd07e0aea9697cd6d592a113f30374aeb",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "6376d24c0c134fa0a0fe20b6d7015d3edf0ec53f0547d0ff409f320f74f6305c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-swiftpatternsmcp"
 }

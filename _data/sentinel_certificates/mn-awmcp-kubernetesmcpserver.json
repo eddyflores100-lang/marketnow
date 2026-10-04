@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9856100",
+  "certificate_id": "MN-SC-2026-6103508",
   "skill_id": "mn-awmcp-kubernetesmcpserver",
   "skill_name": "kubernetes-mcp-server",
-  "issued_at": "2026-07-26T04:24:16.100Z",
-  "expires_at": "2026-08-02T04:24:16.100Z",
+  "issued_at": "2026-10-04T06:41:43.508Z",
+  "expires_at": "2026-10-11T06:41:43.508Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,23 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "02ac699a0fc261faf47fd833097c6c49dc447521ef0ab0df1958cde1e6fd9eaa",
+  "artifact": {
+    "bound": true,
+    "source": "npm",
+    "version": "0.0.67",
+    "shasum": "3a2e629878f537681cf4b5e2e881ecc0b84adfae",
+    "integrity": "sha512-+pAaMnXnDueuiqm3nOWSVhBAY9/voqW6bjJajFdVmm9dwWUbszJIUjkHkFq6f4ULlOajifX+PfJLi6ltmZOEfw==",
+    "tarball_bytes": 23080,
+    "resolved_at": "2026-09-28T11:52:06.594Z"
+  },
+  "cert_v": 2,
+  "signature": "0093a7ded9d3a97b387bc2a8eee1bbf55bcdd9f72322c07242a0fd11ab8af979",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-kubernetesmcpserver"
 }

@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9854703",
+  "certificate_id": "MN-SC-2026-6102441",
   "skill_id": "mn-awmcp-ocipricingmcp",
   "skill_name": "oci-pricing-mcp",
-  "issued_at": "2026-07-26T04:24:14.703Z",
-  "expires_at": "2026-08-02T04:24:14.703Z",
+  "issued_at": "2026-10-04T06:41:42.441Z",
+  "expires_at": "2026-10-11T06:41:42.441Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "90c90ef915d183dbb68ea4e0c47f984dd99f67fe22cfdf181b4786cf1c9bd448",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "2639ed89e847305eca95018baccefb7a9b0bba3e6c3e666d9eaa8ef82bf7e356",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-ocipricingmcp"
 }

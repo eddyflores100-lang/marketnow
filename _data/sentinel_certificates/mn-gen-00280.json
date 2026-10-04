@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5412594",
+  "certificate_id": "MN-SC-2026-5936790",
   "skill_id": "mn-gen-00280",
   "skill_name": "agent-receipts",
-  "issued_at": "2026-09-28T00:30:12.594Z",
-  "expires_at": "2026-10-05T00:30:12.594Z",
+  "issued_at": "2026-10-04T06:38:56.790Z",
+  "expires_at": "2026-10-11T06:38:56.790Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "e261e5f1532275fd278aa902774b60c6bf53dfdd5741cdc1934eda3cf45acc4e",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "a03e20437cb281242a2897e0b053d0fe8e652f0f189c0931d932872f2a180833",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00280"
 }

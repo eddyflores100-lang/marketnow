@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9900323",
+  "certificate_id": "MN-SC-2026-6148247",
   "skill_id": "mn-real-mcpicpfitscorer",
   "skill_name": "mcp-icp-fit-scorer",
-  "issued_at": "2026-07-26T04:25:00.323Z",
-  "expires_at": "2026-08-02T04:25:00.323Z",
+  "issued_at": "2026-10-04T06:42:28.247Z",
+  "expires_at": "2026-10-11T06:42:28.247Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 7,
+  "overall_score": 8,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 3,
+    "l15_findings": 2,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "6809fb61b299e52e4b833fa840fa2475d80cc03f918bc0a549fa2d7a53b5af3d",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "a79bb133941363883745e5380f291b4670df3dd361e075c06c0ccc41ca17d3f0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpicpfitscorer"
 }

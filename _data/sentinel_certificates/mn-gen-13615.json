@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9786819",
+  "certificate_id": "MN-SC-2026-6042558",
   "skill_id": "mn-gen-13615",
   "skill_name": "xero-mcp-server",
-  "issued_at": "2026-07-26T04:23:06.819Z",
-  "expires_at": "2026-08-02T04:23:06.819Z",
+  "issued_at": "2026-10-04T06:40:42.558Z",
+  "expires_at": "2026-10-11T06:40:42.558Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 7,
+  "overall_score": 8,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 3,
+    "l15_findings": 2,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "ea32b939af6ef7738e010ace137092fec19dee111dc550590f375a7b0c45b1a6",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "ac1f1da6b3d494d9ebab56c7540197cadaca5bcfb47a515a6e1548af7e85ed11",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13615"
 }

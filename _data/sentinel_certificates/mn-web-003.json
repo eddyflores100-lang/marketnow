@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9789673",
+  "certificate_id": "MN-SC-2026-6046035",
   "skill_id": "mn-web-003",
   "skill_name": "bing-search-mcp",
-  "issued_at": "2026-07-26T04:23:09.673Z",
-  "expires_at": "2026-08-02T04:23:09.673Z",
+  "issued_at": "2026-10-04T06:40:46.035Z",
+  "expires_at": "2026-10-11T06:40:46.035Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 7,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 3,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "ac06dc7a83b2b404410f10b05e51d0a8770f4b6331b88fa237517a678ef3fbcc",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "94e83be621ba91b6fb9b5d1e50ed6c4799432b1d6da3104bfa2755b745ccd9ff",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-web-003"
 }

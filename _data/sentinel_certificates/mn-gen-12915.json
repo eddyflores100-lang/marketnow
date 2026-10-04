@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9781500",
+  "certificate_id": "MN-SC-2026-6036519",
   "skill_id": "mn-gen-12915",
   "skill_name": "ue-mcp",
-  "issued_at": "2026-07-26T04:23:01.500Z",
-  "expires_at": "2026-08-02T04:23:01.500Z",
+  "issued_at": "2026-10-04T06:40:36.519Z",
+  "expires_at": "2026-10-11T06:40:36.519Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "b6b16077db70ada836960b95773ca1625bcba8a135669d2fb89defe84b4baf0f",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "4071db108924dbe11bb29bb20278d010685d2381ca1a6cf8a66d83fff1196f6d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12915"
 }

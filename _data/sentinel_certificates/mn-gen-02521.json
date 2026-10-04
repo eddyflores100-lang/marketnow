@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5426910",
+  "certificate_id": "MN-SC-2026-5954700",
   "skill_id": "mn-gen-02521",
   "skill_name": "code-mode",
-  "issued_at": "2026-09-28T00:30:26.910Z",
-  "expires_at": "2026-10-05T00:30:26.910Z",
+  "issued_at": "2026-10-04T06:39:14.700Z",
+  "expires_at": "2026-10-11T06:39:14.700Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "82b1751c279abb9b1ba964140456882d5b5defd8488474adc3bd473816838370",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "a9d9d772544ebe0221e27bbb3dc5948ff075dbc3ebcbe9355aed075729657e1e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02521"
 }

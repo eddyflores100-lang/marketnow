@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-9819625",
+  "certificate_id": "MN-SC-2026-6071212",
   "skill_id": "mn-awmcp-cromptonnetwork",
   "skill_name": "crompton-network",
-  "issued_at": "2026-07-26T04:23:39.625Z",
-  "expires_at": "2026-08-02T04:23:39.625Z",
+  "issued_at": "2026-10-04T06:41:11.212Z",
+  "expires_at": "2026-10-11T06:41:11.212Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -20,14 +20,20 @@
     "l2": true
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_score": 0,
     "l2_execution_status": "failed_to_start"
   },
-  "signature": "196320eafaff67d6bf3758a523a3f8d89ef1ef03cb6b72039a1ac7876d01624f",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "e0282503ec97e2b652b191759c8caff956544be2d84c19b0a145d94fd4d7458e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-cromptonnetwork"
 }

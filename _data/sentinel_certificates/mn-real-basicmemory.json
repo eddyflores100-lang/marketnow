@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-0010397",
+  "certificate_id": "MN-SC-2026-6274901",
   "skill_id": "mn-real-basicmemory",
   "skill_name": "basic-memory",
-  "issued_at": "2026-07-26T04:26:50.397Z",
-  "expires_at": "2026-08-02T04:26:50.397Z",
+  "issued_at": "2026-10-04T06:44:34.901Z",
+  "expires_at": "2026-10-11T06:44:34.901Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 7,
+  "overall_score": 8,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 3,
+    "l15_findings": 2,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "2b17c7032dba6ed6b309665a1ad0e8c9d4db6dd85dc61913a595b19a6c164b28",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "9ae20c50953af3e5a88917c84725ce53636070ddaa2483175cfddb9967abbb9a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-basicmemory"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5437095",
+  "certificate_id": "MN-SC-2026-5966813",
   "skill_id": "mn-net-03967",
   "skill_name": "fetcher-mcp",
-  "issued_at": "2026-09-28T00:30:37.095Z",
-  "expires_at": "2026-10-05T00:30:37.095Z",
+  "issued_at": "2026-10-04T06:39:26.813Z",
+  "expires_at": "2026-10-11T06:39:26.813Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -26,7 +26,17 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "84b15978b49ef20eb57c1b6cea6f9314142d2d100f6f139015d3f6cafb7ea17b",
+  "artifact": {
+    "bound": true,
+    "source": "npm",
+    "version": "0.3.9",
+    "shasum": "148be0b2997279aa1c12e5dbd032b96f9a01d3e3",
+    "integrity": "sha512-qzirMkDTCplUNmBhfODmmVbARzCecT93ndG+Yv1gA6FmU666ThHMiiEO7JEk89ihd6xEeywaJ8GJKsUo5/S3XA==",
+    "tarball_bytes": 17751,
+    "resolved_at": "2026-09-28T11:52:07.833Z"
+  },
+  "cert_v": 2,
+  "signature": "8056b3d44fb0bad7e25cc4788cc8625172f442015dc87476659fa07bab2d03cf",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-net-03967"
 }

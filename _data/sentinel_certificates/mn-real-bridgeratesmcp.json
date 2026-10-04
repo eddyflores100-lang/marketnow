@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9981006",
+  "certificate_id": "MN-SC-2026-6242393",
   "skill_id": "mn-real-bridgeratesmcp",
   "skill_name": "bridge-rates-mcp",
-  "issued_at": "2026-07-26T04:26:21.006Z",
-  "expires_at": "2026-08-02T04:26:21.006Z",
+  "issued_at": "2026-10-04T06:44:02.393Z",
+  "expires_at": "2026-10-11T06:44:02.393Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "09b2636c477f07dff125e6ddcf05832ca585312d2a4b4cfe972f712d6ddaa270",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "65332a126b4b1e836519d0a3d55520cfc9de9abcc7fc5b7d6a588df0f7a9bae2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-bridgeratesmcp"
 }

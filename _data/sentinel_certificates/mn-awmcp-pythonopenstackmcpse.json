@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9857710",
+  "certificate_id": "MN-SC-2026-6104809",
   "skill_id": "mn-awmcp-pythonopenstackmcpse",
   "skill_name": "python-openstackmcp-server",
-  "issued_at": "2026-07-26T04:24:17.710Z",
-  "expires_at": "2026-08-02T04:24:17.710Z",
+  "issued_at": "2026-10-04T06:41:44.809Z",
+  "expires_at": "2026-10-11T06:41:44.809Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "e958ee39766f21f6518670b3f31b6369dc48c1c62ea420c6dd0f1351cfaf3fc5",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "d23b915e1799764cd46a2f705db23b5581ea8aa36ec4c4ed4f947d7ff1cdf361",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-pythonopenstackmcpse"
 }

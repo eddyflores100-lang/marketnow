@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9843113",
+  "certificate_id": "MN-SC-2026-6092083",
   "skill_id": "mn-awmcp-iwdpmcp",
   "skill_name": "iwdp-mcp",
-  "issued_at": "2026-07-26T04:24:03.113Z",
-  "expires_at": "2026-08-02T04:24:03.113Z",
+  "issued_at": "2026-10-04T06:41:32.083Z",
+  "expires_at": "2026-10-11T06:41:32.083Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "6aca2b18afb9a28a59a1dadc76a4edd98f6167453c22eb2cc9a5e6a6d782cc36",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "04da7a5cdcf3fd806b60ac461d82b8b05a226ea74a3b074b68d9b31c14dca40b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-iwdpmcp"
 }

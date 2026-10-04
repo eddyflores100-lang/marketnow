@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9887665",
+  "certificate_id": "MN-SC-2026-6130925",
   "skill_id": "mn-awmcp-telegrammcp",
   "skill_name": "telegram-mcp",
-  "issued_at": "2026-07-26T04:24:47.665Z",
-  "expires_at": "2026-08-02T04:24:47.665Z",
+  "issued_at": "2026-10-04T06:42:10.925Z",
+  "expires_at": "2026-10-11T06:42:10.925Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "c1b56ec2c42941ce0bb4099cc7f86fef96a07bf2f0e607d704e62692a897ae2b",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "c416e9f21f0f76abd97970b84ed33dfc9bd56c3c96d3e08afd7f4d607eadb46c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-telegrammcp"
 }

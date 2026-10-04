@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9853653",
+  "certificate_id": "MN-SC-2026-6101268",
   "skill_id": "mn-awmcp-terraformmcpserver",
   "skill_name": "terraform-mcp-server",
-  "issued_at": "2026-07-26T04:24:13.653Z",
-  "expires_at": "2026-08-02T04:24:13.653Z",
+  "issued_at": "2026-10-04T06:41:41.268Z",
+  "expires_at": "2026-10-11T06:41:41.268Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,23 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "c175333c86a5f3da02f5781c5673d92b18c03000755d56215c5864922ccf676d",
+  "artifact": {
+    "bound": true,
+    "source": "npm",
+    "version": "0.13.0",
+    "shasum": "9a79a78ab53da977adcd201caea8afebbb5e71b3",
+    "integrity": "sha512-yrQ4H/wnvBxBhJvTzkfGNKFbwzPgsrnwZMR2/3lObsoAesh5wrz/iWcDaujkI44V5Bs69eCcTmWJDq93/T6XqQ==",
+    "tarball_bytes": 71614,
+    "resolved_at": "2026-09-28T11:52:48.792Z"
+  },
+  "cert_v": 2,
+  "signature": "7e0512450050298ce1189fa58663fe5004be3a5abff6fab7bd5c0d2ac7d77d94",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-terraformmcpserver"
 }

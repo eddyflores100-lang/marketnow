@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5463573",
+  "certificate_id": "MN-SC-2026-5998524",
   "skill_id": "mn-gen-07616",
   "skill_name": "deepseek-mcp-server",
-  "issued_at": "2026-09-28T00:31:03.573Z",
-  "expires_at": "2026-10-05T00:31:03.573Z",
+  "issued_at": "2026-10-04T06:39:58.524Z",
+  "expires_at": "2026-10-11T06:39:58.524Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -26,7 +26,17 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "e7f325f40bf3b2c164e9cba8549027bc767e2506f96078a3111b5cadf3fefe8e",
+  "artifact": {
+    "bound": true,
+    "source": "npm",
+    "version": "1.0.1",
+    "shasum": "41b0c6dd3cf9e2be696960b01c23e8403be95cc5",
+    "integrity": "sha512-MvjJ1+Ecx079cirvd1jDEI/Wwwghq45ZjZIN/hPgPRW/xiLqHoRmI2+lB+rdKZ+3SmG7rmcD6TIQxrrsJL1E9A==",
+    "tarball_bytes": 34433,
+    "resolved_at": "2026-09-28T11:53:14.636Z"
+  },
+  "cert_v": 2,
+  "signature": "16b2cf8feb89e691e1448fb5ee5a0793913748edbb63ff855b16862cc7be4a95",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07616"
 }

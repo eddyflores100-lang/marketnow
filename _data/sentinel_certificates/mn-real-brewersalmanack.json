@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-0016146",
+  "certificate_id": "MN-SC-2026-6280961",
   "skill_id": "mn-real-brewersalmanack",
   "skill_name": "brewers-almanack",
-  "issued_at": "2026-07-26T04:26:56.146Z",
-  "expires_at": "2026-08-02T04:26:56.146Z",
+  "issued_at": "2026-10-04T06:44:40.961Z",
+  "expires_at": "2026-10-11T06:44:40.961Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "baf6c145795bc7ca7f07e9480ace5bafe45cb28037c3c2c967dc255850d5d5fe",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "88ef19e93016f5923552fc04b28f6711bd3584a5d14786b1bdb4944a3ddede70",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-brewersalmanack"
 }

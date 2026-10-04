@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9986887",
+  "certificate_id": "MN-SC-2026-6249129",
   "skill_id": "mn-real-mcpdealflowsignal",
   "skill_name": "mcp-deal-flow-signal",
-  "issued_at": "2026-07-26T04:26:26.887Z",
-  "expires_at": "2026-08-02T04:26:26.887Z",
+  "issued_at": "2026-10-04T06:44:09.129Z",
+  "expires_at": "2026-10-11T06:44:09.129Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "13f7a3623209964df4b01dc9a3798f5a63bdebb25b09c422b2af2926dfbaa94f",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "1fe3d5b0162bdf0ab94bf57a0cd5717479e7d69c43dbe9c37561a718c084ba3d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpdealflowsignal"
 }

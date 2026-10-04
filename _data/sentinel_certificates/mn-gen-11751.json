@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9773596",
+  "certificate_id": "MN-SC-2026-6027885",
   "skill_id": "mn-gen-11751",
   "skill_name": "mcp-server-siri-shortcuts",
-  "issued_at": "2026-07-26T04:22:53.596Z",
-  "expires_at": "2026-08-02T04:22:53.596Z",
+  "issued_at": "2026-10-04T06:40:27.885Z",
+  "expires_at": "2026-10-11T06:40:27.885Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "1e7872704cb23b9180a9e6b64fd4a2905bdec65dff26938583e7973815057d49",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "42e2e6768554521a4f303140d591250f2193586f29c7094b290883c5f3ffa4a9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-11751"
 }

@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9775471",
+  "certificate_id": "MN-SC-2026-6029986",
   "skill_id": "mn-gen-12158",
   "skill_name": "ssh-mcp",
-  "issued_at": "2026-07-26T04:22:55.471Z",
-  "expires_at": "2026-08-02T04:22:55.471Z",
+  "issued_at": "2026-10-04T06:40:29.986Z",
+  "expires_at": "2026-10-11T06:40:29.986Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,23 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "f49229a94acaed193cd2cb03ea73a2483e27c8890cd1a1c7665ebbd2ef921262",
+  "artifact": {
+    "bound": true,
+    "source": "npm",
+    "version": "2.13.0",
+    "shasum": "ce12ca2aa5a9b1ec0dd806fba8836363f83baebc",
+    "integrity": "sha512-yd/69mxlEEJGSI25gaohtX+9l7z92/yyVAEPyXbg3m/cz8MDs3nGpaTgOzpE9EksBnyZCLq8xQUIT3PN3zwBdQ==",
+    "tarball_bytes": 186717,
+    "resolved_at": "2026-09-28T11:51:59.984Z"
+  },
+  "cert_v": 2,
+  "signature": "54dc5aba5ed72b732f8a218d8c16cc41b5a8db33e471beb1d697006516d6c2f9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12158"
 }

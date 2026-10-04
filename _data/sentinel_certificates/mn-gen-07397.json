@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5461954",
+  "certificate_id": "MN-SC-2026-5996535",
   "skill_id": "mn-gen-07397",
   "skill_name": "reddit-mcp",
-  "issued_at": "2026-09-28T00:31:01.954Z",
-  "expires_at": "2026-10-05T00:31:01.954Z",
+  "issued_at": "2026-10-04T06:39:56.535Z",
+  "expires_at": "2026-10-11T06:39:56.535Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "4f9f4549a03a6b57b21d0186e495ee39afaa4d0693586e511d607463e77870d3",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "1b489ef2eb7bf7a0af2191eb7963008bfb7218c8c7ba144c35632cf3239c543a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07397"
 }

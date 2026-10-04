@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9772932",
+  "certificate_id": "MN-SC-2026-6027333",
   "skill_id": "mn-dat-11717",
   "skill_name": "sheetsdata-mcp",
-  "issued_at": "2026-07-26T04:22:52.932Z",
-  "expires_at": "2026-08-02T04:22:52.932Z",
+  "issued_at": "2026-10-04T06:40:27.333Z",
+  "expires_at": "2026-10-11T06:40:27.333Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "ce79dbb24be338a7205ec68dde941bc2746af5059c5f590f772b1df90299ed41",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "9a3ee63b7fe526e2074c341458e8be2f2a7a00880aff36baf292d53a326b326c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-dat-11717"
 }

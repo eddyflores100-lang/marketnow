@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9998163",
+  "certificate_id": "MN-SC-2026-6261313",
   "skill_id": "mn-real-w3ledgermcpserver",
   "skill_name": "w3ledger-mcp-server",
-  "issued_at": "2026-07-26T04:26:38.163Z",
-  "expires_at": "2026-08-02T04:26:38.163Z",
+  "issued_at": "2026-10-04T06:44:21.313Z",
+  "expires_at": "2026-10-11T06:44:21.313Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "363542f9e6645e4fa63e30bf70081cf0310df07c10de44af56217447fc19488a",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "fa4b171577f15b5f15d0559ea14399836bf3c1295ea6122111c60c2233f7c2aa",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-w3ledgermcpserver"
 }

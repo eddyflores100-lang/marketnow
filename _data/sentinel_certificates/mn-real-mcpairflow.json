@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9909163",
+  "certificate_id": "MN-SC-2026-6158136",
   "skill_id": "mn-real-mcpairflow",
   "skill_name": "mcp-airflow",
-  "issued_at": "2026-07-26T04:25:09.163Z",
-  "expires_at": "2026-08-02T04:25:09.163Z",
+  "issued_at": "2026-10-04T06:42:38.136Z",
+  "expires_at": "2026-10-11T06:42:38.136Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "61d838ad8e0c5588b5b840c6492d445b890a7acd7f929a6f86f35359c42930b4",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "fe5399f5db3f4da32b6b93a966ecb2a83d638deb236c1fefde0c73ed08ec40a3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpairflow"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-9979738",
+  "certificate_id": "MN-SC-2026-6240500",
   "skill_id": "mn-real-personalfinancemcp",
   "skill_name": "personal-finance-mcp",
-  "issued_at": "2026-07-26T04:26:19.738Z",
-  "expires_at": "2026-08-02T04:26:19.738Z",
+  "issued_at": "2026-10-04T06:44:00.500Z",
+  "expires_at": "2026-10-11T06:44:00.500Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "9503a19a51f7e1c5500acf6138da59f0aac1c2f4058cf7ca64c7d5ef79512f9c",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "3e913b9976051752061902849f3b5c4dba484ede62889d5a43c100539b740c66",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-personalfinancemcp"
 }

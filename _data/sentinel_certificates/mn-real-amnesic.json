@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-9906730",
+  "certificate_id": "MN-SC-2026-6155229",
   "skill_id": "mn-real-amnesic",
   "skill_name": "amnesic",
-  "issued_at": "2026-07-26T04:25:06.730Z",
-  "expires_at": "2026-08-02T04:25:06.730Z",
+  "issued_at": "2026-10-04T06:42:35.229Z",
+  "expires_at": "2026-10-11T06:42:35.229Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "c7697fb1209b5b578631d0ba662d4b1e7a98710a9056619c64b688c24e7b1969",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "1a5e0f9f70024ac0883a34eaf7c8231444438e0135e361cfacb9670dfb5d1a64",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-amnesic"
 }

@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9975060",
+  "certificate_id": "MN-SC-2026-6236319",
   "skill_id": "mn-real-cashpilotmcp",
   "skill_name": "cashpilot-mcp",
-  "issued_at": "2026-07-26T04:26:15.060Z",
-  "expires_at": "2026-08-02T04:26:15.060Z",
+  "issued_at": "2026-10-04T06:43:56.319Z",
+  "expires_at": "2026-10-11T06:43:56.319Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "410f913cd8956d07eea9d48f02a0eda945f4e76503afca73c5c7ba1acc394138",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "ca2d6af4a97ce0b563c8072f7da5f9be1dc425289c894e86423282842488e0e9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cashpilotmcp"
 }

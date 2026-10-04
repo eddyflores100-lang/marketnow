@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9948157",
+  "certificate_id": "MN-SC-2026-6203760",
   "skill_id": "mn-real-dotnettemplatemcp",
   "skill_name": "dotnet-template-mcp",
-  "issued_at": "2026-07-26T04:25:48.157Z",
-  "expires_at": "2026-08-02T04:25:48.157Z",
+  "issued_at": "2026-10-04T06:43:23.760Z",
+  "expires_at": "2026-10-11T06:43:23.760Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "7e7158e11a83b60877f51967a7228e2a4fc8fdbba6860b050fad07f5ce0c1a7b",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "84adbb1fc0218060304d11d41a2b448c6371ed90c47e4dedac12aaaab4007b44",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-dotnettemplatemcp"
 }

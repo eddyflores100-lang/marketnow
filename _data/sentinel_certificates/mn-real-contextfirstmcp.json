@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-0013083",
+  "certificate_id": "MN-SC-2026-6277174",
   "skill_id": "mn-real-contextfirstmcp",
   "skill_name": "Context-First-MCP",
-  "issued_at": "2026-07-26T04:26:53.083Z",
-  "expires_at": "2026-08-02T04:26:53.083Z",
+  "issued_at": "2026-10-04T06:44:37.174Z",
+  "expires_at": "2026-10-11T06:44:37.174Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "74e6e4f2d056cec4e726d6d9db140b6a1e2d2a4dbe20110473e5725a90572aa4",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "339ad85a987def2eacf9c8169cd7188f56c1149af8b41da0dcd157815fa56157",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-contextfirstmcp"
 }

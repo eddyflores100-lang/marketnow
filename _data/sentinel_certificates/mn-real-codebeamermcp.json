@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9915464",
+  "certificate_id": "MN-SC-2026-6165763",
   "skill_id": "mn-real-codebeamermcp",
   "skill_name": "codebeamer-mcp",
-  "issued_at": "2026-07-26T04:25:15.464Z",
-  "expires_at": "2026-08-02T04:25:15.464Z",
+  "issued_at": "2026-10-04T06:42:45.763Z",
+  "expires_at": "2026-10-11T06:42:45.763Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "89e18dc1b5a4b2a4ea77afbbbc2c48a34b6459e9083e33dd9bf5e9ba88e61f92",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "a0e19a1e8211f532cdf19df44f69adf1831cfc2ec2917c10a2d71dc37712a47b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-codebeamermcp"
 }

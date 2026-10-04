@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9984335",
+  "certificate_id": "MN-SC-2026-6246449",
   "skill_id": "mn-real-hyperliquidwhalealer",
   "skill_name": "hyperliquid-whalealert-mcp",
-  "issued_at": "2026-07-26T04:26:24.335Z",
-  "expires_at": "2026-08-02T04:26:24.335Z",
+  "issued_at": "2026-10-04T06:44:06.449Z",
+  "expires_at": "2026-10-11T06:44:06.449Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "2cc494f2fe66e937ad9d3d5775e7ca8081fc91b806e8186b526ad9acc568387e",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "5821ed47193de52a2be49dd9e76b6dedd078413bac77a59e1b3092bd51ba38d8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-hyperliquidwhalealer"
 }

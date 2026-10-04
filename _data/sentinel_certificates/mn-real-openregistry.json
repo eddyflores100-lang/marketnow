@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-9995712",
+  "certificate_id": "MN-SC-2026-6258576",
   "skill_id": "mn-real-openregistry",
   "skill_name": "openregistry",
-  "issued_at": "2026-07-26T04:26:35.712Z",
-  "expires_at": "2026-08-02T04:26:35.712Z",
+  "issued_at": "2026-10-04T06:44:18.576Z",
+  "expires_at": "2026-10-11T06:44:18.576Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "8d60ba48cf9e37a333d3196738bc11b974a5d4ed7ce97ba1e946e5fbd99058e7",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "d3bc146722705673eaf636f373b04d39e13cdf020cbebfa38b4d5d76cc190f97",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-openregistry"
 }

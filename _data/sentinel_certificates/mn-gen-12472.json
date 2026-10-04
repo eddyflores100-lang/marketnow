@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9777695",
+  "certificate_id": "MN-SC-2026-6032534",
   "skill_id": "mn-gen-12472",
   "skill_name": "tavily-mcp",
-  "issued_at": "2026-07-26T04:22:57.695Z",
-  "expires_at": "2026-08-02T04:22:57.695Z",
+  "issued_at": "2026-10-04T06:40:32.534Z",
+  "expires_at": "2026-10-11T06:40:32.534Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,23 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "08b01d0610f3f39483e69e9ec246f4b6fd17d010beafd9b24eaa664caf74353e",
+  "artifact": {
+    "bound": true,
+    "source": "npm",
+    "version": "0.2.22",
+    "shasum": "59cb6cf6671ebc9d7dd31ce70d785935c36ffd15",
+    "integrity": "sha512-w2pmmmn/JKcNavylDoiNtNPflWt6SK2G1SVUvg0VvdvFJQUaOzEdanAm1VUWBOhUCqmVoBYVPstGcOoWvh8RQQ==",
+    "tarball_bytes": 14120,
+    "resolved_at": "2026-09-28T11:51:54.822Z"
+  },
+  "cert_v": 2,
+  "signature": "9b4492db117b252bae2a578eebb20405c5ee36a4375988ba999e003c3518af25",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12472"
 }

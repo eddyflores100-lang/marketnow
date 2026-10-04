@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-0014313",
+  "certificate_id": "MN-SC-2026-6278894",
   "skill_id": "mn-real-mem0mcpselfhosted",
   "skill_name": "mem0-mcp-selfhosted",
-  "issued_at": "2026-07-26T04:26:54.313Z",
-  "expires_at": "2026-08-02T04:26:54.313Z",
+  "issued_at": "2026-10-04T06:44:38.894Z",
+  "expires_at": "2026-10-11T06:44:38.894Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "53b36228e79c7ff724f848e876c0bc51110a22f2e4fc02b7746117dd6324d4cc",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "e57c9fb0f4ad13447a4ba2191e6019fa63aa7c923920cf0df8076d4685ef161b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mem0mcpselfhosted"
 }

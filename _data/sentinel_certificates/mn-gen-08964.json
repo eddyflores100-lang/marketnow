@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5471631",
+  "certificate_id": "MN-SC-2026-6007865",
   "skill_id": "mn-gen-08964",
   "skill_name": "meta-ads-mcp",
-  "issued_at": "2026-09-28T00:31:11.631Z",
-  "expires_at": "2026-10-05T00:31:11.631Z",
+  "issued_at": "2026-10-04T06:40:07.865Z",
+  "expires_at": "2026-10-11T06:40:07.865Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -26,7 +26,17 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "c1f9fb7ba4f3fe67a23463d20d7a7a676bcee6bb39a19956963eed1a56994e26",
+  "artifact": {
+    "bound": true,
+    "source": "npm",
+    "version": "1.1.0",
+    "shasum": "1709b763abcd7115660069af08bef13b3a997823",
+    "integrity": "sha512-M8eMLcucmUn+UfFY/wJkXqJyQzUUZ9ogVmNgkyuW+qR8Ul3QCSg8pwnfRhOilcaSqITJ9yIKMJZQ4ZGhJ2Kg+w==",
+    "tarball_bytes": 130230,
+    "resolved_at": "2026-09-28T11:52:29.348Z"
+  },
+  "cert_v": 2,
+  "signature": "7f41cabb6cbf982d9be3583d64f2149379caad4510460e6c40f986c123ff3910",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-08964"
 }

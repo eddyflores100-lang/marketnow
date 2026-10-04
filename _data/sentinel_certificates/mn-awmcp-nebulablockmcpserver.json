@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9857131",
+  "certificate_id": "MN-SC-2026-6104450",
   "skill_id": "mn-awmcp-nebulablockmcpserver",
   "skill_name": "nebulablock-mcp-server",
-  "issued_at": "2026-07-26T04:24:17.131Z",
-  "expires_at": "2026-08-02T04:24:17.131Z",
+  "issued_at": "2026-10-04T06:41:44.450Z",
+  "expires_at": "2026-10-11T06:41:44.450Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "508bc15ada88690dc3b06c89e8d3b8d41e9c5ef001de8e01d40c59578e9f1022",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "6b5f02a4b984e31b24c90950c9944be59475f93d75e6134c97429ab73283cf78",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-nebulablockmcpserver"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5411660",
+  "certificate_id": "MN-SC-2026-5935683",
   "skill_id": "mn-gen-00209",
   "skill_name": "affine-mcp-server",
-  "issued_at": "2026-09-28T00:30:11.660Z",
-  "expires_at": "2026-10-05T00:30:11.660Z",
+  "issued_at": "2026-10-04T06:38:55.683Z",
+  "expires_at": "2026-10-11T06:38:55.683Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "c76e80bff8cd30171beca65852d53f23b65b03e0a59336028efee7224cde5ae1",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "49b41a0acfee0255699cb989762c364828b119cc7cf750061adaf757dad4f09b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00209"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5410565",
+  "certificate_id": "MN-SC-2026-5934576",
   "skill_id": "mn-gen-00024",
   "skill_name": "fast-mcp",
-  "issued_at": "2026-09-28T00:30:10.565Z",
-  "expires_at": "2026-10-05T00:30:10.565Z",
+  "issued_at": "2026-10-04T06:38:54.576Z",
+  "expires_at": "2026-10-11T06:38:54.576Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "6143847b7610645cdf0d9f4dcc788fb4fa1524de1255ba6e5f427b043af28b95",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "2831b41d73108d3a9115087ac3fd900aa63f5d73dcf66a013cdeaaf6eb73afe6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00024"
 }

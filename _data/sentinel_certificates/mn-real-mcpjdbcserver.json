@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9905395",
+  "certificate_id": "MN-SC-2026-6153224",
   "skill_id": "mn-real-mcpjdbcserver",
   "skill_name": "mcp-jdbc-server",
-  "issued_at": "2026-07-26T04:25:05.395Z",
-  "expires_at": "2026-08-02T04:25:05.395Z",
+  "issued_at": "2026-10-04T06:42:33.224Z",
+  "expires_at": "2026-10-11T06:42:33.224Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "8f78d14bbf4c90b6a86fb07a691f3ee08b59b1afc507d4a89c4bee4fd20298df",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "b651ba6d03f2f527143f5d1909c90b225763af5be7f2401670aa7ab80ff85ea4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpjdbcserver"
 }

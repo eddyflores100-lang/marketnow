@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9862448",
+  "certificate_id": "MN-SC-2026-6109098",
   "skill_id": "mn-awmcp-kubefwd",
   "skill_name": "kubefwd",
-  "issued_at": "2026-07-26T04:24:22.448Z",
-  "expires_at": "2026-08-02T04:24:22.448Z",
+  "issued_at": "2026-10-04T06:41:49.098Z",
+  "expires_at": "2026-10-11T06:41:49.098Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "99394b874d3a4da314e508b030e7ff6d88503fa3562645783cce10535a95daf4",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "d2b5949438384739cae39fb9584b3aaedbd4da0c14d545ba405425b83f703258",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-kubefwd"
 }

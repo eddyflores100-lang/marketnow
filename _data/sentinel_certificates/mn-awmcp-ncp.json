@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-9807959",
+  "certificate_id": "MN-SC-2026-6061330",
   "skill_id": "mn-awmcp-ncp",
   "skill_name": "ncp",
-  "issued_at": "2026-07-26T04:23:27.959Z",
-  "expires_at": "2026-08-02T04:23:27.959Z",
+  "issued_at": "2026-10-04T06:41:01.330Z",
+  "expires_at": "2026-10-11T06:41:01.330Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -20,14 +20,20 @@
     "l2": true
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_score": 0,
     "l2_execution_status": "failed_to_start"
   },
-  "signature": "7ede0f25755368a2cb0d9656abf2234022cc7376ac6b39f18e24ed6c3a61ca8d",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "cbb97c4bce2366bc8ba2fcfa0c5e06c514b37d54b8cabbd43e42304c9b98575a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-ncp"
 }

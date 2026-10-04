@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-9809978",
+  "certificate_id": "MN-SC-2026-6063031",
   "skill_id": "mn-awmcp-voxieaidirectorymcp",
   "skill_name": "voxie-ai-directory-mcp",
-  "issued_at": "2026-07-26T04:23:29.978Z",
-  "expires_at": "2026-08-02T04:23:29.978Z",
+  "issued_at": "2026-10-04T06:41:03.031Z",
+  "expires_at": "2026-10-11T06:41:03.031Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -20,14 +20,20 @@
     "l2": true
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_score": 0,
     "l2_execution_status": "failed_to_start"
   },
-  "signature": "aac182502d48d6d2fdb41610558bc534b054f789db1e907db8715bab18be45b7",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "5af10d656d2ff2c70b2bdcb8949ebf830e6cad2fd849bdc39f649a94d6128257",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-voxieaidirectorymcp"
 }

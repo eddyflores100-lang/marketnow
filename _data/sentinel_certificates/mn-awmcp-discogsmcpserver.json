@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9819356",
+  "certificate_id": "MN-SC-2026-6071092",
   "skill_id": "mn-awmcp-discogsmcpserver",
   "skill_name": "discogs-mcp-server",
-  "issued_at": "2026-07-26T04:23:39.356Z",
-  "expires_at": "2026-08-02T04:23:39.356Z",
+  "issued_at": "2026-10-04T06:41:11.092Z",
+  "expires_at": "2026-10-11T06:41:11.092Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 4,
+  "overall_score": 5,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,14 +20,20 @@
     "l2": true
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_score": 5,
     "l2_execution_status": "ran"
   },
-  "signature": "7d0a6bd11002d241c689b629486056b0ba292a1a2c796afb8cc044aa6cf0e11b",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "7a424dd190f6a214a95587874885072142c910d953ec11f32d9e991ef5e970b7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-discogsmcpserver"
 }

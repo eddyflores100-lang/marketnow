@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5425470",
+  "certificate_id": "MN-SC-2026-5952887",
   "skill_id": "mn-aut-02230",
   "skill_name": "obsidian-mcp",
-  "issued_at": "2026-09-28T00:30:25.470Z",
-  "expires_at": "2026-10-05T00:30:25.470Z",
+  "issued_at": "2026-10-04T06:39:12.887Z",
+  "expires_at": "2026-10-11T06:39:12.887Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -26,7 +26,17 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "38c085cfe5f01e2b9b8dca2819a3020d18d2e69475c5c60bb2921d610072bfdf",
+  "artifact": {
+    "bound": true,
+    "source": "npm",
+    "version": "2.0.1",
+    "shasum": "b12680120857c94168a43bf4a694fa002f3a7452",
+    "integrity": "sha512-OCTsRGKXc3SNI3xCph1hsGgmUmdhfOPRgIHpO5u5593cgQw/0upMTRK5P8IFpLLo4Q1c3i8IxNwl9Ny4p1RoYg==",
+    "tarball_bytes": 75023,
+    "resolved_at": "2026-09-28T11:52:15.732Z"
+  },
+  "cert_v": 2,
+  "signature": "2c984813880c23fb1214f160a4ec96a9997ae4e8cc891de74221c5186cab2e5f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-aut-02230"
 }

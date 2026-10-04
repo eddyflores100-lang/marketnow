@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9952640",
+  "certificate_id": "MN-SC-2026-6208726",
   "skill_id": "mn-real-mathlas",
   "skill_name": "mathlas",
-  "issued_at": "2026-07-26T04:25:52.640Z",
-  "expires_at": "2026-08-02T04:25:52.640Z",
+  "issued_at": "2026-10-04T06:43:28.726Z",
+  "expires_at": "2026-10-11T06:43:28.726Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 7,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 3,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "4af15cec831cdf4a3630cb8a7955d1baff14c4583b713523a8cc8ed71bc9100d",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "f59afa4ca7728281968fe76e07ef169ef317815f7b90e4ff721e793bd4099b09",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mathlas"
 }

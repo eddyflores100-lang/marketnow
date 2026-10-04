@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9862236",
+  "certificate_id": "MN-SC-2026-6108909",
   "skill_id": "mn-awmcp-awspricingmcp",
   "skill_name": "aws-pricing-mcp",
-  "issued_at": "2026-07-26T04:24:22.236Z",
-  "expires_at": "2026-08-02T04:24:22.236Z",
+  "issued_at": "2026-10-04T06:41:48.909Z",
+  "expires_at": "2026-10-11T06:41:48.909Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "cb718cbfeb17a757aa499322f6b27a96cd3713c544cfdd1f0edef5ee5c43714e",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "f902ceed3b9c67c1f265a3989741e2e6dfc979a3b5b6fd169b72acfef828304f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-awspricingmcp"
 }

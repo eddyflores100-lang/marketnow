@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9997190",
+  "certificate_id": "MN-SC-2026-6259999",
   "skill_id": "mn-real-subxt",
   "skill_name": "subxt",
-  "issued_at": "2026-07-26T04:26:37.190Z",
-  "expires_at": "2026-08-02T04:26:37.190Z",
+  "issued_at": "2026-10-04T06:44:19.999Z",
+  "expires_at": "2026-10-11T06:44:19.999Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "11002ce9d1db20351fa2f8851110c2a6a2c60f48ab2d1189e097191d48c31803",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "60747b90e9bc34c39da5233576295ece19895698ce62a6c2b1ce36f8fa73ebf0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-subxt"
 }

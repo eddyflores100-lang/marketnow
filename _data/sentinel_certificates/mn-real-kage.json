@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-0018292",
+  "certificate_id": "MN-SC-2026-6283344",
   "skill_id": "mn-real-kage",
   "skill_name": "Kage",
-  "issued_at": "2026-07-26T04:26:58.292Z",
-  "expires_at": "2026-08-02T04:26:58.292Z",
+  "issued_at": "2026-10-04T06:44:43.344Z",
+  "expires_at": "2026-10-11T06:44:43.344Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "266a70fc4ec116ea5f3dd7ece6fd2ba4d92c964e8767f76e9f82921b944a6f44",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "93ef4392a445a978df77d0a7ff694e8811365f771219881436682cdedfbb127c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-kage"
 }

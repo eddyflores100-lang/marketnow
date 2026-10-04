@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9906128",
+  "certificate_id": "MN-SC-2026-6154138",
   "skill_id": "mn-real-quarkusmcpservers",
   "skill_name": "quarkus-mcp-servers",
-  "issued_at": "2026-07-26T04:25:06.128Z",
-  "expires_at": "2026-08-02T04:25:06.128Z",
+  "issued_at": "2026-10-04T06:42:34.138Z",
+  "expires_at": "2026-10-11T06:42:34.138Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "d2c8697fa01fb892ae02c18f05e9c31897258939785ae37b99807a593e35f1d4",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "a796794e7529467629d789d3e4d46b90a5869f5873449465b5ac38c2c16f7326",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-quarkusmcpservers"
 }

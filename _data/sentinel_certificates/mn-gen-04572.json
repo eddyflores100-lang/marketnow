@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5443059",
+  "certificate_id": "MN-SC-2026-5973825",
   "skill_id": "mn-gen-04572",
   "skill_name": "godot-ai",
-  "issued_at": "2026-09-28T00:30:43.059Z",
-  "expires_at": "2026-10-05T00:30:43.059Z",
+  "issued_at": "2026-10-04T06:39:33.825Z",
+  "expires_at": "2026-10-11T06:39:33.825Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "2d46b59dad3a3059a0bb5ed12b5a98d625bf598716f29f97a3de9d12aa1351c4",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "f83a81e96b3c111ac9739eb4a75d3fef8ab7678e32e17558a032cab91ec874a8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04572"
 }

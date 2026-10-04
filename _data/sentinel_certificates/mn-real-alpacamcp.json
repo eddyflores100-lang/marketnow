@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9986932",
+  "certificate_id": "MN-SC-2026-6249393",
   "skill_id": "mn-real-alpacamcp",
   "skill_name": "alpaca-mcp",
-  "issued_at": "2026-07-26T04:26:26.932Z",
-  "expires_at": "2026-08-02T04:26:26.932Z",
+  "issued_at": "2026-10-04T06:44:09.393Z",
+  "expires_at": "2026-10-11T06:44:09.393Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 7,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 3,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "99a432bf7f92f170b11891dee96e5844d6c5410b82964ee3ec9dac6d446ccd61",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "4986b4c456941e6449ec74c1bc14aa3bdd6fa452ed69a7051476e44c244f0de5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-alpacamcp"
 }

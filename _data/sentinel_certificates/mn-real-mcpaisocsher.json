@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9918496",
+  "certificate_id": "MN-SC-2026-6169605",
   "skill_id": "mn-real-mcpaisocsher",
   "skill_name": "MCP_AI_SOC_Sher",
-  "issued_at": "2026-07-26T04:25:18.496Z",
-  "expires_at": "2026-08-02T04:25:18.496Z",
+  "issued_at": "2026-10-04T06:42:49.605Z",
+  "expires_at": "2026-10-11T06:42:49.605Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "c31418c10d75a298b693f83197a769545aa7b8a75f7d7f43e25e9d9c2d8329e5",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "9e637c33a15b4f105177c6f49e675f3dfb1f6b91afd03fde88b09531bde6f459",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpaisocsher"
 }

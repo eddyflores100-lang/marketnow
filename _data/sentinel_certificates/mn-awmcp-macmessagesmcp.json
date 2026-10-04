@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9887412",
+  "certificate_id": "MN-SC-2026-6130723",
   "skill_id": "mn-awmcp-macmessagesmcp",
   "skill_name": "mac_messages_mcp",
-  "issued_at": "2026-07-26T04:24:47.412Z",
-  "expires_at": "2026-08-02T04:24:47.412Z",
+  "issued_at": "2026-10-04T06:42:10.723Z",
+  "expires_at": "2026-10-11T06:42:10.723Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "47e8b7dbd7eee85d6dc67c4759c3fa57a7d0e5d7ca7757d06e79c23ad486d024",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "c657de3793356fec6d73e7964028dd47c500c51b81e6d4dca21957d75abf0c0a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-macmessagesmcp"
 }

@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-0008113",
+  "certificate_id": "MN-SC-2026-6272347",
   "skill_id": "mn-real-a2cr",
   "skill_name": "a2cr",
-  "issued_at": "2026-07-26T04:26:48.113Z",
-  "expires_at": "2026-08-02T04:26:48.113Z",
+  "issued_at": "2026-10-04T06:44:32.347Z",
+  "expires_at": "2026-10-11T06:44:32.347Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "25399bac8d3e7ac295db1caae85933c7d9ee1c9ae48e1bb5668bad7716a73f6e",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "8a1f4e87590a746f268c61458a5cd1b4249c285499110660a53125474ee954f7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-a2cr"
 }

@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9972294",
+  "certificate_id": "MN-SC-2026-6232528",
   "skill_id": "mn-real-dodoagentplugin",
   "skill_name": "dodo-agent-plugin",
-  "issued_at": "2026-07-26T04:26:12.294Z",
-  "expires_at": "2026-08-02T04:26:12.294Z",
+  "issued_at": "2026-10-04T06:43:52.528Z",
+  "expires_at": "2026-10-11T06:43:52.528Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "7095e9a2bb46c388b2e68b15e058dda14b0693e2757c3164d67e8a3781d7a7f1",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "d940b817613e800366db4ef4173f9af2f219c0fa18cc2d1c0a4d83989140b8d8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-dodoagentplugin"
 }

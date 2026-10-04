@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5450936",
+  "certificate_id": "MN-SC-2026-5983843",
   "skill_id": "mn-net-05761",
   "skill_name": "linkedin-mcp-server",
-  "issued_at": "2026-09-28T00:30:50.936Z",
-  "expires_at": "2026-10-05T00:30:50.936Z",
+  "issued_at": "2026-10-04T06:39:43.843Z",
+  "expires_at": "2026-10-11T06:39:43.843Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "d16abe7d976c4331f27fec148a573f8a516e6ac9b35d7f6a27aa71522c8a244c",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "6502f348433619c9e15536a5d85ce8b61fd1a20d5c65f69af1dac36e40815dab",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-net-05761"
 }

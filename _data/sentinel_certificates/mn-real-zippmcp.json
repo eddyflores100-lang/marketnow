@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9971656",
+  "certificate_id": "MN-SC-2026-6232142",
   "skill_id": "mn-real-zippmcp",
   "skill_name": "zipp-mcp",
-  "issued_at": "2026-07-26T04:26:11.656Z",
-  "expires_at": "2026-08-02T04:26:11.656Z",
+  "issued_at": "2026-10-04T06:43:52.142Z",
+  "expires_at": "2026-10-11T06:43:52.142Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 7,
+  "overall_score": 8,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 3,
+    "l15_findings": 2,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "c062974a602b9a983e7a9e9397e1922c7f4f1c9d484b6e971d7432c4621ab101",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "7bf78a2242ad130d05e4d14cc111069504e7044dc4d849865c1296fbecc92c1e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-zippmcp"
 }

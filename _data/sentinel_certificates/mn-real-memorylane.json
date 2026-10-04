@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-0014067",
+  "certificate_id": "MN-SC-2026-6278280",
   "skill_id": "mn-real-memorylane",
   "skill_name": "memorylane",
-  "issued_at": "2026-07-26T04:26:54.067Z",
-  "expires_at": "2026-08-02T04:26:54.067Z",
+  "issued_at": "2026-10-04T06:44:38.280Z",
+  "expires_at": "2026-10-11T06:44:38.280Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "8b94dedcd300e1bb27867258858905c83f7919a21053956e7b29645872e2cd4a",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "136ef714a0700af893454bacab940b6bc5763b9cc972961bda7cf5cf7eb57cf9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-memorylane"
 }

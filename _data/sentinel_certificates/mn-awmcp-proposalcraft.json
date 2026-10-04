@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9801729",
+  "certificate_id": "MN-SC-2026-6056788",
   "skill_id": "mn-awmcp-proposalcraft",
   "skill_name": "proposalcraft",
-  "issued_at": "2026-07-26T04:23:21.729Z",
-  "expires_at": "2026-08-02T04:23:21.729Z",
+  "issued_at": "2026-10-04T06:40:56.788Z",
+  "expires_at": "2026-10-11T06:40:56.788Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,14 +20,20 @@
     "l2": true
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_score": 10,
     "l2_execution_status": "ran"
   },
-  "signature": "6ac19b34c214ba1174f047ea2dd7ec5fd8f953c0bde8341cb633da1551bce0c7",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "3bc7923f6c1f6b3588a275f5cfe795c0b7067a9555c5692cd76a82a8546367a1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-proposalcraft"
 }

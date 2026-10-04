@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9858986",
+  "certificate_id": "MN-SC-2026-6106114",
   "skill_id": "mn-awmcp-pythonanywheremcpser",
   "skill_name": "pythonanywhere-mcp-server",
-  "issued_at": "2026-07-26T04:24:18.986Z",
-  "expires_at": "2026-08-02T04:24:18.986Z",
+  "issued_at": "2026-10-04T06:41:46.114Z",
+  "expires_at": "2026-10-11T06:41:46.114Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "c66c74fbcf6a37ef994a009ab7fc59cee6d689ba6063612fef5d298bb4da96cb",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "ab705af967bfd178451306b9f9400d65cb27e89bd93efceb7548045cbc38867e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-pythonanywheremcpser"
 }

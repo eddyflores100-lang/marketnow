@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9912331",
+  "certificate_id": "MN-SC-2026-6161924",
   "skill_id": "mn-real-capsulemcp",
   "skill_name": "capsulemcp",
-  "issued_at": "2026-07-26T04:25:12.331Z",
-  "expires_at": "2026-08-02T04:25:12.331Z",
+  "issued_at": "2026-10-04T06:42:41.924Z",
+  "expires_at": "2026-10-11T06:42:41.924Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "a9c6e8438d80fed7b9d295f8fec7f66cbebcce069715bc1f3baf007aae7f76a2",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "8ff0eb01d262cb903bb9b28027428affbaeffb29982288c264c9661260227517",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-capsulemcp"
 }

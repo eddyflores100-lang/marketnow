@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-0023687",
+  "certificate_id": "MN-SC-2026-6289901",
   "skill_id": "mn-real-contextkeeper",
   "skill_name": "context-keeper",
-  "issued_at": "2026-07-26T04:27:03.687Z",
-  "expires_at": "2026-08-02T04:27:03.687Z",
+  "issued_at": "2026-10-04T06:44:49.901Z",
+  "expires_at": "2026-10-11T06:44:49.901Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "233f90d188decdb52bac26bff16d7c19ecf3e8efa8433c94ac5fbb5d90b2a811",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "330e3a32475125b478fd7b7da49408884af14650b41900d58383ac24178b9aae",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-contextkeeper"
 }

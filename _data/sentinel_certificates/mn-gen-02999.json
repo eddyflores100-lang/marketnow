@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5430711",
+  "certificate_id": "MN-SC-2026-5959032",
   "skill_id": "mn-gen-02999",
   "skill_name": "customgpt-mcp",
-  "issued_at": "2026-09-28T00:30:30.711Z",
-  "expires_at": "2026-10-05T00:30:30.711Z",
+  "issued_at": "2026-10-04T06:39:19.032Z",
+  "expires_at": "2026-10-11T06:39:19.032Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "c03b1689b426413489f14447e03fdc40ca4155bd7f12ad17388ee987885c2689",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "195ee07c0c6731eec0b20b44bf3c9c519341d9c72d44e162d4fa7de18d546145",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02999"
 }

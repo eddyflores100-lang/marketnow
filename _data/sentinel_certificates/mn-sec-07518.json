@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5462679",
+  "certificate_id": "MN-SC-2026-5997564",
   "skill_id": "mn-sec-07518",
   "skill_name": "mcp-security-audit",
-  "issued_at": "2026-09-28T00:31:02.679Z",
-  "expires_at": "2026-10-05T00:31:02.679Z",
+  "issued_at": "2026-10-04T06:39:57.564Z",
+  "expires_at": "2026-10-11T06:39:57.564Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "89e47845ae05f3bf4b375dd5c4f67ec53b8b32bf5be778dd664d9e85c91c9c02",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "d2f251af7ab2a82077a01c0ae6ca90e7666fcc0e7e12cd4e10a1ef57ccbde063",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-sec-07518"
 }

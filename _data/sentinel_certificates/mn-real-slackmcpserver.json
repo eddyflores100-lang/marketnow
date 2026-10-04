@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-9895155",
+  "certificate_id": "MN-SC-2026-6141703",
   "skill_id": "mn-real-slackmcpserver",
   "skill_name": "slack-mcp-server",
-  "issued_at": "2026-07-26T04:24:55.155Z",
-  "expires_at": "2026-08-02T04:24:55.155Z",
+  "issued_at": "2026-10-04T06:42:21.703Z",
+  "expires_at": "2026-10-11T06:42:21.703Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -26,7 +26,17 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "438ce9438474529605c3a8d3440ab2443cd08a52708baa2089d177c4158fc6ca",
+  "artifact": {
+    "bound": true,
+    "source": "npm",
+    "version": "1.3.0",
+    "shasum": "1557acd097dde789716d5a934e10c3027feae577",
+    "integrity": "sha512-YoRGvadhHkN4jwr1uYAxcNidmRPuzDXDM7j8dmnuvclF8zeqzBHefm1IiZE/xGr23Ka0ljNysdDTDUC7PWj21Q==",
+    "tarball_bytes": 9256,
+    "resolved_at": "2026-09-28T11:51:54.045Z"
+  },
+  "cert_v": 2,
+  "signature": "05b85dcc410a7700e18a645a370bd796392eaa86f1fc057cc4ebc316744418a4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-slackmcpserver"
 }

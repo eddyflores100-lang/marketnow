@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5439977",
+  "certificate_id": "MN-SC-2026-5969749",
   "skill_id": "mn-gen-04214",
   "skill_name": "freightutils-mcp",
-  "issued_at": "2026-09-28T00:30:39.977Z",
-  "expires_at": "2026-10-05T00:30:39.977Z",
+  "issued_at": "2026-10-04T06:39:29.749Z",
+  "expires_at": "2026-10-11T06:39:29.749Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "59a95935b62612f5f6c2cd879876d5fde6a2c00b5cb52832868b1f2dc7746735",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "f901feb51affe44f54c7a5d9a566dbe8bcb74de69fb50acb57f358c74806b0eb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04214"
 }

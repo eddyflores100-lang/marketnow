@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9963693",
+  "certificate_id": "MN-SC-2026-6221955",
   "skill_id": "mn-real-blankinvoicemakermcp",
   "skill_name": "blank-invoice-maker-mcp",
-  "issued_at": "2026-07-26T04:26:03.693Z",
-  "expires_at": "2026-08-02T04:26:03.693Z",
+  "issued_at": "2026-10-04T06:43:41.955Z",
+  "expires_at": "2026-10-11T06:43:41.955Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "c3402a48f0236ae783c39b5f2e4bbe787e512ec3a00f4b27a2d0a06d55679af0",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "d7f7dc054a964b5ac13b1654ba8a3e83dc68183d80a8c353a779e7bb68c7ffd2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-blankinvoicemakermcp"
 }

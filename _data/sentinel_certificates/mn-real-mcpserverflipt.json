@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9924918",
+  "certificate_id": "MN-SC-2026-6177164",
   "skill_id": "mn-real-mcpserverflipt",
   "skill_name": "mcp-server-flipt",
-  "issued_at": "2026-07-26T04:25:24.918Z",
-  "expires_at": "2026-08-02T04:25:24.918Z",
+  "issued_at": "2026-10-04T06:42:57.164Z",
+  "expires_at": "2026-10-11T06:42:57.164Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "9c3b75957da9cfd51f54509f608df0fcee5aa0d487527ea0599c16cb6650c9fe",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "7b59c9c7e5e5bd9947df705ad5ce11783956e9091c83ae6e958730fdedcc301b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpserverflipt"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5472103",
+  "certificate_id": "MN-SC-2026-6008463",
   "skill_id": "mn-gen-09088",
   "skill_name": "mcp-miro",
-  "issued_at": "2026-09-28T00:31:12.103Z",
-  "expires_at": "2026-10-05T00:31:12.103Z",
+  "issued_at": "2026-10-04T06:40:08.463Z",
+  "expires_at": "2026-10-11T06:40:08.463Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "2c00df2c19e12315c418749d821b7476ae0323b2086d4994f21b4ad20bde0222",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "ca56af2cef3a22f467d1a3c40bf6baa39aba5083ce452ddc1b703a3f39785194",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09088"
 }

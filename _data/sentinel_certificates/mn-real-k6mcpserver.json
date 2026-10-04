@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9940000",
+  "certificate_id": "MN-SC-2026-6193819",
   "skill_id": "mn-real-k6mcpserver",
   "skill_name": "k6-mcp-server",
-  "issued_at": "2026-07-26T04:25:40.001Z",
-  "expires_at": "2026-08-02T04:25:40.001Z",
+  "issued_at": "2026-10-04T06:43:13.819Z",
+  "expires_at": "2026-10-11T06:43:13.819Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "46eaef4495c0ccdb2d808df314ac8d3f169c2457888e40a82f3a45c337ee62bd",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "a5b3d32addff9d25b54e42bf2a31bd3669417a95ba1f93ac0e5a6b4e3be20719",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-k6mcpserver"
 }

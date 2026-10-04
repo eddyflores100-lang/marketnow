@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5434903",
+  "certificate_id": "MN-SC-2026-5964222",
   "skill_id": "mn-ai-03653",
   "skill_name": "email-mcp",
-  "issued_at": "2026-09-28T00:30:34.903Z",
-  "expires_at": "2026-10-05T00:30:34.903Z",
+  "issued_at": "2026-10-04T06:39:24.222Z",
+  "expires_at": "2026-10-11T06:39:24.222Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "924693b09e630d3f95670042009963aca1469bed0e8a6451aff4ae0f2804abc8",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "3b4ca1ff42d35986cdb24f235c7d48a3638a96a265841cca3dd25e56327a5936",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-ai-03653"
 }

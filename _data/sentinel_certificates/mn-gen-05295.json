@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5447003",
+  "certificate_id": "MN-SC-2026-5978791",
   "skill_id": "mn-gen-05295",
   "skill_name": "jira-mcp-server",
-  "issued_at": "2026-09-28T00:30:47.003Z",
-  "expires_at": "2026-10-05T00:30:47.003Z",
+  "issued_at": "2026-10-04T06:39:38.791Z",
+  "expires_at": "2026-10-11T06:39:38.791Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "5e918a965038f5abef5e9677dd4d6d2144f649ab2f9b60d5e45453ac42c330ba",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "31bd049b54e157842a88dd7e7abafbf263bdd500e4e3baff34532d648cd991be",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05295"
 }

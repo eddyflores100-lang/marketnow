@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-9844484",
+  "certificate_id": "MN-SC-2026-6093369",
   "skill_id": "mn-awmcp-seleniummcpserver",
   "skill_name": "selenium-mcp-server",
-  "issued_at": "2026-07-26T04:24:04.484Z",
-  "expires_at": "2026-08-02T04:24:04.484Z",
+  "issued_at": "2026-10-04T06:41:33.369Z",
+  "expires_at": "2026-10-11T06:41:33.369Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -20,14 +20,20 @@
     "l2": true
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_score": 0,
     "l2_execution_status": "failed_to_start"
   },
-  "signature": "fa155a95e52f5b84df2a8bfc43acd74d4a33bab0956411e7dca7b638d9ea8520",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "b78a8eb2abd8a3409fc86d4904465f7c0b611b0fe29cc85127ea174d3454178d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-seleniummcpserver"
 }

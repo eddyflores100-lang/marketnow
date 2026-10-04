@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9898995",
+  "certificate_id": "MN-SC-2026-6146684",
   "skill_id": "mn-real-nworks",
   "skill_name": "nworks",
-  "issued_at": "2026-07-26T04:24:58.995Z",
-  "expires_at": "2026-08-02T04:24:58.995Z",
+  "issued_at": "2026-10-04T06:42:26.684Z",
+  "expires_at": "2026-10-11T06:42:26.684Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "bc0af2237ded904678ce6f8c814871f0ff8b791b6a04b1f9180320e1df483170",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "4177542b84bd005e077a3fea45e29659414648b4e319456ff4cefef9243ba9c4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-nworks"
 }

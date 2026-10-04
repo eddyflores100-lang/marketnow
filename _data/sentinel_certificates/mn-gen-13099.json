@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9782761",
+  "certificate_id": "MN-SC-2026-6037930",
   "skill_id": "mn-gen-13099",
   "skill_name": "mcpvault",
-  "issued_at": "2026-07-26T04:23:02.761Z",
-  "expires_at": "2026-08-02T04:23:02.761Z",
+  "issued_at": "2026-10-04T06:40:37.930Z",
+  "expires_at": "2026-10-11T06:40:37.930Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "c99de3e71c2895ab7cebd06b3c63d670bddb4eaeb5cae0196b1f842f17144722",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "a97a61041aa6951e91bd5e433879f159bb437a3535ed7f3c21e42399d66032ea",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13099"
 }

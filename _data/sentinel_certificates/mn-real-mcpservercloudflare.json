@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9894912",
+  "certificate_id": "MN-SC-2026-6139558",
   "skill_id": "mn-real-mcpservercloudflare",
   "skill_name": "mcp-server-cloudflare",
-  "issued_at": "2026-07-26T04:24:54.912Z",
-  "expires_at": "2026-08-02T04:24:54.912Z",
+  "issued_at": "2026-10-04T06:42:19.558Z",
+  "expires_at": "2026-10-11T06:42:19.558Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "a74da35bc43c4c90d772921938c696431c3e2b340bd0882815e251093b87df7f",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "9eef7fe62c3969d525e1e66bb43c52b7eb68cd2de0a665adf9a00f4c438d3628",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpservercloudflare"
 }

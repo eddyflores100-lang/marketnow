@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9916087",
+  "certificate_id": "MN-SC-2026-6166664",
   "skill_id": "mn-real-iosmcpcodequalityser",
   "skill_name": "ios-mcp-code-quality-server",
-  "issued_at": "2026-07-26T04:25:16.087Z",
-  "expires_at": "2026-08-02T04:25:16.087Z",
+  "issued_at": "2026-10-04T06:42:46.664Z",
+  "expires_at": "2026-10-11T06:42:46.664Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "382f14de4b95304d5c29dd4a7df22417b9403abbc71d2b862303fd0f7f052d86",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "4f25afef1343d80dcfe0395fe39bc0ab893c59afb0c52927a663442b4006d41f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-iosmcpcodequalityser"
 }

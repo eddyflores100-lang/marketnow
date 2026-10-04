@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9973485",
+  "certificate_id": "MN-SC-2026-6234000",
   "skill_id": "mn-real-agentwalletmcp",
   "skill_name": "agentwallet-mcp",
-  "issued_at": "2026-07-26T04:26:13.485Z",
-  "expires_at": "2026-08-02T04:26:13.485Z",
+  "issued_at": "2026-10-04T06:43:54.000Z",
+  "expires_at": "2026-10-11T06:43:54.000Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "ed407167adec98158dad95d2139c9ce6aa5caacf7eb2631f9acc63ac972fd65c",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "7721611b70e298d4f36577b4111ee3345c2ece2f9a18484778ad5cbc2b8e2529",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-agentwalletmcp"
 }

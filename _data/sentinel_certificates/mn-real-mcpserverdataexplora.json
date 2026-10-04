@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9955373",
+  "certificate_id": "MN-SC-2026-6211663",
   "skill_id": "mn-real-mcpserverdataexplora",
   "skill_name": "mcp-server-data-exploration",
-  "issued_at": "2026-07-26T04:25:55.373Z",
-  "expires_at": "2026-08-02T04:25:55.373Z",
+  "issued_at": "2026-10-04T06:43:31.663Z",
+  "expires_at": "2026-10-11T06:43:31.663Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "4c52609e0d8a7c4c8a5ff3a9a515a566c1406c6bd26dbe561eee1d3ff4c7c6b3",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "15b8bfb4527aff6e81368a8da510dfef51ee036740d6049aac2da4ca8e887278",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpserverdataexplora"
 }

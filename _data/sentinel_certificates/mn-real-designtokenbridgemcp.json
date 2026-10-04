@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9930586",
+  "certificate_id": "MN-SC-2026-6183062",
   "skill_id": "mn-real-designtokenbridgemcp",
   "skill_name": "design-token-bridge-mcp",
-  "issued_at": "2026-07-26T04:25:30.586Z",
-  "expires_at": "2026-08-02T04:25:30.586Z",
+  "issued_at": "2026-10-04T06:43:03.062Z",
+  "expires_at": "2026-10-11T06:43:03.062Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "657b07e5cd15d9e0409702c4d59a58bcdaa8b7cd9e0debd1a84f9ba1d85bee01",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "56390ae92dfcfdf300f3a252f9681bcf37f6bcb15c37459ba6f20ab15b0d0bab",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-designtokenbridgemcp"
 }

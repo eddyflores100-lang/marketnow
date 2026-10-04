@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9977761",
+  "certificate_id": "MN-SC-2026-6239264",
   "skill_id": "mn-real-copilotmoneymcp",
   "skill_name": "copilot-money-mcp",
-  "issued_at": "2026-07-26T04:26:17.761Z",
-  "expires_at": "2026-08-02T04:26:17.761Z",
+  "issued_at": "2026-10-04T06:43:59.264Z",
+  "expires_at": "2026-10-11T06:43:59.264Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "3593ab013e1be6183c3e11f826cb5210c7e3de2fe9356a751b780426f1a91316",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "bff921fb5d2b5ee0735982052628a9a09cf595a1f73ac900c5df7710f713cc54",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-copilotmoneymcp"
 }

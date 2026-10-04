@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9792939",
+  "certificate_id": "MN-SC-2026-6048961",
   "skill_id": "mn-amcp-agent",
   "skill_name": "agent",
-  "issued_at": "2026-07-26T04:23:12.939Z",
-  "expires_at": "2026-08-02T04:23:12.939Z",
+  "issued_at": "2026-10-04T06:40:48.961Z",
+  "expires_at": "2026-10-11T06:40:48.961Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,14 +20,20 @@
     "l2": true
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_score": 10,
     "l2_execution_status": "ran"
   },
-  "signature": "fb80e81ce3ec2777338a4c9bdde9fec65214ae12ff4b02b0d228475fb2d3786a",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "f649c538160653ca8572f8eb8fcf73a5424f5f8d64727905cd37dd05808bfbed",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-amcp-agent"
 }

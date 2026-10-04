@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9998490",
+  "certificate_id": "MN-SC-2026-6261590",
   "skill_id": "mn-real-mcpserverwuyeai",
   "skill_name": "mcp-server-wuye-ai",
-  "issued_at": "2026-07-26T04:26:38.490Z",
-  "expires_at": "2026-08-02T04:26:38.490Z",
+  "issued_at": "2026-10-04T06:44:21.590Z",
+  "expires_at": "2026-10-11T06:44:21.590Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "c19f134dd0a006d2e4bf5d8cf107bdc5ed35065219d0f8f067b9e53d1d2458a5",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "d30335d0df34b44728f970268dd5439870ef35021dc25fbb3d40a2c08dd0d278",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpserverwuyeai"
 }

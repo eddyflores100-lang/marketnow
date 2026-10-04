@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5443805",
+  "certificate_id": "MN-SC-2026-5974730",
   "skill_id": "mn-res-04645",
   "skill_name": "mcp-google-sheets",
-  "issued_at": "2026-09-28T00:30:43.805Z",
-  "expires_at": "2026-10-05T00:30:43.805Z",
+  "issued_at": "2026-10-04T06:39:34.730Z",
+  "expires_at": "2026-10-11T06:39:34.730Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "746f2453e19054c8812e533be8d1706d09a97864eaea882ebb2acb667214a228",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "f1d594bcb361958d9314282f8fbf936c8f89fe0f1b8acf87b3ec94bbf8a0018e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-res-04645"
 }

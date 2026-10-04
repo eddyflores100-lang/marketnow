@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5470723",
+  "certificate_id": "MN-SC-2026-6006794",
   "skill_id": "mn-gen-08859",
   "skill_name": "omega-memory",
-  "issued_at": "2026-09-28T00:31:10.723Z",
-  "expires_at": "2026-10-05T00:31:10.723Z",
+  "issued_at": "2026-10-04T06:40:06.794Z",
+  "expires_at": "2026-10-11T06:40:06.794Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "af0cb29c9ee0318f42125e383bbe6e8a93f1d97a8e97c94d3595959cb8f3132f",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "0bb61025a0de6658953ec1e4e39dc4cb630ccab927c42be339c661df10144aa3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-08859"
 }

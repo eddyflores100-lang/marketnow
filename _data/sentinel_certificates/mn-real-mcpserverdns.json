@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9936915",
+  "certificate_id": "MN-SC-2026-6190288",
   "skill_id": "mn-real-mcpserverdns",
   "skill_name": "mcp-server-dns",
-  "issued_at": "2026-07-26T04:25:36.915Z",
-  "expires_at": "2026-08-02T04:25:36.915Z",
+  "issued_at": "2026-10-04T06:43:10.288Z",
+  "expires_at": "2026-10-11T06:43:10.288Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "60d251c95f2846db7f2122d2e567bbda919952520c6407483e196dc0e7cf60f2",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "5e799c41318b9cae10b742c1f2cabfd055ef2f5ca7f5f94806439816081ce26e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpserverdns"
 }

@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9969661",
+  "certificate_id": "MN-SC-2026-6229574",
   "skill_id": "mn-real-crossfin",
   "skill_name": "crossfin",
-  "issued_at": "2026-07-26T04:26:09.661Z",
-  "expires_at": "2026-08-02T04:26:09.661Z",
+  "issued_at": "2026-10-04T06:43:49.574Z",
+  "expires_at": "2026-10-11T06:43:49.574Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "d1e70200a370e350020645ac50d12e487ee9f7a57a7cba6abe19f4f78527b82d",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "3433f5efac5b149b3c082795914092f8660b87d5a5557f06be11f11f326dd135",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-crossfin"
 }

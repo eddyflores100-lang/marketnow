@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5436714",
+  "certificate_id": "MN-SC-2026-5966418",
   "skill_id": "mn-gen-03941",
   "skill_name": "fec-mcp-server",
-  "issued_at": "2026-09-28T00:30:36.714Z",
-  "expires_at": "2026-10-05T00:30:36.714Z",
+  "issued_at": "2026-10-04T06:39:26.418Z",
+  "expires_at": "2026-10-11T06:39:26.418Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "9c3602684ff318f0ac13e130e0ac42184ec4163906739ed11c4dd7ed9df7dae8",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "437ab1a1d23569b320ff89cde59b29b9c712d4069b0236b2b39582af98776461",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03941"
 }

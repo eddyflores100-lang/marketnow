@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9843492",
+  "certificate_id": "MN-SC-2026-6092284",
   "skill_id": "mn-awmcp-obscuramcp",
   "skill_name": "obscura-mcp",
-  "issued_at": "2026-07-26T04:24:03.492Z",
-  "expires_at": "2026-08-02T04:24:03.492Z",
+  "issued_at": "2026-10-04T06:41:32.284Z",
+  "expires_at": "2026-10-11T06:41:32.284Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 6,
+  "overall_score": 7,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,14 +20,20 @@
     "l2": true
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_score": 8,
     "l2_execution_status": "ran"
   },
-  "signature": "52147993bd5b94ec71920df5ad160b1a2acc9254934b2880d9497c2846c8b75c",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "c61ff9f5bd16dcd297122b519b1e183bfce5bbd1e5b96cd6b413692d150af839",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-obscuramcp"
 }

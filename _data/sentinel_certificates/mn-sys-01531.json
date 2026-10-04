@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5420600",
+  "certificate_id": "MN-SC-2026-5946946",
   "skill_id": "mn-sys-01531",
   "skill_name": "brandsystem-mcp",
-  "issued_at": "2026-09-28T00:30:20.600Z",
-  "expires_at": "2026-10-05T00:30:20.600Z",
+  "issued_at": "2026-10-04T06:39:06.946Z",
+  "expires_at": "2026-10-11T06:39:06.946Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "8b5b4a432977b57b10a0d3415c7ee7008ce16fdffbb9e7917d14dddeaf627b0d",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "a82a929323b69eba660231c86b241b67bfe556146926cb22e2c5bfb1ac9319db",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-sys-01531"
 }

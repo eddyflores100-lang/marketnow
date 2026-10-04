@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9941473",
+  "certificate_id": "MN-SC-2026-6195519",
   "skill_id": "mn-real-mcpserverexcel",
   "skill_name": "mcp-server-excel",
-  "issued_at": "2026-07-26T04:25:41.473Z",
-  "expires_at": "2026-08-02T04:25:41.473Z",
+  "issued_at": "2026-10-04T06:43:15.519Z",
+  "expires_at": "2026-10-11T06:43:15.519Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 7,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 3,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "939abbdce3b32a0be378ba8be8ca64af67862f0d9efc8f0913bc615b5d972cd1",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "b0ca8aa14e59db41b5d99752a77dedefac02e8e802dffb4ef34c5f0234fdccf8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpserverexcel"
 }

@@ -1,11 +1,11 @@
 {
-  "certificate_id": "MN-SC-2026-9879523",
+  "certificate_id": "MN-SC-2026-6123657",
   "skill_id": "mn-awmcp-skillcortexserver",
   "skill_name": "skill-cortex-server",
-  "issued_at": "2026-07-26T04:24:39.523Z",
-  "expires_at": "2026-08-02T04:24:39.523Z",
+  "issued_at": "2026-10-04T06:42:03.657Z",
+  "expires_at": "2026-10-11T06:42:03.657Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 8,
+  "overall_score": 9,
   "max_score": 10,
   "risk_level": "medium",
   "risk_breakdown": {
@@ -20,13 +20,19 @@
     "l2": false
   },
   "layer_details": {
-    "l15_findings": 2,
+    "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "4aa90f6c2178d7eac90941a17aa461df6a5bc56ed697542a199f1a39485cd2c2",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "d56db93bac98041f41f4b4f4900778ac88da5bb6a29443386a442e3e7cf31406",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-skillcortexserver"
 }

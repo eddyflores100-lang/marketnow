@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5462480",
+  "certificate_id": "MN-SC-2026-5997377",
   "skill_id": "mn-gen-07508",
   "skill_name": "searxng_http_mcp",
-  "issued_at": "2026-09-28T00:31:02.480Z",
-  "expires_at": "2026-10-05T00:31:02.480Z",
+  "issued_at": "2026-10-04T06:39:57.377Z",
+  "expires_at": "2026-10-11T06:39:57.377Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -26,7 +26,13 @@
     "l16_osv_findings": 0,
     "l2_execution_status": null
   },
-  "signature": "eaa2441b4942bad9da2eab5380d90b8b767caa5d30de1b8dbd4556b4fe024475",
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "signature": "58bcdd2d39310d1240c75bbdf96e9ac863552262fbc3d989aa2f2087983d0791",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07508"
 }
