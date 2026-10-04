@@ -1,0 +1,94 @@
+{
+  "certificate_id": "MN-SC-2026-9083124",
+  "skill_id": "mn-npme-firedrillruncontrolmcp",
+  "skill_name": "@firedrill-run/control-mcp",
+  "issued_at": "2026-10-04T10:18:03.124Z",
+  "expires_at": "2026-10-11T10:18:03.124Z",
+  "auditor": "Sentinel L1.5 + L1.6 + L1.7 + L1.8 + L1.9 (Deep Individual Audit)",
+  "overall_score": 9,
+  "max_score": 10,
+  "risk_level": "medium",
+  "risk_breakdown": {
+    "l15_l16_l17_l18_l19": "medium",
+    "l2": "not_available",
+    "final": "medium"
+  },
+  "layers_run": {
+    "l15": true,
+    "l16": true,
+    "l17": true,
+    "l18": true,
+    "l19": true,
+    "l2": false,
+    "l3": false
+  },
+  "layer_details": {
+    "l15_findings": 0,
+    "l16_semgrep_findings": 0,
+    "l16_secret_findings": 0,
+    "l16_osv_findings": 0,
+    "l2_score": null,
+    "l2_execution_status": "not_run"
+  },
+  "artifact": {
+    "bound": false,
+    "version": null,
+    "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
+  },
+  "cert_v": 2,
+  "quarantine_recommended": false,
+  "checks": [
+    {
+      "name": "L1.5 AUTH",
+      "status": "warning",
+      "risk": "medium",
+      "detail": "No auth required"
+    },
+    {
+      "name": "L1.6 SEMGREP",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 rules, 0 findings"
+    },
+    {
+      "name": "L1.6 SECRETS",
+      "status": "pass",
+      "risk": "low",
+      "detail": "18 patterns, 0 findings"
+    },
+    {
+      "name": "L1.7 BINARY",
+      "status": "pass",
+      "risk": "low",
+      "detail": "No binaries or launchers detected"
+    },
+    {
+      "name": "L1.7 MALWARE",
+      "status": "pass",
+      "risk": "low",
+      "detail": "7 patterns checked, 0 findings"
+    },
+    {
+      "name": "L1.8 FAMILIES",
+      "status": "pass",
+      "risk": "low",
+      "detail": "48 families checked, 0 matches"
+    },
+    {
+      "name": "L1.9 INJECTION",
+      "status": "pass",
+      "risk": "low",
+      "detail": "32 rules checked, 0 injections"
+    }
+  ],
+  "source": {
+    "type": "npm-registry",
+    "url": "https://www.npmjs.com/package/@firedrill-run/control-mcp",
+    "note": "Indexed from the public npm registry via external directory discovery (npm search). Monthly downloads: 288.",
+    "downloads": 288,
+    "repo_url": "git+https://github.com/firedrill-tools/firedrill-control-mcp.git"
+  },
+  "signature": "0b5f2865ef6e90125c42859f82b6bd016bd91adc8cf742b6c0a0e6194cec67d0",
+  "signature_algorithm": "SHA-256",
+  "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-npme-firedrillruncontrolmcp"
+}
