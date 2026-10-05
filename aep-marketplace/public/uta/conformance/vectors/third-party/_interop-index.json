@@ -83,13 +83,15 @@
     ]
   },
   "amendments": {
-    "amended_at": "2026-10-05T04:00:00Z",
-    "package_version": "1.4.1",
+    "amended_at": "2026-10-05T15:30:00Z",
+    "package_version": "1.4.2",
     "vendor_request": "AgentBouncer operator review, email thread 'AgentBouncer x UTA', 2026-10-03",
     "changes": [
       "verification method: both AgentBouncer verdicts obtained via POST /api/v1/verify with the headers of a separately signed request; not produced inline on the public test endpoint (which returned bad_signature at capture time — an AgentBouncer-side bug, acknowledged 2026-10-03)",
       "meaning of allowed=true: reflects AgentBouncer project policy (known project key, BLOCK_UNKNOWN mode); independent of the UTA verdict",
-      "status: evidence artifact produced by MarketNow; not a certification or endorsement by AgentBouncer"
+      "status: evidence artifact produced by MarketNow; not a certification or endorsement by AgentBouncer",
+      "diagnosis notes (traces_20261002_final.json): header-merge reworded from explanation to hypothesis — tested via single-header retries on 2026-10-04 (three live variants, all verified=false reason=bad_signature, /api/v1/verify controls passing) and it did not resolve the issue; duplicate headers are not the sole cause and the root cause remains open",
+      "retry evidence handling: the 2026-10-04 single-header retry artifact is not part of the published evidence set (vendor request); the fix and a passing live-path retest will be documented together once the root cause is confirmed"
     ]
   }
 }
