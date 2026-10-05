@@ -1,82 +1,82 @@
 {
   "$schema": "https://marketnow.site/api/npm-versions.schema.json",
-  "generated_at": "2026-10-04T14:17:18Z",
+  "generated_at": "2026-10-05T17:18:42Z",
   "source": "registry.npmjs.org dist-tags + api.npmjs.org downloads (last-month) — re-derived by scripts/sync_npm_versions.py (weekly workflow + audit gate)",
   "packages": [
     {
       "name": "marketnow-mcp",
       "version": "1.15.0",
-      "dl_month": 2193
+      "dl_month": 2212
     },
     {
       "name": "agent-trust-card",
       "version": "1.4.1",
-      "dl_month": 859
+      "dl_month": 866
     },
     {
       "name": "marketnow-install-stack",
       "version": "1.2.1",
-      "dl_month": 539
+      "dl_month": 544
     },
     {
       "name": "marketnow-audit",
       "version": "1.0.1",
-      "dl_month": 421
+      "dl_month": 436
     },
     {
       "name": "@marketnow/uts",
       "version": "2.0.3",
-      "dl_month": 471
+      "dl_month": 486
     },
     {
       "name": "@marketnow/trust-core",
       "version": "2.0.3",
-      "dl_month": 959
+      "dl_month": 973
     },
     {
       "name": "@marketnow/trust-adapters",
       "version": "1.0.4",
-      "dl_month": 642
+      "dl_month": 646
     },
     {
       "name": "@marketnow/trust-gateway",
       "version": "1.0.5",
-      "dl_month": 826
+      "dl_month": 835
     },
     {
       "name": "@marketnow/uta-verify",
       "version": "1.0.2",
-      "dl_month": 518
+      "dl_month": 534
     },
     {
       "name": "@marketnow/uta-conformance",
       "version": "1.4.0",
-      "dl_month": 614
+      "dl_month": 644
     },
     {
       "name": "@marketnow/cline-trust-plugin",
       "version": "1.1.2",
-      "dl_month": 586
+      "dl_month": 590
     },
     {
       "name": "@marketnow/sentinel-rules",
       "version": "1.1.2",
-      "dl_month": 776
+      "dl_month": 804
     },
     {
       "name": "@marketnow/trust-mcp-middleware",
       "version": "1.0.2",
-      "dl_month": 530
+      "dl_month": 536
     },
     {
       "name": "@marketnow/trust-observability",
       "version": "1.0.3",
-      "dl_month": 677
+      "dl_month": 691
     }
   ],
   "totals": {
     "packages": 14,
-    "dl_month": 10611
+    "dl_month": 10797
   },
   "conformance_version": "1.4.0",
   "test_vectors": 41,
