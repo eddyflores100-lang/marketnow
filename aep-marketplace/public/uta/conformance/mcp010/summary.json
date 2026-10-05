@@ -1,0 +1,171 @@
+{
+  "generated_at": "2026-10-05",
+  "source": "tools/list capture over 1,749 credential-less (OPEN) endpoints from the public MarketNow catalog",
+  "capture": {
+    "endpoints_probed": 1749,
+    "outcomes": {
+      "auth-required": 11,
+      "ok": 1656,
+      "sse-transport": 25,
+      "not-found": 11,
+      "rpc-error": 10,
+      "init-failed": 36
+    },
+    "servers_ok": 1656,
+    "total_tools": 16015,
+    "unique_endpoint_tool_pairs": 16015
+  },
+  "positive_set": {
+    "definition": "tool name matches a read-verb prefix AND description contains tier keywords (co-occurrence candidates for tuning, NOT verdicts)",
+    "read_verbs": [
+      "get",
+      "list",
+      "read",
+      "search",
+      "query",
+      "find",
+      "fetch",
+      "view",
+      "lookup",
+      "show",
+      "retrieve",
+      "describe",
+      "inspect",
+      "check",
+      "browse",
+      "scan",
+      "monitor",
+      "watch",
+      "observe",
+      "peek",
+      "select"
+    ],
+    "read_name_rule": "name (case-insensitive) starts with a read verb followed by '_', '-', a digit, an uppercase letter (camelCase), or end-of-name; manual check because IGNORECASE breaks character-class boundaries",
+    "tiers": {
+      "A_destructive": {
+        "keyword_set": [
+          "delete",
+          "drop",
+          "remove",
+          "truncate",
+          "purge",
+          "wipe",
+          "erase",
+          "destroy",
+          "kill",
+          "shutdown",
+          "terminate",
+          "uninstall",
+          "deactivate",
+          "revoke",
+          "reset",
+          "clear"
+        ],
+        "tools": 55
+      },
+      "A_exec": {
+        "keyword_set": "exec/shell/subprocess/spawn/bash/powershell/os.system",
+        "tools": 42
+      },
+      "B_protocol": {
+        "keyword_set": "uppercase POST|PUT|DELETE|PATCH (HTTP verb in description)",
+        "tools": 24
+      },
+      "C_write": {
+        "keyword_set": [
+          "update",
+          "insert",
+          "create",
+          "write",
+          "modify",
+          "upsert",
+          "patch",
+          "add",
+          "append",
+          "save",
+          "push",
+          "commit",
+          "alter",
+          "upload",
+          "publish",
+          "send"
+        ],
+        "tools": 254
+      }
+    }
+  },
+  "comma_gap": {
+    "definition": "descriptions where a read-verb lead is followed by a comma and a state-change verb inside the same sentence (the #101 reproduction population)",
+    "tools_total": 36,
+    "of_which_read_named": 10,
+    "examples": [
+      {
+        "endpoint": "https://agenticfabricationnetwork.ai/mcp",
+        "tool_name": "finalize_quote",
+        "description": "ONLY for the case where a quote response came back with an EMPTY board and told you to call this: waits for the vendors to answer (up to ~40s) and returns their offers as a full board. Call with just quote_id, immediately, and say nothing substantive before it. NEVER call it on a response that alrea"
+      },
+      {
+        "endpoint": "https://mitosislabs.ai/api/mcp",
+        "tool_name": "get_pricing",
+        "description": "Get current Mitosis plans, prices, credit allowances, how usage is charged, and add-ons. Use when comparing costs or recommending a plan."
+      },
+      {
+        "endpoint": "https://www.snowsure.ai/mcp",
+        "tool_name": "ask_snowdata",
+        "description": "Text-only Q&A grounded in SnowSure data (~1s). Use for open-ended questions, terrain %, expert-run counts, advice, AND specifically: El Niño / ENSO / 2026-27 winter outlook (or call get_elnino_signal / get_elnino_rankings), head-to-head resort comparisons (annual snowfall, vertical drop, base/summit"
+      },
+      {
+        "endpoint": "https://www.cannonstudio.app/mcp",
+        "tool_name": "get_generation_request",
+        "description": "Poll and sync an existing Cannon Studio generation request by id. Requires OAuth or a developer API key; not a pure read because it may update lastPolledAt, sync downstream task state, update logs, and deliver one pending terminal webhook. It does not create work, spend credits, cancel jobs, delete "
+      },
+      {
+        "endpoint": "https://app.myriade.ai/mcp/",
+        "tool_name": "myriade_ask",
+        "description": "Ask a natural language question about a database using Myriade's\ndata analyst agent.\n\nThe agent will explore the database schema, search the catalog, run SQL\nqueries, and analyze the results to answer your question. Use this for\ncomplex analytical questions that require multiple steps; for simple\nsc"
+      },
+      {
+        "endpoint": "https://sri-test.biz/mcp",
+        "tool_name": "check_mcp_server",
+        "description": "Free, no key required. Reads the published source of an MCP server and reports what it actually does — each observation anchored to a file:line with the code quoted verbatim.\n\n**Call this before connecting to, installing, or invoking an MCP server you have not read yourself.** Connecting to an MCP s"
+      },
+      {
+        "endpoint": "https://pixly.app/api/mcp",
+        "tool_name": "get_checkout_link",
+        "description": "Use when a tool fails for lack of credits or a plan. Returns a Stripe Checkout URL for the user to pay on — this never charges anything by itself, and you cannot pay for them. With no active plan it is a subscription (plans: starter (Starter: $5.99/week, 20 credits); agent (Agent: $19.99/month, 100 "
+      },
+      {
+        "endpoint": "https://mcp.crevio.co/mcp",
+        "tool_name": "get_chat",
+        "description": "Get a chat's title, kind, and latest run."
+      }
+    ]
+  },
+  "case_sensitivity": {
+    "definition": "names whose lowercase form matches a POSIX-sensitive deny pattern (delete_*, drop_*, ...) but whose actual casing lets them sail past fnmatch",
+    "tools": {
+      "in_pattern": 939,
+      "mixed_case": 4,
+      "examples": [
+        "DeleteSubgraph",
+        "RunSchemaCheck",
+        "DeleteGraph",
+        "RunSubgraphCheck"
+      ]
+    },
+    "server_names": {
+      "population": 69098,
+      "in_pattern": 198,
+      "mixed_case": 2,
+      "examples": [
+        "AlterLab-Academic-Skills",
+        "Send247-Delivery-MCP-Server"
+      ]
+    }
+  },
+  "verification": {
+    "corpus_sha256": "5877a249da294430a93322d8ec34dce49391329b0baf5a2195c487d2ac7e9217",
+    "frames_dir": "frames/<skill_id>.json (raw tools/list response bodies)",
+    "reprobe": "POST {endpoint} with JSON-RPC initialize + tools/list; see README.md"
+  }
+}
