@@ -69,7 +69,8 @@
       },
       "B_protocol": {
         "keyword_set": "uppercase POST|PUT|DELETE|PATCH (HTTP verb in description)",
-        "tools": 24
+        "tools": 24,
+        "amendment": "Definition pinned 2026-10-05 (it was previously only implied). Reconciliation of the 24 vs 27 discrepancy from the audit: the published tier B contains only uppercase POST (23 tools) and PUT (1) matches — the analyzer silently excluded the uppercase DELETE/PATCH population on read-named tools (re-measured: 7 further instances, e.g. get_events, list_schedules, list_verified_numbers, lookup_program, inspect_requests, read_file, get_device_egress_fail_posture). Counted against the 4-verb uppercase set with word boundaries, the read-named population is 27-31 depending on the read-name boundary rule (camelCase check). The audit's 27 is the defensible count; 24 was a filter artifact, not a disagreement."
       },
       "C_write": {
         "keyword_set": [
@@ -96,8 +97,10 @@
   },
   "comma_gap": {
     "definition": "descriptions where a read-verb lead is followed by a comma and a state-change verb inside the same sentence (the #101 reproduction population)",
-    "tools_total": 36,
-    "of_which_read_named": 10,
+    "status": "UNSIZED — corrected 2026-10-05 after audit",
+    "tools_total": null,
+    "of_which_read_named": null,
+    "amendment": "The published figures (36 tools / 10 read-named) came from the capture-session analyzer, whose exact boundary implementation was lost with the session; the definition as stated is not tight enough to reimplement (sentence segmentation and 'read-verb lead' interpretation are both underspecified). The audit's independent reconstruction over this same corpus yields 63 candidates / 56 read-named. The operative number is the audit's: of the 127 would-fire under MCP010 as designed, only 4 are driven by a read lead carrying a comma — a 3% effect on a 99.2% false-positive problem. Comma examples below are illustrative, not a sized population; 6 of the original 8 examples do not have byte-identical descriptions in the corpus (truncated at 2,000 chars).",
     "examples": [
       {
         "endpoint": "https://agenticfabricationnetwork.ai/mcp",
@@ -118,34 +121,17 @@
         "endpoint": "https://www.cannonstudio.app/mcp",
         "tool_name": "get_generation_request",
         "description": "Poll and sync an existing Cannon Studio generation request by id. Requires OAuth or a developer API key; not a pure read because it may update lastPolledAt, sync downstream task state, update logs, and deliver one pending terminal webhook. It does not create work, spend credits, cancel jobs, delete "
-      },
-      {
-        "endpoint": "https://app.myriade.ai/mcp/",
-        "tool_name": "myriade_ask",
-        "description": "Ask a natural language question about a database using Myriade's\ndata analyst agent.\n\nThe agent will explore the database schema, search the catalog, run SQL\nqueries, and analyze the results to answer your question. Use this for\ncomplex analytical questions that require multiple steps; for simple\nsc"
-      },
-      {
-        "endpoint": "https://sri-test.biz/mcp",
-        "tool_name": "check_mcp_server",
-        "description": "Free, no key required. Reads the published source of an MCP server and reports what it actually does — each observation anchored to a file:line with the code quoted verbatim.\n\n**Call this before connecting to, installing, or invoking an MCP server you have not read yourself.** Connecting to an MCP s"
-      },
-      {
-        "endpoint": "https://pixly.app/api/mcp",
-        "tool_name": "get_checkout_link",
-        "description": "Use when a tool fails for lack of credits or a plan. Returns a Stripe Checkout URL for the user to pay on — this never charges anything by itself, and you cannot pay for them. With no active plan it is a subscription (plans: starter (Starter: $5.99/week, 20 credits); agent (Agent: $19.99/month, 100 "
-      },
-      {
-        "endpoint": "https://mcp.crevio.co/mcp",
-        "tool_name": "get_chat",
-        "description": "Get a chat's title, kind, and latest run."
       }
     ]
   },
   "case_sensitivity": {
     "definition": "names whose lowercase form matches a POSIX-sensitive deny pattern (delete_*, drop_*, ...) but whose actual casing lets them sail past fnmatch",
+    "amendment": "Corrected 2026-10-05 after audit. The 939 tool names and the 69,098 server-name population are the L1 CATALOG populations (70,510 indexed skills), NOT this corpus capture (16,015 tools / 1,648 captured server names) — provenance was mixed in the write-up. Additionally, the 4 example tool names match the stated patterns (delete_*, drop_*) in NEITHER case because of the underscore; they only bypass case-sensitive fnmatch under the broader prefix families (delete*, run*). The audit's defensible count on this corpus is 2 mixed-case, not 4. The hole is real (case-sensitive fnmatch lets DeleteSubgraph past delete*); the numbers behind it are catalog-side, not corpus-side.",
     "tools": {
-      "in_pattern": 939,
+      "population": 939,
+      "population_provenance": "L1 catalog (70,510 skills) — not the corpus capture",
       "mixed_case": 4,
+      "pattern_family_caveat": "delete_*/drop_* match in neither case (underscore); valid only under delete*/run*",
       "examples": [
         "DeleteSubgraph",
         "RunSchemaCheck",
@@ -155,7 +141,7 @@
     },
     "server_names": {
       "population": 69098,
-      "in_pattern": 198,
+      "population_provenance": "L1 catalog server names — not the corpus capture (1,648 captured)",
       "mixed_case": 2,
       "examples": [
         "AlterLab-Academic-Skills",
@@ -167,5 +153,55 @@
     "corpus_sha256": "5877a249da294430a93322d8ec34dce49391329b0baf5a2195c487d2ac7e9217",
     "frames_dir": "frames/<skill_id>.json (raw tools/list response bodies)",
     "reprobe": "POST {endpoint} with JSON-RPC initialize + tools/list; see README.md"
-  }
+  },
+  "description_case_integrity": {
+    "question": "Audit note: 'one description in the corpus arrives already lowercased (get_generation_request, get_events, get_skill) ... worth knowing before anyone diffs corpus text against live text.'",
+    "findings": [
+      "corpus.jsonl stores descriptions verbatim — case preserved at capture; 97/16,015 descriptions naturally start lowercase (server-side style, e.g. jojapi.com 'search-communities Billing per call: 1 Credits.')",
+      "All 12 corpus instances of get_generation_request / get_events / get_skill start with an uppercase letter; zero (name -> description) pairs differ only by casing anywhere in the corpus (0 case-variant duplicates across 1,053 multi-instance names)",
+      "Live re-probe 2026-10-05 of all 11 reachable serving endpoints (initialize + tools/list, no tools/call): descriptions byte-identical to the corpus, casing preserved, 11/11",
+      "The production matcher lowercases descriptions at entry: mcp_guard/parser.py _detect_destructive and _detect_write both do desc = data.get('description', '').lower() — any lowercased text seen in an adjudication quoting production output comes from the matcher, not from the capture or the servers",
+      "Conclusion: corpus-vs-live text diffs are safe with respect to casing; lowercase enters at mcp-guard's match time, not in this artifact"
+    ],
+    "reprobe": {
+      "date": "2026-10-05",
+      "client": "mcp010-reprobe-check/1.0",
+      "reachable_endpoints": 11,
+      "byte_identical": 11
+    }
+  },
+  "amendments": [
+    {
+      "date": "2026-10-05",
+      "reason": "post-publication audit",
+      "source": "https://github.com/yunaremaia/mcp-guard/issues/101#issuecomment-5988172143",
+      "summary": "Integrity of the artifact was verified 100% by the auditor (sha256 exact, 1,656/1,656 frame hashes, positives provenance byte-identical, 4/4 live re-probe). Three write-up claims did not survive verification and are corrected here; two audit side-notes are resolved by new measurements. The data files (corpus.jsonl, frames/, positives.json) are unchanged — corpus.jsonl sha256 remains 5877a249da294430a93322d8ec34dce49391329b0baf5a2195c487d2ac7e9217.",
+      "corrections": [
+        {
+          "claim": "'get_recent_transactions / POST /transactions/search is present as a live endpoint in the corpus'",
+          "status": "FALSE — retracted",
+          "detail": "0 occurrences of get_recent_transactions, /transactions/search and POST /transactions in corpus.jsonl and in all 1,656 frames (re-verified by grep on 2026-10-05). The case is a level-1 catalog example (the #101 motivation table), not a captured endpoint. The transport-verb caution stands on its structural argument, not on this corpus."
+        },
+        {
+          "claim": "comma gap: 36 tools, 10 of them read-named",
+          "status": "UNSIZED — figure withdrawn",
+          "detail": "Definition not reimplementable as stated; analyzer implementation lost with the capture session. Audit reconstruction: 63 candidates / 56 read-named. Operative number: 4 of 127 would-fire driven by a comma (audit). See comma_gap block."
+        },
+        {
+          "claim": "fnmatch case-sensitivity: 4 of 939 tools, 2 of 198 server names",
+          "status": "PROVENANCE CORRECTED — catalog, not corpus",
+          "detail": "Both populations are L1 catalog (70,510 skills / 69,098 server names), not the 16,015-tool capture; presented inside a corpus write-up in error. The 4 examples match the stated underscore patterns in neither case (audit); on this corpus the defensible count is 2 mixed-case. See case_sensitivity block."
+        }
+      ],
+      "resolutions": [
+        "B_protocol 24 vs 27 reconciled: published tier matched only uppercase POST/PUT (filter artifact); the 4-verb word-boundary count is 27 (audit) / 27-31 (our re-measure, read-name boundary dependent). Definition now pinned in tiers.B_protocol.",
+        "Lowercased-descriptions note resolved: capture is verbatim, 11/11 live re-probes byte-identical with casing preserved, 0 case-variant duplicates corpus-wide; lowercase text originates in mcp-guard's matcher (parser.py lowers descriptions in _detect_destructive/_detect_write). See description_case_integrity block."
+      ],
+      "rejected_example": {
+        "claim": "'get_*_coinbase_pay_link tools ... the real MCP010 shape' (genuine candidate)",
+        "status": "REJECTED — with thanks",
+        "detail": "The audit quotes the three descriptions' own disclaimers ('This tool charges nothing by itself', 'read-only: it accepts no email or payment data and cannot complete a purchase', purchase happens on status 'completed'). It creates a link; it does not perform the purchase; production keyword sets score it zero destructive / zero exec. The one genuine positive found by the audit: check_in_attendee (a real write under a check_ name, 1 of 123)."
+      }
+    }
+  ]
 }

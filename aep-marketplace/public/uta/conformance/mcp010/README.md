@@ -35,24 +35,31 @@ Full per-endpoint receipts with matched keywords: `positives.json`.
 Known false-positive classes already visible in the candidates (this is the point of
 the corpus — size them, don't guess them): noun usage (`vertical drop`, `prosecution,
 execution, and filing deadlines`), proper nouns (`California POST` police database),
-sibling-verb usage notes (`name it in a subsequent delete call`), and read-implemented-
-via-POST (`get_recent_transactions` / `POST /transactions/search` — the #101 must-not-fire
-case). Genuine candidates are also present, e.g. `get_*_coinbase_pay_link` tools that
-create payment checkout sessions under a `get_` name.
+sibling-verb usage notes (`name it in a subsequent delete call`). The
+`get_recent_transactions` / `POST /transactions/search` must-not-fire case is **not** in
+this corpus (0 occurrences in corpus and frames — it is an L1 catalog example; see
+Amendments). The `get_*_coinbase_pay_link` family was proposed as a genuine candidate and
+**rejected by the audit** with quotes from its own descriptions (read-only disclaimers;
+the purchase happens elsewhere). The one genuine positive found by the audit:
+`check_in_attendee`.
 
-## Comma gap (the #101 reproduction population)
+## Comma gap (the #101 reproduction population) — UNSIZED
 
 Descriptions where a read-verb lead is followed by a comma and a state-change verb
-within the same sentence (no `. ; : ! ?` between them): **36 tools**,
-of which 10 have read-verb names. Examples in `summary.json`.
+within the same sentence. **The 36/10 figure is withdrawn** (see Amendments): the
+definition is not reimplementable as stated and the analyzer's boundary implementation
+was lost. The audit's reconstruction gives 63 candidates / 56 read-named; the operative
+number is 4 of 127 would-fire driven by a comma. Illustrative examples remain in
+`summary.json`.
 
-## Case-sensitivity (fnmatch POSIX)
+## Case-sensitivity (fnmatch POSIX) — PROVENANCE CORRECTED
 
-Tool names whose lowercase form matches a deny pattern like `delete_*`/`drop_*` but
-whose actual casing sails past POSIX `fnmatch`: **4/939**
-tools (e.g. DeleteSubgraph, RunSchemaCheck, DeleteGraph, RunSubgraphCheck), and 2/198
-server names (e.g. AlterLab-Academic-Skills, Send247-Delivery-MCP-Server). The hole is real; the
-observed prevalence in this corpus is under 1%.
+Names whose casing sails past a case-sensitive deny pattern. The 939 tool names and
+69,098 server names are the **L1 catalog** populations, not this corpus capture — the
+write-up mixed provenance. On this corpus the defensible count is **2 mixed-case**. Note:
+`DeleteSubgraph` matches `delete_*` in *neither* case (the underscore); the bypass only
+matters under broader prefix families (`delete*`, `run*`). The hole in
+`DenyPolicy.is_tool_denied` is real; its size was measured on the wrong population.
 
 ## Files
 
@@ -74,5 +81,30 @@ observed prevalence in this corpus is under 1%.
 - Capture client: `mcp010-corpus-capture/1.0` with a descriptive User-Agent; one
   `initialize` + one `tools/list` + one `notifications/initialized` per endpoint,
   concurrency 50, hard deadlines. No `tools/call` was ever issued.
+
+## Amendments — 2026-10-05
+
+After publication, yunaremaia audited the artifact end to end
+([audit comment](https://github.com/yunaremaia/mcp-guard/issues/101#issuecomment-5988172143)).
+Integrity: all green (sha256 exact, 1,656/1,656 frame hashes, positives provenance,
+4/4 live re-probe). Three write-up claims did not survive verification and are corrected
+above and in `summary.json` (amendments block):
+
+1. `get_recent_transactions` / `POST /transactions/search` — **not present** in this
+   corpus (0 hits in corpus and frames); it is an L1 catalog example.
+2. Comma gap 36/10 — **withdrawn**; population unsized (definition not reimplementable,
+   analyzer lost). Audit reconstruction: 63/56; operative: 4 of 127 would-fire.
+3. fnmatch 4/939 tools, 2/198 server names — **catalog populations**, presented as
+   corpus numbers in error; on this corpus the count is 2 mixed-case.
+
+Resolved in the same pass (audit side-notes): B_protocol 24-vs-27 reconciled (published
+tier matched only uppercase POST/PUT; the 4-verb count is 27 — filter artifact, now
+pinned), and the "lowercased descriptions" note (capture is verbatim; 11/11 reachable
+serving endpoints re-probed byte-identical with casing preserved; lowercase text enters
+at mcp-guard's matcher, which lowers descriptions in `_detect_destructive`/`_detect_write`).
+
+The data files are unchanged: `corpus.jsonl` sha256
+`5877a249da294430a93322d8ec34dce49391329b0baf5a2195c487d2ac7e9217`, `positives.json`
+and `frames/` untouched.
 
 Produced by MarketNow (marketnow.site). Evidence artifact; not a certification.
