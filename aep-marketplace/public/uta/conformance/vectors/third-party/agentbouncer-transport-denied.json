@@ -177,6 +177,9 @@
   },
   "signature_algorithm": "Ed25519 (RFC 8032) over JCS(RFC 8785) canonical bytes",
   "signed_at": "2026-10-02T02:04:18.532Z",
-  "notes": "Identical to vector agentbouncer-transport-allowed except network.egress=none (and card_id/timestamps/signature). Both cards pass 8/8 ATC controls; the only differential variable is the caps entry.",
-  "source_trace": "traces_20261002_final.json"
+  "notes": "Identical to vector agentbouncer-transport-allowed except network.egress=none (and card_id/timestamps/signature). Both cards pass 8/8 ATC controls; the only differential variable is the caps entry. Amendments 2026-10-05 (vendor-requested, patch 1.4.1): verdict acquisition via /api/v1/verify (not inline on the public test endpoint); allowed=true is AgentBouncer project policy, independent of the UTA verdict; evidence artifact, not a certification or endorsement by AgentBouncer.",
+  "source_trace": "traces_20261002_final.json",
+  "agentbouncer_verdict_acquisition": "AgentBouncer verdict obtained via POST /api/v1/verify, called with the headers of a separately signed request (AgentBouncer beta, 2026-10-02). It was not produced inline on the request delivered to the public test endpoint, which returned bad_signature at capture time due to a bug on the AgentBouncer side (acknowledged by the vendor, 2026-10-03).",
+  "meaning_of_allowed": "allowed=true reflects the AgentBouncer project policy (known project key, BLOCK_UNKNOWN mode) and is independent of the UTA verdict.",
+  "status": "Evidence artifact produced by MarketNow; not a certification or endorsement by AgentBouncer."
 }
