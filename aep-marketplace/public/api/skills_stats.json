@@ -21,6 +21,6 @@
   "price_min": 0,
   "price_max": 9.99,
   "price_avg": 0.0122,
-  "generated_at": "2026-10-04T11:13:31.607Z",
+  "generated_at": "2026-10-05T12:28:33.991Z",
   "source_of_truth": "Recomputed from the deployed skills-lite.json bundle (same data the UI serves). Live figures: /api/stats.json. CI gate: audit-report-sync.mjs --check."
 }
