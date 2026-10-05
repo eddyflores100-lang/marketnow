@@ -1,8 +1,8 @@
 {
   "$schema": "https://marketnow.site/.well-known/mcp.schema.json",
   "name": "marketnow",
-  "description": "MarketNow — Trust layer for agent commerce. 70,510 index-certified MCP-compatible skills (134,859 total tracked). Sentinel L1 index certification on every entry, L2 deep-scan on top npm tarballs, x402 payments (HTTP 402 + USDC on Base), and AP2 delegated mandates. AliceLabs LLC Proprietary. Maintained by AliceLabs LLC (Wyoming, USA).",
-  "version": "1.15.0",
+  "description": "MarketNow — Trust layer for agent commerce. 70,510 index-certified MCP-compatible skills (134,859 total tracked) with Sentinel L1 index certification on every entry, L2 deep-scan on top npm tarballs, live auth-gate state on official-registry endpoints (OPEN/late-gate/hard-gate, /api/auth-gate-skills.json), x402 payments (HTTP 402 + USDC on Base), and AP2 delegated mandates. Maintained by AliceLabs LLC (Wyoming, USA, 2025).",
+  "version": "1.16.0",
   "homepage": "https://marketnow.site",
   "repository": "https://github.com/alicelabs-llc/marketnow",
   "npm_package": "marketnow-mcp",

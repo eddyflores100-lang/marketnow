@@ -1,8 +1,11 @@
 // Paginated skills API — replaces the 24MB skills.json blob
-// catalog-version 2026-09-12: 68,387 entries (5.9.3: aria-icons L2 merge — first external submission, replaces npm-indexed entry))
+// catalog-version 2026-10-02: 70,510 entries (live sync) — touch forces lambda re-bundle
+// v1.16.0: auth-gate join — records carry live auth_state / requires_auth / rfc9728_valid
+//          from the 6,165-endpoint official-registry probe (public/api/auth-gate-skills.json)
 // Usage: GET /api/skills?page=1&limit=100
 //       GET /api/skills?page=1&limit=100&category=Security
 //       GET /api/skills?page=1&limit=100&filter=free
+//       GET /api/skills?page=1&limit=100&auth=open|gated|late-gate|hard-gate|error
 //       GET /api/skills?sort=recent     (indexed_at desc — newest first)
 //       GET /api/skills?sort=downloads  (npm_downloads_wk desc)
 //       GET /api/skills?sort=trust      (trust_score_100 desc)
@@ -22,6 +25,7 @@
 
 import skillsData from '../public/api/skills-lite.json' with { type: 'json' };
 import catalogMeta from '../public/api/catalog-meta.json' with { type: 'json' };
+import authGate from '../public/api/auth-gate-skills.json' with { type: 'json' };
 import statsBase from '../lib/stats-base.json' with { type: 'json' };
 import securityLayers from '../lib/security-layers.json' with { type: 'json' };
 import npmVersions from '../lib/npm-versions.json' with { type: 'json' };
@@ -29,6 +33,26 @@ import quarantineManifest from '../public/_data/quarantine_decisions/MANIFEST.js
 import { mountSubmission } from '../lib/submit-http.mjs';
 
 const SITE = 'https://www.marketnow.site';
+
+// ── auth-gate join (v1.16.0) ────────────────────────────────────────────────
+// Probe dataset: 6,249 official-registry remote endpoints probed live with
+// receipts → 6,165 resolved to catalog ids. Join key: skill_id == id.
+const AUTH_MAP = new Map((authGate.skills || []).map(s => [s.skill_id, s]));
+// Semantics: OPEN = serves tools/list without auth → requires_auth=false.
+// LATE_GATE/HARD_GATE = auth demanded (at or before tools/list) → requires_auth=true.
+// Probe error states carry no reliable signal → requires_auth=null.
+// Absence of signal is NOT openness; null on a record = not probed.
+const REQUIRES_AUTH = { OPEN: false, LATE_GATE: true, HARD_GATE: true };
+const AUTH_ERROR_STATES = new Set([
+  'INVALID', 'SERVER_ERROR', 'RESPONDS_NOT_SERVING', 'UNREACHABLE', 'PROTOCOL_MISMATCH', 'CLIENT_ERROR',
+]);
+const AUTH_FILTERS = {
+  'open': st => st === 'OPEN',
+  'gated': st => st === 'LATE_GATE' || st === 'HARD_GATE',
+  'late-gate': st => st === 'LATE_GATE',
+  'hard-gate': st => st === 'HARD_GATE',
+  'error': st => AUTH_ERROR_STATES.has(st),
+};
 
 export default function handler(req, res) {
   // 404 real para rutas de archivo inexistentes (.sh etc.) — fix anp2network
@@ -262,6 +286,7 @@ export default function handler(req, res) {
   const q = (req.query.q || '').toLowerCase().trim();
   const risk = (req.query.risk || '').toLowerCase().trim();
   const tier = (req.query.tier || '').toLowerCase().trim();
+  const auth = (req.query.auth || '').toLowerCase().trim();
 
   let skills = skillsData.skills || skillsData || [];
 
@@ -285,6 +310,14 @@ export default function handler(req, res) {
   // Filter by risk level (Sentinel)
   if (risk && ['red', 'yellow', 'green'].includes(risk)) {
     skills = skills.filter(s => (s.risk_level || '').toLowerCase() === risk);
+  }
+
+  // Filter by live auth-gate state (v1.16.0) — only records whose probe state matches
+  if (auth && AUTH_FILTERS[auth]) {
+    skills = skills.filter(s => {
+      const probe = AUTH_MAP.get(s.id);
+      return probe && AUTH_FILTERS[auth](probe.state);
+    });
   }
 
   // Search
@@ -316,9 +349,18 @@ export default function handler(req, res) {
   const offset = (page - 1) * limit;
   // Growth loop: cada skill devuelve su badge y página pública — los owners
   // las embeben en sus READMEs → backlinks → visibilidad para MarketNow.
+  // v1.16.0: además, live auth-gate state del probe oficial (join por id).
   const pageSkills = skills.slice(offset, offset + limit).map(s => {
     const key = encodeURIComponent(s.slug || s.name || '');
-    return { ...s, badge_url: `${SITE}/api/badge/${key}.svg`, page_url: `${SITE}/s/${key}` };
+    const probe = AUTH_MAP.get(s.id) || null;
+    return {
+      ...s,
+      badge_url: `${SITE}/api/badge/${key}.svg`,
+      page_url: `${SITE}/s/${key}`,
+      auth_state: probe ? probe.state : null,
+      requires_auth: probe ? (REQUIRES_AUTH[probe.state] ?? null) : null,
+      rfc9728_valid: probe ? probe.rfc9728_valid : null,
+    };
   });
 
   const qs = (extra) => {
@@ -331,6 +373,7 @@ export default function handler(req, res) {
     if (q) params.set('q', q);
     if (risk) params.set('risk', risk);
     if (tier) params.set('tier', tier);
+    if (auth) params.set('auth', auth);
     for (const [k, v] of Object.entries(extra || {})) params.set(k, v);
     return `/api/skills?${params.toString()}`;
   };
@@ -340,6 +383,13 @@ export default function handler(req, res) {
   for (const s of (skillsData.skills || skillsData || [])) {
     const src = (s.source && typeof s.source === 'object' ? s.source.type : s.source) || 'original';
     sources[src] = (sources[src] || 0) + 1;
+  }
+
+  // auth-gate states over the CURRENT filtered set (only probed records)
+  const authStates = {};
+  for (const s of skills) {
+    const probe = AUTH_MAP.get(s.id);
+    if (probe) authStates[probe.state] = (authStates[probe.state] || 0) + 1;
   }
 
   res.status(200).json({
@@ -358,6 +408,14 @@ export default function handler(req, res) {
     total_pages: totalPages,
     has_next: page < totalPages,
     has_prev: page > 1,
+    auth_gate: {
+      probed: authGate.count || (authGate.skills || []).length,
+      states: authStates,
+      semantics: 'OPEN = serves tools/list without auth (requires_auth=false) | LATE_GATE/HARD_GATE = auth demanded (requires_auth=true) | error states (INVALID, SERVER_ERROR, RESPONDS_NOT_SERVING, UNREACHABLE, PROTOCOL_MISMATCH, CLIENT_ERROR) = no reliable signal (requires_auth=null) | null on a record = not probed. Absence of signal is not openness.',
+      filter: auth || null,
+      dataset: `${SITE}/api/auth-gate-skills.json`,
+      distribution: `${SITE}/api/auth-gate-distribution.json`,
+    },
     sources,
     skills: pageSkills,
     _links: {
@@ -369,6 +427,8 @@ export default function handler(req, res) {
 }
 
 // batch3: catalog 67,759 (2026-09-12) — touch forces skills-lite.json re-bundle
+
+// v1.16.0: catalog 70,510 + auth-gate join (6,165 probed) — touch forces re-bundle
 
 // batch4: catalog 68,387 (2026-09-12) — touch forces skills-lite.json re-bundle
 

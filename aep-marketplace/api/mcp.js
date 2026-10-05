@@ -15,10 +15,10 @@ import { processSubmission } from "../lib/submit-core.mjs";
 
 // MCP Server info
 // NOTE: keep in sync with marketnow/mcp-server/package.json on every release.
-// v1.15.0 = sync with npm marketnow-mcp@1.15.0 (repository field → alicelabs-llc/MARKETNOW; endpoint/npm lockstep). v1.14.1 = sync with npm marketnow-mcp@1.14.1 (recupera fix c281daae perdido en redeploy 23-sep). v1.13.0 = ATC/3.0 re-version alignment. v1.12.0 = audit Task 63 fixes: jsonrpc strict validation, client limit honored.
+// v1.16.0 = auth-gate join live on /api/skills (?auth= filters, requires_auth per record; site-first release). v1.15.0 = sync with npm marketnow-mcp@1.15.0 (repository field → alicelabs-llc/MARKETNOW; endpoint/npm lockstep). v1.14.1 = sync with npm marketnow-mcp@1.14.1 (recupera fix c281daae perdido en redeploy 23-sep). v1.13.0 = ATC/3.0 re-version alignment. v1.12.0 = audit Task 63 fixes: jsonrpc strict validation, client limit honored.
 const SERVER_INFO = {
   name: "marketnow-mcp",
-  version: "1.15.0",
+  version: "1.16.0",
 };
 
 const SERVER_CAPABILITIES = {
@@ -87,7 +87,7 @@ const TOOLS = [
   },
   {
     name: "marketnow_search_skills",
-    description: "Search the MarketNow registry of indexed MCP servers (68k+ across GitHub, npm and PyPI, security-first scored).",
+    description: "Search the MarketNow registry of 70k+ indexed MCP servers across 8 sources (npm, PyPI, GitHub, official-registry, Smithery, crates, Docker, curated), security-first scored, with live auth-gate state on official-registry endpoints — filter by auth openness (open/gated/late-gate/hard-gate) via /api/skills?auth=.",
     title: "Search MCP servers",
     annotations: { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
     inputSchema: {
@@ -135,7 +135,7 @@ const TOOLS = [
   },
   {
     name: "marketnow_submit_skill",
-    description: "Publish a skill to the MarketNow catalog (the write side). The package is validated and Sentinel-scanned (injection patterns, embedded secrets, dangerous APIs, suspicious URLs, typosquat, dedup against the 68k+ catalog) AND its claims are verified live: repo_url must exist (HTTP 200), install must reference a real package on npm/PyPI/crates/Docker Hub. False claims are rejected (422). Accepted skills with real substance (files/code/verifiable repo) are stored in the public auditable queue as certified-L1.5, pending L2 review and catalog merge. Description-only submissions are accepted but never merged. Any pricing model is accepted — free, per-call (x402), subscription or custom: the vendor sets the price, MarketNow verifies the security. No authentication required. Do NOT include secrets — the scanner rejects them.",
+    description: "Publish a skill to the MarketNow catalog (the write side). The package is validated and Sentinel-scanned (injection patterns, embedded secrets, dangerous APIs, suspicious URLs, typosquat, dedup against the 70k+ catalog) AND its claims are verified live: repo_url must exist (HTTP 200), install must reference a real package on npm/PyPI/crates/Docker Hub. False claims are rejected (422). Accepted skills with real substance (files/code/verifiable repo) are stored in the public auditable queue as certified-L1.5, pending L2 review and catalog merge. Description-only submissions are accepted but never merged. Any pricing model is accepted — free, per-call (x402), subscription or custom: the vendor sets the price, MarketNow verifies the security. No authentication required. Do NOT include secrets — the scanner rejects them.",
     title: "Submit MCP skill",
     annotations: { readOnlyHint: false, destructiveHint: false, idempotentHint: false, openWorldHint: true },
     inputSchema: {
