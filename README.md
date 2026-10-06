@@ -13,7 +13,7 @@
 [![npm version](https://img.shields.io/npm/v/marketnow-mcp)](https://www.npmjs.com/package/marketnow-mcp)
 [![npm downloads](https://img.shields.io/npm/dw/marketnow-mcp)](https://www.npmjs.com/package/marketnow-mcp)
 [![License: AliceLabs LLC Proprietary](https://img.shields.io/badge/License-Proprietary-red)](LICENSE)
-[![Official MCP Registry](https://img.shields.io/badge/MCP_Registry-official-4f46e5)](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.alicelabs-llc%2Fmarketnow/versions/1.15.0)
+[![Official MCP Registry](https://img.shields.io/badge/MCP_Registry-official-4f46e5)](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.alicelabs-llc%2Fmarketnow/versions/1.16.0)
 [![M8ven](https://m8ven.ai/badge/mcp/alicelabs-llc/universal-trust-adapter)](https://www.m8ven.com/mcp/alicelabs-llc/universal-trust-adapter)
 [![mcpservers.org](https://img.shields.io/badge/mcpservers.org-listed-2EA44F)](https://mcpservers.org/servers/alicelabs-llc/marketnow)
 
@@ -79,7 +79,7 @@ curl https://marketnow.site/api/trust-score?skillId=mn-gen-00003
 | Sentinel risk buckets | low 7 · medium 76,253 · high 387 · critical 32 |
 | Quarantined decisions (public ledger) | 3 |
 | MCP tools | 9 remote endpoint (/api/mcp) · 15 npm package |
-| npm packages | marketnow-mcp v1.15.0, marketnow-install-stack v1.2.1, agent-trust-card v1.4.1 |
+| npm packages | marketnow-mcp v1.16.0, marketnow-install-stack v1.2.1, agent-trust-card v1.4.1 |
 | CA algorithm | Ed25519 (RFC 8032) |
 
 ### What Sentinel caught
@@ -114,7 +114,7 @@ Or manually — `~/.cursor/mcp.json`, `claude_desktop_config.json`, or any MCP c
   }
 }
 ```
-Remote streamable-http, no auth required. Also listed in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.alicelabs-llc%2Fmarketnow/versions/1.15.0).
+Remote streamable-http, no auth required. Also listed in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.alicelabs-llc%2Fmarketnow/versions/1.16.0).
 
 ### Install a skill stack
 ```bash
@@ -134,9 +134,9 @@ curl -X POST https://marketnow.site/api/interceptor \
   -d '{"jsonrpc":"2.0","method":"tools/call","params":{"name":"read_file","arguments":{"path":"/.env"}}}'
 ```
 
-## MCP Server v1.15.0 — Agent Contract
+## MCP Server v1.16.0 — Agent Contract
 
-The npm package `marketnow-mcp@1.15.0` exposes **15 tools, all under the `marketnow_*` namespace** so Claude Desktop, Cursor, Cline, LangChain, and LlamaIndex can disambiguate them at tool-choice time.
+The npm package `marketnow-mcp@1.16.0` exposes **15 tools, all under the `marketnow_*` namespace** so Claude Desktop, Cursor, Cline, LangChain, and LlamaIndex can disambiguate them at tool-choice time.
 
 The four golden rules enforced (full audit in [`mcp-server/AUDIT.md`](https://github.com/alicelabs-llc/MARKETNOW/blob/master/mcp-server/AUDIT.md) — product code lives in the MARKETNOW repo since the 2026-09-26 split):
 
