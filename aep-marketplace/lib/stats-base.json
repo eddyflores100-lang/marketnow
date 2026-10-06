@@ -1,6 +1,6 @@
 {
   "_stamp": {
-    "mcp_server_version": "1.15.0",
+    "mcp_server_version": "1.16.0",
     "atc_sdk_version": "1.4.1",
     "npm_latest_version": "1.16.0",
     "npm_latest_release_date": "2026-09-26",
@@ -79,7 +79,7 @@
   "tools": {
     "mcp_server_tools_count": 15,
     "mcp_server_package": "marketnow-mcp",
-    "mcp_server_version": "1.15.0",
+    "mcp_server_version": "1.16.0",
     "atc_sdk_package": "agent-trust-card",
     "atc_sdk_version": "1.4.1"
   },

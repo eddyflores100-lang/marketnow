@@ -25,7 +25,7 @@ export const FALLBACK_STATS = {
   ownPackages: 14,       // security.l2_own_packages
   ownVulns: 0,           // security.npm_vulnerabilities_own_packages
   mcpTools: 15,          // tools.mcp_server_tools_count
-  mcpVersion: '1.15.0',  // tools.mcp_server_version
+  mcpVersion: '1.16.0',  // tools.mcp_server_version
   atcSdkVersion: '1.4.1',// tools.atc_sdk_version
   sentinelVersion: 'v3.0',
   adapters: 9,
