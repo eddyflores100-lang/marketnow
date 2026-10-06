@@ -2,15 +2,15 @@
   "_stamp": {
     "mcp_server_version": "1.15.0",
     "atc_sdk_version": "1.4.1",
-    "npm_latest_version": "1.15.0",
+    "npm_latest_version": "1.16.0",
     "npm_latest_release_date": "2026-09-26",
     "npm_versions_published": 25,
     "npm_downloads_last_month": 1839,
-    "stamped_at": "2026-09-25T03:55:30Z",
+    "stamped_at": "2026-10-06T03:37:34Z",
     "note": "npm figures verified live against registry.npmjs.org on stamp date. mcp_server_version must match api/mcp.js SERVER_INFO (sync-versions.js).",
     "checked_at": "2026-09-25",
     "npm_packages_count": 14,
-    "npm_monthly_downloads": 9585
+    "npm_monthly_downloads": 10797
   },
   "$schema": "https://marketnow.site/api/stats.schema.json",
   "version": "2.1.0",

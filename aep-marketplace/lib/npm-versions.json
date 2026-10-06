@@ -1,11 +1,11 @@
 {
   "$schema": "https://marketnow.site/api/npm-versions.schema.json",
-  "generated_at": "2026-10-05T17:18:42Z",
+  "generated_at": "2026-10-06T03:37:34Z",
   "source": "registry.npmjs.org dist-tags + api.npmjs.org downloads (last-month) — re-derived by scripts/sync_npm_versions.py (weekly workflow + audit gate)",
   "packages": [
     {
       "name": "marketnow-mcp",
-      "version": "1.15.0",
+      "version": "1.16.0",
       "dl_month": 2212
     },
     {
