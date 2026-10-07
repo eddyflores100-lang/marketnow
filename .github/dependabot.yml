@@ -1,0 +1,47 @@
+# Dependency updates — OpenSSF Scorecard: Dependency-Update-Tool
+# https://docs.github.com/en/code-security/dependabot/dependabot-version-updates
+# migrated from universal-trust-adapter after the monorepo split: the
+# /marketnow/* entries there pointed at directories that no longer exist.
+version: 2
+
+updates:
+  # GitHub Actions referenced by .github/workflows/* (pinning maintenance)
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      timezone: America/Guayaquil
+    open-pull-requests-limit: 5
+    labels:
+      - dependencies
+      - github-actions
+    commit-message:
+      prefix: "chore(actions)"
+
+  # AEP marketplace (production app — marketnow.site)
+  - package-ecosystem: npm
+    directory: /aep-marketplace
+    schedule:
+      interval: weekly
+      day: monday
+      timezone: America/Guayaquil
+    open-pull-requests-limit: 10
+    labels:
+      - dependencies
+      - marketnow
+    commit-message:
+      prefix: "chore(deps)"
+
+  # MarketNow MCP server package
+  - package-ecosystem: npm
+    directory: /aep-marketplace/mcp-server
+    schedule:
+      interval: weekly
+      day: monday
+      timezone: America/Guayaquil
+    open-pull-requests-limit: 3
+    labels:
+      - dependencies
+    commit-message:
+      prefix: "chore(deps)"
