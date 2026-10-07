@@ -43,7 +43,7 @@
     "playwright": "^1.61.0",
     "tailwindcss": "^4.3.3",
     "vite": "^8.3.1",
-    "wrangler": "^4.105.0"
+    "wrangler": "^4.147.0"
   },
   "license": "(MIT OR Apache-2.0)",
   "atc_version": "2.0",
