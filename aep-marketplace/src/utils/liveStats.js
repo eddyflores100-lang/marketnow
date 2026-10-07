@@ -8,20 +8,20 @@
 //   database / canonical stats  ->  /api/stats.json  ->  this module  ->  UI
 import { useEffect, useState } from 'react';
 
-// Fallback values = last-known values of /api/stats.json (v2.1.0, 2026-10-06).
+// Fallback values = last-known values of /api/stats.json (v2.1.0, 2026-10-07).
 // Only used while the fetch is in flight or if the API is unreachable.
 export const FALLBACK_STATS = {
   total: 68388,          // discovery.total_mcp_servers
   tracked: 132737,       // discovery.total_tracked_all_sources
   l1: 68388,             // security.l1_index_certified
   l1Checks: 10,          // security.l1_checks
-  l2: 2846,              // security.l2_sentinel_scanned
+  l2: 2844,              // security.l2_sentinel_scanned
   l2Targets: 2882,       // security.l2_targets
   l2Pct: 99,             // security.l2_completion_pct
-  clean: 905,            // security.l2_clean
-  warn: 818,             // security.l2_flagged_warning
-  err: 1222,             // security.l2_flagged_error
-  scanErrs: 36,          // security.l2_scan_errors
+  clean: 903,            // security.l2_clean
+  warn: 816,             // security.l2_flagged_warning
+  err: 1224,             // security.l2_flagged_error
+  scanErrs: 38,          // security.l2_scan_errors
   ownPackages: 14,       // security.l2_own_packages
   ownVulns: 0,           // security.npm_vulnerabilities_own_packages
   mcpTools: 15,          // tools.mcp_server_tools_count
@@ -31,7 +31,7 @@ export const FALLBACK_STATS = {
   adapters: 9,
   adapterList: ['ATC', 'EAT-AI', 'ZTA', 'A2A', 'MCP-Card', 'W3C-VC', 'OAuth', 'SPIFFE', 'X.509'],
   uts: 'UTS v2.0.0',
-  generatedAt: '2026-10-06',
+  generatedAt: '2026-10-07',
   npmDownloads: null,    // live from registry.npmjs.org, null until known
   // uta.* — 4ª ronda de auditoría: la página /uta y los chips de paquetes del
   // landing ya NO hardcodean versiones: vienen de /api/stats.json → seccion uta
