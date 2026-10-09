@@ -175,13 +175,13 @@
     "npm_first_release_date": "2026-06-29",
     "npm_latest_release_date": "2026-09-26",
     "github_org_created_at": "2026-03-30",
-    "as_of": "2026-10-08",
+    "as_of": "2026-10-09",
     "source": "live API: https://marketnow.site/api/skills-lite.json + npm registry",
     "skills_tracked_all_sources": 134859,
     "security_checks_methodology": "787,576 total = 705,100 L1 (10 L1 checks × 70,510 entries) + 82,476 L2 (29 L2 rules × 2,844 tarballs; top 2,882 npm targets, 98.7% completion)",
     "l2_tarballs_deep_scanned": 2844,
-    "l2_flagged_for_review": 2041,
-    "l2_clean": 902,
+    "l2_flagged_for_review": 2044,
+    "l2_clean": 899,
     "npm_downloads_last_month": 939,
     "npm_vulnerabilities_own_packages": 0,
     "security_checks_breakdown": {
@@ -201,7 +201,7 @@
     "subscription_fee": 0,
     "explanation": "Buyers never pay MarketNow. All 70,510 skills are free to install."
   },
-  "generated_at": "2026-10-08T00:00:00.000Z",
+  "generated_at": "2026-10-09T00:00:00.000Z",
   "metadata": {
     "stats_source": "https://marketnow.site/api/stats.json",
     "sentinel_methodology": "https://marketnow.site/security/sentinel-v3.0",
