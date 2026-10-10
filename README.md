@@ -72,9 +72,9 @@ curl https://marketnow.site/api/trust-score?skillId=mn-gen-00003
 
 | Metric | Value |
 |--------|-------|
-| Security checks performed | **787,576** (705,100 L1 + 82,476 L2) |
+| Security checks performed | **787,518** (705,100 L1 + 82,418 L2) |
 | MCP skills indexed (L1) | 70,510 |
-| L2 deep-scanned tarballs (29 rules) | 2,844 / 2,882 (98.7%) |
+| L2 deep-scanned tarballs (29 rules) | 2,842 / 2,882 (98.6%) |
 | Batch certificates (weekly) | 76,679 · 0 failed |
 | Sentinel risk buckets | low 7 · medium 76,253 · high 387 · critical 32 |
 | Quarantined decisions (public ledger) | 3 |
