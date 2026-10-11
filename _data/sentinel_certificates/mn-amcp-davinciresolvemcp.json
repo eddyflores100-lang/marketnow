@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6048536",
+  "certificate_id": "MN-SC-2026-1584382",
   "skill_id": "mn-amcp-davinciresolvemcp",
   "skill_name": "davinci-resolve-mcp",
-  "issued_at": "2026-10-04T06:40:48.536Z",
-  "expires_at": "2026-10-11T06:40:48.536Z",
+  "issued_at": "2026-10-11T06:53:04.382Z",
+  "expires_at": "2026-10-18T06:53:04.382Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -37,7 +37,7 @@
     "resolved_at": "2026-09-28T11:51:58.941Z"
   },
   "cert_v": 2,
-  "signature": "e1e565c2dcd78c2abd1fcd98152c6f79385fa962bf7328b9b78dceb8c4f0478a",
+  "signature": "94a2f59f85523ac5f11b730b344e83a5c2db72b501cda6dbb427dade8deb5118",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-amcp-davinciresolvemcp"
 }

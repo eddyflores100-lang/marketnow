@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6255144",
+  "certificate_id": "MN-SC-2026-1852517",
   "skill_id": "mn-real-pythiaoraclemcp",
   "skill_name": "pythia-oracle-mcp",
-  "issued_at": "2026-10-04T06:44:15.144Z",
-  "expires_at": "2026-10-11T06:44:15.144Z",
+  "issued_at": "2026-10-11T06:57:32.517Z",
+  "expires_at": "2026-10-18T06:57:32.517Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "10784937b0d6eceaebffcc5d81b0bbd840e8ed1ac90b6c3b546def2a7908e1ba",
+  "signature": "c8b66ae55d93d4c248880323451a330a7d202b393d30decbbc008989e4e95e07",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-pythiaoraclemcp"
 }

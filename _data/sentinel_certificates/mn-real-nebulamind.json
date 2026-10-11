@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6286771",
+  "certificate_id": "MN-SC-2026-1894905",
   "skill_id": "mn-real-nebulamind",
   "skill_name": "NebulaMind",
-  "issued_at": "2026-10-04T06:44:46.771Z",
-  "expires_at": "2026-10-11T06:44:46.771Z",
+  "issued_at": "2026-10-11T06:58:14.905Z",
+  "expires_at": "2026-10-18T06:58:14.905Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c14a6e88700055a4a89f018e3ba7f54fa21ed85149031510862ba9b8f3c91742",
+  "signature": "a5e8b37ba8272343a47eaf2915b4d360378969403628fb89da36cd6919c2a164",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-nebulamind"
 }

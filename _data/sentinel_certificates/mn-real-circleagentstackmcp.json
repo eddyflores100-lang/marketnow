@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6241424",
+  "certificate_id": "MN-SC-2026-1835816",
   "skill_id": "mn-real-circleagentstackmcp",
   "skill_name": "circle-agent-stack-mcp",
-  "issued_at": "2026-10-04T06:44:01.424Z",
-  "expires_at": "2026-10-11T06:44:01.424Z",
+  "issued_at": "2026-10-11T06:57:15.816Z",
+  "expires_at": "2026-10-18T06:57:15.816Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -11,20 +11,21 @@
   "risk_breakdown": {
     "l15_l16_l17": "medium",
     "l17_quarantine_recommended": false,
-    "l2": "not_available",
+    "l2": "low",
     "final": "medium"
   },
   "layers_run": {
     "l15": true,
     "l16": true,
-    "l2": false
+    "l2": true
   },
   "layer_details": {
     "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
-    "l2_execution_status": null
+    "l2_score": 10,
+    "l2_execution_status": "ran"
   },
   "artifact": {
     "bound": false,
@@ -32,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b354a4f08428ecd2c27bb9d24a58883602151e3a43a25e04e1346c8787209362",
+  "signature": "18d645f04c41c9705b1572c2ffb2e1ec297fd017617f17f63195b1faf7d09b48",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-circleagentstackmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6282770",
+  "certificate_id": "MN-SC-2026-1889061",
   "skill_id": "mn-real-noosphere",
   "skill_name": "Noosphere",
-  "issued_at": "2026-10-04T06:44:42.770Z",
-  "expires_at": "2026-10-11T06:44:42.770Z",
+  "issued_at": "2026-10-11T06:58:09.061Z",
+  "expires_at": "2026-10-18T06:58:09.061Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "83d65e767768421eddf013a5e572cfff7985e534ae3f35d8f2a120fc00a847eb",
+  "signature": "da8518681ab963c86a235aa6068bba4f2e2cf01e40894e7b2e05a274130f36be",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-noosphere"
 }

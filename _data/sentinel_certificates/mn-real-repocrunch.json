@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6184023",
+  "certificate_id": "MN-SC-2026-1759645",
   "skill_id": "mn-real-repocrunch",
   "skill_name": "repocrunch",
-  "issued_at": "2026-10-04T06:43:04.023Z",
-  "expires_at": "2026-10-11T06:43:04.023Z",
+  "issued_at": "2026-10-11T06:55:59.645Z",
+  "expires_at": "2026-10-18T06:55:59.645Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a23d1fe92fe44d969ffbfeaed8f864e575957860f1cc7ae98595da63ab56de9a",
+  "signature": "3a4fbc0c7618576c0358e94d2ce07031a889f2d2caf08987b5bdcbc506724bdb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-repocrunch"
 }

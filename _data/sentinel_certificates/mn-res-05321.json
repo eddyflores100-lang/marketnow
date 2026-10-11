@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5979702",
+  "certificate_id": "MN-SC-2026-1497871",
   "skill_id": "mn-res-05321",
   "skill_name": "job-search-mcp",
-  "issued_at": "2026-10-04T06:39:39.702Z",
-  "expires_at": "2026-10-11T06:39:39.702Z",
+  "issued_at": "2026-10-11T06:51:37.871Z",
+  "expires_at": "2026-10-18T06:51:37.871Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f53934e744c36b38a90440258d7c7ee7e3ad4a523966037b8e70b078a7cb7184",
+  "signature": "7f8221aaa605b6fe69234670209fb1b84a83b0f1940186ba64e070d9260147e3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-res-05321"
 }

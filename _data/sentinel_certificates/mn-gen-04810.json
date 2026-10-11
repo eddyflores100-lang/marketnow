@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5975671",
+  "certificate_id": "MN-SC-2026-1492355",
   "skill_id": "mn-gen-04810",
   "skill_name": "mcp-claude-hackernews",
-  "issued_at": "2026-10-04T06:39:35.671Z",
-  "expires_at": "2026-10-11T06:39:35.671Z",
+  "issued_at": "2026-10-11T06:51:32.355Z",
+  "expires_at": "2026-10-18T06:51:32.355Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5b7bceb0b4829d9f917d85cd3197db719ddd3eac86aa7871fd1dc7b297f6aeb6",
+  "signature": "ba65132b675d8fbf653f7a1f78309245b3fac50791d8c35917f40d36eacb6c46",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04810"
 }

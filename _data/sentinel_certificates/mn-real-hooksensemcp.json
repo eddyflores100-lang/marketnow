@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6206689",
+  "certificate_id": "MN-SC-2026-1790631",
   "skill_id": "mn-real-hooksensemcp",
   "skill_name": "hooksense-mcp",
-  "issued_at": "2026-10-04T06:43:26.689Z",
-  "expires_at": "2026-10-11T06:43:26.689Z",
+  "issued_at": "2026-10-11T06:56:30.631Z",
+  "expires_at": "2026-10-18T06:56:30.631Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b4d4ae160cf664d03232afda89ab5485ae5856d1e72df46223713ef9a91d64ce",
+  "signature": "5a18b27dc7edd1b0593c12527542388fccf762fc08f98cc19be14ad05c74300d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-hooksensemcp"
 }

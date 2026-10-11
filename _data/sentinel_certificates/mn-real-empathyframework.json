@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6291821",
+  "certificate_id": "MN-SC-2026-1901474",
   "skill_id": "mn-real-empathyframework",
   "skill_name": "empathy-framework",
-  "issued_at": "2026-10-04T06:44:51.821Z",
-  "expires_at": "2026-10-11T06:44:51.821Z",
+  "issued_at": "2026-10-11T06:58:21.474Z",
+  "expires_at": "2026-10-18T06:58:21.474Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "02647fd6a446a1242dd2996eddabf7cd00050af79d277cded2235028750fc4e3",
+  "signature": "0f5ed1392d28583e6f6768acf8e3ecf8dd9ad18a0e1a00ffc0969ac6169c2dc6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-empathyframework"
 }

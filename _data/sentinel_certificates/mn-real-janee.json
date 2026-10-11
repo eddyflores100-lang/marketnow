@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6194883",
+  "certificate_id": "MN-SC-2026-1775417",
   "skill_id": "mn-real-janee",
   "skill_name": "janee",
-  "issued_at": "2026-10-04T06:43:14.883Z",
-  "expires_at": "2026-10-11T06:43:14.883Z",
+  "issued_at": "2026-10-11T06:56:15.417Z",
+  "expires_at": "2026-10-18T06:56:15.417Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "444a8fdc6f20a57fbf2e2e7c091cf71acaaae3065f32d083e500ef8e901bb97e",
+  "signature": "9b8a3d804e7fbb84b414b2508e95ca6f14ee25f77cb9a09982a387c5b7450ad9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-janee"
 }

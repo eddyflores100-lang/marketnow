@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6061768",
+  "certificate_id": "MN-SC-2026-1600236",
   "skill_id": "mn-awmcp-agentdeals",
   "skill_name": "agentdeals",
-  "issued_at": "2026-10-04T06:41:01.768Z",
-  "expires_at": "2026-10-11T06:41:01.768Z",
+  "issued_at": "2026-10-11T06:53:20.236Z",
+  "expires_at": "2026-10-18T06:53:20.236Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 6,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a3cacda68724661a521994e2bfcdde54da252e81223b3553ce33c15999559c83",
+  "signature": "6ba2a3a2ada0dbeade756565a3715d71c957696e1a0454a434e9a4ed0daf065a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-agentdeals"
 }

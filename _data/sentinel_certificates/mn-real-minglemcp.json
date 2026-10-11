@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6143418",
+  "certificate_id": "MN-SC-2026-1707456",
   "skill_id": "mn-real-minglemcp",
   "skill_name": "mingle-mcp",
-  "issued_at": "2026-10-04T06:42:23.418Z",
-  "expires_at": "2026-10-11T06:42:23.418Z",
+  "issued_at": "2026-10-11T06:55:07.456Z",
+  "expires_at": "2026-10-18T06:55:07.456Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "851bba9ca0338cae0e99330ddcbbd585df4645701c8621ab350df84c493a1ae2",
+  "signature": "9969a02b2a67a86c17cf8f1ef9f9aba2f2c62114f8a3f9680e3e7e55e076385b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-minglemcp"
 }

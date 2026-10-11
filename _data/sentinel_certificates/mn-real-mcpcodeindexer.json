@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6163402",
+  "certificate_id": "MN-SC-2026-1733379",
   "skill_id": "mn-real-mcpcodeindexer",
   "skill_name": "mcp-code-indexer",
-  "issued_at": "2026-10-04T06:42:43.402Z",
-  "expires_at": "2026-10-11T06:42:43.402Z",
+  "issued_at": "2026-10-11T06:55:33.379Z",
+  "expires_at": "2026-10-18T06:55:33.379Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "372b6276871f1b4e7815cb6367f30be5e6d8faecc12b69895de7ed3fc2e95384",
+  "signature": "4b0ac826916b15cb184e63afb8a254541c3dc428f9fdea888a79d9099c7960b1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpcodeindexer"
 }

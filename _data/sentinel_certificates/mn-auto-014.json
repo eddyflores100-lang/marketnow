@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6044686",
+  "certificate_id": "MN-SC-2026-1579435",
   "skill_id": "mn-auto-014",
   "skill_name": "mcp-rss-aggregator",
-  "issued_at": "2026-10-04T06:40:44.686Z",
-  "expires_at": "2026-10-11T06:40:44.686Z",
+  "issued_at": "2026-10-11T06:52:59.435Z",
+  "expires_at": "2026-10-18T06:52:59.435Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "68d301d30ca4eb357f3f7c65982bdc030fb2ce6d8d65a7d6a292283ab5d78587",
+  "signature": "83c0814e28eca6805fa3a4d26efb90fb16757f47bb736ceeac7f1629a095bedb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-auto-014"
 }

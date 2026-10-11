@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5938837",
+  "certificate_id": "MN-SC-2026-1445718",
   "skill_id": "mn-ai-00481",
   "skill_name": "Context",
-  "issued_at": "2026-10-04T06:38:58.837Z",
-  "expires_at": "2026-10-11T06:38:58.837Z",
+  "issued_at": "2026-10-11T06:50:45.718Z",
+  "expires_at": "2026-10-18T06:50:45.718Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "081cf4079cae028b4deff4eed8e948184b51d0bc8b82e0d35c31dc832e4d38ae",
+  "signature": "9f578a48fbaa3b617cf450bd97d62c0beab005b3d4261d66d3edd543161fe3d2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-ai-00481"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5987614",
+  "certificate_id": "MN-SC-2026-1507415",
   "skill_id": "mn-ai-06429",
   "skill_name": "mcp-client-cli",
-  "issued_at": "2026-10-04T06:39:47.614Z",
-  "expires_at": "2026-10-11T06:39:47.614Z",
+  "issued_at": "2026-10-11T06:51:47.415Z",
+  "expires_at": "2026-10-18T06:51:47.415Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e1e2bcb06fc4e7b78da0ae59be67d8e6f439de653bd75417e66cf14a1aa5918f",
+  "signature": "dbab6d7c1d007f03bb51614ede2c43bda3b98cdef020bda1ba484f6db4476e20",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-ai-06429"
 }

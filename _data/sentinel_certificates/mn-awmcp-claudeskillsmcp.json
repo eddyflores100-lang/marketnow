@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6058292",
+  "certificate_id": "MN-SC-2026-1596231",
   "skill_id": "mn-awmcp-claudeskillsmcp",
   "skill_name": "claude-skills-mcp",
-  "issued_at": "2026-10-04T06:40:58.292Z",
-  "expires_at": "2026-10-11T06:40:58.292Z",
+  "issued_at": "2026-10-11T06:53:16.231Z",
+  "expires_at": "2026-10-18T06:53:16.231Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "be86355cf669829ab38e375d7b6d4084460f101d88c7c149cb1946955d2251e0",
+  "signature": "c8a2beeb7d3a6b8781f428f842813886e3f7a32c6f8077af2b03772d4dfc7e3f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-claudeskillsmcp"
 }

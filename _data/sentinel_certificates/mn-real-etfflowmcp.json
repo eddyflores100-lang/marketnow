@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6246020",
+  "certificate_id": "MN-SC-2026-1841410",
   "skill_id": "mn-real-etfflowmcp",
   "skill_name": "etf-flow-mcp",
-  "issued_at": "2026-10-04T06:44:06.020Z",
-  "expires_at": "2026-10-11T06:44:06.020Z",
+  "issued_at": "2026-10-11T06:57:21.410Z",
+  "expires_at": "2026-10-18T06:57:21.410Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -11,20 +11,21 @@
   "risk_breakdown": {
     "l15_l16_l17": "medium",
     "l17_quarantine_recommended": false,
-    "l2": "not_available",
+    "l2": "low",
     "final": "medium"
   },
   "layers_run": {
     "l15": true,
     "l16": true,
-    "l2": false
+    "l2": true
   },
   "layer_details": {
     "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
-    "l2_execution_status": null
+    "l2_score": 10,
+    "l2_execution_status": "ran"
   },
   "artifact": {
     "bound": false,
@@ -32,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ca66fc9c1d13bff25cd6d4c82bf9a2f42786575e82aedde4f1a068986c1dafaa",
+  "signature": "bf1f126d07b0020e485813beccb1deafb319d178920259e36fca339b5827f477",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-etfflowmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6060415",
+  "certificate_id": "MN-SC-2026-1598547",
   "skill_id": "mn-awmcp-octodamuscore",
   "skill_name": "octodamus-core",
-  "issued_at": "2026-10-04T06:41:00.415Z",
-  "expires_at": "2026-10-11T06:41:00.415Z",
+  "issued_at": "2026-10-11T06:53:18.547Z",
+  "expires_at": "2026-10-18T06:53:18.547Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2397ce136a805a9ac6963ad0b93df768120c1234e03efee14ae332c8cb52b8b5",
+  "signature": "0f79775d66c4b741b3fafa07d3a72606dc64a30afa6a0b4578d62107d19b1a23",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-octodamuscore"
 }

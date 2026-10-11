@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6007748",
+  "certificate_id": "MN-SC-2026-1533129",
   "skill_id": "mn-gen-08944",
   "skill_name": "mercadolibre-mcp",
-  "issued_at": "2026-10-04T06:40:07.748Z",
-  "expires_at": "2026-10-11T06:40:07.748Z",
+  "issued_at": "2026-10-11T06:52:13.129Z",
+  "expires_at": "2026-10-18T06:52:13.129Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7235aec2cebc051bc2e94dd9c05a234f0264f06b9a8b58fcc739f96c6eff04b1",
+  "signature": "62b2d205085baf7f26a3ddf3119a0b8a09aa2229f1c92a27761d5c557e45ee96",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-08944"
 }

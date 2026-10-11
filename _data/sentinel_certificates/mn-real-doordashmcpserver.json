@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6207086",
+  "certificate_id": "MN-SC-2026-1791190",
   "skill_id": "mn-real-doordashmcpserver",
   "skill_name": "DoorDash-MCP-Server",
-  "issued_at": "2026-10-04T06:43:27.086Z",
-  "expires_at": "2026-10-11T06:43:27.086Z",
+  "issued_at": "2026-10-11T06:56:31.190Z",
+  "expires_at": "2026-10-18T06:56:31.190Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "11d7190ff7203cc02c0102fbed4dabd3caa7d495e38a582df54bfaf6ed864fa5",
+  "signature": "2c1980ebe397c308b9102eb7818e6da725689213650acbc878ff7e25a95da6d0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-doordashmcpserver"
 }

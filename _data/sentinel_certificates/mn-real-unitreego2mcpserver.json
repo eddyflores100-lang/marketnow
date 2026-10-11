@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6185428",
+  "certificate_id": "MN-SC-2026-1761429",
   "skill_id": "mn-real-unitreego2mcpserver",
   "skill_name": "unitree-go2-mcp-server",
-  "issued_at": "2026-10-04T06:43:05.428Z",
-  "expires_at": "2026-10-11T06:43:05.428Z",
+  "issued_at": "2026-10-11T06:56:01.429Z",
+  "expires_at": "2026-10-18T06:56:01.429Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c52eadc23461b359659ae135ddda672f6073a2c74eca43919aadac8f06b228ca",
+  "signature": "1ef55ec0c2b506fe4a39fd715f7d57ec6d5398bd1f508828d73f04e4e0062c43",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-unitreego2mcpserver"
 }

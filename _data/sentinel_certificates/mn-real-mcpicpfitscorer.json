@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6148247",
+  "certificate_id": "MN-SC-2026-1714156",
   "skill_id": "mn-real-mcpicpfitscorer",
   "skill_name": "mcp-icp-fit-scorer",
-  "issued_at": "2026-10-04T06:42:28.247Z",
-  "expires_at": "2026-10-11T06:42:28.247Z",
+  "issued_at": "2026-10-11T06:55:14.156Z",
+  "expires_at": "2026-10-18T06:55:14.156Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a79bb133941363883745e5380f291b4670df3dd361e075c06c0ccc41ca17d3f0",
+  "signature": "1f9163d8612485c2a6b8b83269f7dee36597920f9c501cafe32b8018d2d32d92",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpicpfitscorer"
 }

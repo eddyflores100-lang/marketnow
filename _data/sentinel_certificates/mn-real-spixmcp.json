@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6145424",
+  "certificate_id": "MN-SC-2026-1710413",
   "skill_id": "mn-real-spixmcp",
   "skill_name": "spix-mcp",
-  "issued_at": "2026-10-04T06:42:25.424Z",
-  "expires_at": "2026-10-11T06:42:25.424Z",
+  "issued_at": "2026-10-11T06:55:10.413Z",
+  "expires_at": "2026-10-18T06:55:10.413Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "490b26a679fc2a78a1fb1f35a6bb095f76a8fbea34086ccb562d6d7d20452efe",
+  "signature": "ef60357e02f52911c316e4d682eadc4de2565a8ae690900592e5f36bc0482b57",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-spixmcp"
 }

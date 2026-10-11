@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6185048",
+  "certificate_id": "MN-SC-2026-1760959",
   "skill_id": "mn-real-loopsense",
   "skill_name": "loopsense",
-  "issued_at": "2026-10-04T06:43:05.048Z",
-  "expires_at": "2026-10-11T06:43:05.048Z",
+  "issued_at": "2026-10-11T06:56:00.959Z",
+  "expires_at": "2026-10-18T06:56:00.959Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "92161fa17266ec1ac7296d3f6ffc036a447bbac4e2a5715654981b3ce81fc5e1",
+  "signature": "71cb8af2ec7acb8b8e64e3386ca6e566b13865c7e5188a746e662078e6de3a67",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-loopsense"
 }

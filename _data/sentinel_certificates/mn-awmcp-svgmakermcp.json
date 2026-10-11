@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6072483",
+  "certificate_id": "MN-SC-2026-1612702",
   "skill_id": "mn-awmcp-svgmakermcp",
   "skill_name": "svgmaker-mcp",
-  "issued_at": "2026-10-04T06:41:12.483Z",
-  "expires_at": "2026-10-11T06:41:12.483Z",
+  "issued_at": "2026-10-11T06:53:32.702Z",
+  "expires_at": "2026-10-18T06:53:32.702Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e42bdf1b269819341e3e50e46833e5dcd678c5665028cbf550299edf014cc9b6",
+  "signature": "ba8fedea3078dc2db544ddaeae2a0d3455425329787d0cbb30f8872ea6c77b31",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-svgmakermcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6133885",
+  "certificate_id": "MN-SC-2026-1694222",
   "skill_id": "mn-awmcp-signalmcp",
   "skill_name": "signal-mcp",
-  "issued_at": "2026-10-04T06:42:13.885Z",
-  "expires_at": "2026-10-11T06:42:13.885Z",
+  "issued_at": "2026-10-11T06:54:54.222Z",
+  "expires_at": "2026-10-18T06:54:54.222Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5aa5b3fae271dd871ce83bb5b410aac4751261c0186b5ec4426d145d20b17c0f",
+  "signature": "77da7f4566ad3fbc23822d0213758e0adc14ced17e7bd5b54e3aafc0de415b45",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-signalmcp"
 }

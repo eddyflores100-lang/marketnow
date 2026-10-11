@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6075912",
+  "certificate_id": "MN-SC-2026-1618104",
   "skill_id": "mn-awmcp-flstudiomcp",
   "skill_name": "flstudio-mcp",
-  "issued_at": "2026-10-04T06:41:15.912Z",
-  "expires_at": "2026-10-11T06:41:15.912Z",
+  "issued_at": "2026-10-11T06:53:38.104Z",
+  "expires_at": "2026-10-18T06:53:38.104Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "545abc7c6b1f3d77b19a54088cb9a22f4d888d993daf378175ee7e1349d73297",
+  "signature": "42deb0bec3d6ecd566a9445bab992e56a52a4d672448147647165dece77eb449",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-flstudiomcp"
 }

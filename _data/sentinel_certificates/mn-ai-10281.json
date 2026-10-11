@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6018110",
+  "certificate_id": "MN-SC-2026-1545670",
   "skill_id": "mn-ai-10281",
   "skill_name": "pdf-tools-mcp",
-  "issued_at": "2026-10-04T06:40:18.110Z",
-  "expires_at": "2026-10-11T06:40:18.110Z",
+  "issued_at": "2026-10-11T06:52:25.670Z",
+  "expires_at": "2026-10-18T06:52:25.670Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b173e40f34ad6bd08f7d4cf3ef36e05f81a838acfbf4d46df327fc8ca29dd63a",
+  "signature": "7120abfdd843d682ad3aa09d963f2a60642ccd37425e5166cdbedc552068500d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-ai-10281"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6029348",
+  "certificate_id": "MN-SC-2026-1560172",
   "skill_id": "mn-gen-12063",
   "skill_name": "spectrawl",
-  "issued_at": "2026-10-04T06:40:29.348Z",
-  "expires_at": "2026-10-11T06:40:29.348Z",
+  "issued_at": "2026-10-11T06:52:40.172Z",
+  "expires_at": "2026-10-18T06:52:40.172Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 3,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "757e7bb74834d640bf39dd71f787c03773ec31cba611b2293f83bc11d559986b",
+  "signature": "62cb134804e41f1dbce322bc86c32f50aae6c3dbc9534da17a5921f5a4f0468a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12063"
 }

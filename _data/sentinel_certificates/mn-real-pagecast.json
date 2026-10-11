@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6191506",
+  "certificate_id": "MN-SC-2026-1771309",
   "skill_id": "mn-real-pagecast",
   "skill_name": "pagecast",
-  "issued_at": "2026-10-04T06:43:11.506Z",
-  "expires_at": "2026-10-11T06:43:11.506Z",
+  "issued_at": "2026-10-11T06:56:11.309Z",
+  "expires_at": "2026-10-18T06:56:11.309Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "37382b3069f7bd8ea8a0103f6965b79e3099aec6dc01f20ecdabe038c8c1fff1",
+  "signature": "bd41e5014cfa2db3b19a00cc7dd85fdcb26d9f8229ffacc9c896b0396bc5738e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-pagecast"
 }

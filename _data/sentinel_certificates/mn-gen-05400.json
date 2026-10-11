@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5980736",
+  "certificate_id": "MN-SC-2026-1499185",
   "skill_id": "mn-gen-05400",
   "skill_name": "MCP-Kali-Server",
-  "issued_at": "2026-10-04T06:39:40.736Z",
-  "expires_at": "2026-10-11T06:39:40.736Z",
+  "issued_at": "2026-10-11T06:51:39.185Z",
+  "expires_at": "2026-10-18T06:51:39.185Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "be1968bdedf536858e09455874403cc32c515090e5409bed48b5fb2d8ff24dda",
+  "signature": "f0b16329e928ddd53d050230e81453e63eccf99515cc39f6bcdcbc9b12bbae7b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05400"
 }

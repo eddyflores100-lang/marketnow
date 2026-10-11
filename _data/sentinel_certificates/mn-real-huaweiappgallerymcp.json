@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6166837",
+  "certificate_id": "MN-SC-2026-1738259",
   "skill_id": "mn-real-huaweiappgallerymcp",
   "skill_name": "HuaweiAppGalleryMcp",
-  "issued_at": "2026-10-04T06:42:46.837Z",
-  "expires_at": "2026-10-11T06:42:46.837Z",
+  "issued_at": "2026-10-11T06:55:38.259Z",
+  "expires_at": "2026-10-18T06:55:38.259Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "41b2ca1e31845ed2f69e785fecd811b942a0b8a28e9cd0b30b2505e38419db87",
+  "signature": "d7074c2e3030c17eb4c3c27460c955faa82da77079bc51199c4bd3f473ee31c6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-huaweiappgallerymcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6128947",
+  "certificate_id": "MN-SC-2026-1687582",
   "skill_id": "mn-awmcp-mcptwikit",
   "skill_name": "mcp-twikit",
-  "issued_at": "2026-10-04T06:42:08.947Z",
-  "expires_at": "2026-10-11T06:42:08.947Z",
+  "issued_at": "2026-10-11T06:54:47.582Z",
+  "expires_at": "2026-10-18T06:54:47.582Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f85c1187d98c9b777d8ae061574eaaf723509b8062c33b7f2e17aa15fae06d6b",
+  "signature": "466dd4c8096e62ec45b5db14ae8be640a473bd9342da2b430a613af1130cb7e1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcptwikit"
 }

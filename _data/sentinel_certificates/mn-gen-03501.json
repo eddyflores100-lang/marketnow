@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5962810",
+  "certificate_id": "MN-SC-2026-1475685",
   "skill_id": "mn-gen-03501",
   "skill_name": "DragonMCP",
-  "issued_at": "2026-10-04T06:39:22.810Z",
-  "expires_at": "2026-10-11T06:39:22.810Z",
+  "issued_at": "2026-10-11T06:51:15.685Z",
+  "expires_at": "2026-10-18T06:51:15.685Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d0f7749a7ff1595060ad57c295a8a677e00358dcba79d421e687c764acd07652",
+  "signature": "14fe918b5d8c2de596475b77e33c1d71a1de6d03beb7cb0b738469b1e2f0fc90",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03501"
 }

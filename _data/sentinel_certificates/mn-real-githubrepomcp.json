@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6195121",
+  "certificate_id": "MN-SC-2026-1775683",
   "skill_id": "mn-real-githubrepomcp",
   "skill_name": "github-repo-mcp",
-  "issued_at": "2026-10-04T06:43:15.121Z",
-  "expires_at": "2026-10-11T06:43:15.121Z",
+  "issued_at": "2026-10-11T06:56:15.683Z",
+  "expires_at": "2026-10-18T06:56:15.683Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "709dc70fb86edb632f83c2c92b0160b8a90365d6d175436bd170c768a1a6ab7a",
+  "signature": "c87472ccb068b32d5ec32658d329137ef7798d13391ea985e3e22b7d2a3d3577",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-githubrepomcp"
 }

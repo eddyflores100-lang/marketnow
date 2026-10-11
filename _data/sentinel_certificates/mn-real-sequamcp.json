@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6196258",
+  "certificate_id": "MN-SC-2026-1777222",
   "skill_id": "mn-real-sequamcp",
   "skill_name": "sequa-mcp",
-  "issued_at": "2026-10-04T06:43:16.258Z",
-  "expires_at": "2026-10-11T06:43:16.258Z",
+  "issued_at": "2026-10-11T06:56:17.222Z",
+  "expires_at": "2026-10-18T06:56:17.222Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e3a15e2bc0bbae5789612a9042e4f93b87309a2ba8cbedc5dd80147c31858e02",
+  "signature": "cc50a9423f267e919f1fe17e80f865628886ee3e8e6d455aebe9f22ae03f8cc2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-sequamcp"
 }

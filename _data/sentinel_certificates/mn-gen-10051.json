@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6016607",
+  "certificate_id": "MN-SC-2026-1544021",
   "skill_id": "mn-gen-10051",
   "skill_name": "opik-mcp",
-  "issued_at": "2026-10-04T06:40:16.607Z",
-  "expires_at": "2026-10-11T06:40:16.607Z",
+  "issued_at": "2026-10-11T06:52:24.021Z",
+  "expires_at": "2026-10-18T06:52:24.021Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "294459d4ed4ed25906e39abf1561f9ea85f4cb313e4baada78277e63fdcdd391",
+  "signature": "5bfdbd5727e643afeda92664c518c88f4bc757b83555ea4e8033b2e6c45346cf",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-10051"
 }

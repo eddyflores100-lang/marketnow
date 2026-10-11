@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6248062",
+  "certificate_id": "MN-SC-2026-1844067",
   "skill_id": "mn-real-uniswappoolspymcp",
   "skill_name": "uniswap-poolspy-mcp",
-  "issued_at": "2026-10-04T06:44:08.062Z",
-  "expires_at": "2026-10-11T06:44:08.062Z",
+  "issued_at": "2026-10-11T06:57:24.067Z",
+  "expires_at": "2026-10-18T06:57:24.067Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -11,20 +11,21 @@
   "risk_breakdown": {
     "l15_l16_l17": "medium",
     "l17_quarantine_recommended": false,
-    "l2": "not_available",
+    "l2": "low",
     "final": "medium"
   },
   "layers_run": {
     "l15": true,
     "l16": true,
-    "l2": false
+    "l2": true
   },
   "layer_details": {
     "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
-    "l2_execution_status": null
+    "l2_score": 10,
+    "l2_execution_status": "ran"
   },
   "artifact": {
     "bound": false,
@@ -32,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3c24c45da5be3496d8f47a520b56ee967881b5603d0bcc3c189d9cae856acb3e",
+  "signature": "21fd50afa0376bec7edef26cd8822891d699b9b64582a448e22ec7dd1cc78b65",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-uniswappoolspymcp"
 }

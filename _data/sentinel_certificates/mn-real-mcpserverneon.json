@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6152833",
+  "certificate_id": "MN-SC-2026-1719970",
   "skill_id": "mn-real-mcpserverneon",
   "skill_name": "mcp-server-neon",
-  "issued_at": "2026-10-04T06:42:32.833Z",
-  "expires_at": "2026-10-11T06:42:32.833Z",
+  "issued_at": "2026-10-11T06:55:19.970Z",
+  "expires_at": "2026-10-18T06:55:19.970Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fd53904b73be6d22eaccc925685245c39d14c5b5af6dc35474830550f586c9e1",
+  "signature": "f4c83b2d024c113212c6f338a980d32a239f90a0633067056e27c31806ee0496",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpserverneon"
 }

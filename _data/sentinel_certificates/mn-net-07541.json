@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5997996",
+  "certificate_id": "MN-SC-2026-1519384",
   "skill_id": "mn-net-07541",
   "skill_name": "serpapi-mcp",
-  "issued_at": "2026-10-04T06:39:57.996Z",
-  "expires_at": "2026-10-11T06:39:57.996Z",
+  "issued_at": "2026-10-11T06:51:59.384Z",
+  "expires_at": "2026-10-18T06:51:59.384Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "53b57cc02c2e0790eb6b3bf50ef9da4e92b612f70cf4e54f6db374190d6e6ea3",
+  "signature": "d5250c7efdabe71d2ca5623d30e16d9df86f48437ad13d393e50545b22f513e6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-net-07541"
 }

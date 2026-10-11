@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6002121",
+  "certificate_id": "MN-SC-2026-1525310",
   "skill_id": "mn-gen-07829",
   "skill_name": "mcp-text-editor",
-  "issued_at": "2026-10-04T06:40:02.121Z",
-  "expires_at": "2026-10-11T06:40:02.121Z",
+  "issued_at": "2026-10-11T06:52:05.310Z",
+  "expires_at": "2026-10-18T06:52:05.310Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8af40ea695cfc250219e315534208824c4b38386983a3ef258eb4c50b148c7cc",
+  "signature": "a2e86a214fc64002f1f4e39a22bee7442284487eacc857e77f75a91dc14bbfc6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07829"
 }

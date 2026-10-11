@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6086626",
+  "certificate_id": "MN-SC-2026-1630916",
   "skill_id": "mn-awmcp-rrwebstack",
   "skill_name": "rrweb-stack",
-  "issued_at": "2026-10-04T06:41:26.626Z",
-  "expires_at": "2026-10-11T06:41:26.626Z",
+  "issued_at": "2026-10-11T06:53:50.916Z",
+  "expires_at": "2026-10-18T06:53:50.916Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8e39a2e2a51491b74ba4910c9c6f86c6f58d671a1bb9f5e7091b86c6932f0b7e",
+  "signature": "799cf4d3439451ac4079029f33a596ab6ef8f69d7f48416922f45df3316f7bba",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-rrwebstack"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6090987",
+  "certificate_id": "MN-SC-2026-1636171",
   "skill_id": "mn-awmcp-claudeforsafari",
   "skill_name": "claudeForSafari",
-  "issued_at": "2026-10-04T06:41:30.987Z",
-  "expires_at": "2026-10-11T06:41:30.987Z",
+  "issued_at": "2026-10-11T06:53:56.171Z",
+  "expires_at": "2026-10-18T06:53:56.171Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4624dec47b6980dd53f1826d590f3ad30128261ad5a9ce1b65799518d89b9020",
+  "signature": "e3ffa0ead69f8c04da7ff78152981c8b6a47ec0362071926824921e1231e7124",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-claudeforsafari"
 }

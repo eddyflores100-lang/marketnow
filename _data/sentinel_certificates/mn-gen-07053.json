@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5992786",
+  "certificate_id": "MN-SC-2026-1513356",
   "skill_id": "mn-gen-07053",
   "skill_name": "himarket",
-  "issued_at": "2026-10-04T06:39:52.786Z",
-  "expires_at": "2026-10-11T06:39:52.786Z",
+  "issued_at": "2026-10-11T06:51:53.356Z",
+  "expires_at": "2026-10-18T06:51:53.356Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "91ac256d9bf831ee646f01e26819227f22ab81a2beb722058013b2c71a747483",
+  "signature": "604a8680fd1be427138df138b21bdd9595b9db10a2414918b9e018203cbecf0e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07053"
 }

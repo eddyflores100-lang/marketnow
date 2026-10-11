@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6196748",
+  "certificate_id": "MN-SC-2026-1777843",
   "skill_id": "mn-real-xray",
   "skill_name": "xray",
-  "issued_at": "2026-10-04T06:43:16.748Z",
-  "expires_at": "2026-10-11T06:43:16.748Z",
+  "issued_at": "2026-10-11T06:56:17.843Z",
+  "expires_at": "2026-10-18T06:56:17.843Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3c066cb01b39678ee2fa9286da46948ee71423a5258869186f353ad877b14c98",
+  "signature": "6ec7c691d3871ef5aba9b6cd7158705ce706439e1bdc58aebeef1de852c7db1d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-xray"
 }

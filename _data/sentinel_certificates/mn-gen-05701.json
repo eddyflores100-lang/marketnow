@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5983086",
+  "certificate_id": "MN-SC-2026-1501606",
   "skill_id": "mn-gen-05701",
   "skill_name": "legends-mcp",
-  "issued_at": "2026-10-04T06:39:43.086Z",
-  "expires_at": "2026-10-11T06:39:43.086Z",
+  "issued_at": "2026-10-11T06:51:41.606Z",
+  "expires_at": "2026-10-18T06:51:41.606Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c0515dcef68989e701a0c427ca5a6a05bd090b3e2b63227921727f23e736c1eb",
+  "signature": "f74fdb8babb98ecf410a4ceedf1a5f5672a61eff1e925276249fa6397dc096bb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05701"
 }

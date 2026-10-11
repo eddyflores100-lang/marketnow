@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6219007",
+  "certificate_id": "MN-SC-2026-1808075",
   "skill_id": "mn-real-oxidizepython",
   "skill_name": "oxidize-python",
-  "issued_at": "2026-10-04T06:43:39.007Z",
-  "expires_at": "2026-10-11T06:43:39.007Z",
+  "issued_at": "2026-10-11T06:56:48.075Z",
+  "expires_at": "2026-10-18T06:56:48.075Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "58346474f904232cc4eb1c623959945f82b348d7aa76d092f7802edc0abc57f6",
+  "signature": "e2183a09fe0f41bf957b2d09df8de167ca8474d3bc0d53454d0d55ee20be1994",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-oxidizepython"
 }

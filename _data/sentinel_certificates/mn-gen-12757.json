@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6034868",
+  "certificate_id": "MN-SC-2026-1567297",
   "skill_id": "mn-gen-12757",
   "skill_name": "toreador-mcp-server",
-  "issued_at": "2026-10-04T06:40:34.868Z",
-  "expires_at": "2026-10-11T06:40:34.868Z",
+  "issued_at": "2026-10-11T06:52:47.297Z",
+  "expires_at": "2026-10-18T06:52:47.297Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "238eb60ef237b8b2cf5d73714db321152b64bbf04380c440d17212e3ff3fac65",
+  "signature": "48f8f726cd532f61967c749da91ccc0ce00c0c4399a24864459566cb898f89be",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12757"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6218429",
+  "certificate_id": "MN-SC-2026-1807306",
   "skill_id": "mn-real-touchgrass",
   "skill_name": "touch-grass",
-  "issued_at": "2026-10-04T06:43:38.429Z",
-  "expires_at": "2026-10-11T06:43:38.429Z",
+  "issued_at": "2026-10-11T06:56:47.306Z",
+  "expires_at": "2026-10-18T06:56:47.306Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c0bbf648234ff242e353b7fcb2cb5eb93524f4bfaf4dd6039a80060e47ded852",
+  "signature": "8b2467a4cc7934c842a0e2a3f52299fd4e862166a514be2707c40806f4f3d65e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-touchgrass"
 }

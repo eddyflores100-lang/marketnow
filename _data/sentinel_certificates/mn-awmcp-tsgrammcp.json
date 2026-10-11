@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6130340",
+  "certificate_id": "MN-SC-2026-1689332",
   "skill_id": "mn-awmcp-tsgrammcp",
   "skill_name": "tsgram-mcp",
-  "issued_at": "2026-10-04T06:42:10.340Z",
-  "expires_at": "2026-10-11T06:42:10.340Z",
+  "issued_at": "2026-10-11T06:54:49.332Z",
+  "expires_at": "2026-10-18T06:54:49.332Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2cbe5e8080442fbf0b47bf0c2a49365bd6659313a6d4ec6cd02e4f62d76992d2",
+  "signature": "558acee3c9b7b52c0c244cf4a97489764c938753d49621a67d8e8f9a62790cb7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-tsgrammcp"
 }

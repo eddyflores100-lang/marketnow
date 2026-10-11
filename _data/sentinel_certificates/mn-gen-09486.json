@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6011440",
+  "certificate_id": "MN-SC-2026-1538014",
   "skill_id": "mn-gen-09486",
   "skill_name": "MCP-Nest",
-  "issued_at": "2026-10-04T06:40:11.440Z",
-  "expires_at": "2026-10-11T06:40:11.440Z",
+  "issued_at": "2026-10-11T06:52:18.014Z",
+  "expires_at": "2026-10-18T06:52:18.014Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "bd9ce0e46c85f049b10c3f165d54dc284fd9d9a193ef5cd21f40cd9dc95d6713",
+  "signature": "b75a62dfb8ca5543cb5a7d2f48e331c5431e9770ba526ef0d5389ced2c5f0b22",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09486"
 }

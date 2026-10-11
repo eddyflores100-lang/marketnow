@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6148318",
+  "certificate_id": "MN-SC-2026-1714298",
   "skill_id": "mn-real-quackback",
   "skill_name": "quackback",
-  "issued_at": "2026-10-04T06:42:28.318Z",
-  "expires_at": "2026-10-11T06:42:28.318Z",
+  "issued_at": "2026-10-11T06:55:14.298Z",
+  "expires_at": "2026-10-18T06:55:14.298Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6a4070af866d9fe091deafbe74460d01db97a918e3e25cddf4133c7d3f94f088",
+  "signature": "68f1711c5d09e8ed9a1efaa27654310a1a85110b843c64082dd5492361b88ad1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-quackback"
 }

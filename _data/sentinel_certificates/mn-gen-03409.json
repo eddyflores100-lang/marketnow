@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5962486",
+  "certificate_id": "MN-SC-2026-1475152",
   "skill_id": "mn-gen-03409",
   "skill_name": "mcp-dock",
-  "issued_at": "2026-10-04T06:39:22.486Z",
-  "expires_at": "2026-10-11T06:39:22.486Z",
+  "issued_at": "2026-10-11T06:51:15.152Z",
+  "expires_at": "2026-10-18T06:51:15.152Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2f57ea08b891ec9afe307fa1be1aefc6fff06a4c3ba031b7432ed2a067028b0c",
+  "signature": "d2866913853ffe967260704b374d7cafa0c76bba1945ccf061a6437394462777",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03409"
 }

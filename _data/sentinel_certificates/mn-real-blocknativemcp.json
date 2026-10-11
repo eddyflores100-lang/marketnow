@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6241863",
+  "certificate_id": "MN-SC-2026-1836289",
   "skill_id": "mn-real-blocknativemcp",
   "skill_name": "blocknative-mcp",
-  "issued_at": "2026-10-04T06:44:01.863Z",
-  "expires_at": "2026-10-11T06:44:01.863Z",
+  "issued_at": "2026-10-11T06:57:16.289Z",
+  "expires_at": "2026-10-18T06:57:16.289Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -11,20 +11,21 @@
   "risk_breakdown": {
     "l15_l16_l17": "medium",
     "l17_quarantine_recommended": false,
-    "l2": "not_available",
+    "l2": "low",
     "final": "medium"
   },
   "layers_run": {
     "l15": true,
     "l16": true,
-    "l2": false
+    "l2": true
   },
   "layer_details": {
     "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
-    "l2_execution_status": null
+    "l2_score": 10,
+    "l2_execution_status": "ran"
   },
   "artifact": {
     "bound": false,
@@ -32,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1ef9e6d1eac22d407cb837ad80b623016c7e65bc487912d75397c0b3f34042be",
+  "signature": "3ec0ead5925abd9ac7ac817581fbfb6ba5ad4fe235bce6ff6c4db5ad95464275",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-blocknativemcp"
 }

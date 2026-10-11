@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6108560",
+  "certificate_id": "MN-SC-2026-1658325",
   "skill_id": "mn-awmcp-mcpk8sgo",
   "skill_name": "mcp-k8s-go",
-  "issued_at": "2026-10-04T06:41:48.560Z",
-  "expires_at": "2026-10-11T06:41:48.560Z",
+  "issued_at": "2026-10-11T06:54:18.325Z",
+  "expires_at": "2026-10-18T06:54:18.325Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "689bdf2a44323d71e84b54b8f573b47756e3f3e8319d423ef6c566a386093a64",
+  "signature": "eb628e0034a8d9992dc225f81039e48462bb855a8a547cc66803f907b435cd74",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpk8sgo"
 }

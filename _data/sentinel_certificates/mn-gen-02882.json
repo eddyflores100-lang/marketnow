@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5958102",
+  "certificate_id": "MN-SC-2026-1469688",
   "skill_id": "mn-gen-02882",
   "skill_name": "Crawleo-MCP",
-  "issued_at": "2026-10-04T06:39:18.102Z",
-  "expires_at": "2026-10-11T06:39:18.102Z",
+  "issued_at": "2026-10-11T06:51:09.688Z",
+  "expires_at": "2026-10-18T06:51:09.688Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f6f853deb343972a39546c2991f60bc6c5ecc47ee7c3095c12840036eff3147b",
+  "signature": "b505a4d7cd07d16cb6f8cc3fc92f0443b577cd73ad2a54236d5b621afbaa6e54",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02882"
 }

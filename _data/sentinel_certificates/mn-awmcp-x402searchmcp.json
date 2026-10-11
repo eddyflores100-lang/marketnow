@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6065821",
+  "certificate_id": "MN-SC-2026-1605051",
   "skill_id": "mn-awmcp-x402searchmcp",
   "skill_name": "x402search-mcp",
-  "issued_at": "2026-10-04T06:41:05.821Z",
-  "expires_at": "2026-10-11T06:41:05.821Z",
+  "issued_at": "2026-10-11T06:53:25.051Z",
+  "expires_at": "2026-10-18T06:53:25.051Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "291884ae71a53a8e3c9d7206923f24416b9a894216f31c51340744d765b1516e",
+  "signature": "363e1d13375adee0f69b7ee178222a8d4de81b8beaf758bb9c768978938a39f4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-x402searchmcp"
 }

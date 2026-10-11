@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6236747",
+  "certificate_id": "MN-SC-2026-1829705",
   "skill_id": "mn-real-finbuddatamcp",
   "skill_name": "finbud-data-mcp",
-  "issued_at": "2026-10-04T06:43:56.747Z",
-  "expires_at": "2026-10-11T06:43:56.747Z",
+  "issued_at": "2026-10-11T06:57:09.705Z",
+  "expires_at": "2026-10-18T06:57:09.705Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -11,20 +11,21 @@
   "risk_breakdown": {
     "l15_l16_l17": "medium",
     "l17_quarantine_recommended": false,
-    "l2": "not_available",
+    "l2": "low",
     "final": "medium"
   },
   "layers_run": {
     "l15": true,
     "l16": true,
-    "l2": false
+    "l2": true
   },
   "layer_details": {
     "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
-    "l2_execution_status": null
+    "l2_score": 10,
+    "l2_execution_status": "ran"
   },
   "artifact": {
     "bound": false,
@@ -32,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b84f077044590e7eb44f69472130c0c10fed4ef008cc557bdc637b613030d94f",
+  "signature": "2fdb9b4bd5f75027c8c774734a37fa189fd5ec6b4231cdf94419c4a4f2bdcb92",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-finbuddatamcp"
 }

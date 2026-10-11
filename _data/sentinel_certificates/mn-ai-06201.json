@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5985740",
+  "certificate_id": "MN-SC-2026-1505061",
   "skill_id": "mn-ai-06201",
   "skill_name": "aimemo",
-  "issued_at": "2026-10-04T06:39:45.740Z",
-  "expires_at": "2026-10-11T06:39:45.740Z",
+  "issued_at": "2026-10-11T06:51:45.061Z",
+  "expires_at": "2026-10-18T06:51:45.061Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "44c31880bb50919c7c381aa75b68e3f34f4e5992bdf7954b0e835ee067580099",
+  "signature": "de6d27773d21da2ef8d15e9335ab0c84ddea082913862cacbd4886fd4ca7946b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-ai-06201"
 }

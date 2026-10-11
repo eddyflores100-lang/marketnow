@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6099538",
+  "certificate_id": "MN-SC-2026-1646963",
   "skill_id": "mn-awmcp-mcpcyclops",
   "skill_name": "mcp-cyclops",
-  "issued_at": "2026-10-04T06:41:39.538Z",
-  "expires_at": "2026-10-11T06:41:39.538Z",
+  "issued_at": "2026-10-11T06:54:06.963Z",
+  "expires_at": "2026-10-18T06:54:06.963Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f55b97a982d0fc98177640f443429bb991b67c880361243482c1ea63ff382cde",
+  "signature": "49fdd34d5366bec63c74ea2bc2ad3b5585cf0a936c8863ba9e71f4819c8707b2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpcyclops"
 }

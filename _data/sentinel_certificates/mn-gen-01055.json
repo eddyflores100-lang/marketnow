@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5943025",
+  "certificate_id": "MN-SC-2026-1450544",
   "skill_id": "mn-gen-01055",
   "skill_name": "atlas-mcp-server",
-  "issued_at": "2026-10-04T06:39:03.025Z",
-  "expires_at": "2026-10-11T06:39:03.025Z",
+  "issued_at": "2026-10-11T06:50:50.544Z",
+  "expires_at": "2026-10-18T06:50:50.544Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1b447ee4ca9b746c5539dc8592d90ffbf391cd0485701327390baa2a1eb3d155",
+  "signature": "066cc8a801183124e2ff6323043014712b8a0f769a59b9f42f61cab63a0a9b6b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01055"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6266127",
+  "certificate_id": "MN-SC-2026-1867078",
   "skill_id": "mn-real-dolphin",
   "skill_name": "dolphin",
-  "issued_at": "2026-10-04T06:44:26.127Z",
-  "expires_at": "2026-10-11T06:44:26.127Z",
+  "issued_at": "2026-10-11T06:57:47.078Z",
+  "expires_at": "2026-10-18T06:57:47.078Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e8e58c7f1b462f16127b91e0227f290976201a9206e0f576a81ac765c224cad4",
+  "signature": "933b201adb66502873499e79060cab4c0609f0bd9a4b657f650388c0fce8ca51",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-dolphin"
 }

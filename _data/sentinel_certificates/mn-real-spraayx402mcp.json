@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6254330",
+  "certificate_id": "MN-SC-2026-1851592",
   "skill_id": "mn-real-spraayx402mcp",
   "skill_name": "spraay-x402-mcp",
-  "issued_at": "2026-10-04T06:44:14.330Z",
-  "expires_at": "2026-10-11T06:44:14.330Z",
+  "issued_at": "2026-10-11T06:57:31.592Z",
+  "expires_at": "2026-10-18T06:57:31.592Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "674a8b9b0589d854541ce2906fb44ae318398dc7fc608e6cbdf0ffe60744247b",
+  "signature": "7408282d7807caeedcbcf9172625a79afc2c4d92e52c79934f6422d294489af3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-spraayx402mcp"
 }

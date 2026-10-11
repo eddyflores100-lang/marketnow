@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6096755",
+  "certificate_id": "MN-SC-2026-1643021",
   "skill_id": "mn-awmcp-freshcontextmcp",
   "skill_name": "freshcontext-mcp",
-  "issued_at": "2026-10-04T06:41:36.755Z",
-  "expires_at": "2026-10-11T06:41:36.755Z",
+  "issued_at": "2026-10-11T06:54:03.021Z",
+  "expires_at": "2026-10-18T06:54:03.021Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b22eb3971fd249fe04c37c8d3d8281486ba1eda2128469431093a05a5157623f",
+  "signature": "41fd3e72dd7fd716a3179933f5094ff38b62bccfc44ac9730e9719d3de7d1066",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-freshcontextmcp"
 }

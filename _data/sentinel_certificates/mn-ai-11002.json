@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6021758",
+  "certificate_id": "MN-SC-2026-1550621",
   "skill_id": "mn-ai-11002",
   "skill_name": "rails-mcp-server",
-  "issued_at": "2026-10-04T06:40:21.758Z",
-  "expires_at": "2026-10-11T06:40:21.758Z",
+  "issued_at": "2026-10-11T06:52:30.621Z",
+  "expires_at": "2026-10-18T06:52:30.621Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "13609e67198688e74b8de83117f9a3694f745221a53dde58b52bc0cd1f3af963",
+  "signature": "15cbba23d17facd5601503a833220c6ee02c2509aed966e983ad48025eeb3801",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-ai-11002"
 }

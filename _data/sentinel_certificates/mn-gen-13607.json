@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6042366",
+  "certificate_id": "MN-SC-2026-1576744",
   "skill_id": "mn-gen-13607",
   "skill_name": "XcodeBuildMCP",
-  "issued_at": "2026-10-04T06:40:42.366Z",
-  "expires_at": "2026-10-11T06:40:42.366Z",
+  "issued_at": "2026-10-11T06:52:56.744Z",
+  "expires_at": "2026-10-18T06:52:56.744Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5a921074adc37acdfc0012ff13b132565f8d82331ddf302a726653db4497794a",
+  "signature": "34a04488fb86d4371b07e9b4116594e18b382b1ce4362209a925eb38c2dba78e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13607"
 }

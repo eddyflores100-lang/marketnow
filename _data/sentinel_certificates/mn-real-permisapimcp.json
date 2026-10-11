@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6159642",
+  "certificate_id": "MN-SC-2026-1728605",
   "skill_id": "mn-real-permisapimcp",
   "skill_name": "permisapi-mcp",
-  "issued_at": "2026-10-04T06:42:39.642Z",
-  "expires_at": "2026-10-11T06:42:39.642Z",
+  "issued_at": "2026-10-11T06:55:28.605Z",
+  "expires_at": "2026-10-18T06:55:28.605Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "43d00ad66d31112afa1be28363c77ea9ff87c6764518bf7cc17cca66932dacec",
+  "signature": "11f54aa40d9e2ba71338643049872f3d89748a72cca0e225241898ca26294603",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-permisapimcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6040051",
+  "certificate_id": "MN-SC-2026-1574005",
   "skill_id": "mn-gen-13308",
   "skill_name": "wcgw",
-  "issued_at": "2026-10-04T06:40:40.051Z",
-  "expires_at": "2026-10-11T06:40:40.051Z",
+  "issued_at": "2026-10-11T06:52:54.005Z",
+  "expires_at": "2026-10-18T06:52:54.005Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5745d52ed31eacd317e64ddc69b72d97366f3e669f572709f3896c5a60a2c88e",
+  "signature": "df3a47cad1467b08b7dcb2fe10cd15dc1429d03d12a783f8d1817f3f16565f97",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13308"
 }

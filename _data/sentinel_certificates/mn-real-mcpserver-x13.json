@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6184658",
+  "certificate_id": "MN-SC-2026-1760481",
   "skill_id": "mn-real-mcpserver-x13",
   "skill_name": "mcp-server",
-  "issued_at": "2026-10-04T06:43:04.658Z",
-  "expires_at": "2026-10-11T06:43:04.658Z",
+  "issued_at": "2026-10-11T06:56:00.481Z",
+  "expires_at": "2026-10-18T06:56:00.481Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -36,7 +36,7 @@
     "resolved_at": "2026-09-28T11:53:18.108Z"
   },
   "cert_v": 2,
-  "signature": "060290df3c9e06785aa48d06568e5df01c8dedc041f08cd4cb7f4b8bca9d3616",
+  "signature": "08dbc812ac38deec10f591c29cb910bc336b588b022567970163e8f3d04c05b0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpserver-x13"
 }

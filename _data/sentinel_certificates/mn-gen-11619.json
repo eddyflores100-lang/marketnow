@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6027132",
+  "certificate_id": "MN-SC-2026-1557091",
   "skill_id": "mn-gen-11619",
   "skill_name": "cc-sensei",
-  "issued_at": "2026-10-04T06:40:27.132Z",
-  "expires_at": "2026-10-11T06:40:27.132Z",
+  "issued_at": "2026-10-11T06:52:37.091Z",
+  "expires_at": "2026-10-18T06:52:37.091Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "acceb9d66190bb13b680b62fe6d4db11a4ef46c881fab7dd24434483a29470f3",
+  "signature": "45571bc7befbea59e8949ccb4c55dc5570f1475ff1ca8ef69629d9b1fc8f1a86",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-11619"
 }

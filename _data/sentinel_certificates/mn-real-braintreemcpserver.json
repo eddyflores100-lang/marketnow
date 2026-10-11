@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6255791",
+  "certificate_id": "MN-SC-2026-1853761",
   "skill_id": "mn-real-braintreemcpserver",
   "skill_name": "braintree-mcp-server",
-  "issued_at": "2026-10-04T06:44:15.791Z",
-  "expires_at": "2026-10-11T06:44:15.791Z",
+  "issued_at": "2026-10-11T06:57:33.761Z",
+  "expires_at": "2026-10-18T06:57:33.761Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d03eac07ce4bead1ca1102362e619e663a86fad2687d8a69241f00296954b12c",
+  "signature": "5593075ee8033dea9ee5cb4f6a35de7c620578a623a26db48d5fde8cc28d4302",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-braintreemcpserver"
 }

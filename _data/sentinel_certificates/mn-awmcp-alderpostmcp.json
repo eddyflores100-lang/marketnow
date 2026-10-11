@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6050876",
+  "certificate_id": "MN-SC-2026-1587205",
   "skill_id": "mn-awmcp-alderpostmcp",
   "skill_name": "alderpost-mcp",
-  "issued_at": "2026-10-04T06:40:50.876Z",
-  "expires_at": "2026-10-11T06:40:50.876Z",
+  "issued_at": "2026-10-11T06:53:07.205Z",
+  "expires_at": "2026-10-18T06:53:07.205Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "806206867377fda867726baf67758380b6d3b938cb28e960583137bba544e083",
+  "signature": "3dff7d49571ae265116d4c20101b2ddc18b965c41f5a8bc89096ebd80ac3cbc0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-alderpostmcp"
 }

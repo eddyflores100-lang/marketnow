@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5955711",
+  "certificate_id": "MN-SC-2026-1465990",
   "skill_id": "mn-gen-02634",
   "skill_name": "coincap-mcp",
-  "issued_at": "2026-10-04T06:39:15.711Z",
-  "expires_at": "2026-10-11T06:39:15.711Z",
+  "issued_at": "2026-10-11T06:51:05.990Z",
+  "expires_at": "2026-10-18T06:51:05.990Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "07af3930c51ced13ede3647d94e0dd0133ce568195ac52b2943cc08ffd9ebb44",
+  "signature": "7c94940fd70a6406e135f4fa6cddaceb20687134b8e220c713217956ec3b50c8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02634"
 }

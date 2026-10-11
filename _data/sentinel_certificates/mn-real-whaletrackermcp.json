@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6248769",
+  "certificate_id": "MN-SC-2026-1844851",
   "skill_id": "mn-real-whaletrackermcp",
   "skill_name": "whale-tracker-mcp",
-  "issued_at": "2026-10-04T06:44:08.769Z",
-  "expires_at": "2026-10-11T06:44:08.769Z",
+  "issued_at": "2026-10-11T06:57:24.851Z",
+  "expires_at": "2026-10-18T06:57:24.851Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d5de5f98d30fb2fed1e1ee0b49d9774cea99fc88e45cf14c3137f2b668f1b36f",
+  "signature": "8daa68f6f1788f5d55d829ebb78365b655ef7af92c83508e94614539d48553a8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-whaletrackermcp"
 }

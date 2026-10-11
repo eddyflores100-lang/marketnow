@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6289588",
+  "certificate_id": "MN-SC-2026-1898574",
   "skill_id": "mn-real-memorymcp1file",
   "skill_name": "memory-mcp-1file",
-  "issued_at": "2026-10-04T06:44:49.588Z",
-  "expires_at": "2026-10-11T06:44:49.588Z",
+  "issued_at": "2026-10-11T06:58:18.574Z",
+  "expires_at": "2026-10-18T06:58:18.574Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a160e68c2d43dd0c7bba4693cc4f807c29862703c0fd1a734b79946ef378a2c4",
+  "signature": "de0f9986a7f419c9e00f49f0a82f8257b48f1c1ea7ad79dc3a4a2b7636aec21d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-memorymcp1file"
 }

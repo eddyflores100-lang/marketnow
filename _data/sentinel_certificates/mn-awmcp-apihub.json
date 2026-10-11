@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6062472",
+  "certificate_id": "MN-SC-2026-1601061",
   "skill_id": "mn-awmcp-apihub",
   "skill_name": "api-hub",
-  "issued_at": "2026-10-04T06:41:02.472Z",
-  "expires_at": "2026-10-11T06:41:02.472Z",
+  "issued_at": "2026-10-11T06:53:21.061Z",
+  "expires_at": "2026-10-18T06:53:21.061Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 6,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "353ea5cd1bd1d6f8e65c7e86ce879c0a19d73dcea2b70053977d40f1af2f01d9",
+  "signature": "3a7a9a14dabe375cf3a9c8fad3c1bad9d43f6295cf487b7cf54f4b3c7a06ce9f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-apihub"
 }

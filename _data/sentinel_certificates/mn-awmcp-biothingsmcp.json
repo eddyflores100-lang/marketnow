@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6081504",
+  "certificate_id": "MN-SC-2026-1624889",
   "skill_id": "mn-awmcp-biothingsmcp",
   "skill_name": "biothings-mcp",
-  "issued_at": "2026-10-04T06:41:21.504Z",
-  "expires_at": "2026-10-11T06:41:21.504Z",
+  "issued_at": "2026-10-11T06:53:44.889Z",
+  "expires_at": "2026-10-18T06:53:44.889Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 7,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "830f1065d68f5c46774a700b1396dd06352eb68449f0ea1bc3c3ca0ed9fb2f07",
+  "signature": "f2ad736384fd28ab8a3043b848116aaa0a3bd8969c664349130c51e113df1511",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-biothingsmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5956245",
+  "certificate_id": "MN-SC-2026-1466874",
   "skill_id": "mn-gen-02701",
   "skill_name": "mcp-confluence-server",
-  "issued_at": "2026-10-04T06:39:16.245Z",
-  "expires_at": "2026-10-11T06:39:16.245Z",
+  "issued_at": "2026-10-11T06:51:06.874Z",
+  "expires_at": "2026-10-18T06:51:06.874Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "93f65a739b0c5a54d35b3534ce2e9aa2357afdb53f805e369390e45544954029",
+  "signature": "34a0e9bde3a867c6290730e29133e96c6328ae858a6c7536c0f067e0226d59e5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02701"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6280567",
+  "certificate_id": "MN-SC-2026-1886395",
   "skill_id": "mn-real-cacheoverflow",
   "skill_name": "CacheOverflow",
-  "issued_at": "2026-10-04T06:44:40.567Z",
-  "expires_at": "2026-10-11T06:44:40.567Z",
+  "issued_at": "2026-10-11T06:58:06.395Z",
+  "expires_at": "2026-10-18T06:58:06.395Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8ed804ad0c90b7bc95df306f99401de279b8466e2cdbc46a18053919aca0d425",
+  "signature": "78e86cc107a80c7f70e8d84601806462f48120f96d97bb9bff7bc938ec61f462",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cacheoverflow"
 }

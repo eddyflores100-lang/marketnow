@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6160137",
+  "certificate_id": "MN-SC-2026-1729215",
   "skill_id": "mn-real-mcpreunion",
   "skill_name": "mcp-reunion",
-  "issued_at": "2026-10-04T06:42:40.137Z",
-  "expires_at": "2026-10-11T06:42:40.137Z",
+  "issued_at": "2026-10-11T06:55:29.215Z",
+  "expires_at": "2026-10-18T06:55:29.215Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6b6b55d1740329745be72be883dca2aac52f020159756d92224c721d269fa40b",
+  "signature": "d2f3602e9a54fc12a98a64564da039ba0051ba46a5df8ee052e60d78dcb4e7d0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpreunion"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6224586",
+  "certificate_id": "MN-SC-2026-1815094",
   "skill_id": "mn-real-signallordmcpserver",
   "skill_name": "signallord-mcp-server",
-  "issued_at": "2026-10-04T06:43:44.586Z",
-  "expires_at": "2026-10-11T06:43:44.586Z",
+  "issued_at": "2026-10-11T06:56:55.094Z",
+  "expires_at": "2026-10-18T06:56:55.094Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "470fe51a1c67cb302559f18e606df7089a2ffb28072231a30273657ccc65a649",
+  "signature": "6550ee82f17c307bb70879c30aa0264a601fba4be769ac4bde9b9307f2250419",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-signallordmcpserver"
 }

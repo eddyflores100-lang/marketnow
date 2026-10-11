@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6185643",
+  "certificate_id": "MN-SC-2026-1761683",
   "skill_id": "mn-real-clarifypromptmcp",
   "skill_name": "clarifyprompt-mcp",
-  "issued_at": "2026-10-04T06:43:05.643Z",
-  "expires_at": "2026-10-11T06:43:05.643Z",
+  "issued_at": "2026-10-11T06:56:01.683Z",
+  "expires_at": "2026-10-18T06:56:01.683Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a30cf9ba4af52f7af78df1343dcd3525df1d73a609603bf1d29ab7c1481dede5",
+  "signature": "443470c079c96cdb07c10d025621d92a62d8afa4df61b75ad89574c8d658d5a8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-clarifypromptmcp"
 }

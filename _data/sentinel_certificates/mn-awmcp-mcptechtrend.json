@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6081177",
+  "certificate_id": "MN-SC-2026-1624528",
   "skill_id": "mn-awmcp-mcptechtrend",
   "skill_name": "mcp-techTrend",
-  "issued_at": "2026-10-04T06:41:21.177Z",
-  "expires_at": "2026-10-11T06:41:21.177Z",
+  "issued_at": "2026-10-11T06:53:44.528Z",
+  "expires_at": "2026-10-18T06:53:44.528Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "375c3267c8559be90955998a7fcbd4887e4cef4df696fb312fa95cc56b61f7f9",
+  "signature": "b28db5c7511e64b12066ab8493fa2caff66ff82a0bf2d5b553ff8eccdb1ab467",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcptechtrend"
 }

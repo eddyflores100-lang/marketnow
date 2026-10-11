@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5991832",
+  "certificate_id": "MN-SC-2026-1512129",
   "skill_id": "mn-gen-06926",
   "skill_name": "inspector",
-  "issued_at": "2026-10-04T06:39:51.832Z",
-  "expires_at": "2026-10-11T06:39:51.832Z",
+  "issued_at": "2026-10-11T06:51:52.129Z",
+  "expires_at": "2026-10-18T06:51:52.129Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d30fdd8fc2851cf6967792881b6c55b1f40db0afb2f4ed612651f406b638bc59",
+  "signature": "744208a09e029d9cf5805d18e1d31f9411f8398cd91f87b2ee1694d56e16dfac",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-06926"
 }

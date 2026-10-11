@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5974833",
+  "certificate_id": "MN-SC-2026-1491258",
   "skill_id": "mn-gen-04669",
   "skill_name": "gorilla-mcp",
-  "issued_at": "2026-10-04T06:39:34.833Z",
-  "expires_at": "2026-10-11T06:39:34.833Z",
+  "issued_at": "2026-10-11T06:51:31.258Z",
+  "expires_at": "2026-10-18T06:51:31.258Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cc9b5483a8187423e33467b4288f52028a0f168f9bde3294bad63406fd0ca92e",
+  "signature": "fa6793c63b92e41a85b223750b9bae9400da71f6a63ec92a771b7d1f8b20f2cf",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04669"
 }

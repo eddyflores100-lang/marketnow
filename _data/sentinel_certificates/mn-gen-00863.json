@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5941515",
+  "certificate_id": "MN-SC-2026-1448620",
   "skill_id": "mn-gen-00863",
   "skill_name": "apollo-io-mcp",
-  "issued_at": "2026-10-04T06:39:01.515Z",
-  "expires_at": "2026-10-11T06:39:01.515Z",
+  "issued_at": "2026-10-11T06:50:48.620Z",
+  "expires_at": "2026-10-18T06:50:48.620Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "42454b8e64f788d25ed5c581fd9af15762e28d96fc75d9a904bd09a5ebe64fff",
+  "signature": "2a615627fa3bd4d638d3ba0dfce3021ca1637825e924a2a31d9a168de9b974de",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00863"
 }

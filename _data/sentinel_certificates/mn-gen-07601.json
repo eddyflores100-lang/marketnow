@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5998202",
+  "certificate_id": "MN-SC-2026-1519640",
   "skill_id": "mn-gen-07601",
   "skill_name": "mcp-code-runner",
-  "issued_at": "2026-10-04T06:39:58.202Z",
-  "expires_at": "2026-10-11T06:39:58.202Z",
+  "issued_at": "2026-10-11T06:51:59.640Z",
+  "expires_at": "2026-10-18T06:51:59.640Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "79fabd4b176a4cb1c4588ef46ce1ae603f431a09ee32836eb8ba7c648a13e253",
+  "signature": "b3c22098f393a7566a7d4c568e0cd971d175146bf2108714a5978e84c7201a12",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07601"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6101839",
+  "certificate_id": "MN-SC-2026-1649805",
   "skill_id": "mn-awmcp-easypanelmcpserver",
   "skill_name": "easypanel-mcp-server",
-  "issued_at": "2026-10-04T06:41:41.839Z",
-  "expires_at": "2026-10-11T06:41:41.839Z",
+  "issued_at": "2026-10-11T06:54:09.805Z",
+  "expires_at": "2026-10-18T06:54:09.805Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d44775a7dc559a1944732fe42ca420f2b34c4838eba184ce6bbc1b9b0619f9e4",
+  "signature": "8479b704e6a64a99a2352bf89ac53d78336ed47a57b88701abb5f261451bd89e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-easypanelmcpserver"
 }

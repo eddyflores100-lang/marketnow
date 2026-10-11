@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6210384",
+  "certificate_id": "MN-SC-2026-1796688",
   "skill_id": "mn-real-zaturn",
   "skill_name": "zaturn",
-  "issued_at": "2026-10-04T06:43:30.384Z",
-  "expires_at": "2026-10-11T06:43:30.384Z",
+  "issued_at": "2026-10-11T06:56:36.688Z",
+  "expires_at": "2026-10-18T06:56:36.688Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8aaeb97e32306210d7036003150d299b66ea14a02b1570cff58a68d23bf2eea7",
+  "signature": "0a28965540cc08b8c9bc8b4896702fa1349eb13844c5fb6299b87a0fa739e2b9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-zaturn"
 }

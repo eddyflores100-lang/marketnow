@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5945489",
+  "certificate_id": "MN-SC-2026-1453563",
   "skill_id": "mn-gen-01341",
   "skill_name": "better-icons",
-  "issued_at": "2026-10-04T06:39:05.489Z",
-  "expires_at": "2026-10-11T06:39:05.489Z",
+  "issued_at": "2026-10-11T06:50:53.563Z",
+  "expires_at": "2026-10-18T06:50:53.563Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a3bff18b7121dbc482bea52e5001d2e09f6256ac7b5e42c8108335ab118faf23",
+  "signature": "8ce183d5ece4d187475fc7da5b0e8f51f49a470e9fc217083f86fadfd2122ac6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01341"
 }

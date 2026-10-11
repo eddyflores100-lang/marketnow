@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6250574",
+  "certificate_id": "MN-SC-2026-1846920",
   "skill_id": "mn-real-cryptosignalsmcp",
   "skill_name": "crypto-signals-mcp",
-  "issued_at": "2026-10-04T06:44:10.574Z",
-  "expires_at": "2026-10-11T06:44:10.574Z",
+  "issued_at": "2026-10-11T06:57:26.920Z",
+  "expires_at": "2026-10-18T06:57:26.920Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3da37b42be4d1ef5f9fda778b28157229dd4687dbac5bd710db9efee2fb1361a",
+  "signature": "44ce6f83ffcaf9a2904ae93a48b92f2f44726f9c951eef5488bff0c5bc702be1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cryptosignalsmcp"
 }

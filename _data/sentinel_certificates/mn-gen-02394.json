@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5953638",
+  "certificate_id": "MN-SC-2026-1462846",
   "skill_id": "mn-gen-02394",
   "skill_name": "ClawMem",
-  "issued_at": "2026-10-04T06:39:13.638Z",
-  "expires_at": "2026-10-11T06:39:13.638Z",
+  "issued_at": "2026-10-11T06:51:02.846Z",
+  "expires_at": "2026-10-18T06:51:02.846Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "761d94526b51a257aa43c0faa9200b1674cd15a864708815cc32a4fc87ef865f",
+  "signature": "fac2f9c4e211fedab902ddb76ecee94ad41ed9669a83b28f72b17af42e5c9df2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02394"
 }

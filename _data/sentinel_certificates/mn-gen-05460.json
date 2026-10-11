@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5981245",
+  "certificate_id": "MN-SC-2026-1499823",
   "skill_id": "mn-gen-05460",
   "skill_name": "mcp-kibela",
-  "issued_at": "2026-10-04T06:39:41.245Z",
-  "expires_at": "2026-10-11T06:39:41.245Z",
+  "issued_at": "2026-10-11T06:51:39.823Z",
+  "expires_at": "2026-10-18T06:51:39.823Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "57d6f0da6c17216883ff3923c05e1cb89f2aeda2200ad3b2aeb41e2784068a89",
+  "signature": "18c9aa4d7c69151a6bbad06209c00e1de98afca2cc2098444933c1b6ce480681",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05460"
 }

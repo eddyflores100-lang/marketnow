@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6110064",
+  "certificate_id": "MN-SC-2026-1660490",
   "skill_id": "mn-awmcp-cloudwright",
   "skill_name": "cloudwright",
-  "issued_at": "2026-10-04T06:41:50.064Z",
-  "expires_at": "2026-10-11T06:41:50.064Z",
+  "issued_at": "2026-10-11T06:54:20.490Z",
+  "expires_at": "2026-10-18T06:54:20.490Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8d3380b2dffa9e7b92ba6fb1b35833b9c481b394c21f7b4f83b135f714fe3f24",
+  "signature": "75f656949785a5b487debf51f5930356f87afc9510921f1f040e0483aaeab99f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-cloudwright"
 }

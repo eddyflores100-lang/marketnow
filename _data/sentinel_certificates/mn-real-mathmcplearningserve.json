@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6209358",
+  "certificate_id": "MN-SC-2026-1795240",
   "skill_id": "mn-real-mathmcplearningserve",
   "skill_name": "math-mcp-learning-server",
-  "issued_at": "2026-10-04T06:43:29.358Z",
-  "expires_at": "2026-10-11T06:43:29.358Z",
+  "issued_at": "2026-10-11T06:56:35.240Z",
+  "expires_at": "2026-10-18T06:56:35.240Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "91417726d46434e170ebb829e381872d428703de5f342add139bd6a8ae930736",
+  "signature": "1f094e0dbc7885608bdec74fa8aa75db57909c92d70d0ce4deabc923a6d8de8b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mathmcplearningserve"
 }

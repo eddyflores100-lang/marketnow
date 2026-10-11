@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6254157",
+  "certificate_id": "MN-SC-2026-1851351",
   "skill_id": "mn-real-graphpolymarketmcp",
   "skill_name": "graph-polymarket-mcp",
-  "issued_at": "2026-10-04T06:44:14.157Z",
-  "expires_at": "2026-10-11T06:44:14.157Z",
+  "issued_at": "2026-10-11T06:57:31.351Z",
+  "expires_at": "2026-10-18T06:57:31.351Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "89d65fb95ef40c9861a9135d0dd53bef693b68689e4a122988cddf1d6e5f0cd0",
+  "signature": "16c67ddfd982e9d847aea82ad5076c1852370fb54ced2019833ed83d43372fc2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-graphpolymarketmcp"
 }

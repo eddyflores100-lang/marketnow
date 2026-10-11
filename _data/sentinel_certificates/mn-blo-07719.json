@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6000632",
+  "certificate_id": "MN-SC-2026-1522387",
   "skill_id": "mn-blo-07719",
   "skill_name": "mcp-server-madeonsol",
-  "issued_at": "2026-10-04T06:40:00.632Z",
-  "expires_at": "2026-10-11T06:40:00.632Z",
+  "issued_at": "2026-10-11T06:52:02.387Z",
+  "expires_at": "2026-10-18T06:52:02.387Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "90ec26fff89f3fd477b3e69104baaceab9eaafe4838734bd2309b0ef8be7c40c",
+  "signature": "547d41d64d87a6a422c57884a6a1e1516a479ae948e910945b85d1288393e5e8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-blo-07719"
 }

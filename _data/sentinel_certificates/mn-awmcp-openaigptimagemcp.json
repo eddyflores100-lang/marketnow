@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6063254",
+  "certificate_id": "MN-SC-2026-1601986",
   "skill_id": "mn-awmcp-openaigptimagemcp",
   "skill_name": "openai-gpt-image-mcp",
-  "issued_at": "2026-10-04T06:41:03.254Z",
-  "expires_at": "2026-10-11T06:41:03.254Z",
+  "issued_at": "2026-10-11T06:53:21.986Z",
+  "expires_at": "2026-10-18T06:53:21.986Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "64f479a69eeac5313d3f63816b437151c8bd7ca3650721404f7edd3af500d135",
+  "signature": "a30600eeb19a186fa4b12c4fd011f4dff00120bf06a68a1b15338c7464716840",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-openaigptimagemcp"
 }

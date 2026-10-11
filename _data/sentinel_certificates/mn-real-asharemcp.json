@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6261747",
+  "certificate_id": "MN-SC-2026-1861628",
   "skill_id": "mn-real-asharemcp",
   "skill_name": "ashare-mcp",
-  "issued_at": "2026-10-04T06:44:21.747Z",
-  "expires_at": "2026-10-11T06:44:21.747Z",
+  "issued_at": "2026-10-11T06:57:41.628Z",
+  "expires_at": "2026-10-18T06:57:41.628Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fbdb7434a5ef3658b6827ca96e99b3d2b2fd1e0c39bff2de075f5d5cfe8f6dd7",
+  "signature": "aa8313074a13bfca7ec816dd89fc31138f5b1c30850a2e5d719613dbbe459730",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-asharemcp"
 }

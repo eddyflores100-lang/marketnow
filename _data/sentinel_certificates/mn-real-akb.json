@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6278452",
+  "certificate_id": "MN-SC-2026-1882412",
   "skill_id": "mn-real-akb",
   "skill_name": "akb",
-  "issued_at": "2026-10-04T06:44:38.452Z",
-  "expires_at": "2026-10-11T06:44:38.452Z",
+  "issued_at": "2026-10-11T06:58:02.412Z",
+  "expires_at": "2026-10-18T06:58:02.412Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "576974a2a0d8733b1d5d72e2b77560a0168d409defd77ed5265bb2873448475f",
+  "signature": "ac32f96fdb72b39fcc5c83891f38ee723ce8c84bcfc1ffcccf6c5b6e06c47aa6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-akb"
 }

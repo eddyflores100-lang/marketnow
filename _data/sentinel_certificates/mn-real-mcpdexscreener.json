@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6240117",
+  "certificate_id": "MN-SC-2026-1834262",
   "skill_id": "mn-real-mcpdexscreener",
   "skill_name": "mcp-dexscreener",
-  "issued_at": "2026-10-04T06:44:00.117Z",
-  "expires_at": "2026-10-11T06:44:00.117Z",
+  "issued_at": "2026-10-11T06:57:14.262Z",
+  "expires_at": "2026-10-18T06:57:14.262Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -11,20 +11,21 @@
   "risk_breakdown": {
     "l15_l16_l17": "medium",
     "l17_quarantine_recommended": false,
-    "l2": "not_available",
+    "l2": "low",
     "final": "medium"
   },
   "layers_run": {
     "l15": true,
     "l16": true,
-    "l2": false
+    "l2": true
   },
   "layer_details": {
     "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
-    "l2_execution_status": null
+    "l2_score": 10,
+    "l2_execution_status": "ran"
   },
   "artifact": {
     "bound": false,
@@ -32,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f4b00dd9ed3177d792a56253e219aa203b68e0f19c8cec7485b04c76f30f8c66",
+  "signature": "29653346a926bdbda8f4ab4bddbda266e4e39d730a5ba6a3d8fb843b8b43985c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpdexscreener"
 }

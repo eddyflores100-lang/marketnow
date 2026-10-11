@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6252471",
+  "certificate_id": "MN-SC-2026-1849217",
   "skill_id": "mn-real-mcpwalletsigner",
   "skill_name": "mcp-wallet-signer",
-  "issued_at": "2026-10-04T06:44:12.471Z",
-  "expires_at": "2026-10-11T06:44:12.471Z",
+  "issued_at": "2026-10-11T06:57:29.217Z",
+  "expires_at": "2026-10-18T06:57:29.217Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d12a58301367d183575361dc06eabace8e9089d16e58ef5ae7d11df693228dfb",
+  "signature": "2fa2730b0c8c11fa03e0972a48f9cbb1fa3091e35c156447637b6e7cb1649e4f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpwalletsigner"
 }

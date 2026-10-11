@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6080300",
+  "certificate_id": "MN-SC-2026-1623533",
   "skill_id": "mn-awmcp-genomicagentdiscover",
   "skill_name": "Genomic-Agent-Discovery",
-  "issued_at": "2026-10-04T06:41:20.300Z",
-  "expires_at": "2026-10-11T06:41:20.300Z",
+  "issued_at": "2026-10-11T06:53:43.533Z",
+  "expires_at": "2026-10-18T06:53:43.533Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f8f00c2f94b19ca28d1b6c003414cd9c99f8cc0e141d8a3f240966e8e02b1ffe",
+  "signature": "def534ec5982465551fab9501a177f33f3411349487e74c05a28ef60b9a5de88",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-genomicagentdiscover"
 }

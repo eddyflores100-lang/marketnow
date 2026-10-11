@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6289197",
+  "certificate_id": "MN-SC-2026-1898097",
   "skill_id": "mn-real-knowledgelibio",
   "skill_name": "knowledgelib-io",
-  "issued_at": "2026-10-04T06:44:49.197Z",
-  "expires_at": "2026-10-11T06:44:49.197Z",
+  "issued_at": "2026-10-11T06:58:18.097Z",
+  "expires_at": "2026-10-18T06:58:18.097Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0e8d6bdb10b40862b5b6381e3559d085c438d14ec1a7504925a7bd977ebba7b8",
+  "signature": "43037d90c494ee031a0d590bdf2afe65a7bc86ba2ff7534adbbdff1adef3a5f8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-knowledgelibio"
 }

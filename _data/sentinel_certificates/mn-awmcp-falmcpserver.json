@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6075805",
+  "certificate_id": "MN-SC-2026-1617971",
   "skill_id": "mn-awmcp-falmcpserver",
   "skill_name": "fal-mcp-server",
-  "issued_at": "2026-10-04T06:41:15.805Z",
-  "expires_at": "2026-10-11T06:41:15.805Z",
+  "issued_at": "2026-10-11T06:53:37.971Z",
+  "expires_at": "2026-10-18T06:53:37.971Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f900819b936605f72a3cbf43591e53c21fc205fe39677aed58e640741ce654a7",
+  "signature": "d132628893d15195990f80582f91c06774d46a0c47a1066ba954e404065a15cb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-falmcpserver"
 }

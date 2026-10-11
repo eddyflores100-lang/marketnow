@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5996257",
+  "certificate_id": "MN-SC-2026-1517409",
   "skill_id": "mn-gen-07338",
   "skill_name": "ProxmoxMCP-Plus",
-  "issued_at": "2026-10-04T06:39:56.257Z",
-  "expires_at": "2026-10-11T06:39:56.257Z",
+  "issued_at": "2026-10-11T06:51:57.409Z",
+  "expires_at": "2026-10-18T06:51:57.409Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "978cc03474dcd4efed3a13bafea3cd9811615dcaa465a19b907bf66ff82c5f80",
+  "signature": "31c292f6bbf6718bc03acabac782ba7c6be3a3b44eb061f959e06081e65b689a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07338"
 }

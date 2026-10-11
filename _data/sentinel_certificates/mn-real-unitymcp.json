@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6268668",
+  "certificate_id": "MN-SC-2026-1870243",
   "skill_id": "mn-real-unitymcp",
   "skill_name": "Unity-MCP",
-  "issued_at": "2026-10-04T06:44:28.668Z",
-  "expires_at": "2026-10-11T06:44:28.668Z",
+  "issued_at": "2026-10-11T06:57:50.243Z",
+  "expires_at": "2026-10-18T06:57:50.243Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "124d798d9e9d598258c0198662ddca60bca6237848b9ef436c7fbc93e203c711",
+  "signature": "25596e7b02fb9b5292fcdf642a13b0f3da8413ed84495e263ded97dfd74f60b3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-unitymcp"
 }

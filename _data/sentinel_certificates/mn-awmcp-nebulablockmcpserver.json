@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6104450",
+  "certificate_id": "MN-SC-2026-1652916",
   "skill_id": "mn-awmcp-nebulablockmcpserver",
   "skill_name": "nebulablock-mcp-server",
-  "issued_at": "2026-10-04T06:41:44.450Z",
-  "expires_at": "2026-10-11T06:41:44.450Z",
+  "issued_at": "2026-10-11T06:54:12.916Z",
+  "expires_at": "2026-10-18T06:54:12.916Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6b5f02a4b984e31b24c90950c9944be59475f93d75e6134c97429ab73283cf78",
+  "signature": "9e696e9ae266ae2f909d92ab95f29e7a37eae58bbb1e3878103a83ca792cb51a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-nebulablockmcpserver"
 }

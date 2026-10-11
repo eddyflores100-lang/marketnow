@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6087011",
+  "certificate_id": "MN-SC-2026-1631445",
   "skill_id": "mn-awmcp-yutu",
   "skill_name": "yutu",
-  "issued_at": "2026-10-04T06:41:27.011Z",
-  "expires_at": "2026-10-11T06:41:27.011Z",
+  "issued_at": "2026-10-11T06:53:51.445Z",
+  "expires_at": "2026-10-18T06:53:51.445Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4ca83d38a8d983e60a9165b17dea2bb355a24cff6ba7ae21c90574dc62385d8a",
+  "signature": "88806010fe58c9fe41f25cf9600a7bb82bbbe60c67bfa3eb0036bad43d3e74d8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-yutu"
 }

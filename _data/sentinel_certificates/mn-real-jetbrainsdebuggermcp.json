@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6178492",
+  "certificate_id": "MN-SC-2026-1752965",
   "skill_id": "mn-real-jetbrainsdebuggermcp",
   "skill_name": "jetbrains-debugger-mcp-plugin",
-  "issued_at": "2026-10-04T06:42:58.492Z",
-  "expires_at": "2026-10-11T06:42:58.492Z",
+  "issued_at": "2026-10-11T06:55:52.965Z",
+  "expires_at": "2026-10-18T06:55:52.965Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3d23dfc20738b0876f72b6ae6e06568b3c1a78372cc3a3b044a2cf1b30651936",
+  "signature": "2bb2992290d9170869977388e3bd43ac0a00d519ad8c45d565bfdeb185e5d089",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-jetbrainsdebuggermcp"
 }

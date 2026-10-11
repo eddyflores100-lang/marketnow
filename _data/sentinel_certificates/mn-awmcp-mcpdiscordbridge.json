@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6135494",
+  "certificate_id": "MN-SC-2026-1696211",
   "skill_id": "mn-awmcp-mcpdiscordbridge",
   "skill_name": "mcp-discord-bridge",
-  "issued_at": "2026-10-04T06:42:15.494Z",
-  "expires_at": "2026-10-11T06:42:15.494Z",
+  "issued_at": "2026-10-11T06:54:56.211Z",
+  "expires_at": "2026-10-18T06:54:56.211Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ad330a093e747834a1ecfb7113ed72fb123345c72469988265edbaa206643124",
+  "signature": "079aeab702619417f414ede94ca5b6dbbca35b7a09f58980ad97c4a9571e206f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpdiscordbridge"
 }

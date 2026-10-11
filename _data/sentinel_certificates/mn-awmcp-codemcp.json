@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6117370",
+  "certificate_id": "MN-SC-2026-1669768",
   "skill_id": "mn-awmcp-codemcp",
   "skill_name": "codemcp",
-  "issued_at": "2026-10-04T06:41:57.370Z",
-  "expires_at": "2026-10-11T06:41:57.370Z",
+  "issued_at": "2026-10-11T06:54:29.768Z",
+  "expires_at": "2026-10-18T06:54:29.768Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f965c9e127413d2a9e4695d818ba7844626d045e9567eb79ffaa385a17f89f99",
+  "signature": "cf8386b815aecb9b3b564ad0e0ab51726778b6475b38c8cfec48c5d2968c861a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-codemcp"
 }

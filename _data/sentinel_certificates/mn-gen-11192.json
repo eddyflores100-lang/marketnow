@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6023913",
+  "certificate_id": "MN-SC-2026-1553178",
   "skill_id": "mn-gen-11192",
   "skill_name": "reportflow-mcp",
-  "issued_at": "2026-10-04T06:40:23.913Z",
-  "expires_at": "2026-10-11T06:40:23.913Z",
+  "issued_at": "2026-10-11T06:52:33.178Z",
+  "expires_at": "2026-10-18T06:52:33.178Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "643bc2aaa69d649be24df7bc716d82ec1d61934c43cd9a8dd44c0b11e670aa1c",
+  "signature": "c52d8a271d113a01e3a0906866c66850875a0b04655abba69f4bf4432ddae918",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-11192"
 }

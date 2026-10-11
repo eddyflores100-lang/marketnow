@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6035089",
+  "certificate_id": "MN-SC-2026-1567531",
   "skill_id": "mn-gen-12758",
   "skill_name": "torrentclaw-mcp",
-  "issued_at": "2026-10-04T06:40:35.089Z",
-  "expires_at": "2026-10-11T06:40:35.089Z",
+  "issued_at": "2026-10-11T06:52:47.531Z",
+  "expires_at": "2026-10-18T06:52:47.531Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8ee20a714b92aff9b430af4270dd92326d7963bb766c4332aefbaf8656329868",
+  "signature": "bbd70421a4094155a19ad47c8bff778bac77e6792b2a4cac3544f402a189cc71",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12758"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6168982",
+  "certificate_id": "MN-SC-2026-1740792",
   "skill_id": "mn-real-server",
   "skill_name": "server",
-  "issued_at": "2026-10-04T06:42:48.982Z",
-  "expires_at": "2026-10-11T06:42:48.982Z",
+  "issued_at": "2026-10-11T06:55:40.792Z",
+  "expires_at": "2026-10-18T06:55:40.792Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2767f120a91ad1bb03c98fbec4352cf682c84f0dfe7713506f8fb934c7499c6a",
+  "signature": "adc5b0dc43b0460d18f20e1aee3b62eeb9da807049b301ff4042b5624b5ca5fe",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-server"
 }

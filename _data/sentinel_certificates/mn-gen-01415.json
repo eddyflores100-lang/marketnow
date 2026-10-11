@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5945996",
+  "certificate_id": "MN-SC-2026-1454180",
   "skill_id": "mn-gen-01415",
   "skill_name": "bitcoin-mcp",
-  "issued_at": "2026-10-04T06:39:05.996Z",
-  "expires_at": "2026-10-11T06:39:05.996Z",
+  "issued_at": "2026-10-11T06:50:54.180Z",
+  "expires_at": "2026-10-18T06:50:54.180Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a75cc762b151c4e75664163e4e588149eac2f96f0012742acbde5e2d85d43c51",
+  "signature": "e502db71b1b4cd65c85d5ecade6e5e6ebee9d62823736919b13be1bb2d5d854b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01415"
 }

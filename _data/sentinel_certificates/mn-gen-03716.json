@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5964712",
+  "certificate_id": "MN-SC-2026-1478482",
   "skill_id": "mn-gen-03716",
   "skill_name": "erickwendel-contributions-mcp",
-  "issued_at": "2026-10-04T06:39:24.712Z",
-  "expires_at": "2026-10-11T06:39:24.712Z",
+  "issued_at": "2026-10-11T06:51:18.482Z",
+  "expires_at": "2026-10-18T06:51:18.482Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "73c46f1e134f1ecbdb687917e291f219b0afca28f3370f3c3cb9b3fcb3fd7138",
+  "signature": "a7b9828838781a865a3a05d01877b8a455ac00f4e799190d92aea6d859698347",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03716"
 }

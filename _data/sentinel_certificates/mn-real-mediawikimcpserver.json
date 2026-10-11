@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6287932",
+  "certificate_id": "MN-SC-2026-1896388",
   "skill_id": "mn-real-mediawikimcpserver",
   "skill_name": "mediawiki-mcp-server",
-  "issued_at": "2026-10-04T06:44:47.932Z",
-  "expires_at": "2026-10-11T06:44:47.932Z",
+  "issued_at": "2026-10-11T06:58:16.388Z",
+  "expires_at": "2026-10-18T06:58:16.388Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c5073c8c8ed11e8c331ef06b7a8bcd3224da6a4cfb0204f47f7a6553f7a1a632",
+  "signature": "65e44dee891ffb5758034267fd3751437bccda2915a990275608191e5229bfc0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mediawikimcpserver"
 }

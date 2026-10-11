@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6203217",
+  "certificate_id": "MN-SC-2026-1786030",
   "skill_id": "mn-real-scriptflowmcp",
   "skill_name": "scriptflow-mcp",
-  "issued_at": "2026-10-04T06:43:23.217Z",
-  "expires_at": "2026-10-11T06:43:23.217Z",
+  "issued_at": "2026-10-11T06:56:26.030Z",
+  "expires_at": "2026-10-18T06:56:26.030Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a67953b644bdbac7fad0d8b20b909d66692887566f554583dba91089555de07e",
+  "signature": "e99a772fac14ca77389bc487e16ba38717b6d74bfc4905458df9e3e863a53faf",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-scriptflowmcp"
 }

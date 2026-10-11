@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6010397",
+  "certificate_id": "MN-SC-2026-1536760",
   "skill_id": "mn-gen-09244",
   "skill_name": "magic",
-  "issued_at": "2026-10-04T06:40:10.397Z",
-  "expires_at": "2026-10-11T06:40:10.397Z",
+  "issued_at": "2026-10-11T06:52:16.760Z",
+  "expires_at": "2026-10-18T06:52:16.760Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0bb845a8f6e0a193c7804a60136ef42dbec859755c8275eb2444ed9c6c5dce15",
+  "signature": "84b9755df0b798aef642d8499a8f483d138218e95a9b9c127d8a725997433715",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09244"
 }

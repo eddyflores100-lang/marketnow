@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5962053",
+  "certificate_id": "MN-SC-2026-1474604",
   "skill_id": "mn-gen-03331",
   "skill_name": "dicom-mcp",
-  "issued_at": "2026-10-04T06:39:22.053Z",
-  "expires_at": "2026-10-11T06:39:22.053Z",
+  "issued_at": "2026-10-11T06:51:14.604Z",
+  "expires_at": "2026-10-18T06:51:14.604Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b282889f83698316d403ff2ac57e147e7b20897da5d0c7cb83c45aba594aa504",
+  "signature": "ff4fc5e8b1356852b28187651f8b7ed73395130993938bf5b35b5a0f29d57937",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03331"
 }

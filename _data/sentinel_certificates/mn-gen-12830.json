@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6035817",
+  "certificate_id": "MN-SC-2026-1568477",
   "skill_id": "mn-gen-12830",
   "skill_name": "trinvmcp",
-  "issued_at": "2026-10-04T06:40:35.817Z",
-  "expires_at": "2026-10-11T06:40:35.817Z",
+  "issued_at": "2026-10-11T06:52:48.477Z",
+  "expires_at": "2026-10-18T06:52:48.477Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4ee1670bcfb665aede1f5bd01853f81c22fdfac11404ca53705adee13c08c11b",
+  "signature": "275309aaf01ddc748a2b6fcf7a828af7ca7910ecd22ccf8c01f424661a373da5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12830"
 }

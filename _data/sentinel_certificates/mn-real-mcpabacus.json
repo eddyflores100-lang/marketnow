@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6205849",
+  "certificate_id": "MN-SC-2026-1789566",
   "skill_id": "mn-real-mcpabacus",
   "skill_name": "mcp-abacus",
-  "issued_at": "2026-10-04T06:43:25.849Z",
-  "expires_at": "2026-10-11T06:43:25.849Z",
+  "issued_at": "2026-10-11T06:56:29.566Z",
+  "expires_at": "2026-10-18T06:56:29.566Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "68b1028ff8b77b2f2b8e3f7d62e3774e1d7d1d8ca382ac8450b56dc58bd91fca",
+  "signature": "33b9113d81a18b6a2ef9f2adfef1f86c8d7606b69bfb1f99b027a8435daa5446",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpabacus"
 }

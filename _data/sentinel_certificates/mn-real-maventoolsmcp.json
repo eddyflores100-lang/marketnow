@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6171416",
+  "certificate_id": "MN-SC-2026-1744225",
   "skill_id": "mn-real-maventoolsmcp",
   "skill_name": "maven-tools-mcp",
-  "issued_at": "2026-10-04T06:42:51.416Z",
-  "expires_at": "2026-10-11T06:42:51.416Z",
+  "issued_at": "2026-10-11T06:55:44.225Z",
+  "expires_at": "2026-10-18T06:55:44.225Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "39b2448cb622f8e5eff8cc97a15d0cdb27bfb88de67180486ba13ed7dfe17efc",
+  "signature": "6658e881c8469049ca32bd66029f9e778d477c78373eb6c064dd34570c8e8398",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-maventoolsmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6002990",
+  "certificate_id": "MN-SC-2026-1526367",
   "skill_id": "mn-gen-07905",
   "skill_name": "mcp-shield",
-  "issued_at": "2026-10-04T06:40:02.990Z",
-  "expires_at": "2026-10-11T06:40:02.990Z",
+  "issued_at": "2026-10-11T06:52:06.367Z",
+  "expires_at": "2026-10-18T06:52:06.367Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6df68c5c70b99bd66b7def52277f6888f66430a0778664b9618d9e3bef7e63e1",
+  "signature": "987cb170091ae54b675d2be34d0a0a5b38c3a8a6d8faaffa290673ef04e44fa6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07905"
 }

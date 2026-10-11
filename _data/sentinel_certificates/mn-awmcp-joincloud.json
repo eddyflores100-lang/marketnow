@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6137084",
+  "certificate_id": "MN-SC-2026-1698211",
   "skill_id": "mn-awmcp-joincloud",
   "skill_name": "join.cloud",
-  "issued_at": "2026-10-04T06:42:17.084Z",
-  "expires_at": "2026-10-11T06:42:17.084Z",
+  "issued_at": "2026-10-11T06:54:58.211Z",
+  "expires_at": "2026-10-18T06:54:58.211Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c7a68c20f238e039da33703bcac4751eb03d72cb753e17484c5cc38f44fc662b",
+  "signature": "72834a63b3b81b26a8e4cee20169b08a87f5331f59ab60bc22efad08b9466564",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-joincloud"
 }

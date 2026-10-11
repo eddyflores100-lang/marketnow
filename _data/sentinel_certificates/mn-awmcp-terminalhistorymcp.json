@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6127950",
+  "certificate_id": "MN-SC-2026-1685997",
   "skill_id": "mn-awmcp-terminalhistorymcp",
   "skill_name": "terminal-history-mcp",
-  "issued_at": "2026-10-04T06:42:07.950Z",
-  "expires_at": "2026-10-11T06:42:07.950Z",
+  "issued_at": "2026-10-11T06:54:45.997Z",
+  "expires_at": "2026-10-18T06:54:45.997Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5341f495c59cad837dcddec2540662e678adf0b8e4f50c9b82d99f8b8334b446",
+  "signature": "135d359f7d776aae50bdfd574a424a895942ea93745045535557ee8255464208",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-terminalhistorymcp"
 }

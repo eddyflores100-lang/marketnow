@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6012938",
+  "certificate_id": "MN-SC-2026-1539603",
   "skill_id": "mn-gen-09649",
   "skill_name": "novai-mcp-server",
-  "issued_at": "2026-10-04T06:40:12.938Z",
-  "expires_at": "2026-10-11T06:40:12.938Z",
+  "issued_at": "2026-10-11T06:52:19.603Z",
+  "expires_at": "2026-10-18T06:52:19.603Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "50f22e6e7a30b7397b8fdeae5fa825d401a4b0ebb8480beea96046b683576a8b",
+  "signature": "cc82210433d5779b10ee37cb0888a99c78936198e524c318bcb82c68626d2b50",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09649"
 }

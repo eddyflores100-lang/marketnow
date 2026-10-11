@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5971576",
+  "certificate_id": "MN-SC-2026-1487309",
   "skill_id": "mn-gen-04400",
   "skill_name": "mcp-transcribe",
-  "issued_at": "2026-10-04T06:39:31.576Z",
-  "expires_at": "2026-10-11T06:39:31.576Z",
+  "issued_at": "2026-10-11T06:51:27.309Z",
+  "expires_at": "2026-10-18T06:51:27.309Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d6a6e0077ae663921ce4c2a5967ae27a912c7177cc037daeae7a831613fa37a4",
+  "signature": "fdbb74e634f2bc61a66620950726ec9206292523c8b171f35c8a28271533a259",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04400"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6292090",
+  "certificate_id": "MN-SC-2026-1901945",
   "skill_id": "mn-real-skillseekers",
   "skill_name": "Skill_Seekers",
-  "issued_at": "2026-10-04T06:44:52.090Z",
-  "expires_at": "2026-10-11T06:44:52.090Z",
+  "issued_at": "2026-10-11T06:58:21.945Z",
+  "expires_at": "2026-10-18T06:58:21.945Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2b7e81646ad3629119ea8272146cfad90b33f62af03d93295a9128cf601726de",
+  "signature": "602a29e53f13ad6e78bc43399ab97d4ec5b8d8300df7d4841de4e94f60dbedd8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-skillseekers"
 }

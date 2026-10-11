@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6288934",
+  "certificate_id": "MN-SC-2026-1897712",
   "skill_id": "mn-real-inmemoria",
   "skill_name": "In-Memoria",
-  "issued_at": "2026-10-04T06:44:48.934Z",
-  "expires_at": "2026-10-11T06:44:48.934Z",
+  "issued_at": "2026-10-11T06:58:17.712Z",
+  "expires_at": "2026-10-18T06:58:17.712Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "693ad5d18f99ffce5391c7ec6db26e26c574397f8e47c9b926f7635a0d9960a5",
+  "signature": "04e93d44fa74e58fd35a46ae65504e823d314c60ebc1c964a8fd4c11ad7f346d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-inmemoria"
 }

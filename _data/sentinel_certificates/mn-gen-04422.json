@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5972097",
+  "certificate_id": "MN-SC-2026-1487825",
   "skill_id": "mn-gen-04422",
   "skill_name": "gif-creator-mcp",
-  "issued_at": "2026-10-04T06:39:32.097Z",
-  "expires_at": "2026-10-11T06:39:32.097Z",
+  "issued_at": "2026-10-11T06:51:27.825Z",
+  "expires_at": "2026-10-18T06:51:27.825Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f3d92380c8f09a0c558ddc91725c2f72a97b0068409317dd8a04d485f09a2db4",
+  "signature": "05fc631779ee7a1e4579ee7cfeb0bd83267ea6c98d0216537a20dc6dfa525abe",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04422"
 }

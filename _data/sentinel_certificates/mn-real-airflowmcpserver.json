@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6161708",
+  "certificate_id": "MN-SC-2026-1731077",
   "skill_id": "mn-real-airflowmcpserver",
   "skill_name": "airflow-mcp-server",
-  "issued_at": "2026-10-04T06:42:41.708Z",
-  "expires_at": "2026-10-11T06:42:41.708Z",
+  "issued_at": "2026-10-11T06:55:31.077Z",
+  "expires_at": "2026-10-18T06:55:31.077Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fafef41c6129f04e3ad192ff2f8d30b4f6884bd1bf9cd86e298c11482c6d5e33",
+  "signature": "18977da3e26bf1634e61064f73ad99067bba7a39ee95e32fb4a5a165a243d695",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-airflowmcpserver"
 }

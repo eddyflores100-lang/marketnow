@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5942153",
+  "certificate_id": "MN-SC-2026-1449447",
   "skill_id": "mn-gen-00877",
   "skill_name": "calendar-mcp",
-  "issued_at": "2026-10-04T06:39:02.153Z",
-  "expires_at": "2026-10-11T06:39:02.153Z",
+  "issued_at": "2026-10-11T06:50:49.447Z",
+  "expires_at": "2026-10-18T06:50:49.447Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "42e469d90c29ada31b448d61396bf7bf7fd836d30595f1542b8882821b168d9f",
+  "signature": "c3efcda123c74d4ea037eced6c3939361f0fb5a587073648c7c4f2eaa657ca8b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00877"
 }

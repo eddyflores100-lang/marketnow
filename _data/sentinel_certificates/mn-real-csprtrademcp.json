@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6245287",
+  "certificate_id": "MN-SC-2026-1840491",
   "skill_id": "mn-real-csprtrademcp",
   "skill_name": "cspr-trade-mcp",
-  "issued_at": "2026-10-04T06:44:05.287Z",
-  "expires_at": "2026-10-11T06:44:05.287Z",
+  "issued_at": "2026-10-11T06:57:20.491Z",
+  "expires_at": "2026-10-18T06:57:20.491Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -11,20 +11,21 @@
   "risk_breakdown": {
     "l15_l16_l17": "medium",
     "l17_quarantine_recommended": false,
-    "l2": "not_available",
+    "l2": "low",
     "final": "medium"
   },
   "layers_run": {
     "l15": true,
     "l16": true,
-    "l2": false
+    "l2": true
   },
   "layer_details": {
     "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
     "l16_osv_findings": 0,
-    "l2_execution_status": null
+    "l2_score": 10,
+    "l2_execution_status": "ran"
   },
   "artifact": {
     "bound": false,
@@ -32,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "55a7c88e3bf852a96016ec26caf2c1071f86c1807a281bb227bdfd3214cf2e6f",
+  "signature": "b31668b89d32283664d8f3874b37fdca3f88b8736ddf49da817d494e07efd40d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-csprtrademcp"
 }

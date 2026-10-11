@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6258846",
+  "certificate_id": "MN-SC-2026-1857804",
   "skill_id": "mn-real-portalmcpserver",
   "skill_name": "portal-mcp-server",
-  "issued_at": "2026-10-04T06:44:18.846Z",
-  "expires_at": "2026-10-11T06:44:18.846Z",
+  "issued_at": "2026-10-11T06:57:37.804Z",
+  "expires_at": "2026-10-18T06:57:37.804Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "371b7638ed22a1ccc4aaf92d2d21dc065bd3f362d316c4142d5c010ccf1e8796",
+  "signature": "a1447078476aeca509b675f56a4d8f1c725ce6fcd792667b3db6166ffad6ddfb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-portalmcpserver"
 }

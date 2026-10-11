@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6276664",
+  "certificate_id": "MN-SC-2026-1880296",
   "skill_id": "mn-real-mcpserverchatsum",
   "skill_name": "mcp-server-chatsum",
-  "issued_at": "2026-10-04T06:44:36.664Z",
-  "expires_at": "2026-10-11T06:44:36.664Z",
+  "issued_at": "2026-10-11T06:58:00.296Z",
+  "expires_at": "2026-10-18T06:58:00.296Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2ba330f9ae9f35d82071093ad271a1894d12505420f39da59390c2870400e0d8",
+  "signature": "4b332b9543d0db2b3cd209702a25609aba0bd59a5aa36fef17ca27010ced2c45",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpserverchatsum"
 }

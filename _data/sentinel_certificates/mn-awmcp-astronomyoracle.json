@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6066859",
+  "certificate_id": "MN-SC-2026-1606325",
   "skill_id": "mn-awmcp-astronomyoracle",
   "skill_name": "astronomy-oracle",
-  "issued_at": "2026-10-04T06:41:06.859Z",
-  "expires_at": "2026-10-11T06:41:06.859Z",
+  "issued_at": "2026-10-11T06:53:26.325Z",
+  "expires_at": "2026-10-18T06:53:26.325Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d853aa6b88588ee2069d9baa73b7c9011f6d730f6da6d194fadc4321b8e21ebb",
+  "signature": "41692c0cababee778aab7a9d54c1460f84f6cd64d30b1b2ea8147b904de212b5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-astronomyoracle"
 }

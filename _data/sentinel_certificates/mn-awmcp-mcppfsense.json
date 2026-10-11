@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6097721",
+  "certificate_id": "MN-SC-2026-1644696",
   "skill_id": "mn-awmcp-mcppfsense",
   "skill_name": "mcp-pfsense",
-  "issued_at": "2026-10-04T06:41:37.721Z",
-  "expires_at": "2026-10-11T06:41:37.721Z",
+  "issued_at": "2026-10-11T06:54:04.696Z",
+  "expires_at": "2026-10-18T06:54:04.696Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a744b186e696e79c02dda7ca6d6739ba6f6330e7d6f3b9cee8eeae054f3012de",
+  "signature": "bb0a89ea67e9754bf8ba03e58344b3615cacb9863d7850ea3f559544b2352c7c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcppfsense"
 }

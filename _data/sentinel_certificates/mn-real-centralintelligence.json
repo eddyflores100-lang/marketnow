@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6274095",
+  "certificate_id": "MN-SC-2026-1876966",
   "skill_id": "mn-real-centralintelligence",
   "skill_name": "central-intelligence",
-  "issued_at": "2026-10-04T06:44:34.095Z",
-  "expires_at": "2026-10-11T06:44:34.095Z",
+  "issued_at": "2026-10-11T06:57:56.966Z",
+  "expires_at": "2026-10-18T06:57:56.966Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "122d05e0fc30de1785557b1872906640c7d1d89c948eb2a1a9e51d1e31d5ef54",
+  "signature": "aad6c4103081a36a680c2908d8f05500c53538476240c5c53f66931493e57b12",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-centralintelligence"
 }

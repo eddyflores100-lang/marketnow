@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6275168",
+  "certificate_id": "MN-SC-2026-1878374",
   "skill_id": "mn-real-beeveratlas",
   "skill_name": "beever-atlas",
-  "issued_at": "2026-10-04T06:44:35.168Z",
-  "expires_at": "2026-10-11T06:44:35.168Z",
+  "issued_at": "2026-10-11T06:57:58.374Z",
+  "expires_at": "2026-10-18T06:57:58.374Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "182294eaa077607ebbfcc60dcc208fb2991560a93acb04c1e8977816e5deb0b7",
+  "signature": "9edbe431ba40873d409b4d0c6f5569631ab873f7c94595a896e4be022f0c5222",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-beeveratlas"
 }

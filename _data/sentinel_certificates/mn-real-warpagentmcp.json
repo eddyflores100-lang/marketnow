@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6207779",
+  "certificate_id": "MN-SC-2026-1792085",
   "skill_id": "mn-real-warpagentmcp",
   "skill_name": "warp-agent-mcp",
-  "issued_at": "2026-10-04T06:43:27.779Z",
-  "expires_at": "2026-10-11T06:43:27.779Z",
+  "issued_at": "2026-10-11T06:56:32.085Z",
+  "expires_at": "2026-10-18T06:56:32.085Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "64446d447e72af0cf2f30d9eba69e10d976f136fe28a6d6317517143ed38cb3d",
+  "signature": "b8e04d0128b8fdc302ce008cbc83ba566563e091f2092afc273bb380a5740ec9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-warpagentmcp"
 }

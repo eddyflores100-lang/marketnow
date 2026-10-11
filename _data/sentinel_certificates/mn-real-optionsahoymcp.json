@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6225200",
+  "certificate_id": "MN-SC-2026-1815842",
   "skill_id": "mn-real-optionsahoymcp",
   "skill_name": "optionsahoy-mcp",
-  "issued_at": "2026-10-04T06:43:45.200Z",
-  "expires_at": "2026-10-11T06:43:45.200Z",
+  "issued_at": "2026-10-11T06:56:55.842Z",
+  "expires_at": "2026-10-18T06:56:55.842Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6019851a9d65854a7cab2c3d8c17c124d42d1f92c11c0f28da110a2f673429e4",
+  "signature": "6ff113bbcbbec6511d5213376460999a305d46ddd7fd8f018000a5fd7ea31514",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-optionsahoymcp"
 }

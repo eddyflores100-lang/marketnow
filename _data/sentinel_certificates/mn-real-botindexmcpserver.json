@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6229148",
+  "certificate_id": "MN-SC-2026-1820176",
   "skill_id": "mn-real-botindexmcpserver",
   "skill_name": "botindex-mcp-server",
-  "issued_at": "2026-10-04T06:43:49.148Z",
-  "expires_at": "2026-10-11T06:43:49.148Z",
+  "issued_at": "2026-10-11T06:57:00.176Z",
+  "expires_at": "2026-10-18T06:57:00.176Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e21cf20afe8113c9e28ac43fd858f4dc8586eb9e3bd0c708c9c499022d60889a",
+  "signature": "a6354bc1c8a41b0cc1dd9c0cba9dada08473174194c00945c049799c9b4d7a32",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-botindexmcpserver"
 }

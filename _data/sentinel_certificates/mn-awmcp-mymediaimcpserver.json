@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6081076",
+  "certificate_id": "MN-SC-2026-1624396",
   "skill_id": "mn-awmcp-mymediaimcpserver",
   "skill_name": "mymedi-ai-mcp-server",
-  "issued_at": "2026-10-04T06:41:21.076Z",
-  "expires_at": "2026-10-11T06:41:21.076Z",
+  "issued_at": "2026-10-11T06:53:44.396Z",
+  "expires_at": "2026-10-18T06:53:44.396Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5007f3a2a293b52ec16459c411a7fa2ffd7d9e04b5de7c0be3340c0ed926bc7e",
+  "signature": "08cbe150caa88401200d1962f3f1c64a83dd2b5a7b26333c99c1668bd949abe6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mymediaimcpserver"
 }

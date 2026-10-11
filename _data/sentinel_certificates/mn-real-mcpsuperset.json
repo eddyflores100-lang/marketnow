@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6159167",
+  "certificate_id": "MN-SC-2026-1728057",
   "skill_id": "mn-real-mcpsuperset",
   "skill_name": "mcp-superset",
-  "issued_at": "2026-10-04T06:42:39.167Z",
-  "expires_at": "2026-10-11T06:42:39.167Z",
+  "issued_at": "2026-10-11T06:55:28.057Z",
+  "expires_at": "2026-10-18T06:55:28.057Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f02a740843517d6cad49c30505eb46feebb270696a072e54461b190bd8cfe758",
+  "signature": "f225cc50759dafc182ac1fbc09f3b1084e2c1a34714848586a0ea315eaf43a09",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpsuperset"
 }

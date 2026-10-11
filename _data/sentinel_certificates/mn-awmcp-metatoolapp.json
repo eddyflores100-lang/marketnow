@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6059674",
+  "certificate_id": "MN-SC-2026-1597714",
   "skill_id": "mn-awmcp-metatoolapp",
   "skill_name": "metatool-app",
-  "issued_at": "2026-10-04T06:40:59.674Z",
-  "expires_at": "2026-10-11T06:40:59.674Z",
+  "issued_at": "2026-10-11T06:53:17.714Z",
+  "expires_at": "2026-10-18T06:53:17.714Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "47f50bf8db134f35180a3567241385fc04aa621fedee57f4eb32a8d33c02d32f",
+  "signature": "9ae60f41558c116ecdb59986071eeb57f5c450e42c61a797ba341d75f4458c7f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-metatoolapp"
 }

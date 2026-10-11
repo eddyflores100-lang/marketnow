@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6009772",
+  "certificate_id": "MN-SC-2026-1535943",
   "skill_id": "mn-dat-09202",
   "skill_name": "mongodb-atlas-mcp-server",
-  "issued_at": "2026-10-04T06:40:09.772Z",
-  "expires_at": "2026-10-11T06:40:09.772Z",
+  "issued_at": "2026-10-11T06:52:15.943Z",
+  "expires_at": "2026-10-18T06:52:15.943Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1b2625484a2915d4c216ad8f2ec91aaa7db0b27c8faa94dc85645fec166eb7ce",
+  "signature": "08f0681e04836c93bbbdef00682f0a3b032da668724ce45b906d14dfb6fa9c17",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-dat-09202"
 }

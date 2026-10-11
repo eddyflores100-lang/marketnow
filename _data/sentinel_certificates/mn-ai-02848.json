@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5957755",
+  "certificate_id": "MN-SC-2026-1469279",
   "skill_id": "mn-ai-02848",
   "skill_name": "platform",
-  "issued_at": "2026-10-04T06:39:17.755Z",
-  "expires_at": "2026-10-11T06:39:17.755Z",
+  "issued_at": "2026-10-11T06:51:09.279Z",
+  "expires_at": "2026-10-18T06:51:09.279Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "bea4d95895006d746a6fd5d0c14a8fbe5bf0fa52e6ef120045d3b5cfefb81d8a",
+  "signature": "0923b73694dcb28ad6a31f4f4525699beee3ac1c0bc3a5a91b3c5b679d49a6d4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-ai-02848"
 }

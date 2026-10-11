@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6285419",
+  "certificate_id": "MN-SC-2026-1892861",
   "skill_id": "mn-real-knowledgerag",
   "skill_name": "knowledge-rag",
-  "issued_at": "2026-10-04T06:44:45.419Z",
-  "expires_at": "2026-10-11T06:44:45.419Z",
+  "issued_at": "2026-10-11T06:58:12.861Z",
+  "expires_at": "2026-10-18T06:58:12.861Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "57242f401f6e4098e2fc2ad5d0ffe4e1f3ea4b97f233d6d2195be88bef81a814",
+  "signature": "7237348b103d9d5cfeaf8c5aa18162b16d698b29ae66336af60b2eb196856712",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-knowledgerag"
 }

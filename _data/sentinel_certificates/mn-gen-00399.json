@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5937936",
+  "certificate_id": "MN-SC-2026-1444568",
   "skill_id": "mn-gen-00399",
   "skill_name": "agent-kit",
-  "issued_at": "2026-10-04T06:38:57.936Z",
-  "expires_at": "2026-10-11T06:38:57.936Z",
+  "issued_at": "2026-10-11T06:50:44.568Z",
+  "expires_at": "2026-10-18T06:50:44.568Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b50fee6047069067a593f328601e279825af1497b5faa8eb32c49d4498494888",
+  "signature": "31f09ee43ff3d77ab48ea346e5dd816c4a60b6d607148f818b78f7b82a708c31",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00399"
 }

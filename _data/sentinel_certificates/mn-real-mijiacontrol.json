@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6271228",
+  "certificate_id": "MN-SC-2026-1873373",
   "skill_id": "mn-real-mijiacontrol",
   "skill_name": "mijia-control",
-  "issued_at": "2026-10-04T06:44:31.228Z",
-  "expires_at": "2026-10-11T06:44:31.228Z",
+  "issued_at": "2026-10-11T06:57:53.373Z",
+  "expires_at": "2026-10-18T06:57:53.373Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cce261c0fc4fb41025c6b549703f59e90a93da90c38446da86e0a968c3515739",
+  "signature": "4c632763c3702465c62d378998599aac0396a4040fa4965bd8522a7d43aeeafb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mijiacontrol"
 }

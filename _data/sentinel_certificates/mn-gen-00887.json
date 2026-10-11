@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5942504",
+  "certificate_id": "MN-SC-2026-1449871",
   "skill_id": "mn-gen-00887",
   "skill_name": "mcp-apple-notes",
-  "issued_at": "2026-10-04T06:39:02.504Z",
-  "expires_at": "2026-10-11T06:39:02.504Z",
+  "issued_at": "2026-10-11T06:50:49.872Z",
+  "expires_at": "2026-10-18T06:50:49.872Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "30fd120329b1064396e58825c5d161f9f2bc2478ad395975bb06ea8235a23ed9",
+  "signature": "3e5c1e0d255dc77529f971bb03fb1622abfd8d6d31a7d752db9770a035aebe90",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00887"
 }

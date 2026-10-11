@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5967466",
+  "certificate_id": "MN-SC-2026-1482223",
   "skill_id": "mn-fin-04035",
   "skill_name": "FinanceMCP",
-  "issued_at": "2026-10-04T06:39:27.466Z",
-  "expires_at": "2026-10-11T06:39:27.466Z",
+  "issued_at": "2026-10-11T06:51:22.223Z",
+  "expires_at": "2026-10-18T06:51:22.223Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "76263521aa8e96ea5f4087780e531dc5ae73e7d107c6cc084a1a60156689e1d9",
+  "signature": "0bb2f2dc386c77deda0840943df02376ac9dba3587cbba6bcae9894ec4cadffa",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-fin-04035"
 }

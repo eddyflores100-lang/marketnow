@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6005102",
+  "certificate_id": "MN-SC-2026-1529230",
   "skill_id": "mn-gen-08251",
   "skill_name": "whatsapp-mcp",
-  "issued_at": "2026-10-04T06:40:05.102Z",
-  "expires_at": "2026-10-11T06:40:05.102Z",
+  "issued_at": "2026-10-11T06:52:09.230Z",
+  "expires_at": "2026-10-18T06:52:09.230Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5617f7556f727c5959a4bc074b77cca3567d01980fd03fb4cfbc88a3c99b9a2c",
+  "signature": "b87ace6f6fe3e2d07aad8042b3d3ee3b0a64c839994a78e9d115d4730dfd509f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-08251"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6230754",
+  "certificate_id": "MN-SC-2026-1822210",
   "skill_id": "mn-real-coinrithmagenttradin",
   "skill_name": "coinrithm-agent-trading",
-  "issued_at": "2026-10-04T06:43:50.754Z",
-  "expires_at": "2026-10-11T06:43:50.754Z",
+  "issued_at": "2026-10-11T06:57:02.210Z",
+  "expires_at": "2026-10-18T06:57:02.210Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2440f70f333767b68c18f4c316f02604b96b768d26a75d410b3ab3dd3dc22210",
+  "signature": "a58810fedde70896997e09de535b3b6298d26a0ba6bdc71ebe382717eabd88a6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-coinrithmagenttradin"
 }

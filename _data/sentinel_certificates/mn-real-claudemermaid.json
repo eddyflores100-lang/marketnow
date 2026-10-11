@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6200398",
+  "certificate_id": "MN-SC-2026-1782331",
   "skill_id": "mn-real-claudemermaid",
   "skill_name": "claude-mermaid",
-  "issued_at": "2026-10-04T06:43:20.398Z",
-  "expires_at": "2026-10-11T06:43:20.398Z",
+  "issued_at": "2026-10-11T06:56:22.331Z",
+  "expires_at": "2026-10-18T06:56:22.331Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fe5da609619a75511dfd4dfe5750eeb495a3e24a0700c9f731ca895762632a0d",
+  "signature": "46ec0c261d8be6140659d8580fa861a5ab821dc9d2871de515a427c65dc3015f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-claudemermaid"
 }

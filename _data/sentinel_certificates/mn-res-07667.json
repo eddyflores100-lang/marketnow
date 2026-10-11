@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-5999170",
+  "certificate_id": "MN-SC-2026-1520734",
   "skill_id": "mn-res-07667",
   "skill_name": "google-analytics-mcp",
-  "issued_at": "2026-10-04T06:39:59.170Z",
-  "expires_at": "2026-10-11T06:39:59.170Z",
+  "issued_at": "2026-10-11T06:52:00.734Z",
+  "expires_at": "2026-10-18T06:52:00.734Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "60fee4d560688c39457b84ffddf69939a5376396157ddb949897e988cf12cc70",
+  "signature": "4eb04b377e373268df391514718b806a5f1aeb4ce1618897a0f8fc553e8d0642",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-res-07667"
 }

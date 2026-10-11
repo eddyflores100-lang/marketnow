@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6220456",
+  "certificate_id": "MN-SC-2026-1809966",
   "skill_id": "mn-real-markitdown",
   "skill_name": "markitdown",
-  "issued_at": "2026-10-04T06:43:40.456Z",
-  "expires_at": "2026-10-11T06:43:40.456Z",
+  "issued_at": "2026-10-11T06:56:49.966Z",
+  "expires_at": "2026-10-18T06:56:49.966Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b017cc98d099c43ae7011b5a90b5cb16e3f1caf6b2049914a2bfa79e57721dda",
+  "signature": "f3f45f0a97ee8986c56e29ef525bb7770e081530b00da112239470a71bdf69bf",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-markitdown"
 }

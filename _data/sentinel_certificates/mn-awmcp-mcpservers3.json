@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6105109",
+  "certificate_id": "MN-SC-2026-1653741",
   "skill_id": "mn-awmcp-mcpservers3",
   "skill_name": "mcp-server-s3",
-  "issued_at": "2026-10-04T06:41:45.109Z",
-  "expires_at": "2026-10-11T06:41:45.109Z",
+  "issued_at": "2026-10-11T06:54:13.741Z",
+  "expires_at": "2026-10-18T06:54:13.741Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "56e0f4a170aa4984dd2458f83254b9e7556ed128148d0b1ad79241e070747f95",
+  "signature": "453f0e7c4d24dfb1ba00c95d5d9fed681e86646f3efcb9bc7d3383d4b0f8b426",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpservers3"
 }

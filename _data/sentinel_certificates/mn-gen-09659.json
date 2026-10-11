@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6013098",
+  "certificate_id": "MN-SC-2026-1539764",
   "skill_id": "mn-gen-09659",
   "skill_name": "npm-package-docs-mcp",
-  "issued_at": "2026-10-04T06:40:13.098Z",
-  "expires_at": "2026-10-11T06:40:13.098Z",
+  "issued_at": "2026-10-11T06:52:19.764Z",
+  "expires_at": "2026-10-18T06:52:19.764Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d8cb7fe11d720d8e91afe96920829601f73ace6fd8fac5cbae386f094ede3623",
+  "signature": "e1d88df72c5b3b8319e05655ca28f8f0da3afc0b135133f27fa5b2e69bdb8cdf",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09659"
 }

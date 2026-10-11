@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-6227152",
+  "certificate_id": "MN-SC-2026-1818285",
   "skill_id": "mn-real-krcryptointelligence",
   "skill_name": "kr-crypto-intelligence",
-  "issued_at": "2026-10-04T06:43:47.152Z",
-  "expires_at": "2026-10-11T06:43:47.152Z",
+  "issued_at": "2026-10-11T06:56:58.285Z",
+  "expires_at": "2026-10-18T06:56:58.285Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4e75d7b3286c5345627a73636f5a5740ff5c3776404a94ee61ddb5767db2a55c",
+  "signature": "1e74bd2bf81a731db96b261dda335b7b7598b7c6b2ec53cf6b07219e27a18132",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-krcryptointelligence"
 }
