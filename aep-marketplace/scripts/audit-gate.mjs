@@ -22,7 +22,7 @@
 //  13 STALE-DRIFT   — generación vieja (23/23, 116/409, UTA v1.0.0) erradicada (P0-1)
 //  14 NEW-SURFACES  — /licensing, /security/incidents/2026-09-08, TEST ONLY (P1-7/8/9)
 //  15 SPA-SYNC      — chips/stats del SPA driven del registry, cero generación vieja (4ª ronda)
-//  16 TRACKED       — 134,859/70,510 consistentes en todos los well-known (4ª ronda)
+//  16 TRACKED       — 135,547/71,198 consistentes en todos los well-known (Task 156)
 //  17 FORMATS-9     — 9 adapters en stats/trust.js/mcp.js/agent.json (4ª ronda)
 //  (live) LIVE-PROD — MCP initialize serverInfo + /api/stats.json vs bundle
 //  (live) LIVE-SEC  — superficies de seguridad vivas + cert/benchmark vivo == repo
@@ -449,12 +449,12 @@ try {
   const aip = readFileSync(join(ROOT, 'public/.well-known/ai-plugin.json'), 'utf8');
   const aipN = Number((aip.match(/install ([\d,]{4,7}) index-certified/) || [])[1]?.replace(/,/g, ''));
   const checks = [
-    [sbT === 134859, `stats-base total_tracked=${sbT}`],
+    [sbT === 135547, `stats-base total_tracked=${sbT}`],
     [ajT === sbT && wkT === sbT, `agent.json (canonical=${ajT}, well-known=${wkT}) == stats-base`],
     [mcpT === sbT, `mcp.json "${mcpT} total tracked" == ${sbT}`],
-    [mkT === 70510, `mcp-marketplace.json stats.total_skills=${mkT} (== bundle)`],
+    [mkT === 71198, `mcp-marketplace.json stats.total_skills=${mkT} (== bundle)`],
     [scT === sbT, `server-card.json "${scT} total tracked" == ${sbT}`],
-    [aipN === 70510, `ai-plugin.json "${aipN} index-certified" == 70,510`],
+    [aipN === 71198, `ai-plugin.json "${aipN} index-certified" == 71,198`],
   ];
   for (const [ok, msg] of checks) log(ok ? '✓' : '✗', 'TRACKED', msg);
 } catch (e) { log('✗', 'TRACKED', e.message); }
@@ -536,12 +536,12 @@ try {
   // 18e. MCP-CANON: mcp.json bien-known canónico (descripción 132,737 + stats + tool_counts + schema)
   try {
     const mcp = j('public/.well-known/mcp.json');
-    const ok = mcp.description.includes('(134,859 total tracked)') &&
-      mcp.marketplace_stats?.total_skills === 70510 &&
+    const ok = mcp.description.includes('(135,547 total tracked)') &&
+      mcp.marketplace_stats?.total_skills === 71198 &&
       mcp.tool_counts?.remote_endpoint === 9 && mcp.tool_counts?.npm_package === 15 &&
       existsSync(join(ROOT, 'public/.well-known/mcp.schema.json')) &&
       JSON.stringify(mcp.tools).includes('9 adapter formats');
-    log(ok ? '✓' : '✗', 'MCP-CANON', ok ? 'mcp.json: desc 134,859 · 70,510 · tools 9 remotas (9 adapter formats) · tool_counts 9/15 · schema presente' : 'mcp.json canónico diverge (desc/stats/tool_counts/schema/9-formats)');
+    log(ok ? '✓' : '✗', 'MCP-CANON', ok ? 'mcp.json: desc 135,547 · 71,198 · tools 9 remotas (9 adapter formats) · tool_counts 9/15 · schema presente' : 'mcp.json canónico diverge (desc/stats/tool_counts/schema/9-formats)');
   } catch (e) { log('✗', 'MCP-CANON', e.message); }
 
   // 18f. COMMERCE-HONEST: endpoints de comercio declarados PLANNED en docs + respuesta tipada
