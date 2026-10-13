@@ -15,10 +15,10 @@
     "stats": {
       "total_skills": 68388,
       "certified": 68388,
-      "with_l2": 2840,
-      "l2_clean": 893,
-      "l2_flagged_warning": 814,
-      "l2_flagged_error": 1232,
+      "with_l2": 2839,
+      "l2_clean": 896,
+      "l2_flagged_warning": 813,
+      "l2_flagged_error": 1229,
       "l2_note": "L2 numbers track /api/stats.json (security block) — this file never hardcodes them again",
       "source_of_truth": "https://marketnow.site/api/stats.json"
     }
