@@ -726,11 +726,21 @@
       "repo": "yunaremaia/mcp-guard",
       "issue_num": 89,
       "username": "yunaremaia"
+    },
+    "6184576087": {
+      "repo": "Merit-Systems/x402scan",
+      "issue_num": 1290,
+      "username": "lowkeybuilds"
+    },
+    "6185032301": {
+      "repo": "Merit-Systems/x402scan",
+      "issue_num": 1290,
+      "username": "lowkeybuilds"
     }
   },
   "npm_last_downloads": 224,
   "github_last_stars": 0,
   "last_report": null,
   "initialized_at": "2026-07-10T01:27:15.724696+00:00",
-  "last_check": "2026-10-13T23:16:39.059323+00:00"
+  "last_check": "2026-10-15T07:22:36.654268+00:00"
 }
