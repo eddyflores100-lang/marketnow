@@ -741,11 +741,16 @@
       "repo": "Merit-Systems/x402scan",
       "issue_num": 1290,
       "username": "lowkeybuilds"
+    },
+    "6205702386": {
+      "repo": "haoruilee/awesome-agent-native-services",
+      "issue_num": 217,
+      "username": "haoruilee"
     }
   },
   "npm_last_downloads": 224,
   "github_last_stars": 0,
   "last_report": null,
   "initialized_at": "2026-07-10T01:27:15.724696+00:00",
-  "last_check": "2026-10-15T13:22:44.589335+00:00"
+  "last_check": "2026-10-16T05:48:41.351005+00:00"
 }
