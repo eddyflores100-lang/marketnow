@@ -751,11 +751,16 @@
       "repo": "chatmcp/mcpso",
       "issue_num": 4164,
       "username": "idoubi"
+    },
+    "6229677049": {
+      "repo": "cloudflare/workers-sdk",
+      "issue_num": 16330,
+      "username": "workers-devprod"
     }
   },
   "npm_last_downloads": 224,
   "github_last_stars": 0,
   "last_report": null,
   "initialized_at": "2026-07-10T01:27:15.724696+00:00",
-  "last_check": "2026-10-16T16:34:34.508357+00:00"
+  "last_check": "2026-10-17T06:52:58.610054+00:00"
 }
