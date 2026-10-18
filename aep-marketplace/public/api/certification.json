@@ -199,12 +199,12 @@
     "level_name": "sentinel-scanned",
     "detail_url": "/api/certification-scans.json",
     "scanned": 2832,
-    "clean": 897,
-    "flagged_warning": 812,
-    "flagged_error": 1224,
+    "clean": 895,
+    "flagged_warning": 810,
+    "flagged_error": 1228,
     "scan_errors": 50,
     "weekly_download_volume_covered": 21104289,
-    "generated_at": "2026-10-17T09:34:19.152Z"
+    "generated_at": "2026-10-18T09:47:02.403Z"
   },
   "benchmark": {
     "url": "/api/sentinel-benchmark.json",
