@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1478617",
+  "certificate_id": "MN-SC-2026-1373756",
   "skill_id": "mn-gen-03751",
   "skill_name": "metoro-mcp-server",
-  "issued_at": "2026-10-11T06:51:18.617Z",
-  "expires_at": "2026-10-18T06:51:18.617Z",
+  "issued_at": "2026-10-18T05:29:33.756Z",
+  "expires_at": "2026-10-25T05:29:33.756Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "61bbaaa5c11ab6947b63537715e0743f9c2f09b4348f91bb9026f75ba9e7b50c",
+  "signature": "20cfd2e2bf1524462f09fd1bf2a21f6b52402735ddaf8e8a128d00b9d6f74056",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03751"
 }

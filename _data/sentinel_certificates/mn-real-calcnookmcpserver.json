@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1823538",
+  "certificate_id": "MN-SC-2026-1657090",
   "skill_id": "mn-real-calcnookmcpserver",
   "skill_name": "calcnook-mcp-server",
-  "issued_at": "2026-10-11T06:57:03.538Z",
-  "expires_at": "2026-10-18T06:57:03.538Z",
+  "issued_at": "2026-10-18T05:34:17.090Z",
+  "expires_at": "2026-10-25T05:34:17.090Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ddd4b5e8692ada9337d4a183994dc3e0f670c40ac2bbec30009bd7f6f85beee1",
+  "signature": "0c351060d808064413e5f872c47320bcc2b7930598f685d72e809e6d4123c613",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-calcnookmcpserver"
 }

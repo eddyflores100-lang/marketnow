@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1774508",
+  "certificate_id": "MN-SC-2026-1614820",
   "skill_id": "mn-real-qrforagentapi",
   "skill_name": "qr-for-agent-api",
-  "issued_at": "2026-10-11T06:56:14.508Z",
-  "expires_at": "2026-10-18T06:56:14.508Z",
+  "issued_at": "2026-10-18T05:33:34.820Z",
+  "expires_at": "2026-10-25T05:33:34.820Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c378a8d9defb8d81a31333d3e38f3b0970ee9688022eaf822bad163cbc98ca1f",
+  "signature": "bb6951a06641dd70fd8085edd14524744a5a5029978ff3f130919dc67f17e5b5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-qrforagentapi"
 }

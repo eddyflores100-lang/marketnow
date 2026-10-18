@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1716270",
+  "certificate_id": "MN-SC-2026-1566494",
   "skill_id": "mn-real-coremcp",
   "skill_name": "coremcp",
-  "issued_at": "2026-10-11T06:55:16.270Z",
-  "expires_at": "2026-10-18T06:55:16.270Z",
+  "issued_at": "2026-10-18T05:32:46.494Z",
+  "expires_at": "2026-10-25T05:32:46.494Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a57868595d7863df835c7fdb9663bc092ed4511cefe1f715f8536376620e198a",
+  "signature": "34e044c58551b2077a8e6e8d4581294d47ac05f5aa67d5ea3c15b3edf5a3a7ec",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-coremcp"
 }

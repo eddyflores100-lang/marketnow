@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1839690",
+  "certificate_id": "MN-SC-2026-1672491",
   "skill_id": "mn-real-cryptowhitepapersmcp",
   "skill_name": "crypto-whitepapers-mcp",
-  "issued_at": "2026-10-11T06:57:19.690Z",
-  "expires_at": "2026-10-18T06:57:19.690Z",
+  "issued_at": "2026-10-18T05:34:32.491Z",
+  "expires_at": "2026-10-25T05:34:32.491Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "749da644660626324985b69dc64d4f9deb04d4d4da9c7573469a6441b8168ced",
+  "signature": "847d1ea793586ee41b628915f0400e9dd9bdd225af110a043c0ca8b800f3936d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cryptowhitepapersmcp"
 }

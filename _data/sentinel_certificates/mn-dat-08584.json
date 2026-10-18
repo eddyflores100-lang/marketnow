@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1530402",
+  "certificate_id": "MN-SC-2026-1415186",
   "skill_id": "mn-dat-08584",
   "skill_name": "mongodb-mcp-server",
-  "issued_at": "2026-10-11T06:52:10.402Z",
-  "expires_at": "2026-10-18T06:52:10.402Z",
+  "issued_at": "2026-10-18T05:30:15.186Z",
+  "expires_at": "2026-10-25T05:30:15.186Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -29,14 +29,14 @@
   "artifact": {
     "bound": true,
     "source": "npm",
-    "version": "3.0.4",
-    "shasum": "f247988c652e5d938407f4cd0126ee920a59c534",
-    "integrity": "sha512-BD6Gu1qiyexMJQ/3vSBR01cuItrNM89rrh3x07OF0+YJAm8lb/+jvfIy5qSyy8tH10CYZmSspXLvvjLzsjQ3rw==",
-    "tarball_bytes": 36662,
-    "resolved_at": "2026-09-28T11:51:41.190Z"
+    "version": "3.0.5",
+    "shasum": "6e15a2f33c65e2e293f69d6e62022ab41f7ccad7",
+    "integrity": "sha512-tB9HfyrVHr7if8JMB3/+uWr4Rz9oJ9XsMzRUX+uGPAqTfpqUVz4IeRZ6c9NkKiVLMFSGXsJtnBVEwW2NtUIEAQ==",
+    "tarball_bytes": 36666,
+    "resolved_at": "2026-10-13T12:52:24.357Z"
   },
   "cert_v": 2,
-  "signature": "e7c67cb487a7c4b0c5cbe9b6fb97ef5a842d7c6adb60f16a07f2e8ba33372bfd",
+  "signature": "0c85440478a2ba92fdf8dedea0e7234d58215117c3dea61744938c792a50ec1f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-dat-08584"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1588501",
+  "certificate_id": "MN-SC-2026-1462403",
   "skill_id": "mn-awmcp-agent47",
   "skill_name": "Agent47",
-  "issued_at": "2026-10-11T06:53:08.501Z",
-  "expires_at": "2026-10-18T06:53:08.501Z",
+  "issued_at": "2026-10-18T05:31:02.403Z",
+  "expires_at": "2026-10-25T05:31:02.403Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7699d03b6436cf7acb8bc9af70748e7f67ac705344df4f7373798a906e18364d",
+  "signature": "a906c41bb9407c90430d3f755a521954ff45c9eab2166e055d1c63da4457e807",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-agent47"
 }

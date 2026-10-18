@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1453305",
+  "certificate_id": "MN-SC-2026-1354019",
   "skill_id": "mn-gen-01317",
   "skill_name": "my-bear-mcp-server",
-  "issued_at": "2026-10-11T06:50:53.305Z",
-  "expires_at": "2026-10-18T06:50:53.305Z",
+  "issued_at": "2026-10-18T05:29:14.019Z",
+  "expires_at": "2026-10-25T05:29:14.019Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "43f2257e7d541a8ac0a1d8cd8d9cb0065e298966feda2e2733e0b86af5e26e2a",
+  "signature": "597db6aed712ba2e4900c9fd58256e6256c041386f56fc3efb40c41ccb4e34f3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01317"
 }

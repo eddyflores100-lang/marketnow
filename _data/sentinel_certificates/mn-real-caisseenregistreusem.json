@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1730720",
+  "certificate_id": "MN-SC-2026-1579333",
   "skill_id": "mn-real-caisseenregistreusem",
   "skill_name": "caisse-enregistreuse-mcp-server",
-  "issued_at": "2026-10-11T06:55:30.720Z",
-  "expires_at": "2026-10-18T06:55:30.720Z",
+  "issued_at": "2026-10-18T05:32:59.333Z",
+  "expires_at": "2026-10-25T05:32:59.333Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2c1396d7a9c0fedb07f1999df1c10498073477a2ebd12a80280a74f0f0e8000e",
+  "signature": "1b2409b42230d498f223286e647d2f56dcfb06b4fbffb0dcfa6f3ffe2a07c748",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-caisseenregistreusem"
 }

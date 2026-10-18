@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1637716",
+  "certificate_id": "MN-SC-2026-1505322",
   "skill_id": "mn-awmcp-obscuramcp",
   "skill_name": "obscura-mcp",
-  "issued_at": "2026-10-11T06:53:57.716Z",
-  "expires_at": "2026-10-18T06:53:57.716Z",
+  "issued_at": "2026-10-18T05:31:45.322Z",
+  "expires_at": "2026-10-25T05:31:45.322Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 7,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0d85d98f8d6dd7886f28c6a212bdef0545f9144f5d4adef09d011270ea67754a",
+  "signature": "bcea9b78b5d0357283d6df040a9260ea03ab62078f97c0224eb1eaf11489b82a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-obscuramcp"
 }

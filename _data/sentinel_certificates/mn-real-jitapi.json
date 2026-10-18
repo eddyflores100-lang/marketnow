@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1768452",
+  "certificate_id": "MN-SC-2026-1609765",
   "skill_id": "mn-real-jitapi",
   "skill_name": "jitapi",
-  "issued_at": "2026-10-11T06:56:08.452Z",
-  "expires_at": "2026-10-18T06:56:08.452Z",
+  "issued_at": "2026-10-18T05:33:29.765Z",
+  "expires_at": "2026-10-25T05:33:29.765Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cb6bb0f459f7bb1e70fe3bdd0a388a948296777d1088bee42ea8c397f95200ab",
+  "signature": "e4bf416e240c6893a926581bdaed8363cb3fe73444db41a29ee76508e3e3ab87",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-jitapi"
 }

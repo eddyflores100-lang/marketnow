@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1883710",
+  "certificate_id": "MN-SC-2026-1710848",
   "skill_id": "mn-real-engrammcp",
   "skill_name": "engram-mcp",
-  "issued_at": "2026-10-11T06:58:03.710Z",
-  "expires_at": "2026-10-18T06:58:03.710Z",
+  "issued_at": "2026-10-18T05:35:10.848Z",
+  "expires_at": "2026-10-25T05:35:10.848Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "100040bc3f9e5bc8e4e9927cb78cbcea65bc0019775c7e0721cc20f5040928d9",
+  "signature": "48641f821e00040aae406c325202611c28613f1c1e51d41df7f07205338c958c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-engrammcp"
 }

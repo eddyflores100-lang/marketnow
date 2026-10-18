@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1644420",
+  "certificate_id": "MN-SC-2026-1510818",
   "skill_id": "mn-awmcp-agentdeploydashboard",
   "skill_name": "agent-deploy-dashboard-mcp",
-  "issued_at": "2026-10-11T06:54:04.420Z",
-  "expires_at": "2026-10-18T06:54:04.420Z",
+  "issued_at": "2026-10-18T05:31:50.818Z",
+  "expires_at": "2026-10-25T05:31:50.818Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "415f2bf0f487cf9d9d595cea3f9c6392b3ce15febad81f6eeb59ef33c88d8641",
+  "signature": "d93c3e3333cea3f8a86837a36b9b277a8c1e4876694c161efb6f5b9b514c711a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-agentdeploydashboard"
 }

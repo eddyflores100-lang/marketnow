@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1746608",
+  "certificate_id": "MN-SC-2026-1592205",
   "skill_id": "mn-real-ginmcp",
   "skill_name": "gin-mcp",
-  "issued_at": "2026-10-11T06:55:46.608Z",
-  "expires_at": "2026-10-18T06:55:46.608Z",
+  "issued_at": "2026-10-18T05:33:12.205Z",
+  "expires_at": "2026-10-25T05:33:12.205Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0a05eacf815d766738b2f2ddfac279843c86dffc5bffe1ebc6122ae12ec39ff7",
+  "signature": "9f4c105b659beab861100a7e9da7e03fb00085e56e413e084358f3123ff975d5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-ginmcp"
 }

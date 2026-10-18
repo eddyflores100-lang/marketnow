@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1678021",
+  "certificate_id": "MN-SC-2026-1537755",
   "skill_id": "mn-awmcp-serena",
   "skill_name": "serena",
-  "issued_at": "2026-10-11T06:54:38.021Z",
-  "expires_at": "2026-10-18T06:54:38.021Z",
+  "issued_at": "2026-10-18T05:32:17.755Z",
+  "expires_at": "2026-10-25T05:32:17.755Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "867d1915a11efe0ad87f673f651b7d6bf36c85b49a661dce6bf4723353486723",
+  "signature": "10369e32227e2514fb3e4147ff73102edbe56c2d3e44e952caea54464fe98706",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-serena"
 }

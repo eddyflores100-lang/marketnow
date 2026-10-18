@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1781456",
+  "certificate_id": "MN-SC-2026-1621170",
   "skill_id": "mn-real-memcord",
   "skill_name": "memcord",
-  "issued_at": "2026-10-11T06:56:21.456Z",
-  "expires_at": "2026-10-18T06:56:21.456Z",
+  "issued_at": "2026-10-18T05:33:41.170Z",
+  "expires_at": "2026-10-25T05:33:41.170Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2e3325bd3fb5b2306cc6f85d339c2d2f48217a273f3886c149ef68ac96c78a59",
+  "signature": "17b6f514bf09619140f7b6e81329c1053696b75b57f1e010512ea5932d7f471e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-memcord"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1470157",
+  "certificate_id": "MN-SC-2026-1367043",
   "skill_id": "mn-blo-02931",
   "skill_name": "crypto-rss-mcp",
-  "issued_at": "2026-10-11T06:51:10.157Z",
-  "expires_at": "2026-10-18T06:51:10.157Z",
+  "issued_at": "2026-10-18T05:29:27.043Z",
+  "expires_at": "2026-10-25T05:29:27.043Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5f4f064126c0e73b06d4ed5e8fc35c111ae59844d141958b49f7a4cdd2532009",
+  "signature": "2a99665c747d915605ce2d36247f3de75e48559f181566e52f1fa02467476fba",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-blo-02931"
 }

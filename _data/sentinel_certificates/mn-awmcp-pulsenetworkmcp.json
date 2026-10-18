@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1587452",
+  "certificate_id": "MN-SC-2026-1461507",
   "skill_id": "mn-awmcp-pulsenetworkmcp",
   "skill_name": "pulsenetwork-mcp",
-  "issued_at": "2026-10-11T06:53:07.452Z",
-  "expires_at": "2026-10-18T06:53:07.452Z",
+  "issued_at": "2026-10-18T05:31:01.507Z",
+  "expires_at": "2026-10-25T05:31:01.507Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4c258ed541688e05742ef28ab74e65004b0b27269335e3c152b5db6deb711632",
+  "signature": "3f63233f682b92a5e1d538da06cddafb1391a9e363dcf0a414a14d427c66a028",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-pulsenetworkmcp"
 }

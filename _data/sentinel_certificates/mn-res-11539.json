@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1556578",
+  "certificate_id": "MN-SC-2026-1435754",
   "skill_id": "mn-res-11539",
   "skill_name": "gpt-researcher",
-  "issued_at": "2026-10-11T06:52:36.578Z",
-  "expires_at": "2026-10-18T06:52:36.578Z",
+  "issued_at": "2026-10-18T05:30:35.754Z",
+  "expires_at": "2026-10-25T05:30:35.754Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "baf5170ef0c41add0a443ea76f7f782868ab39955c78de440628014685b2b925",
+  "signature": "03aa8d8c63dabc3060e587da480b05cb6a3cf1b65c15e3b10eb2529b182efac8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-res-11539"
 }

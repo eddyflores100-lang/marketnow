@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1501749",
+  "certificate_id": "MN-SC-2026-1392027",
   "skill_id": "mn-gen-05751",
   "skill_name": "line-bot-mcp-server",
-  "issued_at": "2026-10-11T06:51:41.749Z",
-  "expires_at": "2026-10-18T06:51:41.749Z",
+  "issued_at": "2026-10-18T05:29:52.027Z",
+  "expires_at": "2026-10-25T05:29:52.027Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0bc044bc3f657e6ce287d50eb7e62ef288a1460dc307653b3e4ebbf2b4ae4804",
+  "signature": "31d820e4e198d4ee8bc527ef005f29d50071d26675c470181668ac24281a281c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05751"
 }

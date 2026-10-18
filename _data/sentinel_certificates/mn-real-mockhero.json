@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1765762",
+  "certificate_id": "MN-SC-2026-1608048",
   "skill_id": "mn-real-mockhero",
   "skill_name": "mockhero",
-  "issued_at": "2026-10-11T06:56:05.762Z",
-  "expires_at": "2026-10-18T06:56:05.762Z",
+  "issued_at": "2026-10-18T05:33:28.048Z",
+  "expires_at": "2026-10-25T05:33:28.048Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7902227ca4cd3fa4a4dd56aa90ca845c0dd18c35456bd9366847fd5164ad4fb3",
+  "signature": "e28f592caa0e5cc263b3fc8223a9a9ef67216dfe6443e7533a916de6c28e14fe",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mockhero"
 }

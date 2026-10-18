@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1655367",
+  "certificate_id": "MN-SC-2026-1519813",
   "skill_id": "mn-awmcp-mcprediscloud",
   "skill_name": "mcp-redis-cloud",
-  "issued_at": "2026-10-11T06:54:15.367Z",
-  "expires_at": "2026-10-18T06:54:15.367Z",
+  "issued_at": "2026-10-18T05:31:59.813Z",
+  "expires_at": "2026-10-25T05:31:59.813Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "19f4c6c79061b77bccb39aa405ba7e5a306dbf910c4f07d25c9c84ccbe94c301",
+  "signature": "ff247491a6e86feccb4556904934879a32d774e3730f7020e6823cfa7fe8e3e0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcprediscloud"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1560326",
+  "certificate_id": "MN-SC-2026-1438872",
   "skill_id": "mn-gen-12070",
   "skill_name": "MCPSpend",
-  "issued_at": "2026-10-11T06:52:40.326Z",
-  "expires_at": "2026-10-18T06:52:40.326Z",
+  "issued_at": "2026-10-18T05:30:38.872Z",
+  "expires_at": "2026-10-25T05:30:38.872Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a41ccad5402cd58087c7049136154417ed192bc54f0c7e47157e58dff740be0f",
+  "signature": "3a8434120113cf343b1c8dc200e42730b82c2b4427e4d7ab6d18a8c1ae51fdf4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12070"
 }

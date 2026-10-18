@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1490736",
+  "certificate_id": "MN-SC-2026-1383624",
   "skill_id": "mn-res-04630",
   "skill_name": "mcp-google-ads",
-  "issued_at": "2026-10-11T06:51:30.736Z",
-  "expires_at": "2026-10-18T06:51:30.736Z",
+  "issued_at": "2026-10-18T05:29:43.624Z",
+  "expires_at": "2026-10-25T05:29:43.624Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "423f134c589fd9cd2e64b0d7e40a90d9b04186d108f49e700f2dda77bf996c4f",
+  "signature": "97201663bbb285ed4926274ad536937c8f015c0c4675a05f23a830ebfa1adf89",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-res-04630"
 }

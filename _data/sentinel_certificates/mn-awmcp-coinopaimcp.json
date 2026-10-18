@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1586628",
+  "certificate_id": "MN-SC-2026-1460740",
   "skill_id": "mn-awmcp-coinopaimcp",
   "skill_name": "coinopai-mcp",
-  "issued_at": "2026-10-11T06:53:06.628Z",
-  "expires_at": "2026-10-18T06:53:06.628Z",
+  "issued_at": "2026-10-18T05:31:00.740Z",
+  "expires_at": "2026-10-25T05:31:00.740Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5d9839b8791549a208d989b735c0b3f2a97fe8fafa5587564a9b11765e12e0c3",
+  "signature": "02df1350de3b90c64535bc16967e5ef72b54944da4f349ec9038b6bf8ab6d98d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-coinopaimcp"
 }

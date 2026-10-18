@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1674156",
+  "certificate_id": "MN-SC-2026-1535559",
   "skill_id": "mn-awmcp-veto",
   "skill_name": "veto",
-  "issued_at": "2026-10-11T06:54:34.156Z",
-  "expires_at": "2026-10-18T06:54:34.156Z",
+  "issued_at": "2026-10-18T05:32:15.559Z",
+  "expires_at": "2026-10-25T05:32:15.559Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1eac43a594b4570f5ee2995bc8d74e7229f22b8feca03e2109a57753c104c903",
+  "signature": "85f176d29eaa940e4771dbc74f14467c1ffd68c47a1599ce910042a5eb949b20",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-veto"
 }

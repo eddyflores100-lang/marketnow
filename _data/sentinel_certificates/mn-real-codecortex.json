@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1899469",
+  "certificate_id": "MN-SC-2026-1722027",
   "skill_id": "mn-real-codecortex",
   "skill_name": "CodeCortex",
-  "issued_at": "2026-10-11T06:58:19.469Z",
-  "expires_at": "2026-10-18T06:58:19.469Z",
+  "issued_at": "2026-10-18T05:35:22.027Z",
+  "expires_at": "2026-10-25T05:35:22.027Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "36eb390e8d6bdb018c993dc4486efa79ff16222ea61ded32527c6fd8c18934ba",
+  "signature": "b987dd94d5a2f28e45bf8b59320705bf302416488112da08df3a6e9c3445b15a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-codecortex"
 }

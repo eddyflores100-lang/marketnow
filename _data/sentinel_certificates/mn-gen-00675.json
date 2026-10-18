@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1447146",
+  "certificate_id": "MN-SC-2026-1348659",
   "skill_id": "mn-gen-00675",
   "skill_name": "alchemy-mcp-server",
-  "issued_at": "2026-10-11T06:50:47.146Z",
-  "expires_at": "2026-10-18T06:50:47.146Z",
+  "issued_at": "2026-10-18T05:29:08.659Z",
+  "expires_at": "2026-10-25T05:29:08.659Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fd6348026a45530784776e3218fb08d0b17835718ac7223c782eeb359160e05e",
+  "signature": "87a17967909c208dca307ea484b67b8a3593f8a85409e6bedefc232d581e1d2b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00675"
 }

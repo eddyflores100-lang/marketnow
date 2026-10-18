@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1819192",
+  "certificate_id": "MN-SC-2026-1653268",
   "skill_id": "mn-real-alphavantagemcp",
   "skill_name": "alpha-vantage-mcp",
-  "issued_at": "2026-10-11T06:56:59.192Z",
-  "expires_at": "2026-10-18T06:56:59.192Z",
+  "issued_at": "2026-10-18T05:34:13.268Z",
+  "expires_at": "2026-10-25T05:34:13.268Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "607acf200e3250b287f13cf469c089914d19d13f8ceb52c1ae505118b23f4698",
+  "signature": "404268e0ea16153ec7da52a6a43ede86dcef171ec0920968c8224cd204a24ff1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-alphavantagemcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1672952",
+  "certificate_id": "MN-SC-2026-1534918",
   "skill_id": "mn-awmcp-winxcodeagent",
   "skill_name": "winx-code-agent",
-  "issued_at": "2026-10-11T06:54:32.952Z",
-  "expires_at": "2026-10-18T06:54:32.952Z",
+  "issued_at": "2026-10-18T05:32:14.918Z",
+  "expires_at": "2026-10-25T05:32:14.918Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3b34e6bf3b624122c8cabbd2936a261722e9c88129686e73c1ef73df1e6947bd",
+  "signature": "356948829d2617d33c85221c968a266ed564d131d25d4c04ec8c3829624f39ef",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-winxcodeagent"
 }

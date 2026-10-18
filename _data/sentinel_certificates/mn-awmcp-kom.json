@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1659781",
+  "certificate_id": "MN-SC-2026-1523270",
   "skill_id": "mn-awmcp-kom",
   "skill_name": "kom",
-  "issued_at": "2026-10-11T06:54:19.781Z",
-  "expires_at": "2026-10-18T06:54:19.781Z",
+  "issued_at": "2026-10-18T05:32:03.270Z",
+  "expires_at": "2026-10-25T05:32:03.270Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "86c4f82eb12537b8ad2ccd86a0549d52a19acba32f929c904b1e6c23550a9f56",
+  "signature": "2594e709819edb4f5dc5c8ad35cfae81cc3d7ce541c930999e602b55f74a702f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-kom"
 }

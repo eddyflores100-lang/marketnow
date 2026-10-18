@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1821943",
+  "certificate_id": "MN-SC-2026-1655731",
   "skill_id": "mn-real-cryptopolitanmcp",
   "skill_name": "cryptopolitan-mcp",
-  "issued_at": "2026-10-11T06:57:01.943Z",
-  "expires_at": "2026-10-18T06:57:01.943Z",
+  "issued_at": "2026-10-18T05:34:15.731Z",
+  "expires_at": "2026-10-25T05:34:15.731Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "eae4700103b740b1a2638222dfe71bd40f287b4a7d084491f5ab6745d491232c",
+  "signature": "7a95623783cefcbde3b068bfc96844515481ea7ee39b99d22a6426d5312f24be",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cryptopolitanmcp"
 }

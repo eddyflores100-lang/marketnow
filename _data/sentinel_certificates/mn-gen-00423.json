@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1445488",
+  "certificate_id": "MN-SC-2026-1347272",
   "skill_id": "mn-gen-00423",
   "skill_name": "agentshield",
-  "issued_at": "2026-10-11T06:50:45.488Z",
-  "expires_at": "2026-10-18T06:50:45.488Z",
+  "issued_at": "2026-10-18T05:29:07.272Z",
+  "expires_at": "2026-10-25T05:29:07.272Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f9c143f212f8c8a4d5d77bd3c3e5dad48ab2e6f4442cbc180d12ed9d62947fa6",
+  "signature": "e69bf0efd5cb6545abdf53193a43a35b75ac53365d5257271a3a64edaf1cb4f8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00423"
 }

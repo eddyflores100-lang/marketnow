@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1837522",
+  "certificate_id": "MN-SC-2026-1670271",
   "skill_id": "mn-real-cointelegraphmcp",
   "skill_name": "cointelegraph-mcp",
-  "issued_at": "2026-10-11T06:57:17.522Z",
-  "expires_at": "2026-10-18T06:57:17.522Z",
+  "issued_at": "2026-10-18T05:34:30.271Z",
+  "expires_at": "2026-10-25T05:34:30.271Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "96b61c9b3108f383ef8c204d4383c1239a304a3af2c49f32bba70291389d1a6c",
+  "signature": "5d2220437383cb32f7bcc160c3d5eac256fd5b58f46d3ff73718438d1447886c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cointelegraphmcp"
 }

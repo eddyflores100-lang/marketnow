@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1475953",
+  "certificate_id": "MN-SC-2026-1371687",
   "skill_id": "mn-gen-03504",
   "skill_name": "drawio-mcp-server",
-  "issued_at": "2026-10-11T06:51:15.953Z",
-  "expires_at": "2026-10-18T06:51:15.953Z",
+  "issued_at": "2026-10-18T05:29:31.687Z",
+  "expires_at": "2026-10-25T05:29:31.687Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1dcd30db5e69f9f142754ddfb24d5251cff47b1e34bead6cc90a332f026e5f9d",
+  "signature": "b2448e8c0409e0512b24db72c75f9ebbd41065949a9da5dd1bfb7ae54a4aeb59",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03504"
 }

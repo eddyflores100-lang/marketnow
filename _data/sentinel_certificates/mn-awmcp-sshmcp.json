@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1668439",
+  "certificate_id": "MN-SC-2026-1530804",
   "skill_id": "mn-awmcp-sshmcp",
   "skill_name": "ssh-mcp",
-  "issued_at": "2026-10-11T06:54:28.439Z",
-  "expires_at": "2026-10-18T06:54:28.439Z",
+  "issued_at": "2026-10-18T05:32:10.804Z",
+  "expires_at": "2026-10-25T05:32:10.804Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -29,14 +29,14 @@
   "artifact": {
     "bound": true,
     "source": "npm",
-    "version": "2.13.0",
-    "shasum": "ce12ca2aa5a9b1ec0dd806fba8836363f83baebc",
-    "integrity": "sha512-yd/69mxlEEJGSI25gaohtX+9l7z92/yyVAEPyXbg3m/cz8MDs3nGpaTgOzpE9EksBnyZCLq8xQUIT3PN3zwBdQ==",
-    "tarball_bytes": 186717,
-    "resolved_at": "2026-09-28T11:51:59.984Z"
+    "version": "2.19.0",
+    "shasum": "14d592f9844dca925a6da52884e8dd3b568e5c8c",
+    "integrity": "sha512-TXpcs5KmwwcC/IExs5l+rzcUelSeFDtXuVd/ioXR1grt+lRfi2JLvuwHgN6OwGXA7LqvG6stzKEbc/IqCnsFQw==",
+    "tarball_bytes": 202976,
+    "resolved_at": "2026-10-13T12:52:47.635Z"
   },
   "cert_v": 2,
-  "signature": "f80c66cc3a3138a35861f3c037cd6d00209d59144aae1a31bfe3723efc1b878e",
+  "signature": "a007bbf8cab47c63728b086d843e3ce3c8babf96edfe95d8ff7ed0dbd84629d4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-sshmcp"
 }

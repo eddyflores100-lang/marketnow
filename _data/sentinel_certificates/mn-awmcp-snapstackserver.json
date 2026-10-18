@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1629586",
+  "certificate_id": "MN-SC-2026-1497610",
   "skill_id": "mn-awmcp-snapstackserver",
   "skill_name": "snapstack-server",
-  "issued_at": "2026-10-11T06:53:49.586Z",
-  "expires_at": "2026-10-18T06:53:49.586Z",
+  "issued_at": "2026-10-18T05:31:37.610Z",
+  "expires_at": "2026-10-25T05:31:37.610Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "44834f0474f25e5856bfe5ce1b7ec18cd1e085ce2ab00bffdb645b23ac609993",
+  "signature": "ace18f2d0f7fb84ea516f5f513d918bf8a6d16ce2475dcb13ea03ce6a3158841",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-snapstackserver"
 }

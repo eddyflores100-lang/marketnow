@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1828379",
+  "certificate_id": "MN-SC-2026-1661650",
   "skill_id": "mn-real-flox",
   "skill_name": "flox",
-  "issued_at": "2026-10-11T06:57:08.379Z",
-  "expires_at": "2026-10-18T06:57:08.379Z",
+  "issued_at": "2026-10-18T05:34:21.650Z",
+  "expires_at": "2026-10-25T05:34:21.650Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1470f79355c9c7d39e8d677f45f79052ad74fc240e62fd90bcb182d628eddb9a",
+  "signature": "f16ffe1a67931c97f895d644b8e73058f2a378135538955c326fc77f1c271154",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-flox"
 }

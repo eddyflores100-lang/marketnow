@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1636056",
+  "certificate_id": "MN-SC-2026-1503839",
   "skill_id": "mn-awmcp-autobrowser",
   "skill_name": "auto-browser",
-  "issued_at": "2026-10-11T06:53:56.056Z",
-  "expires_at": "2026-10-18T06:53:56.056Z",
+  "issued_at": "2026-10-18T05:31:43.839Z",
+  "expires_at": "2026-10-25T05:31:43.839Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "52fd66cf99f9cbc23d09f6e21d5f3433d8079379164294223770b7be4b953b05",
+  "signature": "092964900fe409174542cc82c1a276efb61761757d266e3ff5f588321c3612c0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-autobrowser"
 }

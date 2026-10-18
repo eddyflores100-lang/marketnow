@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1642395",
+  "certificate_id": "MN-SC-2026-1509359",
   "skill_id": "mn-awmcp-bilibilimcpgit",
   "skill_name": "bilibili-mcp.git",
-  "issued_at": "2026-10-11T06:54:02.395Z",
-  "expires_at": "2026-10-18T06:54:02.395Z",
+  "issued_at": "2026-10-18T05:31:49.359Z",
+  "expires_at": "2026-10-25T05:31:49.359Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "84d6b4fad9cb227f20bf233189ac66b066a1459cfdca6f1d089162df05f23909",
+  "signature": "5095e86805929f3c40ccfa37265ff494af48e45a6f7af88926a969f6aa599ecc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-bilibilimcpgit"
 }

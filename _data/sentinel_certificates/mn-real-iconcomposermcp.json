@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1741527",
+  "certificate_id": "MN-SC-2026-1587701",
   "skill_id": "mn-real-iconcomposermcp",
   "skill_name": "icon-composer-mcp",
-  "issued_at": "2026-10-11T06:55:41.527Z",
-  "expires_at": "2026-10-18T06:55:41.527Z",
+  "issued_at": "2026-10-18T05:33:07.701Z",
+  "expires_at": "2026-10-25T05:33:07.701Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d9930262f3c21ad8d3a900765b4d0c5bca86fa06407314d4289421bcb08b308f",
+  "signature": "2e0362e5d910998e1863c667c777149dd11e67763f52c7f4444436038e82811a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-iconcomposermcp"
 }

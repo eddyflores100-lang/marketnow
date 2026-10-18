@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1616226",
+  "certificate_id": "MN-SC-2026-1485766",
   "skill_id": "mn-awmcp-mayamcp",
   "skill_name": "MayaMCP",
-  "issued_at": "2026-10-11T06:53:36.226Z",
-  "expires_at": "2026-10-18T06:53:36.226Z",
+  "issued_at": "2026-10-18T05:31:25.766Z",
+  "expires_at": "2026-10-25T05:31:25.766Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ea63a36e0038391886ffe3b29e4856fad50227f02d1116819c3b8c99fc709465",
+  "signature": "5f729dda88bd45500d3d0d99e963c7c385f842c2b72c34b097872624cd46749c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mayamcp"
 }

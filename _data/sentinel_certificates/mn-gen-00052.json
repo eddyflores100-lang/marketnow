@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1440320",
+  "certificate_id": "MN-SC-2026-1342972",
   "skill_id": "mn-gen-00052",
   "skill_name": "a11ymcp",
-  "issued_at": "2026-10-11T06:50:40.320Z",
-  "expires_at": "2026-10-18T06:50:40.320Z",
+  "issued_at": "2026-10-18T05:29:02.972Z",
+  "expires_at": "2026-10-25T05:29:02.972Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a3b859613014998bcbd5740625f1fd7942daae5719d9461357c925c92ae2e417",
+  "signature": "ffc5fae7c29397b65ac94d44986fe816687151541455a4f9cdb058ac2c1e4c6f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00052"
 }

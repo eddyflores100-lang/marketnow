@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1864869",
+  "certificate_id": "MN-SC-2026-1694373",
   "skill_id": "mn-real-entiamcpserver",
   "skill_name": "entia-mcp-server",
-  "issued_at": "2026-10-11T06:57:44.869Z",
-  "expires_at": "2026-10-18T06:57:44.869Z",
+  "issued_at": "2026-10-18T05:34:54.373Z",
+  "expires_at": "2026-10-25T05:34:54.373Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ad9601201658802bbd55b8d05742e6d5044f0d09aab272d15277a2eb3d812604",
+  "signature": "a3b953559ff5b5bbdfb0242149ff7ef9ccb7e8533639a97f496579a0d70a467a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-entiamcpserver"
 }

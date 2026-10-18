@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1826485",
+  "certificate_id": "MN-SC-2026-1659790",
   "skill_id": "mn-real-vibetradermcp",
   "skill_name": "vibetrader-mcp",
-  "issued_at": "2026-10-11T06:57:06.485Z",
-  "expires_at": "2026-10-18T06:57:06.485Z",
+  "issued_at": "2026-10-18T05:34:19.790Z",
+  "expires_at": "2026-10-25T05:34:19.790Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a428f23abd6725a6aa51d39d3942ec104dc85b8dc44210149eb0dde0d2c04a0d",
+  "signature": "8ac625ac343b3bb35dc98390f412547e1f97097b96f4e9ae10cb415f45e59f99",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-vibetradermcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1779201",
+  "certificate_id": "MN-SC-2026-1619095",
   "skill_id": "mn-real-tactual",
   "skill_name": "tactual",
-  "issued_at": "2026-10-11T06:56:19.201Z",
-  "expires_at": "2026-10-18T06:56:19.201Z",
+  "issued_at": "2026-10-18T05:33:39.095Z",
+  "expires_at": "2026-10-25T05:33:39.095Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "aec177472a350db1e8e376ec3ac62408e7186b1776de08b859d8aea02b4883d5",
+  "signature": "bd4d06f9ba8dbad041e04ebf56c6afe25994cd43303498d638c5549e26ee2a8d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-tactual"
 }

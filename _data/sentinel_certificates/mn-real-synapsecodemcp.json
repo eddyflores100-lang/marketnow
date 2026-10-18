@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1791011",
+  "certificate_id": "MN-SC-2026-1629503",
   "skill_id": "mn-real-synapsecodemcp",
   "skill_name": "synapse-code-mcp",
-  "issued_at": "2026-10-11T06:56:31.011Z",
-  "expires_at": "2026-10-18T06:56:31.011Z",
+  "issued_at": "2026-10-18T05:33:49.503Z",
+  "expires_at": "2026-10-25T05:33:49.503Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cff63be3eea0c78519a71108cd03f19b95491435003bbdd6fff804e7a5244f51",
+  "signature": "286efff8ac7afe6a529cab7c67c44b704ab53857da657b4a7a64476969be34d5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-synapsecodemcp"
 }

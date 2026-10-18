@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1455755",
+  "certificate_id": "MN-SC-2026-1356284",
   "skill_id": "mn-dat-01550",
   "skill_name": "brightdata-mcp",
-  "issued_at": "2026-10-11T06:50:55.755Z",
-  "expires_at": "2026-10-18T06:50:55.755Z",
+  "issued_at": "2026-10-18T05:29:16.284Z",
+  "expires_at": "2026-10-25T05:29:16.284Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "dc0e12686cce3503d61b1876ec1968ef41034801bc300c6dd84f7d4d3094f70e",
+  "signature": "acbe45644eb8e32f6ef4218910965f7e693ef341e614c56e4ea203f10500c973",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-dat-01550"
 }

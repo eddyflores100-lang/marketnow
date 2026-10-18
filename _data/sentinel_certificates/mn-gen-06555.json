@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1508419",
+  "certificate_id": "MN-SC-2026-1397550",
   "skill_id": "mn-gen-06555",
   "skill_name": "perplexity-mcp",
-  "issued_at": "2026-10-11T06:51:48.419Z",
-  "expires_at": "2026-10-18T06:51:48.419Z",
+  "issued_at": "2026-10-18T05:29:57.550Z",
+  "expires_at": "2026-10-25T05:29:57.550Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "72ea1d567e8fcae9ea1d5be0b42f119865c40929c2f24a333ff4558c90dc267e",
+  "signature": "9bcff8bdd632a168ec223943b15d82dd7633bd83ce7baeb4f2f6f1e7482d8e05",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-06555"
 }

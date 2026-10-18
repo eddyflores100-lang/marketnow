@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1720567",
+  "certificate_id": "MN-SC-2026-1570110",
   "skill_id": "mn-real-mcpodbcserver",
   "skill_name": "mcp-odbc-server",
-  "issued_at": "2026-10-11T06:55:20.567Z",
-  "expires_at": "2026-10-18T06:55:20.567Z",
+  "issued_at": "2026-10-18T05:32:50.110Z",
+  "expires_at": "2026-10-25T05:32:50.110Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1d2fbaa43487d81487f60aa1d5c5ebcd04a28022ddaa91df702b0af6c475ecd0",
+  "signature": "7de2b7c7e7f95c833352d0c7bfc77fd17500fb851ba4c40e6caf989599a68cb5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpodbcserver"
 }

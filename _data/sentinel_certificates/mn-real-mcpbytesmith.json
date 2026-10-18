@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1713409",
+  "certificate_id": "MN-SC-2026-1564027",
   "skill_id": "mn-real-mcpbytesmith",
   "skill_name": "mcp-bytesmith",
-  "issued_at": "2026-10-11T06:55:13.409Z",
-  "expires_at": "2026-10-18T06:55:13.410Z",
+  "issued_at": "2026-10-18T05:32:44.027Z",
+  "expires_at": "2026-10-25T05:32:44.027Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cd54509e252c51bde182070535b9eaaf8709d28b3f470b154a7953160c3d427e",
+  "signature": "b8ec15c84a12e76d09f5c7520302bd2d7b7e3572e9a97e863000da80bfceab8d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpbytesmith"
 }

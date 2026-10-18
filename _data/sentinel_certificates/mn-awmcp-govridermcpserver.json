@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1593004",
+  "certificate_id": "MN-SC-2026-1466586",
   "skill_id": "mn-awmcp-govridermcpserver",
   "skill_name": "govrider-mcp-server",
-  "issued_at": "2026-10-11T06:53:13.004Z",
-  "expires_at": "2026-10-18T06:53:13.004Z",
+  "issued_at": "2026-10-18T05:31:06.586Z",
+  "expires_at": "2026-10-25T05:31:06.586Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b81d4098e243e81143e2b5515b15393a84867f8f9b070f8a75a50c2105291833",
+  "signature": "664cdf6e4ff83712542b10c44573fc8dbaab4362f167e2b8ee613f15c368a2f3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-govridermcpserver"
 }

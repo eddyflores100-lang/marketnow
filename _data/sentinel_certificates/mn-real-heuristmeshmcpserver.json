@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1830551",
+  "certificate_id": "MN-SC-2026-1663742",
   "skill_id": "mn-real-heuristmeshmcpserver",
   "skill_name": "heurist-mesh-mcp-server",
-  "issued_at": "2026-10-11T06:57:10.551Z",
-  "expires_at": "2026-10-18T06:57:10.551Z",
+  "issued_at": "2026-10-18T05:34:23.742Z",
+  "expires_at": "2026-10-25T05:34:23.742Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "095598d6b835a0e70d3eab2d53f2a62053ae9c50cc23f3a31c2a241da69ee7cb",
+  "signature": "b31080021e54c720e308553078169fbda05851202c65d4e9ce0dccf2e6b48c06",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-heuristmeshmcpserver"
 }

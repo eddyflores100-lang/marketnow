@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1548186",
+  "certificate_id": "MN-SC-2026-1429002",
   "skill_id": "mn-blo-10708",
   "skill_name": "prometheus-mcp-server",
-  "issued_at": "2026-10-11T06:52:28.186Z",
-  "expires_at": "2026-10-18T06:52:28.186Z",
+  "issued_at": "2026-10-18T05:30:29.002Z",
+  "expires_at": "2026-10-25T05:30:29.002Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "54c9f72d558adaf4644d6236f351ae3d49e5c10dca670dcb3d094a766baa3898",
+  "signature": "9a295714e44a2b65c12774ce9b18083c6a6e283a5df1b0f0096f02421dbfc265",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-blo-10708"
 }

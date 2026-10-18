@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1557806",
+  "certificate_id": "MN-SC-2026-1436746",
   "skill_id": "mn-gen-11748",
   "skill_name": "shopsavvy-mcp-server",
-  "issued_at": "2026-10-11T06:52:37.806Z",
-  "expires_at": "2026-10-18T06:52:37.806Z",
+  "issued_at": "2026-10-18T05:30:36.746Z",
+  "expires_at": "2026-10-25T05:30:36.746Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b43d47088f74bda16f509224629356a67bf95edd4e04b279d33be011c2e3fbdf",
+  "signature": "5960522c903222dcb31a2407344020a5d841cbb29f131db780cefedf0c8dbf43",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-11748"
 }

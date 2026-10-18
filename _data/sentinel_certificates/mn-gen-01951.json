@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1459112",
+  "certificate_id": "MN-SC-2026-1359105",
   "skill_id": "mn-gen-01951",
   "skill_name": "lara-mcp",
-  "issued_at": "2026-10-11T06:50:59.112Z",
-  "expires_at": "2026-10-18T06:50:59.112Z",
+  "issued_at": "2026-10-18T05:29:19.105Z",
+  "expires_at": "2026-10-25T05:29:19.105Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ffd3317b71aff08192c1899738f5341aff5da11eb175840f902df8c655dab193",
+  "signature": "d27dc76d92786a2ec5ac1c6248c3a5ed43c8c6ad2e4be42eeb6c63ece62575db",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01951"
 }

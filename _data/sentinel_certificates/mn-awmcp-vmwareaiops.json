@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1660590",
+  "certificate_id": "MN-SC-2026-1523817",
   "skill_id": "mn-awmcp-vmwareaiops",
   "skill_name": "VMware-AIops",
-  "issued_at": "2026-10-11T06:54:20.590Z",
-  "expires_at": "2026-10-18T06:54:20.590Z",
+  "issued_at": "2026-10-18T05:32:03.817Z",
+  "expires_at": "2026-10-25T05:32:03.817Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3ac98cecdd11732bd570746827ae1b8849d91d4733922a2fa400f505ffe99a15",
+  "signature": "5ef3e967d2492915b8316ae3b1c0493b67171accad6e624962fdbd3de76eb7ba",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-vmwareaiops"
 }

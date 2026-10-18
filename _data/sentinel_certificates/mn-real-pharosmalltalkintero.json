@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1766650",
+  "certificate_id": "MN-SC-2026-1608605",
   "skill_id": "mn-real-pharosmalltalkintero",
   "skill_name": "pharo-smalltalk-interop-mcp-server",
-  "issued_at": "2026-10-11T06:56:06.650Z",
-  "expires_at": "2026-10-18T06:56:06.650Z",
+  "issued_at": "2026-10-18T05:33:28.605Z",
+  "expires_at": "2026-10-25T05:33:28.605Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c25ffb310ff6a21f47bc7c8263ee956f4aeebdbf0966b4f5cf4b3397af76f3ef",
+  "signature": "f3c8a044b748e86f1a4011ea9d9c760659fa1aaa60b74ba979ba4e91d499b525",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-pharosmalltalkintero"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1661532",
+  "certificate_id": "MN-SC-2026-1524619",
   "skill_id": "mn-awmcp-vmwarevks",
   "skill_name": "VMware-VKS",
-  "issued_at": "2026-10-11T06:54:21.532Z",
-  "expires_at": "2026-10-18T06:54:21.532Z",
+  "issued_at": "2026-10-18T05:32:04.619Z",
+  "expires_at": "2026-10-25T05:32:04.619Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "042f16ebbfba029093efc83abd6df55c838403900454a55e446f73a4561625ef",
+  "signature": "f7b31bfb3799cf2f5b2d38325aaf1b354a5516a54b4a71ab224df2a32c57be3c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-vmwarevks"
 }

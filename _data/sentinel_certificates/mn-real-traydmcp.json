@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1859731",
+  "certificate_id": "MN-SC-2026-1690174",
   "skill_id": "mn-real-traydmcp",
   "skill_name": "trayd-mcp",
-  "issued_at": "2026-10-11T06:57:39.731Z",
-  "expires_at": "2026-10-18T06:57:39.731Z",
+  "issued_at": "2026-10-18T05:34:50.174Z",
+  "expires_at": "2026-10-25T05:34:50.174Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "bb4a97aa1be6041bd28e55f7843160da752da3b75f4e83931edafd323683f277",
+  "signature": "cf50ec1146ed01034db64e9cb08b99b423c0cdbac4601f494d7e7c1576f23f43",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-traydmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1666273",
+  "certificate_id": "MN-SC-2026-1528748",
   "skill_id": "mn-awmcp-owlex",
   "skill_name": "owlex",
-  "issued_at": "2026-10-11T06:54:26.273Z",
-  "expires_at": "2026-10-18T06:54:26.273Z",
+  "issued_at": "2026-10-18T05:32:08.748Z",
+  "expires_at": "2026-10-25T05:32:08.748Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f313645fdd98bbddcf876667d395ec4e9de196a1cd8a07d58ff0692921d56a21",
+  "signature": "ff11ef4107210927dbef850d28729b0a3ee315d624b84a8447b8569d73e3619c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-owlex"
 }

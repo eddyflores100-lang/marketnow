@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1736055",
+  "certificate_id": "MN-SC-2026-1583251",
   "skill_id": "mn-real-aspnetcoredebuggermc",
   "skill_name": "aspnetcore-debugger-mcp",
-  "issued_at": "2026-10-11T06:55:36.055Z",
-  "expires_at": "2026-10-18T06:55:36.055Z",
+  "issued_at": "2026-10-18T05:33:03.251Z",
+  "expires_at": "2026-10-25T05:33:03.251Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e6724299ba07fa628423402c61cbe82e23e8155fde6498c8a1983827b0d2686e",
+  "signature": "3a5c2b2c92dfad71ab78d9e60eefd41be11a9dcedabdced1dea65498d43112be",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-aspnetcoredebuggermc"
 }

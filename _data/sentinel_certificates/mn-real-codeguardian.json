@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1798447",
+  "certificate_id": "MN-SC-2026-1634388",
   "skill_id": "mn-real-codeguardian",
   "skill_name": "code-guardian",
-  "issued_at": "2026-10-11T06:56:38.447Z",
-  "expires_at": "2026-10-18T06:56:38.447Z",
+  "issued_at": "2026-10-18T05:33:54.388Z",
+  "expires_at": "2026-10-25T05:33:54.388Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ccd9ecfcb28e2dc2894084957fe7dbb8c8cccc591ebde4e60d541029bf2bf739",
+  "signature": "30f5c5925de3b0cfbbf7ffebfa5077bea2947c9ea7ad1340893d2139a7ac2354",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-codeguardian"
 }

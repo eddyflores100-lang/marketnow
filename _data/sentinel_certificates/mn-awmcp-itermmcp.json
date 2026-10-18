@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1672031",
+  "certificate_id": "MN-SC-2026-1534289",
   "skill_id": "mn-awmcp-itermmcp",
   "skill_name": "iterm-mcp",
-  "issued_at": "2026-10-11T06:54:32.031Z",
-  "expires_at": "2026-10-18T06:54:32.031Z",
+  "issued_at": "2026-10-18T05:32:14.289Z",
+  "expires_at": "2026-10-25T05:32:14.289Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "678fe13a2a4a69121faece9bd0a2f0df78dd746d7163a0ff613ceb4172f0440b",
+  "signature": "bfdd3ae5c9e8a3356888d1a9b03a7366c850cf17cd9b4a703ddaba9e4b81a03a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-itermmcp"
 }

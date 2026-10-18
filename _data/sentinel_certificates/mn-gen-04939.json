@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1494007",
+  "certificate_id": "MN-SC-2026-1385837",
   "skill_id": "mn-gen-04939",
   "skill_name": "ha-mcp",
-  "issued_at": "2026-10-11T06:51:34.007Z",
-  "expires_at": "2026-10-18T06:51:34.007Z",
+  "issued_at": "2026-10-18T05:29:45.837Z",
+  "expires_at": "2026-10-25T05:29:45.837Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a296135167d2b39276ab65738ba6dfa7832c411c943e2d9f7027a2d6ec4ebb01",
+  "signature": "7576a598ccbe3a64aaccf704fe18bf190336bb32c66201b5230e11c67e096bea",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04939"
 }

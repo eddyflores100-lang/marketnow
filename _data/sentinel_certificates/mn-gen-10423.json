@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1546689",
+  "certificate_id": "MN-SC-2026-1427679",
   "skill_id": "mn-gen-10423",
   "skill_name": "pine",
-  "issued_at": "2026-10-11T06:52:26.689Z",
-  "expires_at": "2026-10-18T06:52:26.689Z",
+  "issued_at": "2026-10-18T05:30:27.679Z",
+  "expires_at": "2026-10-25T05:30:27.679Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "987024457454ef15094e7917cc7d13764de460a611d74cb01fda6056071a7f82",
+  "signature": "b2e0aad07067d99f55731cb92b7896112aa7fafa02f9fef3acae6ee3189c73fb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-10423"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1582025",
+  "certificate_id": "MN-SC-2026-1456702",
   "skill_id": "mn-mcp-fetch",
   "skill_name": "MCP Fetch Server (Official)",
-  "issued_at": "2026-10-11T06:53:02.025Z",
-  "expires_at": "2026-10-18T06:53:02.025Z",
+  "issued_at": "2026-10-18T05:30:56.702Z",
+  "expires_at": "2026-10-25T05:30:56.702Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a49703f33863616c1957533f538f9d252b7c4dc329556701fcc2f616ea27100a",
+  "signature": "81047f3e372298c114c0301c2bf0e6a44fbc9ea365fb247f16ff5c5618b85769",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-mcp-fetch"
 }

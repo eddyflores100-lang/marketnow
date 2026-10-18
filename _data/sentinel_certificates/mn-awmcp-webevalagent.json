@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1638156",
+  "certificate_id": "MN-SC-2026-1505642",
   "skill_id": "mn-awmcp-webevalagent",
   "skill_name": "web-eval-agent",
-  "issued_at": "2026-10-11T06:53:58.156Z",
-  "expires_at": "2026-10-18T06:53:58.156Z",
+  "issued_at": "2026-10-18T05:31:45.642Z",
+  "expires_at": "2026-10-25T05:31:45.642Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "eeef6b41830f4a31fe34bd115dc11479076f2a1fe5351565ce53a6aa618799b1",
+  "signature": "7277f186055d28bdb43b9ff3684f4a06d3415510c815743d42d0944338166e30",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-webevalagent"
 }

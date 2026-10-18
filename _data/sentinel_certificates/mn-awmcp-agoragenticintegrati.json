@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1589773",
+  "certificate_id": "MN-SC-2026-1463553",
   "skill_id": "mn-awmcp-agoragenticintegrati",
   "skill_name": "agoragentic-integrations",
-  "issued_at": "2026-10-11T06:53:09.773Z",
-  "expires_at": "2026-10-18T06:53:09.773Z",
+  "issued_at": "2026-10-18T05:31:03.553Z",
+  "expires_at": "2026-10-25T05:31:03.553Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 6,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ef8184e43b7b05411f66377bc5fe8275c72bff53f13fd30863b5fc9baf12eb36",
+  "signature": "a4e98c813d573b11157f816556b2477212f89020930061aee20bd83e8c60a8f9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-agoragenticintegrati"
 }

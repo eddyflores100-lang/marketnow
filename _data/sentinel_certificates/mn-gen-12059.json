@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1559767",
+  "certificate_id": "MN-SC-2026-1438281",
   "skill_id": "mn-gen-12059",
   "skill_name": "spec-workflow-mcp",
-  "issued_at": "2026-10-11T06:52:39.767Z",
-  "expires_at": "2026-10-18T06:52:39.767Z",
+  "issued_at": "2026-10-18T05:30:38.281Z",
+  "expires_at": "2026-10-25T05:30:38.281Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9809484188bd37034b2d3714090d7e513ca02f57c6a703d27c49e8ecb961bd6b",
+  "signature": "1fa5077ac3df72154a57b56304ed8b69113ccc3ccb13e5e7cbbef353bf489088",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12059"
 }

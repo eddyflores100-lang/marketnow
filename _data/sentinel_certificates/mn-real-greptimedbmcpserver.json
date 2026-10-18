@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1717404",
+  "certificate_id": "MN-SC-2026-1567522",
   "skill_id": "mn-real-greptimedbmcpserver",
   "skill_name": "greptimedb-mcp-server",
-  "issued_at": "2026-10-11T06:55:17.404Z",
-  "expires_at": "2026-10-18T06:55:17.404Z",
+  "issued_at": "2026-10-18T05:32:47.522Z",
+  "expires_at": "2026-10-25T05:32:47.522Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4dbb535ef4a1ffd67cf7618eabdf38a0923374c9ed0ee7ab2208f0866f0815f1",
+  "signature": "15f3d24aed9edde1c126412a5642cebfed71583bd86a92ecbbe2609cf136abd7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-greptimedbmcpserver"
 }

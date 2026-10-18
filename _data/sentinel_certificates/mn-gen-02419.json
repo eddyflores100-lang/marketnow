@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1462993",
+  "certificate_id": "MN-SC-2026-1362376",
   "skill_id": "mn-gen-02419",
   "skill_name": "mcp-clickhouse",
-  "issued_at": "2026-10-11T06:51:02.993Z",
-  "expires_at": "2026-10-18T06:51:02.993Z",
+  "issued_at": "2026-10-18T05:29:22.376Z",
+  "expires_at": "2026-10-25T05:29:22.376Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7cd9d3fcc92663b9460ea573c20744152717b9118e0ff993d8ba211e343c91b2",
+  "signature": "28f22c230b5241572dcdc7b1d8969e6958bb9ab6c52f8c0b408e6e15db8f7e4c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02419"
 }

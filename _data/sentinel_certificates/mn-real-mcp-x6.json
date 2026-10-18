@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1702051",
+  "certificate_id": "MN-SC-2026-1555652",
   "skill_id": "mn-real-mcp-x6",
   "skill_name": "mcp",
-  "issued_at": "2026-10-11T06:55:02.051Z",
-  "expires_at": "2026-10-18T06:55:02.051Z",
+  "issued_at": "2026-10-18T05:32:35.652Z",
+  "expires_at": "2026-10-25T05:32:35.652Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e35d730d8f87bdc8694f06b9467a77e715c11f86fadbf4ad367c5e965aa7f0a6",
+  "signature": "480566e6700ed0b09fbf71cc5983ac1e998ecac6b319cd9fcd94b758cb2eff72",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcp-x6"
 }

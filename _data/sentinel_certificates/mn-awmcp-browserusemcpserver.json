@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1630600",
+  "certificate_id": "MN-SC-2026-1498889",
   "skill_id": "mn-awmcp-browserusemcpserver",
   "skill_name": "browser-use-mcp-server",
-  "issued_at": "2026-10-11T06:53:50.600Z",
-  "expires_at": "2026-10-18T06:53:50.600Z",
+  "issued_at": "2026-10-18T05:31:38.889Z",
+  "expires_at": "2026-10-25T05:31:38.889Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fcf68c9597671325ec4b963016726887cbf281b868b32174edc7cbb3f14ff469",
+  "signature": "17c7724b6e9460b1a898f411d247c0344323004cd57d4073a7fd8b764293bb5e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-browserusemcpserver"
 }

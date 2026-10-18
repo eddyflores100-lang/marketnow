@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1830667",
+  "certificate_id": "MN-SC-2026-1663838",
   "skill_id": "mn-real-hypernattterminal",
   "skill_name": "hypernatt-terminal",
-  "issued_at": "2026-10-11T06:57:10.667Z",
-  "expires_at": "2026-10-18T06:57:10.667Z",
+  "issued_at": "2026-10-18T05:34:23.838Z",
+  "expires_at": "2026-10-25T05:34:23.838Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a91a3b9e19cc9725bc42e3c4234cb669ad6872c48b922864b0dd1d3c92aa1ee7",
+  "signature": "9b068e8f5449d387ae6ecae1653fd698e558b57eb9fdbaa3d579a1cc777aabfb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-hypernattterminal"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1879154",
+  "certificate_id": "MN-SC-2026-1707178",
   "skill_id": "mn-real-hipocampo",
   "skill_name": "hipocampo",
-  "issued_at": "2026-10-11T06:57:59.154Z",
-  "expires_at": "2026-10-18T06:57:59.154Z",
+  "issued_at": "2026-10-18T05:35:07.178Z",
+  "expires_at": "2026-10-25T05:35:07.178Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2cee37ed96719ff9b13cab07a82e13185ed1ca74873ff593cb859980320f7978",
+  "signature": "d25b8f954f6b4aea39ad69eed36d7d0153033b78c0e9219a2eca505c061fa691",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-hipocampo"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1735793",
+  "certificate_id": "MN-SC-2026-1583149",
   "skill_id": "mn-real-briefkitmcpserver",
   "skill_name": "briefkit-mcp-server",
-  "issued_at": "2026-10-11T06:55:35.793Z",
-  "expires_at": "2026-10-18T06:55:35.793Z",
+  "issued_at": "2026-10-18T05:33:03.149Z",
+  "expires_at": "2026-10-25T05:33:03.149Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ac732225ea0be1e1c1b908819766eb1658728274a171b82be499aeb7a769206c",
+  "signature": "8981b2ca2c7090073d9b497c41f2861ac050ce253a6ac1f41f7b569d7a7cae51",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-briefkitmcpserver"
 }

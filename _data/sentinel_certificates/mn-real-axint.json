@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1734706",
+  "certificate_id": "MN-SC-2026-1582406",
   "skill_id": "mn-real-axint",
   "skill_name": "axint",
-  "issued_at": "2026-10-11T06:55:34.706Z",
-  "expires_at": "2026-10-18T06:55:34.706Z",
+  "issued_at": "2026-10-18T05:33:02.406Z",
+  "expires_at": "2026-10-25T05:33:02.406Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d2f1746d4f6b8269027110d50f6a25ba114e3eec500a2411479afd41159ced11",
+  "signature": "15632a64ba016893828201f44ca849a7515b7c4d4fff8dfadf6ad0c46e2ce1d9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-axint"
 }

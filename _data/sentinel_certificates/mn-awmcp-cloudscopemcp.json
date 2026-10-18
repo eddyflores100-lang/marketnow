@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1645730",
+  "certificate_id": "MN-SC-2026-1512032",
   "skill_id": "mn-awmcp-cloudscopemcp",
   "skill_name": "cloudscope-mcp",
-  "issued_at": "2026-10-11T06:54:05.730Z",
-  "expires_at": "2026-10-18T06:54:05.730Z",
+  "issued_at": "2026-10-18T05:31:52.032Z",
+  "expires_at": "2026-10-25T05:31:52.032Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "68f9008f370a7296bc7978ee531006374731eefb5584b59ea040e5f1f68cb630",
+  "signature": "188a45cbd2949d34b2fdc746da82bbdf6efa3de54218ccfd90ab3d74d6a318eb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-cloudscopemcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1866317",
+  "certificate_id": "MN-SC-2026-1695609",
   "skill_id": "mn-real-mcpbizhawk",
   "skill_name": "mcp-bizhawk",
-  "issued_at": "2026-10-11T06:57:46.317Z",
-  "expires_at": "2026-10-18T06:57:46.317Z",
+  "issued_at": "2026-10-18T05:34:55.609Z",
+  "expires_at": "2026-10-25T05:34:55.609Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d7b510abda9f80215783658bc5ddcc1703049afc2499f9ef1ab6d234bc7c78c0",
+  "signature": "768323ca16aacd94fa2c3a8f0e1674e64e0b2795cf53e68fdee8fba2a9dac60d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpbizhawk"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1614575",
+  "certificate_id": "MN-SC-2026-1484754",
   "skill_id": "mn-awmcp-metmuseummcp",
   "skill_name": "metmuseum-mcp",
-  "issued_at": "2026-10-11T06:53:34.575Z",
-  "expires_at": "2026-10-18T06:53:34.575Z",
+  "issued_at": "2026-10-18T05:31:24.754Z",
+  "expires_at": "2026-10-25T05:31:24.754Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e42641c575bad827660cecf5fd478317c94547941b7f0eac1c996c08fb60b645",
+  "signature": "74b6df883d96d994dca99215fe4be4baaed2b12752f5167c67bbc7782bcb2e5f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-metmuseummcp"
 }

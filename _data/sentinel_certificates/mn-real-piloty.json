@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1786242",
+  "certificate_id": "MN-SC-2026-1625281",
   "skill_id": "mn-real-piloty",
   "skill_name": "PiloTY",
-  "issued_at": "2026-10-11T06:56:26.242Z",
-  "expires_at": "2026-10-18T06:56:26.242Z",
+  "issued_at": "2026-10-18T05:33:45.281Z",
+  "expires_at": "2026-10-25T05:33:45.281Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1aa04e1b278007c7e764467d2651c75bc048134e7468a93f7508b601a9a5ba1b",
+  "signature": "38e0d1a7ba5e516cfe10ab9369b4ebebf3d422e78febcac13ac386a7e74283e2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-piloty"
 }

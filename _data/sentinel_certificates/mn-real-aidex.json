@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1740359",
+  "certificate_id": "MN-SC-2026-1586753",
   "skill_id": "mn-real-aidex",
   "skill_name": "AiDex",
-  "issued_at": "2026-10-11T06:55:40.359Z",
-  "expires_at": "2026-10-18T06:55:40.359Z",
+  "issued_at": "2026-10-18T05:33:06.753Z",
+  "expires_at": "2026-10-25T05:33:06.753Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c66b903649a5e8629cdf1f8efe403e99f594ee10e96557ca5b26cec7720186b3",
+  "signature": "0c45a83b7bf8442b4359b6815c43d56783ccadb86d9d684bb64ed5f42cca69b4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-aidex"
 }

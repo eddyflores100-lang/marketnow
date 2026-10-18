@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1778068",
+  "certificate_id": "MN-SC-2026-1617772",
   "skill_id": "mn-real-srclight",
   "skill_name": "srclight",
-  "issued_at": "2026-10-11T06:56:18.068Z",
-  "expires_at": "2026-10-18T06:56:18.068Z",
+  "issued_at": "2026-10-18T05:33:37.772Z",
+  "expires_at": "2026-10-25T05:33:37.772Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4608efd5d342a962a3a852e0fec4a7e964a35b38292e4a3d6de3e29ce3c03d61",
+  "signature": "c51d6c2985d412e3851e3bb1acb6d081c37a051a94ddc6749f42ecddb7af3204",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-srclight"
 }

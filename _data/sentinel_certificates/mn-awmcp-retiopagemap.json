@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1640514",
+  "certificate_id": "MN-SC-2026-1507762",
   "skill_id": "mn-awmcp-retiopagemap",
   "skill_name": "Retio-pagemap",
-  "issued_at": "2026-10-11T06:54:00.514Z",
-  "expires_at": "2026-10-18T06:54:00.514Z",
+  "issued_at": "2026-10-18T05:31:47.762Z",
+  "expires_at": "2026-10-25T05:31:47.762Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "45b464a066be0f02fd01ab4b242a5f64f548577e3c66fa640629a988808a6626",
+  "signature": "0017baf927e252a38118b363ce38cba8523926f93e48e955e9a16bc456be9f8b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-retiopagemap"
 }

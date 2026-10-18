@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1690490",
+  "certificate_id": "MN-SC-2026-1546867",
   "skill_id": "mn-awmcp-clawaimail",
   "skill_name": "clawaimail",
-  "issued_at": "2026-10-11T06:54:50.490Z",
-  "expires_at": "2026-10-18T06:54:50.490Z",
+  "issued_at": "2026-10-18T05:32:26.867Z",
+  "expires_at": "2026-10-25T05:32:26.867Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "850949273c8477a2e7bb01f4dbcfee8cbf5c9ee85ccf62ee64b7e96011c3bf3b",
+  "signature": "a8e97b2620dd3a66c64ea2260a6b4f235146ac754a6d67739181120aee2bcdd1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-clawaimail"
 }

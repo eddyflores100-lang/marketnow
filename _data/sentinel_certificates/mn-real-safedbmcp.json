@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1722075",
+  "certificate_id": "MN-SC-2026-1571375",
   "skill_id": "mn-real-safedbmcp",
   "skill_name": "safedb-mcp",
-  "issued_at": "2026-10-11T06:55:22.075Z",
-  "expires_at": "2026-10-18T06:55:22.075Z",
+  "issued_at": "2026-10-18T05:32:51.375Z",
+  "expires_at": "2026-10-25T05:32:51.375Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b3666bff57d8d80e1174fb6cd3731ed1023676d0b0248a18887872d2e88bf3c6",
+  "signature": "046a4cb8c6ba103b6d5a32321166cb4d115c9c918d9dfda4174e1a63b6b5a225",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-safedbmcp"
 }

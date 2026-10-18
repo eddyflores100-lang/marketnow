@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1457176",
+  "certificate_id": "MN-SC-2026-1357546",
   "skill_id": "mn-gen-01668",
   "skill_name": "caldav-mcp",
-  "issued_at": "2026-10-11T06:50:57.176Z",
-  "expires_at": "2026-10-18T06:50:57.176Z",
+  "issued_at": "2026-10-18T05:29:17.546Z",
+  "expires_at": "2026-10-25T05:29:17.546Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "75cd934c09b09c60ccf5402b1cf6b4a67925c2363ed5076e295f7bd0729f6311",
+  "signature": "109732a39c3e501f36b9cb7c526ebdecd476fca3ae9dbe3b46d4cf9b8ca1e8d9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01668"
 }

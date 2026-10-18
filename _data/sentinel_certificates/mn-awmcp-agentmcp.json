@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1679028",
+  "certificate_id": "MN-SC-2026-1538468",
   "skill_id": "mn-awmcp-agentmcp",
   "skill_name": "Agent-MCP",
-  "issued_at": "2026-10-11T06:54:39.028Z",
-  "expires_at": "2026-10-18T06:54:39.028Z",
+  "issued_at": "2026-10-18T05:32:18.468Z",
+  "expires_at": "2026-10-25T05:32:18.468Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3890590290bb05b190be5bc1e0f6454663051941149626149c3ae2e9296dd6bf",
+  "signature": "9fcee84e85026270401c079108a236ea7f7b7454ea33237a3acd2a2a8b819cea",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-agentmcp"
 }

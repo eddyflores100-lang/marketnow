@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1794547",
+  "certificate_id": "MN-SC-2026-1631859",
   "skill_id": "mn-real-filtermcpserver",
   "skill_name": "filter-mcp-server",
-  "issued_at": "2026-10-11T06:56:34.547Z",
-  "expires_at": "2026-10-18T06:56:34.547Z",
+  "issued_at": "2026-10-18T05:33:51.859Z",
+  "expires_at": "2026-10-25T05:33:51.859Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8e9a6ad76b42f0693f86200e69cb841aa5cda7910579cf1656cc234c1f8b5723",
+  "signature": "2d8d697bb6bb6699cb2b914f1287e76d3bcef27cede5277e1942a198362361db",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-filtermcpserver"
 }

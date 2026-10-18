@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1761838",
+  "certificate_id": "MN-SC-2026-1605349",
   "skill_id": "mn-real-devdocsmcp",
   "skill_name": "DevDocs-MCP",
-  "issued_at": "2026-10-11T06:56:01.838Z",
-  "expires_at": "2026-10-18T06:56:01.838Z",
+  "issued_at": "2026-10-18T05:33:25.349Z",
+  "expires_at": "2026-10-25T05:33:25.349Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "39f2a652a525fb167b4cffd2ff8addf7c5a5d642519ef5d37d961634c11de5f9",
+  "signature": "d70958d9baedc7f9d252719b477bfdc366423eb202c73e89c340a9db71ea0a58",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-devdocsmcp"
 }

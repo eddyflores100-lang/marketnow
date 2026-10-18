@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1655890",
+  "certificate_id": "MN-SC-2026-1520235",
   "skill_id": "mn-awmcp-odooclaudemcp",
   "skill_name": "odoo-claude-mcp",
-  "issued_at": "2026-10-11T06:54:15.890Z",
-  "expires_at": "2026-10-18T06:54:15.890Z",
+  "issued_at": "2026-10-18T05:32:00.235Z",
+  "expires_at": "2026-10-25T05:32:00.235Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "180310e436c2ed72801e5e4e80f173c4cfcccb94874e0b7c7ad80e1e49f9c18c",
+  "signature": "c9b3c2ef75bc77a6213c13d71d57eb954bc68815dee31031acef95ce5e605f5e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-odooclaudemcp"
 }

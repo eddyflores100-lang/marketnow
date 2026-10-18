@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1699277",
+  "certificate_id": "MN-SC-2026-1553454",
   "skill_id": "mn-real-pmcp",
   "skill_name": "pmcp",
-  "issued_at": "2026-10-11T06:54:59.277Z",
-  "expires_at": "2026-10-18T06:54:59.277Z",
+  "issued_at": "2026-10-18T05:32:33.454Z",
+  "expires_at": "2026-10-25T05:32:33.454Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2d8c9c3092408b67029dfb3e98b8ea24712ea269f31531f0f583d895ec09e2e2",
+  "signature": "7352bdeab8ba2114756fbdbb455a599db8a276432386b6ff621cd953b7011a0f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-pmcp"
 }

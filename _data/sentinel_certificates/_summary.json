@@ -1,11 +1,13 @@
 {
-  "generated_at": "2026-10-17T08:07:12.362Z",
+  "generated_at": "2026-10-18T05:35:24.775Z",
   "total_certified": 77183,
+  "total_failed": 0,
   "by_risk": {
     "low": 7,
     "medium": 76754,
     "high": 391,
-    "critical": 31
+    "critical": 31,
+    "unknown": 0
   },
   "by_score": {
     "0": 18,
@@ -19,5 +21,8 @@
     "8": 7003,
     "9": 67352,
     "10": 7
-  }
+  },
+  "with_l2": 290,
+  "artifact_bound": 54,
+  "l2_coverage_pct": "0.38%"
 }

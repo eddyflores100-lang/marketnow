@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1849415",
+  "certificate_id": "MN-SC-2026-1681792",
   "skill_id": "mn-real-mylinedchartmcpchart",
   "skill_name": "mylinedchart-mcp-chart-context",
-  "issued_at": "2026-10-11T06:57:29.415Z",
-  "expires_at": "2026-10-18T06:57:29.415Z",
+  "issued_at": "2026-10-18T05:34:41.792Z",
+  "expires_at": "2026-10-25T05:34:41.792Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ccded4ede20170abbd3b3d90af1b0947b40b4fbad6a2d244d930a821a0904828",
+  "signature": "7860efd6bc3c4a6b135673c78e129d519e1501eee71427e2417ee527d8144758",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mylinedchartmcpchart"
 }

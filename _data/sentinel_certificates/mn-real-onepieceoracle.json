@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1869095",
+  "certificate_id": "MN-SC-2026-1698126",
   "skill_id": "mn-real-onepieceoracle",
   "skill_name": "onepiece-oracle",
-  "issued_at": "2026-10-11T06:57:49.095Z",
-  "expires_at": "2026-10-18T06:57:49.095Z",
+  "issued_at": "2026-10-18T05:34:58.126Z",
+  "expires_at": "2026-10-25T05:34:58.126Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d2220cd6eaa3f8899b59369b5548debbe186619d2ba48e5fa15ce1acd82386c4",
+  "signature": "cfd5c273bd1e69e05f7e39e3df8b08561597ff2ca44cc0ff829c9637ca6847ec",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-onepieceoracle"
 }

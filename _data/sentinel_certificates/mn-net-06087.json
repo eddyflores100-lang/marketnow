@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1504543",
+  "certificate_id": "MN-SC-2026-1394360",
   "skill_id": "mn-net-06087",
   "skill_name": "markdownify-mcp",
-  "issued_at": "2026-10-11T06:51:44.543Z",
-  "expires_at": "2026-10-18T06:51:44.543Z",
+  "issued_at": "2026-10-18T05:29:54.360Z",
+  "expires_at": "2026-10-25T05:29:54.360Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5c1c5823d861cec14230079237325f6ddc14c54568a2315f575b7493e5acebaf",
+  "signature": "a5996bb86ded9a92962c0795029053cfc7982781f483300b0365cf03e3d44128",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-net-06087"
 }

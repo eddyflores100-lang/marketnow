@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1727067",
+  "certificate_id": "MN-SC-2026-1575706",
   "skill_id": "mn-real-alkemimcp",
   "skill_name": "alkemi-mcp",
-  "issued_at": "2026-10-11T06:55:27.067Z",
-  "expires_at": "2026-10-18T06:55:27.067Z",
+  "issued_at": "2026-10-18T05:32:55.706Z",
+  "expires_at": "2026-10-25T05:32:55.706Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6cccc61809288dc7c66c4785c35f829eb847d71c2c3ec8c098c94de04a3d2ece",
+  "signature": "238609d6ab24ec957857467c2c8907739451381d82b02016295a6e04b3957641",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-alkemimcp"
 }

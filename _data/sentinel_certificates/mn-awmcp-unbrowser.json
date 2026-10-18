@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1639578",
+  "certificate_id": "MN-SC-2026-1506822",
   "skill_id": "mn-awmcp-unbrowser",
   "skill_name": "unbrowser",
-  "issued_at": "2026-10-11T06:53:59.578Z",
-  "expires_at": "2026-10-18T06:53:59.578Z",
+  "issued_at": "2026-10-18T05:31:46.822Z",
+  "expires_at": "2026-10-25T05:31:46.822Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "88f23a7acc1b60b389ea03269a0770036151fa2bf50edddc0ab22d3c513992ae",
+  "signature": "10aa13a57a57edc196db470422e701ab6d1f97904dbc01c000919852d9573e26",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-unbrowser"
 }

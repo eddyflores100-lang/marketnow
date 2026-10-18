@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1492899",
+  "certificate_id": "MN-SC-2026-1385233",
   "skill_id": "mn-gen-04812",
   "skill_name": "hackmd-mcp",
-  "issued_at": "2026-10-11T06:51:32.899Z",
-  "expires_at": "2026-10-18T06:51:32.899Z",
+  "issued_at": "2026-10-18T05:29:45.233Z",
+  "expires_at": "2026-10-25T05:29:45.233Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 7,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cdfcb45bd36d8d50553b32a916f36225c27a588596a5f5b452362b57d76a5acf",
+  "signature": "1c61e5e5d02f9a50f7dcb7f6e9e201e61f76ea83120449291997d2c60cf43032",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04812"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1858043",
+  "certificate_id": "MN-SC-2026-1688848",
   "skill_id": "mn-real-supplymavenmcpserver",
   "skill_name": "supplymaven-mcp-server",
-  "issued_at": "2026-10-11T06:57:38.043Z",
-  "expires_at": "2026-10-18T06:57:38.043Z",
+  "issued_at": "2026-10-18T05:34:48.848Z",
+  "expires_at": "2026-10-25T05:34:48.848Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "14e60f5cb6be1bc4fef5574e4b4c32031a467e963f64dc015d0d1a88ce816332",
+  "signature": "888e784372e508fa5aeb1965649d89e962b1c7798f4c9dc0e694968ddfbda232",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-supplymavenmcpserver"
 }

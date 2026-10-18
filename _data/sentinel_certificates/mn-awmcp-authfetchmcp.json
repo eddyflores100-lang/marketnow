@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1642680",
+  "certificate_id": "MN-SC-2026-1509612",
   "skill_id": "mn-awmcp-authfetchmcp",
   "skill_name": "auth-fetch-mcp",
-  "issued_at": "2026-10-11T06:54:02.680Z",
-  "expires_at": "2026-10-18T06:54:02.680Z",
+  "issued_at": "2026-10-18T05:31:49.612Z",
+  "expires_at": "2026-10-25T05:31:49.612Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 4,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "174d01faa7ff8601240bfcc5298bf9deecc551fdde8bbbb0096cb47af57e3a6a",
+  "signature": "3cf3903142053ce5e07923f3575db781bfbc804f4ce8d91dbf3412b003711b31",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-authfetchmcp"
 }

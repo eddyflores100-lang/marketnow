@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1782541",
+  "certificate_id": "MN-SC-2026-1622078",
   "skill_id": "mn-real-veris",
   "skill_name": "Veris",
-  "issued_at": "2026-10-11T06:56:22.541Z",
-  "expires_at": "2026-10-18T06:56:22.541Z",
+  "issued_at": "2026-10-18T05:33:42.078Z",
+  "expires_at": "2026-10-25T05:33:42.078Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6e656c51b3ae20072d74545f4d0d224799cc7c81bb338a7fd3d220b51b89e0b5",
+  "signature": "6b3475ff43f96b2ed7c3918cdac5f683b1c8b5461c277da94b352e037ba7ca8a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-veris"
 }

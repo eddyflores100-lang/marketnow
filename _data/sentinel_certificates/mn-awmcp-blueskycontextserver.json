@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1698764",
+  "certificate_id": "MN-SC-2026-1553075",
   "skill_id": "mn-awmcp-blueskycontextserver",
   "skill_name": "bluesky-context-server",
-  "issued_at": "2026-10-11T06:54:58.764Z",
-  "expires_at": "2026-10-18T06:54:58.764Z",
+  "issued_at": "2026-10-18T05:32:33.075Z",
+  "expires_at": "2026-10-25T05:32:33.075Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5961d7c81447e3d5c0238ef19901c1c66d92384a209403edf3eb39f9c683e4c4",
+  "signature": "cb93d9995e39bcdde7937750316de4d3b9d6bddeb8be0f4845cc0578dfd335ff",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-blueskycontextserver"
 }

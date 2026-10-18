@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1833415",
+  "certificate_id": "MN-SC-2026-1666780",
   "skill_id": "mn-real-invinoveritas",
   "skill_name": "invinoveritas",
-  "issued_at": "2026-10-11T06:57:13.415Z",
-  "expires_at": "2026-10-18T06:57:13.415Z",
+  "issued_at": "2026-10-18T05:34:26.780Z",
+  "expires_at": "2026-10-25T05:34:26.780Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e4e58908a13de13ae3309101dbdc28ec794c5b7fce6b7d71a57369a51e12ad30",
+  "signature": "24ae7bdbdc3b7c86a205b89333f28a00ced71b3844ddbacee0a3d9a8df043a8d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-invinoveritas"
 }

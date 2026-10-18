@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1615821",
+  "certificate_id": "MN-SC-2026-1485523",
   "skill_id": "mn-awmcp-tdmcp",
   "skill_name": "tdmcp",
-  "issued_at": "2026-10-11T06:53:35.821Z",
-  "expires_at": "2026-10-18T06:53:35.821Z",
+  "issued_at": "2026-10-18T05:31:25.523Z",
+  "expires_at": "2026-10-25T05:31:25.523Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 6,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a14b8d5103975878e994326a7617b9a333bb0a3f890c05edff846b3f12b0f150",
+  "signature": "679c53c820427267d57971e1ba5bcc9ede8c218448ab1988efa2eee37bde77a9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-tdmcp"
 }

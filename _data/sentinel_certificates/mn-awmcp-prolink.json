@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1592051",
+  "certificate_id": "MN-SC-2026-1465508",
   "skill_id": "mn-awmcp-prolink",
   "skill_name": "prolink",
-  "issued_at": "2026-10-11T06:53:12.051Z",
-  "expires_at": "2026-10-18T06:53:12.051Z",
+  "issued_at": "2026-10-18T05:31:05.508Z",
+  "expires_at": "2026-10-25T05:31:05.508Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "848567822e0fe6a8ec4a02d8af21d684589f8b4e8eb9a36322b4750d02424dd1",
+  "signature": "a4fb30314bf95b6eb7e079bb83c957d5e6fefbcf93104d2b3a0f00d55e421072",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-prolink"
 }

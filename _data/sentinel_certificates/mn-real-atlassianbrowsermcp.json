@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1739128",
+  "certificate_id": "MN-SC-2026-1585914",
   "skill_id": "mn-real-atlassianbrowsermcp",
   "skill_name": "atlassian-browser-mcp",
-  "issued_at": "2026-10-11T06:55:39.128Z",
-  "expires_at": "2026-10-18T06:55:39.128Z",
+  "issued_at": "2026-10-18T05:33:05.914Z",
+  "expires_at": "2026-10-25T05:33:05.914Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "43b4c13b41ae348bb74075bb7278eac8a604fd5cd623603e86d35b06af81f7c5",
+  "signature": "55668e47338b036488932a825650536b45d41e67cd229884f3ae9a215a3e1f59",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-atlassianbrowsermcp"
 }

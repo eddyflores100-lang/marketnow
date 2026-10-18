@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1871753",
+  "certificate_id": "MN-SC-2026-1700430",
   "skill_id": "mn-real-opggmcp",
   "skill_name": "opgg-mcp",
-  "issued_at": "2026-10-11T06:57:51.753Z",
-  "expires_at": "2026-10-18T06:57:51.753Z",
+  "issued_at": "2026-10-18T05:35:00.430Z",
+  "expires_at": "2026-10-25T05:35:00.430Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6a2458571fab51ae84198fd4fcf8ecfc5eef88c1131400a2ce04f3a6fd96878b",
+  "signature": "497d565b8dc17debf064edb56be569b7015cd32635f471df3ae8ec626f214690",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-opggmcp"
 }

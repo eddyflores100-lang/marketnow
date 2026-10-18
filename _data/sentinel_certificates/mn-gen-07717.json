@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1522019",
+  "certificate_id": "MN-SC-2026-1409341",
   "skill_id": "mn-gen-07717",
   "skill_name": "mcp-server-logs-sieve",
-  "issued_at": "2026-10-11T06:52:02.019Z",
-  "expires_at": "2026-10-18T06:52:02.019Z",
+  "issued_at": "2026-10-18T05:30:09.341Z",
+  "expires_at": "2026-10-25T05:30:09.341Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0a2f8c1837d573c07b521d2162f0ce600fe44392d806792a80a513183f5fa74c",
+  "signature": "7a96cc5791755dcd7745c1363bc7df8ca12fe49dfe63c2061163fb4e24964cdd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07717"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1717684",
+  "certificate_id": "MN-SC-2026-1567724",
   "skill_id": "mn-real-mcphydrolix",
   "skill_name": "mcp-hydrolix",
-  "issued_at": "2026-10-11T06:55:17.684Z",
-  "expires_at": "2026-10-18T06:55:17.684Z",
+  "issued_at": "2026-10-18T05:32:47.724Z",
+  "expires_at": "2026-10-25T05:32:47.724Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fb07c694f94c5b1c1e3bed6ee4c62705c9670309cfde372eeb7abd785f57f3b3",
+  "signature": "afb2149cedde37f8b289ddabbc77dda9c6177e2b8714674dc248cabed805c156",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcphydrolix"
 }

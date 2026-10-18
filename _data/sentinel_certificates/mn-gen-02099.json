@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1460297",
+  "certificate_id": "MN-SC-2026-1360064",
   "skill_id": "mn-gen-02099",
   "skill_name": "claude-debugs-for-you",
-  "issued_at": "2026-10-11T06:51:00.297Z",
-  "expires_at": "2026-10-18T06:51:00.297Z",
+  "issued_at": "2026-10-18T05:29:20.064Z",
+  "expires_at": "2026-10-25T05:29:20.064Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "53bdedbf74d48789f0393efa05320a0626d455b3a1b39d14733cf3b2fefe1687",
+  "signature": "3c88877c03f4e6f0c217a46336547e7a74218fcda8d2c2131eaed725fe229758",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02099"
 }

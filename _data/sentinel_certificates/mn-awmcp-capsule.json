@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1663670",
+  "certificate_id": "MN-SC-2026-1526295",
   "skill_id": "mn-awmcp-capsule",
   "skill_name": "capsule",
-  "issued_at": "2026-10-11T06:54:23.670Z",
-  "expires_at": "2026-10-18T06:54:23.670Z",
+  "issued_at": "2026-10-18T05:32:06.295Z",
+  "expires_at": "2026-10-25T05:32:06.295Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3c3499eb44232659efbd2a9c82c056392162ea955f0a2ebdf95dfcd2b832ad8f",
+  "signature": "4ba88179a72dd54a5875183feebaf6a279cd91a60b554b19edaabb7226313d02",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-capsule"
 }

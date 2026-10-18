@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1869666",
+  "certificate_id": "MN-SC-2026-1698669",
   "skill_id": "mn-real-warhammeroracle",
   "skill_name": "warhammer-oracle",
-  "issued_at": "2026-10-11T06:57:49.666Z",
-  "expires_at": "2026-10-18T06:57:49.666Z",
+  "issued_at": "2026-10-18T05:34:58.669Z",
+  "expires_at": "2026-10-25T05:34:58.669Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ab7cc1145cb8f35add2077cc693f4c5588f1163b9f539406a3bd2cf15094ffbe",
+  "signature": "cff9875d0451cce70393e9b5ddd7a719cf475749916e0fcca35f98bcdc9e5017",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-warhammeroracle"
 }

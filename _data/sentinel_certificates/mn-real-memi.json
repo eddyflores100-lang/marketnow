@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1776053",
+  "certificate_id": "MN-SC-2026-1616094",
   "skill_id": "mn-real-memi",
   "skill_name": "memi",
-  "issued_at": "2026-10-11T06:56:16.053Z",
-  "expires_at": "2026-10-18T06:56:16.053Z",
+  "issued_at": "2026-10-18T05:33:36.094Z",
+  "expires_at": "2026-10-25T05:33:36.094Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5eaaa6d5629ae2bfb47efc4189543fa3b8ac0bbda4a80b63883e96b277d2996b",
+  "signature": "8d81f46b9fe6657c68a2577217ed54328c74f0e7a2b5519778c24c85257a0774",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-memi"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1534444",
+  "certificate_id": "MN-SC-2026-1418007",
   "skill_id": "mn-gen-09097",
   "skill_name": "mistral-mcp",
-  "issued_at": "2026-10-11T06:52:14.444Z",
-  "expires_at": "2026-10-18T06:52:14.444Z",
+  "issued_at": "2026-10-18T05:30:18.007Z",
+  "expires_at": "2026-10-25T05:30:18.007Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cd875a1a94872ed51d1065b050977c1b004adfdbc07576f3501a2b4757495767",
+  "signature": "b592928cd47ef7d7b6de9dbb2e572e11f58fa2c1701dd3bb1573d8a75fbeafa8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09097"
 }

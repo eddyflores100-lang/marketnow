@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1473095",
+  "certificate_id": "MN-SC-2026-1369311",
   "skill_id": "mn-gen-03183",
   "skill_name": "deeplook",
-  "issued_at": "2026-10-11T06:51:13.095Z",
-  "expires_at": "2026-10-18T06:51:13.095Z",
+  "issued_at": "2026-10-18T05:29:29.311Z",
+  "expires_at": "2026-10-25T05:29:29.311Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e9c0a0f935b12f4b5532d0a5fddb60ab6e472a9521e2111f33d591cfcbb5a2f4",
+  "signature": "63978ccbe923c611dc696b48614132014631dedb0f0e80e10541cd7c9bab3b49",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03183"
 }

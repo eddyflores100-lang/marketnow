@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1751828",
+  "certificate_id": "MN-SC-2026-1596713",
   "skill_id": "mn-real-mcpdesignsystemextra",
   "skill_name": "mcp-design-system-extractor",
-  "issued_at": "2026-10-11T06:55:51.828Z",
-  "expires_at": "2026-10-18T06:55:51.828Z",
+  "issued_at": "2026-10-18T05:33:16.713Z",
+  "expires_at": "2026-10-25T05:33:16.713Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2362eacd856081060816d264bc36a0dc1c1b0a425d49824f89199c527b2f6951",
+  "signature": "73de1449b8d665bc45aa5fc1a83143438664ec376b5280dec786132809b4d9c6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpdesignsystemextra"
 }

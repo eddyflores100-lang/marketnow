@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1559029",
+  "certificate_id": "MN-SC-2026-1437723",
   "skill_id": "mn-gen-12013",
   "skill_name": "Upsonic",
-  "issued_at": "2026-10-11T06:52:39.029Z",
-  "expires_at": "2026-10-18T06:52:39.029Z",
+  "issued_at": "2026-10-18T05:30:37.723Z",
+  "expires_at": "2026-10-25T05:30:37.723Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fb5a045729d104d522095cc1c9e847cccc2286130302a64297670426b1d98748",
+  "signature": "fe60dda696dc2bf56d2f3983718f19edfc1ca2658feba46f32552beb6c4bcec1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12013"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1682040",
+  "certificate_id": "MN-SC-2026-1540386",
   "skill_id": "mn-awmcp-developer",
   "skill_name": "developer",
-  "issued_at": "2026-10-11T06:54:42.040Z",
-  "expires_at": "2026-10-18T06:54:42.040Z",
+  "issued_at": "2026-10-18T05:32:20.386Z",
+  "expires_at": "2026-10-25T05:32:20.386Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "aea9cf19da3a31fdc0ae65ebb9d0cef6c957bef3e72875b963ebf237e74a66e7",
+  "signature": "6dd13b694d3445da51c314618bd5c675c19fac5aaa02cc26c714062443a70e65",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-developer"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1694622",
+  "certificate_id": "MN-SC-2026-1549933",
   "skill_id": "mn-awmcp-imessagequeryfastmcp",
   "skill_name": "imessage-query-fastmcp-mcp-server",
-  "issued_at": "2026-10-11T06:54:54.622Z",
-  "expires_at": "2026-10-18T06:54:54.622Z",
+  "issued_at": "2026-10-18T05:32:29.933Z",
+  "expires_at": "2026-10-25T05:32:29.933Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6b21bb1bce8a4ed291bc0e63a9706a3c820c1143d332289f3be3e64dcbcf34d6",
+  "signature": "c399cbfe6921185488c415ce5c4b18a22912c9c3a3deed204ea74ae0ef88c457",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-imessagequeryfastmcp"
 }

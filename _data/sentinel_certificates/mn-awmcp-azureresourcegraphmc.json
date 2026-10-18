@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1648867",
+  "certificate_id": "MN-SC-2026-1514420",
   "skill_id": "mn-awmcp-azureresourcegraphmc",
   "skill_name": "azure-resource-graph-mcp-server",
-  "issued_at": "2026-10-11T06:54:08.867Z",
-  "expires_at": "2026-10-18T06:54:08.867Z",
+  "issued_at": "2026-10-18T05:31:54.420Z",
+  "expires_at": "2026-10-25T05:31:54.420Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c4ef2dee2e2ef1828740d193d0068a9a92b5094adba966ae565b1586ab1f8fd6",
+  "signature": "328888950df863bb113a6ac811faa523fe3f2177db0e1f24091b5e9cdfee4751",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-azureresourcegraphmc"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1828853",
+  "certificate_id": "MN-SC-2026-1662126",
   "skill_id": "mn-real-gblinmcp",
   "skill_name": "GBLIN-MCP",
-  "issued_at": "2026-10-11T06:57:08.853Z",
-  "expires_at": "2026-10-18T06:57:08.853Z",
+  "issued_at": "2026-10-18T05:34:22.126Z",
+  "expires_at": "2026-10-25T05:34:22.126Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "87b2984e9152969426e3d437218401aee267e4adf6159e4fc10dee0016013e12",
+  "signature": "ce024b233f15c0c984ebe5ef3770a07d51ba62570fcb8f96d2e05eae16559027",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-gblinmcp"
 }

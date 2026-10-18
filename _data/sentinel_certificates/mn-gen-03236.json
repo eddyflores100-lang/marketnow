@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1473375",
+  "certificate_id": "MN-SC-2026-1369526",
   "skill_id": "mn-gen-03236",
   "skill_name": "deploy-mcp",
-  "issued_at": "2026-10-11T06:51:13.375Z",
-  "expires_at": "2026-10-18T06:51:13.375Z",
+  "issued_at": "2026-10-18T05:29:29.526Z",
+  "expires_at": "2026-10-25T05:29:29.526Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "17f69fa6249bf5d369a624d902fbd16c378e832df7e1c6c410910df518a18708",
+  "signature": "e0b0908e973466764486ce724cc2f48e3442c4d90a86d6f28eb1032dc933f982",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03236"
 }

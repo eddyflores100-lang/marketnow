@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1588862",
+  "certificate_id": "MN-SC-2026-1462734",
   "skill_id": "mn-awmcp-agenthotspotmcp",
   "skill_name": "agenthotspot-mcp",
-  "issued_at": "2026-10-11T06:53:08.862Z",
-  "expires_at": "2026-10-18T06:53:08.862Z",
+  "issued_at": "2026-10-18T05:31:02.734Z",
+  "expires_at": "2026-10-25T05:31:02.734Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a1606f4a972ae31ad62647ca0d7630b9e78c22f879c356f0d722e1ca2c266733",
+  "signature": "49421243ff16510642a48877036bb0d4d1a62e8cdb41b30de037c96335bbd467",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-agenthotspotmcp"
 }

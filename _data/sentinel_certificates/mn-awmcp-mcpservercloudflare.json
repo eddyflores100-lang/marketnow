@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1646599",
+  "certificate_id": "MN-SC-2026-1512645",
   "skill_id": "mn-awmcp-mcpservercloudflare",
   "skill_name": "mcp-server-cloudflare",
-  "issued_at": "2026-10-11T06:54:06.599Z",
-  "expires_at": "2026-10-18T06:54:06.599Z",
+  "issued_at": "2026-10-18T05:31:52.645Z",
+  "expires_at": "2026-10-25T05:31:52.645Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c3f330ae95258a31ee55b4c53b3f246be0e2ac0b6d4f1f9287a4f8f17b9d4f09",
+  "signature": "bb2c4146cebf35760e0604e5256b60f822d83b22c38980e3959682251d6c3880",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpservercloudflare"
 }

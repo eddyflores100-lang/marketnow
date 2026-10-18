@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1603556",
+  "certificate_id": "MN-SC-2026-1475660",
   "skill_id": "mn-awmcp-pluggedinmcpproxy",
   "skill_name": "pluggedin-mcp-proxy",
-  "issued_at": "2026-10-11T06:53:23.556Z",
-  "expires_at": "2026-10-18T06:53:23.556Z",
+  "issued_at": "2026-10-18T05:31:15.660Z",
+  "expires_at": "2026-10-25T05:31:15.660Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "93c422d7500b848867d817cf4101fde7bc04592bbbb91269e18766d1f2022f81",
+  "signature": "1f7a68643c6e7452483436ce762cc1d6dee6737ed23f3770e47c8f84999f84b3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-pluggedinmcpproxy"
 }

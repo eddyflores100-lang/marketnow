@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1574724",
+  "certificate_id": "MN-SC-2026-1450547",
   "skill_id": "mn-res-13341",
   "skill_name": "web3-research-mcp",
-  "issued_at": "2026-10-11T06:52:54.724Z",
-  "expires_at": "2026-10-18T06:52:54.724Z",
+  "issued_at": "2026-10-18T05:30:50.547Z",
+  "expires_at": "2026-10-25T05:30:50.547Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "632d1cb81b4b1c53939e2d7c9c1a3edadb5a24e500816d9da405de191a8055f8",
+  "signature": "41806159fee146aaaa959e1d1415cf2543ab0c824be5bac1737e4b3aa33a3786",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-res-13341"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1893917",
+  "certificate_id": "MN-SC-2026-1717692",
   "skill_id": "mn-real-memstatemcp",
   "skill_name": "memstate-mcp",
-  "issued_at": "2026-10-11T06:58:13.917Z",
-  "expires_at": "2026-10-18T06:58:13.917Z",
+  "issued_at": "2026-10-18T05:35:17.692Z",
+  "expires_at": "2026-10-25T05:35:17.692Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a81d5bf8ecdc0003099b707266d76388fc22fb7d08f0daccc477d3172536190a",
+  "signature": "e262ecd83667ae9e363019f3d7c729b37cfec266c7bbdd76822ebd56952b9a45",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-memstatemcp"
 }

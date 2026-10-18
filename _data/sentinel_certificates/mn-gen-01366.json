@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1453786",
+  "certificate_id": "MN-SC-2026-1354456",
   "skill_id": "mn-gen-01366",
   "skill_name": "mcp-server-bigquery",
-  "issued_at": "2026-10-11T06:50:53.786Z",
-  "expires_at": "2026-10-18T06:50:53.786Z",
+  "issued_at": "2026-10-18T05:29:14.456Z",
+  "expires_at": "2026-10-25T05:29:14.456Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3161eb7a050888753ea71463717d51d8e80eb12700be39147e34f89edbde6105",
+  "signature": "840d896ce41dac671216dc2cc2c6bed76e634f60a1d00ffa5c5179e360d13a56",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01366"
 }

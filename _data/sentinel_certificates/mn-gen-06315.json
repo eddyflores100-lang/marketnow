@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1507143",
+  "certificate_id": "MN-SC-2026-1396384",
   "skill_id": "mn-gen-06315",
   "skill_name": "mcp-bridge",
-  "issued_at": "2026-10-11T06:51:47.143Z",
-  "expires_at": "2026-10-18T06:51:47.143Z",
+  "issued_at": "2026-10-18T05:29:56.384Z",
+  "expires_at": "2026-10-25T05:29:56.384Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 6,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "634db36168bbcc680ddc78c97c123755945b47b3fb5ecb9c14adcd73053c8654",
+  "signature": "2d896ceda5ab04a172c1ba55d4cb18dde157f405374c4ea8fdea55232582886d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-06315"
 }

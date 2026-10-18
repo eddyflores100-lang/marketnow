@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1670409",
+  "certificate_id": "MN-SC-2026-1532505",
   "skill_id": "mn-awmcp-openclawmcp",
   "skill_name": "openclaw-mcp",
-  "issued_at": "2026-10-11T06:54:30.409Z",
-  "expires_at": "2026-10-18T06:54:30.409Z",
+  "issued_at": "2026-10-18T05:32:12.505Z",
+  "expires_at": "2026-10-25T05:32:12.505Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "abf43736c1e8f9530780fe49d6da0ae1301a24d25e51ac4eab0e01764be0b11b",
+  "signature": "30deb4d754487b16acbcf28c34c28dd70c61c44aa1a683e8538d813ebbed13c8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-openclawmcp"
 }

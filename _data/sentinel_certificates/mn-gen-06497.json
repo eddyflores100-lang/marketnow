@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1508150",
+  "certificate_id": "MN-SC-2026-1397297",
   "skill_id": "mn-gen-06497",
   "skill_name": "decompose",
-  "issued_at": "2026-10-11T06:51:48.150Z",
-  "expires_at": "2026-10-18T06:51:48.150Z",
+  "issued_at": "2026-10-18T05:29:57.297Z",
+  "expires_at": "2026-10-25T05:29:57.297Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d9cb37de01054e722302639b14433ef31738e4a4259d5d1ceb8502dd34ddb733",
+  "signature": "2017a2380dfd3e4525950d03f3810d35e473f7f3bd85533eaa1076302f54a218",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-06497"
 }

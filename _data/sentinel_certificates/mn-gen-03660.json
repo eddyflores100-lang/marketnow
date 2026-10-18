@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1477782",
+  "certificate_id": "MN-SC-2026-1373244",
   "skill_id": "mn-gen-03660",
   "skill_name": "rember-mcp",
-  "issued_at": "2026-10-11T06:51:17.782Z",
-  "expires_at": "2026-10-18T06:51:17.782Z",
+  "issued_at": "2026-10-18T05:29:33.244Z",
+  "expires_at": "2026-10-25T05:29:33.244Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "eabc82dd210f6a91c4f52168363534781ce58293ae9ab2e1a4807356cb2988fa",
+  "signature": "01a5ff56fda90eb605886751b416dc96ce2b0946feb27c41511170543c6dfd41",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03660"
 }

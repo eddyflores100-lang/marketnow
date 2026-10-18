@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1880539",
+  "certificate_id": "MN-SC-2026-1708436",
   "skill_id": "mn-real-workspaceqdrantmcp",
   "skill_name": "workspace-qdrant-mcp",
-  "issued_at": "2026-10-11T06:58:00.539Z",
-  "expires_at": "2026-10-18T06:58:00.539Z",
+  "issued_at": "2026-10-18T05:35:08.436Z",
+  "expires_at": "2026-10-25T05:35:08.436Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1cf69e40c64d2900098690dbd422c12053e41be6da068a87d971538699749283",
+  "signature": "b4d38c664260f5ba36428a3434483ddabbcb1b5a550400439dfb731d54657dd7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-workspaceqdrantmcp"
 }

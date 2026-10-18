@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1503253",
+  "certificate_id": "MN-SC-2026-1393202",
   "skill_id": "mn-gen-05923",
   "skill_name": "weather-mcp-server",
-  "issued_at": "2026-10-11T06:51:43.253Z",
-  "expires_at": "2026-10-18T06:51:43.253Z",
+  "issued_at": "2026-10-18T05:29:53.202Z",
+  "expires_at": "2026-10-25T05:29:53.202Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5389601221079090de3dc63832a114c321cf72950a7f4a82f857e3bb0add8158",
+  "signature": "5e572cad3ac5cfcbabb283640ddef8123257e91545d1f898d887e0eb306df5c0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05923"
 }

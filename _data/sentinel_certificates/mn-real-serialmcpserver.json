@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1801248",
+  "certificate_id": "MN-SC-2026-1636681",
   "skill_id": "mn-real-serialmcpserver",
   "skill_name": "serial-mcp-server",
-  "issued_at": "2026-10-11T06:56:41.248Z",
-  "expires_at": "2026-10-18T06:56:41.248Z",
+  "issued_at": "2026-10-18T05:33:56.681Z",
+  "expires_at": "2026-10-25T05:33:56.681Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d7541aa40f9e6a4f5ef92cec3d14610d7b53820f1e0b0f62c02d5a5c9b3bebe3",
+  "signature": "890eed16de14cf1cdf9114fa67a154e9c63a574745cca3e085ef60f7452d43e4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-serialmcpserver"
 }

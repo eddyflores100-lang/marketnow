@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1570132",
+  "certificate_id": "MN-SC-2026-1446762",
   "skill_id": "mn-gen-13029",
   "skill_name": "unphurl-mcp",
-  "issued_at": "2026-10-11T06:52:50.132Z",
-  "expires_at": "2026-10-18T06:52:50.132Z",
+  "issued_at": "2026-10-18T05:30:46.762Z",
+  "expires_at": "2026-10-25T05:30:46.762Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1ca3d5388877f86da1c0eb5c94b10058881d8593999ea4eeda8d0101f8c31794",
+  "signature": "6f34edbf9760ddd6141a8787afe1e71a60d4fa92149151d5ad982b393a7d321b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13029"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1840170",
+  "certificate_id": "MN-SC-2026-1672956",
   "skill_id": "mn-real-invovatemcpserver",
   "skill_name": "invovate-mcp-server",
-  "issued_at": "2026-10-11T06:57:20.170Z",
-  "expires_at": "2026-10-18T06:57:20.170Z",
+  "issued_at": "2026-10-18T05:34:32.956Z",
+  "expires_at": "2026-10-25T05:34:32.956Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "31abaeba4d944184c4ffd46f848203808f4cd8ce572fc8911bc16fa7d6a9bb7c",
+  "signature": "2bb19d1e4cd23f8d21e8ea59db107aa482085058a8305da6d5967be319e15516",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-invovatemcpserver"
 }

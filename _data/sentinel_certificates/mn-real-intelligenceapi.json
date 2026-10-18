@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1804903",
+  "certificate_id": "MN-SC-2026-1639846",
   "skill_id": "mn-real-intelligenceapi",
   "skill_name": "intelligence-api",
-  "issued_at": "2026-10-11T06:56:44.903Z",
-  "expires_at": "2026-10-18T06:56:44.903Z",
+  "issued_at": "2026-10-18T05:33:59.846Z",
+  "expires_at": "2026-10-25T05:33:59.846Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5ae6ebd4bd0b8a765d2d8090cace1acc92912156e8197976cbf8842ed831d7b4",
+  "signature": "3fbdf606ec6252d9686cb370838a72320709f01dc592d1c0e32be219a5e2465b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-intelligenceapi"
 }

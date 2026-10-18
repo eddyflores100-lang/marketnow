@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1900481",
+  "certificate_id": "MN-SC-2026-1722791",
   "skill_id": "mn-real-docxmcp",
   "skill_name": "docx-mcp",
-  "issued_at": "2026-10-11T06:58:20.481Z",
-  "expires_at": "2026-10-18T06:58:20.481Z",
+  "issued_at": "2026-10-18T05:35:22.791Z",
+  "expires_at": "2026-10-25T05:35:22.791Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e6a5c310576f77677c92c3c02920d7692eed2a06bcd771ddcd56ef895ab2f6e4",
+  "signature": "12667fdf5e98e3c1f09e4655ea296b9e74d64ff998b971efe7a724bc2beadb10",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-docxmcp"
 }

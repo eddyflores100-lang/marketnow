@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1818992",
+  "certificate_id": "MN-SC-2026-1653049",
   "skill_id": "mn-real-clicksprotocol",
   "skill_name": "clicks-protocol",
-  "issued_at": "2026-10-11T06:56:58.992Z",
-  "expires_at": "2026-10-18T06:56:58.992Z",
+  "issued_at": "2026-10-18T05:34:13.049Z",
+  "expires_at": "2026-10-25T05:34:13.049Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1f99b90bd9438bcf13983a7ab8d38504819f370b23ee4b12d42060e16432297d",
+  "signature": "98dc2406b5d0bcee1e7ca91178b442dac090280f6108a6ee9943c85e130de2d3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-clicksprotocol"
 }

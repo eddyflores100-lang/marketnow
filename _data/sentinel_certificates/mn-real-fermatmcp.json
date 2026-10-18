@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1793551",
+  "certificate_id": "MN-SC-2026-1631335",
   "skill_id": "mn-real-fermatmcp",
   "skill_name": "fermat-mcp",
-  "issued_at": "2026-10-11T06:56:33.551Z",
-  "expires_at": "2026-10-18T06:56:33.551Z",
+  "issued_at": "2026-10-18T05:33:51.335Z",
+  "expires_at": "2026-10-25T05:33:51.335Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7f39a35acca3df549353f69bd0b5515d914f2f9c44e8df36b83c8c96b52208bb",
+  "signature": "ee81ee602b2c5b189fa07385100bdbc59a6711ac509cdc94b8f81df158eaf236",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-fermatmcp"
 }

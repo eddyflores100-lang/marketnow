@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1797631",
+  "certificate_id": "MN-SC-2026-1633698",
   "skill_id": "mn-real-optunamcp",
   "skill_name": "optuna-mcp",
-  "issued_at": "2026-10-11T06:56:37.631Z",
-  "expires_at": "2026-10-18T06:56:37.631Z",
+  "issued_at": "2026-10-18T05:33:53.698Z",
+  "expires_at": "2026-10-25T05:33:53.698Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "129063e8f94173b84186bf42717caad0500273c0eeaa7329453ba512abc7868f",
+  "signature": "6b2d2d049f2cad679e902c1a07a1cf428170419b786c8be824beb8e70d867cbc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-optunamcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1887926",
+  "certificate_id": "MN-SC-2026-1713433",
   "skill_id": "mn-real-engram",
   "skill_name": "engram",
-  "issued_at": "2026-10-11T06:58:07.926Z",
-  "expires_at": "2026-10-18T06:58:07.926Z",
+  "issued_at": "2026-10-18T05:35:13.433Z",
+  "expires_at": "2026-10-25T05:35:13.433Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7d0caf8d2047796d0f4b3cb44247bfab405d176b9d645b09daeb0133090e3c22",
+  "signature": "9336957e384c7645d4bccf3390ffcfb9bbff103d94fca9ca0fda865d6b59a45b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-engram"
 }

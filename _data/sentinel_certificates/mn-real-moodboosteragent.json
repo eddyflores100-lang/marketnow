@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1824825",
+  "certificate_id": "MN-SC-2026-1658234",
   "skill_id": "mn-real-moodboosteragent",
   "skill_name": "mood-booster-agent",
-  "issued_at": "2026-10-11T06:57:04.825Z",
-  "expires_at": "2026-10-18T06:57:04.825Z",
+  "issued_at": "2026-10-18T05:34:18.234Z",
+  "expires_at": "2026-10-25T05:34:18.234Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e46a43a31698ed1d577b70b3bc6ba7e184082477fbead5e36fbd4bde3f05ca96",
+  "signature": "654d92bfd8386d389f795ec37e5ec1434b63f793c9be1d83eea3a9e59a173060",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-moodboosteragent"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1522995",
+  "certificate_id": "MN-SC-2026-1409994",
   "skill_id": "mn-gen-07791",
   "skill_name": "mcp-router",
-  "issued_at": "2026-10-11T06:52:02.995Z",
-  "expires_at": "2026-10-18T06:52:02.995Z",
+  "issued_at": "2026-10-18T05:30:09.994Z",
+  "expires_at": "2026-10-25T05:30:09.994Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "53ecb08e7c9094122af4fcd0709a10b54601088f24eb72cff5fb346917b87f00",
+  "signature": "8d77ff5889f89ca4cc6ffcc83f7d6b7e83dbcd4d6cb278f3ea5984e7541eea36",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07791"
 }

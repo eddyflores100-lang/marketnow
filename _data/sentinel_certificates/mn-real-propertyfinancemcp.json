@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1826961",
+  "certificate_id": "MN-SC-2026-1660350",
   "skill_id": "mn-real-propertyfinancemcp",
   "skill_name": "property-finance-mcp",
-  "issued_at": "2026-10-11T06:57:06.961Z",
-  "expires_at": "2026-10-18T06:57:06.961Z",
+  "issued_at": "2026-10-18T05:34:20.350Z",
+  "expires_at": "2026-10-25T05:34:20.350Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9d1f471cc9d46e889c1bf35f9d8b3d16b9ba8160f3cdd1aeccd770bb778d71cd",
+  "signature": "2b327ba5a8dbf3b7eb0037c89c3a596098177348c3fd8a839b415992496b9dea",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-propertyfinancemcp"
 }

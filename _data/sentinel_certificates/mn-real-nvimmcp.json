@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1760749",
+  "certificate_id": "MN-SC-2026-1604381",
   "skill_id": "mn-real-nvimmcp",
   "skill_name": "nvim-mcp",
-  "issued_at": "2026-10-11T06:56:00.749Z",
-  "expires_at": "2026-10-18T06:56:00.749Z",
+  "issued_at": "2026-10-18T05:33:24.381Z",
+  "expires_at": "2026-10-25T05:33:24.381Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "880d2d53dc745fcbb4cbf2943d4ed6f4b3a05c2ca827a35cf959089415b097dc",
+  "signature": "258ff1c426bfd7b79096f70c0827a7e01e635ae72f8e3d778fa71cb6b973bccb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-nvimmcp"
 }

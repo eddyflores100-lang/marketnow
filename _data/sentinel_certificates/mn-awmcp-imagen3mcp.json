@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1593563",
+  "certificate_id": "MN-SC-2026-1467074",
   "skill_id": "mn-awmcp-imagen3mcp",
   "skill_name": "imagen3-mcp",
-  "issued_at": "2026-10-11T06:53:13.563Z",
-  "expires_at": "2026-10-18T06:53:13.563Z",
+  "issued_at": "2026-10-18T05:31:07.074Z",
+  "expires_at": "2026-10-25T05:31:07.074Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8e39ae5ee22d6b75771a00e9c351dd766c62afbaa76bf030219d2080a84a04a3",
+  "signature": "d0c99e2d2a44d1b3eb5fbcf9489d3c036f5b4a6898c545c929de3d5a1b669818",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-imagen3mcp"
 }

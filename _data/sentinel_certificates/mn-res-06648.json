@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1509876",
+  "certificate_id": "MN-SC-2026-1398765",
   "skill_id": "mn-res-06648",
   "skill_name": "duckduckgo-mcp-server",
-  "issued_at": "2026-10-11T06:51:49.876Z",
-  "expires_at": "2026-10-18T06:51:49.876Z",
+  "issued_at": "2026-10-18T05:29:58.765Z",
+  "expires_at": "2026-10-25T05:29:58.765Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,10 +33,10 @@
     "shasum": "1d69d7bb9c7671f195ba3e37a5fac00354f3a58b",
     "integrity": "sha512-wyc862FdxGyS65LvBQEGqmM5v4vBvANdHGDCsNiKRe7PAB0pZbMviRxuk2I1GRclBkRv2IfwkkD2+CbM4PLziQ==",
     "tarball_bytes": 4899,
-    "resolved_at": "2026-09-28T11:52:29.241Z"
+    "resolved_at": "2026-10-13T12:53:21.200Z"
   },
   "cert_v": 2,
-  "signature": "f5670c9cd331d13c7212b4b33ce85db2e201520bd6aa834e40f358dd9779ef30",
+  "signature": "21b8806585ce1a37442210dc723abbe9d68f166d06a6c164fa24e0b50b51e3d8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-res-06648"
 }

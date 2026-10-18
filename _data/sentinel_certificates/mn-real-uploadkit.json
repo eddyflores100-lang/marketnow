@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1787846",
+  "certificate_id": "MN-SC-2026-1626740",
   "skill_id": "mn-real-uploadkit",
   "skill_name": "uploadkit",
-  "issued_at": "2026-10-11T06:56:27.846Z",
-  "expires_at": "2026-10-18T06:56:27.846Z",
+  "issued_at": "2026-10-18T05:33:46.740Z",
+  "expires_at": "2026-10-25T05:33:46.740Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0285095ee60af8a0191011484c5aff7a16d6c16f2122ea4fd0621ac0855539b2",
+  "signature": "475a6a93bc0a0c4d7019c6ae312ecba334786c5247de9a438f8ce48ec05b50da",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-uploadkit"
 }

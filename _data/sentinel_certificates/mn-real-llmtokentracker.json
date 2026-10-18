@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1784655",
+  "certificate_id": "MN-SC-2026-1623913",
   "skill_id": "mn-real-llmtokentracker",
   "skill_name": "llm-token-tracker",
-  "issued_at": "2026-10-11T06:56:24.655Z",
-  "expires_at": "2026-10-18T06:56:24.655Z",
+  "issued_at": "2026-10-18T05:33:43.913Z",
+  "expires_at": "2026-10-25T05:33:43.913Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b9693e04cf51d10a03748fc4f00454a990c24b576b8dba3c10898fc991f8d3a6",
+  "signature": "049b9bc949e4c6250c79fe915965622841fbd6ddf5428cd58b94552b8c02b55a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-llmtokentracker"
 }

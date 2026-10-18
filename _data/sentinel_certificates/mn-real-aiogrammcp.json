@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1709813",
+  "certificate_id": "MN-SC-2026-1560936",
   "skill_id": "mn-real-aiogrammcp",
   "skill_name": "aiogram-mcp",
-  "issued_at": "2026-10-11T06:55:09.813Z",
-  "expires_at": "2026-10-18T06:55:09.813Z",
+  "issued_at": "2026-10-18T05:32:40.936Z",
+  "expires_at": "2026-10-25T05:32:40.936Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3caf8b77686ee8a3606eb3350e75b9014561473380943919df9b94246d6cf620",
+  "signature": "756de0779ddc308dc154f17bf339b91501568fba8e3eabe68197c896cdecc3fa",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-aiogrammcp"
 }

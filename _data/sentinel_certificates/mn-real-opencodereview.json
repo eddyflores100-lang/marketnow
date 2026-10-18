@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1738158",
+  "certificate_id": "MN-SC-2026-1585042",
   "skill_id": "mn-real-opencodereview",
   "skill_name": "open-code-review",
-  "issued_at": "2026-10-11T06:55:38.158Z",
-  "expires_at": "2026-10-18T06:55:38.158Z",
+  "issued_at": "2026-10-18T05:33:05.042Z",
+  "expires_at": "2026-10-25T05:33:05.042Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "17351519f4a1b6475def2379a43a8d466588d32da90f9ee57ad84492d04e601c",
+  "signature": "98459173e4d27dcae52ce2018ff57c481182e0c4ae04ef603591c4c71275ffdd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-opencodereview"
 }

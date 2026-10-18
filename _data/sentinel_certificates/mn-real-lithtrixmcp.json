@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1892471",
+  "certificate_id": "MN-SC-2026-1716832",
   "skill_id": "mn-real-lithtrixmcp",
   "skill_name": "lithtrix-mcp",
-  "issued_at": "2026-10-11T06:58:12.471Z",
-  "expires_at": "2026-10-18T06:58:12.471Z",
+  "issued_at": "2026-10-18T05:35:16.832Z",
+  "expires_at": "2026-10-25T05:35:16.832Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a72592d46f889d4447dcda375404e553b58963b886aa660c6708398c02c06cf5",
+  "signature": "75a556c92f7ebe98d264150648f7620c0de4da12776dc7d0c13a7d4e5f24f3dc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-lithtrixmcp"
 }

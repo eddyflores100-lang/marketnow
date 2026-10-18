@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1802374",
+  "certificate_id": "MN-SC-2026-1637880",
   "skill_id": "mn-real-misterclaw",
   "skill_name": "misterclaw",
-  "issued_at": "2026-10-11T06:56:42.374Z",
-  "expires_at": "2026-10-18T06:56:42.374Z",
+  "issued_at": "2026-10-18T05:33:57.880Z",
+  "expires_at": "2026-10-25T05:33:57.880Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1fd2eeeff29a2ce5f950cae772e7556e019bcd541f2bcd315e7292771e8295e9",
+  "signature": "996120064815a4babd9844f1421c55c729d2082be66e62b885566b92d8c81fb3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-misterclaw"
 }

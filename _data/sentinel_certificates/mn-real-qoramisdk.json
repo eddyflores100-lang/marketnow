@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1705437",
+  "certificate_id": "MN-SC-2026-1557811",
   "skill_id": "mn-real-qoramisdk",
   "skill_name": "qorami-sdk",
-  "issued_at": "2026-10-11T06:55:05.437Z",
-  "expires_at": "2026-10-18T06:55:05.437Z",
+  "issued_at": "2026-10-18T05:32:37.811Z",
+  "expires_at": "2026-10-25T05:32:37.811Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "24cd830a21f33bd31499af15c353352c23a0208cc46ef73e65b1a4195d4b4dd5",
+  "signature": "858efa405020adfa04aa15d501377bd71d91259a6d036d1c8402b3b605811935",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-qoramisdk"
 }

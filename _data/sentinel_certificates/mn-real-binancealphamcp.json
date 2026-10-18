@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1836033",
+  "certificate_id": "MN-SC-2026-1669019",
   "skill_id": "mn-real-binancealphamcp",
   "skill_name": "binance-alpha-mcp",
-  "issued_at": "2026-10-11T06:57:16.033Z",
-  "expires_at": "2026-10-18T06:57:16.033Z",
+  "issued_at": "2026-10-18T05:34:29.019Z",
+  "expires_at": "2026-10-25T05:34:29.019Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3108090b96862d70f5ed819a70bed9dd1ff5587a353f50b2796eed6d688be7b5",
+  "signature": "6fac226f3b9097afb88ff4d6de604a90b564e24a6f43ef477a834c59b4b6805a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-binancealphamcp"
 }

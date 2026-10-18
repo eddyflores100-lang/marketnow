@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1874553",
+  "certificate_id": "MN-SC-2026-1703195",
   "skill_id": "mn-real-vmem",
   "skill_name": "vMem",
-  "issued_at": "2026-10-11T06:57:54.553Z",
-  "expires_at": "2026-10-18T06:57:54.553Z",
+  "issued_at": "2026-10-18T05:35:03.195Z",
+  "expires_at": "2026-10-25T05:35:03.195Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1647996967b58a43896703ef7a596403dd5f14cd42e7440f9076052b0450bb4b",
+  "signature": "f0c69253039ba956b6c8c59b13dc5af3b3a83d5fed1f435bd30d9028f0032a09",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-vmem"
 }

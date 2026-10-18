@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1792217",
+  "certificate_id": "MN-SC-2026-1630456",
   "skill_id": "mn-real-clawtsaver",
   "skill_name": "claw-tsaver",
-  "issued_at": "2026-10-11T06:56:32.217Z",
-  "expires_at": "2026-10-18T06:56:32.217Z",
+  "issued_at": "2026-10-18T05:33:50.456Z",
+  "expires_at": "2026-10-25T05:33:50.456Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cf24d278230b5620dacfc3feea6c751f9adf1dbfcaf2923dba9d43c6ead93d7a",
+  "signature": "47e6e7726234bc95f10b69a93e22882b6cf0e74d971743f3a9e1722076b6df8c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-clawtsaver"
 }

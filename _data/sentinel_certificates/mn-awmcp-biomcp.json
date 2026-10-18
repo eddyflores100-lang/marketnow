@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1623415",
+  "certificate_id": "MN-SC-2026-1491746",
   "skill_id": "mn-awmcp-biomcp",
   "skill_name": "biomcp",
-  "issued_at": "2026-10-11T06:53:43.415Z",
-  "expires_at": "2026-10-18T06:53:43.415Z",
+  "issued_at": "2026-10-18T05:31:31.746Z",
+  "expires_at": "2026-10-25T05:31:31.746Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 6,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3134f5e575d3c1b36eb2cb06798c9730624123bfa9c47e8dc89dc1060d7be4b2",
+  "signature": "7f141048ed096853d3981edcbac82eb6b7f80f0ca9386649d1051f13b8a620b3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-biomcp"
 }

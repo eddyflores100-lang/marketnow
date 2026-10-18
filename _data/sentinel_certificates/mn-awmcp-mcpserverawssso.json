@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1643493",
+  "certificate_id": "MN-SC-2026-1510317",
   "skill_id": "mn-awmcp-mcpserverawssso",
   "skill_name": "mcp-server-aws-sso",
-  "issued_at": "2026-10-11T06:54:03.493Z",
-  "expires_at": "2026-10-18T06:54:03.493Z",
+  "issued_at": "2026-10-18T05:31:50.317Z",
+  "expires_at": "2026-10-25T05:31:50.317Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "52ea28d2a178518570bbd774913d2150ff3ac852fb0bec7980f6bbcbe68c3926",
+  "signature": "2df7737f5738e4e9c97fe260a4ad3964945e63bfd3b719650c7a3a2dd86cc630",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpserverawssso"
 }

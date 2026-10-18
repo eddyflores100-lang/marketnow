@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1791814",
+  "certificate_id": "MN-SC-2026-1630142",
   "skill_id": "mn-real-royalmailmcp",
   "skill_name": "royalmail-mcp",
-  "issued_at": "2026-10-11T06:56:31.814Z",
-  "expires_at": "2026-10-18T06:56:31.814Z",
+  "issued_at": "2026-10-18T05:33:50.142Z",
+  "expires_at": "2026-10-25T05:33:50.142Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8d39ca8ee698264e71df1a33ff1fcd13c47aff3daa1bb5fbc57f1ce0e896c6cd",
+  "signature": "e5032fcb750478827eaa3c1e4bfcd5388372268c5d8c3a24553c11730663a161",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-royalmailmcp"
 }

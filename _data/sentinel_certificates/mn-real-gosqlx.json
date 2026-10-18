@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1752608",
+  "certificate_id": "MN-SC-2026-1597369",
   "skill_id": "mn-real-gosqlx",
   "skill_name": "GoSQLX",
-  "issued_at": "2026-10-11T06:55:52.608Z",
-  "expires_at": "2026-10-18T06:55:52.608Z",
+  "issued_at": "2026-10-18T05:33:17.369Z",
+  "expires_at": "2026-10-25T05:33:17.369Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "af6cae9e7044a1b74fb53d3fd0f0655c54780f3170f35e5d3f7698f713c8a3e9",
+  "signature": "8e44b8bc28b0e5882167a4532e5a60021faf5a00f2596e054da18ab6fd90276e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-gosqlx"
 }

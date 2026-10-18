@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1619642",
+  "certificate_id": "MN-SC-2026-1488433",
   "skill_id": "mn-awmcp-figwright",
   "skill_name": "figwright",
-  "issued_at": "2026-10-11T06:53:39.642Z",
-  "expires_at": "2026-10-18T06:53:39.642Z",
+  "issued_at": "2026-10-18T05:31:28.433Z",
+  "expires_at": "2026-10-25T05:31:28.433Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d9367198251890e4c846defed428f92b31415c1218ac22ba9db79fde209800ba",
+  "signature": "876f21f44621b1ff2afc90bcc07216e7da348398640d82dcf6761724e3d7add4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-figwright"
 }

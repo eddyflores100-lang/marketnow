@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1682714",
+  "certificate_id": "MN-SC-2026-1540901",
   "skill_id": "mn-awmcp-codexmcptool",
   "skill_name": "codex-mcp-tool",
-  "issued_at": "2026-10-11T06:54:42.714Z",
-  "expires_at": "2026-10-18T06:54:42.714Z",
+  "issued_at": "2026-10-18T05:32:20.901Z",
+  "expires_at": "2026-10-25T05:32:20.901Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a6c746f287a32b832ed277bd5893a2d9cd059cbde097b6972e3fc06b3a189446",
+  "signature": "cdd9bcfe47b5fe40f3144f026f4cd058fa352b88bbbafb01e2e9951e42edd1ca",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-codexmcptool"
 }

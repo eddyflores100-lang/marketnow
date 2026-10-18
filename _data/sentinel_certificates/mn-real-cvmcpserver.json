@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1708561",
+  "certificate_id": "MN-SC-2026-1559982",
   "skill_id": "mn-real-cvmcpserver",
   "skill_name": "cv-mcp-server",
-  "issued_at": "2026-10-11T06:55:08.561Z",
-  "expires_at": "2026-10-18T06:55:08.561Z",
+  "issued_at": "2026-10-18T05:32:39.982Z",
+  "expires_at": "2026-10-25T05:32:39.982Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "021e4a63d263dcae6a22f4f544a457bfb5d433cc168789446dda2bd66f6bb9f1",
+  "signature": "4e431d3a8627fa81dc81b0729c68dac0b9e76b4817c0a04924df11a8b6483b4e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cvmcpserver"
 }

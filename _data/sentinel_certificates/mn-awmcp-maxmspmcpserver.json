@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1680948",
+  "certificate_id": "MN-SC-2026-1539614",
   "skill_id": "mn-awmcp-maxmspmcpserver",
   "skill_name": "MaxMSP-MCP-Server",
-  "issued_at": "2026-10-11T06:54:40.948Z",
-  "expires_at": "2026-10-18T06:54:40.948Z",
+  "issued_at": "2026-10-18T05:32:19.614Z",
+  "expires_at": "2026-10-25T05:32:19.614Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e56b83820745c5f14646c28c819aaa954ecf67b4426067244a4195ba47029956",
+  "signature": "17ab6e2358ee5b6d96002fa8e723594f95406453043df629d5168725e8ad37f6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-maxmspmcpserver"
 }

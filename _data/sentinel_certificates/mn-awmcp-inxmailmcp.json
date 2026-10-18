@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1697098",
+  "certificate_id": "MN-SC-2026-1551887",
   "skill_id": "mn-awmcp-inxmailmcp",
   "skill_name": "inxmail-mcp",
-  "issued_at": "2026-10-11T06:54:57.098Z",
-  "expires_at": "2026-10-18T06:54:57.098Z",
+  "issued_at": "2026-10-18T05:32:31.887Z",
+  "expires_at": "2026-10-25T05:32:31.887Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "65376dce3ba3aa194178d3c80125e707c6c041ca11bdb0d327695eda50a08783",
+  "signature": "44ea333bdbf3c3345c4d953bd1ca104841f6bad443df1b2bd9399f106218b53b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-inxmailmcp"
 }

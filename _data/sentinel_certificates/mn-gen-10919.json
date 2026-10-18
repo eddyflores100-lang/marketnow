@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1550111",
+  "certificate_id": "MN-SC-2026-1430544",
   "skill_id": "mn-gen-10919",
   "skill_name": "qrcode_mcp",
-  "issued_at": "2026-10-11T06:52:30.111Z",
-  "expires_at": "2026-10-18T06:52:30.111Z",
+  "issued_at": "2026-10-18T05:30:30.544Z",
+  "expires_at": "2026-10-25T05:30:30.544Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6a5805d077bb396ba0ca0ec1626b866c8f82daf90120694850021eb28561ab2f",
+  "signature": "b23a48a695edfaaa8ca13824c2d606ece846eea70b6f221237e002f9df3d548c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-10919"
 }

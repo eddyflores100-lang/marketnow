@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1900863",
+  "certificate_id": "MN-SC-2026-1723079",
   "skill_id": "mn-real-statelessagent",
   "skill_name": "statelessagent",
-  "issued_at": "2026-10-11T06:58:20.863Z",
-  "expires_at": "2026-10-18T06:58:20.863Z",
+  "issued_at": "2026-10-18T05:35:23.079Z",
+  "expires_at": "2026-10-25T05:35:23.079Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "57b73395c81fc986206a607f0467427a9fe928fcd861b34265a40d9e2a714dec",
+  "signature": "4d01d9b6b9e457c67b594a77d2bbae299a850a9adf791210c244cc6869d11675",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-statelessagent"
 }

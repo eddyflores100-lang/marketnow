@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1488392",
+  "certificate_id": "MN-SC-2026-1381894",
   "skill_id": "mn-gen-04435",
   "skill_name": "git-mcp-server",
-  "issued_at": "2026-10-11T06:51:28.392Z",
-  "expires_at": "2026-10-18T06:51:28.392Z",
+  "issued_at": "2026-10-18T05:29:41.894Z",
+  "expires_at": "2026-10-25T05:29:41.894Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b09e284b399864a58434b1ac5c06545cfa04217d8cde79e8e2c41caf15abc1bc",
+  "signature": "781c7906a08e56530a6dbbf5d43294fec1fbd1a9616ac6f71ce9fc74edddfbf1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04435"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1779667",
+  "certificate_id": "MN-SC-2026-1619624",
   "skill_id": "mn-real-reftrixmcp",
   "skill_name": "ReftrixMCP",
-  "issued_at": "2026-10-11T06:56:19.667Z",
-  "expires_at": "2026-10-18T06:56:19.667Z",
+  "issued_at": "2026-10-18T05:33:39.624Z",
+  "expires_at": "2026-10-25T05:33:39.624Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1f4e3d9d0e4e3b40746432ff7c71a8f386426e7cc3cc8ef06273ec0b3c29be17",
+  "signature": "fb20d8fcce24cfa274fb0ac83d13f19f8a76e4850fb0f98a7fc6d1212b6805ca",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-reftrixmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1550787",
+  "certificate_id": "MN-SC-2026-1431004",
   "skill_id": "mn-gen-11047",
   "skill_name": "reactuse",
-  "issued_at": "2026-10-11T06:52:30.787Z",
-  "expires_at": "2026-10-18T06:52:30.787Z",
+  "issued_at": "2026-10-18T05:30:31.004Z",
+  "expires_at": "2026-10-25T05:30:31.004Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4a8814a4f88ede473218ce906d449d99cb26eb175aeac18a7408c9dbde0ce20e",
+  "signature": "63e2f836a43f7b5ec42562ae8f9b952b717c55f0838d881427ea4aaa253bb567",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-11047"
 }

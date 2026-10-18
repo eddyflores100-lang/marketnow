@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1526828",
+  "certificate_id": "MN-SC-2026-1412366",
   "skill_id": "mn-gen-07916",
   "skill_name": "sketchup-mcp",
-  "issued_at": "2026-10-11T06:52:06.828Z",
-  "expires_at": "2026-10-18T06:52:06.828Z",
+  "issued_at": "2026-10-18T05:30:12.366Z",
+  "expires_at": "2026-10-25T05:30:12.366Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "50bdd33d7912f9e999afdb94c48f53dcc1e2bb6686c8e5f9bfb0069b181887fb",
+  "signature": "97fb5e816f1b67f3d1efdd5f123c8d8b08aafd33a58aa4648d700579c5e12ab4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07916"
 }

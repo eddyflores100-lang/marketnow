@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1753905",
+  "certificate_id": "MN-SC-2026-1598519",
   "skill_id": "mn-real-stacksfindermcp",
   "skill_name": "stacksfinder-mcp",
-  "issued_at": "2026-10-11T06:55:53.905Z",
-  "expires_at": "2026-10-18T06:55:53.905Z",
+  "issued_at": "2026-10-18T05:33:18.519Z",
+  "expires_at": "2026-10-25T05:33:18.519Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "aa7ada50c73dbb19aecb85f1c4e61b8ac8ece2846454ba45096ae0f46511d7e4",
+  "signature": "51e0a294f3441da24546402aed5519dc8d67d02ddf3ac2d8654990cd71829c39",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-stacksfindermcp"
 }

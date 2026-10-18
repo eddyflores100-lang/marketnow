@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1778316",
+  "certificate_id": "MN-SC-2026-1618215",
   "skill_id": "mn-real-lldbmcp",
   "skill_name": "lldb-mcp",
-  "issued_at": "2026-10-11T06:56:18.316Z",
-  "expires_at": "2026-10-18T06:56:18.316Z",
+  "issued_at": "2026-10-18T05:33:38.215Z",
+  "expires_at": "2026-10-25T05:33:38.215Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4fd5d9a92117c826ff767944b7630175e2b890f6b3907f2a18ca828edc077689",
+  "signature": "ca8f957dd961660f48b57b8b67c7b81ba83bad06f59365dce05e7fdf67bbd0e5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-lldbmcp"
 }

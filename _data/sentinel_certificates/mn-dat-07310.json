@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1516993",
+  "certificate_id": "MN-SC-2026-1404953",
   "skill_id": "mn-dat-07310",
   "skill_name": "postgres_mcp",
-  "issued_at": "2026-10-11T06:51:56.993Z",
-  "expires_at": "2026-10-18T06:51:56.993Z",
+  "issued_at": "2026-10-18T05:30:04.953Z",
+  "expires_at": "2026-10-25T05:30:04.953Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1877398f4f561469e67967ef908850928ce87e219111783f59730fb4bab8acc3",
+  "signature": "9ef3b2a7ffe285f52f26055529c639ef1ce3da9bee526a3483c2b1008a7a0120",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-dat-07310"
 }

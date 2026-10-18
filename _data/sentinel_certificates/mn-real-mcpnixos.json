@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1781571",
+  "certificate_id": "MN-SC-2026-1621273",
   "skill_id": "mn-real-mcpnixos",
   "skill_name": "mcp-nixos",
-  "issued_at": "2026-10-11T06:56:21.571Z",
-  "expires_at": "2026-10-18T06:56:21.571Z",
+  "issued_at": "2026-10-18T05:33:41.273Z",
+  "expires_at": "2026-10-25T05:33:41.273Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b18075925f95e63e41d461f2e04b671c50026ee7cacbec0f6b3b4b76d9d43902",
+  "signature": "ad5988e7bafd86a83a6ffc5b4c69e1b3c28e0b02ab287927d427374a9684f916",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpnixos"
 }

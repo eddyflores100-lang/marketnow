@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1857937",
+  "certificate_id": "MN-SC-2026-1688755",
   "skill_id": "mn-real-cityparity",
   "skill_name": "cityparity",
-  "issued_at": "2026-10-11T06:57:37.937Z",
-  "expires_at": "2026-10-18T06:57:37.937Z",
+  "issued_at": "2026-10-18T05:34:48.755Z",
+  "expires_at": "2026-10-25T05:34:48.755Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1600aad0b134dbc1d35285365b209ea1bfdfaa29cc0c2f4ee55cd5802c1f2761",
+  "signature": "9a9461e39d30613358182afe5204baf9c6c203d5c9ea8f398a0c25ca9ff151cb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cityparity"
 }

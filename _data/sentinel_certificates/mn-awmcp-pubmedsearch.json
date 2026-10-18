@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1626721",
+  "certificate_id": "MN-SC-2026-1494988",
   "skill_id": "mn-awmcp-pubmedsearch",
   "skill_name": "pubmed-search",
-  "issued_at": "2026-10-11T06:53:46.721Z",
-  "expires_at": "2026-10-18T06:53:46.721Z",
+  "issued_at": "2026-10-18T05:31:34.988Z",
+  "expires_at": "2026-10-25T05:31:34.988Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0dbb30c61d9c4bf72b4e41928bc5060bee178430e2484bdc2cab673eb7ab78f3",
+  "signature": "441e68967e2928e7759148aa351c76140bfde2e4265214a498e96a6a0f0baaf7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-pubmedsearch"
 }

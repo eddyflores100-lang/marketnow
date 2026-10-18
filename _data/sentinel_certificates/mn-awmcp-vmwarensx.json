@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1661054",
+  "certificate_id": "MN-SC-2026-1524237",
   "skill_id": "mn-awmcp-vmwarensx",
   "skill_name": "VMware-NSX",
-  "issued_at": "2026-10-11T06:54:21.054Z",
-  "expires_at": "2026-10-18T06:54:21.054Z",
+  "issued_at": "2026-10-18T05:32:04.237Z",
+  "expires_at": "2026-10-25T05:32:04.237Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a2eac3f948f791162f7c9e7035d6941adc3e63b0fc5c1ffdf780506603cf484e",
+  "signature": "1c8b590d9bfaccd1c61b0dc5f4e54043afcc1f4ac9568471b8c5af8bb427cf8a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-vmwarensx"
 }

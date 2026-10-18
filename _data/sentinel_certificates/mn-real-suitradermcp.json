@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1843090",
+  "certificate_id": "MN-SC-2026-1675775",
   "skill_id": "mn-real-suitradermcp",
   "skill_name": "sui-trader-mcp",
-  "issued_at": "2026-10-11T06:57:23.090Z",
-  "expires_at": "2026-10-18T06:57:23.090Z",
+  "issued_at": "2026-10-18T05:34:35.775Z",
+  "expires_at": "2026-10-25T05:34:35.775Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "aea970be4b514c339cd398a6a4828bd764fe1a155987eab9d746479687208b79",
+  "signature": "e5d23aa4ff6449b6eb7bbbe7e363615805e961de551c8e27eed4fac41253d453",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-suitradermcp"
 }

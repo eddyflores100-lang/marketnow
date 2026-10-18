@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1835816",
+  "certificate_id": "MN-SC-2026-1668802",
   "skill_id": "mn-real-circleagentstackmcp",
   "skill_name": "circle-agent-stack-mcp",
-  "issued_at": "2026-10-11T06:57:15.816Z",
-  "expires_at": "2026-10-18T06:57:15.816Z",
+  "issued_at": "2026-10-18T05:34:28.802Z",
+  "expires_at": "2026-10-25T05:34:28.802Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "18d645f04c41c9705b1572c2ffb2e1ec297fd017617f17f63195b1faf7d09b48",
+  "signature": "7e032142401f1ef5ca2f83ce50c9db8cfbd1f7e8f317aada8ea1d7516dd2861d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-circleagentstackmcp"
 }

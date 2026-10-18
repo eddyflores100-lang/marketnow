@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1685096",
+  "certificate_id": "MN-SC-2026-1542923",
   "skill_id": "mn-awmcp-ptymcp",
   "skill_name": "pty-mcp",
-  "issued_at": "2026-10-11T06:54:45.096Z",
-  "expires_at": "2026-10-18T06:54:45.096Z",
+  "issued_at": "2026-10-18T05:32:22.923Z",
+  "expires_at": "2026-10-25T05:32:22.923Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3d2612ef8a8cb767d623be36783d810c508d69dff61ee13dff628d136972b408",
+  "signature": "65b1661aad43cb502ed70502e728b0d6a3e9f6c38fcc9af1dbc2235a8220d2f2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-ptymcp"
 }

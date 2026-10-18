@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1794852",
+  "certificate_id": "MN-SC-2026-1631985",
   "skill_id": "mn-real-chronulusmcp",
   "skill_name": "chronulus-mcp",
-  "issued_at": "2026-10-11T06:56:34.852Z",
-  "expires_at": "2026-10-18T06:56:34.852Z",
+  "issued_at": "2026-10-18T05:33:51.985Z",
+  "expires_at": "2026-10-25T05:33:51.985Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5354b30686fe7658a2ba0b14fa8c1fc523d8786e0f8b203547e968f5c994be86",
+  "signature": "1f34bf6fbfa765b5b33c3702742331d63cf00bfa1974c9def8cb5d092a0137af",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-chronulusmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1608280",
+  "certificate_id": "MN-SC-2026-1479685",
   "skill_id": "mn-awmcp-icogeniemcp",
   "skill_name": "icogenie-mcp",
-  "issued_at": "2026-10-11T06:53:28.280Z",
-  "expires_at": "2026-10-18T06:53:28.280Z",
+  "issued_at": "2026-10-18T05:31:19.685Z",
+  "expires_at": "2026-10-25T05:31:19.685Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e5eb4973686bb65869d1ddb3efd69e380fe19d106fdbe62f531b6c56a15ae225",
+  "signature": "695a7d8fe7471881375ba9822ea528eca930cb4be75c91a8e2170850b0264c6c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-icogeniemcp"
 }

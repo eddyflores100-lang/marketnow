@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1868186",
+  "certificate_id": "MN-SC-2026-1697352",
   "skill_id": "mn-real-lorcanaoracle",
   "skill_name": "lorcana-oracle",
-  "issued_at": "2026-10-11T06:57:48.186Z",
-  "expires_at": "2026-10-18T06:57:48.186Z",
+  "issued_at": "2026-10-18T05:34:57.352Z",
+  "expires_at": "2026-10-25T05:34:57.352Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9e67e002635fc5b3986e0c97645374ab9e6efdbffc87fa90ec32dfd09cf46e2c",
+  "signature": "f25b1ec4bdfa5ee94a4b0b89be5fd291f6a41fd376ec1965ebc9857f9d838475",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-lorcanaoracle"
 }

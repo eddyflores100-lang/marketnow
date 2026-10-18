@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1564823",
+  "certificate_id": "MN-SC-2026-1442452",
   "skill_id": "mn-gen-12564",
   "skill_name": "testdino-mcp",
-  "issued_at": "2026-10-11T06:52:44.823Z",
-  "expires_at": "2026-10-18T06:52:44.823Z",
+  "issued_at": "2026-10-18T05:30:42.452Z",
+  "expires_at": "2026-10-25T05:30:42.452Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "dd171e5b42c2a7cb78e0fddbbebd58057f3dacf313b308a94e2b2e42e0214141",
+  "signature": "a933ec0db6df812a2bb3981b4280e6f81cb4846a51ddd09e4b7861daf34c4d17",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12564"
 }

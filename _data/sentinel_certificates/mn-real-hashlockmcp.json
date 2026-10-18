@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1826003",
+  "certificate_id": "MN-SC-2026-1659317",
   "skill_id": "mn-real-hashlockmcp",
   "skill_name": "hashlock-mcp",
-  "issued_at": "2026-10-11T06:57:06.003Z",
-  "expires_at": "2026-10-18T06:57:06.003Z",
+  "issued_at": "2026-10-18T05:34:19.317Z",
+  "expires_at": "2026-10-25T05:34:19.317Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7c33feace32821b96fa9c873384f87328d7c9d5599517045f4d1d9f93c6ce376",
+  "signature": "d44c2077ffe1acb6ecf8eac2dddee0729b2e0a0d7b52085684ee549bf9b58e10",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-hashlockmcp"
 }

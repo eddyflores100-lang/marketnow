@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1516284",
+  "certificate_id": "MN-SC-2026-1404308",
   "skill_id": "mn-gen-07197",
   "skill_name": "modelcontextprotocol",
-  "issued_at": "2026-10-11T06:51:56.284Z",
-  "expires_at": "2026-10-18T06:51:56.284Z",
+  "issued_at": "2026-10-18T05:30:04.308Z",
+  "expires_at": "2026-10-25T05:30:04.308Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cf343520ab4cbafc7c0fffb4f97af6f7dc81805e049c70fd87968715f38c4175",
+  "signature": "1e3499bcf36cbbe49082d5f91d268de0e0eef8c659fbe36e51eb065a285aef5b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07197"
 }

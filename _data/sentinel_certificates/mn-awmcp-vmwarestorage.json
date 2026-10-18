@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1661418",
+  "certificate_id": "MN-SC-2026-1524508",
   "skill_id": "mn-awmcp-vmwarestorage",
   "skill_name": "VMware-Storage",
-  "issued_at": "2026-10-11T06:54:21.418Z",
-  "expires_at": "2026-10-18T06:54:21.418Z",
+  "issued_at": "2026-10-18T05:32:04.508Z",
+  "expires_at": "2026-10-25T05:32:04.508Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e40c465b34d75ee3ad8fc77ccacc1d5fcd1b170fa801e91e3cbb4762a6a65cb6",
+  "signature": "73edbed2c03175a21215cd342acdffb3a2628c07f7a9b6f0521a761c2b9a423e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-vmwarestorage"
 }

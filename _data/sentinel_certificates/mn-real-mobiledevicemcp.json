@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1765526",
+  "certificate_id": "MN-SC-2026-1607843",
   "skill_id": "mn-real-mobiledevicemcp",
   "skill_name": "mobile-device-mcp",
-  "issued_at": "2026-10-11T06:56:05.526Z",
-  "expires_at": "2026-10-18T06:56:05.526Z",
+  "issued_at": "2026-10-18T05:33:27.843Z",
+  "expires_at": "2026-10-25T05:33:27.843Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3790686d757f1bf489ad826b4f46d388c24dbcdaced02443596b2c07f32d46e0",
+  "signature": "9d31ce370e7c9d799b0fb125ed10b6d273a26d87900e37f812d7a1639c2dd8d1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mobiledevicemcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1834075",
+  "certificate_id": "MN-SC-2026-1667198",
   "skill_id": "mn-real-maiatprotocol",
   "skill_name": "maiat-protocol",
-  "issued_at": "2026-10-11T06:57:14.075Z",
-  "expires_at": "2026-10-18T06:57:14.075Z",
+  "issued_at": "2026-10-18T05:34:27.198Z",
+  "expires_at": "2026-10-25T05:34:27.198Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "81c630ecaa48976b798203390c0f9d2baae6f32479210a78a004419bb463a844",
+  "signature": "a76fde292e051d474737a8b20c88da939869d438817299aae457e13dea9dfacd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-maiatprotocol"
 }

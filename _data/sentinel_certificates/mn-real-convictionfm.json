@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1822583",
+  "certificate_id": "MN-SC-2026-1656250",
   "skill_id": "mn-real-convictionfm",
   "skill_name": "conviction-fm",
-  "issued_at": "2026-10-11T06:57:02.583Z",
-  "expires_at": "2026-10-18T06:57:02.583Z",
+  "issued_at": "2026-10-18T05:34:16.250Z",
+  "expires_at": "2026-10-25T05:34:16.250Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a4d9d16bbde211c62651651b3d7343df9d7b41c718779108427f564e81228e3a",
+  "signature": "13be0842dc4e0132790e2210a491c32a51b65d1ec6672bf5ea5ba527a511ab1c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-convictionfm"
 }

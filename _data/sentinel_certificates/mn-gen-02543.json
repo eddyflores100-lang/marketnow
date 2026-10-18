@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1464760",
+  "certificate_id": "MN-SC-2026-1363461",
   "skill_id": "mn-gen-02543",
   "skill_name": "debridge-mcp",
-  "issued_at": "2026-10-11T06:51:04.760Z",
-  "expires_at": "2026-10-18T06:51:04.760Z",
+  "issued_at": "2026-10-18T05:29:23.461Z",
+  "expires_at": "2026-10-25T05:29:23.461Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7766f87c8f4a66686f737cb41273a0dbc75e850d7a6938f69d82a3879c344a01",
+  "signature": "88cc13b29270fcad82369ffc5c8c8ab7073b88ce3f9fa9e4ccd2b3f31317ae60",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02543"
 }

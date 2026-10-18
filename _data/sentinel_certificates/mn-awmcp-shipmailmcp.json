@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1696475",
+  "certificate_id": "MN-SC-2026-1551389",
   "skill_id": "mn-awmcp-shipmailmcp",
   "skill_name": "shipmail-mcp",
-  "issued_at": "2026-10-11T06:54:56.475Z",
-  "expires_at": "2026-10-18T06:54:56.475Z",
+  "issued_at": "2026-10-18T05:32:31.389Z",
+  "expires_at": "2026-10-25T05:32:31.389Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fd62a6531e2717d819b2eabfabb121457505891cc763772fa2ed6fef4d7f7ac0",
+  "signature": "98f4a18733aff2b1bd63d097ebb20793e7e50254955c0e848376dbcc7f9b1f77",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-shipmailmcp"
 }

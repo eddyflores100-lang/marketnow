@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1633864",
+  "certificate_id": "MN-SC-2026-1501793",
   "skill_id": "mn-awmcp-cometmcp",
   "skill_name": "comet-mcp",
-  "issued_at": "2026-10-11T06:53:53.864Z",
-  "expires_at": "2026-10-18T06:53:53.864Z",
+  "issued_at": "2026-10-18T05:31:41.793Z",
+  "expires_at": "2026-10-25T05:31:41.793Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5539899a921fc08de8e5ae188d09e5c728f25d60bb1ec553dec5d041837fcb59",
+  "signature": "5b8d88ed02765e32a3acb1ed54b095822a48f09b430490843cb5c36505eecee3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-cometmcp"
 }

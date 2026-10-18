@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1854745",
+  "certificate_id": "MN-SC-2026-1685972",
   "skill_id": "mn-real-chainanalyzermcp",
   "skill_name": "chainanalyzer-mcp",
-  "issued_at": "2026-10-11T06:57:34.745Z",
-  "expires_at": "2026-10-18T06:57:34.745Z",
+  "issued_at": "2026-10-18T05:34:45.972Z",
+  "expires_at": "2026-10-25T05:34:45.972Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b9d1a0f5943f8a95e0954018f1a4bbeac1c773f61957bcc020560ea4e487605f",
+  "signature": "55a27d590a5e20cf13763e7d477d2bfb33ef24eb84d7fcdbfb6204bd039aee7c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-chainanalyzermcp"
 }

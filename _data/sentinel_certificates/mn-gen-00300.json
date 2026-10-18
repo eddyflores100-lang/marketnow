@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1443687",
+  "certificate_id": "MN-SC-2026-1345886",
   "skill_id": "mn-gen-00300",
   "skill_name": "agent-toolbox",
-  "issued_at": "2026-10-11T06:50:43.687Z",
-  "expires_at": "2026-10-18T06:50:43.687Z",
+  "issued_at": "2026-10-18T05:29:05.886Z",
+  "expires_at": "2026-10-25T05:29:05.886Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c5bfea64b9f476bbeff8866666a860474c966d914e28edf531edc2b83b5b973e",
+  "signature": "b70649ef1081948f93794e71b2730e5ee75431a3d859e0ab60e33f0449e0cb23",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00300"
 }

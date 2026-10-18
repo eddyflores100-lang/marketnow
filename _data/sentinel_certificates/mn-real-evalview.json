@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1753259",
+  "certificate_id": "MN-SC-2026-1597984",
   "skill_id": "mn-real-evalview",
   "skill_name": "eval-view",
-  "issued_at": "2026-10-11T06:55:53.259Z",
-  "expires_at": "2026-10-18T06:55:53.259Z",
+  "issued_at": "2026-10-18T05:33:17.984Z",
+  "expires_at": "2026-10-25T05:33:17.984Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e0d08ba07ad9456fe3b53169891ee8700c04519bba347b76c287aa7bbc053f6a",
+  "signature": "68eb1e743487212c3eee94c4cfde30ecda1989a47e5781effbb9d01468cc4a14",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-evalview"
 }

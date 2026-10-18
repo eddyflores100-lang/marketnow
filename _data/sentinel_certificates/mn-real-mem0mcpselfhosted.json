@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1883212",
+  "certificate_id": "MN-SC-2026-1710650",
   "skill_id": "mn-real-mem0mcpselfhosted",
   "skill_name": "mem0-mcp-selfhosted",
-  "issued_at": "2026-10-11T06:58:03.212Z",
-  "expires_at": "2026-10-18T06:58:03.212Z",
+  "issued_at": "2026-10-18T05:35:10.650Z",
+  "expires_at": "2026-10-25T05:35:10.650Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d3c7cca34d8484a204598ee29f812fb224184f4db8d16ed9a5c8e99cedb60892",
+  "signature": "53e5d54c7adf161b82f57880cfa841b0c9ed3d7c87dfdc6fecd18816c2415f79",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mem0mcpselfhosted"
 }

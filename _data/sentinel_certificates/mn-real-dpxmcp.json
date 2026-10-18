@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1846462",
+  "certificate_id": "MN-SC-2026-1679035",
   "skill_id": "mn-real-dpxmcp",
   "skill_name": "dpx-mcp",
-  "issued_at": "2026-10-11T06:57:26.462Z",
-  "expires_at": "2026-10-18T06:57:26.462Z",
+  "issued_at": "2026-10-18T05:34:39.035Z",
+  "expires_at": "2026-10-25T05:34:39.035Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2d3384f7bf57265a6f385067ede437309f8c81edabc9bfe4e827ddd709f37828",
+  "signature": "716c677e8e1312f2dc2508cb997e7ecae1d5e04c5b0c911331a41a03fc8e0919",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-dpxmcp"
 }

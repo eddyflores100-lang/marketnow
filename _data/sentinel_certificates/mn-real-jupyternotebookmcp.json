@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1796541",
+  "certificate_id": "MN-SC-2026-1633093",
   "skill_id": "mn-real-jupyternotebookmcp",
   "skill_name": "jupyter-notebook-mcp",
-  "issued_at": "2026-10-11T06:56:36.542Z",
-  "expires_at": "2026-10-18T06:56:36.542Z",
+  "issued_at": "2026-10-18T05:33:53.093Z",
+  "expires_at": "2026-10-25T05:33:53.093Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f7653300c150736dc7646424c4002af77cc50f1d0fb1243b9fa38f69f9e5d37b",
+  "signature": "2cfc726549a3e91e52b417cf81a163291bca297e87d3a253fda7aea117eea23a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-jupyternotebookmcp"
 }

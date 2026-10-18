@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1893541",
+  "certificate_id": "MN-SC-2026-1717388",
   "skill_id": "mn-real-mcppersonasessions",
   "skill_name": "mcp-persona-sessions",
-  "issued_at": "2026-10-11T06:58:13.541Z",
-  "expires_at": "2026-10-18T06:58:13.541Z",
+  "issued_at": "2026-10-18T05:35:17.388Z",
+  "expires_at": "2026-10-25T05:35:17.388Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c3ec637ed28362cd9201634a8c8f14d0809ff707fb121b0365416c2f7ba76754",
+  "signature": "14ea464bf0dc6cf04cf7c0b5981676b6045b182d9847b285715ffe9781341a11",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcppersonasessions"
 }

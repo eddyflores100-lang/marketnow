@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1660034",
+  "certificate_id": "MN-SC-2026-1523342",
   "skill_id": "mn-awmcp-mcpk8seye",
   "skill_name": "mcp-k8s-eye",
-  "issued_at": "2026-10-11T06:54:20.034Z",
-  "expires_at": "2026-10-18T06:54:20.034Z",
+  "issued_at": "2026-10-18T05:32:03.342Z",
+  "expires_at": "2026-10-25T05:32:03.342Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "bc1abfbc7fa01dff1ff931f8610f20d7efd36da4c54f4391b790a76b275d80c9",
+  "signature": "b549b71c0b4e07297a28b068898ab7e7cf4dd37580bbdcb8733d2088b7bedb00",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpk8seye"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1476819",
+  "certificate_id": "MN-SC-2026-1372466",
   "skill_id": "mn-gen-03566",
   "skill_name": "dynatrace-mcp",
-  "issued_at": "2026-10-11T06:51:16.819Z",
-  "expires_at": "2026-10-18T06:51:16.819Z",
+  "issued_at": "2026-10-18T05:29:32.466Z",
+  "expires_at": "2026-10-25T05:29:32.466Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c12337bf37cf62799d6dd32f1d842b36d44b4b98b6b7e6fdc678f648624cd05d",
+  "signature": "cb0e10dd4b98a9794b442879c0aa247d56c40b5baf306a884adb9e7bf5a90427",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03566"
 }

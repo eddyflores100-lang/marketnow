@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1731545",
+  "certificate_id": "MN-SC-2026-1580064",
   "skill_id": "mn-real-mcpswiss",
   "skill_name": "mcp-swiss",
-  "issued_at": "2026-10-11T06:55:31.545Z",
-  "expires_at": "2026-10-18T06:55:31.545Z",
+  "issued_at": "2026-10-18T05:33:00.064Z",
+  "expires_at": "2026-10-25T05:33:00.064Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6602d433b1b312a40cae03ec6c6761ab503697526f5ec4a73ffe3d5018fac5d1",
+  "signature": "b0160fa61e0e0be945196059ac4ff6aa52e96c657c3ac5ef5e115345afdb7693",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpswiss"
 }

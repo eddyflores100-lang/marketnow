@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1650283",
+  "certificate_id": "MN-SC-2026-1515572",
   "skill_id": "mn-awmcp-cloudcostmcp",
   "skill_name": "cloud-cost-mcp",
-  "issued_at": "2026-10-11T06:54:10.283Z",
-  "expires_at": "2026-10-18T06:54:10.283Z",
+  "issued_at": "2026-10-18T05:31:55.572Z",
+  "expires_at": "2026-10-25T05:31:55.572Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "edcf7aca09b6fd9dea9c6352247e9560c576f67dca0b49054a1eb478940ada72",
+  "signature": "88a909072f3ce7d1fcd09e73e2ad676b87fa5b0f717a159054b53629dd5e0eab",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-cloudcostmcp"
 }

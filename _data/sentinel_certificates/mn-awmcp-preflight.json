@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1678478",
+  "certificate_id": "MN-SC-2026-1538067",
   "skill_id": "mn-awmcp-preflight",
   "skill_name": "preflight",
-  "issued_at": "2026-10-11T06:54:38.478Z",
-  "expires_at": "2026-10-18T06:54:38.478Z",
+  "issued_at": "2026-10-18T05:32:18.067Z",
+  "expires_at": "2026-10-25T05:32:18.067Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0129d00a5ca8cd977974e532035867e74367034a337d25f5c54756ddb4570e78",
+  "signature": "4296e815cdcb15ead1cc3d04b22003c299053f845546c5c90cba842b0f4db5ea",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-preflight"
 }

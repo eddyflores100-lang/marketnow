@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1738457",
+  "certificate_id": "MN-SC-2026-1585349",
   "skill_id": "mn-real-agentgate",
   "skill_name": "agent-gate",
-  "issued_at": "2026-10-11T06:55:38.457Z",
-  "expires_at": "2026-10-18T06:55:38.457Z",
+  "issued_at": "2026-10-18T05:33:05.349Z",
+  "expires_at": "2026-10-25T05:33:05.349Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "809965301cbdc9e8e295fd78dd5407d7bd6a52c39f0354cff7b665cac4a20ed8",
+  "signature": "3da419f7631d8d7c069356db524439f47dd1b9a687dcef41c3e54cd71f16aac8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-agentgate"
 }

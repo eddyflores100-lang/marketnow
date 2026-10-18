@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1770006",
+  "certificate_id": "MN-SC-2026-1610689",
   "skill_id": "mn-real-mcpservergithubactio",
   "skill_name": "mcp-server-github-actions",
-  "issued_at": "2026-10-11T06:56:10.006Z",
-  "expires_at": "2026-10-18T06:56:10.006Z",
+  "issued_at": "2026-10-18T05:33:30.689Z",
+  "expires_at": "2026-10-25T05:33:30.689Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c0f1c08336ae638a13005677d1edefebdd669a5f21f759356349a3d48118f8f3",
+  "signature": "07a802e04931246b4525092cc193e73d40267145e52d60af4e37123f834a3c61",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpservergithubactio"
 }

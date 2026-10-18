@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1810864",
+  "certificate_id": "MN-SC-2026-1645925",
   "skill_id": "mn-real-largefilemcp",
   "skill_name": "large-file-mcp",
-  "issued_at": "2026-10-11T06:56:50.864Z",
-  "expires_at": "2026-10-18T06:56:50.864Z",
+  "issued_at": "2026-10-18T05:34:05.925Z",
+  "expires_at": "2026-10-25T05:34:05.925Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b8d6fa304c9ca00dbdb85af18a97a5401c7b0d3f5016eb607c2d7b5bdec3c1e6",
+  "signature": "0edc1e5c0f0b1abbd291e807f7cf5d474e52f567e8a3218f7a746b2873e304a9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-largefilemcp"
 }

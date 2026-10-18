@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1515083",
+  "certificate_id": "MN-SC-2026-1403177",
   "skill_id": "mn-dat-07107",
   "skill_name": "mssql_mcp_server",
-  "issued_at": "2026-10-11T06:51:55.083Z",
-  "expires_at": "2026-10-18T06:51:55.083Z",
+  "issued_at": "2026-10-18T05:30:03.177Z",
+  "expires_at": "2026-10-25T05:30:03.177Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0336871031189fa3e3288e96d78471a8048411c55768633b366c78dda00f212f",
+  "signature": "a80c236ad6b008bd54315d1306a6f4911d40c078b369e9fb688cbf46a2d68178",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-dat-07107"
 }

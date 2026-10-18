@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1842346",
+  "certificate_id": "MN-SC-2026-1675102",
   "skill_id": "mn-real-polymarketprediction",
   "skill_name": "polymarket-predictions-mcp",
-  "issued_at": "2026-10-11T06:57:22.346Z",
-  "expires_at": "2026-10-18T06:57:22.346Z",
+  "issued_at": "2026-10-18T05:34:35.102Z",
+  "expires_at": "2026-10-25T05:34:35.102Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c51a147bc66aba1e6f2eb7f333e481ea4f0c47dabe78cc9a7822b0f409e56439",
+  "signature": "59df6b68b867e75c8d2938fe5547eda56ad6ffbd24f31728bf590560f7033c4c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-polymarketprediction"
 }

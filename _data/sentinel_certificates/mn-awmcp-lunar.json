@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1602404",
+  "certificate_id": "MN-SC-2026-1474666",
   "skill_id": "mn-awmcp-lunar",
   "skill_name": "lunar",
-  "issued_at": "2026-10-11T06:53:22.404Z",
-  "expires_at": "2026-10-18T06:53:22.404Z",
+  "issued_at": "2026-10-18T05:31:14.666Z",
+  "expires_at": "2026-10-25T05:31:14.666Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8e4cbede4557dace2de2aa325ae9728ab756d7ede05837cac536d3e85775c9b9",
+  "signature": "21651180010e47d6e448b3ed4fcb6cf67ac7b8570f29dd6ac1e414386304d6ad",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-lunar"
 }

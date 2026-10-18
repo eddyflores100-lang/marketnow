@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1563244",
+  "certificate_id": "MN-SC-2026-1441382",
   "skill_id": "mn-gen-12346",
   "skill_name": "mcp-swagger-server",
-  "issued_at": "2026-10-11T06:52:43.244Z",
-  "expires_at": "2026-10-18T06:52:43.244Z",
+  "issued_at": "2026-10-18T05:30:41.382Z",
+  "expires_at": "2026-10-25T05:30:41.382Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2c57c91becf97173db21b4e40a14dd06e6cc9e424fc7c3a17d93087d236cc15b",
+  "signature": "ce46e9b0304231c4add4d0f7d46776297ac74da0c82944ef465618856a1e5116",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12346"
 }

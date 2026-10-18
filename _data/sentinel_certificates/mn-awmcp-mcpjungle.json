@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1591654",
+  "certificate_id": "MN-SC-2026-1465202",
   "skill_id": "mn-awmcp-mcpjungle",
   "skill_name": "MCPJungle",
-  "issued_at": "2026-10-11T06:53:11.654Z",
-  "expires_at": "2026-10-18T06:53:11.654Z",
+  "issued_at": "2026-10-18T05:31:05.202Z",
+  "expires_at": "2026-10-25T05:31:05.202Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d08d1943990eb6b3230b971806b83ec3a5b921f79a85f33efbf15abdf71304d3",
+  "signature": "83c4574f662d98abd5b5c83edaec8df768d0accbb157c4dac9c9caaa78d99842",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpjungle"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1528493",
+  "certificate_id": "MN-SC-2026-1413834",
   "skill_id": "mn-gen-08159",
   "skill_name": "typescript-sdk",
-  "issued_at": "2026-10-11T06:52:08.493Z",
-  "expires_at": "2026-10-18T06:52:08.493Z",
+  "issued_at": "2026-10-18T05:30:13.834Z",
+  "expires_at": "2026-10-25T05:30:13.834Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "be37ec2aaeaadc503567a301dcbc7a6785efc35096b000fde00afc20bfa5d42d",
+  "signature": "54b34860acd8e85661efde64114ad447fa539a81e2cb6b57bd6a5817d5c70218",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-08159"
 }

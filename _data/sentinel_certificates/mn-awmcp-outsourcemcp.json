@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1663030",
+  "certificate_id": "MN-SC-2026-1525773",
   "skill_id": "mn-awmcp-outsourcemcp",
   "skill_name": "outsource-mcp",
-  "issued_at": "2026-10-11T06:54:23.030Z",
-  "expires_at": "2026-10-18T06:54:23.030Z",
+  "issued_at": "2026-10-18T05:32:05.773Z",
+  "expires_at": "2026-10-25T05:32:05.773Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "14d5686c0d6e49049026d32086089509c60b058787712c45432a6f1900c315c2",
+  "signature": "27e2959b945cdae5dda4d3c5c61d56c52c0a30cc9d23014cca6c7d0d8e20ea30",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-outsourcemcp"
 }

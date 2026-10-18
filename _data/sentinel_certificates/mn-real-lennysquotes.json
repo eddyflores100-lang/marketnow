@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1878848",
+  "certificate_id": "MN-SC-2026-1706890",
   "skill_id": "mn-real-lennysquotes",
   "skill_name": "lennys-quotes",
-  "issued_at": "2026-10-11T06:57:58.848Z",
-  "expires_at": "2026-10-18T06:57:58.848Z",
+  "issued_at": "2026-10-18T05:35:06.890Z",
+  "expires_at": "2026-10-25T05:35:06.890Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "43ef156274e38380e9ac27ae0b59fe9e210a8c5ebc3af862166e0d7a26bcf044",
+  "signature": "7210fabc3b8095ecd86be9fc8082411b2560715c4ee9d2f07e4c7342dd0a0438",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-lennysquotes"
 }
