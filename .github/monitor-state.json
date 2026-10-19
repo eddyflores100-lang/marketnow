@@ -766,11 +766,21 @@
       "repo": "haoruilee/awesome-agent-native-services",
       "issue_num": 217,
       "username": "haoruilee"
+    },
+    "6267964264": {
+      "repo": "Nodal-stellar/Nodal-AI",
+      "issue_num": 856,
+      "username": "Yemmy88"
+    },
+    "6268174548": {
+      "repo": "Nodal-stellar/Nodal-AI",
+      "issue_num": 856,
+      "username": "Hydrax117"
     }
   },
   "npm_last_downloads": 103,
   "github_last_stars": 0,
   "last_report": null,
   "initialized_at": "2026-07-10T01:27:15.724696+00:00",
-  "last_check": "2026-10-19T13:03:33.792538+00:00"
+  "last_check": "2026-10-19T19:17:29.739791+00:00"
 }
