@@ -41,14 +41,28 @@ const authHeaders = TOKEN
   ? { Authorization: `Bearer ${TOKEN}`, Accept: 'application/vnd.github+json', 'User-Agent': 'marketnow-regen' }
   : { Accept: 'application/vnd.github+json', 'User-Agent': 'marketnow-regen' };
 
+const anonHeaders = { Accept: 'application/vnd.github+json', 'User-Agent': 'marketnow-regen' };
+
 async function ghJson(url, extra = {}) {
   const res = await fetch(url, { headers: { ...authHeaders, ...extra }, signal: AbortSignal.timeout(20000) });
   return { ok: res.ok, status: res.status, json: await res.json().catch(() => ({})) };
 }
 
+// Public-read fallback: when the token is intermittently rejected (GitHub
+// returns 401 even on a public repo's tree endpoint), retry without the
+// Authorization header. The repo is public, so anonymous reads succeed.
+async function ghJsonWithPublicFallback(url, extra = {}) {
+  let res = await fetch(url, { headers: { ...authHeaders, ...extra }, signal: AbortSignal.timeout(20000) });
+  if (res.status === 401 && TOKEN) {
+    console.warn('! Authenticated read returned 401 — retrying as anonymous public read.');
+    res = await fetch(url, { headers: { ...anonHeaders, ...extra }, signal: AbortSignal.timeout(20000) });
+  }
+  return { ok: res.ok, status: res.status, json: await res.json().catch(() => ({})) };
+}
+
 // ─── 1. List every record in the tree ────────────────────────────────────────
 console.log(`Listing submissions tree of ${SUBMIT_REPO}...`);
-const tree = await ghJson(`${GH_API}/repos/${SUBMIT_REPO}/git/trees/main?recursive=1`);
+const tree = await ghJsonWithPublicFallback(`${GH_API}/repos/${SUBMIT_REPO}/git/trees/main?recursive=1`);
 if (!tree.ok) {
   console.error(`✗ Trees API failed: ${tree.status} ${(tree.json && tree.json.message) || ''}`);
   process.exit(1);
@@ -123,7 +137,7 @@ if (!TOKEN) {
   process.exit(1);
 }
 
-const current = await ghJson(`${GH_API}/repos/${SUBMIT_REPO}/contents/submissions/index.json`);
+const current = await ghJsonWithPublicFallback(`${GH_API}/repos/${SUBMIT_REPO}/contents/submissions/index.json`);
 const sha = current.ok ? current.json.sha : null;
 const putRes = await fetch(`${GH_API}/repos/${SUBMIT_REPO}/contents/submissions/index.json`, {
   method: 'PUT',
