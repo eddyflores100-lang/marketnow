@@ -826,11 +826,16 @@
       "repo": "parthod0x/satroot",
       "issue_num": 2,
       "username": "parthod0x"
+    },
+    "6349301545": {
+      "repo": "crewAIInc/crewAI",
+      "issue_num": 8381,
+      "username": "shadialhasan"
     }
   },
   "npm_last_downloads": 103,
   "github_last_stars": 0,
   "last_report": null,
   "initialized_at": "2026-07-10T01:27:15.724696+00:00",
-  "last_check": "2026-10-21T07:32:43.242485+00:00"
+  "last_check": "2026-10-22T22:16:57.274886+00:00"
 }
