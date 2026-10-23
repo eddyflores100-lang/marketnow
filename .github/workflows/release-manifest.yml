@@ -44,7 +44,7 @@ jobs:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           # el manifest firma el HEAD actual de master (no el SHA del evento,
           # que puede haber avanzado con resultados L2/promotions)
