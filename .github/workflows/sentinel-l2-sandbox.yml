@@ -289,7 +289,7 @@ jobs:
           exit 1
 
       - name: Upload L2 results as artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: sentinel-l2-${{ steps.vars.outputs.skill_id }}
           path: /tmp/l2_output/
