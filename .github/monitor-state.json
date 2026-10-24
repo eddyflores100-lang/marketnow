@@ -836,11 +836,16 @@
       "repo": "modelcontextprotocol/registry",
       "issue_num": 1657,
       "username": "rdimitrov"
+    },
+    "6376241636": {
+      "repo": "modelcontextprotocol/registry",
+      "issue_num": 1678,
+      "username": "rdimitrov"
     }
   },
   "npm_last_downloads": 103,
   "github_last_stars": 0,
   "last_report": null,
   "initialized_at": "2026-07-10T01:27:15.724696+00:00",
-  "last_check": "2026-10-23T18:17:00.679391+00:00"
+  "last_check": "2026-10-24T00:37:35.001927+00:00"
 }
