@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1648052",
+  "certificate_id": "MN-SC-2026-7484072",
   "skill_id": "mn-real-xenditmcp",
   "skill_name": "xendit-mcp",
-  "issued_at": "2026-10-18T05:34:08.052Z",
-  "expires_at": "2026-10-25T05:34:08.052Z",
+  "issued_at": "2026-10-25T05:51:24.072Z",
+  "expires_at": "2026-11-01T05:51:24.072Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9dad4705757f0302c553a5b6f38cdc37cf18092adf26da7712bf49c9468a181c",
+  "signature": "dba506ab61dc552edae0b7ad5bc98e15351bcdb739d2c52f2c3561f8bf2155c6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-xenditmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1674293",
+  "certificate_id": "MN-SC-2026-7514456",
   "skill_id": "mn-real-ethereumvalidatorque",
   "skill_name": "ethereum-validator-queue-mcp",
-  "issued_at": "2026-10-18T05:34:34.293Z",
-  "expires_at": "2026-10-25T05:34:34.293Z",
+  "issued_at": "2026-10-25T05:51:54.456Z",
+  "expires_at": "2026-11-01T05:51:54.456Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "80287e13691381e9d71d38223bd419f2096d7d872d06350ce84f489f11ee15d3",
+  "signature": "88e4efb026b6ba8fcfe00ba8b89ae0a388b43504396a465da393973f68f513dd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-ethereumvalidatorque"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1355216",
+  "certificate_id": "MN-SC-2026-7130911",
   "skill_id": "mn-gen-01464",
   "skill_name": "blogburst-mcp-server",
-  "issued_at": "2026-10-18T05:29:15.216Z",
-  "expires_at": "2026-10-25T05:29:15.216Z",
+  "issued_at": "2026-10-25T05:45:30.911Z",
+  "expires_at": "2026-11-01T05:45:30.911Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7cace8e587269e19a0bbe2f116938ce88bc0e025ab65c428ca782833146db471",
+  "signature": "9d2c03159a3c6994fd3307738676d146a054fe7131341b03ec32f974e77b6492",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01464"
 }

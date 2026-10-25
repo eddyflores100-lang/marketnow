@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1516508",
+  "certificate_id": "MN-SC-2026-7325371",
   "skill_id": "mn-awmcp-localstackmcpserver",
   "skill_name": "localstack-mcp-server",
-  "issued_at": "2026-10-18T05:31:56.508Z",
-  "expires_at": "2026-10-25T05:31:56.508Z",
+  "issued_at": "2026-10-25T05:48:45.371Z",
+  "expires_at": "2026-11-01T05:48:45.371Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cbb095f12f4cf46a28efd859bc2f2d85beb3cb8eb4895cfc711aa51ac3e71bff",
+  "signature": "ece03c01d2a46fefa9e717c5290b45ac6f3af833320c0aab184c280cace20f75",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-localstackmcpserver"
 }

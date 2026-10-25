@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1649329",
+  "certificate_id": "MN-SC-2026-7485328",
   "skill_id": "mn-real-bicscanmcp",
   "skill_name": "bicscan-mcp",
-  "issued_at": "2026-10-18T05:34:09.329Z",
-  "expires_at": "2026-10-25T05:34:09.329Z",
+  "issued_at": "2026-10-25T05:51:25.328Z",
+  "expires_at": "2026-11-01T05:51:25.328Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "bad7f60951212ed0ba1813bffb97039005822a058fcfab4a504a47ce38f293f8",
+  "signature": "a38cfa5d26119c2dd0bb8ac576c456e0b32be3b32ff7a271d3fabd562b407604",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-bicscanmcp"
 }

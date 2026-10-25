@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1682206",
+  "certificate_id": "MN-SC-2026-7523961",
   "skill_id": "mn-real-omnifunmcpserver",
   "skill_name": "omni-fun-mcp-server",
-  "issued_at": "2026-10-18T05:34:42.206Z",
-  "expires_at": "2026-10-25T05:34:42.206Z",
+  "issued_at": "2026-10-25T05:52:03.961Z",
+  "expires_at": "2026-11-01T05:52:03.961Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3a0bb7d1e8a0b2d13888a8e4f73a34cadc884b9b1f9871f7205a58f3b049487a",
+  "signature": "c554db97024920eebfe14441a91271a3433153f30b63249ef60fc796dd2edd15",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-omnifunmcpserver"
 }

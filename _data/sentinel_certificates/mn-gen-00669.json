@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1348334",
+  "certificate_id": "MN-SC-2026-7122914",
   "skill_id": "mn-gen-00669",
   "skill_name": "algora-mcp-server",
-  "issued_at": "2026-10-18T05:29:08.334Z",
-  "expires_at": "2026-10-25T05:29:08.334Z",
+  "issued_at": "2026-10-25T05:45:22.914Z",
+  "expires_at": "2026-11-01T05:45:22.914Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d1ad0e17eb8f33179cb05524687f8a4c46a3b8703d4e0d04c0f64d65b22418b2",
+  "signature": "f085a12de0ec4bdec0cf1d99d341a4eebb2e0643c21804e3331afa5787174d27",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00669"
 }

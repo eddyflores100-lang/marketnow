@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1671180",
+  "certificate_id": "MN-SC-2026-7510717",
   "skill_id": "mn-real-cryptonewsmcp",
   "skill_name": "crypto-news-mcp",
-  "issued_at": "2026-10-18T05:34:31.180Z",
-  "expires_at": "2026-10-25T05:34:31.180Z",
+  "issued_at": "2026-10-25T05:51:50.717Z",
+  "expires_at": "2026-11-01T05:51:50.717Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9a07ad3107d30b2fd6a65d021f63bf6a2aceb277933a59957571c2415fbfe1fe",
+  "signature": "a2bed17885eaf92da9e0f8f667cb3570fac713baf1368b939c3f9fef5f0f72db",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cryptonewsmcp"
 }

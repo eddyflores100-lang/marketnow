@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1402981",
+  "certificate_id": "MN-SC-2026-7190347",
   "skill_id": "mn-gen-07098",
   "skill_name": "mongo-mcp",
-  "issued_at": "2026-10-18T05:30:02.981Z",
-  "expires_at": "2026-10-25T05:30:02.981Z",
+  "issued_at": "2026-10-25T05:46:30.347Z",
+  "expires_at": "2026-11-01T05:46:30.347Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "41cce75c408db16ce4f071ebfed8b8eb2d1b81e276ca8e9d45ee1bf7e5dd536d",
+  "signature": "8f1d4ac2ed1885976df973c442db012516acea78315f108d22cdc089b80ee6ae",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07098"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1532313",
+  "certificate_id": "MN-SC-2026-7346874",
   "skill_id": "mn-awmcp-llmcouncil",
   "skill_name": "llm-council",
-  "issued_at": "2026-10-18T05:32:12.313Z",
-  "expires_at": "2026-10-25T05:32:12.313Z",
+  "issued_at": "2026-10-25T05:49:06.874Z",
+  "expires_at": "2026-11-01T05:49:06.874Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a18eefa12368e8933cec7bf944ad96658ea6ce69f8fd7555f0009c112ae70180",
+  "signature": "5068d921ab15b155cdf2b6c93b018270dfc80827a6b3c96d54ded4b091fc21d5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-llmcouncil"
 }

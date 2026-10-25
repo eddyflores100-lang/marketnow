@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1449535",
+  "certificate_id": "MN-SC-2026-7245681",
   "skill_id": "mn-gen-13302",
   "skill_name": "Wazuh-MCP-Server",
-  "issued_at": "2026-10-18T05:30:49.535Z",
-  "expires_at": "2026-10-25T05:30:49.535Z",
+  "issued_at": "2026-10-25T05:47:25.681Z",
+  "expires_at": "2026-11-01T05:47:25.681Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "92fa1ebff88538cc01d4cf65188619d0346119941586650a90725759f7298242",
+  "signature": "2133f2d6faa6741fa7f75b0d0e3f99e1fc14ad61fbcaa5c7e8551133d0133985",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13302"
 }

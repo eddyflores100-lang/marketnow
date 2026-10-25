@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1592086",
+  "certificate_id": "MN-SC-2026-7419585",
   "skill_id": "mn-real-mcpservercircleci",
   "skill_name": "mcp-server-circleci",
-  "issued_at": "2026-10-18T05:33:12.086Z",
-  "expires_at": "2026-10-25T05:33:12.086Z",
+  "issued_at": "2026-10-25T05:50:19.585Z",
+  "expires_at": "2026-11-01T05:50:19.585Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3e5a545254f32a32d79bd94dd1273e4a6075850abd7c0288bcf9276348d5dd81",
+  "signature": "f3032a2530e903ee62a5d85d1715149b7c047e2f2b781d0187ed8448ef5279f1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpservercircleci"
 }

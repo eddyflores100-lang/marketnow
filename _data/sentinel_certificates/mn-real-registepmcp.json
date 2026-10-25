@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1579434",
+  "certificate_id": "MN-SC-2026-7404685",
   "skill_id": "mn-real-registepmcp",
   "skill_name": "registep-mcp",
-  "issued_at": "2026-10-18T05:32:59.434Z",
-  "expires_at": "2026-10-25T05:32:59.434Z",
+  "issued_at": "2026-10-25T05:50:04.685Z",
+  "expires_at": "2026-11-01T05:50:04.685Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f4a751b2f2b1e8dc72636c6d481d544a50b6beb310bdfaaf3b75e718468ff0e0",
+  "signature": "af9c452043e10e9b1ada1060853fcb791f0aac1551b7c8cc6ea3ff393a63d807",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-registepmcp"
 }

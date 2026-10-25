@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1349936",
+  "certificate_id": "MN-SC-2026-7124455",
   "skill_id": "mn-gen-00815",
   "skill_name": "anybrowse",
-  "issued_at": "2026-10-18T05:29:09.936Z",
-  "expires_at": "2026-10-25T05:29:09.936Z",
+  "issued_at": "2026-10-25T05:45:24.455Z",
+  "expires_at": "2026-11-01T05:45:24.455Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "97912d70f46cc653d42b32943af10ed312e4bbe7847d1eb6ad3b11f673e124ed",
+  "signature": "f3b290893d9a635835bbbf9b3250ed2ac87450b0a4a727bec9a178fffec3c6e1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00815"
 }

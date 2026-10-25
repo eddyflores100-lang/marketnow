@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1721111",
+  "certificate_id": "MN-SC-2026-7571848",
   "skill_id": "mn-real-memviz",
   "skill_name": "memviz",
-  "issued_at": "2026-10-18T05:35:21.111Z",
-  "expires_at": "2026-10-25T05:35:21.111Z",
+  "issued_at": "2026-10-25T05:52:51.848Z",
+  "expires_at": "2026-11-01T05:52:51.848Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "74d9731267803c4bfde98e3177d5dfec018eefa25ddc7ede5576243054b6f42d",
+  "signature": "e2b21a9998ce28f2d24f81cba2489c1b9181b1192360a5f0eadffd424e80df02",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-memviz"
 }

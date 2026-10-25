@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1407071",
+  "certificate_id": "MN-SC-2026-7195291",
   "skill_id": "mn-gen-07584",
   "skill_name": "ARBuilder",
-  "issued_at": "2026-10-18T05:30:07.071Z",
-  "expires_at": "2026-10-25T05:30:07.071Z",
+  "issued_at": "2026-10-25T05:46:35.291Z",
+  "expires_at": "2026-11-01T05:46:35.291Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a421cc4c3e3bb23de5e29a5f395620ab3b6daa8a01d11d0336913176033fc9ad",
+  "signature": "6fec1079e403d01055b067cba8ad27af2c9e005b35e782da5a18c0ef5db99e61",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07584"
 }

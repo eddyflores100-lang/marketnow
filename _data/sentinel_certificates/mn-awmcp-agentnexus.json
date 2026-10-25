@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1528584",
+  "certificate_id": "MN-SC-2026-7342842",
   "skill_id": "mn-awmcp-agentnexus",
   "skill_name": "agent-nexus",
-  "issued_at": "2026-10-18T05:32:08.584Z",
-  "expires_at": "2026-10-25T05:32:08.584Z",
+  "issued_at": "2026-10-25T05:49:02.842Z",
+  "expires_at": "2026-11-01T05:49:02.842Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d91a2c682fff0e2480910e89dcf33cb36fcf8467403a34d1f25bd28801cf4cfc",
+  "signature": "43720ab4ae7e9c78a0a4fb6a75424f436d070355910eb9d5cf57ff1b3a049fad",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-agentnexus"
 }

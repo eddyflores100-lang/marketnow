@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1519606",
+  "certificate_id": "MN-SC-2026-7332047",
   "skill_id": "mn-awmcp-qiniumcpserver",
   "skill_name": "qiniu-mcp-server",
-  "issued_at": "2026-10-18T05:31:59.606Z",
-  "expires_at": "2026-10-25T05:31:59.606Z",
+  "issued_at": "2026-10-25T05:48:52.047Z",
+  "expires_at": "2026-11-01T05:48:52.047Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "66c64467cd392b537bfcc6eeb2020a56465d46c715a47cdbdcfe6de6191d9586",
+  "signature": "16ed1ed39d9bb2fd0beb668281677538c3c4f7a258d62c06d16253c6114c5ed3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-qiniumcpserver"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1717994",
+  "certificate_id": "MN-SC-2026-7567823",
   "skill_id": "mn-real-hive",
   "skill_name": "hive",
-  "issued_at": "2026-10-18T05:35:17.994Z",
-  "expires_at": "2026-10-25T05:35:17.994Z",
+  "issued_at": "2026-10-25T05:52:47.823Z",
+  "expires_at": "2026-11-01T05:52:47.823Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8d3b3964c3cb2257e70780340728ceb37f6d7531433b9a85d68c7743d077f405",
+  "signature": "d704b3ba8c903f174812236a65245232e3c7dc2d7653bdb4637c181d48bc4f35",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-hive"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1594070",
+  "certificate_id": "MN-SC-2026-7421924",
   "skill_id": "mn-real-teamcitymcp",
   "skill_name": "teamcity-mcp",
-  "issued_at": "2026-10-18T05:33:14.070Z",
-  "expires_at": "2026-10-25T05:33:14.070Z",
+  "issued_at": "2026-10-25T05:50:21.924Z",
+  "expires_at": "2026-11-01T05:50:21.924Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2f7f3d123805146f90045c096a3358c647a636c2ba42b11422e50b273ad64b6f",
+  "signature": "03c1aa8aef9c9df660b3d4bef59d7753587ad3a572eb60675b1964742da55832",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-teamcitymcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1522344",
+  "certificate_id": "MN-SC-2026-7335417",
   "skill_id": "mn-awmcp-cloudbaseaitoolkit",
   "skill_name": "CloudBase-AI-ToolKit",
-  "issued_at": "2026-10-18T05:32:02.344Z",
-  "expires_at": "2026-10-25T05:32:02.344Z",
+  "issued_at": "2026-10-25T05:48:55.417Z",
+  "expires_at": "2026-11-01T05:48:55.417Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "17c736eb0f6fd669da2d6cb38a5607748b6a93de8d0a2dc34bd0e89d624cba34",
+  "signature": "cb38c23ddee0d065bfc05e279b839213cbf987e50356962f7f98276c07eb00f5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-cloudbaseaitoolkit"
 }

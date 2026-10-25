@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1355318",
+  "certificate_id": "MN-SC-2026-7131037",
   "skill_id": "mn-gen-01487",
   "skill_name": "boldsign-mcp",
-  "issued_at": "2026-10-18T05:29:15.318Z",
-  "expires_at": "2026-10-25T05:29:15.318Z",
+  "issued_at": "2026-10-25T05:45:31.037Z",
+  "expires_at": "2026-11-01T05:45:31.037Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d9089e5b5453a15f9b812b529d61276b3fcaf3e9685cac9c2f21b398fc1f0f5b",
+  "signature": "bfd2fb23348793b1c5cabad714c0bf238630d46868d46580085b4c485764aa8e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01487"
 }

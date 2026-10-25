@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1474001",
+  "certificate_id": "MN-SC-2026-7274844",
   "skill_id": "mn-awmcp-mcpproxygo",
   "skill_name": "mcpproxy-go",
-  "issued_at": "2026-10-18T05:31:14.001Z",
-  "expires_at": "2026-10-25T05:31:14.001Z",
+  "issued_at": "2026-10-25T05:47:54.844Z",
+  "expires_at": "2026-11-01T05:47:54.844Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "057e8ee17378942e0f5fd2c030fdf4dff5b7837bcf64d118987476917abac400",
+  "signature": "457f22e38ae92493c0288a8e93caf4c5deb3b90bfacece3b769c32a54eef7d54",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpproxygo"
 }

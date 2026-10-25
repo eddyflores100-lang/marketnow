@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1628486",
+  "certificate_id": "MN-SC-2026-7462118",
   "skill_id": "mn-real-laughtale",
   "skill_name": "laugh-tale",
-  "issued_at": "2026-10-18T05:33:48.486Z",
-  "expires_at": "2026-10-25T05:33:48.486Z",
+  "issued_at": "2026-10-25T05:51:02.118Z",
+  "expires_at": "2026-11-01T05:51:02.118Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fd756c258bed89660d57c685eeddc9773ef9a8a72bc4ec9d2bb10e2e11c42b23",
+  "signature": "ec9ef809cf3af525d45c37b5175186e6d453aa194291d38b2faad05dc7784ea9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-laughtale"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1366516",
+  "certificate_id": "MN-SC-2026-7145384",
   "skill_id": "mn-gen-02854",
   "skill_name": "alcove",
-  "issued_at": "2026-10-18T05:29:26.516Z",
-  "expires_at": "2026-10-25T05:29:26.516Z",
+  "issued_at": "2026-10-25T05:45:45.384Z",
+  "expires_at": "2026-11-01T05:45:45.384Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0d831b6b6c81195d9c72ec220ba47c68b683796283b4261d1b5e43ea164b60df",
+  "signature": "73cb64d67083b357d0948eb955cd7df80e6d08aa0a794a93bb744f914b7ecb73",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02854"
 }

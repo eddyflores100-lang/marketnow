@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1663078",
+  "certificate_id": "MN-SC-2026-7501307",
   "skill_id": "mn-real-gloriamcp",
   "skill_name": "gloria-mcp",
-  "issued_at": "2026-10-18T05:34:23.078Z",
-  "expires_at": "2026-10-25T05:34:23.078Z",
+  "issued_at": "2026-10-25T05:51:41.307Z",
+  "expires_at": "2026-11-01T05:51:41.307Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2bbc7d286553069f5c712430513961b6735b022e8f65c89b6f74771eeb710f35",
+  "signature": "acb595a6bc23702c67e7339a5e4e746f39d2cbd041886c38ebad0fe0f3689362",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-gloriamcp"
 }

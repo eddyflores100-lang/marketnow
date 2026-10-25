@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1537069",
+  "certificate_id": "MN-SC-2026-7352472",
   "skill_id": "mn-awmcp-mcprubberduck",
   "skill_name": "mcp-rubber-duck",
-  "issued_at": "2026-10-18T05:32:17.069Z",
-  "expires_at": "2026-10-25T05:32:17.069Z",
+  "issued_at": "2026-10-25T05:49:12.472Z",
+  "expires_at": "2026-11-01T05:49:12.472Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "80a334b0223af4f4ab8619f0b85b3831bca0df8d1006553875f55450a3fd35d5",
+  "signature": "369414687ee2e7b738259a9abae4cfb91cfa95281e59e03b265209388bd231cf",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcprubberduck"
 }

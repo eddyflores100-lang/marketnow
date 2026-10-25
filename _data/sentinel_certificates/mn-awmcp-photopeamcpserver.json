@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1480743",
+  "certificate_id": "MN-SC-2026-7282903",
   "skill_id": "mn-awmcp-photopeamcpserver",
   "skill_name": "photopea-mcp-server",
-  "issued_at": "2026-10-18T05:31:20.743Z",
-  "expires_at": "2026-10-25T05:31:20.743Z",
+  "issued_at": "2026-10-25T05:48:02.903Z",
+  "expires_at": "2026-11-01T05:48:02.903Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "728b9bdd7452dff2091c6ed8b9c25e8816668b1aa2c01c22bc818dc0ab9c29ba",
+  "signature": "bd3ebc35f83afe39eccca2619a284fc1e5f01ed2479005adb174e2e51fea1d9b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-photopeamcpserver"
 }

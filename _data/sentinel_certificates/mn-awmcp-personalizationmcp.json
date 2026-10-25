@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1477299",
+  "certificate_id": "MN-SC-2026-7278785",
   "skill_id": "mn-awmcp-personalizationmcp",
   "skill_name": "PersonalizationMCP",
-  "issued_at": "2026-10-18T05:31:17.299Z",
-  "expires_at": "2026-10-25T05:31:17.299Z",
+  "issued_at": "2026-10-25T05:47:58.785Z",
+  "expires_at": "2026-11-01T05:47:58.785Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "64326b42f8257d3612c7c59da726e4e00236ea6e9d24524ba3ee8fe88f66ab75",
+  "signature": "4f5cb949611082bc07036d512cc66a0d5a3bcf5adefe5419bf23f8b82f3905d1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-personalizationmcp"
 }

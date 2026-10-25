@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1482673",
+  "certificate_id": "MN-SC-2026-7284957",
   "skill_id": "mn-awmcp-asepritemcp",
   "skill_name": "aseprite-mcp",
-  "issued_at": "2026-10-18T05:31:22.673Z",
-  "expires_at": "2026-10-25T05:31:22.673Z",
+  "issued_at": "2026-10-25T05:48:04.957Z",
+  "expires_at": "2026-11-01T05:48:04.957Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5a8f0adef7e3151e37084bfd99a6058edc747de16bb333e6a63b2767e7392262",
+  "signature": "041b426dd11ac5ca98e65ca5b7db560d196f5282fd5602df506671e46e39f692",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-asepritemcp"
 }

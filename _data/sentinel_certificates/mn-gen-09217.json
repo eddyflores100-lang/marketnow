@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1419451",
+  "certificate_id": "MN-SC-2026-7209953",
   "skill_id": "mn-gen-09217",
   "skill_name": "monzo-mcp",
-  "issued_at": "2026-10-18T05:30:19.451Z",
-  "expires_at": "2026-10-25T05:30:19.451Z",
+  "issued_at": "2026-10-25T05:46:49.953Z",
+  "expires_at": "2026-11-01T05:46:49.953Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cfc8653a7f581c433b7cd2bf087e93f736d5ecb88c45bf2541c4326aae7339f6",
+  "signature": "e289b6bc8a25b0ff481c59826f559b342c410b16a63dda0d5768cb91c8bd3c9a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09217"
 }

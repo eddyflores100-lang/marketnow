@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1676348",
+  "certificate_id": "MN-SC-2026-7517044",
   "skill_id": "mn-real-tokenrevokemcp",
   "skill_name": "token-revoke-mcp",
-  "issued_at": "2026-10-18T05:34:36.348Z",
-  "expires_at": "2026-10-25T05:34:36.348Z",
+  "issued_at": "2026-10-25T05:51:57.044Z",
+  "expires_at": "2026-11-01T05:51:57.044Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3c74c3dc54d222e2bebc76a771913d7e838b869150658c255b147062c4605153",
+  "signature": "9d80f94d1a01d9618a7eb1a0dbead2533af07eda2fdd2873e857cc947cbe34bd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-tokenrevokemcp"
 }

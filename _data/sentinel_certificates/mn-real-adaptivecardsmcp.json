@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1622595",
+  "certificate_id": "MN-SC-2026-7455021",
   "skill_id": "mn-real-adaptivecardsmcp",
   "skill_name": "adaptive-cards-mcp",
-  "issued_at": "2026-10-18T05:33:42.595Z",
-  "expires_at": "2026-10-25T05:33:42.595Z",
+  "issued_at": "2026-10-25T05:50:55.021Z",
+  "expires_at": "2026-11-01T05:50:55.021Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "039a37b5ef5dac962787e98455207dad9a81ee30bead47a5128a3de92df8e282",
+  "signature": "123156d8881514be2e4b4c8c18016dd1ac0ee2c4abfc2405d2cd6ef355b20ee8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-adaptivecardsmcp"
 }

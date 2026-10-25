@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1643471",
+  "certificate_id": "MN-SC-2026-7478645",
   "skill_id": "mn-real-changethisfilemcp",
   "skill_name": "changethisfile-mcp",
-  "issued_at": "2026-10-18T05:34:03.471Z",
-  "expires_at": "2026-10-25T05:34:03.471Z",
+  "issued_at": "2026-10-25T05:51:18.645Z",
+  "expires_at": "2026-11-01T05:51:18.645Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6dfd66fccf64836859435f9c37274afe9045aa6986ff46eb6670ec684f0c9985",
+  "signature": "581220ffd4448af50c3be1d9134472d5cd0848dda0032f9d4fa3c99dcc11e68e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-changethisfilemcp"
 }

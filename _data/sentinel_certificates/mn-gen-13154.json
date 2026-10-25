@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1448405",
+  "certificate_id": "MN-SC-2026-7244394",
   "skill_id": "mn-gen-13154",
   "skill_name": "vibealive",
-  "issued_at": "2026-10-18T05:30:48.405Z",
-  "expires_at": "2026-10-25T05:30:48.405Z",
+  "issued_at": "2026-10-25T05:47:24.394Z",
+  "expires_at": "2026-11-01T05:47:24.394Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "365d3cb081ed3b5f5029033f576a250b45be128eff96a586b481bdaeb11161e2",
+  "signature": "fd9a9e7afe3bc4ad8ceb07dda38da1b03621495c45759414a9d652e1dbde92d5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13154"
 }

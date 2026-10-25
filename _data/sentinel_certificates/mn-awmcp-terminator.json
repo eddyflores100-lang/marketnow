@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1536310",
+  "certificate_id": "MN-SC-2026-7351434",
   "skill_id": "mn-awmcp-terminator",
   "skill_name": "terminator",
-  "issued_at": "2026-10-18T05:32:16.310Z",
-  "expires_at": "2026-10-25T05:32:16.310Z",
+  "issued_at": "2026-10-25T05:49:11.434Z",
+  "expires_at": "2026-11-01T05:49:11.434Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3722a6988e4c877a670a0eb7eb36d9d6fd3b7164161b61dc36fefd4ffe872fe3",
+  "signature": "90a3908f51c6022a389841e039128e5887a5a7100de25ff9154d1cba369a13ad",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-terminator"
 }

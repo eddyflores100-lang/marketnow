@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1475315",
+  "certificate_id": "MN-SC-2026-7276405",
   "skill_id": "mn-awmcp-satring",
   "skill_name": "satring",
-  "issued_at": "2026-10-18T05:31:15.315Z",
-  "expires_at": "2026-10-25T05:31:15.315Z",
+  "issued_at": "2026-10-25T05:47:56.405Z",
+  "expires_at": "2026-11-01T05:47:56.405Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9bd37d0bd5a10193fdce289f59e878b241e49867299c2b8658f489f2ad63dc9d",
+  "signature": "abe21baea05e0cd3b5b75b5ad3c0fee510a4544d15bde9da5813f75e2c46752b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-satring"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1622194",
+  "certificate_id": "MN-SC-2026-7454525",
   "skill_id": "mn-real-srctokb",
   "skill_name": "src-to-kb",
-  "issued_at": "2026-10-18T05:33:42.194Z",
-  "expires_at": "2026-10-25T05:33:42.194Z",
+  "issued_at": "2026-10-25T05:50:54.525Z",
+  "expires_at": "2026-11-01T05:50:54.525Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2426248e7ee10548385d1a2675a7fe586583c9ed8b04f2983a9a2199c34176b9",
+  "signature": "bcfda649ec840ccd2d8ed94fb6770a1b9d222b466ea34468c3a0d88c71a99eb3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-srctokb"
 }

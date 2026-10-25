@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1635813",
+  "certificate_id": "MN-SC-2026-7470971",
   "skill_id": "mn-real-csvglow",
   "skill_name": "csvglow",
-  "issued_at": "2026-10-18T05:33:55.813Z",
-  "expires_at": "2026-10-25T05:33:55.813Z",
+  "issued_at": "2026-10-25T05:51:10.971Z",
+  "expires_at": "2026-11-01T05:51:10.971Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e7b44d18987592900282a9322829650eed1b75dd9c9179fd8a414671a399b579",
+  "signature": "dd5a25367da748eb34bcda3e7de8cdb26915db9f228297a25a381bca8cc0b6e2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-csvglow"
 }

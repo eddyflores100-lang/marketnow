@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1457078",
+  "certificate_id": "MN-SC-2026-7254917",
   "skill_id": "mn-mcp-memory",
   "skill_name": "MCP Memory Server (Official)",
-  "issued_at": "2026-10-18T05:30:57.078Z",
-  "expires_at": "2026-10-25T05:30:57.078Z",
+  "issued_at": "2026-10-25T05:47:34.917Z",
+  "expires_at": "2026-11-01T05:47:34.917Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a2bf9320efea0f7a8087346f548888a0affd42b8d5c7210ce60ca9429afca96e",
+  "signature": "d3a13a698d1229ca4d3496ae34e56b75930c4dfa65a8000877cdf722e989ee29",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-mcp-memory"
 }

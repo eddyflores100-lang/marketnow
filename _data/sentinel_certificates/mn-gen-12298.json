@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1440875",
+  "certificate_id": "MN-SC-2026-7235374",
   "skill_id": "mn-gen-12298",
   "skill_name": "supabase-mcp-server",
-  "issued_at": "2026-10-18T05:30:40.875Z",
-  "expires_at": "2026-10-25T05:30:40.875Z",
+  "issued_at": "2026-10-25T05:47:15.374Z",
+  "expires_at": "2026-11-01T05:47:15.374Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9eebc32c38399209661692bb2cd39181a2d9b56fd49f9a105c861b6c032e8c49",
+  "signature": "ddb31bb215d3eb1169f881471d3ab66814e7096fbce9cf95acfab7fbb755aea8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12298"
 }

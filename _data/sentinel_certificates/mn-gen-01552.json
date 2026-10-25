@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1356536",
+  "certificate_id": "MN-SC-2026-7132347",
   "skill_id": "mn-gen-01552",
   "skill_name": "brightspace-mcp-server",
-  "issued_at": "2026-10-18T05:29:16.536Z",
-  "expires_at": "2026-10-25T05:29:16.536Z",
+  "issued_at": "2026-10-25T05:45:32.347Z",
+  "expires_at": "2026-11-01T05:45:32.347Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "df11c2c8ec262df6afd777d521ff0e327c8649e86f85e8a177234f6171e33b1c",
+  "signature": "e74e9ccc63234cfafc2fc5e35f31d263a1771bd30edee80acd6d4046fd58cfa7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01552"
 }

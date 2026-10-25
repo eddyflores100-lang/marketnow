@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1555440",
+  "certificate_id": "MN-SC-2026-7375773",
   "skill_id": "mn-real-k8smcpserver",
   "skill_name": "k8s-mcp-server",
-  "issued_at": "2026-10-18T05:32:35.440Z",
-  "expires_at": "2026-10-25T05:32:35.440Z",
+  "issued_at": "2026-10-25T05:49:35.773Z",
+  "expires_at": "2026-11-01T05:49:35.773Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a58d829e2c2db72e35abe4f7a19e0c45c0511169dbe668c0bbe5de901b6dc6e5",
+  "signature": "e17629e560af9d5da00a82c6515af68f5416560c552267f8898bf501a9e12123",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-k8smcpserver"
 }

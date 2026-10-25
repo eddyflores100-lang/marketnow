@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1680631",
+  "certificate_id": "MN-SC-2026-7521989",
   "skill_id": "mn-real-mcpserverledger",
   "skill_name": "mcp-server-ledger",
-  "issued_at": "2026-10-18T05:34:40.631Z",
-  "expires_at": "2026-10-25T05:34:40.631Z",
+  "issued_at": "2026-10-25T05:52:01.989Z",
+  "expires_at": "2026-11-01T05:52:01.989Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8e9ae4a4fbe94433b72f8aa9a7bd2c1202cfde74c83426e31942a5ab0a8f6776",
+  "signature": "8d8b0a777f34ea4a78dd0ee27ef07a92a202601b8220c00a5cd6c7153bb98051",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpserverledger"
 }

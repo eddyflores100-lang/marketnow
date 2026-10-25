@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1536592",
+  "certificate_id": "MN-SC-2026-7351784",
   "skill_id": "mn-awmcp-codetotree",
   "skill_name": "code-to-tree",
-  "issued_at": "2026-10-18T05:32:16.592Z",
-  "expires_at": "2026-10-25T05:32:16.592Z",
+  "issued_at": "2026-10-25T05:49:11.784Z",
+  "expires_at": "2026-11-01T05:49:11.784Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b005d9e9f428cc327508089bd6acb41456d6d6caf3e32675eb08fd16e3e5e122",
+  "signature": "be90c8d386be0d1e43e2a8e02ab299b994a17639a031224668acb3339e4ae520",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-codetotree"
 }

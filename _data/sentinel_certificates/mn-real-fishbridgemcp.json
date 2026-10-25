@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1711244",
+  "certificate_id": "MN-SC-2026-7559601",
   "skill_id": "mn-real-fishbridgemcp",
   "skill_name": "fish-bridge-mcp",
-  "issued_at": "2026-10-18T05:35:11.244Z",
-  "expires_at": "2026-10-25T05:35:11.244Z",
+  "issued_at": "2026-10-25T05:52:39.601Z",
+  "expires_at": "2026-11-01T05:52:39.601Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f73f5deeafee8df459ec21478cf031aa5d1c174e66c77b1b96e960a3f63cb492",
+  "signature": "4a1fcc20d126b457d6d69029283448dc510d405260afdbd8c30bebbc8f2e3bed",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-fishbridgemcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1408703",
+  "certificate_id": "MN-SC-2026-7197195",
   "skill_id": "mn-gen-07678",
   "skill_name": "mcp-server-iaptic",
-  "issued_at": "2026-10-18T05:30:08.703Z",
-  "expires_at": "2026-10-25T05:30:08.703Z",
+  "issued_at": "2026-10-25T05:46:37.195Z",
+  "expires_at": "2026-11-01T05:46:37.195Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a3d8d2dd1f97c185d57872d4fe01eb358872b0e26899059c20189cc63225ddd4",
+  "signature": "2b5f8fac42e11802184338e7fde2cf5ccafd5eb7c4e47921241131b877717f67",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07678"
 }

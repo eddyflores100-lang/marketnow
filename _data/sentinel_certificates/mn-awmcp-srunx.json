@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1526080",
+  "certificate_id": "MN-SC-2026-7340087",
   "skill_id": "mn-awmcp-srunx",
   "skill_name": "srunx",
-  "issued_at": "2026-10-18T05:32:06.080Z",
-  "expires_at": "2026-10-25T05:32:06.080Z",
+  "issued_at": "2026-10-25T05:49:00.087Z",
+  "expires_at": "2026-11-01T05:49:00.087Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "094f34e4432b191e3be052b49cd8d7ff210470f7a82fbea523cd5a45a97bf09a",
+  "signature": "ce72ccb7666b5e04a9c1467eba715d670f8281964008f9ca115fa0bfa3071089",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-srunx"
 }

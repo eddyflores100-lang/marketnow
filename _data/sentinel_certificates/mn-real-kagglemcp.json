@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1631533",
+  "certificate_id": "MN-SC-2026-7465742",
   "skill_id": "mn-real-kagglemcp",
   "skill_name": "kaggle-mcp",
-  "issued_at": "2026-10-18T05:33:51.533Z",
-  "expires_at": "2026-10-25T05:33:51.533Z",
+  "issued_at": "2026-10-25T05:51:05.742Z",
+  "expires_at": "2026-11-01T05:51:05.742Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7863048c3d9b0aff84b95d494e3556f0f94add062258a29fe056640ba92e9d7b",
+  "signature": "c0efec176a03253bd961dbd2508376e2a2c28a3d137ea649107121fbc432000d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-kagglemcp"
 }

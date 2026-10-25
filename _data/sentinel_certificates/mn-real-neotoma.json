@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1717293",
+  "certificate_id": "MN-SC-2026-7566952",
   "skill_id": "mn-real-neotoma",
   "skill_name": "neotoma",
-  "issued_at": "2026-10-18T05:35:17.293Z",
-  "expires_at": "2026-10-25T05:35:17.293Z",
+  "issued_at": "2026-10-25T05:52:46.952Z",
+  "expires_at": "2026-11-01T05:52:46.952Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fc311765a6d4e2bc061c326408fc3143c5fcfcc5d81ac4884d24ca00a4b5cf4f",
+  "signature": "c093a256be7d52d686c85ceab1d8acf9322d7095296f35ad79a2072cc9d86883",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-neotoma"
 }

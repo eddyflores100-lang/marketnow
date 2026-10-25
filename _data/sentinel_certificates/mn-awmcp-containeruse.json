@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1525683",
+  "certificate_id": "MN-SC-2026-7339590",
   "skill_id": "mn-awmcp-containeruse",
   "skill_name": "container-use",
-  "issued_at": "2026-10-18T05:32:05.683Z",
-  "expires_at": "2026-10-25T05:32:05.683Z",
+  "issued_at": "2026-10-25T05:48:59.590Z",
+  "expires_at": "2026-11-01T05:48:59.590Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fbd32475ebe906bd77d959ce9c11a580b4689af078d866d919fd6161a915185f",
+  "signature": "a3d3379426941eff045da6b882b02352a13a5304863dbfe387242a4f040867b4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-containeruse"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1668471",
+  "certificate_id": "MN-SC-2026-7507388",
   "skill_id": "mn-real-shikamaru",
   "skill_name": "shikamaru",
-  "issued_at": "2026-10-18T05:34:28.471Z",
-  "expires_at": "2026-10-25T05:34:28.471Z",
+  "issued_at": "2026-10-25T05:51:47.388Z",
+  "expires_at": "2026-11-01T05:51:47.388Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "521b050eb76b62280008ee28fdb692ab59b93bb947e9ec040de5e83b4fa92349",
+  "signature": "24105f1389584873a16f5a77075056d8d735b4ea56e2561784376f59eec6a364",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-shikamaru"
 }

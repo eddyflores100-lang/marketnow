@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1393085",
+  "certificate_id": "MN-SC-2026-7178422",
   "skill_id": "mn-gen-05830",
   "skill_name": "llmwiki",
-  "issued_at": "2026-10-18T05:29:53.085Z",
-  "expires_at": "2026-10-25T05:29:53.085Z",
+  "issued_at": "2026-10-25T05:46:18.422Z",
+  "expires_at": "2026-11-01T05:46:18.422Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a023716d1311e73464fa530604c3858d8ca1b1c06e73a4930a3d6ec98928b25e",
+  "signature": "c28c3312d8d70556d9e849263615874324f89a765d4cdafb4b2eec68b628b1db",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05830"
 }

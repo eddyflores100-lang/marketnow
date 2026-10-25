@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1418257",
+  "certificate_id": "MN-SC-2026-7208571",
   "skill_id": "mn-gen-09143",
   "skill_name": "mobile-mcp",
-  "issued_at": "2026-10-18T05:30:18.257Z",
-  "expires_at": "2026-10-25T05:30:18.257Z",
+  "issued_at": "2026-10-25T05:46:48.571Z",
+  "expires_at": "2026-11-01T05:46:48.571Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f125225f3b9c12a3785634b6c63fd07755a1bba82df520ad984ba9124c7e2023",
+  "signature": "e4f2519650dbb8822bac7f700c207207914108a3d5f3adfad62aed72841756d2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09143"
 }

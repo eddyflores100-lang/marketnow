@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1620660",
+  "certificate_id": "MN-SC-2026-7452802",
   "skill_id": "mn-real-awesomeionicmcp",
   "skill_name": "awesome-ionic-mcp",
-  "issued_at": "2026-10-18T05:33:40.660Z",
-  "expires_at": "2026-10-25T05:33:40.660Z",
+  "issued_at": "2026-10-25T05:50:52.802Z",
+  "expires_at": "2026-11-01T05:50:52.802Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1f8144d5b5839680e08ae57e41ea41fc68309e7edc1b120fec75ebcd3220eb29",
+  "signature": "81d72f1c90d092df93e8024b3931ce0ba699def6993a4d6390a5375e5105e586",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-awesomeionicmcp"
 }

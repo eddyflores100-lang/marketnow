@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1660148",
+  "certificate_id": "MN-SC-2026-7497812",
   "skill_id": "mn-real-falsifylabalphamcp",
   "skill_name": "falsifylab-alpha-mcp",
-  "issued_at": "2026-10-18T05:34:20.148Z",
-  "expires_at": "2026-10-25T05:34:20.148Z",
+  "issued_at": "2026-10-25T05:51:37.812Z",
+  "expires_at": "2026-11-01T05:51:37.812Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "bb78c202dd0d220198cc61793e078ef3b6fa3099b50b46a908b664751c2ed1d3",
+  "signature": "e818d04e821fb3ab0d00cdea46d44f83e523bcd8442efeaf0cb920648836eb99",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-falsifylabalphamcp"
 }

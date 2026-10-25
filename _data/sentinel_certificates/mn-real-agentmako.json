@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1583040",
+  "certificate_id": "MN-SC-2026-7408943",
   "skill_id": "mn-real-agentmako",
   "skill_name": "agentmako",
-  "issued_at": "2026-10-18T05:33:03.040Z",
-  "expires_at": "2026-10-25T05:33:03.040Z",
+  "issued_at": "2026-10-25T05:50:08.943Z",
+  "expires_at": "2026-11-01T05:50:08.943Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a54c3e75d0ef8ac1f37629efbfd9ace65e09947f4d26abcd3052a7b72770e304",
+  "signature": "3b72bea640b88563f9cf561bd873a29dbf50ebf357b85fe07b8db497b30728ce",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-agentmako"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1695268",
+  "certificate_id": "MN-SC-2026-7540080",
   "skill_id": "mn-real-gamebrainapiclients",
   "skill_name": "gamebrain-api-clients",
-  "issued_at": "2026-10-18T05:34:55.268Z",
-  "expires_at": "2026-10-25T05:34:55.268Z",
+  "issued_at": "2026-10-25T05:52:20.080Z",
+  "expires_at": "2026-11-01T05:52:20.080Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5ee4e2f66beacf097ebc84b11028ec6c647028e6eb9b47c7f550c22f3c197326",
+  "signature": "7559968cac1121568e54a587b47f165fae89cc15131de4ff8aedba2145b82026",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-gamebrainapiclients"
 }

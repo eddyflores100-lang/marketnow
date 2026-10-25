@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1536397",
+  "certificate_id": "MN-SC-2026-7351558",
   "skill_id": "mn-awmcp-mcpsafelocalpythonex",
   "skill_name": "mcp_safe_local_python_executor",
-  "issued_at": "2026-10-18T05:32:16.397Z",
-  "expires_at": "2026-10-25T05:32:16.397Z",
+  "issued_at": "2026-10-25T05:49:11.558Z",
+  "expires_at": "2026-11-01T05:49:11.558Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c9300bb0d840b429e49c6c37db49766580d3a45e7c61123187a3193188a2900c",
+  "signature": "c5d4491ab6a176725612f948c7acb47a8376ff94160ff80f16a0e882ef1c3ebe",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpsafelocalpythonex"
 }

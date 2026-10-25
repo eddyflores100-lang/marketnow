@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1541100",
+  "certificate_id": "MN-SC-2026-7357451",
   "skill_id": "mn-awmcp-copilotmcpserver",
   "skill_name": "copilot-mcp-server",
-  "issued_at": "2026-10-18T05:32:21.100Z",
-  "expires_at": "2026-10-25T05:32:21.100Z",
+  "issued_at": "2026-10-25T05:49:17.451Z",
+  "expires_at": "2026-11-01T05:49:17.451Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "405e7e078b365c5ec710157d794a90bf11e35c659c9ee108d91c90069ba62026",
+  "signature": "35160193b2ab1a0330707e3c69b2ca7614defb193ced3cd0874ee6ab187054a2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-copilotmcpserver"
 }

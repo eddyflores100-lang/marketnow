@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1422516",
+  "certificate_id": "MN-SC-2026-7213643",
   "skill_id": "mn-gen-09666",
   "skill_name": "ns-mcp-server",
-  "issued_at": "2026-10-18T05:30:22.516Z",
-  "expires_at": "2026-10-25T05:30:22.516Z",
+  "issued_at": "2026-10-25T05:46:53.643Z",
+  "expires_at": "2026-11-01T05:46:53.643Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "359d1254815a48ff66bfb8a6a2288e30558183e04a0743ea1c89b67f6a7f8f5f",
+  "signature": "83b06c05b879a9912b3d594919586aac816767f53397ef4ca92375c0830ee46d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09666"
 }

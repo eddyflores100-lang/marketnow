@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1423979",
+  "certificate_id": "MN-SC-2026-7215416",
   "skill_id": "mn-gen-09759",
   "skill_name": "octagon-mcp-server",
-  "issued_at": "2026-10-18T05:30:23.979Z",
-  "expires_at": "2026-10-25T05:30:23.979Z",
+  "issued_at": "2026-10-25T05:46:55.416Z",
+  "expires_at": "2026-11-01T05:46:55.416Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d6ffcb290e93e5bf7e64c569cf98ab7d06f0b030b91a28fb435f998bd94c77c7",
+  "signature": "3fe290143645582712c6cf131e967e56e5dcd2f0abbdf1af819302e80b85e96a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09759"
 }

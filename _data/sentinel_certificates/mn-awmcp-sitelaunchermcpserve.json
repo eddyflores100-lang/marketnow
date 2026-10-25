@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1521307",
+  "certificate_id": "MN-SC-2026-7334129",
   "skill_id": "mn-awmcp-sitelaunchermcpserve",
   "skill_name": "sitelauncher-mcp-server",
-  "issued_at": "2026-10-18T05:32:01.307Z",
-  "expires_at": "2026-10-25T05:32:01.307Z",
+  "issued_at": "2026-10-25T05:48:54.129Z",
+  "expires_at": "2026-11-01T05:48:54.129Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2ac21f72dbc3c91b3aedc05e9562ceb8ddb893e026edc0cbc0093f0cd6075b85",
+  "signature": "d0f5703c0f6255d92540899a7f4e08350558cf151fb8a5d6c4e2ca1a2dbcb236",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-sitelaunchermcpserve"
 }

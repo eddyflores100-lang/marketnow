@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1573113",
+  "certificate_id": "MN-SC-2026-7397398",
   "skill_id": "mn-real-mcpvictorialogs",
   "skill_name": "mcp-victorialogs",
-  "issued_at": "2026-10-18T05:32:53.113Z",
-  "expires_at": "2026-10-25T05:32:53.113Z",
+  "issued_at": "2026-10-25T05:49:57.398Z",
+  "expires_at": "2026-11-01T05:49:57.398Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "827dad6a154e7ab07aeaa146ebe23f9449f1cf0dc15dccf7b7ffa15f2597ff5e",
+  "signature": "7b83c790570acf1b97f94024e15b0d554ea4098a36dc96774c24f3a7c2d6b64e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpvictorialogs"
 }

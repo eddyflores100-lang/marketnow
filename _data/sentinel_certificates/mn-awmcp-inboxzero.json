@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1547958",
+  "certificate_id": "MN-SC-2026-7366268",
   "skill_id": "mn-awmcp-inboxzero",
   "skill_name": "inbox-zero",
-  "issued_at": "2026-10-18T05:32:27.958Z",
-  "expires_at": "2026-10-25T05:32:27.958Z",
+  "issued_at": "2026-10-25T05:49:26.268Z",
+  "expires_at": "2026-11-01T05:49:26.268Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 7,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "018bda6aa20865393c78db836d75d263c669763813f0377c36e86f0154710d02",
+  "signature": "72fe4079d356e3d51a9d82ea2c18137a06e4dfeb863dd73a79e9768ed8bb3f94",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-inboxzero"
 }

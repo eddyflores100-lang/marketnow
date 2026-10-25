@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1577134",
+  "certificate_id": "MN-SC-2026-7401927",
   "skill_id": "mn-real-mcpvtenext",
   "skill_name": "mcp-vtenext",
-  "issued_at": "2026-10-18T05:32:57.134Z",
-  "expires_at": "2026-10-25T05:32:57.134Z",
+  "issued_at": "2026-10-25T05:50:01.927Z",
+  "expires_at": "2026-11-01T05:50:01.927Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7e9013077d980c1c4e1a8137faef4b2accf881fd29f77f488098963f1d1ad738",
+  "signature": "3e625eacd65a8328d3090d0df64faea20a0660fe14174538333c677ce268b9d7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpvtenext"
 }

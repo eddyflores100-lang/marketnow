@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1566787",
+  "certificate_id": "MN-SC-2026-7389596",
   "skill_id": "mn-real-elasticsearchmcpserv",
   "skill_name": "elasticsearch-mcp-server",
-  "issued_at": "2026-10-18T05:32:46.787Z",
-  "expires_at": "2026-10-25T05:32:46.787Z",
+  "issued_at": "2026-10-25T05:49:49.596Z",
+  "expires_at": "2026-11-01T05:49:49.596Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "951da1ed9573ef9997891a7a63718f594a29549a19b8a966cd154e40475d4514",
+  "signature": "1d959ebc2ec215aae8b73a006df99a28ff053c49da5654dab79a1884c5b74c24",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-elasticsearchmcpserv"
 }

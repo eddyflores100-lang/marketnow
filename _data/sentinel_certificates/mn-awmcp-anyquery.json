@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1468749",
+  "certificate_id": "MN-SC-2026-7267938",
   "skill_id": "mn-awmcp-anyquery",
   "skill_name": "anyquery",
-  "issued_at": "2026-10-18T05:31:08.749Z",
-  "expires_at": "2026-10-25T05:31:08.749Z",
+  "issued_at": "2026-10-25T05:47:47.938Z",
+  "expires_at": "2026-11-01T05:47:47.938Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "54efa017b19db114546fddc6d19146b44a82a94ac5cfded7f0012d3a3f3b2dd9",
+  "signature": "aa4677e7ff028d6f68e12160426effa037801be74d2371bf8fba0d605ec6d0ef",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-anyquery"
 }

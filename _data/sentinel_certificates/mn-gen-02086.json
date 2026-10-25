@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1359737",
+  "certificate_id": "MN-SC-2026-7136428",
   "skill_id": "mn-gen-02086",
   "skill_name": "context-cli",
-  "issued_at": "2026-10-18T05:29:19.737Z",
-  "expires_at": "2026-10-25T05:29:19.737Z",
+  "issued_at": "2026-10-25T05:45:36.428Z",
+  "expires_at": "2026-11-01T05:45:36.428Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "26b8d1c3e0f6be00c559d57de5ef98a4eac9aed3fe7289470788616143e72fc5",
+  "signature": "d485205ce7f1f2c00f7a5ef89af8c706ead7463f599d23b0fc31b96f240c6368",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02086"
 }

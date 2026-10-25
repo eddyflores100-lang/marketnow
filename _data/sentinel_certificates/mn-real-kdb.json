@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1602977",
+  "certificate_id": "MN-SC-2026-7432380",
   "skill_id": "mn-real-kdb",
   "skill_name": "kdb",
-  "issued_at": "2026-10-18T05:33:22.977Z",
-  "expires_at": "2026-10-25T05:33:22.977Z",
+  "issued_at": "2026-10-25T05:50:32.380Z",
+  "expires_at": "2026-11-01T05:50:32.380Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "90ed1a3dba6e0a6584ee003799d4d8da8b58f1da21fa3dab64d458edaf9f7e98",
+  "signature": "005b6a394b4b2f4615ef992c75f3d4439d004e59fe9dd5f5da49588824df44e3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-kdb"
 }

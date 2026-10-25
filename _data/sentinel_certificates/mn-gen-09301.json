@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1420056",
+  "certificate_id": "MN-SC-2026-7210657",
   "skill_id": "mn-gen-09301",
   "skill_name": "mcp-multi-db",
-  "issued_at": "2026-10-18T05:30:20.056Z",
-  "expires_at": "2026-10-25T05:30:20.056Z",
+  "issued_at": "2026-10-25T05:46:50.657Z",
+  "expires_at": "2026-11-01T05:46:50.657Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1e7de835d587af262e854b38865e6385ff5cab9b007c21f0103ef734cc880de2",
+  "signature": "e3ab7d119bf6cbc57cff0a60e4bb4f46fb1d5e358989f88750a2f301f7c4ac94",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09301"
 }

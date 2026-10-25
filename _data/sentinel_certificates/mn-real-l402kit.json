@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1687391",
+  "certificate_id": "MN-SC-2026-7530108",
   "skill_id": "mn-real-l402kit",
   "skill_name": "l402-kit",
-  "issued_at": "2026-10-18T05:34:47.391Z",
-  "expires_at": "2026-10-25T05:34:47.391Z",
+  "issued_at": "2026-10-25T05:52:10.108Z",
+  "expires_at": "2026-11-01T05:52:10.108Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "749a999a17a205f4a44f82eb8eb2ec8db9c211ecadb1f444d3693f604fcbb409",
+  "signature": "ceb7e99bc49360852707a9931e8aa658b8bb563e8da6275dc35e9158af07f428",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-l402kit"
 }

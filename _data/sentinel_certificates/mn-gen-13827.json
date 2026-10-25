@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1452933",
+  "certificate_id": "MN-SC-2026-7250061",
   "skill_id": "mn-gen-13827",
   "skill_name": "zitadel-mcp",
-  "issued_at": "2026-10-18T05:30:52.933Z",
-  "expires_at": "2026-10-25T05:30:52.933Z",
+  "issued_at": "2026-10-25T05:47:30.061Z",
+  "expires_at": "2026-11-01T05:47:30.061Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a4f76cd77d4d5b1fd7a373c4769dd00ae45a263c6d6edf2e2d63f489c095d987",
+  "signature": "b473e2899997487243e9cceec647fb9fb8845b3ceedae127c9d62c87acc46594",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13827"
 }

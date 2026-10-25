@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1613067",
+  "certificate_id": "MN-SC-2026-7444124",
   "skill_id": "mn-real-websitedownloader",
   "skill_name": "website-downloader",
-  "issued_at": "2026-10-18T05:33:33.067Z",
-  "expires_at": "2026-10-25T05:33:33.067Z",
+  "issued_at": "2026-10-25T05:50:44.124Z",
+  "expires_at": "2026-11-01T05:50:44.124Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5a529a6b00eaa9997c2a5f5aa9370017ca7f2026c291f8f89e812f54ca6a333b",
+  "signature": "5b01a238ff8a9fbf2d64d4e657967d0436a8a56403e1874e6c8f4ff0648eaabf",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-websitedownloader"
 }

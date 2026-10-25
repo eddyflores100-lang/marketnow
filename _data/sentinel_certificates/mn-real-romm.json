@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1699828",
+  "certificate_id": "MN-SC-2026-7545878",
   "skill_id": "mn-real-romm",
   "skill_name": "romm",
-  "issued_at": "2026-10-18T05:34:59.828Z",
-  "expires_at": "2026-10-25T05:34:59.828Z",
+  "issued_at": "2026-10-25T05:52:25.878Z",
+  "expires_at": "2026-11-01T05:52:25.878Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1b128fe9565ad91262a082fbef56256ed19397e94fde43e3b7ab494c5e9134d5",
+  "signature": "92afaf4049479d826eb093e6d991d9b8cd7e4479cb341dbfab073dd05e8c4b3c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-romm"
 }

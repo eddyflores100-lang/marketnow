@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1496457",
+  "certificate_id": "MN-SC-2026-7301269",
   "skill_id": "mn-awmcp-safarimcp",
   "skill_name": "safari-mcp",
-  "issued_at": "2026-10-18T05:31:36.457Z",
-  "expires_at": "2026-10-25T05:31:36.457Z",
+  "issued_at": "2026-10-25T05:48:21.269Z",
+  "expires_at": "2026-11-01T05:48:21.269Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "45071ab87f4b2387269ea148063cf841e0cc62036d117d7f593a5c261a052c7f",
+  "signature": "f6a5733cb5bc889ccea475e662d9a684fbb7f640ff4497cbe18bc37fc1bdb2e6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-safarimcp"
 }

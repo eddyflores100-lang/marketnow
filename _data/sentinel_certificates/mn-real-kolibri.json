@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1613504",
+  "certificate_id": "MN-SC-2026-7444592",
   "skill_id": "mn-real-kolibri",
   "skill_name": "kolibri",
-  "issued_at": "2026-10-18T05:33:33.504Z",
-  "expires_at": "2026-10-25T05:33:33.504Z",
+  "issued_at": "2026-10-25T05:50:44.592Z",
+  "expires_at": "2026-11-01T05:50:44.592Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1efc7bd43cb277660c0e111c1c273b271d95cc0c315978f0c44b7e03759fb1df",
+  "signature": "9ee2e432227fe41c2419ba5856cb2038760687598d1483166a5da52af03b7f57",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-kolibri"
 }

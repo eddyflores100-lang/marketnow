@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1441728",
+  "certificate_id": "MN-SC-2026-7236455",
   "skill_id": "mn-gen-12455",
   "skill_name": "task-orchestrator",
-  "issued_at": "2026-10-18T05:30:41.728Z",
-  "expires_at": "2026-10-25T05:30:41.728Z",
+  "issued_at": "2026-10-25T05:47:16.455Z",
+  "expires_at": "2026-11-01T05:47:16.455Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3b4650bf0a7cee022cdeb66b55376667ed165ce9b6ea0f6dd92ded2de29e8210",
+  "signature": "72c43dbd68919b79c96a03fc2d6d3447d3da51c6f08b226f2abe34cc79f27275",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12455"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1507398",
+  "certificate_id": "MN-SC-2026-7314442",
   "skill_id": "mn-awmcp-mcpdoctor",
   "skill_name": "mcp-doctor",
-  "issued_at": "2026-10-18T05:31:47.398Z",
-  "expires_at": "2026-10-25T05:31:47.398Z",
+  "issued_at": "2026-10-25T05:48:34.442Z",
+  "expires_at": "2026-11-01T05:48:34.442Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "98e405f253b20f454c3f2ea32ab267c18f9777cf38b9c51b6b7f2f5f9dff660e",
+  "signature": "92734c0a5c7b489557d89cffc62356b69407878d84dd24290241aaa1ed85faf7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpdoctor"
 }

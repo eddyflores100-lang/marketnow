@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1455739",
+  "certificate_id": "MN-SC-2026-7253506",
   "skill_id": "mn-web-002",
   "skill_name": "google-search",
-  "issued_at": "2026-10-18T05:30:55.739Z",
-  "expires_at": "2026-10-25T05:30:55.739Z",
+  "issued_at": "2026-10-25T05:47:33.506Z",
+  "expires_at": "2026-11-01T05:47:33.506Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "75ae158fabc0a48819b836b9edbd01258cce198a6a6b9b05e1c7e92c67dd606e",
+  "signature": "94b7dba018e2f30d4f5b542d6e2b0a382d3c0433550ddbafa4958323fedd4411",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-web-002"
 }

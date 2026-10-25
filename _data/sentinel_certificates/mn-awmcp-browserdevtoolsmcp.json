@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1508299",
+  "certificate_id": "MN-SC-2026-7315534",
   "skill_id": "mn-awmcp-browserdevtoolsmcp",
   "skill_name": "browser-devtools-mcp",
-  "issued_at": "2026-10-18T05:31:48.299Z",
-  "expires_at": "2026-10-25T05:31:48.299Z",
+  "issued_at": "2026-10-25T05:48:35.534Z",
+  "expires_at": "2026-11-01T05:48:35.534Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cb931dbca88f7341116bba1fde3e33ccb5830c0e9c24036ced12d9188d8b8b41",
+  "signature": "fe9a62703c0c31a3be979457e0de6c2478e257c210dbef5b4b85f04a90a47ff8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-browserdevtoolsmcp"
 }

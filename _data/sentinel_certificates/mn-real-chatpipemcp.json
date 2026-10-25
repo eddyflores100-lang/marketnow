@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1594279",
+  "certificate_id": "MN-SC-2026-7422165",
   "skill_id": "mn-real-chatpipemcp",
   "skill_name": "chatpipe-mcp",
-  "issued_at": "2026-10-18T05:33:14.279Z",
-  "expires_at": "2026-10-25T05:33:14.279Z",
+  "issued_at": "2026-10-25T05:50:22.165Z",
+  "expires_at": "2026-11-01T05:50:22.165Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "91eb0c6bfc5e87ac3c1e1039ce87f279f780ca8553ce494ac2e2399ae09b511d",
+  "signature": "7675e5a12f913bb3f9d8a1d1b89e3396412902c5139e04bca565287f7d25e004",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-chatpipemcp"
 }

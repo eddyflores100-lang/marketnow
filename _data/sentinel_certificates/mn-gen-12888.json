@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1445714",
+  "certificate_id": "MN-SC-2026-7241304",
   "skill_id": "mn-gen-12888",
   "skill_name": "twitter-mcp",
-  "issued_at": "2026-10-18T05:30:45.714Z",
-  "expires_at": "2026-10-25T05:30:45.714Z",
+  "issued_at": "2026-10-25T05:47:21.304Z",
+  "expires_at": "2026-11-01T05:47:21.304Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7d7612b8efbfecfda2c57dce012db75c720cfd99e082dd35a001a15d93bc4f9b",
+  "signature": "13f360d4eca8c65cd7983cd5927486ee64b77819695a1854c7b744b96e61feda",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12888"
 }

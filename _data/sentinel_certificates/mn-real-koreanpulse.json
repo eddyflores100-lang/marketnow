@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1652541",
+  "certificate_id": "MN-SC-2026-7489130",
   "skill_id": "mn-real-koreanpulse",
   "skill_name": "koreanpulse",
-  "issued_at": "2026-10-18T05:34:12.541Z",
-  "expires_at": "2026-10-25T05:34:12.541Z",
+  "issued_at": "2026-10-25T05:51:29.130Z",
+  "expires_at": "2026-11-01T05:51:29.130Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7a97f0662a22e65099bf2d9ffb61c0bd05df64423850027a672af6cc574b7515",
+  "signature": "fc87b866d1850c6d607d538cd9bac8ec67d212ed3d58f86496db9e5106539b15",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-koreanpulse"
 }

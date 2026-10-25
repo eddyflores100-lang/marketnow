@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1440412",
+  "certificate_id": "MN-SC-2026-7234998",
   "skill_id": "mn-gen-12276",
   "skill_name": "substack-mcp",
-  "issued_at": "2026-10-18T05:30:40.412Z",
-  "expires_at": "2026-10-25T05:30:40.412Z",
+  "issued_at": "2026-10-25T05:47:14.998Z",
+  "expires_at": "2026-11-01T05:47:14.998Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6ed735ed97b0c3b0f90ac98e4717337be967aa3d7bf42401e03de0461681a986",
+  "signature": "bebd1483adcf47485d7ae8e860b57828630c53238251432bf9e5097139ec6162",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12276"
 }

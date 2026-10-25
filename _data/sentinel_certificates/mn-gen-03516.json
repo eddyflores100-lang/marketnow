@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1372146",
+  "certificate_id": "MN-SC-2026-7152083",
   "skill_id": "mn-gen-03516",
   "skill_name": "drift",
-  "issued_at": "2026-10-18T05:29:32.146Z",
-  "expires_at": "2026-10-25T05:29:32.146Z",
+  "issued_at": "2026-10-25T05:45:52.083Z",
+  "expires_at": "2026-11-01T05:45:52.083Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "842120da488b574ca48ff15576b7a02c2b9563936d87ad313b37bcddf3f673d1",
+  "signature": "78f0f446992b45963ad5f1f78912cf42ae97431ddd162e00c3db44f4f9d0d5f0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03516"
 }

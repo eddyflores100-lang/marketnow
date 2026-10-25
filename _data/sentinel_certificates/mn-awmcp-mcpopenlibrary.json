@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1479088",
+  "certificate_id": "MN-SC-2026-7280881",
   "skill_id": "mn-awmcp-mcpopenlibrary",
   "skill_name": "mcp-open-library",
-  "issued_at": "2026-10-18T05:31:19.088Z",
-  "expires_at": "2026-10-25T05:31:19.088Z",
+  "issued_at": "2026-10-25T05:48:00.881Z",
+  "expires_at": "2026-11-01T05:48:00.881Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "883b56a08c12d76a24ac299032bfe791a201e410472dc88697382d7bdfe8aa14",
+  "signature": "73acc1389c9c46a7cf85c87549b0bed9465dbd1570b31ca95f79ca1caa9ad0e8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpopenlibrary"
 }

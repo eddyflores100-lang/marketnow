@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1603314",
+  "certificate_id": "MN-SC-2026-7432784",
   "skill_id": "mn-real-mcpaiservervisualstu",
   "skill_name": "mcp-ai-server-visual-studio",
-  "issued_at": "2026-10-18T05:33:23.314Z",
-  "expires_at": "2026-10-25T05:33:23.314Z",
+  "issued_at": "2026-10-25T05:50:32.784Z",
+  "expires_at": "2026-11-01T05:50:32.784Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fa626847bab89fe38df1315161de8a0860cc978d40c9fd1318445f6793353f79",
+  "signature": "de484946c389c7978d64f348b996faf5a11f34ebb5d44345f9a0f05a327393fb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpaiservervisualstu"
 }

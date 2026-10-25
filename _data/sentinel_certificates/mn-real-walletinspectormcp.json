@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1677295",
+  "certificate_id": "MN-SC-2026-7518075",
   "skill_id": "mn-real-walletinspectormcp",
   "skill_name": "wallet-inspector-mcp",
-  "issued_at": "2026-10-18T05:34:37.295Z",
-  "expires_at": "2026-10-25T05:34:37.295Z",
+  "issued_at": "2026-10-25T05:51:58.075Z",
+  "expires_at": "2026-11-01T05:51:58.075Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "bb0b843dd151bb08f6aa048560ac05ae8f75b045980ad88758f5bbf1ca1abd5e",
+  "signature": "22eb79779d4c889127b77ab08ecd1f1785b4c03a0588421288724c8a6fbe0d11",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-walletinspectormcp"
 }

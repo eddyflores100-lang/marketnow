@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1521526",
+  "certificate_id": "MN-SC-2026-7334392",
   "skill_id": "mn-awmcp-spaceshipmcp",
   "skill_name": "spaceship-mcp",
-  "issued_at": "2026-10-18T05:32:01.526Z",
-  "expires_at": "2026-10-25T05:32:01.526Z",
+  "issued_at": "2026-10-25T05:48:54.392Z",
+  "expires_at": "2026-11-01T05:48:54.392Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "bd20d4ffb2e4eff9b1bcd3399c1b4b3c6d68c3505df45d7824a68a898d2c7d93",
+  "signature": "1b25f89ab8aaa68d0a9515c4ee85c2aa5f4acded666bf739ca05e47247abaeb7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-spaceshipmcp"
 }

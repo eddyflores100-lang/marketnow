@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1355009",
+  "certificate_id": "MN-SC-2026-7130621",
   "skill_id": "mn-dat-01429",
   "skill_name": "bldbl-mcp",
-  "issued_at": "2026-10-18T05:29:15.009Z",
-  "expires_at": "2026-10-25T05:29:15.009Z",
+  "issued_at": "2026-10-25T05:45:30.621Z",
+  "expires_at": "2026-11-01T05:45:30.621Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f673caea79dca168ea2276d303184f96c1ccfdc638910f743fc0bafb88f61bb8",
+  "signature": "e3684fca771282b613f0d8a450cef7dac6dc7522a22fe2cc7e54d3b4d85d9a51",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-dat-01429"
 }

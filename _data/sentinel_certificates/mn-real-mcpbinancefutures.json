@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1681000",
+  "certificate_id": "MN-SC-2026-7522489",
   "skill_id": "mn-real-mcpbinancefutures",
   "skill_name": "mcp-binance-futures",
-  "issued_at": "2026-10-18T05:34:41.000Z",
-  "expires_at": "2026-10-25T05:34:41.000Z",
+  "issued_at": "2026-10-25T05:52:02.489Z",
+  "expires_at": "2026-11-01T05:52:02.489Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "60e212c014a229589c4ac65ae60dd14827daac641b9ac55fee958fc4e282e9b1",
+  "signature": "568e595b271e1c03280b3cc685441b81eb4ee99fd6309e0cf6e686929d7e2eb3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpbinancefutures"
 }

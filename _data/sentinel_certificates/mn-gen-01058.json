@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1352069",
+  "certificate_id": "MN-SC-2026-7127047",
   "skill_id": "mn-gen-01058",
   "skill_name": "mcp-server-atlassian-confluence",
-  "issued_at": "2026-10-18T05:29:12.069Z",
-  "expires_at": "2026-10-25T05:29:12.069Z",
+  "issued_at": "2026-10-25T05:45:27.047Z",
+  "expires_at": "2026-11-01T05:45:27.047Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e4e24ba4f99e3463d16fc63cadd88d7b0d4444db3ead9165f5688bf5b54ad63f",
+  "signature": "b56bf75618720955db2f131257d0a2799a97d914d7c6999963f0e780093a065e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01058"
 }

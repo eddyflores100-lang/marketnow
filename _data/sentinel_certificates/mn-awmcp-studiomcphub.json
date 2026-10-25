@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1481656",
+  "certificate_id": "MN-SC-2026-7284020",
   "skill_id": "mn-awmcp-studiomcphub",
   "skill_name": "studiomcphub",
-  "issued_at": "2026-10-18T05:31:21.656Z",
-  "expires_at": "2026-10-25T05:31:21.656Z",
+  "issued_at": "2026-10-25T05:48:04.020Z",
+  "expires_at": "2026-11-01T05:48:04.020Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d419ee60c854f0faf668ee2da7e0000e5d55975c0d9f55760371402aa2f03d19",
+  "signature": "9b5155c564164d17c36089e2e4a6def6e69863df32ebc9d79bcd73b5b7c984ec",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-studiomcphub"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1601580",
+  "certificate_id": "MN-SC-2026-7430746",
   "skill_id": "mn-real-shadcnuimcpserver",
   "skill_name": "shadcn-ui-mcp-server",
-  "issued_at": "2026-10-18T05:33:21.580Z",
-  "expires_at": "2026-10-25T05:33:21.580Z",
+  "issued_at": "2026-10-25T05:50:30.746Z",
+  "expires_at": "2026-11-01T05:50:30.746Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -36,7 +36,7 @@
     "resolved_at": "2026-10-13T12:53:40.576Z"
   },
   "cert_v": 2,
-  "signature": "56d33a3e5df9536b371e7abec6600685f5086afb26a537fe38b0438840e03c4e",
+  "signature": "8584a2e48bd0b20862c0f0dc46144eec4ff7a80d2cf607fbb00c7817e91d63b7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-shadcnuimcpserver"
 }

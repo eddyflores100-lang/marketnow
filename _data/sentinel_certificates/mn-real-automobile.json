@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1626439",
+  "certificate_id": "MN-SC-2026-7459680",
   "skill_id": "mn-real-automobile",
   "skill_name": "auto-mobile",
-  "issued_at": "2026-10-18T05:33:46.439Z",
-  "expires_at": "2026-10-25T05:33:46.439Z",
+  "issued_at": "2026-10-25T05:50:59.680Z",
+  "expires_at": "2026-11-01T05:50:59.680Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9e07699024b0551090185c54ad5e23dbffdabfbfbdcfd87fa988dc82387cdde4",
+  "signature": "67372646857d95865b48c847b071c38397b11f13675e3b33d7edc334746cf820",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-automobile"
 }

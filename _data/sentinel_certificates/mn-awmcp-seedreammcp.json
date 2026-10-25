@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1478552",
+  "certificate_id": "MN-SC-2026-7280204",
   "skill_id": "mn-awmcp-seedreammcp",
   "skill_name": "SeedreamMCP",
-  "issued_at": "2026-10-18T05:31:18.552Z",
-  "expires_at": "2026-10-25T05:31:18.552Z",
+  "issued_at": "2026-10-25T05:48:00.204Z",
+  "expires_at": "2026-11-01T05:48:00.204Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 2,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d3c9150d38e131141cc612bb84903c5af628d1d0b1d63ceaf802a96ebf7dc033",
+  "signature": "fcb339f6163dde439c46fb55c45f76196f54522929ae4f69c7f160a02e0f5161",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-seedreammcp"
 }

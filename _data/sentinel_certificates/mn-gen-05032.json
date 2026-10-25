@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1386364",
+  "certificate_id": "MN-SC-2026-7169966",
   "skill_id": "mn-gen-05032",
   "skill_name": "ibge-br-mcp",
-  "issued_at": "2026-10-18T05:29:46.364Z",
-  "expires_at": "2026-10-25T05:29:46.364Z",
+  "issued_at": "2026-10-25T05:46:09.966Z",
+  "expires_at": "2026-11-01T05:46:09.966Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3e73f16abd13dea382e07b22fe0f3b58d0d9960e51159bfdd042b2e9004bc129",
+  "signature": "769e2ecf11d5a0f9550e84b9a1c3d19bb493230890f67afb193936df1f7fe2e6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05032"
 }

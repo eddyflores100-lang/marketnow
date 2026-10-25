@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1666316",
+  "certificate_id": "MN-SC-2026-7504869",
   "skill_id": "mn-real-copilotmoneymcp",
   "skill_name": "copilot-money-mcp",
-  "issued_at": "2026-10-18T05:34:26.316Z",
-  "expires_at": "2026-10-25T05:34:26.316Z",
+  "issued_at": "2026-10-25T05:51:44.869Z",
+  "expires_at": "2026-11-01T05:51:44.869Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ab1b65cabe61962b09bb781f155c45ee1e0a15f46085dce44f89c81e1a90a9db",
+  "signature": "af36c2dee7416ba0ee81d9b41a92085824973a0ea49b483662fca1c30fa4ccc8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-copilotmoneymcp"
 }

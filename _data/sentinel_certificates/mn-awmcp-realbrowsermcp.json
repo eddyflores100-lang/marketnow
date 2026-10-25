@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1505867",
+  "certificate_id": "MN-SC-2026-7312629",
   "skill_id": "mn-awmcp-realbrowsermcp",
   "skill_name": "real-browser-mcp",
-  "issued_at": "2026-10-18T05:31:45.867Z",
-  "expires_at": "2026-10-25T05:31:45.867Z",
+  "issued_at": "2026-10-25T05:48:32.629Z",
+  "expires_at": "2026-11-01T05:48:32.629Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2ad7efbb41f0f300d02c0bd23dd0ae623c1a514a6647d0d82152c023939e0522",
+  "signature": "8b77f8e338cc28027697bd7d506d6fd6fb218df2b53c768717cf72f7690ae672",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-realbrowsermcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1428380",
+  "certificate_id": "MN-SC-2026-7220605",
   "skill_id": "mn-gen-10559",
   "skill_name": "ai-polymarket-agent",
-  "issued_at": "2026-10-18T05:30:28.380Z",
-  "expires_at": "2026-10-25T05:30:28.380Z",
+  "issued_at": "2026-10-25T05:47:00.605Z",
+  "expires_at": "2026-11-01T05:47:00.605Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0593964664c6171606e2f998c55cb285d5534e66f7850b136281e225ed847297",
+  "signature": "1890cc95b3556d378e3000c82521e53817f85b7748b07640c082b976b3d3a238",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-10559"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1470688",
+  "certificate_id": "MN-SC-2026-7270450",
   "skill_id": "mn-awmcp-grokmcp",
   "skill_name": "Grok-MCP",
-  "issued_at": "2026-10-18T05:31:10.688Z",
-  "expires_at": "2026-10-25T05:31:10.688Z",
+  "issued_at": "2026-10-25T05:47:50.450Z",
+  "expires_at": "2026-11-01T05:47:50.450Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 7,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a0866b838577b64279bc1170b93c83e01b9a6d40f6aeae845823d526982716b5",
+  "signature": "a15141e6b0ccff4735f73c5b6d3f132e5cc33046c007b7fb08def0195a25c624",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-grokmcp"
 }

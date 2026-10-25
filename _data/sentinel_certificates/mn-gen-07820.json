@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1410859",
+  "certificate_id": "MN-SC-2026-7199811",
   "skill_id": "mn-gen-07820",
   "skill_name": "studio-mcp",
-  "issued_at": "2026-10-18T05:30:10.859Z",
-  "expires_at": "2026-10-25T05:30:10.859Z",
+  "issued_at": "2026-10-25T05:46:39.811Z",
+  "expires_at": "2026-11-01T05:46:39.811Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e218948b28a46240e6f3dbf0fe85c1df59d1d68b9228963f8bc136cd097398c3",
+  "signature": "68f8db441b062e0226a1248df9bff3275b5d38e985338d10381c1e3cc41f723d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07820"
 }

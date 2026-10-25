@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1706980",
+  "certificate_id": "MN-SC-2026-7554460",
   "skill_id": "mn-real-openzimmcp",
   "skill_name": "openzim-mcp",
-  "issued_at": "2026-10-18T05:35:06.980Z",
-  "expires_at": "2026-10-25T05:35:06.980Z",
+  "issued_at": "2026-10-25T05:52:34.460Z",
+  "expires_at": "2026-11-01T05:52:34.460Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "446f53afbb113826962fb0221dcb924c5a306ad96968635a58e68e2bd18ca1de",
+  "signature": "8e42f6b45e7b37c5cba779b097bd00a97063ee177cc84a5f916a6ad35856ddb9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-openzimmcp"
 }

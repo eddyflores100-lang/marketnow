@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1561414",
+  "certificate_id": "MN-SC-2026-7382988",
   "skill_id": "mn-real-ms365mcpserver",
   "skill_name": "ms-365-mcp-server",
-  "issued_at": "2026-10-18T05:32:41.414Z",
-  "expires_at": "2026-10-25T05:32:41.414Z",
+  "issued_at": "2026-10-25T05:49:42.988Z",
+  "expires_at": "2026-11-01T05:49:42.988Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "990373ae2b8254a6357a715f5051ceca8dc02644b4a74f3f5ac9b269938fb4eb",
+  "signature": "54869e7b37deaacb8b150e32b06da1c4248adb59a4bb5f454f4e0c763a0bc80e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-ms365mcpserver"
 }

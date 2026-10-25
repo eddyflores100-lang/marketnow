@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1644927",
+  "certificate_id": "MN-SC-2026-7480428",
   "skill_id": "mn-real-filestash",
   "skill_name": "filestash",
-  "issued_at": "2026-10-18T05:34:04.927Z",
-  "expires_at": "2026-10-25T05:34:04.927Z",
+  "issued_at": "2026-10-25T05:51:20.428Z",
+  "expires_at": "2026-11-01T05:51:20.428Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b73596b3b977477cf74586e14b7922fde67cac6fdb44d96012cc0bb3fa83353f",
+  "signature": "e27425d26ba8e8f8031eb39affd709bf2bc2ef113b61a2c33bf0ac6c583a9c4d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-filestash"
 }

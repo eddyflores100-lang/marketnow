@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1632684",
+  "certificate_id": "MN-SC-2026-7467048",
   "skill_id": "mn-real-jupytermcpserver",
   "skill_name": "jupyter-mcp-server",
-  "issued_at": "2026-10-18T05:33:52.685Z",
-  "expires_at": "2026-10-25T05:33:52.685Z",
+  "issued_at": "2026-10-25T05:51:07.048Z",
+  "expires_at": "2026-11-01T05:51:07.048Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c54ed7249027c7e81e60e8065bacd2169401f3737c4f92c5a0ffe362fe79089d",
+  "signature": "ba70b3e84b202ecff6d62b9dca1c18c27f63cb7e4116251f8000bbe4cc2601b9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-jupytermcpserver"
 }

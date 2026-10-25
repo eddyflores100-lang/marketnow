@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1389959",
+  "certificate_id": "MN-SC-2026-7174605",
   "skill_id": "mn-gen-05436",
   "skill_name": "keep-mcp",
-  "issued_at": "2026-10-18T05:29:49.959Z",
-  "expires_at": "2026-10-25T05:29:49.959Z",
+  "issued_at": "2026-10-25T05:46:14.605Z",
+  "expires_at": "2026-11-01T05:46:14.605Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "bcc540607e3b0a3c4af24fab7c98711cbef8f245fb7febd2d0f636e63593da32",
+  "signature": "27d5416efbe23a243590a38bb2934d0338e1c128a9d63b27a8ecac1724b5ea29",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05436"
 }

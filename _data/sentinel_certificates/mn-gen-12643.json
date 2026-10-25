@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1443238",
+  "certificate_id": "MN-SC-2026-7238176",
   "skill_id": "mn-gen-12643",
   "skill_name": "ticktick-mcp",
-  "issued_at": "2026-10-18T05:30:43.238Z",
-  "expires_at": "2026-10-25T05:30:43.238Z",
+  "issued_at": "2026-10-25T05:47:18.176Z",
+  "expires_at": "2026-11-01T05:47:18.176Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d472ae05caba7650e2cc1e21113c0ab72bd3571fcbea53fef8cf925989e52336",
+  "signature": "e5d61eb198c41ecc2bc4613feb2e2abd26afda78f6637d801775da2a1a46a694",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12643"
 }

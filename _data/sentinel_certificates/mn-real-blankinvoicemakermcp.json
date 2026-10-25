@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1646685",
+  "certificate_id": "MN-SC-2026-7482445",
   "skill_id": "mn-real-blankinvoicemakermcp",
   "skill_name": "blank-invoice-maker-mcp",
-  "issued_at": "2026-10-18T05:34:06.685Z",
-  "expires_at": "2026-10-25T05:34:06.685Z",
+  "issued_at": "2026-10-25T05:51:22.445Z",
+  "expires_at": "2026-11-01T05:51:22.445Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fcfc9f38fb86ad75b1a0321e7b1573c99ab21a2b9d4f0fa8f90cdc12e08f75c7",
+  "signature": "54e255047b21780d0b2312c8187e08ade95c2494d72e603601780f81ec4ff1d8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-blankinvoicemakermcp"
 }

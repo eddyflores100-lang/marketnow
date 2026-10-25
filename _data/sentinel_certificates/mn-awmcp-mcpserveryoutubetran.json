@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1502923",
+  "certificate_id": "MN-SC-2026-7308738",
   "skill_id": "mn-awmcp-mcpserveryoutubetran",
   "skill_name": "mcp-server-youtube-transcript",
-  "issued_at": "2026-10-18T05:31:42.923Z",
-  "expires_at": "2026-10-25T05:31:42.923Z",
+  "issued_at": "2026-10-25T05:48:28.738Z",
+  "expires_at": "2026-11-01T05:48:28.738Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7f6eec344ddfd9d8ea13fe616b4c8a08f12a579fdaee7ac8bb237c9d2b9f6d99",
+  "signature": "b90b036f1c8d76417f98e9c260732f6418a20986db4955da9fd9d8d0d9fa816b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpserveryoutubetran"
 }

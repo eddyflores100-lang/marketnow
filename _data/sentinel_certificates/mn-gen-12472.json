@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1442061",
+  "certificate_id": "MN-SC-2026-7236844",
   "skill_id": "mn-gen-12472",
   "skill_name": "tavily-mcp",
-  "issued_at": "2026-10-18T05:30:42.061Z",
-  "expires_at": "2026-10-25T05:30:42.061Z",
+  "issued_at": "2026-10-25T05:47:16.844Z",
+  "expires_at": "2026-11-01T05:47:16.844Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -36,7 +36,7 @@
     "resolved_at": "2026-10-13T12:52:40.245Z"
   },
   "cert_v": 2,
-  "signature": "9f74238541c1e23fefca78c5bd517f1bbde9c54b7a2f921290a069d73c6843f5",
+  "signature": "41e6c603df47000a3874cb88e75d6a00988a99f0d3ec5aa303ead357b04f0a1d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12472"
 }

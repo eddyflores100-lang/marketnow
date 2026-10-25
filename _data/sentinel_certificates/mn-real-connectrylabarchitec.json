@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1638077",
+  "certificate_id": "MN-SC-2026-7473324",
   "skill_id": "mn-real-connectrylabarchitec",
   "skill_name": "connectrylab-architect-cert-mcp",
-  "issued_at": "2026-10-18T05:33:58.077Z",
-  "expires_at": "2026-10-25T05:33:58.077Z",
+  "issued_at": "2026-10-25T05:51:13.324Z",
+  "expires_at": "2026-11-01T05:51:13.324Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "92327c3d74aa14d28218fd6daaa74409240f2943739fffd5d604a964ebbc7e2a",
+  "signature": "a1b47b241300a5318c48baa3a50c404bb2ade48c4335a1d1dc9bdc2a5160e0dd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-connectrylabarchitec"
 }

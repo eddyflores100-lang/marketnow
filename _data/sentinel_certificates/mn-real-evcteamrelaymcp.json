@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1711524",
+  "certificate_id": "MN-SC-2026-7559949",
   "skill_id": "mn-real-evcteamrelaymcp",
   "skill_name": "evc-team-relay-mcp",
-  "issued_at": "2026-10-18T05:35:11.524Z",
-  "expires_at": "2026-10-25T05:35:11.524Z",
+  "issued_at": "2026-10-25T05:52:39.949Z",
+  "expires_at": "2026-11-01T05:52:39.949Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6ca0a7f0a4029e69d474a939e0f2e48e91735b92d50c52062b81519b112df8c4",
+  "signature": "3b31ce6022c12be21fd23ae454cbd0709223f40e7fe6fe423eb266fe7ffeff8d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-evcteamrelaymcp"
 }

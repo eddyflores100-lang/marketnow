@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1404506",
+  "certificate_id": "MN-SC-2026-7192189",
   "skill_id": "mn-res-07204",
   "skill_name": "mcp-omnisearch",
-  "issued_at": "2026-10-18T05:30:04.506Z",
-  "expires_at": "2026-10-25T05:30:04.506Z",
+  "issued_at": "2026-10-25T05:46:32.189Z",
+  "expires_at": "2026-11-01T05:46:32.189Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "577bd7e9ddd8841fb36616c1cd4c0268a4de9be04af82c3047b960ea081a0d55",
+  "signature": "3f9c20839030e82c058ffebcc5777b055a569af796c29331f1b32349d6428e1a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-res-07204"
 }

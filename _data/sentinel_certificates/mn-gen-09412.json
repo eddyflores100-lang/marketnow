@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1420628",
+  "certificate_id": "MN-SC-2026-7211282",
   "skill_id": "mn-gen-09412",
   "skill_name": "mcp-server-nano-banana",
-  "issued_at": "2026-10-18T05:30:20.628Z",
-  "expires_at": "2026-10-25T05:30:20.628Z",
+  "issued_at": "2026-10-25T05:46:51.282Z",
+  "expires_at": "2026-11-01T05:46:51.282Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "140afb510949c4c43fbcec7d034300e3e0d02ecee8a7ecd67d39243f9d8a01e0",
+  "signature": "a54a86f3475fd3e2064eae678ed9d99de48fd211d02bc785dcc984726a74ff4c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09412"
 }

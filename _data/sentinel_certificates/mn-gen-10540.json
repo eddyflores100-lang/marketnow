@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1428273",
+  "certificate_id": "MN-SC-2026-7220465",
   "skill_id": "mn-gen-10540",
   "skill_name": "spoken",
-  "issued_at": "2026-10-18T05:30:28.273Z",
-  "expires_at": "2026-10-25T05:30:28.273Z",
+  "issued_at": "2026-10-25T05:47:00.465Z",
+  "expires_at": "2026-11-01T05:47:00.465Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c42be6216aa83683420ba2233ddc61cd24b441959ad90304da2731d40882d641",
+  "signature": "a51814029bb346acfdc80153b6d18546cfddce25d1eb4d2b4c177ffc24d71d52",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-10540"
 }

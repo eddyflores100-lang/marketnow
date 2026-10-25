@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1669456",
+  "certificate_id": "MN-SC-2026-7508661",
   "skill_id": "mn-real-bridgemetricsmcp",
   "skill_name": "bridge-metrics-mcp",
-  "issued_at": "2026-10-18T05:34:29.456Z",
-  "expires_at": "2026-10-25T05:34:29.456Z",
+  "issued_at": "2026-10-25T05:51:48.661Z",
+  "expires_at": "2026-11-01T05:51:48.661Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ae7c5ef229954ff31c8f83b213f3e90db7a0ac6467ff75dadd4de083f27523b6",
+  "signature": "91d876b0ad9a8adf88da97f8dd730ac0bf126412a63858d5a11567d58eb68754",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-bridgemetricsmcp"
 }

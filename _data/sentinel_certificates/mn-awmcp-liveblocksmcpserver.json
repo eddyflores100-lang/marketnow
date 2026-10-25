@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1516410",
+  "certificate_id": "MN-SC-2026-7325254",
   "skill_id": "mn-awmcp-liveblocksmcpserver",
   "skill_name": "liveblocks-mcp-server",
-  "issued_at": "2026-10-18T05:31:56.410Z",
-  "expires_at": "2026-10-25T05:31:56.410Z",
+  "issued_at": "2026-10-25T05:48:45.254Z",
+  "expires_at": "2026-11-01T05:48:45.254Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c898df9a7f4fb4096d1b0a14a1ee1d73e4c2489650427faa6189ce5ba146066c",
+  "signature": "c67351ae0971654a2cc9555b0a9e4dae12557ba5b5155295913c2c28e79bd4c6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-liveblocksmcpserver"
 }

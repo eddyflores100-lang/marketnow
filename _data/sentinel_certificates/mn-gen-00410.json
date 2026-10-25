@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1346940",
+  "certificate_id": "MN-SC-2026-7121439",
   "skill_id": "mn-gen-00410",
   "skill_name": "agentql-mcp",
-  "issued_at": "2026-10-18T05:29:06.940Z",
-  "expires_at": "2026-10-25T05:29:06.940Z",
+  "issued_at": "2026-10-25T05:45:21.439Z",
+  "expires_at": "2026-11-01T05:45:21.439Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "90df272593ee8c18abefe636acee9cafb1e4de901fbc8621f5c38827639a542a",
+  "signature": "d49d26bda6bd6fe5c02753e5770c5bdf8dac8e0076a1f3556a5d870844d80c61",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00410"
 }

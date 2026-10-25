@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1576258",
+  "certificate_id": "MN-SC-2026-7401048",
   "skill_id": "mn-real-apiverketmcp",
   "skill_name": "apiverket-mcp",
-  "issued_at": "2026-10-18T05:32:56.258Z",
-  "expires_at": "2026-10-25T05:32:56.258Z",
+  "issued_at": "2026-10-25T05:50:01.048Z",
+  "expires_at": "2026-11-01T05:50:01.048Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "dba018c04ab5526891b3a6243a9d96c7d102fc264a7df3f49e8f4ef60a15df92",
+  "signature": "32ba86c1627bb2b82b164be3467c1808eefc1c03c2be65c85903284302659759",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-apiverketmcp"
 }

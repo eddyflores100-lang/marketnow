@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1389107",
+  "certificate_id": "MN-SC-2026-7173558",
   "skill_id": "mn-gen-05341",
   "skill_name": "mcp-server-npm-plus",
-  "issued_at": "2026-10-18T05:29:49.107Z",
-  "expires_at": "2026-10-25T05:29:49.107Z",
+  "issued_at": "2026-10-25T05:46:13.558Z",
+  "expires_at": "2026-11-01T05:46:13.558Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1081da653f6cc96736025f07cc2241c506295bbfb4541a5913f18b48ae64255e",
+  "signature": "c4a312dec697747cf82068ae34528b5c7d0cb0733a56a186892cf0020f1d757a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05341"
 }

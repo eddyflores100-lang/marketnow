@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1647346",
+  "certificate_id": "MN-SC-2026-7483202",
   "skill_id": "mn-real-cryptomarketdatamcp",
   "skill_name": "crypto-market-data-mcp",
-  "issued_at": "2026-10-18T05:34:07.346Z",
-  "expires_at": "2026-10-25T05:34:07.346Z",
+  "issued_at": "2026-10-25T05:51:23.203Z",
+  "expires_at": "2026-11-01T05:51:23.203Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6daa888d9bb4a2ec677c227fe602b243fcf82c7f4ff2c7bf6cddc980350ae56a",
+  "signature": "51fa2cfc52e1b54feff80abe631dec22553b26511eaa379f30be31485cc25554",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cryptomarketdatamcp"
 }

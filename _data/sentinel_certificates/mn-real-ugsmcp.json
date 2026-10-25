@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1637981",
+  "certificate_id": "MN-SC-2026-7473197",
   "skill_id": "mn-real-ugsmcp",
   "skill_name": "ugs-mcp",
-  "issued_at": "2026-10-18T05:33:57.981Z",
-  "expires_at": "2026-10-25T05:33:57.981Z",
+  "issued_at": "2026-10-25T05:51:13.197Z",
+  "expires_at": "2026-11-01T05:51:13.197Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1e3d0e5ee5aebe68a1f11bd56f66fb532ce0fc917652e3ca5f41a00b377a8c64",
+  "signature": "ce14e5dd97c579ed4c41ba1824e024a486f26b372b943b33c630abeec4b0dc99",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-ugsmcp"
 }

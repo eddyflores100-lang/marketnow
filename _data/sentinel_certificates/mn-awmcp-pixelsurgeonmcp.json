@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1484187",
+  "certificate_id": "MN-SC-2026-7286564",
   "skill_id": "mn-awmcp-pixelsurgeonmcp",
   "skill_name": "pixel-surgeon-mcp",
-  "issued_at": "2026-10-18T05:31:24.187Z",
-  "expires_at": "2026-10-25T05:31:24.187Z",
+  "issued_at": "2026-10-25T05:48:06.564Z",
+  "expires_at": "2026-11-01T05:48:06.564Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a2ca1317b12fc1f5d23ce55c939e6ca7df38502d8d13613b50bdda1a065726ee",
+  "signature": "384b9214b10de7c99607dbef0fba518f2547d97d91b9a3d5bf314cd50bc34c74",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-pixelsurgeonmcp"
 }

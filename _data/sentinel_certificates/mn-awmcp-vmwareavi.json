@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1524018",
+  "certificate_id": "MN-SC-2026-7337500",
   "skill_id": "mn-awmcp-vmwareavi",
   "skill_name": "VMware-AVI",
-  "issued_at": "2026-10-18T05:32:04.018Z",
-  "expires_at": "2026-10-25T05:32:04.018Z",
+  "issued_at": "2026-10-25T05:48:57.500Z",
+  "expires_at": "2026-11-01T05:48:57.500Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "aa89260aa4acf6078bc59232cc3bdd41944fa6e72cbc4da535a9a8c296c4976e",
+  "signature": "7f390e763b4c49375e017ac2aad2ac628f5768196d2f1595e0a1930954e15da1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-vmwareavi"
 }

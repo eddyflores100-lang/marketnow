@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1462281",
+  "certificate_id": "MN-SC-2026-7260738",
   "skill_id": "mn-awmcp-elisym",
   "skill_name": "elisym",
-  "issued_at": "2026-10-18T05:31:02.281Z",
-  "expires_at": "2026-10-25T05:31:02.281Z",
+  "issued_at": "2026-10-25T05:47:40.738Z",
+  "expires_at": "2026-11-01T05:47:40.738Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3766a970b8f8156474cb1016f0602bee6189435671768d219113a1cfd1ca9314",
+  "signature": "0fed08ce71899cd6b05436d39840afbfed1f6a20150c51f9bba3588699f94e2b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-elisym"
 }

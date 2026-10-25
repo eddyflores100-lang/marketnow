@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1367251",
+  "certificate_id": "MN-SC-2026-7146314",
   "skill_id": "mn-gen-02962",
   "skill_name": "android-mcp-server",
-  "issued_at": "2026-10-18T05:29:27.251Z",
-  "expires_at": "2026-10-25T05:29:27.251Z",
+  "issued_at": "2026-10-25T05:45:46.314Z",
+  "expires_at": "2026-11-01T05:45:46.314Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "79bb2d7ab61d2f347d1ea4271a51d9272630c9a3b948e2288193bca12b72954d",
+  "signature": "a97f4ff81d16ac474a4f61df75bd40305432cae05855a95fe745bfc341c173c3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02962"
 }

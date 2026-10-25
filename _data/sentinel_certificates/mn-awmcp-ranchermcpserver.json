@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1517699",
+  "certificate_id": "MN-SC-2026-7326854",
   "skill_id": "mn-awmcp-ranchermcpserver",
   "skill_name": "rancher-mcp-server",
-  "issued_at": "2026-10-18T05:31:57.699Z",
-  "expires_at": "2026-10-25T05:31:57.699Z",
+  "issued_at": "2026-10-25T05:48:46.854Z",
+  "expires_at": "2026-11-01T05:48:46.854Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "39bb90944e621b2e6cbd085ce90bb26db277e5f7f65a282890e55c5d225de1f6",
+  "signature": "f1e8ba04e2ebc3bf76ffac865615844b2a3af4d5ecf5c7cf33dc27a2b5a5a52c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-ranchermcpserver"
 }

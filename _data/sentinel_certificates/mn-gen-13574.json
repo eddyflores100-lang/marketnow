@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1451545",
+  "certificate_id": "MN-SC-2026-7248200",
   "skill_id": "mn-gen-13574",
   "skill_name": "xmcp",
-  "issued_at": "2026-10-18T05:30:51.545Z",
-  "expires_at": "2026-10-25T05:30:51.545Z",
+  "issued_at": "2026-10-25T05:47:28.200Z",
+  "expires_at": "2026-11-01T05:47:28.200Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -36,7 +36,7 @@
     "resolved_at": "2026-10-13T12:52:43.295Z"
   },
   "cert_v": 2,
-  "signature": "b369fc86db960c0f5b063fd3e8a0602044f5e7202a46a6cf6f854e2574a980e2",
+  "signature": "81a501c5c2be157f6d4a6dbbdc134dd1459f8416bf8785d958d8f39fdbd89cdc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13574"
 }

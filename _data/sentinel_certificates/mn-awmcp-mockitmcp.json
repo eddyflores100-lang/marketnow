@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1489958",
+  "certificate_id": "MN-SC-2026-7293685",
   "skill_id": "mn-awmcp-mockitmcp",
   "skill_name": "mockit-mcp",
-  "issued_at": "2026-10-18T05:31:29.958Z",
-  "expires_at": "2026-10-25T05:31:29.958Z",
+  "issued_at": "2026-10-25T05:48:13.685Z",
+  "expires_at": "2026-11-01T05:48:13.685Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a871aebc0c724c4442150cb92a5d9e76470b038803511a7e25966c8e2c69fd89",
+  "signature": "439370fc3c37b1f4e616f542d75e3ec875414a9d4cca8db9cfa559ce55a1fc3a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mockitmcp"
 }

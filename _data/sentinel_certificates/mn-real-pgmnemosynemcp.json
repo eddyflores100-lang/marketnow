@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1568539",
+  "certificate_id": "MN-SC-2026-7391901",
   "skill_id": "mn-real-pgmnemosynemcp",
   "skill_name": "pg-mnemosyne-mcp",
-  "issued_at": "2026-10-18T05:32:48.539Z",
-  "expires_at": "2026-10-25T05:32:48.539Z",
+  "issued_at": "2026-10-25T05:49:51.901Z",
+  "expires_at": "2026-11-01T05:49:51.901Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "871901cd305a1b1ca24aec4167a6815417aceec0af6125d3f84637e4716a485d",
+  "signature": "3ebfd518213e277f9a491b412cd9f8e384db0957ec3d74077c57ddc186aedce4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-pgmnemosynemcp"
 }

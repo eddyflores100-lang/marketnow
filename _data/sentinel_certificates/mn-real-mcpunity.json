@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1695168",
+  "certificate_id": "MN-SC-2026-7539939",
   "skill_id": "mn-real-mcpunity",
   "skill_name": "mcp-unity",
-  "issued_at": "2026-10-18T05:34:55.168Z",
-  "expires_at": "2026-10-25T05:34:55.168Z",
+  "issued_at": "2026-10-25T05:52:19.939Z",
+  "expires_at": "2026-11-01T05:52:19.939Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0f3667fe32769324e8bee11cd40b87063cd771ba64083d06993b3f7ec1b56299",
+  "signature": "5a033e44773e0e4e998938e9d8407ff42408f3bef9a8120d078ddc0997bd0423",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpunity"
 }

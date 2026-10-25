@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1471653",
+  "certificate_id": "MN-SC-2026-7271727",
   "skill_id": "mn-awmcp-opentabs",
   "skill_name": "opentabs",
-  "issued_at": "2026-10-18T05:31:11.653Z",
-  "expires_at": "2026-10-25T05:31:11.653Z",
+  "issued_at": "2026-10-25T05:47:51.727Z",
+  "expires_at": "2026-11-01T05:47:51.727Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b1d2406bf67d1a687a8d72748632c885879170f93c3428cf9e76b42a32c842ee",
+  "signature": "4d3c3354f2a4b4725c6e124c0418dae19d6d16061849b90c260e1e0bcb4451ee",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-opentabs"
 }

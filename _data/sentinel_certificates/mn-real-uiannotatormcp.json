@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1606298",
+  "certificate_id": "MN-SC-2026-7436445",
   "skill_id": "mn-real-uiannotatormcp",
   "skill_name": "ui-annotator-mcp",
-  "issued_at": "2026-10-18T05:33:26.298Z",
-  "expires_at": "2026-10-25T05:33:26.298Z",
+  "issued_at": "2026-10-25T05:50:36.445Z",
+  "expires_at": "2026-11-01T05:50:36.445Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2e41379208b05331ed332cc969cbcd8567730bf3845b51ea077564fc8757284e",
+  "signature": "355688f20302ba0093e17a889302bef7fa04629923d71d3a1e653ef5675e4f60",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-uiannotatormcp"
 }

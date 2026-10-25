@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1530804",
+  "certificate_id": "MN-SC-2026-7345130",
   "skill_id": "mn-awmcp-sshmcp",
   "skill_name": "ssh-mcp",
-  "issued_at": "2026-10-18T05:32:10.804Z",
-  "expires_at": "2026-10-25T05:32:10.804Z",
+  "issued_at": "2026-10-25T05:49:05.130Z",
+  "expires_at": "2026-11-01T05:49:05.130Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -36,7 +36,7 @@
     "resolved_at": "2026-10-13T12:52:47.635Z"
   },
   "cert_v": 2,
-  "signature": "a007bbf8cab47c63728b086d843e3ce3c8babf96edfe95d8ff7ed0dbd84629d4",
+  "signature": "ad265877c45affcc8ab0382cddb7f6478fa4a9cfed062950833e2b049d7642ec",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-sshmcp"
 }

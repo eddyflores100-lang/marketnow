@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1364687",
+  "certificate_id": "MN-SC-2026-7142522",
   "skill_id": "mn-gen-02687",
   "skill_name": "computer-use-mcp",
-  "issued_at": "2026-10-18T05:29:24.687Z",
-  "expires_at": "2026-10-25T05:29:24.687Z",
+  "issued_at": "2026-10-25T05:45:42.522Z",
+  "expires_at": "2026-11-01T05:45:42.522Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "69fd11fc699f6ac6967584dd2ffb6a731990b4c7ec2978978cf6a3125c8b7c97",
+  "signature": "1309627e5030f4e8cfab16776cdd358bec38cc7a92cc8f15b02f37feea7b6958",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02687"
 }

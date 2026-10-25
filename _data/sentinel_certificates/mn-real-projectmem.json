@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1721837",
+  "certificate_id": "MN-SC-2026-7572747",
   "skill_id": "mn-real-projectmem",
   "skill_name": "projectmem",
-  "issued_at": "2026-10-18T05:35:21.837Z",
-  "expires_at": "2026-10-25T05:35:21.837Z",
+  "issued_at": "2026-10-25T05:52:52.747Z",
+  "expires_at": "2026-11-01T05:52:52.747Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f582c26c12bea7eeffb9fa23a5b83b230d708fc50a7e883c3c7d2ee31637ed3d",
+  "signature": "15e2052dc0848edd729a5942b46986a7ed3b771358ca0b3abe4daa3f8c5311d9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-projectmem"
 }

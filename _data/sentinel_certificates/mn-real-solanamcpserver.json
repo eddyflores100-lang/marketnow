@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1658572",
+  "certificate_id": "MN-SC-2026-7496198",
   "skill_id": "mn-real-solanamcpserver",
   "skill_name": "solana-mcp-server",
-  "issued_at": "2026-10-18T05:34:18.572Z",
-  "expires_at": "2026-10-25T05:34:18.572Z",
+  "issued_at": "2026-10-25T05:51:36.198Z",
+  "expires_at": "2026-11-01T05:51:36.198Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0a94ffdbef14b5df3498d1c36ed71c0fe84d5012270e8b4055a90eebf08ac346",
+  "signature": "5c3a9f6cbe337e2f590a00353e8c2fc0f8e790301144db842c90b6b96d33faa9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-solanamcpserver"
 }

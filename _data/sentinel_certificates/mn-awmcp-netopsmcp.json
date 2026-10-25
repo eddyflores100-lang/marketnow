@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1529411",
+  "certificate_id": "MN-SC-2026-7343643",
   "skill_id": "mn-awmcp-netopsmcp",
   "skill_name": "netops-mcp",
-  "issued_at": "2026-10-18T05:32:09.411Z",
-  "expires_at": "2026-10-25T05:32:09.411Z",
+  "issued_at": "2026-10-25T05:49:03.643Z",
+  "expires_at": "2026-11-01T05:49:03.643Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "771ebc5001275026114813216837935c38112b287c885ed43e9cc877d9eb7d67",
+  "signature": "a8a0a585a2edfb457ea1346b4a0a99bbac0752baf3662be78acb5adb9aa62a78",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-netopsmcp"
 }

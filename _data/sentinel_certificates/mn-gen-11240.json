@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1433524",
+  "certificate_id": "MN-SC-2026-7226963",
   "skill_id": "mn-gen-11240",
   "skill_name": "vibe",
-  "issued_at": "2026-10-18T05:30:33.524Z",
-  "expires_at": "2026-10-25T05:30:33.524Z",
+  "issued_at": "2026-10-25T05:47:06.964Z",
+  "expires_at": "2026-11-01T05:47:06.964Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3fc0f83511e82f9408f41fe92e4b5d1071739fda6b058007fdd70aea02bd69e7",
+  "signature": "4a1ac5e053c643b046b12c6555d4934b0d847d253d5ade913329da9be4908f93",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-11240"
 }

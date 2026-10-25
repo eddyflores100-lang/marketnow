@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1647535",
+  "certificate_id": "MN-SC-2026-7483423",
   "skill_id": "mn-real-bitcoinbenjimcp",
   "skill_name": "bitcoinbenji-mcp",
-  "issued_at": "2026-10-18T05:34:07.535Z",
-  "expires_at": "2026-10-25T05:34:07.535Z",
+  "issued_at": "2026-10-25T05:51:23.423Z",
+  "expires_at": "2026-11-01T05:51:23.423Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3f3759c0f8dc93ce7f51515af97ad664453fac84d288b75bf9d6d030fe72e282",
+  "signature": "79dffe8def032ea7584bb1b37fa28c27b0b64ea6f811638ee5e5d43d54f293dd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-bitcoinbenjimcp"
 }

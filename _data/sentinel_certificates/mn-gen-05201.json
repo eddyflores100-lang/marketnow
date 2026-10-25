@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1387072",
+  "certificate_id": "MN-SC-2026-7170963",
   "skill_id": "mn-gen-05201",
   "skill_name": "simulator-mcp-server",
-  "issued_at": "2026-10-18T05:29:47.072Z",
-  "expires_at": "2026-10-25T05:29:47.072Z",
+  "issued_at": "2026-10-25T05:46:10.963Z",
+  "expires_at": "2026-11-01T05:46:10.963Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "16147dd96670b80a9b332f73994f204fa6d5c9c63bdbbec647b0ac6b47fadc99",
+  "signature": "64554b7464d7386af88dfc8c8e18ac06483ccccd005370c3084f3c24c57c4fd6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05201"
 }

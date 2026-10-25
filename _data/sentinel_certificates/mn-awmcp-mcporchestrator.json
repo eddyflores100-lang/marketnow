@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1473152",
+  "certificate_id": "MN-SC-2026-7273821",
   "skill_id": "mn-awmcp-mcporchestrator",
   "skill_name": "mcp-orchestrator",
-  "issued_at": "2026-10-18T05:31:13.152Z",
-  "expires_at": "2026-10-25T05:31:13.152Z",
+  "issued_at": "2026-10-25T05:47:53.821Z",
+  "expires_at": "2026-11-01T05:47:53.821Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ca6381504debc44556cc662d89ffeb3304f8bc73d487909930bf97b0313eab13",
+  "signature": "18891bead505411f0726fb8e9cd6596474a5bda9a29b7e0b668eca3bdcf641fc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcporchestrator"
 }

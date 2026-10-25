@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1638291",
+  "certificate_id": "MN-SC-2026-7473585",
   "skill_id": "mn-real-mcpserverpronunciati",
   "skill_name": "mcp-server-pronunciation",
-  "issued_at": "2026-10-18T05:33:58.291Z",
-  "expires_at": "2026-10-25T05:33:58.291Z",
+  "issued_at": "2026-10-25T05:51:13.585Z",
+  "expires_at": "2026-11-01T05:51:13.585Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "af0479071b36e1e160370076957c579e233514353a4b291d25992848973caf6b",
+  "signature": "fc3b72c9eacb7659405bc44da6cf6a8d8c54710d1d29e9e481dca169c337f56e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpserverpronunciati"
 }

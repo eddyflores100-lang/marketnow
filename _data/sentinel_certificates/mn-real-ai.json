@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1593668",
+  "certificate_id": "MN-SC-2026-7421442",
   "skill_id": "mn-real-ai",
   "skill_name": "ai",
-  "issued_at": "2026-10-18T05:33:13.668Z",
-  "expires_at": "2026-10-25T05:33:13.668Z",
+  "issued_at": "2026-10-25T05:50:21.442Z",
+  "expires_at": "2026-11-01T05:50:21.442Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 7,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d069970815e0120b452319bb580eaeb388496b2fc68dbce05e4c763ce5b5e2bd",
+  "signature": "3999b3948c28b3dbb9d28dc5009cc71ea9e5e72cd21f85487f44de3553ea6bbe",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-ai"
 }

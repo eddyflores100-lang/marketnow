@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1368231",
+  "certificate_id": "MN-SC-2026-7147443",
   "skill_id": "mn-dat-03093",
   "skill_name": "datadog-mcp-server",
-  "issued_at": "2026-10-18T05:29:28.231Z",
-  "expires_at": "2026-10-25T05:29:28.231Z",
+  "issued_at": "2026-10-25T05:45:47.443Z",
+  "expires_at": "2026-11-01T05:45:47.443Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -36,7 +36,7 @@
     "resolved_at": "2026-10-13T12:53:17.027Z"
   },
   "cert_v": 2,
-  "signature": "3ed789ed674c48f006371556fc9f29f430a0d596b2d6f942e4473859d3a27302",
+  "signature": "9bc4095b040abac5a00e3318e495385c1facd720170579c3d5a936be9ab382ce",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-dat-03093"
 }

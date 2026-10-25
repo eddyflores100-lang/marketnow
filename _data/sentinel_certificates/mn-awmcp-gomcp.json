@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1503512",
+  "certificate_id": "MN-SC-2026-7309422",
   "skill_id": "mn-awmcp-gomcp",
   "skill_name": "gomcp",
-  "issued_at": "2026-10-18T05:31:43.512Z",
-  "expires_at": "2026-10-25T05:31:43.512Z",
+  "issued_at": "2026-10-25T05:48:29.422Z",
+  "expires_at": "2026-11-01T05:48:29.422Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5a1435953ad313024a9855ce1ad64fe663134e0c0b45b211426bc546a352e4a0",
+  "signature": "ef803e69ee06511227b9f72cac6121b0a2cdcf420c73ca8dcc73bc465f21d37f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-gomcp"
 }

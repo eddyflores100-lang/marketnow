@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1574818",
+  "certificate_id": "MN-SC-2026-7399322",
   "skill_id": "mn-real-kafkamcp",
   "skill_name": "kafka-mcp",
-  "issued_at": "2026-10-18T05:32:54.818Z",
-  "expires_at": "2026-10-25T05:32:54.818Z",
+  "issued_at": "2026-10-25T05:49:59.322Z",
+  "expires_at": "2026-11-01T05:49:59.322Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "526c9c814ae798563599490b5047f30b419a43f0d50e3e8defd0b649df166e0f",
+  "signature": "cdd50509a0a99a9c42a9125279cb2273807995dc131e48871a5b97b168653171",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-kafkamcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1482469",
+  "certificate_id": "MN-SC-2026-7284710",
   "skill_id": "mn-awmcp-gradusnotation",
   "skill_name": "gradusnotation",
-  "issued_at": "2026-10-18T05:31:22.469Z",
-  "expires_at": "2026-10-25T05:31:22.469Z",
+  "issued_at": "2026-10-25T05:48:04.710Z",
+  "expires_at": "2026-11-01T05:48:04.710Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fe9d45214ced4a6ac4590deb698eb8d3c8f59f159fb8319b9b7308118e05bff3",
+  "signature": "11824c36141421f6f69d7b0dad18156edce5c9a9fa9f7b167daa01d5867ddaaa",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-gradusnotation"
 }

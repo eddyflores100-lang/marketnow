@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1595584",
+  "certificate_id": "MN-SC-2026-7423715",
   "skill_id": "mn-real-mcppointer",
   "skill_name": "mcp-pointer",
-  "issued_at": "2026-10-18T05:33:15.584Z",
-  "expires_at": "2026-10-25T05:33:15.584Z",
+  "issued_at": "2026-10-25T05:50:23.715Z",
+  "expires_at": "2026-11-01T05:50:23.715Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3e95f70229fbf1304be64fa0846ff1144b2e1b7aac913e4f222d981d6dab800f",
+  "signature": "90053dc71bc5ef5fb7b514d7b15679581b09831ead1904976f9a5595fbe70941",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcppointer"
 }

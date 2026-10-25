@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1680710",
+  "certificate_id": "MN-SC-2026-7522118",
   "skill_id": "mn-real-t2000",
   "skill_name": "t2000",
-  "issued_at": "2026-10-18T05:34:40.710Z",
-  "expires_at": "2026-10-25T05:34:40.710Z",
+  "issued_at": "2026-10-25T05:52:02.118Z",
+  "expires_at": "2026-11-01T05:52:02.118Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d9debdd8ea3fb362667834c103dc7b3dd0a92224ed0ffc9923b1f25ecef299f8",
+  "signature": "aaa4d906f666a7dd004b00dc1c70e85fef4acc9e3d1e67b1fd8dc05e1d7f8ce0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-t2000"
 }

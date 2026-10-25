@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1544153",
+  "certificate_id": "MN-SC-2026-7361033",
   "skill_id": "mn-awmcp-servonaut",
   "skill_name": "servonaut",
-  "issued_at": "2026-10-18T05:32:24.153Z",
-  "expires_at": "2026-10-25T05:32:24.153Z",
+  "issued_at": "2026-10-25T05:49:21.033Z",
+  "expires_at": "2026-11-01T05:49:21.033Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f7600593093675c36e00203b8773fa6fb8b83456630a66eb16d997d49ebcd7c9",
+  "signature": "70c256f5f6484c31bcdd4813706436e8bb51688232caf8e2dd188710d08e7708",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-servonaut"
 }

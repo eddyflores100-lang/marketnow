@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1593869",
+  "certificate_id": "MN-SC-2026-7421672",
   "skill_id": "mn-real-creditoptimizerv5",
   "skill_name": "credit-optimizer-v5",
-  "issued_at": "2026-10-18T05:33:13.869Z",
-  "expires_at": "2026-10-25T05:33:13.869Z",
+  "issued_at": "2026-10-25T05:50:21.672Z",
+  "expires_at": "2026-11-01T05:50:21.672Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a259312ecf98942a3fad5bcdc85b21df365b63aee9f112cc1886c49d71961509",
+  "signature": "19975e9baab345bdfd73fec22b182fca298457b30c6714d53af9a0bf5652c4a2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-creditoptimizerv5"
 }

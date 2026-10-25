@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1412253",
+  "certificate_id": "MN-SC-2026-7201610",
   "skill_id": "mn-gen-07910",
   "skill_name": "mcp-shrimp-task-manager",
-  "issued_at": "2026-10-18T05:30:12.253Z",
-  "expires_at": "2026-10-25T05:30:12.253Z",
+  "issued_at": "2026-10-25T05:46:41.610Z",
+  "expires_at": "2026-11-01T05:46:41.610Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "48b54185139cc8c10a4b967acc24a2afeb8a841efcee367fcd212be76a81cd7d",
+  "signature": "01f8bc40cee9bb890137dc9ef25ebd515aab619e71b2ec0d8083520c610aed61",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07910"
 }

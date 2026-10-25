@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1675328",
+  "certificate_id": "MN-SC-2026-7515755",
   "skill_id": "mn-real-raydiumlaunchlabmcp",
   "skill_name": "raydium-launchlab-mcp",
-  "issued_at": "2026-10-18T05:34:35.328Z",
-  "expires_at": "2026-10-25T05:34:35.328Z",
+  "issued_at": "2026-10-25T05:51:55.755Z",
+  "expires_at": "2026-11-01T05:51:55.755Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9612c47ed36304a9d47e273901e75c1f4e7fbeeb74309a4e195ce8b823f6544c",
+  "signature": "12e953997fdf6c105632c8adc828f6c6d3fa606ba22538d2d1efe330df399c7f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-raydiumlaunchlabmcp"
 }

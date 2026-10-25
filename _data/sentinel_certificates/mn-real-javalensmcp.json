@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1613792",
+  "certificate_id": "MN-SC-2026-7444856",
   "skill_id": "mn-real-javalensmcp",
   "skill_name": "javalens-mcp",
-  "issued_at": "2026-10-18T05:33:33.792Z",
-  "expires_at": "2026-10-25T05:33:33.792Z",
+  "issued_at": "2026-10-25T05:50:44.856Z",
+  "expires_at": "2026-11-01T05:50:44.856Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7c895e18ab60509c0034be91e0064d8dc2f30178b4533be8fdaddcb7fe6a2c1a",
+  "signature": "c92e7487c685427293c1a7e826a670b4e3ffc31a3a32c75e2fb1cfa3fd15c8ff",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-javalensmcp"
 }

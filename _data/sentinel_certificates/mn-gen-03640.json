@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1372913",
+  "certificate_id": "MN-SC-2026-7152926",
   "skill_id": "mn-gen-03640",
   "skill_name": "elevenlabs-mcp",
-  "issued_at": "2026-10-18T05:29:32.913Z",
-  "expires_at": "2026-10-25T05:29:32.913Z",
+  "issued_at": "2026-10-25T05:45:52.926Z",
+  "expires_at": "2026-11-01T05:45:52.926Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "eda579715a6dcb26f8085b31218fc46283a847aae868286745cbd46615d661b5",
+  "signature": "05463b30866185a5116a0aebf90f9edaa8ef0614b2f110aa82335ce974eb07be",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03640"
 }

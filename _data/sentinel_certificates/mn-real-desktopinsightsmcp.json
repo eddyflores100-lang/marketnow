@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1588983",
+  "certificate_id": "MN-SC-2026-7415909",
   "skill_id": "mn-real-desktopinsightsmcp",
   "skill_name": "desktopinsights-mcp",
-  "issued_at": "2026-10-18T05:33:08.983Z",
-  "expires_at": "2026-10-25T05:33:08.983Z",
+  "issued_at": "2026-10-25T05:50:15.909Z",
+  "expires_at": "2026-11-01T05:50:15.909Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e2f92aabe4b20529ecf87c0763679362f0c3f6d2888d0cade02fdf3a30097f50",
+  "signature": "1f9cb370da46875e1fd7990c52fa755c6e534e9f1079c87f65f6a271581bb4cb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-desktopinsightsmcp"
 }

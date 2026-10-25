@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1597574",
+  "certificate_id": "MN-SC-2026-7426000",
   "skill_id": "mn-real-excelmcpserver",
   "skill_name": "excel-mcp-server",
-  "issued_at": "2026-10-18T05:33:17.574Z",
-  "expires_at": "2026-10-25T05:33:17.574Z",
+  "issued_at": "2026-10-25T05:50:26.000Z",
+  "expires_at": "2026-11-01T05:50:26.000Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "501326ff30970cca636a93e9637adb28ebd34551412f069fa2a125b2e6a9630c",
+  "signature": "01ec85c62abdd3e9246e55edf1863b38639ac56b946ebb524b6d3c04536bdf77",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-excelmcpserver"
 }

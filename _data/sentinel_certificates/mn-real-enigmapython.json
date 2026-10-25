@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1563816",
+  "certificate_id": "MN-SC-2026-7386065",
   "skill_id": "mn-real-enigmapython",
   "skill_name": "enigma-python",
-  "issued_at": "2026-10-18T05:32:43.816Z",
-  "expires_at": "2026-10-25T05:32:43.816Z",
+  "issued_at": "2026-10-25T05:49:46.065Z",
+  "expires_at": "2026-11-01T05:49:46.065Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "321b9c8d0980856fe4093c6a3ae930805a2517a18ae18ace26afb384c5044fdd",
+  "signature": "c5e7c300b98184e523d3264d2a84d0c8f3f134832a240f859a847979c8ba3c72",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-enigmapython"
 }

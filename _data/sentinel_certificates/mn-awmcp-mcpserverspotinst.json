@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1510916",
+  "certificate_id": "MN-SC-2026-7318653",
   "skill_id": "mn-awmcp-mcpserverspotinst",
   "skill_name": "mcp-server-spotinst",
-  "issued_at": "2026-10-18T05:31:50.916Z",
-  "expires_at": "2026-10-25T05:31:50.916Z",
+  "issued_at": "2026-10-25T05:48:38.653Z",
+  "expires_at": "2026-11-01T05:48:38.653Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "bfd9546df2309cd48c02e534b7a77370a5c17f46847e62d4012224bfa7bfedbb",
+  "signature": "ef4757d57450868a45fbb29b008df51d2e02c0c78810102e9bf33c46b45e95ce",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpserverspotinst"
 }

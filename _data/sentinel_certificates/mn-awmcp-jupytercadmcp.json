@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1480383",
+  "certificate_id": "MN-SC-2026-7282539",
   "skill_id": "mn-awmcp-jupytercadmcp",
   "skill_name": "jupytercad-mcp",
-  "issued_at": "2026-10-18T05:31:20.383Z",
-  "expires_at": "2026-10-25T05:31:20.383Z",
+  "issued_at": "2026-10-25T05:48:02.539Z",
+  "expires_at": "2026-11-01T05:48:02.539Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1aee3de19fad2398da3e0b3086a7fa15c222fe760ee6df0db312a8f2da6aa2c8",
+  "signature": "75deb3ba8628e4af8a09e41cdc47936cd775086f7ce05304c0f37a1e2232d97b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-jupytercadmcp"
 }

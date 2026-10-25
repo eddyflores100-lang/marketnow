@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1680212",
+  "certificate_id": "MN-SC-2026-7521482",
   "skill_id": "mn-real-meshledger",
   "skill_name": "MeshLedger",
-  "issued_at": "2026-10-18T05:34:40.212Z",
-  "expires_at": "2026-10-25T05:34:40.212Z",
+  "issued_at": "2026-10-25T05:52:01.482Z",
+  "expires_at": "2026-11-01T05:52:01.482Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "729076597827e87393c43012af0d6142242f005bbe86f9e39a4a5cbececc5c09",
+  "signature": "b5216896735d98529ad5a8149c8bd2ff9f9a24cb969a4d2719d199adc1df4127",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-meshledger"
 }

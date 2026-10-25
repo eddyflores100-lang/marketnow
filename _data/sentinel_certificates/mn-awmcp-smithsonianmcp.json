@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1484940",
+  "certificate_id": "MN-SC-2026-7287593",
   "skill_id": "mn-awmcp-smithsonianmcp",
   "skill_name": "smithsonian-mcp",
-  "issued_at": "2026-10-18T05:31:24.940Z",
-  "expires_at": "2026-10-25T05:31:24.940Z",
+  "issued_at": "2026-10-25T05:48:07.593Z",
+  "expires_at": "2026-11-01T05:48:07.593Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1918256c1f610995425e76e0f3555e47df5ad471dd7d07d332da47042e8d48f8",
+  "signature": "fc64b8b647f95bd75ccdfd23bf9f8e6c4fed21acb9165c0f489a6b7c6af73a3c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-smithsonianmcp"
 }

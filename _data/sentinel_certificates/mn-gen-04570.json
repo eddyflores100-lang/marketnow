@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1382857",
+  "certificate_id": "MN-SC-2026-7165599",
   "skill_id": "mn-gen-04570",
   "skill_name": "godot-forge",
-  "issued_at": "2026-10-18T05:29:42.857Z",
-  "expires_at": "2026-10-25T05:29:42.857Z",
+  "issued_at": "2026-10-25T05:46:05.599Z",
+  "expires_at": "2026-11-01T05:46:05.599Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "422aa55a716b66a30ddc4f8e350e7e440baf237f6e93bfb3c4ecb448dbbaa405",
+  "signature": "809bf97646845be7838a0157060615c788917e429b832b0d4f8383186ac01e73",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04570"
 }

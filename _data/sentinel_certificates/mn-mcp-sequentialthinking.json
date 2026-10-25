@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1457320",
+  "certificate_id": "MN-SC-2026-7255232",
   "skill_id": "mn-mcp-sequentialthinking",
   "skill_name": "MCP Sequential Thinking Server (Official)",
-  "issued_at": "2026-10-18T05:30:57.320Z",
-  "expires_at": "2026-10-25T05:30:57.320Z",
+  "issued_at": "2026-10-25T05:47:35.232Z",
+  "expires_at": "2026-11-01T05:47:35.232Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d79aeecf4376dc6017043416adefe9e9d4b31c588dd4910ff25cbea351bb6539",
+  "signature": "496418cabff7f80b6f80da31ff72bedffd8c64fae9cccf85bb87c99dc1075ccd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-mcp-sequentialthinking"
 }

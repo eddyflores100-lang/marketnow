@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1574630",
+  "certificate_id": "MN-SC-2026-7399095",
   "skill_id": "mn-real-mcpservermilvus",
   "skill_name": "mcp-server-milvus",
-  "issued_at": "2026-10-18T05:32:54.630Z",
-  "expires_at": "2026-10-25T05:32:54.630Z",
+  "issued_at": "2026-10-25T05:49:59.095Z",
+  "expires_at": "2026-11-01T05:49:59.095Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "74714b7183cd2d82da8ec0beb807e9fbe4b3bd501593a79905a6cfd5e0999aec",
+  "signature": "9679eabbab527d8a4a081970601e3b611107ff077ce0e1b84feec3bbb7f562ee",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpservermilvus"
 }

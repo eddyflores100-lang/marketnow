@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1664601",
+  "certificate_id": "MN-SC-2026-7503256",
   "skill_id": "mn-real-perpcli",
   "skill_name": "perp-cli",
-  "issued_at": "2026-10-18T05:34:24.601Z",
-  "expires_at": "2026-10-25T05:34:24.601Z",
+  "issued_at": "2026-10-25T05:51:43.256Z",
+  "expires_at": "2026-11-01T05:51:43.256Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "48e0a77bb6e7c500b398a70529a89fb01a50eb3124b4d422b822bcd09220d977",
+  "signature": "62ad32cb1bd9cc3c761dfcd2dbcf9a0f911574b97c1913a32dea571ba3aa4fa0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-perpcli"
 }

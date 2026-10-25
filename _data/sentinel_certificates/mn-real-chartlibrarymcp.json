@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1655427",
+  "certificate_id": "MN-SC-2026-7492469",
   "skill_id": "mn-real-chartlibrarymcp",
   "skill_name": "chart-library-mcp",
-  "issued_at": "2026-10-18T05:34:15.427Z",
-  "expires_at": "2026-10-25T05:34:15.427Z",
+  "issued_at": "2026-10-25T05:51:32.469Z",
+  "expires_at": "2026-11-01T05:51:32.469Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6ca9b6d59d9303b547bd63de4bada5d8b8f35893064401fad96e3c6ab82e017b",
+  "signature": "c930e8ef42b87072abbfaf68d0f8713e35bb9613d3656597db93b64741e3d7d6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-chartlibrarymcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1614629",
+  "certificate_id": "MN-SC-2026-7445674",
   "skill_id": "mn-real-locustmcpserver",
   "skill_name": "locust-mcp-server",
-  "issued_at": "2026-10-18T05:33:34.629Z",
-  "expires_at": "2026-10-25T05:33:34.629Z",
+  "issued_at": "2026-10-25T05:50:45.674Z",
+  "expires_at": "2026-11-01T05:50:45.674Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "372246a1d693ff9a1049f3cc17785e61616e01ca6fc42bafa889531a04d3cc1a",
+  "signature": "f7f68cac3081490d98097010ce67826810e35dd6cb835f9e23e86b50fd733a10",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-locustmcpserver"
 }

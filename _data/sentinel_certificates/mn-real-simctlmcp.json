@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1588651",
+  "certificate_id": "MN-SC-2026-7415541",
   "skill_id": "mn-real-simctlmcp",
   "skill_name": "simctl-mcp",
-  "issued_at": "2026-10-18T05:33:08.651Z",
-  "expires_at": "2026-10-25T05:33:08.651Z",
+  "issued_at": "2026-10-25T05:50:15.541Z",
+  "expires_at": "2026-11-01T05:50:15.541Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "31499c9fa6306ab53746f425e0ee99a58e55dd8eecb366af25f4fb8baef636fe",
+  "signature": "5f55336fd7a0a1ac5dde160704ae3fb2a5906ec8edd8dd5cbc345596c3d72b06",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-simctlmcp"
 }

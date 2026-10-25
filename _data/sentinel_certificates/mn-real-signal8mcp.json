@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1687969",
+  "certificate_id": "MN-SC-2026-7530749",
   "skill_id": "mn-real-signal8mcp",
   "skill_name": "signal8-mcp",
-  "issued_at": "2026-10-18T05:34:47.969Z",
-  "expires_at": "2026-10-25T05:34:47.969Z",
+  "issued_at": "2026-10-25T05:52:10.749Z",
+  "expires_at": "2026-11-01T05:52:10.749Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "569ae7fc7236d41d0e275e90a2eb626075bdb4d4d9231f36a6d9e1d3e0da869f",
+  "signature": "e89033cb7d2dcf428127f72ee85b88850fc8b4d80fda4ca3962623a27815d001",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-signal8mcp"
 }

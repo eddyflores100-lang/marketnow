@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1400404",
+  "certificate_id": "MN-SC-2026-7187217",
   "skill_id": "mn-gen-06893",
   "skill_name": "mcp-hub",
-  "issued_at": "2026-10-18T05:30:00.404Z",
-  "expires_at": "2026-10-25T05:30:00.404Z",
+  "issued_at": "2026-10-25T05:46:27.217Z",
+  "expires_at": "2026-11-01T05:46:27.217Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "48e1f8b17680964c1ab598022d068ed05dac8015ad21b33910be3471c9496728",
+  "signature": "e7000d273377884ae36a4e210447fedba4934869eb11d9b547110423a87dbe8f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-06893"
 }

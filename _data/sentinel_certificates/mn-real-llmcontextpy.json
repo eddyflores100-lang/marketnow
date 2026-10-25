@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1643849",
+  "certificate_id": "MN-SC-2026-7479163",
   "skill_id": "mn-real-llmcontextpy",
   "skill_name": "llm-context.py",
-  "issued_at": "2026-10-18T05:34:03.849Z",
-  "expires_at": "2026-10-25T05:34:03.849Z",
+  "issued_at": "2026-10-25T05:51:19.163Z",
+  "expires_at": "2026-11-01T05:51:19.163Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d58a8f28c7a560a531ccf35b002f7bafe2b701765b97487c3484e8d687ae7f9f",
+  "signature": "d54fa6026c4352998aa45a0317d9ba2919be781a2bbfa113c406e478a278babb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-llmcontextpy"
 }

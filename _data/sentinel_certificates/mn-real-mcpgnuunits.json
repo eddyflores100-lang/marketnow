@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1635294",
+  "certificate_id": "MN-SC-2026-7470318",
   "skill_id": "mn-real-mcpgnuunits",
   "skill_name": "mcp-gnu-units",
-  "issued_at": "2026-10-18T05:33:55.294Z",
-  "expires_at": "2026-10-25T05:33:55.294Z",
+  "issued_at": "2026-10-25T05:51:10.318Z",
+  "expires_at": "2026-11-01T05:51:10.318Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ea8aa0a962809c7e8f61da165524e8f0b7ce1b9fc3f410a8b42ab1d3ad0e8bd7",
+  "signature": "e5f9e8e32befa7274469c020a8cd937e0d63a1f4a8550090b39b5e1c622b46b0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpgnuunits"
 }

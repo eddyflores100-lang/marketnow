@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1712123",
+  "certificate_id": "MN-SC-2026-7560717",
   "skill_id": "mn-real-gingugu",
   "skill_name": "gingugu",
-  "issued_at": "2026-10-18T05:35:12.123Z",
-  "expires_at": "2026-10-25T05:35:12.123Z",
+  "issued_at": "2026-10-25T05:52:40.717Z",
+  "expires_at": "2026-11-01T05:52:40.717Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6bdc4e728e20373139eba238aa76b0fe920f5d2feed0c1b8d82f6acf78ce4588",
+  "signature": "21f73689e1ae6ce8b98967d07d445f9db844097458a10a79d609e1b9bb671b5b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-gingugu"
 }

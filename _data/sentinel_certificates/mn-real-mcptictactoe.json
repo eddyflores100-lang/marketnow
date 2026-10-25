@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1701675",
+  "certificate_id": "MN-SC-2026-7547869",
   "skill_id": "mn-real-mcptictactoe",
   "skill_name": "mcp-tic-tac-toe",
-  "issued_at": "2026-10-18T05:35:01.675Z",
-  "expires_at": "2026-10-25T05:35:01.675Z",
+  "issued_at": "2026-10-25T05:52:27.869Z",
+  "expires_at": "2026-11-01T05:52:27.869Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b928f84cfd578d726087a47c0a43b22f7f6641a76caca2d98902cecc5c6ac69a",
+  "signature": "760f0a4904a10ac99f823b482ad325d844a4b181509e312ca0bbb15b972c1634",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcptictactoe"
 }

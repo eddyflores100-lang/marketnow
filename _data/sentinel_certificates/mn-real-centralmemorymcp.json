@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1718613",
+  "certificate_id": "MN-SC-2026-7568632",
   "skill_id": "mn-real-centralmemorymcp",
   "skill_name": "Central-Memory-MCP",
-  "issued_at": "2026-10-18T05:35:18.613Z",
-  "expires_at": "2026-10-25T05:35:18.613Z",
+  "issued_at": "2026-10-25T05:52:48.632Z",
+  "expires_at": "2026-11-01T05:52:48.632Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9b3517035c2cfee28a82011cd58c0ae4647f728f958fbf167bc88758560f25cf",
+  "signature": "87df00c900d92a75a73053200bd4e7b9e981294708b19648e96c22219997f4f5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-centralmemorymcp"
 }

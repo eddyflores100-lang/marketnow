@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1705603",
+  "certificate_id": "MN-SC-2026-7552725",
   "skill_id": "mn-real-mengram",
   "skill_name": "mengram",
-  "issued_at": "2026-10-18T05:35:05.603Z",
-  "expires_at": "2026-10-25T05:35:05.603Z",
+  "issued_at": "2026-10-25T05:52:32.725Z",
+  "expires_at": "2026-11-01T05:52:32.725Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "54f29b162d83a2ae8f6d77e9b6efa5feabf9c70676191a7bab123860833c0628",
+  "signature": "def3d2242d5b8345cecabbab5354efa5ec367df32b2afd5e36ff5d222baac420",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mengram"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1345039",
+  "certificate_id": "MN-SC-2026-7119379",
   "skill_id": "mn-gen-00279",
   "skill_name": "agentready-mcp",
-  "issued_at": "2026-10-18T05:29:05.039Z",
-  "expires_at": "2026-10-25T05:29:05.039Z",
+  "issued_at": "2026-10-25T05:45:19.379Z",
+  "expires_at": "2026-11-01T05:45:19.379Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6ad48be1f2c3b0c7a30738cb937f4ede201f169bd831766e915190ca6d62859c",
+  "signature": "75b3fc250d156d83bd75b5d0e152e3136da218786b8e02509f80fd387f840936",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00279"
 }

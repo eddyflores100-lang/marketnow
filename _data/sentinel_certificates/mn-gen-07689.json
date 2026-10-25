@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1408904",
+  "certificate_id": "MN-SC-2026-7197456",
   "skill_id": "mn-gen-07689",
   "skill_name": "mcp-server-iplocate",
-  "issued_at": "2026-10-18T05:30:08.904Z",
-  "expires_at": "2026-10-25T05:30:08.904Z",
+  "issued_at": "2026-10-25T05:46:37.456Z",
+  "expires_at": "2026-11-01T05:46:37.456Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cb8ed0cd233c5002f25f1e2d0219ac2113c981bbd3889fc52fac3d4be54a1699",
+  "signature": "e9d3d5e28fa9018be75157f762fe97bbd295ab88ea147dcdde8a1924a097a129",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07689"
 }

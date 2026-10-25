@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1374199",
+  "certificate_id": "MN-SC-2026-7154693",
   "skill_id": "mn-gen-03777",
   "skill_name": "evmscope",
-  "issued_at": "2026-10-18T05:29:34.199Z",
-  "expires_at": "2026-10-25T05:29:34.199Z",
+  "issued_at": "2026-10-25T05:45:54.693Z",
+  "expires_at": "2026-11-01T05:45:54.693Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "39721a3380d55e5fa945e37b90d0a5256bf958a05cb4107f32728d944b56daf4",
+  "signature": "1015b71d8d3d085d8c0a157a398b5ae8fb5da74d836a2be8df21246aabd1ce21",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03777"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1384638",
+  "certificate_id": "MN-SC-2026-7167866",
   "skill_id": "mn-gen-04788",
   "skill_name": "gws-mcp-server",
-  "issued_at": "2026-10-18T05:29:44.638Z",
-  "expires_at": "2026-10-25T05:29:44.638Z",
+  "issued_at": "2026-10-25T05:46:07.866Z",
+  "expires_at": "2026-11-01T05:46:07.866Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e156fe875291b4bf33d6ad15ae077e9255686305651cff1fd2acc29352e2525e",
+  "signature": "5f5c7fa5c43f0ded6d7cad2f35b5e882e1788cf6d1cfd15a8a81cd5386094cdc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04788"
 }

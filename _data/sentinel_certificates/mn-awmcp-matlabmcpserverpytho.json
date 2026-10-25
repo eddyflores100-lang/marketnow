@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1526784",
+  "certificate_id": "MN-SC-2026-7340857",
   "skill_id": "mn-awmcp-matlabmcpserverpytho",
   "skill_name": "matlab-mcp-server-python",
-  "issued_at": "2026-10-18T05:32:06.784Z",
-  "expires_at": "2026-10-25T05:32:06.784Z",
+  "issued_at": "2026-10-25T05:49:00.857Z",
+  "expires_at": "2026-11-01T05:49:00.857Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0f730452c3b0c73179f18f0dcb9e87caefa6128183512f28e690ee558a22c599",
+  "signature": "f431640a4056aa9371f7fc82fe0736c20be9af17646e0a5809ed7e3bc8835d5a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-matlabmcpserverpytho"
 }

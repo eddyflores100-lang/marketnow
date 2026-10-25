@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1652938",
+  "certificate_id": "MN-SC-2026-7489652",
   "skill_id": "mn-real-onchainmcp",
   "skill_name": "onchain-mcp",
-  "issued_at": "2026-10-18T05:34:12.938Z",
-  "expires_at": "2026-10-25T05:34:12.938Z",
+  "issued_at": "2026-10-25T05:51:29.652Z",
+  "expires_at": "2026-11-01T05:51:29.652Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "99d11c2a74542aa8881735f4ad86a168ac0708df1c18fb51b1728235b57649dd",
+  "signature": "88969defd900aa8af3091a592748d83cd954419477c95166dc17ceeb11e893d4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-onchainmcp"
 }

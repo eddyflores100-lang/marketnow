@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1704108",
+  "certificate_id": "MN-SC-2026-7550830",
   "skill_id": "mn-real-nocturnusai",
   "skill_name": "nocturnusai",
-  "issued_at": "2026-10-18T05:35:04.108Z",
-  "expires_at": "2026-10-25T05:35:04.108Z",
+  "issued_at": "2026-10-25T05:52:30.830Z",
+  "expires_at": "2026-11-01T05:52:30.830Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "14772863375a05ad7f3dc4e7d50061cb594c10c7c01e9bdc52de56312b7c8e24",
+  "signature": "240955eaceb537d5d7ce965e1a51cbcedc81baba174b9edb3eff1dcfd26318aa",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-nocturnusai"
 }

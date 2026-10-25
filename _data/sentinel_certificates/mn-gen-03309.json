@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1370135",
+  "certificate_id": "MN-SC-2026-7149801",
   "skill_id": "mn-gen-03309",
   "skill_name": "dexpaprika-mcp",
-  "issued_at": "2026-10-18T05:29:30.135Z",
-  "expires_at": "2026-10-25T05:29:30.135Z",
+  "issued_at": "2026-10-25T05:45:49.801Z",
+  "expires_at": "2026-11-01T05:45:49.801Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "72aecc4e29e70641ba886d3ab6f34c8f9725316503c5b53a9d9f5dd26b29c4d1",
+  "signature": "8f7b0fa474dd2589956f200d481cd9a57c059b523400179442f1d8f6574e7fd3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03309"
 }

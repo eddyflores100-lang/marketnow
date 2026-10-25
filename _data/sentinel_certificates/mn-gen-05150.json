@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1386669",
+  "certificate_id": "MN-SC-2026-7170400",
   "skill_id": "mn-gen-05150",
   "skill_name": "mcp-installer",
-  "issued_at": "2026-10-18T05:29:46.669Z",
-  "expires_at": "2026-10-25T05:29:46.669Z",
+  "issued_at": "2026-10-25T05:46:10.400Z",
+  "expires_at": "2026-11-01T05:46:10.400Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "79e1960a0a0585516533553a78c7306c49574f10f7c97ba7262adaa25a504f8b",
+  "signature": "b289fb410ed97f0a009982946534264d43037127bccabfc9c1809dd1a3881719",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05150"
 }

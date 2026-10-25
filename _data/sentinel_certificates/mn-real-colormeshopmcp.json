@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1640715",
+  "certificate_id": "MN-SC-2026-7476607",
   "skill_id": "mn-real-colormeshopmcp",
   "skill_name": "colormeshop-mcp",
-  "issued_at": "2026-10-18T05:34:00.715Z",
-  "expires_at": "2026-10-25T05:34:00.715Z",
+  "issued_at": "2026-10-25T05:51:16.607Z",
+  "expires_at": "2026-11-01T05:51:16.607Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3e8231d421250e36132b277cfcbc835d130c021da8592633553af8d53255d7a9",
+  "signature": "94c263722a7945de8006f5899e0d3ff42de82a5534bc03186858db787f7c33ca",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-colormeshopmcp"
 }

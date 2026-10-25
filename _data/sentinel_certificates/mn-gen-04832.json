@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1385455",
+  "certificate_id": "MN-SC-2026-7168758",
   "skill_id": "mn-gen-04832",
   "skill_name": "harvest-mcp-server",
-  "issued_at": "2026-10-18T05:29:45.455Z",
-  "expires_at": "2026-10-25T05:29:45.455Z",
+  "issued_at": "2026-10-25T05:46:08.758Z",
+  "expires_at": "2026-11-01T05:46:08.758Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "41fa1d16a2c88f5bbfb3ec4b2366ebef16c2ceb4df2bfed1de1ccd905619d474",
+  "signature": "cfcf4ebddca2ddfdd4aae1e2e08502373941eded09160ef1c82b2e4bed8fe91c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04832"
 }

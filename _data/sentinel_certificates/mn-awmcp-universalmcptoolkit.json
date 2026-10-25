@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1470135",
+  "certificate_id": "MN-SC-2026-7269894",
   "skill_id": "mn-awmcp-universalmcptoolkit",
   "skill_name": "universal-mcp-toolkit",
-  "issued_at": "2026-10-18T05:31:10.135Z",
-  "expires_at": "2026-10-25T05:31:10.135Z",
+  "issued_at": "2026-10-25T05:47:49.894Z",
+  "expires_at": "2026-11-01T05:47:49.894Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "31b54dceff841f66a534df1e84cdeedaa1f087ebc6611191e182bd3fa02014c5",
+  "signature": "688420e360cf7f0dc0dde696e7de8cb56e5a67ef5a6b27fe3ed992e4a6af4ac8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-universalmcptoolkit"
 }

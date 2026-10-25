@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1457669",
+  "certificate_id": "MN-SC-2026-7255637",
   "skill_id": "mn-mcp-everything",
   "skill_name": "MCP Everything Server (Official Test Reference)",
-  "issued_at": "2026-10-18T05:30:57.669Z",
-  "expires_at": "2026-10-25T05:30:57.669Z",
+  "issued_at": "2026-10-25T05:47:35.637Z",
+  "expires_at": "2026-11-01T05:47:35.637Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c9a7233404412cba4ff1a3c61312440631272b559702c78fcfed26dcec053242",
+  "signature": "04fb0c0ee6922531f1ff92979cd54a3bee05376d1a3d080bfcf33ed1d16ce49b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-mcp-everything"
 }

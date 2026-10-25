@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1702799",
+  "certificate_id": "MN-SC-2026-7549228",
   "skill_id": "mn-real-mcpkodi",
   "skill_name": "mcp-kodi",
-  "issued_at": "2026-10-18T05:35:02.799Z",
-  "expires_at": "2026-10-25T05:35:02.799Z",
+  "issued_at": "2026-10-25T05:52:29.228Z",
+  "expires_at": "2026-11-01T05:52:29.228Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b9e003d417db8311d3a00f0aaa56c245f2b44e27e557188c92195f4df2dc8213",
+  "signature": "69cd0e7dfa81e6c66f1b95bfeb35b77528e945f3fb30143f8f2afde2fdacc93d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpkodi"
 }

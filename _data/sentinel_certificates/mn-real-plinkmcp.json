@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1611590",
+  "certificate_id": "MN-SC-2026-7442359",
   "skill_id": "mn-real-plinkmcp",
   "skill_name": "P-Link-MCP",
-  "issued_at": "2026-10-18T05:33:31.590Z",
-  "expires_at": "2026-10-25T05:33:31.590Z",
+  "issued_at": "2026-10-25T05:50:42.359Z",
+  "expires_at": "2026-11-01T05:50:42.359Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b6bf14b1dd872c70887d19c4c77ec74a2e160241e7c44f777a91ec194148d33d",
+  "signature": "a92b52079578bf75d0f50cab2468899967bbef830db4742305985b7bad34fb1a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-plinkmcp"
 }

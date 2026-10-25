@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1706119",
+  "certificate_id": "MN-SC-2026-7553364",
   "skill_id": "mn-real-memocall",
   "skill_name": "memocall",
-  "issued_at": "2026-10-18T05:35:06.119Z",
-  "expires_at": "2026-10-25T05:35:06.119Z",
+  "issued_at": "2026-10-25T05:52:33.364Z",
+  "expires_at": "2026-11-01T05:52:33.364Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b63b28eb44ac29572b4c17d65d5d49c4448b39b8e367b2585672fad976c06f4a",
+  "signature": "7acd81c309ad73bbe7721d09d84a3f32fd7876528c2bd624bcf2bfde4499a04f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-memocall"
 }

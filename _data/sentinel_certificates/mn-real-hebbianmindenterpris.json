@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1711338",
+  "certificate_id": "MN-SC-2026-7559720",
   "skill_id": "mn-real-hebbianmindenterpris",
   "skill_name": "hebbian-mind-enterprise",
-  "issued_at": "2026-10-18T05:35:11.338Z",
-  "expires_at": "2026-10-25T05:35:11.338Z",
+  "issued_at": "2026-10-25T05:52:39.720Z",
+  "expires_at": "2026-11-01T05:52:39.720Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a9e9b4691a7fea0f0e97b6fb5affa80f0549e564c693f0aa7b4e2dfb3d06023a",
+  "signature": "93303e8745e5faa8e02bd4a87617568a84079aaa92d18638db410b3796e49839",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-hebbianmindenterpris"
 }

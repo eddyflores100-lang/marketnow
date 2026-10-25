@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1614317",
+  "certificate_id": "MN-SC-2026-7445418",
   "skill_id": "mn-real-sharplensmcp",
   "skill_name": "sharplens-mcp",
-  "issued_at": "2026-10-18T05:33:34.317Z",
-  "expires_at": "2026-10-25T05:33:34.317Z",
+  "issued_at": "2026-10-25T05:50:45.418Z",
+  "expires_at": "2026-11-01T05:50:45.418Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cb804c686542f9143efc36860104c4aa10b61c91544b971977ce12661ad394f7",
+  "signature": "0d815385976adf682c7856f3539f31ceafafa777b177d07fbf74617431bb8460",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-sharplensmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1702416",
+  "certificate_id": "MN-SC-2026-7548748",
   "skill_id": "mn-real-smartesttv",
   "skill_name": "smartest-tv",
-  "issued_at": "2026-10-18T05:35:02.416Z",
-  "expires_at": "2026-10-25T05:35:02.416Z",
+  "issued_at": "2026-10-25T05:52:28.748Z",
+  "expires_at": "2026-11-01T05:52:28.748Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ae19060e0ca7a84004e530e7ad7e55a1f8cecc38dac6e0085ff2986cb3f48781",
+  "signature": "38101da3b4699b671ce8bbfa9584280da69e1301a917398b4a53ce900940a40a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-smartesttv"
 }

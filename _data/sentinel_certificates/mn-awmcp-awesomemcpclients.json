@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1460270",
+  "certificate_id": "MN-SC-2026-7258561",
   "skill_id": "mn-awmcp-awesomemcpclients",
   "skill_name": "awesome-mcp-clients",
-  "issued_at": "2026-10-18T05:31:00.270Z",
-  "expires_at": "2026-10-25T05:31:00.270Z",
+  "issued_at": "2026-10-25T05:47:38.561Z",
+  "expires_at": "2026-11-01T05:47:38.561Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "39844c8af1310c202c50b55500562a2d7cb6d2aebc4ce31eff9b3b4b9cf6ed7a",
+  "signature": "a93ea306b6ba51bca18eafac08474c67c8f057c748f07274eb876ef5d0c7463c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-awesomemcpclients"
 }

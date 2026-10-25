@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1649428",
+  "certificate_id": "MN-SC-2026-7485478",
   "skill_id": "mn-real-aletaindexfinnarrati",
   "skill_name": "aletaindex-fin-narratives",
-  "issued_at": "2026-10-18T05:34:09.428Z",
-  "expires_at": "2026-10-25T05:34:09.428Z",
+  "issued_at": "2026-10-25T05:51:25.478Z",
+  "expires_at": "2026-11-01T05:51:25.478Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "957d20935d270def9dc679d6390100de7f987ba03d095612b7881d13e30a600f",
+  "signature": "1ef73bf6db1ca94b79026ae9d22a5dfa7fa383b73bbc4eff8bd59a0928445da8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-aletaindexfinnarrati"
 }

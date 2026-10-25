@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1512221",
+  "certificate_id": "MN-SC-2026-7320239",
   "skill_id": "mn-awmcp-alibabacloudopsmcpse",
   "skill_name": "alibaba-cloud-ops-mcp-server",
-  "issued_at": "2026-10-18T05:31:52.221Z",
-  "expires_at": "2026-10-25T05:31:52.221Z",
+  "issued_at": "2026-10-25T05:48:40.239Z",
+  "expires_at": "2026-11-01T05:48:40.239Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2eea0cd8d533fe2f66201d17744595fc9f6214629554a45f52b1cd3f87880f67",
+  "signature": "b5db051110f66d18e06b816f19a98a80bcedcd09d68dfdf70401d6d003dfe1e2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-alibabacloudopsmcpse"
 }

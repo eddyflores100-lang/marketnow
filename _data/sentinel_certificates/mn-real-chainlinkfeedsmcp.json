@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1669920",
+  "certificate_id": "MN-SC-2026-7509216",
   "skill_id": "mn-real-chainlinkfeedsmcp",
   "skill_name": "chainlink-feeds-mcp",
-  "issued_at": "2026-10-18T05:34:29.920Z",
-  "expires_at": "2026-10-25T05:34:29.920Z",
+  "issued_at": "2026-10-25T05:51:49.216Z",
+  "expires_at": "2026-11-01T05:51:49.216Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3934de557b3454f5fa19366abb0cc43b8ed6485460d79b37e815342149b53a55",
+  "signature": "b3eca8a1daac760794c2c8b28ca0aff46cea8d3f8973d41d3217a29415112927",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-chainlinkfeedsmcp"
 }
