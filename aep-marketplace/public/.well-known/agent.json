@@ -169,30 +169,30 @@
   },
   "metrics": {
     "skills_indexed": 71198,
-    "security_checks_performed": 794050,
+    "security_checks_performed": 793992,
     "npm_versions_published": 25,
-    "npm_latest_version": "1.16.0",
+    "npm_latest_version": "1.16.1",
     "npm_first_release_date": "2026-06-29",
     "npm_latest_release_date": "2026-09-26",
     "github_org_created_at": "2026-03-30",
-    "as_of": "2026-10-24",
+    "as_of": "2026-10-25",
     "source": "live API: https://marketnow.site/api/skills-lite.json + npm registry",
     "skills_tracked_all_sources": 135547,
-    "security_checks_methodology": "794,050 total = 711,980 L1 (10 L1 checks × 71,198 entries) + 82,070 L2 (29 L2 rules × 2,830 tarballs; top 2,882 npm targets, 98.2% completion)",
-    "l2_tarballs_deep_scanned": 2830,
-    "l2_flagged_for_review": 2043,
-    "l2_clean": 888,
+    "security_checks_methodology": "793,992 total = 711,980 L1 (10 L1 checks × 71,198 entries) + 82,012 L2 (29 L2 rules × 2,828 tarballs; top 2,882 npm targets, 98.1% completion)",
+    "l2_tarballs_deep_scanned": 2828,
+    "l2_flagged_for_review": 2042,
+    "l2_clean": 887,
     "npm_downloads_last_month": 939,
     "npm_vulnerabilities_own_packages": 0,
     "security_checks_breakdown": {
       "l1_index_checks": 711980,
       "l1_formula": "10 L1 checks x 71198 entries",
-      "l2_sentinel_rule_checks": 82070,
-      "l2_formula": "29 L2 rules x 2830 tarballs",
-      "total": 794050
+      "l2_sentinel_rule_checks": 82012,
+      "l2_formula": "29 L2 rules x 2828 tarballs",
+      "total": 793992
     },
     "npm_packages_published": 14,
-    "npm_monthly_downloads": 10797
+    "npm_monthly_downloads": 3740
   },
   "pricing_source_of_truth": "agent.json is the canonical pricing source. Landing page and README must match. MarketNow does NOT sell skills to buyers — buyers install all 71,198 skills free. Revenue comes from sellers who subscribe to Sentinel (PRO $9.99/mo, ENTERPRISE $49.99/mo) and 20% commission on seller sales.",
   "buyer_pricing": {
@@ -201,7 +201,7 @@
     "subscription_fee": 0,
     "explanation": "Buyers never pay MarketNow. All 71,198 skills are free to install."
   },
-  "generated_at": "2026-10-24T00:00:00.000Z",
+  "generated_at": "2026-10-25T00:00:00.000Z",
   "metadata": {
     "stats_source": "https://marketnow.site/api/stats.json",
     "sentinel_methodology": "https://marketnow.site/security/sentinel-v3.0",

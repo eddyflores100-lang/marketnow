@@ -171,7 +171,7 @@
     "skills_indexed": 71198,
     "security_checks_performed": 793992,
     "npm_versions_published": 25,
-    "npm_latest_version": "1.16.0",
+    "npm_latest_version": "1.16.1",
     "npm_first_release_date": "2026-06-29",
     "npm_latest_release_date": "2026-09-26",
     "github_org_created_at": "2026-03-30",
@@ -192,7 +192,7 @@
       "total": 793992
     },
     "npm_packages_published": 14,
-    "npm_monthly_downloads": 10797
+    "npm_monthly_downloads": 3740
   },
   "pricing_source_of_truth": "agent.json is the canonical pricing source. Landing page and README must match. MarketNow does NOT sell skills to buyers — buyers install all 71,198 skills free. Revenue comes from sellers who subscribe to Sentinel (PRO $9.99/mo, ENTERPRISE $49.99/mo) and 20% commission on seller sales.",
   "buyer_pricing": {
