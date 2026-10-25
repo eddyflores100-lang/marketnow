@@ -1,6 +1,6 @@
 {
   "audit_type": "sentinel-l16-batch",
-  "timestamp": "2026-10-18T03:45:30.022Z",
+  "timestamp": "2026-10-25T03:53:11.382Z",
   "tools": {
     "semgrep": {
       "rules": 18,
@@ -47,104 +47,104 @@
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 2504,
-      "secret": "akhi…s236"
-    },
-    {
-      "rule": "generic-api-key",
-      "file": "_data/discovery_queue.json",
-      "startLine": 11074,
-      "secret": "3641…llab"
-    },
-    {
-      "rule": "generic-api-key",
-      "file": "_data/discovery_queue.json",
-      "startLine": 26268,
+      "startLine": 14424,
       "secret": "Conr…2740"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 29666,
+      "startLine": 17822,
       "secret": "abdo…z124"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 29737,
+      "startLine": 17893,
       "secret": "abdu…k4vr"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 30163,
+      "startLine": 18319,
       "secret": "abhi…1047"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 35926,
+      "startLine": 24082,
       "secret": "Alex…CGO2"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 37158,
+      "startLine": 25314,
       "secret": "aman…3110"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 51920,
+      "startLine": 40076,
       "secret": "capt…e210"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 59653,
+      "startLine": 47809,
       "secret": "chri…e310"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 100911,
+      "startLine": 89067,
       "secret": "corb…al48"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 106438,
+      "startLine": 94594,
       "secret": "Bris…2026"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 107204,
+      "startLine": 95360,
       "secret": "Timu…in86"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 112960,
+      "startLine": 101116,
       "secret": "prav…1180"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 129958,
+      "startLine": 118114,
       "secret": "irin…-oss"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 130029,
+      "startLine": 118185,
       "secret": "irin…-oss"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 133416,
+      "startLine": 121572,
       "secret": "Eric…g799"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "_data/discovery_queue.json",
+      "startLine": 131812,
+      "secret": "sach…le27"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "_data/discovery_queue.json",
+      "startLine": 139743,
+      "secret": "noor…izen"
     },
     {
       "rule": "aws-access-token",
@@ -171,6 +171,12 @@
       "secret": "ab12…6..."
     },
     {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/lib/crypto-v2.mjs",
+      "startLine": 209,
+      "secret": "MCow…AyEA"
+    },
+    {
       "rule": "aws-access-token",
       "file": "aep-marketplace/lib/honeypot.mjs",
       "startLine": 96,
@@ -187,12 +193,6 @@
       "file": "aep-marketplace/lib/honeypot.mjs",
       "startLine": 95,
       "secret": "ghp_…XXXX"
-    },
-    {
-      "rule": "generic-api-key",
-      "file": "aep-marketplace/lib/crypto-v2.mjs",
-      "startLine": 209,
-      "secret": "MCow…AyEA"
     },
     {
       "rule": "generic-api-key",
@@ -375,16 +375,16 @@
       "secret": "MCow…AyEA"
     },
     {
-      "rule": "generic-api-key",
-      "file": "aep-marketplace/public/playground.js",
-      "startLine": 29,
-      "secret": "MCow…8CM="
-    },
-    {
       "rule": "jwt",
       "file": "aep-marketplace/public/playground.js",
       "startLine": 10,
       "secret": "eyJh…dXJl"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "aep-marketplace/public/playground.js",
+      "startLine": 29,
+      "secret": "MCow…8CM="
     },
     {
       "rule": "generic-api-key",
