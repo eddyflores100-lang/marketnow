@@ -72,14 +72,14 @@ curl https://marketnow.site/api/trust-score?skillId=mn-gen-00003
 
 | Metric | Value |
 |--------|-------|
-| Security checks performed | **793,992** (711,980 L1 + 82,012 L2) |
+| Security checks performed | **793,963** (711,980 L1 + 81,983 L2) |
 | MCP skills indexed (L1) | 71,198 |
-| L2 deep-scanned tarballs (29 rules) | 2,828 / 2,882 (98.1%) |
+| L2 deep-scanned tarballs (29 rules) | 2,827 / 2,882 (98.1%) |
 | Batch certificates (weekly) | 77,183 · 0 failed |
 | Sentinel risk buckets | low 7 · medium 76,754 · high 391 · critical 31 |
 | Quarantined decisions (public ledger) | 3 |
 | MCP tools | 9 remote endpoint (/api/mcp) · 15 npm package |
-| npm packages | marketnow-mcp v1.16.0, marketnow-install-stack v1.2.1, agent-trust-card v1.4.1 |
+| npm packages | marketnow-mcp v1.16.1, marketnow-install-stack v1.2.1, agent-trust-card v1.4.1 |
 | CA algorithm | Ed25519 (RFC 8032) |
 
 ### What Sentinel caught
@@ -134,9 +134,9 @@ curl -X POST https://marketnow.site/api/interceptor \
   -d '{"jsonrpc":"2.0","method":"tools/call","params":{"name":"read_file","arguments":{"path":"/.env"}}}'
 ```
 
-## MCP Server v1.16.0 — Agent Contract
+## MCP Server v1.16.1 — Agent Contract
 
-The npm package `marketnow-mcp@1.16.0` exposes **15 tools, all under the `marketnow_*` namespace** so Claude Desktop, Cursor, Cline, LangChain, and LlamaIndex can disambiguate them at tool-choice time.
+The npm package `marketnow-mcp@1.16.1` exposes **15 tools, all under the `marketnow_*` namespace** so Claude Desktop, Cursor, Cline, LangChain, and LlamaIndex can disambiguate them at tool-choice time.
 
 The four golden rules enforced (full audit in [`mcp-server/AUDIT.md`](https://github.com/alicelabs-llc/MARKETNOW/blob/master/mcp-server/AUDIT.md) — product code lives in the MARKETNOW repo since the 2026-09-26 split):
 
