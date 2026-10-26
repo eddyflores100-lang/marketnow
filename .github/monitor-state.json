@@ -861,11 +861,41 @@
       "repo": "parthod0x/satroot",
       "issue_num": 2,
       "username": "minia2auk"
+    },
+    "6409559795": {
+      "repo": "parthod0x/satroot",
+      "issue_num": 2,
+      "username": "parthod0x"
+    },
+    "6410576152": {
+      "repo": "parthod0x/satroot",
+      "issue_num": 2,
+      "username": "minia2auk"
+    },
+    "6410712669": {
+      "repo": "parthod0x/satroot",
+      "issue_num": 2,
+      "username": "parthod0x"
+    },
+    "6411744897": {
+      "repo": "parthod0x/satroot",
+      "issue_num": 2,
+      "username": "minia2auk"
+    },
+    "6416448275": {
+      "repo": "parthod0x/satroot",
+      "issue_num": 2,
+      "username": "parthod0x"
+    },
+    "6409643052": {
+      "repo": "coinbase/agentkit",
+      "issue_num": 1568,
+      "username": "LumenFromTheFuture"
     }
   },
   "npm_last_downloads": 104,
   "github_last_stars": 0,
   "last_report": null,
   "initialized_at": "2026-07-10T01:27:15.724696+00:00",
-  "last_check": "2026-10-26T00:18:03.564250+00:00"
+  "last_check": "2026-10-26T12:52:16.014471+00:00"
 }
