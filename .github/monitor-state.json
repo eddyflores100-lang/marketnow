@@ -926,11 +926,16 @@
       "repo": "parthod0x/satroot",
       "issue_num": 2,
       "username": "minia2auk"
+    },
+    "6426388859": {
+      "repo": "openai/openai-agents-python",
+      "issue_num": 5407,
+      "username": "jbeckwith-oai"
     }
   },
   "npm_last_downloads": 571,
   "github_last_stars": 0,
   "last_report": null,
   "initialized_at": "2026-07-10T01:27:15.724696+00:00",
-  "last_check": "2026-10-26T19:14:35.055718+00:00"
+  "last_check": "2026-10-26T23:07:57.082542+00:00"
 }
