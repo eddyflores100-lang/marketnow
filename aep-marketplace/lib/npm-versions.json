@@ -1,82 +1,82 @@
 {
   "$schema": "https://marketnow.site/api/npm-versions.schema.json",
-  "generated_at": "2026-10-25T13:18:45Z",
+  "generated_at": "2026-10-27T14:49:50Z",
   "source": "registry.npmjs.org dist-tags + api.npmjs.org downloads (last-month) — re-derived by scripts/sync_npm_versions.py (weekly workflow + audit gate)",
   "packages": [
     {
       "name": "marketnow-mcp",
       "version": "1.16.1",
-      "dl_month": 962
+      "dl_month": 571
     },
     {
       "name": "agent-trust-card",
       "version": "1.4.1",
-      "dl_month": 257
+      "dl_month": 0
     },
     {
       "name": "marketnow-install-stack",
       "version": "1.2.1",
-      "dl_month": 185
+      "dl_month": 0
     },
     {
       "name": "marketnow-audit",
       "version": "1.0.1",
-      "dl_month": 156
+      "dl_month": 0
     },
     {
       "name": "@marketnow/uts",
       "version": "2.0.3",
-      "dl_month": 187
+      "dl_month": 0
     },
     {
       "name": "@marketnow/trust-core",
       "version": "2.0.3",
-      "dl_month": 234
+      "dl_month": 0
     },
     {
       "name": "@marketnow/trust-adapters",
       "version": "1.0.4",
-      "dl_month": 210
+      "dl_month": 0
     },
     {
       "name": "@marketnow/trust-gateway",
       "version": "1.0.5",
-      "dl_month": 224
+      "dl_month": 0
     },
     {
       "name": "@marketnow/uta-verify",
       "version": "1.0.2",
-      "dl_month": 185
+      "dl_month": 0
     },
     {
       "name": "@marketnow/uta-conformance",
       "version": "1.4.0",
-      "dl_month": 306
+      "dl_month": 0
     },
     {
       "name": "@marketnow/cline-trust-plugin",
       "version": "1.1.2",
-      "dl_month": 174
+      "dl_month": 0
     },
     {
       "name": "@marketnow/sentinel-rules",
       "version": "1.1.2",
-      "dl_month": 297
+      "dl_month": 0
     },
     {
       "name": "@marketnow/trust-mcp-middleware",
       "version": "1.0.2",
-      "dl_month": 193
+      "dl_month": 0
     },
     {
       "name": "@marketnow/trust-observability",
       "version": "1.0.3",
-      "dl_month": 170
+      "dl_month": 0
     }
   ],
   "totals": {
     "packages": 14,
-    "dl_month": 3740
+    "dl_month": 571
   },
   "conformance_version": "1.4.0",
   "test_vectors": 41,
