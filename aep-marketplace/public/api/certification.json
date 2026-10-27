@@ -200,11 +200,11 @@
     "detail_url": "/api/certification-scans.json",
     "scanned": 2827,
     "clean": 887,
-    "flagged_warning": 813,
-    "flagged_error": 1228,
+    "flagged_warning": 812,
+    "flagged_error": 1229,
     "scan_errors": 55,
     "weekly_download_volume_covered": 21103646,
-    "generated_at": "2026-10-26T11:22:53.593Z"
+    "generated_at": "2026-10-27T10:46:48.972Z"
   },
   "benchmark": {
     "url": "/api/sentinel-benchmark.json",
