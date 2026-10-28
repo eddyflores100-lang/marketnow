@@ -1011,11 +1011,21 @@
       "repo": "parthod0x/satroot",
       "issue_num": 2,
       "username": "minia2auk"
+    },
+    "6476323848": {
+      "repo": "parthod0x/satroot",
+      "issue_num": 2,
+      "username": "parthod0x"
+    },
+    "6476581139": {
+      "repo": "parthod0x/satroot",
+      "issue_num": 2,
+      "username": "minia2auk"
     }
   },
-  "npm_last_downloads": 378,
+  "npm_last_downloads": 407,
   "github_last_stars": 0,
   "last_report": null,
   "initialized_at": "2026-07-10T01:27:15.724696+00:00",
-  "last_check": "2026-10-28T12:44:53.256924+00:00"
+  "last_check": "2026-10-28T18:49:13.353776+00:00"
 }
