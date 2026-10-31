@@ -8,7 +8,7 @@
 //   database / canonical stats  ->  /api/stats.json  ->  this module  ->  UI
 import { useEffect, useState } from 'react';
 
-// Fallback values = last-known values of /api/stats.json (v2.1.0, 2026-10-30).
+// Fallback values = last-known values of /api/stats.json (v2.1.0, 2026-10-31).
 // Only used while the fetch is in flight or if the API is unreachable.
 export const FALLBACK_STATS = {
   total: 68388,          // discovery.total_mcp_servers
@@ -19,8 +19,8 @@ export const FALLBACK_STATS = {
   l2Targets: 2882,       // security.l2_targets
   l2Pct: 98,             // security.l2_completion_pct
   clean: 885,            // security.l2_clean
-  warn: 813,             // security.l2_flagged_warning
-  err: 1228,             // security.l2_flagged_error
+  warn: 811,             // security.l2_flagged_warning
+  err: 1230,             // security.l2_flagged_error
   scanErrs: 57,          // security.l2_scan_errors
   ownPackages: 14,       // security.l2_own_packages
   ownVulns: 0,           // security.npm_vulnerabilities_own_packages
@@ -31,7 +31,7 @@ export const FALLBACK_STATS = {
   adapters: 9,
   adapterList: ['ATC', 'EAT-AI', 'ZTA', 'A2A', 'MCP-Card', 'W3C-VC', 'OAuth', 'SPIFFE', 'X.509'],
   uts: 'UTS v2.0.0',
-  generatedAt: '2026-10-30',
+  generatedAt: '2026-10-31',
   npmDownloads: null,    // live from registry.npmjs.org, null until known
   // uta.* — 4ª ronda de auditoría: la página /uta y los chips de paquetes del
   // landing ya NO hardcodean versiones: vienen de /api/stats.json → seccion uta
