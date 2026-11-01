@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7120818",
+  "certificate_id": "MN-SC-2026-7031760",
   "skill_id": "mn-gen-00391",
   "skill_name": "mcp-gsheets",
-  "issued_at": "2026-10-25T05:45:20.818Z",
-  "expires_at": "2026-11-01T05:45:20.818Z",
+  "issued_at": "2026-11-01T07:10:31.760Z",
+  "expires_at": "2026-11-08T07:10:31.760Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -29,14 +29,14 @@
   "artifact": {
     "bound": true,
     "source": "npm",
-    "version": "1.10.3",
-    "shasum": "fd93b8ff89ecbfbad13aedaa6ad7e3bc5b20679c",
-    "integrity": "sha512-6xyySVArjTIXkt24bmTSBFEZY02QsP/sGstjGES6ktVSbCFscPYFmDiBaCYeC8+0eHKc1D+sq7n8Iho7X6SEjw==",
-    "tarball_bytes": 241095,
-    "resolved_at": "2026-10-13T12:53:15.606Z"
+    "version": "1.11.0",
+    "shasum": "1b3e26d5eed922d1b00ded8330d4dea985165820",
+    "integrity": "sha512-S3FiIWZOE4evS3q5FLgfb4P1td6upsQLyBvUv/JIjcKF+spEQiQrSroGCXknW8L9DCKuP0CAT/zyLU/LKBsXqA==",
+    "tarball_bytes": 241102,
+    "resolved_at": "2026-10-29T11:39:45.952Z"
   },
   "cert_v": 2,
-  "signature": "3125e8c545164bc117f668b488c4250bdda2a389e7f236d37537475b8266b68a",
+  "signature": "7562fab4dba9e0473b0254e753d690263ba662f8199aaac72916f4ef7d322ea0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00391"
 }

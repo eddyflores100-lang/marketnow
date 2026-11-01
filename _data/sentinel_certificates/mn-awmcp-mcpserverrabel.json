@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7372081",
+  "certificate_id": "MN-SC-2026-7286294",
   "skill_id": "mn-awmcp-mcpserverrabel",
   "skill_name": "mcp-server-rabel",
-  "issued_at": "2026-10-25T05:49:32.081Z",
-  "expires_at": "2026-11-01T05:49:32.081Z",
+  "issued_at": "2026-11-01T07:14:46.294Z",
+  "expires_at": "2026-11-08T07:14:46.294Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5725689774d3099712241d835170110d2e444623ee2f788c5e1e4fa8af81707d",
+  "signature": "84db4c0462bcafed0b9c82605fe31ae0f342376c38e9536dbda08e22f32de35e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpserverrabel"
 }

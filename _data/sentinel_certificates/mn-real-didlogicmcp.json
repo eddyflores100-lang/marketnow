@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7383721",
+  "certificate_id": "MN-SC-2026-7297950",
   "skill_id": "mn-real-didlogicmcp",
   "skill_name": "didlogic_mcp",
-  "issued_at": "2026-10-25T05:49:43.721Z",
-  "expires_at": "2026-11-01T05:49:43.721Z",
+  "issued_at": "2026-11-01T07:14:57.950Z",
+  "expires_at": "2026-11-08T07:14:57.950Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d68122f3d47ba370086288e6fea1f4fe687ca8be28476bd2dca81616f8921a95",
+  "signature": "9f3a038e25d90d50d11e8980aace58f94e17a819300b4bf85ca61ae3ca7c3537",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-didlogicmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7460755",
+  "certificate_id": "MN-SC-2026-7375707",
   "skill_id": "mn-real-perfettomcprs",
   "skill_name": "perfetto-mcp-rs",
-  "issued_at": "2026-10-25T05:51:00.755Z",
-  "expires_at": "2026-11-01T05:51:00.755Z",
+  "issued_at": "2026-11-01T07:16:15.707Z",
+  "expires_at": "2026-11-08T07:16:15.707Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "11ca4bb1783e554669fb253ff877d42b67f760f9484f30c38f9aa7d536494acf",
+  "signature": "984a8a692386b74b83ad54498e5e35efd6217c1c5d66b02296478b6a1fdccb81",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-perfettomcprs"
 }

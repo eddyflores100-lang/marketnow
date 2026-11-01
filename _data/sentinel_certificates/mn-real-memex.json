@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7553086",
+  "certificate_id": "MN-SC-2026-7469068",
   "skill_id": "mn-real-memex",
   "skill_name": "memex",
-  "issued_at": "2026-10-25T05:52:33.086Z",
-  "expires_at": "2026-11-01T05:52:33.086Z",
+  "issued_at": "2026-11-01T07:17:49.068Z",
+  "expires_at": "2026-11-08T07:17:49.068Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7db4ff238d1f454fe07b305d7c0142ecd2c62aec35db6053f7a4102256ee553f",
+  "signature": "eeb5bd63f7df69a9c314923fd936819b3447c5a7ad849fe20621b3a83edf280e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-memex"
 }

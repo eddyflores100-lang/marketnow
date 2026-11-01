@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7423571",
+  "certificate_id": "MN-SC-2026-7338936",
   "skill_id": "mn-real-projectcontextmcp",
   "skill_name": "project-context-mcp",
-  "issued_at": "2026-10-25T05:50:23.571Z",
-  "expires_at": "2026-11-01T05:50:23.571Z",
+  "issued_at": "2026-11-01T07:15:38.936Z",
+  "expires_at": "2026-11-08T07:15:38.936Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6f0f85996bae985f54817125258230febe00495f8b8320b07bee03f352a74d5d",
+  "signature": "9d6ed75086caaa8a006fb0b1800c1739545e20c4d953078f4c42c828bcf0c8f6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-projectcontextmcp"
 }

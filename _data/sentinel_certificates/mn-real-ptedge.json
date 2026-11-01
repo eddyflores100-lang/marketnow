@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7444248",
+  "certificate_id": "MN-SC-2026-7359845",
   "skill_id": "mn-real-ptedge",
   "skill_name": "pt-edge",
-  "issued_at": "2026-10-25T05:50:44.248Z",
-  "expires_at": "2026-11-01T05:50:44.248Z",
+  "issued_at": "2026-11-01T07:15:59.845Z",
+  "expires_at": "2026-11-08T07:15:59.845Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9035406b2d474b8f87ec0045cf45f00cc47667956c06cb5f22ba5a5cb4163bd2",
+  "signature": "40a540aca3a3f2f7e65455135a55274ce1c7834e550e36f920f09e63203e4b22",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-ptedge"
 }

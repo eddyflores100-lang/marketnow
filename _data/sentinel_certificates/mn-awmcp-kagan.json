@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7351181",
+  "certificate_id": "MN-SC-2026-7265632",
   "skill_id": "mn-awmcp-kagan",
   "skill_name": "kagan",
-  "issued_at": "2026-10-25T05:49:11.181Z",
-  "expires_at": "2026-11-01T05:49:11.181Z",
+  "issued_at": "2026-11-01T07:14:25.632Z",
+  "expires_at": "2026-11-08T07:14:25.632Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "29ac770fa8bea63f9c26face462b111ba48ed1d2475ddcf7d019296806f0c230",
+  "signature": "e3538d4df1954f1ec0b72e68074428397463699ea9f791ee557fccaefc0e74ae",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-kagan"
 }

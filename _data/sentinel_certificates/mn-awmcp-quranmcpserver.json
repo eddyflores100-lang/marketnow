@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7285086",
+  "certificate_id": "MN-SC-2026-7201129",
   "skill_id": "mn-awmcp-quranmcpserver",
   "skill_name": "quran-mcp-server",
-  "issued_at": "2026-10-25T05:48:05.086Z",
-  "expires_at": "2026-11-01T05:48:05.086Z",
+  "issued_at": "2026-11-01T07:13:21.129Z",
+  "expires_at": "2026-11-08T07:13:21.129Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3e3998061962d80941a57bc49ae4668949cb4a4f96ce5c5598967b81dc0ba272",
+  "signature": "c397fcd23400e53ba8a4cf20fe9b41178306a9a4af31cbdc58ab8276c632ce8d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-quranmcpserver"
 }

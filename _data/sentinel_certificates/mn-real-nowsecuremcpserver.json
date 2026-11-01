@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7407458",
+  "certificate_id": "MN-SC-2026-7322514",
   "skill_id": "mn-real-nowsecuremcpserver",
   "skill_name": "nowsecure-mcp-server",
-  "issued_at": "2026-10-25T05:50:07.458Z",
-  "expires_at": "2026-11-01T05:50:07.458Z",
+  "issued_at": "2026-11-01T07:15:22.514Z",
+  "expires_at": "2026-11-08T07:15:22.514Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "955cb3de17e76e7d621089472316bdf7cb9a35531c2fe9e29a36486649baf912",
+  "signature": "1c3d724ffe3ff2047f0d940760954113c0aea432160a0f900d55072119284b5b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-nowsecuremcpserver"
 }

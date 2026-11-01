@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7308352",
+  "certificate_id": "MN-SC-2026-7224423",
   "skill_id": "mn-awmcp-selenixmcpserver",
   "skill_name": "Selenix-MCP-Server",
-  "issued_at": "2026-10-25T05:48:28.352Z",
-  "expires_at": "2026-11-01T05:48:28.352Z",
+  "issued_at": "2026-11-01T07:13:44.423Z",
+  "expires_at": "2026-11-08T07:13:44.423Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b87f4a4e829001e55d8b6c13565c221a1f4f23cbd0d0bd43414bf02f96e63184",
+  "signature": "53767b873e054b7d6aeb577b7a9cb52cf77354f55f2b57d952c76c51c16576ef",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-selenixmcpserver"
 }

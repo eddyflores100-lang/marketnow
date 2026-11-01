@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7344393",
+  "certificate_id": "MN-SC-2026-7258504",
   "skill_id": "mn-awmcp-mcpserverterminal",
   "skill_name": "mcp-server-terminal",
-  "issued_at": "2026-10-25T05:49:04.393Z",
-  "expires_at": "2026-11-01T05:49:04.393Z",
+  "issued_at": "2026-11-01T07:14:18.504Z",
+  "expires_at": "2026-11-08T07:14:18.504Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7414051cdf9cb20d8a0de993496dfe2fcae61cb286aa675c68b57e9f8f93d781",
+  "signature": "1279d89a582cf7f88c1d5db195352848974941261c6298a7a8fd080f226c5968",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpserverterminal"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7540576",
+  "certificate_id": "MN-SC-2026-7456773",
   "skill_id": "mn-real-bizhawk",
   "skill_name": "BizHawk",
-  "issued_at": "2026-10-25T05:52:20.576Z",
-  "expires_at": "2026-11-01T05:52:20.576Z",
+  "issued_at": "2026-11-01T07:17:36.773Z",
+  "expires_at": "2026-11-08T07:17:36.773Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d8186e5b5c8284fc4030b305c8dd6773b7729b760117e7d8c59c0a7e92b47e73",
+  "signature": "dc2c72947a72b349fc0d657395666880a154e294930c1e33b2846f58fa9ee8e8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-bizhawk"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7440624",
+  "certificate_id": "MN-SC-2026-7356114",
   "skill_id": "mn-real-agentdroidbridge",
   "skill_name": "agent-droid-bridge",
-  "issued_at": "2026-10-25T05:50:40.624Z",
-  "expires_at": "2026-11-01T05:50:40.624Z",
+  "issued_at": "2026-11-01T07:15:56.114Z",
+  "expires_at": "2026-11-08T07:15:56.114Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7fd2dc472bf6f7ce1cf6874de5f95139200cb55df7c6a4431ef5aace37544e05",
+  "signature": "ee02b2c7f9e49863345c14701cc4b39bfed794691e6f6b38e8f8c0ad52f00f4e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-agentdroidbridge"
 }

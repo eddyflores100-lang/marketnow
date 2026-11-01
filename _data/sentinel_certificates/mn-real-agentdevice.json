@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7408564",
+  "certificate_id": "MN-SC-2026-7323503",
   "skill_id": "mn-real-agentdevice",
   "skill_name": "agent-device",
-  "issued_at": "2026-10-25T05:50:08.564Z",
-  "expires_at": "2026-11-01T05:50:08.564Z",
+  "issued_at": "2026-11-01T07:15:23.503Z",
+  "expires_at": "2026-11-08T07:15:23.503Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c3760a51bcb851b058b7b979c1b63dfce3b1191cab67e92982ed2d383ea20d7d",
+  "signature": "455305f9d826996b70a25a83f2105111a3f0d8ba783e1b4ef73135f683cd9acf",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-agentdevice"
 }

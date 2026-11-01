@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7469978",
+  "certificate_id": "MN-SC-2026-7385003",
   "skill_id": "mn-real-renounmcp",
   "skill_name": "renoun-mcp",
-  "issued_at": "2026-10-25T05:51:09.978Z",
-  "expires_at": "2026-11-01T05:51:09.978Z",
+  "issued_at": "2026-11-01T07:16:25.003Z",
+  "expires_at": "2026-11-08T07:16:25.003Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "38d339e1e7f5346d6bb24b325e8e888aec1fb1e38a52dcdf9c1bf424e7bc35a8",
+  "signature": "75f913fb1865e2548692cf907300e8d2a8e36d03bc7382c44848df6046539378",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-renounmcp"
 }

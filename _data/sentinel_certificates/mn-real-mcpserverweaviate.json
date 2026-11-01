@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7397750",
+  "certificate_id": "MN-SC-2026-7312307",
   "skill_id": "mn-real-mcpserverweaviate",
   "skill_name": "mcp-server-weaviate",
-  "issued_at": "2026-10-25T05:49:57.750Z",
-  "expires_at": "2026-11-01T05:49:57.750Z",
+  "issued_at": "2026-11-01T07:15:12.307Z",
+  "expires_at": "2026-11-08T07:15:12.307Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a05816d94905ffc912cde8efa66a09a1fa079e239fbc5787f07cc2d1b470399d",
+  "signature": "f21c678865aa96a8c4e65c5c3a6407a83b9c13503aff37702e116f086d7d6e00",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpserverweaviate"
 }

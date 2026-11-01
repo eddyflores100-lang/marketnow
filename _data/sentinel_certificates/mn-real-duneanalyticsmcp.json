@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7514038",
+  "certificate_id": "MN-SC-2026-7430223",
   "skill_id": "mn-real-duneanalyticsmcp",
   "skill_name": "dune-analytics-mcp",
-  "issued_at": "2026-10-25T05:51:54.038Z",
-  "expires_at": "2026-11-01T05:51:54.038Z",
+  "issued_at": "2026-11-01T07:17:10.223Z",
+  "expires_at": "2026-11-08T07:17:10.223Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ee6020f35453a8d9dee363bb9db1d6b439d13cb81b99ee8c7da3030afa7bf8c9",
+  "signature": "23cd9fb4a2ebaedd108b9e89bb50f1e03054f11df0b8a2ec0072449ab7228abc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-duneanalyticsmcp"
 }

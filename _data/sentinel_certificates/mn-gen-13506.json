@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7247829",
+  "certificate_id": "MN-SC-2026-7162866",
   "skill_id": "mn-gen-13506",
   "skill_name": "wopee-mcp",
-  "issued_at": "2026-10-25T05:47:27.829Z",
-  "expires_at": "2026-11-01T05:47:27.829Z",
+  "issued_at": "2026-11-01T07:12:42.866Z",
+  "expires_at": "2026-11-08T07:12:42.866Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d3427ea4c36c5058c019569a14e1115f72526fc5ce308e2c8ac1264be52fbaa6",
+  "signature": "34f3e63e1fa3c0f7d3e3169785a05c8e86cc0bbc09b979aa45a4b76d627742f9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13506"
 }

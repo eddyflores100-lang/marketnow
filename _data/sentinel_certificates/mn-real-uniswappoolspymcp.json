@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7517440",
+  "certificate_id": "MN-SC-2026-7433743",
   "skill_id": "mn-real-uniswappoolspymcp",
   "skill_name": "uniswap-poolspy-mcp",
-  "issued_at": "2026-10-25T05:51:57.440Z",
-  "expires_at": "2026-11-01T05:51:57.440Z",
+  "issued_at": "2026-11-01T07:17:13.743Z",
+  "expires_at": "2026-11-08T07:17:13.743Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a97a3aa253c389a264fa2652564d73e7dffa797bf523989252ae46bea10310b7",
+  "signature": "03835523284fa9a0b3294ff11d96d2d98246167d283a742bb2726aa4447d4022",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-uniswappoolspymcp"
 }

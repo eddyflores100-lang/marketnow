@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7118568",
+  "certificate_id": "MN-SC-2026-7029537",
   "skill_id": "mn-gen-00213",
   "skill_name": "after-effects-mcp",
-  "issued_at": "2026-10-25T05:45:18.568Z",
-  "expires_at": "2026-11-01T05:45:18.568Z",
+  "issued_at": "2026-11-01T07:10:29.537Z",
+  "expires_at": "2026-11-08T07:10:29.537Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "047d4f9335d7508b55a7cbbdf3cf02fbe3775553f35fedda4f85a34139e98d23",
+  "signature": "06329caf33013fb1bd4b2baf11b857757bea477bb739dbab227c3fe7afad667b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00213"
 }

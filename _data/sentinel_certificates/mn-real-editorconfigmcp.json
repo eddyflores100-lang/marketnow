@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7439786",
+  "certificate_id": "MN-SC-2026-7355249",
   "skill_id": "mn-real-editorconfigmcp",
   "skill_name": "editorconfig_mcp",
-  "issued_at": "2026-10-25T05:50:39.786Z",
-  "expires_at": "2026-11-01T05:50:39.786Z",
+  "issued_at": "2026-11-01T07:15:55.249Z",
+  "expires_at": "2026-11-08T07:15:55.249Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5957592c210929fdaed569a855cd3387d2a9d5fb97af807e300ee975aeba3282",
+  "signature": "8225ea837bd4dc2f9834db364749cd04e4ec4d2b8046795f69ad3447b664f5b5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-editorconfigmcp"
 }

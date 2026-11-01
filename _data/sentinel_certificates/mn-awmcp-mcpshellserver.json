@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7356211",
+  "certificate_id": "MN-SC-2026-7270730",
   "skill_id": "mn-awmcp-mcpshellserver",
   "skill_name": "mcp-shell-server",
-  "issued_at": "2026-10-25T05:49:16.211Z",
-  "expires_at": "2026-11-01T05:49:16.211Z",
+  "issued_at": "2026-11-01T07:14:30.730Z",
+  "expires_at": "2026-11-08T07:14:30.730Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f1c370f62072c19ae32ee0eb393de63961d0adafa4ec134c4423060d8710760d",
+  "signature": "9ab6ee3fbb38c43f74999a30f9b82164ab0bac1e7d206a40794d439156424762",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpshellserver"
 }

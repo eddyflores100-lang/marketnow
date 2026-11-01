@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7282020",
+  "certificate_id": "MN-SC-2026-7198017",
   "skill_id": "mn-awmcp-shahnamehmcpserver",
   "skill_name": "shahnameh-mcp-server",
-  "issued_at": "2026-10-25T05:48:02.020Z",
-  "expires_at": "2026-11-01T05:48:02.020Z",
+  "issued_at": "2026-11-01T07:13:18.017Z",
+  "expires_at": "2026-11-08T07:13:18.017Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "74e246e3437cbd05f5266fc58ac04f71c400b258d46596a41e8f51d4cdd8545f",
+  "signature": "7206a25bb99ba777a38508303ac38df7e5994c945fd0918cfd43f0ef3fdeec51",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-shahnamehmcpserver"
 }

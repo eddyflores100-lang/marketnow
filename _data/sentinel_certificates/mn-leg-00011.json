@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7250921",
+  "certificate_id": "MN-SC-2026-7165979",
   "skill_id": "mn-leg-00011",
   "skill_name": "patent-search-mcp-server",
-  "issued_at": "2026-10-25T05:47:30.921Z",
-  "expires_at": "2026-11-01T05:47:30.921Z",
+  "issued_at": "2026-11-01T07:12:45.979Z",
+  "expires_at": "2026-11-08T07:12:45.979Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "70628a38266441873f29c1c452573669457532623af817aff32f3a463e620910",
+  "signature": "c1104907c465ae0aaddfa76b0dd243fa281fbdab69fd0ebdf072dc97d9908bbb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-leg-00011"
 }

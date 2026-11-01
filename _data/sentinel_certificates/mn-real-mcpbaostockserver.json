@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7504238",
+  "certificate_id": "MN-SC-2026-7420052",
   "skill_id": "mn-real-mcpbaostockserver",
   "skill_name": "mcp-baostock-server",
-  "issued_at": "2026-10-25T05:51:44.238Z",
-  "expires_at": "2026-11-01T05:51:44.238Z",
+  "issued_at": "2026-11-01T07:17:00.052Z",
+  "expires_at": "2026-11-08T07:17:00.052Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6ecafe5c94ab8ab532378430c101fcb8f15516685fce7b8d11e997563fa963e0",
+  "signature": "f4b1489cd72a7168ba145c31d0327555dfeb8f873b736931a20f38db7f14a39a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpbaostockserver"
 }

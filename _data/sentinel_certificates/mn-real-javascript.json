@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7446430",
+  "certificate_id": "MN-SC-2026-7361987",
   "skill_id": "mn-real-javascript",
   "skill_name": "javascript",
-  "issued_at": "2026-10-25T05:50:46.430Z",
-  "expires_at": "2026-11-01T05:50:46.430Z",
+  "issued_at": "2026-11-01T07:16:01.987Z",
+  "expires_at": "2026-11-08T07:16:01.987Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f1d4e8446f3d7b7029d7030df608e44fc1539c543cf6d86ce878b45f8226fbdd",
+  "signature": "9f0698ef568b9420889e11e035480d5507334dc454a5b9571aeab237bf222f5c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-javascript"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7309127",
+  "certificate_id": "MN-SC-2026-7225225",
   "skill_id": "mn-awmcp-mcpaoaiwebbrowsing",
   "skill_name": "mcp-aoai-web-browsing",
-  "issued_at": "2026-10-25T05:48:29.127Z",
-  "expires_at": "2026-11-01T05:48:29.127Z",
+  "issued_at": "2026-11-01T07:13:45.225Z",
+  "expires_at": "2026-11-08T07:13:45.225Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5b9ea82518bc7e7bffb9bf55a2e2fecc3c0fe319a01e4dc7a548ab218c32835a",
+  "signature": "78b7eeec5e23c31ab19e26c5d59ff14478f84b4e6680049850f34d34b773a7fc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpaoaiwebbrowsing"
 }

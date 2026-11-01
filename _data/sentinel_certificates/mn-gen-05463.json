@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7175304",
+  "certificate_id": "MN-SC-2026-7087416",
   "skill_id": "mn-gen-05463",
   "skill_name": "kicad-mcp",
-  "issued_at": "2026-10-25T05:46:15.304Z",
-  "expires_at": "2026-11-01T05:46:15.304Z",
+  "issued_at": "2026-11-01T07:11:27.416Z",
+  "expires_at": "2026-11-08T07:11:27.416Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c9d68f0846f841570340d06c0244533aba88a9f0feeaf5b5a1feb9324f91d461",
+  "signature": "4791a1eb60d30dfc973a9b8b6e4d4bd23d639f7a91116efdd2d1f9c00a47e6a0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05463"
 }

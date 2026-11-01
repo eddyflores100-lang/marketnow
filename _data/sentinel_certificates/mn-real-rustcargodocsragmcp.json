@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7443754",
+  "certificate_id": "MN-SC-2026-7359387",
   "skill_id": "mn-real-rustcargodocsragmcp",
   "skill_name": "rust-cargo-docs-rag-mcp",
-  "issued_at": "2026-10-25T05:50:43.754Z",
-  "expires_at": "2026-11-01T05:50:43.754Z",
+  "issued_at": "2026-11-01T07:15:59.387Z",
+  "expires_at": "2026-11-08T07:15:59.387Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "baf5c99db2ea534a7a6069d25a45817d7e27eb57472cbe90824f1289fb961d8b",
+  "signature": "9b27b1a613c02ce476211d1ee855f9d976d0b3e2e7ee6baf53776e433ae4c603",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-rustcargodocsragmcp"
 }

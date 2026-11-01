@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7243182",
+  "certificate_id": "MN-SC-2026-7158086",
   "skill_id": "mn-leg-13060",
   "skill_name": "us-legal-mcp",
-  "issued_at": "2026-10-25T05:47:23.182Z",
-  "expires_at": "2026-11-01T05:47:23.182Z",
+  "issued_at": "2026-11-01T07:12:38.086Z",
+  "expires_at": "2026-11-08T07:12:38.086Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "799707f1d478149447492cbfc6f10e8ce66c5eeb05959c7ac9d31f7b378557ef",
+  "signature": "05f1fd5e5838b628fe252f9490f1a92d1f25e02e5a6610b5ca800ea8d3f60570",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-leg-13060"
 }

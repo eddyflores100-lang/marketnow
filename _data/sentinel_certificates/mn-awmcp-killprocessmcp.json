@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7351909",
+  "certificate_id": "MN-SC-2026-7266370",
   "skill_id": "mn-awmcp-killprocessmcp",
   "skill_name": "kill-process-mcp",
-  "issued_at": "2026-10-25T05:49:11.909Z",
-  "expires_at": "2026-11-01T05:49:11.909Z",
+  "issued_at": "2026-11-01T07:14:26.370Z",
+  "expires_at": "2026-11-08T07:14:26.370Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7f1cf8ea6b84df7f7bf9afc9f2ddc481f9af55795224c1ec2ae98c30227b1946",
+  "signature": "5dbe8f9fd0e3349e4cb1f41e00df09c3a10b9f9511e6c3fbbf5af449402a5240",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-killprocessmcp"
 }

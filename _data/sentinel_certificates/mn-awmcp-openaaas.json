@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7277686",
+  "certificate_id": "MN-SC-2026-7193102",
   "skill_id": "mn-awmcp-openaaas",
   "skill_name": "OpenAaaS",
-  "issued_at": "2026-10-25T05:47:57.686Z",
-  "expires_at": "2026-11-01T05:47:57.686Z",
+  "issued_at": "2026-11-01T07:13:13.102Z",
+  "expires_at": "2026-11-08T07:13:13.102Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d9bf7a862cb9db2dcc237706386b6059df48c3049dea95f3def43a1770d71cd3",
+  "signature": "865d510714f9cb65404a7f33c644e007ee128ffd808b619a908bd1e7832cbed1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-openaaas"
 }

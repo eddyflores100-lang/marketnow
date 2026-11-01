@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7301022",
+  "certificate_id": "MN-SC-2026-7217072",
   "skill_id": "mn-awmcp-bilibilimcpjs",
   "skill_name": "bilibili-mcp-js",
-  "issued_at": "2026-10-25T05:48:21.022Z",
-  "expires_at": "2026-11-01T05:48:21.022Z",
+  "issued_at": "2026-11-01T07:13:37.072Z",
+  "expires_at": "2026-11-08T07:13:37.072Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fef1d5757c08950d1237f96d571cd44baf64ee997ab2c105c8d57e6fdccf0159",
+  "signature": "eba6a0f50e6472edc803398320486a6a2c3ca8cd2d979bdffc32ccb35453b2b8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-bilibilimcpjs"
 }

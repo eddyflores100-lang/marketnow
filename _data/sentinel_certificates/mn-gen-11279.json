@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7227232",
+  "certificate_id": "MN-SC-2026-7141658",
   "skill_id": "mn-gen-11279",
   "skill_name": "ris-mcp-ts",
-  "issued_at": "2026-10-25T05:47:07.232Z",
-  "expires_at": "2026-11-01T05:47:07.232Z",
+  "issued_at": "2026-11-01T07:12:21.658Z",
+  "expires_at": "2026-11-08T07:12:21.658Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0438e07540710ed95119fe87a9f3bf57e1c7b34e5d35b71589a2f3c8ec0c5849",
+  "signature": "19af5274a04ba3b23544d2b1c35eaee7cab2232af606e1f85b9c1e8bfe4282ec",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-11279"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7203723",
+  "certificate_id": "MN-SC-2026-7116999",
   "skill_id": "mn-gen-08198",
   "skill_name": "mcp-video-analyzer",
-  "issued_at": "2026-10-25T05:46:43.723Z",
-  "expires_at": "2026-11-01T05:46:43.723Z",
+  "issued_at": "2026-11-01T07:11:56.999Z",
+  "expires_at": "2026-11-08T07:11:56.999Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "01523c171c6151f0bacad6c611aa68d5638574f70d1041f8bb796ccdd9e4bf2d",
+  "signature": "6f0281d04f6531368387c868f4a97f3093b8186d6100b13b75ab41eaa9b51256",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-08198"
 }

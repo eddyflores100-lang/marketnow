@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7228189",
+  "certificate_id": "MN-SC-2026-7142685",
   "skill_id": "mn-gen-11475",
   "skill_name": "scholar-feed-mcp",
-  "issued_at": "2026-10-25T05:47:08.189Z",
-  "expires_at": "2026-11-01T05:47:08.189Z",
+  "issued_at": "2026-11-01T07:12:22.685Z",
+  "expires_at": "2026-11-08T07:12:22.685Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6f681dfb10062823137c62ffd77a0c34a38430eb82b974ae92645304f4d64e82",
+  "signature": "c7c0435cab23998860adc9966b9a76ab3ddf8c4407bc23bf138b002220290fff",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-11475"
 }

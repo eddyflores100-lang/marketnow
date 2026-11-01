@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7242758",
+  "certificate_id": "MN-SC-2026-7157666",
   "skill_id": "mn-gen-13045",
   "skill_name": "unsplash-mcp-server",
-  "issued_at": "2026-10-25T05:47:22.758Z",
-  "expires_at": "2026-11-01T05:47:22.758Z",
+  "issued_at": "2026-11-01T07:12:37.666Z",
+  "expires_at": "2026-11-08T07:12:37.666Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e337ae7328c98624b2e0fe2e7b03e6bc50cb17fb021493e1895aaf86f79bcd5e",
+  "signature": "b949c6df535999c2d1f215841f8d39517abb3ff11e3be1a5cfa9595d25768ec2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13045"
 }

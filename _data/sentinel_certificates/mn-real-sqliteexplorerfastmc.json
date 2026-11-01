@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7390625",
+  "certificate_id": "MN-SC-2026-7304902",
   "skill_id": "mn-real-sqliteexplorerfastmc",
   "skill_name": "sqlite-explorer-fastmcp-mcp-server",
-  "issued_at": "2026-10-25T05:49:50.625Z",
-  "expires_at": "2026-11-01T05:49:50.625Z",
+  "issued_at": "2026-11-01T07:15:04.902Z",
+  "expires_at": "2026-11-08T07:15:04.902Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "52625efcce1d163cb533bbd6d07032ba6a48eeb77e745de4397247f51ecd1640",
+  "signature": "b26b5873f1f1f2605667116b173582ef614e80cfd488f170456618366331d4c7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-sqliteexplorerfastmc"
 }

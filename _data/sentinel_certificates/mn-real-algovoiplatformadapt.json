@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7491963",
+  "certificate_id": "MN-SC-2026-7407633",
   "skill_id": "mn-real-algovoiplatformadapt",
   "skill_name": "AlgoVoi-Platform-Adapters",
-  "issued_at": "2026-10-25T05:51:31.963Z",
-  "expires_at": "2026-11-01T05:51:31.963Z",
+  "issued_at": "2026-11-01T07:16:47.633Z",
+  "expires_at": "2026-11-08T07:16:47.633Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a41105d53c8ebca2eeaed97ccb38bc5b049f3160746ccc2c2d15838e0fed9dcc",
+  "signature": "b5a0e79dc81cb5f7e0145a9f6fe3b7d2ccb1ce75a67753186734badcd9393647",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-algovoiplatformadapt"
 }

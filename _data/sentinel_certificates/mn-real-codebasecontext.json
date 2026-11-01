@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7420316",
+  "certificate_id": "MN-SC-2026-7335622",
   "skill_id": "mn-real-codebasecontext",
   "skill_name": "codebase-context",
-  "issued_at": "2026-10-25T05:50:20.316Z",
-  "expires_at": "2026-11-01T05:50:20.316Z",
+  "issued_at": "2026-11-01T07:15:35.622Z",
+  "expires_at": "2026-11-08T07:15:35.622Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a56070e1f8ddea0249105367ba23f0ddef8ea3a5795f0ac0798e9f98fb3c6905",
+  "signature": "0ab3c35a2a102aca2801aff517bca116cf385764a8243d856c613cfe0c3b72e4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-codebasecontext"
 }

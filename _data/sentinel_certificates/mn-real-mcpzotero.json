@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7564435",
+  "certificate_id": "MN-SC-2026-7481195",
   "skill_id": "mn-real-mcpzotero",
   "skill_name": "mcp-zotero",
-  "issued_at": "2026-10-25T05:52:44.435Z",
-  "expires_at": "2026-11-01T05:52:44.435Z",
+  "issued_at": "2026-11-01T07:18:01.195Z",
+  "expires_at": "2026-11-08T07:18:01.195Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e0c86dbf2518e247308a6d5c79b188ba73953fe7518b3ffd49ad44c111c45465",
+  "signature": "fd247169320f80af1ab6914bcb3869ada9ac8f3b3f7be9553658b7648d6cb722",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpzotero"
 }

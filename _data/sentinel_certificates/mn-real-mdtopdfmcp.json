@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7480198",
+  "certificate_id": "MN-SC-2026-7395848",
   "skill_id": "mn-real-mdtopdfmcp",
   "skill_name": "md-to-pdf-mcp",
-  "issued_at": "2026-10-25T05:51:20.198Z",
-  "expires_at": "2026-11-01T05:51:20.198Z",
+  "issued_at": "2026-11-01T07:16:35.848Z",
+  "expires_at": "2026-11-08T07:16:35.848Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6184a87bf59ef286410ecd2221918794563fba7b0d96979731dd96602beb0d56",
+  "signature": "ca1265c0b9bedfeb2796bedececb74abd422e603ab074d56d1746af55dca915c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mdtopdfmcp"
 }

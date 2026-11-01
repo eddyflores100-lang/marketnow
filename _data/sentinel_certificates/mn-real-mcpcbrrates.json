@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7487669",
+  "certificate_id": "MN-SC-2026-7403216",
   "skill_id": "mn-real-mcpcbrrates",
   "skill_name": "mcp-cbr-rates",
-  "issued_at": "2026-10-25T05:51:27.669Z",
-  "expires_at": "2026-11-01T05:51:27.669Z",
+  "issued_at": "2026-11-01T07:16:43.216Z",
+  "expires_at": "2026-11-08T07:16:43.216Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9921d99ca6c9b68cbe497646761537fa9338e46217b51eb4b91c897ec6bd50ec",
+  "signature": "171ea40b19bb5e985228dc91299d9316290648eb5b9a47c725b091617fb6ea32",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpcbrrates"
 }

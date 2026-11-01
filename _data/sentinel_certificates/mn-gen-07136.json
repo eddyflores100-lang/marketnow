@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7191420",
+  "certificate_id": "MN-SC-2026-7103793",
   "skill_id": "mn-gen-07136",
   "skill_name": "mcp-neovim-server",
-  "issued_at": "2026-10-25T05:46:31.420Z",
-  "expires_at": "2026-11-01T05:46:31.420Z",
+  "issued_at": "2026-11-01T07:11:43.793Z",
+  "expires_at": "2026-11-08T07:11:43.793Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c5e0c8e186561c759ebc4534674386c627360f83e97b1d85cae3df65a5ee7d35",
+  "signature": "6ffd8e43211599e6a1dc1166b7b6cbee2ff55e1569eb73d7eb404c7b0e54a96a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07136"
 }

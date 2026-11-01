@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7536492",
+  "certificate_id": "MN-SC-2026-7452439",
   "skill_id": "mn-real-thoughtproofmcp",
   "skill_name": "thoughtproof-mcp",
-  "issued_at": "2026-10-25T05:52:16.492Z",
-  "expires_at": "2026-11-01T05:52:16.492Z",
+  "issued_at": "2026-11-01T07:17:32.439Z",
+  "expires_at": "2026-11-08T07:17:32.439Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5a9301053b182ca88225a5dcaec26e2385fcd542361fec839331815e531bffd7",
+  "signature": "69db9fc6dd4267a023c62e6db2a29445a466eff5d0827b84bc9abf5bf4c4ea5f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-thoughtproofmcp"
 }

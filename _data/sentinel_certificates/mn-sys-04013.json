@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7157453",
+  "certificate_id": "MN-SC-2026-7067255",
   "skill_id": "mn-sys-04013",
   "skill_name": "filesystem-mcp",
-  "issued_at": "2026-10-25T05:45:57.453Z",
-  "expires_at": "2026-11-01T05:45:57.453Z",
+  "issued_at": "2026-11-01T07:11:07.255Z",
+  "expires_at": "2026-11-08T07:11:07.255Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5bdd72d7bc808a6d84e4f9886ed0b0afe723620ce9440b9f8a5258d7b3f7400a",
+  "signature": "4d17429ba87ee35cb42c6c4c2975d40570a136c7f27ec4c84928d3585fc4158b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-sys-04013"
 }

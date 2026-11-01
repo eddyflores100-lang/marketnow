@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7137999",
+  "certificate_id": "MN-SC-2026-7048945",
   "skill_id": "mn-gen-02196",
   "skill_name": "claude-soul",
-  "issued_at": "2026-10-25T05:45:37.999Z",
-  "expires_at": "2026-11-01T05:45:37.999Z",
+  "issued_at": "2026-11-01T07:10:48.945Z",
+  "expires_at": "2026-11-08T07:10:48.945Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "231d86725e8caca52871bc6b6d1887d5c421d42bf9e38947aaf84af547c22bd2",
+  "signature": "58e717520af9665eee9feea1e79c4e363644ee3759def006b1a68bfe83bcf27f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02196"
 }

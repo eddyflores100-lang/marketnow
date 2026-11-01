@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7573542",
+  "certificate_id": "MN-SC-2026-7490392",
   "skill_id": "mn-real-worldmodelmcp",
   "skill_name": "world-model-mcp",
-  "issued_at": "2026-10-25T05:52:53.542Z",
-  "expires_at": "2026-11-01T05:52:53.542Z",
+  "issued_at": "2026-11-01T07:18:10.392Z",
+  "expires_at": "2026-11-08T07:18:10.392Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3c4aeb8bbfd88c96db30a2b9dd7d636a92ff5c751e9112e266a3961345476154",
+  "signature": "c638b4814ed3b98a8c8043491f38f6b2ef4e6630f7860c5cf50b75123109f277",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-worldmodelmcp"
 }

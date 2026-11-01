@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7509777",
+  "certificate_id": "MN-SC-2026-7425732",
   "skill_id": "mn-real-cryptofeargreedmcp",
   "skill_name": "crypto-feargreed-mcp",
-  "issued_at": "2026-10-25T05:51:49.777Z",
-  "expires_at": "2026-11-01T05:51:49.777Z",
+  "issued_at": "2026-11-01T07:17:05.732Z",
+  "expires_at": "2026-11-08T07:17:05.732Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5de8436a95f1a1d3c13a238e0535601f6b38c2167e358e9a1720f80322b69f90",
+  "signature": "d9af693a3dc46c6ebab05629d5cb72ccf5887a66940e6d73ea5b46af9c3f05d5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cryptofeargreedmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7212106",
+  "certificate_id": "MN-SC-2026-7125669",
   "skill_id": "mn-dat-09577",
   "skill_name": "nocodb-mcp-server",
-  "issued_at": "2026-10-25T05:46:52.106Z",
-  "expires_at": "2026-11-01T05:46:52.106Z",
+  "issued_at": "2026-11-01T07:12:05.669Z",
+  "expires_at": "2026-11-08T07:12:05.669Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7d60269ae0cb26dd18331d5f5fb2ba4b9d3a6dc106ec743aea3307d8a66d40c6",
+  "signature": "ca8120ec8aa8d3065b64acacbde86fda92711eeeabaebc6e468129325db0a03b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-dat-09577"
 }

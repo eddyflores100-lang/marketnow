@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7170700",
+  "certificate_id": "MN-SC-2026-7082707",
   "skill_id": "mn-gen-05196",
   "skill_name": "mcp-broker",
-  "issued_at": "2026-10-25T05:46:10.700Z",
-  "expires_at": "2026-11-01T05:46:10.700Z",
+  "issued_at": "2026-11-01T07:11:22.707Z",
+  "expires_at": "2026-11-08T07:11:22.707Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e6207e0bed0b6ba79973a10092d9061fc1169d8ed0f6d56e07a6287495f50a22",
+  "signature": "bfacf2a00e7d7deeab60ade6104df7d78d6976279a109725c81d9e4f7b3af520",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05196"
 }

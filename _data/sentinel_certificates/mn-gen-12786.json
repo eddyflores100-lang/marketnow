@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7240255",
+  "certificate_id": "MN-SC-2026-7154901",
   "skill_id": "mn-gen-12786",
   "skill_name": "hyperliquid-info-mcp",
-  "issued_at": "2026-10-25T05:47:20.255Z",
-  "expires_at": "2026-11-01T05:47:20.255Z",
+  "issued_at": "2026-11-01T07:12:34.901Z",
+  "expires_at": "2026-11-08T07:12:34.901Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3b05bbdb073dff027fd6503b5ce1290b33fa65e8ce611ec338fba0de145150bf",
+  "signature": "3b3cd81284c3382e77c5450b7f18d7eb17944e005b76a91fafcb11585f4c8fd2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12786"
 }

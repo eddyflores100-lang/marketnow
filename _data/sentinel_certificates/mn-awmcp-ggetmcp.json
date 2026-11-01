@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7297598",
+  "certificate_id": "MN-SC-2026-7213747",
   "skill_id": "mn-awmcp-ggetmcp",
   "skill_name": "gget-mcp",
-  "issued_at": "2026-10-25T05:48:17.598Z",
-  "expires_at": "2026-11-01T05:48:17.598Z",
+  "issued_at": "2026-11-01T07:13:33.747Z",
+  "expires_at": "2026-11-08T07:13:33.747Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "901bd5169704738887aea860e848878ec06c3e29b1c3c63bf2d7ddb2b2da03ba",
+  "signature": "2ca5425ed36f6ae62739baec29c8d0d156947cd2d3242871a1cad163974120a8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-ggetmcp"
 }

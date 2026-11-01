@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7508242",
+  "certificate_id": "MN-SC-2026-7424083",
   "skill_id": "mn-real-blockbeatsmcp",
   "skill_name": "blockbeats-mcp",
-  "issued_at": "2026-10-25T05:51:48.242Z",
-  "expires_at": "2026-11-01T05:51:48.242Z",
+  "issued_at": "2026-11-01T07:17:04.083Z",
+  "expires_at": "2026-11-08T07:17:04.083Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0e5ec8958ae81a776869f7e635192ca367dd9838901b7ad99d9086fed7af3eee",
+  "signature": "b73e39654cebb0749448ce0e01d273b84ec9dceffcd99a82f0a0cbd3d9a7635f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-blockbeatsmcp"
 }

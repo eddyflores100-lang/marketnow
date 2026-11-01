@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7556030",
+  "certificate_id": "MN-SC-2026-7472550",
   "skill_id": "mn-real-chatcrystal",
   "skill_name": "ChatCrystal",
-  "issued_at": "2026-10-25T05:52:36.030Z",
-  "expires_at": "2026-11-01T05:52:36.030Z",
+  "issued_at": "2026-11-01T07:17:52.550Z",
+  "expires_at": "2026-11-08T07:17:52.550Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2ec31020ff0d7490937786d69994fd324047738744c4095fec3395278126860d",
+  "signature": "c29904fedebba344c25e08011290a3db7d9444cd866a3268e60ced91a37be8e8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-chatcrystal"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7547741",
+  "certificate_id": "MN-SC-2026-7463792",
   "skill_id": "mn-real-thegamecraftermcpser",
   "skill_name": "thegamecrafter-mcp-server",
-  "issued_at": "2026-10-25T05:52:27.741Z",
-  "expires_at": "2026-11-01T05:52:27.741Z",
+  "issued_at": "2026-11-01T07:17:43.792Z",
+  "expires_at": "2026-11-08T07:17:43.792Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "952bd3e345de6e1cccb53368bbd7be2c7d16a59574714b73b4cab542087027c8",
+  "signature": "ef278ef8fa28903792e31142ae5a6dd7b1f59929e67a3e6ea4e827f1cd6912c7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-thegamecraftermcpser"
 }

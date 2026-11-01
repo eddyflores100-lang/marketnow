@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7189002",
+  "certificate_id": "MN-SC-2026-7101334",
   "skill_id": "mn-gen-07063",
   "skill_name": "mcp-me",
-  "issued_at": "2026-10-25T05:46:29.002Z",
-  "expires_at": "2026-11-01T05:46:29.002Z",
+  "issued_at": "2026-11-01T07:11:41.334Z",
+  "expires_at": "2026-11-08T07:11:41.334Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c0d9d89143939ba1c3aa0654fecf7c84e83667589c6455b82ee63531cd225bb4",
+  "signature": "32a68cde31028a8414d436f82fe61e2fe2c478d5eb88a64a0e80e2ca32c19ef8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07063"
 }

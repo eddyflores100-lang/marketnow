@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7371853",
+  "certificate_id": "MN-SC-2026-7286077",
   "skill_id": "mn-awmcp-producthuntmcpserver",
   "skill_name": "producthunt-mcp-server",
-  "issued_at": "2026-10-25T05:49:31.853Z",
-  "expires_at": "2026-11-01T05:49:31.853Z",
+  "issued_at": "2026-11-01T07:14:46.077Z",
+  "expires_at": "2026-11-08T07:14:46.077Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ac258053c8d09be2926bfab69f2889f3cff059f460ed0d4a2bc85879738a16a0",
+  "signature": "a53cc8f1f847ba97420afe75c50c42b072af3e6d6bf42b65f22bdfcf2d597965",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-producthuntmcpserver"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7137739",
+  "certificate_id": "MN-SC-2026-7048664",
   "skill_id": "mn-gen-02180",
   "skill_name": "integrations",
-  "issued_at": "2026-10-25T05:45:37.739Z",
-  "expires_at": "2026-11-01T05:45:37.739Z",
+  "issued_at": "2026-11-01T07:10:48.664Z",
+  "expires_at": "2026-11-08T07:10:48.664Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "deda54940ed75ebf258d7eb1296f175a83edbc880615a5fa9929691dc5acd2ec",
+  "signature": "180dfc176dd75ccff900758993274fab10d64b0b79d6e6c69d43ea9cb2ad7e1c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02180"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7470462",
+  "certificate_id": "MN-SC-2026-7385507",
   "skill_id": "mn-real-charted",
   "skill_name": "charted",
-  "issued_at": "2026-10-25T05:51:10.462Z",
-  "expires_at": "2026-11-01T05:51:10.462Z",
+  "issued_at": "2026-11-01T07:16:25.507Z",
+  "expires_at": "2026-11-08T07:16:25.507Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "89a4c05c147d931d56cdf199d0f0ab5464ebcd9804583e498d57a9ec063abf3c",
+  "signature": "0078ed1e4fe7153d256ae38df13bbc31f1d96f91992d5106598eecf8fb9eb405",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-charted"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7222959",
+  "certificate_id": "MN-SC-2026-7137259",
   "skill_id": "mn-gen-10911",
   "skill_name": "qlik-mcp",
-  "issued_at": "2026-10-25T05:47:02.959Z",
-  "expires_at": "2026-11-01T05:47:02.959Z",
+  "issued_at": "2026-11-01T07:12:17.259Z",
+  "expires_at": "2026-11-08T07:12:17.259Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c531e72c76cd5aa38788bac634e979e69c18fe60e76d197d4a854e7022b61661",
+  "signature": "e8e71a3df58efde7dec57b0c6bc3fd0a4f679ac7b18096c908000b8777ec6153",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-10911"
 }

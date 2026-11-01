@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7129300",
+  "certificate_id": "MN-SC-2026-7040022",
   "skill_id": "mn-gen-01306",
   "skill_name": "bb-browser",
-  "issued_at": "2026-10-25T05:45:29.300Z",
-  "expires_at": "2026-11-01T05:45:29.300Z",
+  "issued_at": "2026-11-01T07:10:40.022Z",
+  "expires_at": "2026-11-08T07:10:40.022Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e0056e13bb941dda256063f09d7ce8997a978aa15b1c4556bf2d5bb58ac5d5ac",
+  "signature": "f58287efbab1db3a66b20600eb0d474057b66d6394beebd0c3af5a496a4132e5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01306"
 }

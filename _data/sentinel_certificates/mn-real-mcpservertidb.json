@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7388724",
+  "certificate_id": "MN-SC-2026-7303064",
   "skill_id": "mn-real-mcpservertidb",
   "skill_name": "mcp-server-tidb",
-  "issued_at": "2026-10-25T05:49:48.724Z",
-  "expires_at": "2026-11-01T05:49:48.724Z",
+  "issued_at": "2026-11-01T07:15:03.064Z",
+  "expires_at": "2026-11-08T07:15:03.064Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8091dfc8693595bac7cdba6c220237b6990f369613942345a4f5293c18de4c33",
+  "signature": "37198c094cdab7535a9206a5e3645efc9b6aca5accdc373f31a9cfdf78979134",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpservertidb"
 }

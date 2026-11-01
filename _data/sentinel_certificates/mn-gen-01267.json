@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7128752",
+  "certificate_id": "MN-SC-2026-7039471",
   "skill_id": "mn-gen-01267",
   "skill_name": "balldontlie-mcp",
-  "issued_at": "2026-10-25T05:45:28.752Z",
-  "expires_at": "2026-11-01T05:45:28.752Z",
+  "issued_at": "2026-11-01T07:10:39.471Z",
+  "expires_at": "2026-11-08T07:10:39.471Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d4c9e283b100b52831d0dbe7da871af447a30a5567294c8221116c63ed95c310",
+  "signature": "d13841a7a1439d8b4cae9a2b942ce165358c9665bb787e6a8844190eebde3988",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01267"
 }

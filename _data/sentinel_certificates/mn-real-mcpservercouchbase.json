@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7389422",
+  "certificate_id": "MN-SC-2026-7303773",
   "skill_id": "mn-real-mcpservercouchbase",
   "skill_name": "mcp-server-couchbase",
-  "issued_at": "2026-10-25T05:49:49.422Z",
-  "expires_at": "2026-11-01T05:49:49.422Z",
+  "issued_at": "2026-11-01T07:15:03.773Z",
+  "expires_at": "2026-11-08T07:15:03.773Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cdb43d5df1a05c6e0daafcb75e7bbcc29c8b410188af8c623a9ec618a4a04cf0",
+  "signature": "36109575dde9981a082f35911f91e06e797df130bc5365f776cc4ab77e3d6e48",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpservercouchbase"
 }

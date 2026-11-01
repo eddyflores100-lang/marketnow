@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7353930",
+  "certificate_id": "MN-SC-2026-7268259",
   "skill_id": "mn-awmcp-deepseekassubagent",
   "skill_name": "deepseek-as-subagent",
-  "issued_at": "2026-10-25T05:49:13.930Z",
-  "expires_at": "2026-11-01T05:49:13.930Z",
+  "issued_at": "2026-11-01T07:14:28.259Z",
+  "expires_at": "2026-11-08T07:14:28.259Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1bb59e9e1675ede02bc9f29bb221bf2ab1daa151c92a1aa3af5dfee0ac1120e6",
+  "signature": "f0ccb13aa6569ba35cc6acbce2cfb06b3d8d7bb621fe0edf1f08ef1802b0fd3c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-deepseekassubagent"
 }

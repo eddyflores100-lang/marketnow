@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7311067",
+  "certificate_id": "MN-SC-2026-7227177",
   "skill_id": "mn-awmcp-serversarchived",
   "skill_name": "servers-archived",
-  "issued_at": "2026-10-25T05:48:31.067Z",
-  "expires_at": "2026-11-01T05:48:31.067Z",
+  "issued_at": "2026-11-01T07:13:47.177Z",
+  "expires_at": "2026-11-08T07:13:47.177Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4a40006b794060484ce1d615d0d6ccbb14c72bbcde64ae7f4f121cb05a574930",
+  "signature": "b888117b71ecfba596691e04d74c568a0018eb628a5d55879978796e7b1a24c4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-serversarchived"
 }

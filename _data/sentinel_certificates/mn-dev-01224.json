@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7128445",
+  "certificate_id": "MN-SC-2026-7039121",
   "skill_id": "mn-dev-01224",
   "skill_name": "azure-devops-mcp",
-  "issued_at": "2026-10-25T05:45:28.445Z",
-  "expires_at": "2026-11-01T05:45:28.445Z",
+  "issued_at": "2026-11-01T07:10:39.121Z",
+  "expires_at": "2026-11-08T07:10:39.121Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "eed384c75fdba557a025ca65869ec443b11e4823d35d92d11716cb23e3e5f5d8",
+  "signature": "392a452c53de77208882e1d2bce48d31a36c0f4b9ffe41f3a56f5ac83d110647",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-dev-01224"
 }

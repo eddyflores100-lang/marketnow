@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7451664",
+  "certificate_id": "MN-SC-2026-7366808",
   "skill_id": "mn-real-edgeonemakersmcp",
   "skill_name": "edgeone-makers-mcp",
-  "issued_at": "2026-10-25T05:50:51.664Z",
-  "expires_at": "2026-11-01T05:50:51.664Z",
+  "issued_at": "2026-11-01T07:16:06.808Z",
+  "expires_at": "2026-11-08T07:16:06.808Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "29b69a71caf5a16d645f8c35d6159628056cd9f004d3ca59a755e15a2bc1b198",
+  "signature": "1317f3918e8732eddd13e81fbaae1bc1945c92854b1f66ae485e38faf173facd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-edgeonemakersmcp"
 }

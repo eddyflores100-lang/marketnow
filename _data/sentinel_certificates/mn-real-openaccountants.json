@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7524220",
+  "certificate_id": "MN-SC-2026-7440357",
   "skill_id": "mn-real-openaccountants",
   "skill_name": "openaccountants",
-  "issued_at": "2026-10-25T05:52:04.220Z",
-  "expires_at": "2026-11-01T05:52:04.220Z",
+  "issued_at": "2026-11-01T07:17:20.357Z",
+  "expires_at": "2026-11-08T07:17:20.358Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "dc4e0409e359dc59f49b46519b7a1a32b481655746add0cda8bfe2b55d10a4ff",
+  "signature": "4f66da3fbe77f3ff2917666842363ff16bc609df37488e1fc806f3d748e2b23e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-openaccountants"
 }

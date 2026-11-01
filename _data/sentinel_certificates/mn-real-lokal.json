@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7477003",
+  "certificate_id": "MN-SC-2026-7392574",
   "skill_id": "mn-real-lokal",
   "skill_name": "lokal",
-  "issued_at": "2026-10-25T05:51:17.003Z",
-  "expires_at": "2026-11-01T05:51:17.003Z",
+  "issued_at": "2026-11-01T07:16:32.574Z",
+  "expires_at": "2026-11-08T07:16:32.574Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "333bb13b84b0e5d403e9e050bd4e2d6bf1fb4fce719fa59312e7886c9143bfa7",
+  "signature": "a314feb964c2e83e87efb6850f58b1897c0d781dbfe1cc4f8ce78ef24f2ccc76",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-lokal"
 }

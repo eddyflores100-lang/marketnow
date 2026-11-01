@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7425490",
+  "certificate_id": "MN-SC-2026-7340803",
   "skill_id": "mn-real-gkcli",
   "skill_name": "gk-cli",
-  "issued_at": "2026-10-25T05:50:25.490Z",
-  "expires_at": "2026-11-01T05:50:25.490Z",
+  "issued_at": "2026-11-01T07:15:40.803Z",
+  "expires_at": "2026-11-08T07:15:40.803Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8336e20e59b1d5098e68d9c591d559adf5b6722959b86fb846454b1bbe0f24c3",
+  "signature": "74d07fddf092f52120c8aa0ad2fdbaae034414db531dfa21636f8050173d7abc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-gkcli"
 }

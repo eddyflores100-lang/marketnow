@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7219641",
+  "certificate_id": "MN-SC-2026-7133929",
   "skill_id": "mn-net-10406",
   "skill_name": "piapi-mcp-server",
-  "issued_at": "2026-10-25T05:46:59.641Z",
-  "expires_at": "2026-11-01T05:46:59.641Z",
+  "issued_at": "2026-11-01T07:12:13.929Z",
+  "expires_at": "2026-11-08T07:12:13.929Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "559e5a392552ab4768c1b8c7e7a0f20d6318cdf867cf23708e82e4e3e0eb0585",
+  "signature": "1fe9a0cf574a02924a710a6feb5789240b16d7f3e022b6b3a1817c7eaee3f1b7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-net-10406"
 }

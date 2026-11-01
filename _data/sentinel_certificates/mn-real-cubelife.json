@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7428050",
+  "certificate_id": "MN-SC-2026-7343342",
   "skill_id": "mn-real-cubelife",
   "skill_name": "cubelife",
-  "issued_at": "2026-10-25T05:50:28.050Z",
-  "expires_at": "2026-11-01T05:50:28.050Z",
+  "issued_at": "2026-11-01T07:15:43.342Z",
+  "expires_at": "2026-11-08T07:15:43.342Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cf617c39b552edcc8b080f0e7d5b791d4f3216cf53ad42837627efe59864256a",
+  "signature": "aaf670888a522c694bfa030c3c01cc9d793c75a4bd4a0d01098d4bb24fe1fcf7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cubelife"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7511280",
+  "certificate_id": "MN-SC-2026-7427276",
   "skill_id": "mn-real-cryptoportfoliomcp",
   "skill_name": "crypto-portfolio-mcp",
-  "issued_at": "2026-10-25T05:51:51.280Z",
-  "expires_at": "2026-11-01T05:51:51.280Z",
+  "issued_at": "2026-11-01T07:17:07.276Z",
+  "expires_at": "2026-11-08T07:17:07.276Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4a87b518aa6d58b59284a3070e34b2d4a37403c578de253760ef539530653401",
+  "signature": "c02cde7d49022544331f3280e48fdde5022e68a56651f084d4e2275c3e5afff5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cryptoportfoliomcp"
 }

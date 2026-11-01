@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7162682",
+  "certificate_id": "MN-SC-2026-7072385",
   "skill_id": "mn-gen-04345",
   "skill_name": "gemini-cli",
-  "issued_at": "2026-10-25T05:46:02.682Z",
-  "expires_at": "2026-11-01T05:46:02.682Z",
+  "issued_at": "2026-11-01T07:11:12.385Z",
+  "expires_at": "2026-11-08T07:11:12.385Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "510ef4a2e72e36273dbd5c76fbeed0588f2f4dfa070511afbab2cbcb3e0e5a4a",
+  "signature": "43209c9149d3c7eaa83903d490f706276d442263068bc524774c3113c4255ab5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04345"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7506531",
+  "certificate_id": "MN-SC-2026-7422329",
   "skill_id": "mn-real-koreastockmcp",
   "skill_name": "korea-stock-mcp",
-  "issued_at": "2026-10-25T05:51:46.531Z",
-  "expires_at": "2026-11-01T05:51:46.531Z",
+  "issued_at": "2026-11-01T07:17:02.329Z",
+  "expires_at": "2026-11-08T07:17:02.329Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "98f59cb1270401b6a15492b5420dab726e4d128c9e8120d71b027e97917cca69",
+  "signature": "de38f9a83091f666c597965fab008e6bdbdcc7dad197fa04b6ed9afd55bb3d21",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-koreastockmcp"
 }

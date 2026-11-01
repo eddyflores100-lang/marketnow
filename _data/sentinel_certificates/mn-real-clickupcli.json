@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7522994",
+  "certificate_id": "MN-SC-2026-7439053",
   "skill_id": "mn-real-clickupcli",
   "skill_name": "clickup-cli",
-  "issued_at": "2026-10-25T05:52:02.994Z",
-  "expires_at": "2026-11-01T05:52:02.994Z",
+  "issued_at": "2026-11-01T07:17:19.053Z",
+  "expires_at": "2026-11-08T07:17:19.053Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0ae00e63bebb7dc3f35d0ae48e8581c77565403a3d522d03bf5d6b0f6b5c1cc9",
+  "signature": "8ac8c033036c40769b82b68ca9ed1a3dcf58649dfca8091dc2f4d6a528dca2a6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-clickupcli"
 }

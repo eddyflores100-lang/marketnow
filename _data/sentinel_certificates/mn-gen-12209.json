@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7234729",
+  "certificate_id": "MN-SC-2026-7149255",
   "skill_id": "mn-gen-12209",
   "skill_name": "stella-mcp",
-  "issued_at": "2026-10-25T05:47:14.729Z",
-  "expires_at": "2026-11-01T05:47:14.729Z",
+  "issued_at": "2026-11-01T07:12:29.255Z",
+  "expires_at": "2026-11-08T07:12:29.255Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6390fd5429ec461f39eb52f07e462b728c903b620d72e1770971999b43c362dc",
+  "signature": "f3876c031625302b3aefa4555b4717c817bd10b15dcab198936bf64dd328e6c2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12209"
 }

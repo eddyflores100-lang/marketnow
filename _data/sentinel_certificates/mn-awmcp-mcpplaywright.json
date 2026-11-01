@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7305092",
+  "certificate_id": "MN-SC-2026-7221296",
   "skill_id": "mn-awmcp-mcpplaywright",
   "skill_name": "mcp-playwright",
-  "issued_at": "2026-10-25T05:48:25.092Z",
-  "expires_at": "2026-11-01T05:48:25.092Z",
+  "issued_at": "2026-11-01T07:13:41.296Z",
+  "expires_at": "2026-11-08T07:13:41.296Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2886c86a7919a4e27cfb53db5ea4b464e18c63c0898c3588cc9206bb6cf1bcfc",
+  "signature": "9a0af4f01ee1c66c0139daeaf45602232da78033f1662d41c7276e88e80ac96f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpplaywright"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7193829",
+  "certificate_id": "MN-SC-2026-7106648",
   "skill_id": "mn-gen-07454",
   "skill_name": "rust-docs-mcp-server",
-  "issued_at": "2026-10-25T05:46:33.829Z",
-  "expires_at": "2026-11-01T05:46:33.829Z",
+  "issued_at": "2026-11-01T07:11:46.648Z",
+  "expires_at": "2026-11-08T07:11:46.648Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9695f3efb48812cf2cc3c8f70486672c7a345cfba9f98fdff8423a0cf1c9b4dc",
+  "signature": "becdac65867f69d2c149e4c0cf06281b148e7375fe3a30053a5097d44562f393",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07454"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7171675",
+  "certificate_id": "MN-SC-2026-7083598",
   "skill_id": "mn-gen-05273",
   "skill_name": "jenkins-mcp-server",
-  "issued_at": "2026-10-25T05:46:11.675Z",
-  "expires_at": "2026-11-01T05:46:11.675Z",
+  "issued_at": "2026-11-01T07:11:23.598Z",
+  "expires_at": "2026-11-08T07:11:23.598Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2653227470e3ef7d0534dd91a06e69567f5ab5a5312184be94ef34905653bbb3",
+  "signature": "bb2649e78ec2f8a6abb7c5f71a9f4270bfd7f044c71fe24635cd40806f38b411",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05273"
 }

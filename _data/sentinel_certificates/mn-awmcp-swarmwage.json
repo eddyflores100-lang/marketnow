@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7279035",
+  "certificate_id": "MN-SC-2026-7194394",
   "skill_id": "mn-awmcp-swarmwage",
   "skill_name": "swarmwage",
-  "issued_at": "2026-10-25T05:47:59.035Z",
-  "expires_at": "2026-11-01T05:47:59.035Z",
+  "issued_at": "2026-11-01T07:13:14.394Z",
+  "expires_at": "2026-11-08T07:13:14.394Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "dacb246e410df21bee84c8ad5de5533cc73c4b3f84345df8947ee7f7d7664ce2",
+  "signature": "e9ca3fa8ba4457c38d1ce46486ed538a3129d2c4f5db9be7c45de82be04023c6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-swarmwage"
 }

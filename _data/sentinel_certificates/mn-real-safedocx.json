@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7481156",
+  "certificate_id": "MN-SC-2026-7396814",
   "skill_id": "mn-real-safedocx",
   "skill_name": "safe-docx",
-  "issued_at": "2026-10-25T05:51:21.156Z",
-  "expires_at": "2026-11-01T05:51:21.156Z",
+  "issued_at": "2026-11-01T07:16:36.814Z",
+  "expires_at": "2026-11-08T07:16:36.814Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fd2da21f42c8b823b1776609017a775a675ac6821992632da26d4006dfcc1437",
+  "signature": "170fe1f5bd2fa68b34e0b7205a621b9d610dfaa2408a14831b4e75ba111d39d1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-safedocx"
 }

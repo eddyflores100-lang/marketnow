@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7503832",
+  "certificate_id": "MN-SC-2026-7419615",
   "skill_id": "mn-real-horusflowmcp",
   "skill_name": "horus-flow-mcp",
-  "issued_at": "2026-10-25T05:51:43.832Z",
-  "expires_at": "2026-11-01T05:51:43.832Z",
+  "issued_at": "2026-11-01T07:16:59.615Z",
+  "expires_at": "2026-11-08T07:16:59.615Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "02ec51478588455ed28673f4cd5f8dd55fe1513993f188cb1f1835ed1ccc97d6",
+  "signature": "9b88a9d16d4cac154fb1b5296e769675e134f681f31c5ee64ac6dec5a22c5b88",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-horusflowmcp"
 }

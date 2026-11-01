@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7254206",
+  "certificate_id": "MN-SC-2026-7169319",
   "skill_id": "mn-mcp-filesystem",
   "skill_name": "MCP Filesystem Server (Official)",
-  "issued_at": "2026-10-25T05:47:34.206Z",
-  "expires_at": "2026-11-01T05:47:34.206Z",
+  "issued_at": "2026-11-01T07:12:49.319Z",
+  "expires_at": "2026-11-08T07:12:49.319Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 4,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5c375254b281b235cdfcc0c49ac9602600c3b213c8c607ded2e4ba4c6da128b8",
+  "signature": "5fe48d545865350083b22bf506581a0a633a374cd6f17d85c2049ebe8db0cec4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-mcp-filesystem"
 }

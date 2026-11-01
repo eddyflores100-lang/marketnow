@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7402537",
+  "certificate_id": "MN-SC-2026-7317141",
   "skill_id": "mn-real-mcpflowcoreplatform",
   "skill_name": "mcp-flowcore-platform",
-  "issued_at": "2026-10-25T05:50:02.537Z",
-  "expires_at": "2026-11-01T05:50:02.537Z",
+  "issued_at": "2026-11-01T07:15:17.141Z",
+  "expires_at": "2026-11-08T07:15:17.141Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8a3de6b7665088f81dcb05e27df3622230bc61bcf6a2f52bcade4cc8018f0bc1",
+  "signature": "2aea130301e65e328ea2ed8a3a614a2546c85e9327054d448bf81501490fe1e9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpflowcoreplatform"
 }

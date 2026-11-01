@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7514892",
+  "certificate_id": "MN-SC-2026-7431100",
   "skill_id": "mn-real-fundingratesmcp",
   "skill_name": "funding-rates-mcp",
-  "issued_at": "2026-10-25T05:51:54.892Z",
-  "expires_at": "2026-11-01T05:51:54.892Z",
+  "issued_at": "2026-11-01T07:17:11.100Z",
+  "expires_at": "2026-11-08T07:17:11.100Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f22393bdd8e035337a106e0295ba83b0648fb690826618443efc14b8ffff686e",
+  "signature": "a22abec0a94efd7395b6834b41ec136596229030fb7ab35daba565ef966276db",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-fundingratesmcp"
 }

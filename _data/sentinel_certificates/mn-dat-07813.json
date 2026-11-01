@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7199559",
+  "certificate_id": "MN-SC-2026-7112653",
   "skill_id": "mn-dat-07813",
   "skill_name": "mcp-server-sqlite",
-  "issued_at": "2026-10-25T05:46:39.559Z",
-  "expires_at": "2026-11-01T05:46:39.559Z",
+  "issued_at": "2026-11-01T07:11:52.653Z",
+  "expires_at": "2026-11-08T07:11:52.653Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2aac673645354fe4adf428aef744bbb2a210425dd1975d6a9a50cd9fb7a93cb0",
+  "signature": "80eddbe77a4c3bf67dcfb30d80dae34d805bf682457de9387149b07542a211e4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-dat-07813"
 }

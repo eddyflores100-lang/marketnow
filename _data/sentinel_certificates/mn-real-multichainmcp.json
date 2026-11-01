@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7482146",
+  "certificate_id": "MN-SC-2026-7397772",
   "skill_id": "mn-real-multichainmcp",
   "skill_name": "multichain-mcp",
-  "issued_at": "2026-10-25T05:51:22.146Z",
-  "expires_at": "2026-11-01T05:51:22.146Z",
+  "issued_at": "2026-11-01T07:16:37.772Z",
+  "expires_at": "2026-11-08T07:16:37.772Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a0df78657485570ad5c60b4aa514c8abe8e2a7f9876195e586b14dd73b601bb7",
+  "signature": "eba54cf2538c070d855833b893a8b8ffa5ea1caef56025bfe22ddff989df8178",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-multichainmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7429958",
+  "certificate_id": "MN-SC-2026-7345282",
   "skill_id": "mn-real-aidistiller",
   "skill_name": "ai-distiller",
-  "issued_at": "2026-10-25T05:50:29.958Z",
-  "expires_at": "2026-11-01T05:50:29.958Z",
+  "issued_at": "2026-11-01T07:15:45.282Z",
+  "expires_at": "2026-11-08T07:15:45.282Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c2c8752290ab84624b5dd3f0de96725810ae35e1fc0d780cf2000421205760db",
+  "signature": "6b741869adf329819532cd277ef51deffcbff7435e249c9a8b40ef0629884c50",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-aidistiller"
 }

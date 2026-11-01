@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7561877",
+  "certificate_id": "MN-SC-2026-7478521",
   "skill_id": "mn-real-3dprintoracle",
   "skill_name": "3dprint-oracle",
-  "issued_at": "2026-10-25T05:52:41.877Z",
-  "expires_at": "2026-11-01T05:52:41.877Z",
+  "issued_at": "2026-11-01T07:17:58.521Z",
+  "expires_at": "2026-11-08T07:17:58.521Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "586ac2e01f79a6d005dbec7ba8e742bbd94aadedae389635833e62959bcdd003",
+  "signature": "3cd7a7d938bca7dc484bd92d5fc1968f0f5f652650d3b195ac888fffa549a59b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-3dprintoracle"
 }

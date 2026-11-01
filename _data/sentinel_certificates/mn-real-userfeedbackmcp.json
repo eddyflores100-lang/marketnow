@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7438507",
+  "certificate_id": "MN-SC-2026-7353910",
   "skill_id": "mn-real-userfeedbackmcp",
   "skill_name": "user-feedback-mcp",
-  "issued_at": "2026-10-25T05:50:38.507Z",
-  "expires_at": "2026-11-01T05:50:38.507Z",
+  "issued_at": "2026-11-01T07:15:53.910Z",
+  "expires_at": "2026-11-08T07:15:53.910Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "23cdd3c7b45e002a799f01631ca71b2842708f3d237fcc2a83075d54f178e7f0",
+  "signature": "1935df759e5abd40dbcf5ca82161262ec316fbb659d45c85cb9382cb29fa90c5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-userfeedbackmcp"
 }

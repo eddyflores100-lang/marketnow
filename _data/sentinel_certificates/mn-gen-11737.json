@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7230835",
+  "certificate_id": "MN-SC-2026-7145221",
   "skill_id": "mn-gen-11737",
   "skill_name": "mcp-shodan",
-  "issued_at": "2026-10-25T05:47:10.835Z",
-  "expires_at": "2026-11-01T05:47:10.835Z",
+  "issued_at": "2026-11-01T07:12:25.221Z",
+  "expires_at": "2026-11-08T07:12:25.221Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "62a3513ce7c898c8af28fcb715f1bb4fe37321f45059347aad1104b51ed080cf",
+  "signature": "45ec89971abc910f6286a57db120f47ee93a89fc5f491403a760df4ad7d26b4f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-11737"
 }

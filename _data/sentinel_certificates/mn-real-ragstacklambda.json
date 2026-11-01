@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7562463",
+  "certificate_id": "MN-SC-2026-7479182",
   "skill_id": "mn-real-ragstacklambda",
   "skill_name": "RAGStack-Lambda",
-  "issued_at": "2026-10-25T05:52:42.463Z",
-  "expires_at": "2026-11-01T05:52:42.463Z",
+  "issued_at": "2026-11-01T07:17:59.182Z",
+  "expires_at": "2026-11-08T07:17:59.182Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3990f4aa029ad81f82405b9ae95bdc98ba9dface4bfb7883cbfb5f82f081614c",
+  "signature": "c3cabb338e8efcff32d7c05eb24f1e12713a7ccfa5c503b0b7c63c527b253333",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-ragstacklambda"
 }

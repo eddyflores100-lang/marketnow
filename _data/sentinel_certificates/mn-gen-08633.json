@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7205450",
+  "certificate_id": "MN-SC-2026-7118756",
   "skill_id": "mn-gen-08633",
   "skill_name": "warden-mcp",
-  "issued_at": "2026-10-25T05:46:45.450Z",
-  "expires_at": "2026-11-01T05:46:45.450Z",
+  "issued_at": "2026-11-01T07:11:58.756Z",
+  "expires_at": "2026-11-08T07:11:58.756Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "127dfc9a74f99fed91da4b1911012451bb923a4e77cf7dd1330e1a00134f7dda",
+  "signature": "b8827dea17fe0895167f02aaff33d04aa0b9c106ee6af582dd6d276d06149a38",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-08633"
 }

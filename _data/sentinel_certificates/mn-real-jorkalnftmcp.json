@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7486851",
+  "certificate_id": "MN-SC-2026-7402348",
   "skill_id": "mn-real-jorkalnftmcp",
   "skill_name": "jorkal-nft-mcp",
-  "issued_at": "2026-10-25T05:51:26.851Z",
-  "expires_at": "2026-11-01T05:51:26.851Z",
+  "issued_at": "2026-11-01T07:16:42.348Z",
+  "expires_at": "2026-11-08T07:16:42.348Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e5f7484bb866670e466b1efab4428320afbdd4451cf553c8965b956e30e3f622",
+  "signature": "b3d8a033e8b6b230d16c81c0a0f5faad37cb35d8c69cc9ee39326262db192f75",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-jorkalnftmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7214917",
+  "certificate_id": "MN-SC-2026-7128851",
   "skill_id": "mn-gen-09724",
   "skill_name": "obsidian-mcp-plugin",
-  "issued_at": "2026-10-25T05:46:54.917Z",
-  "expires_at": "2026-11-01T05:46:54.917Z",
+  "issued_at": "2026-11-01T07:12:08.851Z",
+  "expires_at": "2026-11-08T07:12:08.851Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3ab93b522a9e9061f7a81e0a08ced26e6fd317bee06b5c9f3c0c508559039112",
+  "signature": "a6f29e3d75628f19a2118d7c81e84aabe6a0d08b2a42f36cb351eb3df21bc761",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09724"
 }

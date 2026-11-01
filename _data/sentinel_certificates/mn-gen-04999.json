@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7169663",
+  "certificate_id": "MN-SC-2026-7081725",
   "skill_id": "mn-gen-04999",
   "skill_name": "human-in-the-loop",
-  "issued_at": "2026-10-25T05:46:09.663Z",
-  "expires_at": "2026-11-01T05:46:09.663Z",
+  "issued_at": "2026-11-01T07:11:21.725Z",
+  "expires_at": "2026-11-08T07:11:21.725Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "bdc9e4754fbc99862834aaa9689cb497e4b4c013f991125fdb758dcc4ad398e0",
+  "signature": "8a655e681f23e8a7443fc14489fb2303969b8c777aaaf742841488e7a164b79c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04999"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7141410",
+  "certificate_id": "MN-SC-2026-7052073",
   "skill_id": "mn-gen-02586",
   "skill_name": "codewiki-mcp",
-  "issued_at": "2026-10-25T05:45:41.410Z",
-  "expires_at": "2026-11-01T05:45:41.410Z",
+  "issued_at": "2026-11-01T07:10:52.073Z",
+  "expires_at": "2026-11-08T07:10:52.073Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "db4fe9dc233686e107676550c8e088cca6942c4bd21365af2f025ab7d030417b",
+  "signature": "60d1c14def09885e43fbfc0e0e6f9a41b0716bf426d314f451170ca71b4fd913",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02586"
 }

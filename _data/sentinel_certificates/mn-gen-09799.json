@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7215977",
+  "certificate_id": "MN-SC-2026-7129877",
   "skill_id": "mn-gen-09799",
   "skill_name": "agency-orchestrator",
-  "issued_at": "2026-10-25T05:46:55.977Z",
-  "expires_at": "2026-11-01T05:46:55.977Z",
+  "issued_at": "2026-11-01T07:12:09.877Z",
+  "expires_at": "2026-11-08T07:12:09.877Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c8a44664eac612001146ea96cacd2bc2760f9cab4b52c858f6f423a9a0584cae",
+  "signature": "45e0a65a9c141cd510a127b37b04d4f8347103d353385c57f5fe9f3495196cd5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09799"
 }

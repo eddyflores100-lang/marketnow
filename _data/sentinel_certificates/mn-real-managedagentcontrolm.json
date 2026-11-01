@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7406868",
+  "certificate_id": "MN-SC-2026-7321845",
   "skill_id": "mn-real-managedagentcontrolm",
   "skill_name": "managed-agent-control-mcp",
-  "issued_at": "2026-10-25T05:50:06.868Z",
-  "expires_at": "2026-11-01T05:50:06.868Z",
+  "issued_at": "2026-11-01T07:15:21.845Z",
+  "expires_at": "2026-11-08T07:15:21.845Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "305b308b8743690348326d8fbf5e56f8f51d1be94ff03632e975867caeee08d4",
+  "signature": "193d21c729ae584a7bc0028124345f02a8c18b20e9a1ac5ce623f272225b108b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-managedagentcontrolm"
 }

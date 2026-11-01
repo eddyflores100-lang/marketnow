@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7263083",
+  "certificate_id": "MN-SC-2026-7178514",
   "skill_id": "mn-awmcp-roundtable",
   "skill_name": "roundtable",
-  "issued_at": "2026-10-25T05:47:43.083Z",
-  "expires_at": "2026-11-01T05:47:43.083Z",
+  "issued_at": "2026-11-01T07:12:58.514Z",
+  "expires_at": "2026-11-08T07:12:58.514Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7a3d62f12869aed41f46451285d88e55a8e8fb920523fe014c3852f717eea50b",
+  "signature": "aede5d645775b8bba8348e31a8e52c260bb52159db5dd079785add8c6dbf5fc1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-roundtable"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7390089",
+  "certificate_id": "MN-SC-2026-7304376",
   "skill_id": "mn-real-mcprunsqlconnectorx",
   "skill_name": "mcp-run-sql-connectorx",
-  "issued_at": "2026-10-25T05:49:50.089Z",
-  "expires_at": "2026-11-01T05:49:50.089Z",
+  "issued_at": "2026-11-01T07:15:04.376Z",
+  "expires_at": "2026-11-08T07:15:04.376Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9f2ba7cb4de49500f1566c03dd38da8a04b854ab80288f7ba7efda4db4766588",
+  "signature": "d9bbeb9f36c87fd57a33f13534a5cae6dc314d3bb05b0072bb3a1f6877a0f167",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcprunsqlconnectorx"
 }

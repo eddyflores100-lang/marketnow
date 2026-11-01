@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7568213",
+  "certificate_id": "MN-SC-2026-7485131",
   "skill_id": "mn-real-wellread",
   "skill_name": "wellread",
-  "issued_at": "2026-10-25T05:52:48.213Z",
-  "expires_at": "2026-11-01T05:52:48.213Z",
+  "issued_at": "2026-11-01T07:18:05.131Z",
+  "expires_at": "2026-11-08T07:18:05.131Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b75e1280ec45ef726820f48d4e350046190cec2ae702f0df90cf358caefe5c1e",
+  "signature": "a04c8c7f95376148705f22db2f18e0da75f03cb8f84216691a3925c8297ac8f1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-wellread"
 }

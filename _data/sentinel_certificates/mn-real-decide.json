@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7494018",
+  "certificate_id": "MN-SC-2026-7409612",
   "skill_id": "mn-real-decide",
   "skill_name": "decide",
-  "issued_at": "2026-10-25T05:51:34.018Z",
-  "expires_at": "2026-11-01T05:51:34.018Z",
+  "issued_at": "2026-11-01T07:16:49.612Z",
+  "expires_at": "2026-11-08T07:16:49.612Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6c4a909a3883fbad064cb2483bfd4afe24574f5afe851ac617a845ff56e2efaa",
+  "signature": "6a4a26c25bb43230af1d13330663095b6faa087074ba4a01a18d76edda788f5d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-decide"
 }

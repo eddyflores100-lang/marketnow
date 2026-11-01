@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7279321",
+  "certificate_id": "MN-SC-2026-7194711",
   "skill_id": "mn-awmcp-liquid",
   "skill_name": "liquid",
-  "issued_at": "2026-10-25T05:47:59.321Z",
-  "expires_at": "2026-11-01T05:47:59.321Z",
+  "issued_at": "2026-11-01T07:13:14.711Z",
+  "expires_at": "2026-11-08T07:13:14.711Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b875532b069b1a3ab90b1f232c4f8849337e6dcc8d701bbb3cdaf2afdbc44ca2",
+  "signature": "12ffbe540c06ff9c21e062d714c8a0747812993336b3a09ecad976baaad80fcc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-liquid"
 }

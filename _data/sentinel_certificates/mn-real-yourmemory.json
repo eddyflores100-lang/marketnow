@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7573779",
+  "certificate_id": "MN-SC-2026-7490620",
   "skill_id": "mn-real-yourmemory",
   "skill_name": "YourMemory",
-  "issued_at": "2026-10-25T05:52:53.779Z",
-  "expires_at": "2026-11-01T05:52:53.779Z",
+  "issued_at": "2026-11-01T07:18:10.620Z",
+  "expires_at": "2026-11-08T07:18:10.620Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "33ec96b921c3093085fcc842e9eca5eca7572cdd4a668c19815cac10ef588e08",
+  "signature": "fac148576acbb75358bd4f50a4310c741f1b36da58139b4575b12254f855f3cb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-yourmemory"
 }

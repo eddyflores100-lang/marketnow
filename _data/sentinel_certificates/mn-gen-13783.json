@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7249802",
+  "certificate_id": "MN-SC-2026-7164817",
   "skill_id": "mn-gen-13783",
   "skill_name": "zendesk-mcp",
-  "issued_at": "2026-10-25T05:47:29.802Z",
-  "expires_at": "2026-11-01T05:47:29.802Z",
+  "issued_at": "2026-11-01T07:12:44.817Z",
+  "expires_at": "2026-11-08T07:12:44.817Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d4f99742ece51f69873c877d7af8563324638d446ec888c7c5a866bd272a1e1a",
+  "signature": "a6ca9c2cfdb44eb34c89de63443eebb87839a2885acdb8a4d77a41eb78c1916b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13783"
 }

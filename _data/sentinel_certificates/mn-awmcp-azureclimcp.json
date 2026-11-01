@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7324651",
+  "certificate_id": "MN-SC-2026-7241000",
   "skill_id": "mn-awmcp-azureclimcp",
   "skill_name": "azure-cli-mcp",
-  "issued_at": "2026-10-25T05:48:44.651Z",
-  "expires_at": "2026-11-01T05:48:44.651Z",
+  "issued_at": "2026-11-01T07:14:01.000Z",
+  "expires_at": "2026-11-08T07:14:01.000Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0e08516f59fd67ba9626a0276ca0e1e2d74465bf39c8071eae15576d29060cef",
+  "signature": "72fe4f505440df0e55117b039f22a9c7cf5b2bd17dd39c1c6308e6f285c96301",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-azureclimcp"
 }

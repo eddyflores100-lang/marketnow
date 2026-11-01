@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7354402",
+  "certificate_id": "MN-SC-2026-7268754",
   "skill_id": "mn-awmcp-codegraphcontext",
   "skill_name": "CodeGraphContext",
-  "issued_at": "2026-10-25T05:49:14.402Z",
-  "expires_at": "2026-11-01T05:49:14.402Z",
+  "issued_at": "2026-11-01T07:14:28.754Z",
+  "expires_at": "2026-11-08T07:14:28.754Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7bdf86103441277eaabf0bd11aafe61b48feb471c4c1bdffcaf17514142f23ce",
+  "signature": "4101c17c58dc37420f1110e67e73cd7b0f4b286e9cb32289c6148d653e3a4590",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-codegraphcontext"
 }

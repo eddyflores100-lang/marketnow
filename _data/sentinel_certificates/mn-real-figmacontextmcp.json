@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7425611",
+  "certificate_id": "MN-SC-2026-7340929",
   "skill_id": "mn-real-figmacontextmcp",
   "skill_name": "Figma-Context-MCP",
-  "issued_at": "2026-10-25T05:50:25.611Z",
-  "expires_at": "2026-11-01T05:50:25.611Z",
+  "issued_at": "2026-11-01T07:15:40.929Z",
+  "expires_at": "2026-11-08T07:15:40.929Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "690b6faa0f54d24c6c84e5127638d1c92f1a7d200bab89dcb7de4e24b0163eea",
+  "signature": "476d828765a757539480cb307aac6b1c5b9064187c0cb1eff006715e7f7573ad",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-figmacontextmcp"
 }

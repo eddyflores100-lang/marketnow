@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7484336",
+  "certificate_id": "MN-SC-2026-7399947",
   "skill_id": "mn-real-hledgermcp",
   "skill_name": "hledger-mcp",
-  "issued_at": "2026-10-25T05:51:24.336Z",
-  "expires_at": "2026-11-01T05:51:24.336Z",
+  "issued_at": "2026-11-01T07:16:39.947Z",
+  "expires_at": "2026-11-08T07:16:39.947Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4c5a5810c6ec3daf1e3ef6f01fa8a40cf5f85e3f0c6b832dd55d0cd3204833a3",
+  "signature": "5be31a669042913fb0784d0ad09977c8a702eeba185ef04be5d3d2e4b658a8eb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-hledgermcp"
 }

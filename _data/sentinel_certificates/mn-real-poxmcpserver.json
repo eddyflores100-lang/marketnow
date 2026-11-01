@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7422662",
+  "certificate_id": "MN-SC-2026-7338039",
   "skill_id": "mn-real-poxmcpserver",
   "skill_name": "pox-mcp-server",
-  "issued_at": "2026-10-25T05:50:22.662Z",
-  "expires_at": "2026-11-01T05:50:22.662Z",
+  "issued_at": "2026-11-01T07:15:38.039Z",
+  "expires_at": "2026-11-08T07:15:38.039Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2f67415a20f7326103cab000e56818c0f75c41adfe842543a859e828fe5ccc2a",
+  "signature": "db66eba0974f8f355b377e35b0e621d083e06fc1ce79745d46bcc5720851ac58",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-poxmcpserver"
 }

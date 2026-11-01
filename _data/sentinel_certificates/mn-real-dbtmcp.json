@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7402079",
+  "certificate_id": "MN-SC-2026-7316735",
   "skill_id": "mn-real-dbtmcp",
   "skill_name": "dbt-mcp",
-  "issued_at": "2026-10-25T05:50:02.079Z",
-  "expires_at": "2026-11-01T05:50:02.079Z",
+  "issued_at": "2026-11-01T07:15:16.735Z",
+  "expires_at": "2026-11-08T07:15:16.735Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ef71375ab818dbfa7c83b92ad4cae71e25aa698ccaa14adbb7143bf8b4ee33ec",
+  "signature": "dc53d1f46ab3a4ea2df2b516fa25fa30e8a470c29ef648e5a08f923e56a2b6ef",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-dbtmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7161406",
+  "certificate_id": "MN-SC-2026-7071207",
   "skill_id": "mn-ai-04258",
   "skill_name": "mcpfusion",
-  "issued_at": "2026-10-25T05:46:01.406Z",
-  "expires_at": "2026-11-01T05:46:01.406Z",
+  "issued_at": "2026-11-01T07:11:11.207Z",
+  "expires_at": "2026-11-08T07:11:11.207Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2036412ac01e663041a7584ef141a07964ca6a8ce40b663c589c2805f56f9970",
+  "signature": "133b7eb4e0661e45a7bd6609bd57429a830096f030fce7f06afe89232e8badc6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-ai-04258"
 }

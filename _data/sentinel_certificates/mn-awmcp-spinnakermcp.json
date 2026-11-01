@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7322690",
+  "certificate_id": "MN-SC-2026-7238933",
   "skill_id": "mn-awmcp-spinnakermcp",
   "skill_name": "spinnaker-mcp",
-  "issued_at": "2026-10-25T05:48:42.690Z",
-  "expires_at": "2026-11-01T05:48:42.690Z",
+  "issued_at": "2026-11-01T07:13:58.933Z",
+  "expires_at": "2026-11-08T07:13:58.933Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0a850ddcd82b1beef30ba4fd40002d45aae44c3d0db04ff322709c9affc6a08f",
+  "signature": "1e103d096f6f154fad9d4c7a84be555c90d32aea0dc0f91ca52c1d528e960ddf",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-spinnakermcp"
 }

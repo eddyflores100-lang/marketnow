@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7218275",
+  "certificate_id": "MN-SC-2026-7132499",
   "skill_id": "mn-gen-10186",
   "skill_name": "pantheon-mcp",
-  "issued_at": "2026-10-25T05:46:58.275Z",
-  "expires_at": "2026-11-01T05:46:58.275Z",
+  "issued_at": "2026-11-01T07:12:12.499Z",
+  "expires_at": "2026-11-08T07:12:12.499Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f02377a8ede790f2b66007cab61719c8c4ab1990debdd1900522c467d1a1ae58",
+  "signature": "8f97936276444d160f8bc4dc5cc193bdd90c386b6e033c98904935dd43d15b81",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-10186"
 }

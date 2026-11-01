@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7466820",
+  "certificate_id": "MN-SC-2026-7381842",
   "skill_id": "mn-real-dingo",
   "skill_name": "dingo",
-  "issued_at": "2026-10-25T05:51:06.820Z",
-  "expires_at": "2026-11-01T05:51:06.820Z",
+  "issued_at": "2026-11-01T07:16:21.842Z",
+  "expires_at": "2026-11-08T07:16:21.842Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2d873898f89bbc2dfea2f24914dc0d655a5ead5d41c97c9903408b76be80170f",
+  "signature": "dee5d691bfab44e89a7d73b19c2d2f6441416b9e0c6ffcfedd44763401e6959d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-dingo"
 }

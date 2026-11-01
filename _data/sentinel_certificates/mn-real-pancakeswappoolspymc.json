@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7515190",
+  "certificate_id": "MN-SC-2026-7431417",
   "skill_id": "mn-real-pancakeswappoolspymc",
   "skill_name": "pancakeswap-poolspy-mcp",
-  "issued_at": "2026-10-25T05:51:55.190Z",
-  "expires_at": "2026-11-01T05:51:55.190Z",
+  "issued_at": "2026-11-01T07:17:11.417Z",
+  "expires_at": "2026-11-08T07:17:11.417Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "bac406e14e8c14114e41ded01bae439e43c949581c9f049576e2e292c129a679",
+  "signature": "36b64cebc5f089d87f06e3cb19ef22e8102bb2d725be189c014281e3ffe5085c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-pancakeswappoolspymc"
 }

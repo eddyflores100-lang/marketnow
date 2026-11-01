@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7387738",
+  "certificate_id": "MN-SC-2026-7302014",
   "skill_id": "mn-real-mcpcockroachdb",
   "skill_name": "mcp-cockroachdb",
-  "issued_at": "2026-10-25T05:49:47.738Z",
-  "expires_at": "2026-11-01T05:49:47.738Z",
+  "issued_at": "2026-11-01T07:15:02.014Z",
+  "expires_at": "2026-11-08T07:15:02.014Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9378b5a46210e236d3cfd53e1f79aa5145e6b8dea457b0b8403db145b16423dc",
+  "signature": "3936e010506d2de377e41a8a5123cfaa4ee4b0fedf69c282f582459ad6aa55be",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpcockroachdb"
 }

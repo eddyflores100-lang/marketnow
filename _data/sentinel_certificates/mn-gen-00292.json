@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7119982",
+  "certificate_id": "MN-SC-2026-7030886",
   "skill_id": "mn-gen-00292",
   "skill_name": "agent-skill-loader",
-  "issued_at": "2026-10-25T05:45:19.982Z",
-  "expires_at": "2026-11-01T05:45:19.982Z",
+  "issued_at": "2026-11-01T07:10:30.886Z",
+  "expires_at": "2026-11-08T07:10:30.886Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1bec5527b3fa2751893ff88a86d9ecf922c953a61f92ab83cb47a817b93678eb",
+  "signature": "96b686b45ad7a17d0ba3c62351c63ccf0be7299a50505dedfb40fdafe43c1379",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00292"
 }

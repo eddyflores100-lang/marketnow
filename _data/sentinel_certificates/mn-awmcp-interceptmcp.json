@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7303053",
+  "certificate_id": "MN-SC-2026-7219208",
   "skill_id": "mn-awmcp-interceptmcp",
   "skill_name": "intercept-mcp",
-  "issued_at": "2026-10-25T05:48:23.053Z",
-  "expires_at": "2026-11-01T05:48:23.053Z",
+  "issued_at": "2026-11-01T07:13:39.208Z",
+  "expires_at": "2026-11-08T07:13:39.208Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5f533cf8c5f557e0d0e9c0c6ca435efd4e1fb41d733418530d5422295f61f58b",
+  "signature": "18efb8ed46a9a54e92d6807fb92113790e9d2adfbf0cc118a2198563584ceaf3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-interceptmcp"
 }
