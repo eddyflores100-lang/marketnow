@@ -1,20 +1,20 @@
 {
   "audit_type": "sentinel-l16-batch",
-  "timestamp": "2026-10-25T03:53:11.382Z",
+  "timestamp": "2026-11-01T05:02:54.003Z",
   "tools": {
     "semgrep": {
       "rules": 18,
       "findings": 0
     },
     "gitleaks": {
-      "findings": 609
+      "findings": 608
     },
     "osv": {
       "vulnerabilities": 1
     }
   },
   "totals": {
-    "critical": 609,
+    "critical": 608,
     "high": 0,
     "medium": 0
   },
@@ -47,104 +47,98 @@
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 14424,
-      "secret": "Conr…2740"
-    },
-    {
-      "rule": "generic-api-key",
-      "file": "_data/discovery_queue.json",
-      "startLine": 17822,
-      "secret": "abdo…z124"
-    },
-    {
-      "rule": "generic-api-key",
-      "file": "_data/discovery_queue.json",
-      "startLine": 17893,
-      "secret": "abdu…k4vr"
-    },
-    {
-      "rule": "generic-api-key",
-      "file": "_data/discovery_queue.json",
-      "startLine": 18319,
-      "secret": "abhi…1047"
-    },
-    {
-      "rule": "generic-api-key",
-      "file": "_data/discovery_queue.json",
-      "startLine": 24082,
+      "startLine": 5078,
       "secret": "Alex…CGO2"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 25314,
+      "startLine": 6310,
       "secret": "aman…3110"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 40076,
+      "startLine": 21072,
       "secret": "capt…e210"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 47809,
+      "startLine": 28805,
       "secret": "chri…e310"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 89067,
+      "startLine": 70063,
       "secret": "corb…al48"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 94594,
+      "startLine": 75590,
       "secret": "Bris…2026"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 95360,
+      "startLine": 76356,
       "secret": "Timu…in86"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 101116,
+      "startLine": 82112,
       "secret": "prav…1180"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 118114,
+      "startLine": 99110,
       "secret": "irin…-oss"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 118185,
+      "startLine": 99181,
       "secret": "irin…-oss"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 121572,
+      "startLine": 102568,
       "secret": "Eric…g799"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 131812,
+      "startLine": 112808,
       "secret": "sach…le27"
     },
     {
       "rule": "generic-api-key",
       "file": "_data/discovery_queue.json",
-      "startLine": 139743,
+      "startLine": 120739,
       "secret": "noor…izen"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "_data/discovery_queue.json",
+      "startLine": 132920,
+      "secret": "eddy…lang"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "_data/discovery_queue.json",
+      "startLine": 133204,
+      "secret": "ansh…1976"
+    },
+    {
+      "rule": "generic-api-key",
+      "file": "_data/discovery_queue.json",
+      "startLine": 138733,
+      "secret": "Kalp…0212"
     },
     {
       "rule": "aws-access-token",
