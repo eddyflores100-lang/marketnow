@@ -1,1044 +1,19 @@
 {
   "schema": "marketnow-discovery-queue/1.0",
-  "generated_at": "2026-10-31T08:40:06.442Z",
+  "generated_at": "2026-11-01T06:38:19.943Z",
   "mode": "queue — review before import",
-  "note": "Candidatos descubiertos (awesome-mcp + GitHub Search + mcpservers.org sitemaps + Smithery registry + npm search, L1.7 pre-filtrado). Glama: bloqueado (render client-side, sin API pública). La importación al catálogo es deliberada (flujo dev): exige actualizar la constelación de conteos (skills-lite, free-skills, stats-base.discovery, catalog-meta, mcp.json, ai-plugin.json, landing) y regenerar certification.json para no recrear el drift F-02. Consumir con scripts/auto-discover-mcp.mjs --import + sync de conteos.",
+  "note": "Candidatos descubiertos (awesome-mcp + GitHub Search, L1.7 pre-filtrado). La importación al catálogo es deliberada (flujo dev): exige actualizar la constelación de conteos (skills-lite, free-skills, stats-base.discovery, catalog-meta, mcp.json, ai-plugin.json, landing) y regenerar certification.json para no recrear el drift F-02. Consumir con scripts/auto-discover-mcp.mjs --import + sync de conteos.",
   "stats": {
-    "discovered_mcpservers_org": 11914,
-    "discovered_smithery": 500,
-    "discovered_npm": 1501,
-    "cross_validated": 3,
-    "already_in_catalog": 4072,
-    "already_in_queue": 381,
-    "enriched_github": 1913,
-    "enrichment_backlog": 5061,
-    "npm_enriched": 188,
-    "smithery_only": 0,
-    "l17_blocked": 0,
-    "queued_new": 0,
-    "queued_total": 2000,
-    "glama": "blocked — client-side rendering, no public API (documented)"
+    "discovered_awesome": 4628,
+    "discovered_github": 765,
+    "already_in_catalog": 4160,
+    "imported": 1058,
+    "replaced": 0,
+    "marked_synthetic": 0,
+    "total_before": 71198,
+    "total_after": 72256
   },
   "entries": [
-    {
-      "repo": "https://github.com/AceAtDev/odysseus-web-mcp",
-      "kind": "new",
-      "status": "imported",
-      "queued_at": "2026-10-02T04:11:06.630Z",
-      "skill": {
-        "id": "mn-real-odysseuswebmcp",
-        "name": "odysseus-web-mcp",
-        "slug": "real-odysseus-web-mcp",
-        "description": "Secure MCP server for public web search and URL fetching.",
-        "category": "Search",
-        "tags": [
-          "mcp",
-          "real",
-          "python",
-          "aceatdev",
-          "ai-agents",
-          "claude-code",
-          "codex",
-          "cursor",
-          "mcp"
-        ],
-        "price": 0,
-        "currency": "USD",
-        "payment": "free",
-        "license": "See repo",
-        "verified": false,
-        "sentinel_score": 7,
-        "install": "uvx odysseus-web-mcp || pip install odysseus-web-mcp",
-        "author": "AceAtDev",
-        "version": "1.0.0",
-        "doc": {
-          "setup": {
-            "required_env": [],
-            "install": "uvx odysseus-web-mcp || pip install odysseus-web-mcp",
-            "estimated_cost": "free"
-          },
-          "usage": "agent.call('real-odysseus-web-mcp', { ... })",
-          "system_prompt": "# odysseus-web-mcp\n\n## Source\nhttps://github.com/AceAtDev/odysseus-web-mcp\n\n## Description\nSecure MCP server for public web search and URL fetching.\n\n## Stars\n0\n\n## Language\nPython\n"
-        },
-        "capabilities": {
-          "execution_context": "local_runtime",
-          "requires_auth": false,
-          "requires_network": false,
-          "input_types": [
-            "json"
-          ],
-          "output_types": [
-            "json",
-            "text"
-          ]
-        },
-        "sentinel": {
-          "scanned_at": "2026-10-02T04:09:42.159Z",
-          "scan_version": "L1.5+L1.6+L1.7",
-          "warnings": []
-        },
-        "source": {
-          "type": "github",
-          "url": "https://github.com/AceAtDev/odysseus-web-mcp",
-          "note": "Real MCP server. 0 stars. Language: Python. Last push: 2026-09-09T00:18:05Z. Discovered via external directory discovery (mcpservers.org).",
-          "stars": 0,
-          "language": "Python",
-          "last_push": "2026-09-09T00:18:05Z"
-        },
-        "l2_eligible": true,
-        "synthetic": false,
-        "discovered_at": "2026-10-02T04:09:42.159Z",
-        "discovered_by": "external-discover-mcp.mjs",
-        "discovered_via": [
-          "mcpservers.org"
-        ]
-      },
-      "imported_at": "2026-10-02T04:36:04.041Z",
-      "imported_into": "mn-real-odysseuswebmcp"
-    },
-    {
-      "repo": "https://github.com/acquo/line-bot-mcp-server-sse",
-      "kind": "new",
-      "status": "imported",
-      "queued_at": "2026-10-02T04:11:06.630Z",
-      "skill": {
-        "id": "mn-real-linebotmcpserversse",
-        "name": "line-bot-mcp-server-sse",
-        "slug": "real-line-bot-mcp-server-sse",
-        "description": "MCP server from acquo/line-bot-mcp-server-sse",
-        "category": "Developer Tools",
-        "tags": [
-          "mcp",
-          "real",
-          "typescript",
-          "acquo"
-        ],
-        "price": 0,
-        "currency": "USD",
-        "payment": "free",
-        "license": "Apache-2.0",
-        "verified": false,
-        "sentinel_score": 7,
-        "install": "npx -y line-bot-mcp-server-sse || git clone https://github.com/acquo/line-bot-mcp-server-sse",
-        "author": "acquo",
-        "version": "1.0.0",
-        "doc": {
-          "setup": {
-            "required_env": [],
-            "install": "npx -y line-bot-mcp-server-sse || git clone https://github.com/acquo/line-bot-mcp-server-sse",
-            "estimated_cost": "free"
-          },
-          "usage": "agent.call('real-line-bot-mcp-server-sse', { ... })",
-          "system_prompt": "# line-bot-mcp-server-sse\n\n## Source\nhttps://github.com/acquo/line-bot-mcp-server-sse\n\n## Description\n(no description)\n\n## Stars\n0\n\n## Language\nTypeScript\n"
-        },
-        "capabilities": {
-          "execution_context": "local_runtime",
-          "requires_auth": false,
-          "requires_network": false,
-          "input_types": [
-            "json"
-          ],
-          "output_types": [
-            "json",
-            "text"
-          ]
-        },
-        "sentinel": {
-          "scanned_at": "2026-10-02T04:09:42.159Z",
-          "scan_version": "L1.5+L1.6+L1.7",
-          "warnings": []
-        },
-        "source": {
-          "type": "github",
-          "url": "https://github.com/acquo/line-bot-mcp-server-sse",
-          "note": "Real MCP server. 0 stars. Language: TypeScript. Last push: 2025-06-23T13:21:11Z. Discovered via external directory discovery (mcpservers.org).",
-          "stars": 0,
-          "language": "TypeScript",
-          "last_push": "2025-06-23T13:21:11Z"
-        },
-        "l2_eligible": true,
-        "synthetic": false,
-        "discovered_at": "2026-10-02T04:09:42.159Z",
-        "discovered_by": "external-discover-mcp.mjs",
-        "discovered_via": [
-          "mcpservers.org"
-        ]
-      },
-      "imported_at": "2026-10-02T04:36:04.041Z",
-      "imported_into": "mn-real-linebotmcpserversse"
-    },
-    {
-      "repo": "https://github.com/acro5piano/yagms",
-      "kind": "new",
-      "status": "imported",
-      "queued_at": "2026-10-02T04:11:06.630Z",
-      "skill": {
-        "id": "mn-real-yagms",
-        "name": "yagms",
-        "slug": "real-yagms",
-        "description": "Yet Another Gmail MCP Server",
-        "category": "Developer Tools",
-        "tags": [
-          "mcp",
-          "real",
-          "javascript",
-          "acro5piano"
-        ],
-        "price": 0,
-        "currency": "USD",
-        "payment": "free",
-        "license": "MIT",
-        "verified": false,
-        "sentinel_score": 7,
-        "install": "npx -y yagms || git clone https://github.com/acro5piano/yagms",
-        "author": "acro5piano",
-        "version": "1.0.0",
-        "doc": {
-          "setup": {
-            "required_env": [],
-            "install": "npx -y yagms || git clone https://github.com/acro5piano/yagms",
-            "estimated_cost": "free"
-          },
-          "usage": "agent.call('real-yagms', { ... })",
-          "system_prompt": "# yagms\n\n## Source\nhttps://github.com/acro5piano/yagms\n\n## Description\nYet Another Gmail MCP Server\n\n## Stars\n0\n\n## Language\nJavaScript\n"
-        },
-        "capabilities": {
-          "execution_context": "local_runtime",
-          "requires_auth": false,
-          "requires_network": false,
-          "input_types": [
-            "json"
-          ],
-          "output_types": [
-            "json",
-            "text"
-          ]
-        },
-        "sentinel": {
-          "scanned_at": "2026-10-02T04:09:42.159Z",
-          "scan_version": "L1.5+L1.6+L1.7",
-          "warnings": []
-        },
-        "source": {
-          "type": "github",
-          "url": "https://github.com/acro5piano/yagms",
-          "note": "Real MCP server. 0 stars. Language: JavaScript. Last push: 2025-06-23T08:05:42Z. Discovered via external directory discovery (mcpservers.org).",
-          "stars": 0,
-          "language": "JavaScript",
-          "last_push": "2025-06-23T08:05:42Z"
-        },
-        "l2_eligible": true,
-        "synthetic": false,
-        "discovered_at": "2026-10-02T04:09:42.159Z",
-        "discovered_by": "external-discover-mcp.mjs",
-        "discovered_via": [
-          "mcpservers.org"
-        ]
-      },
-      "imported_at": "2026-10-02T04:36:04.041Z",
-      "imported_into": "mn-real-yagms"
-    },
-    {
-      "repo": "https://github.com/ACT-chao/green-screen-cutout-assets-skill",
-      "kind": "new",
-      "status": "imported",
-      "queued_at": "2026-10-02T04:11:06.630Z",
-      "skill": {
-        "id": "mn-real-greenscreencutoutass",
-        "name": "green-screen-cutout-assets-skill",
-        "slug": "real-green-screen-cutout-assets-skill",
-        "description": "Codex skill for green-screen asset generation and transparent PNG cutouts",
-        "category": "Developer Tools",
-        "tags": [
-          "mcp",
-          "real",
-          "python",
-          "act-chao",
-          "app-assets",
-          "asset-pipeline",
-          "chroma-key",
-          "codex-skill",
-          "game-assets"
-        ],
-        "price": 0,
-        "currency": "USD",
-        "payment": "free",
-        "license": "See repo",
-        "verified": false,
-        "sentinel_score": 7,
-        "install": "uvx green-screen-cutout-assets-skill || pip install green-screen-cutout-assets-skill",
-        "author": "ACT-chao",
-        "version": "1.0.0",
-        "doc": {
-          "setup": {
-            "required_env": [],
-            "install": "uvx green-screen-cutout-assets-skill || pip install green-screen-cutout-assets-skill",
-            "estimated_cost": "free"
-          },
-          "usage": "agent.call('real-green-screen-cutout-assets-skill', { ... })",
-          "system_prompt": "# green-screen-cutout-assets-skill\n\n## Source\nhttps://github.com/ACT-chao/green-screen-cutout-assets-skill\n\n## Description\nCodex skill for green-screen asset generation and transparent PNG cutouts\n\n## Stars\n0\n\n## Language\nPython\n"
-        },
-        "capabilities": {
-          "execution_context": "local_runtime",
-          "requires_auth": false,
-          "requires_network": false,
-          "input_types": [
-            "json"
-          ],
-          "output_types": [
-            "json",
-            "text"
-          ]
-        },
-        "sentinel": {
-          "scanned_at": "2026-10-02T04:09:42.159Z",
-          "scan_version": "L1.5+L1.6+L1.7",
-          "warnings": []
-        },
-        "source": {
-          "type": "github",
-          "url": "https://github.com/ACT-chao/green-screen-cutout-assets-skill",
-          "note": "Real MCP server. 0 stars. Language: Python. Last push: 2026-06-26T10:32:42Z. Discovered via external directory discovery (mcpservers.org).",
-          "stars": 0,
-          "language": "Python",
-          "last_push": "2026-06-26T10:32:42Z"
-        },
-        "l2_eligible": true,
-        "synthetic": false,
-        "discovered_at": "2026-10-02T04:09:42.159Z",
-        "discovered_by": "external-discover-mcp.mjs",
-        "discovered_via": [
-          "mcpservers.org"
-        ]
-      },
-      "imported_at": "2026-10-02T04:36:04.041Z",
-      "imported_into": "mn-real-greenscreencutoutass"
-    },
-    {
-      "repo": "https://github.com/acxelerator/mcp-tenki",
-      "kind": "new",
-      "status": "imported",
-      "queued_at": "2026-10-02T04:11:06.630Z",
-      "skill": {
-        "id": "mn-real-mcptenki",
-        "name": "mcp-tenki",
-        "slug": "real-mcp-tenki",
-        "description": "MCP server from acxelerator/mcp-tenki",
-        "category": "Developer Tools",
-        "tags": [
-          "mcp",
-          "real",
-          "python",
-          "acxelerator"
-        ],
-        "price": 0,
-        "currency": "USD",
-        "payment": "free",
-        "license": "MIT",
-        "verified": false,
-        "sentinel_score": 7,
-        "install": "uvx mcp-tenki || pip install mcp-tenki",
-        "author": "acxelerator",
-        "version": "1.0.0",
-        "doc": {
-          "setup": {
-            "required_env": [],
-            "install": "uvx mcp-tenki || pip install mcp-tenki",
-            "estimated_cost": "free"
-          },
-          "usage": "agent.call('real-mcp-tenki', { ... })",
-          "system_prompt": "# mcp-tenki\n\n## Source\nhttps://github.com/acxelerator/mcp-tenki\n\n## Description\n(no description)\n\n## Stars\n0\n\n## Language\nPython\n"
-        },
-        "capabilities": {
-          "execution_context": "local_runtime",
-          "requires_auth": false,
-          "requires_network": false,
-          "input_types": [
-            "json"
-          ],
-          "output_types": [
-            "json",
-            "text"
-          ]
-        },
-        "sentinel": {
-          "scanned_at": "2026-10-02T04:09:42.159Z",
-          "scan_version": "L1.5+L1.6+L1.7",
-          "warnings": []
-        },
-        "source": {
-          "type": "github",
-          "url": "https://github.com/acxelerator/mcp-tenki",
-          "note": "Real MCP server. 0 stars. Language: Python. Last push: 2026-02-25T16:24:21Z. Discovered via external directory discovery (mcpservers.org).",
-          "stars": 0,
-          "language": "Python",
-          "last_push": "2026-02-25T16:24:21Z"
-        },
-        "l2_eligible": true,
-        "synthetic": false,
-        "discovered_at": "2026-10-02T04:09:42.159Z",
-        "discovered_by": "external-discover-mcp.mjs",
-        "discovered_via": [
-          "mcpservers.org"
-        ]
-      },
-      "imported_at": "2026-10-02T04:36:04.041Z",
-      "imported_into": "mn-real-mcptenki"
-    },
-    {
-      "repo": "https://github.com/ad-vertly/adextract-mcp-server",
-      "kind": "new",
-      "status": "imported",
-      "queued_at": "2026-10-02T04:11:06.630Z",
-      "skill": {
-        "id": "mn-real-adextractmcpserver",
-        "name": "adextract-mcp-server",
-        "slug": "real-adextract-mcp-server",
-        "description": "MCP server for AI agents - search Meta, Google Ads, LinkedIn & TikTok ad libraries and analyze ad creatives with ad_reader. 50 free searches.",
-        "category": "Search",
-        "tags": [
-          "mcp",
-          "real",
-          "html",
-          "ad-vertly",
-          "ad-intelligence",
-          "ad-library",
-          "ad-spy",
-          "ai-agents",
-          "competitive-intelligence"
-        ],
-        "price": 0,
-        "currency": "USD",
-        "payment": "free",
-        "license": "MIT",
-        "verified": false,
-        "sentinel_score": 7,
-        "install": "npx -y adextract-mcp-server || git clone https://github.com/ad-vertly/adextract-mcp-server",
-        "author": "ad-vertly",
-        "version": "1.0.0",
-        "doc": {
-          "setup": {
-            "required_env": [],
-            "install": "npx -y adextract-mcp-server || git clone https://github.com/ad-vertly/adextract-mcp-server",
-            "estimated_cost": "free"
-          },
-          "usage": "agent.call('real-adextract-mcp-server', { ... })",
-          "system_prompt": "# adextract-mcp-server\n\n## Source\nhttps://github.com/ad-vertly/adextract-mcp-server\n\n## Description\nMCP server for AI agents - search Meta, Google Ads, LinkedIn & TikTok ad libraries and analyze ad creatives with ad_reader. 50 free searches.\n\n## Stars\n0\n\n## Language\nHTML\n"
-        },
-        "capabilities": {
-          "execution_context": "local_runtime",
-          "requires_auth": false,
-          "requires_network": false,
-          "input_types": [
-            "json"
-          ],
-          "output_types": [
-            "json",
-            "text"
-          ]
-        },
-        "sentinel": {
-          "scanned_at": "2026-10-02T04:09:42.159Z",
-          "scan_version": "L1.5+L1.6+L1.7",
-          "warnings": []
-        },
-        "source": {
-          "type": "github",
-          "url": "https://github.com/ad-vertly/adextract-mcp-server",
-          "note": "Real MCP server. 0 stars. Language: HTML. Last push: 2026-08-30T18:22:21Z. Discovered via external directory discovery (mcpservers.org).",
-          "stars": 0,
-          "language": "HTML",
-          "last_push": "2026-08-30T18:22:21Z"
-        },
-        "l2_eligible": true,
-        "synthetic": false,
-        "discovered_at": "2026-10-02T04:09:42.159Z",
-        "discovered_by": "external-discover-mcp.mjs",
-        "discovered_via": [
-          "mcpservers.org"
-        ]
-      },
-      "imported_at": "2026-10-02T04:36:04.041Z",
-      "imported_into": "mn-real-adextractmcpserver"
-    },
-    {
-      "repo": "https://github.com/ad/mcp-project-helper",
-      "kind": "new",
-      "status": "imported",
-      "queued_at": "2026-10-02T04:11:06.630Z",
-      "skill": {
-        "id": "mn-real-mcpprojecthelper",
-        "name": "mcp-project-helper",
-        "slug": "real-mcp-project-helper",
-        "description": "MCP server from ad/mcp-project-helper",
-        "category": "Developer Tools",
-        "tags": [
-          "mcp",
-          "real",
-          "go",
-          "ad"
-        ],
-        "price": 0,
-        "currency": "USD",
-        "payment": "free",
-        "license": "MIT",
-        "verified": false,
-        "sentinel_score": 7,
-        "install": "go install github.com/ad/mcp-project-helper",
-        "author": "ad",
-        "version": "1.0.0",
-        "doc": {
-          "setup": {
-            "required_env": [],
-            "install": "go install github.com/ad/mcp-project-helper",
-            "estimated_cost": "free"
-          },
-          "usage": "agent.call('real-mcp-project-helper', { ... })",
-          "system_prompt": "# mcp-project-helper\n\n## Source\nhttps://github.com/ad/mcp-project-helper\n\n## Description\n(no description)\n\n## Stars\n0\n\n## Language\nGo\n"
-        },
-        "capabilities": {
-          "execution_context": "local_runtime",
-          "requires_auth": false,
-          "requires_network": false,
-          "input_types": [
-            "json"
-          ],
-          "output_types": [
-            "json",
-            "text"
-          ]
-        },
-        "sentinel": {
-          "scanned_at": "2026-10-02T04:09:42.159Z",
-          "scan_version": "L1.5+L1.6+L1.7",
-          "warnings": []
-        },
-        "source": {
-          "type": "github",
-          "url": "https://github.com/ad/mcp-project-helper",
-          "note": "Real MCP server. 0 stars. Language: Go. Last push: 2026-09-28T21:44:03Z. Discovered via external directory discovery (mcpservers.org).",
-          "stars": 0,
-          "language": "Go",
-          "last_push": "2026-09-28T21:44:03Z"
-        },
-        "l2_eligible": true,
-        "synthetic": false,
-        "discovered_at": "2026-10-02T04:09:42.159Z",
-        "discovered_by": "external-discover-mcp.mjs",
-        "discovered_via": [
-          "mcpservers.org"
-        ]
-      },
-      "imported_at": "2026-10-02T04:36:04.041Z",
-      "imported_into": "mn-real-mcpprojecthelper"
-    },
-    {
-      "repo": "https://github.com/adamdude828/mcp-browser-use",
-      "kind": "new",
-      "status": "imported",
-      "queued_at": "2026-10-02T04:11:06.630Z",
-      "skill": {
-        "id": "mn-real-mcpbrowseruse",
-        "name": "mcp-browser-use",
-        "slug": "real-mcp-browser-use",
-        "description": "MCP server from adamdude828/mcp-browser-use",
-        "category": "Developer Tools",
-        "tags": [
-          "mcp",
-          "real",
-          "python",
-          "adamdude828"
-        ],
-        "price": 0,
-        "currency": "USD",
-        "payment": "free",
-        "license": "See repo",
-        "verified": false,
-        "sentinel_score": 7,
-        "install": "uvx mcp-browser-use || pip install mcp-browser-use",
-        "author": "adamdude828",
-        "version": "1.0.0",
-        "doc": {
-          "setup": {
-            "required_env": [],
-            "install": "uvx mcp-browser-use || pip install mcp-browser-use",
-            "estimated_cost": "free"
-          },
-          "usage": "agent.call('real-mcp-browser-use', { ... })",
-          "system_prompt": "# mcp-browser-use\n\n## Source\nhttps://github.com/adamdude828/mcp-browser-use\n\n## Description\n(no description)\n\n## Stars\n0\n\n## Language\nPython\n"
-        },
-        "capabilities": {
-          "execution_context": "local_runtime",
-          "requires_auth": false,
-          "requires_network": false,
-          "input_types": [
-            "json"
-          ],
-          "output_types": [
-            "json",
-            "text"
-          ]
-        },
-        "sentinel": {
-          "scanned_at": "2026-10-02T04:09:42.159Z",
-          "scan_version": "L1.5+L1.6+L1.7",
-          "warnings": []
-        },
-        "source": {
-          "type": "github",
-          "url": "https://github.com/adamdude828/mcp-browser-use",
-          "note": "Real MCP server. 0 stars. Language: Python. Last push: 2025-02-05T01:13:06Z. Discovered via external directory discovery (mcpservers.org).",
-          "stars": 0,
-          "language": "Python",
-          "last_push": "2025-02-05T01:13:06Z"
-        },
-        "l2_eligible": true,
-        "synthetic": false,
-        "discovered_at": "2026-10-02T04:09:42.159Z",
-        "discovered_by": "external-discover-mcp.mjs",
-        "discovered_via": [
-          "mcpservers.org"
-        ]
-      },
-      "imported_at": "2026-10-02T04:36:04.041Z",
-      "imported_into": "mn-real-mcpbrowseruse"
-    },
-    {
-      "repo": "https://github.com/adamksn/aturanorg",
-      "kind": "new",
-      "status": "imported",
-      "queued_at": "2026-10-02T04:11:06.630Z",
-      "skill": {
-        "id": "mn-real-aturanorg",
-        "name": "aturanorg",
-        "slug": "real-aturanorg",
-        "description": "Aturan.org is Indonesia’s first public semantic search for laws and regulations, AI-ready with an MCP server, REST API, and web app for legal research.",
-        "category": "Data",
-        "tags": [
-          "mcp",
-          "real",
-          "unknown",
-          "adamksn",
-          "ai-agent-tools",
-          "ai-native",
-          "indonesian-law",
-          "knowledge-base",
-          "legal-ai"
-        ],
-        "price": 0,
-        "currency": "USD",
-        "payment": "free",
-        "license": "See repo",
-        "verified": false,
-        "sentinel_score": 7,
-        "install": "npx -y aturanorg || git clone https://github.com/adamksn/aturanorg",
-        "author": "adamksn",
-        "version": "1.0.0",
-        "doc": {
-          "setup": {
-            "required_env": [],
-            "install": "npx -y aturanorg || git clone https://github.com/adamksn/aturanorg",
-            "estimated_cost": "free"
-          },
-          "usage": "agent.call('real-aturanorg', { ... })",
-          "system_prompt": "# aturanorg\n\n## Source\nhttps://github.com/adamksn/aturanorg\n\n## Description\nAturan.org is Indonesia’s first public semantic search for laws and regulations, AI-ready with an MCP server, REST API, and web app for legal research.\n\n## Stars\n0\n\n## Language\nUnknown\n"
-        },
-        "capabilities": {
-          "execution_context": "local_runtime",
-          "requires_auth": false,
-          "requires_network": true,
-          "input_types": [
-            "json"
-          ],
-          "output_types": [
-            "json",
-            "text"
-          ]
-        },
-        "sentinel": {
-          "scanned_at": "2026-10-02T04:09:43.420Z",
-          "scan_version": "L1.5+L1.6+L1.7",
-          "warnings": []
-        },
-        "source": {
-          "type": "github",
-          "url": "https://github.com/adamksn/aturanorg",
-          "note": "Real MCP server. 0 stars. Language: Unknown. Last push: 2026-09-28T03:03:52Z. Discovered via external directory discovery (mcpservers.org).",
-          "stars": 0,
-          "language": "Unknown",
-          "last_push": "2026-09-28T03:03:52Z"
-        },
-        "l2_eligible": true,
-        "synthetic": false,
-        "discovered_at": "2026-10-02T04:09:43.420Z",
-        "discovered_by": "external-discover-mcp.mjs",
-        "discovered_via": [
-          "mcpservers.org"
-        ]
-      },
-      "imported_at": "2026-10-02T04:36:04.041Z",
-      "imported_into": "mn-real-aturanorg"
-    },
-    {
-      "repo": "https://github.com/AdamTovatt/file-mover-mcp",
-      "kind": "new",
-      "status": "imported",
-      "queued_at": "2026-10-02T04:11:06.630Z",
-      "skill": {
-        "id": "mn-real-filemovermcp",
-        "name": "file-mover-mcp",
-        "slug": "real-file-mover-mcp",
-        "description": "A file mover tool that stages and executes file moves safely. Works as both a CLI tool and an MCP (Model Context Protocol) server for AI agents.",
-        "category": "File System",
-        "tags": [
-          "mcp",
-          "real",
-          "c#",
-          "adamtovatt"
-        ],
-        "price": 0,
-        "currency": "USD",
-        "payment": "free",
-        "license": "MIT",
-        "verified": false,
-        "sentinel_score": 7,
-        "install": "npx -y file-mover-mcp || git clone https://github.com/AdamTovatt/file-mover-mcp",
-        "author": "AdamTovatt",
-        "version": "1.0.0",
-        "doc": {
-          "setup": {
-            "required_env": [],
-            "install": "npx -y file-mover-mcp || git clone https://github.com/AdamTovatt/file-mover-mcp",
-            "estimated_cost": "free"
-          },
-          "usage": "agent.call('real-file-mover-mcp', { ... })",
-          "system_prompt": "# file-mover-mcp\n\n## Source\nhttps://github.com/AdamTovatt/file-mover-mcp\n\n## Description\nA file mover tool that stages and executes file moves safely. Works as both a CLI tool and an MCP (Model Context Protocol) server for AI agents.\n\n## Stars\n0\n\n## Language\nC#\n"
-        },
-        "capabilities": {
-          "execution_context": "local_runtime",
-          "requires_auth": false,
-          "requires_network": false,
-          "input_types": [
-            "json"
-          ],
-          "output_types": [
-            "json",
-            "text"
-          ]
-        },
-        "sentinel": {
-          "scanned_at": "2026-10-02T04:09:43.420Z",
-          "scan_version": "L1.5+L1.6+L1.7",
-          "warnings": []
-        },
-        "source": {
-          "type": "github",
-          "url": "https://github.com/AdamTovatt/file-mover-mcp",
-          "note": "Real MCP server. 0 stars. Language: C#. Last push: 2026-04-10T08:03:29Z. Discovered via external directory discovery (mcpservers.org).",
-          "stars": 0,
-          "language": "C#",
-          "last_push": "2026-04-10T08:03:29Z"
-        },
-        "l2_eligible": true,
-        "synthetic": false,
-        "discovered_at": "2026-10-02T04:09:43.420Z",
-        "discovered_by": "external-discover-mcp.mjs",
-        "discovered_via": [
-          "mcpservers.org"
-        ]
-      },
-      "imported_at": "2026-10-02T04:36:04.041Z",
-      "imported_into": "mn-real-filemovermcp"
-    },
-    {
-      "repo": "https://github.com/netzencatura/remote-mcp-server-authless",
-      "kind": "new",
-      "status": "imported",
-      "queued_at": "2026-10-02T04:11:06.630Z",
-      "skill": {
-        "id": "mn-real-remotemcpserveraut2",
-        "name": "remote-mcp-server-authless",
-        "slug": "real-remote-mcp-server-authless",
-        "description": "MCP server from netzencatura/remote-mcp-server-authless",
-        "category": "Developer Tools",
-        "tags": [
-          "mcp",
-          "real",
-          "typescript",
-          "netzencatura"
-        ],
-        "price": 0,
-        "currency": "USD",
-        "payment": "free",
-        "license": "See repo",
-        "verified": false,
-        "sentinel_score": 7,
-        "install": "npx -y remote-mcp-server-authless || git clone https://github.com/netzencatura/remote-mcp-server-authless",
-        "author": "netzencatura",
-        "version": "1.0.0",
-        "doc": {
-          "setup": {
-            "required_env": [],
-            "install": "npx -y remote-mcp-server-authless || git clone https://github.com/netzencatura/remote-mcp-server-authless",
-            "estimated_cost": "free"
-          },
-          "usage": "agent.call('real-remote-mcp-server-authless', { ... })",
-          "system_prompt": "# remote-mcp-server-authless\n\n## Source\nhttps://github.com/netzencatura/remote-mcp-server-authless\n\n## Description\n(no description)\n\n## Stars\n0\n\n## Language\nTypeScript\n"
-        },
-        "capabilities": {
-          "execution_context": "local_runtime",
-          "requires_auth": false,
-          "requires_network": false,
-          "input_types": [
-            "json"
-          ],
-          "output_types": [
-            "json",
-            "text"
-          ]
-        },
-        "sentinel": {
-          "scanned_at": "2026-10-02T04:09:43.420Z",
-          "scan_version": "L1.5+L1.6+L1.7",
-          "warnings": []
-        },
-        "source": {
-          "type": "github",
-          "url": "https://github.com/netzencatura/remote-mcp-server-authless",
-          "note": "Real MCP server. 0 stars. Language: TypeScript. Last push: 2025-06-27T16:00:09Z. Discovered via external directory discovery (mcpservers.org).",
-          "stars": 0,
-          "language": "TypeScript",
-          "last_push": "2025-06-27T16:00:09Z"
-        },
-        "l2_eligible": true,
-        "synthetic": false,
-        "discovered_at": "2026-10-02T04:09:43.420Z",
-        "discovered_by": "external-discover-mcp.mjs",
-        "discovered_via": [
-          "mcpservers.org"
-        ]
-      },
-      "imported_at": "2026-10-02T04:36:04.041Z",
-      "imported_into": "mn-real-remotemcpserveraut2"
-    },
-    {
-      "repo": "https://github.com/AdeshAtole/telegram-notifier-mcp",
-      "kind": "new",
-      "status": "imported",
-      "queued_at": "2026-10-02T04:11:06.630Z",
-      "skill": {
-        "id": "mn-real-telegramnotifiermcp",
-        "name": "telegram-notifier-mcp",
-        "slug": "real-telegram-notifier-mcp",
-        "description": "MCP server for sending notifications via Telegram Bot API",
-        "category": "Communication",
-        "tags": [
-          "mcp",
-          "real",
-          "javascript",
-          "adeshatole"
-        ],
-        "price": 0,
-        "currency": "USD",
-        "payment": "free",
-        "license": "See repo",
-        "verified": false,
-        "sentinel_score": 7,
-        "install": "npx -y telegram-notifier-mcp || git clone https://github.com/AdeshAtole/telegram-notifier-mcp",
-        "author": "AdeshAtole",
-        "version": "1.0.0",
-        "doc": {
-          "setup": {
-            "required_env": [],
-            "install": "npx -y telegram-notifier-mcp || git clone https://github.com/AdeshAtole/telegram-notifier-mcp",
-            "estimated_cost": "free"
-          },
-          "usage": "agent.call('real-telegram-notifier-mcp', { ... })",
-          "system_prompt": "# telegram-notifier-mcp\n\n## Source\nhttps://github.com/AdeshAtole/telegram-notifier-mcp\n\n## Description\nMCP server for sending notifications via Telegram Bot API\n\n## Stars\n0\n\n## Language\nJavaScript\n"
-        },
-        "capabilities": {
-          "execution_context": "local_runtime",
-          "requires_auth": false,
-          "requires_network": true,
-          "input_types": [
-            "json"
-          ],
-          "output_types": [
-            "json",
-            "text"
-          ]
-        },
-        "sentinel": {
-          "scanned_at": "2026-10-02T04:09:43.420Z",
-          "scan_version": "L1.5+L1.6+L1.7",
-          "warnings": []
-        },
-        "source": {
-          "type": "github",
-          "url": "https://github.com/AdeshAtole/telegram-notifier-mcp",
-          "note": "Real MCP server. 0 stars. Language: JavaScript. Last push: 2026-02-14T19:27:31Z. Discovered via external directory discovery (mcpservers.org).",
-          "stars": 0,
-          "language": "JavaScript",
-          "last_push": "2026-02-14T19:27:31Z"
-        },
-        "l2_eligible": true,
-        "synthetic": false,
-        "discovered_at": "2026-10-02T04:09:43.420Z",
-        "discovered_by": "external-discover-mcp.mjs",
-        "discovered_via": [
-          "mcpservers.org"
-        ]
-      },
-      "imported_at": "2026-10-02T04:36:04.041Z",
-      "imported_into": "mn-real-telegramnotifiermcp"
-    },
-    {
-      "repo": "https://github.com/AdesiaHQ/phonotheca-mcp",
-      "kind": "new",
-      "status": "imported",
-      "queued_at": "2026-10-02T04:11:06.630Z",
-      "skill": {
-        "id": "mn-real-phonothecamcp",
-        "name": "phonotheca-mcp",
-        "slug": "real-phonotheca-mcp",
-        "description": "Remote MCP server for Phonotheca: search and read your interview transcripts from Claude or any MCP client",
-        "category": "Search",
-        "tags": [
-          "mcp",
-          "real",
-          "unknown",
-          "adesiahq",
-          "interviews",
-          "mcp",
-          "mcp-server",
-          "model-context-protocol",
-          "qualitative-research"
-        ],
-        "price": 0,
-        "currency": "USD",
-        "payment": "free",
-        "license": "See repo",
-        "verified": false,
-        "sentinel_score": 7,
-        "install": "npx -y phonotheca-mcp || git clone https://github.com/AdesiaHQ/phonotheca-mcp",
-        "author": "AdesiaHQ",
-        "version": "1.0.0",
-        "doc": {
-          "setup": {
-            "required_env": [],
-            "install": "npx -y phonotheca-mcp || git clone https://github.com/AdesiaHQ/phonotheca-mcp",
-            "estimated_cost": "free"
-          },
-          "usage": "agent.call('real-phonotheca-mcp', { ... })",
-          "system_prompt": "# phonotheca-mcp\n\n## Source\nhttps://github.com/AdesiaHQ/phonotheca-mcp\n\n## Description\nRemote MCP server for Phonotheca: search and read your interview transcripts from Claude or any MCP client\n\n## Stars\n0\n\n## Language\nUnknown\n"
-        },
-        "capabilities": {
-          "execution_context": "local_runtime",
-          "requires_auth": false,
-          "requires_network": false,
-          "input_types": [
-            "json"
-          ],
-          "output_types": [
-            "json",
-            "text"
-          ]
-        },
-        "sentinel": {
-          "scanned_at": "2026-10-02T04:09:43.420Z",
-          "scan_version": "L1.5+L1.6+L1.7",
-          "warnings": []
-        },
-        "source": {
-          "type": "github",
-          "url": "https://github.com/AdesiaHQ/phonotheca-mcp",
-          "note": "Real MCP server. 0 stars. Language: Unknown. Last push: 2026-08-22T09:07:01Z. Discovered via external directory discovery (mcpservers.org).",
-          "stars": 0,
-          "language": "Unknown",
-          "last_push": "2026-08-22T09:07:01Z"
-        },
-        "l2_eligible": true,
-        "synthetic": false,
-        "discovered_at": "2026-10-02T04:09:43.420Z",
-        "discovered_by": "external-discover-mcp.mjs",
-        "discovered_via": [
-          "mcpservers.org"
-        ]
-      },
-      "imported_at": "2026-10-02T04:36:04.041Z",
-      "imported_into": "mn-real-phonothecamcp"
-    },
-    {
-      "repo": "https://github.com/adesulaiman/mcp-redmine",
-      "kind": "new",
-      "status": "imported",
-      "queued_at": "2026-10-02T04:11:06.630Z",
-      "skill": {
-        "id": "mn-real-mcpredmine2",
-        "name": "mcp-redmine",
-        "slug": "real-mcp-redmine",
-        "description": "MCP server from adesulaiman/mcp-redmine",
-        "category": "Developer Tools",
-        "tags": [
-          "mcp",
-          "real",
-          "python",
-          "adesulaiman"
-        ],
-        "price": 0,
-        "currency": "USD",
-        "payment": "free",
-        "license": "See repo",
-        "verified": false,
-        "sentinel_score": 7,
-        "install": "uvx mcp-redmine || pip install mcp-redmine",
-        "author": "adesulaiman",
-        "version": "1.0.0",
-        "doc": {
-          "setup": {
-            "required_env": [],
-            "install": "uvx mcp-redmine || pip install mcp-redmine",
-            "estimated_cost": "free"
-          },
-          "usage": "agent.call('real-mcp-redmine', { ... })",
-          "system_prompt": "# mcp-redmine\n\n## Source\nhttps://github.com/adesulaiman/mcp-redmine\n\n## Description\n(no description)\n\n## Stars\n0\n\n## Language\nPython\n"
-        },
-        "capabilities": {
-          "execution_context": "local_runtime",
-          "requires_auth": false,
-          "requires_network": false,
-          "input_types": [
-            "json"
-          ],
-          "output_types": [
-            "json",
-            "text"
-          ]
-        },
-        "sentinel": {
-          "scanned_at": "2026-10-02T04:09:44.473Z",
-          "scan_version": "L1.5+L1.6+L1.7",
-          "warnings": []
-        },
-        "source": {
-          "type": "github",
-          "url": "https://github.com/adesulaiman/mcp-redmine",
-          "note": "Real MCP server. 0 stars. Language: Python. Last push: 2025-06-15T14:48:27Z. Discovered via external directory discovery (mcpservers.org).",
-          "stars": 0,
-          "language": "Python",
-          "last_push": "2025-06-15T14:48:27Z"
-        },
-        "l2_eligible": true,
-        "synthetic": false,
-        "discovered_at": "2026-10-02T04:09:44.473Z",
-        "discovered_by": "external-discover-mcp.mjs",
-        "discovered_via": [
-          "mcpservers.org"
-        ]
-      },
-      "imported_at": "2026-10-02T04:36:04.041Z",
-      "imported_into": "mn-real-mcpredmine2"
-    },
     {
       "repo": "https://github.com/adiletD/feature-request-collection-mcp",
       "kind": "new",
@@ -141726,6 +140701,995 @@
         "l2_eligible": true,
         "synthetic": false,
         "discovered_at": "2026-10-25T05:06:27.264Z",
+        "discovered_by": "auto-discover-mcp.mjs"
+      }
+    },
+    {
+      "repo": "https://github.com/zovo-one/mcp-statement-of-account",
+      "kind": "new",
+      "status": "pending-review",
+      "queued_at": "2026-11-01T06:38:19.943Z",
+      "skill": {
+        "id": "mn-real-mcpstatementofaccoun",
+        "name": "mcp-statement-of-account",
+        "slug": "real-mcp-statement-of-account",
+        "description": "Model Context Protocol (MCP) server for customer statements of account, accounts receivable and invoice aging. The one document that answers what a client actually owes you, aged as at any date, with the chaser drafted. Works with Claude Desktop, Claude Code and Cursor.",
+        "category": "Developer Tools",
+        "tags": [
+          "mcp",
+          "real",
+          "typescript",
+          "zovo-one",
+          "accounts-receivable",
+          "aging",
+          "ai",
+          "claude",
+          "claude-code"
+        ],
+        "price": 0,
+        "currency": "USD",
+        "payment": "free",
+        "license": "MIT",
+        "verified": false,
+        "sentinel_score": 7,
+        "install": "npx -y mcp-statement-of-account",
+        "author": "zovo-one",
+        "version": "1.0.0",
+        "doc": {
+          "setup": {
+            "required_env": [],
+            "install": "npx -y mcp-statement-of-account",
+            "estimated_cost": "free"
+          },
+          "usage": "agent.call('real-mcp-statement-of-account', { ... })",
+          "system_prompt": "# mcp-statement-of-account\n\n## Source\nhttps://github.com/zovo-one/mcp-statement-of-account\n\n## Description\nModel Context Protocol (MCP) server for customer statements of account, accounts receivable and invoice aging. The one document that answers what a client actually owes you, aged as at any date, with the chaser drafted. Works with Claude Desktop, Claude Code and Cursor.\n\n## Stars\n0\n\n## Language\nTypeScript\n"
+        },
+        "capabilities": {
+          "execution_context": "local_runtime",
+          "requires_auth": false,
+          "requires_network": false,
+          "input_types": [
+            "json"
+          ],
+          "output_types": [
+            "json",
+            "text"
+          ]
+        },
+        "sentinel": {
+          "scanned_at": "2026-11-01T06:38:02.062Z",
+          "scan_version": "L1.5+L1.6+L1.7",
+          "warnings": []
+        },
+        "source": {
+          "type": "github",
+          "url": "https://github.com/zovo-one/mcp-statement-of-account",
+          "note": "Real MCP server. 0 stars. Language: TypeScript. Last push: 2026-09-26T13:01:40Z. Discovered via auto-discovery.",
+          "stars": 0,
+          "language": "TypeScript",
+          "last_push": "2026-09-26T13:01:40Z"
+        },
+        "l2_eligible": true,
+        "synthetic": false,
+        "discovered_at": "2026-11-01T06:38:02.062Z",
+        "discovered_by": "auto-discover-mcp.mjs"
+      }
+    },
+    {
+      "repo": "https://github.com/goyohan0611-png/turnbook",
+      "kind": "new",
+      "status": "pending-review",
+      "queued_at": "2026-11-01T06:38:19.943Z",
+      "skill": {
+        "id": "mn-real-turnbook",
+        "name": "turnbook",
+        "slug": "real-turnbook",
+        "description": "Local long-term memory for AI agents. Keeps every conversation word for word, costs nothing to save, and is shared by all your agents. 88.8% on LongMemEval.",
+        "category": "Version Control",
+        "tags": [
+          "mcp",
+          "real",
+          "python",
+          "goyohan0611-png",
+          "agent-memory",
+          "ai-memory",
+          "claude",
+          "claude-code",
+          "codex"
+        ],
+        "price": 0,
+        "currency": "USD",
+        "payment": "free",
+        "license": "Apache-2.0",
+        "verified": false,
+        "sentinel_score": 7,
+        "install": "pip install turnbook || uvx turnbook",
+        "author": "goyohan0611-png",
+        "version": "1.0.0",
+        "doc": {
+          "setup": {
+            "required_env": [],
+            "install": "pip install turnbook || uvx turnbook",
+            "estimated_cost": "free"
+          },
+          "usage": "agent.call('real-turnbook', { ... })",
+          "system_prompt": "# turnbook\n\n## Source\nhttps://github.com/goyohan0611-png/turnbook\n\n## Description\nLocal long-term memory for AI agents. Keeps every conversation word for word, costs nothing to save, and is shared by all your agents. 88.8% on LongMemEval.\n\n## Stars\n13\n\n## Language\nPython\n"
+        },
+        "capabilities": {
+          "execution_context": "local_runtime",
+          "requires_auth": false,
+          "requires_network": false,
+          "input_types": [
+            "json"
+          ],
+          "output_types": [
+            "json",
+            "text"
+          ]
+        },
+        "sentinel": {
+          "scanned_at": "2026-11-01T06:38:04.213Z",
+          "scan_version": "L1.5+L1.6+L1.7",
+          "warnings": []
+        },
+        "source": {
+          "type": "github",
+          "url": "https://github.com/goyohan0611-png/turnbook",
+          "note": "Real MCP server. 13 stars. Language: Python. Last push: 2026-10-30T11:01:19Z. Discovered via auto-discovery.",
+          "stars": 13,
+          "language": "Python",
+          "last_push": "2026-10-30T11:01:19Z"
+        },
+        "l2_eligible": true,
+        "synthetic": false,
+        "discovered_at": "2026-11-01T06:38:04.213Z",
+        "discovered_by": "auto-discover-mcp.mjs"
+      }
+    },
+    {
+      "repo": "https://github.com/liketrek/TREK",
+      "kind": "new",
+      "status": "pending-review",
+      "queued_at": "2026-11-01T06:38:19.943Z",
+      "skill": {
+        "id": "mn-real-trek",
+        "name": "TREK",
+        "slug": "real-trek",
+        "description": "The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offline PWA, SSO and an AI-ready MCP server, with planet-wide place search and routing built in.",
+        "category": "Search",
+        "tags": [
+          "mcp",
+          "real",
+          "typescript",
+          "liketrek",
+          "budget-tracker",
+          "collaborative",
+          "docker",
+          "itinerary",
+          "mcp-server"
+        ],
+        "price": 0,
+        "currency": "USD",
+        "payment": "free",
+        "license": "AGPL-3.0",
+        "verified": false,
+        "sentinel_score": 7,
+        "install": "npx -y TREK",
+        "author": "liketrek",
+        "version": "1.0.0",
+        "doc": {
+          "setup": {
+            "required_env": [],
+            "install": "npx -y TREK",
+            "estimated_cost": "free"
+          },
+          "usage": "agent.call('real-trek', { ... })",
+          "system_prompt": "# TREK\n\n## Source\nhttps://github.com/liketrek/TREK\n\n## Description\nThe most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offline PWA, SSO and an AI-ready MCP server, with planet-wide place search and routing built in.\n\n## Stars\n15282\n\n## Language\nTypeScript\n"
+        },
+        "capabilities": {
+          "execution_context": "local_runtime",
+          "requires_auth": false,
+          "requires_network": false,
+          "input_types": [
+            "json"
+          ],
+          "output_types": [
+            "json",
+            "text"
+          ]
+        },
+        "sentinel": {
+          "scanned_at": "2026-11-01T06:38:17.032Z",
+          "scan_version": "L1.5+L1.6+L1.7",
+          "warnings": []
+        },
+        "source": {
+          "type": "github",
+          "url": "https://github.com/liketrek/TREK",
+          "note": "Real MCP server. 15282 stars. Language: TypeScript. Last push: 2026-10-31T18:51:59Z. Discovered via auto-discovery.",
+          "stars": 15282,
+          "language": "TypeScript",
+          "last_push": "2026-10-31T18:51:59Z"
+        },
+        "l2_eligible": true,
+        "synthetic": false,
+        "discovered_at": "2026-11-01T06:38:17.032Z",
+        "discovered_by": "auto-discover-mcp.mjs"
+      }
+    },
+    {
+      "repo": "https://github.com/qybaihe/bla",
+      "kind": "new",
+      "status": "pending-review",
+      "queued_at": "2026-11-01T06:38:19.943Z",
+      "skill": {
+        "id": "mn-real-bla",
+        "name": "bla",
+        "slug": "real-bla",
+        "description": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
+        "category": "Security",
+        "tags": [
+          "mcp",
+          "real",
+          "javascript",
+          "qybaihe",
+          "adversarial-ai",
+          "claude-code",
+          "cursor",
+          "electron-security",
+          "llm-security"
+        ],
+        "price": 0,
+        "currency": "USD",
+        "payment": "free",
+        "license": "MIT",
+        "verified": false,
+        "sentinel_score": 7,
+        "install": "npx -y bla",
+        "author": "qybaihe",
+        "version": "1.0.0",
+        "doc": {
+          "setup": {
+            "required_env": [],
+            "install": "npx -y bla",
+            "estimated_cost": "free"
+          },
+          "usage": "agent.call('real-bla', { ... })",
+          "system_prompt": "# bla\n\n## Source\nhttps://github.com/qybaihe/bla\n\n## Description\n🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.\n\n## Stars\n1747\n\n## Language\nJavaScript\n"
+        },
+        "capabilities": {
+          "execution_context": "local_runtime",
+          "requires_auth": false,
+          "requires_network": false,
+          "input_types": [
+            "json"
+          ],
+          "output_types": [
+            "json",
+            "text"
+          ]
+        },
+        "sentinel": {
+          "scanned_at": "2026-11-01T06:38:17.638Z",
+          "scan_version": "L1.5+L1.6+L1.7",
+          "warnings": []
+        },
+        "source": {
+          "type": "github",
+          "url": "https://github.com/qybaihe/bla",
+          "note": "Real MCP server. 1747 stars. Language: JavaScript. Last push: 2026-11-01T05:18:27Z. Discovered via auto-discovery.",
+          "stars": 1747,
+          "language": "JavaScript",
+          "last_push": "2026-11-01T05:18:27Z"
+        },
+        "l2_eligible": true,
+        "synthetic": false,
+        "discovered_at": "2026-11-01T06:38:17.638Z",
+        "discovered_by": "auto-discover-mcp.mjs"
+      }
+    },
+    {
+      "repo": "https://github.com/karust/openserp",
+      "kind": "new",
+      "status": "pending-review",
+      "queued_at": "2026-11-01T06:38:19.943Z",
+      "skill": {
+        "id": "mn-real-openserp",
+        "name": "openserp",
+        "slug": "real-openserp",
+        "description": "Self-hosted web search for AI agents and SEO. Google, Bing, Yandex, Baidu, DuckDuckGo & Ecosia, rendered in a real browser: ranked results and clean page Markdown. API, CLI, MCP 🎉",
+        "category": "Browser Automation",
+        "tags": [
+          "mcp",
+          "real",
+          "go",
+          "karust",
+          "ai-agents",
+          "baidu",
+          "bing",
+          "duckduckgo",
+          "google"
+        ],
+        "price": 0,
+        "currency": "USD",
+        "payment": "free",
+        "license": "MIT",
+        "verified": false,
+        "sentinel_score": 7,
+        "install": "go install github.com/karust/openserp",
+        "author": "karust",
+        "version": "1.0.0",
+        "doc": {
+          "setup": {
+            "required_env": [],
+            "install": "go install github.com/karust/openserp",
+            "estimated_cost": "free"
+          },
+          "usage": "agent.call('real-openserp', { ... })",
+          "system_prompt": "# openserp\n\n## Source\nhttps://github.com/karust/openserp\n\n## Description\nSelf-hosted web search for AI agents and SEO. Google, Bing, Yandex, Baidu, DuckDuckGo & Ecosia, rendered in a real browser: ranked results and clean page Markdown. API, CLI, MCP 🎉\n\n## Stars\n1533\n\n## Language\nGo\n"
+        },
+        "capabilities": {
+          "execution_context": "local_runtime",
+          "requires_auth": false,
+          "requires_network": true,
+          "input_types": [
+            "json"
+          ],
+          "output_types": [
+            "json",
+            "text"
+          ]
+        },
+        "sentinel": {
+          "scanned_at": "2026-11-01T06:38:17.638Z",
+          "scan_version": "L1.5+L1.6+L1.7",
+          "warnings": []
+        },
+        "source": {
+          "type": "github",
+          "url": "https://github.com/karust/openserp",
+          "note": "Real MCP server. 1533 stars. Language: Go. Last push: 2026-10-28T21:56:54Z. Discovered via auto-discovery.",
+          "stars": 1533,
+          "language": "Go",
+          "last_push": "2026-10-28T21:56:54Z"
+        },
+        "l2_eligible": true,
+        "synthetic": false,
+        "discovered_at": "2026-11-01T06:38:17.638Z",
+        "discovered_by": "auto-discover-mcp.mjs"
+      }
+    },
+    {
+      "repo": "https://github.com/akfamily/aktools",
+      "kind": "new",
+      "status": "pending-review",
+      "queued_at": "2026-11-01T06:38:19.943Z",
+      "skill": {
+        "id": "mn-real-aktools",
+        "name": "aktools",
+        "slug": "real-aktools",
+        "description": "HTTP API and MCP server for AKShare: fetch financial data from any programming language or AI assistant (Claude, Cursor)",
+        "category": "Developer Tools",
+        "tags": [
+          "mcp",
+          "real",
+          "python",
+          "akfamily",
+          "ai-agent",
+          "akshare",
+          "claude",
+          "data-science",
+          "fastapi"
+        ],
+        "price": 0,
+        "currency": "USD",
+        "payment": "free",
+        "license": "MIT",
+        "verified": false,
+        "sentinel_score": 7,
+        "install": "pip install aktools || uvx aktools",
+        "author": "akfamily",
+        "version": "1.0.0",
+        "doc": {
+          "setup": {
+            "required_env": [],
+            "install": "pip install aktools || uvx aktools",
+            "estimated_cost": "free"
+          },
+          "usage": "agent.call('real-aktools', { ... })",
+          "system_prompt": "# aktools\n\n## Source\nhttps://github.com/akfamily/aktools\n\n## Description\nHTTP API and MCP server for AKShare: fetch financial data from any programming language or AI assistant (Claude, Cursor)\n\n## Stars\n1504\n\n## Language\nPython\n"
+        },
+        "capabilities": {
+          "execution_context": "local_runtime",
+          "requires_auth": false,
+          "requires_network": true,
+          "input_types": [
+            "json"
+          ],
+          "output_types": [
+            "json",
+            "text"
+          ]
+        },
+        "sentinel": {
+          "scanned_at": "2026-11-01T06:38:17.917Z",
+          "scan_version": "L1.5+L1.6+L1.7",
+          "warnings": []
+        },
+        "source": {
+          "type": "github",
+          "url": "https://github.com/akfamily/aktools",
+          "note": "Real MCP server. 1504 stars. Language: Python. Last push: 2026-10-30T08:10:43Z. Discovered via auto-discovery.",
+          "stars": 1504,
+          "language": "Python",
+          "last_push": "2026-10-30T08:10:43Z"
+        },
+        "l2_eligible": true,
+        "synthetic": false,
+        "discovered_at": "2026-11-01T06:38:17.917Z",
+        "discovered_by": "auto-discover-mcp.mjs"
+      }
+    },
+    {
+      "repo": "https://github.com/reason-machines/reason-network",
+      "kind": "new",
+      "status": "pending-review",
+      "queued_at": "2026-11-01T06:38:19.943Z",
+      "skill": {
+        "id": "mn-real-reasonnetwork",
+        "name": "reason-network",
+        "slug": "real-reason-network",
+        "description": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
+        "category": "Developer Tools",
+        "tags": [
+          "mcp",
+          "real",
+          "rust",
+          "reason-machines",
+          "agent-to-agent",
+          "ai-agents",
+          "claude-code",
+          "codex",
+          "coding-agents"
+        ],
+        "price": 0,
+        "currency": "USD",
+        "payment": "free",
+        "license": "Apache-2.0",
+        "verified": false,
+        "sentinel_score": 7,
+        "install": "cargo install reason-network",
+        "author": "reason-machines",
+        "version": "1.0.0",
+        "doc": {
+          "setup": {
+            "required_env": [],
+            "install": "cargo install reason-network",
+            "estimated_cost": "free"
+          },
+          "usage": "agent.call('real-reason-network', { ... })",
+          "system_prompt": "# reason-network\n\n## Source\nhttps://github.com/reason-machines/reason-network\n\n## Description\nReason Network: your team's coding agents, talking to each other. The engine behind `reason network`.\n\n## Stars\n1417\n\n## Language\nRust\n"
+        },
+        "capabilities": {
+          "execution_context": "local_runtime",
+          "requires_auth": false,
+          "requires_network": false,
+          "input_types": [
+            "json"
+          ],
+          "output_types": [
+            "json",
+            "text"
+          ]
+        },
+        "sentinel": {
+          "scanned_at": "2026-11-01T06:38:17.917Z",
+          "scan_version": "L1.5+L1.6+L1.7",
+          "warnings": []
+        },
+        "source": {
+          "type": "github",
+          "url": "https://github.com/reason-machines/reason-network",
+          "note": "Real MCP server. 1417 stars. Language: Rust. Last push: 2026-10-31T08:09:39Z. Discovered via auto-discovery.",
+          "stars": 1417,
+          "language": "Rust",
+          "last_push": "2026-10-31T08:09:39Z"
+        },
+        "l2_eligible": true,
+        "synthetic": false,
+        "discovered_at": "2026-11-01T06:38:17.917Z",
+        "discovered_by": "auto-discover-mcp.mjs"
+      }
+    },
+    {
+      "repo": "https://github.com/feimacode/open-design-agent-kit",
+      "kind": "new",
+      "status": "pending-review",
+      "queued_at": "2026-11-01T06:38:19.943Z",
+      "skill": {
+        "id": "mn-real-opendesignagentkit",
+        "name": "open-design-agent-kit",
+        "slug": "real-open-design-agent-kit",
+        "description": "Pro-grade UI design built into the coding agent you already use — GitHub Copilot Chat, Claude Code, Codex, Cursor. 270+ design skills, 150+ brand design systems, 160+ remixable examples. No desktop app, no daemon, no API keys — just files in your repo.",
+        "category": "File System",
+        "tags": [
+          "mcp",
+          "real",
+          "html",
+          "feimacode",
+          "ai-agent",
+          "claude-code",
+          "claude-design",
+          "claude-desktop",
+          "codex"
+        ],
+        "price": 0,
+        "currency": "USD",
+        "payment": "free",
+        "license": "MIT",
+        "verified": false,
+        "sentinel_score": 7,
+        "install": "npx -y open-design-agent-kit",
+        "author": "feimacode",
+        "version": "1.0.0",
+        "doc": {
+          "setup": {
+            "required_env": [],
+            "install": "npx -y open-design-agent-kit",
+            "estimated_cost": "free"
+          },
+          "usage": "agent.call('real-open-design-agent-kit', { ... })",
+          "system_prompt": "# open-design-agent-kit\n\n## Source\nhttps://github.com/feimacode/open-design-agent-kit\n\n## Description\nPro-grade UI design built into the coding agent you already use — GitHub Copilot Chat, Claude Code, Codex, Cursor. 270+ design skills, 150+ brand design systems, 160+ remixable examples. No desktop app, no daemon, no API keys — just files in your repo.\n\n## Stars\n675\n\n## Language\nHTML\n"
+        },
+        "capabilities": {
+          "execution_context": "local_runtime",
+          "requires_auth": false,
+          "requires_network": true,
+          "input_types": [
+            "json"
+          ],
+          "output_types": [
+            "json",
+            "text"
+          ]
+        },
+        "sentinel": {
+          "scanned_at": "2026-11-01T06:38:18.753Z",
+          "scan_version": "L1.5+L1.6+L1.7",
+          "warnings": []
+        },
+        "source": {
+          "type": "github",
+          "url": "https://github.com/feimacode/open-design-agent-kit",
+          "note": "Real MCP server. 675 stars. Language: HTML. Last push: 2026-10-31T23:45:33Z. Discovered via auto-discovery.",
+          "stars": 675,
+          "language": "HTML",
+          "last_push": "2026-10-31T23:45:33Z"
+        },
+        "l2_eligible": true,
+        "synthetic": false,
+        "discovered_at": "2026-11-01T06:38:18.753Z",
+        "discovered_by": "auto-discover-mcp.mjs"
+      }
+    },
+    {
+      "repo": "https://github.com/harish-gaggar/mcp-server-gateway",
+      "kind": "new",
+      "status": "pending-review",
+      "queued_at": "2026-11-01T06:38:19.943Z",
+      "skill": {
+        "id": "mn-real-mcpservergateway",
+        "name": "mcp-server-gateway",
+        "slug": "real-mcp-server-gateway",
+        "description": "MCP gateway & OAuth MCP servers. LangGraph agent: memory, eval/tracking, PII guard, context trimming. Docker quick start for enterprise agents.",
+        "category": "AI/ML",
+        "tags": [
+          "mcp",
+          "real",
+          "python",
+          "harish-gaggar",
+          "agentic-ai",
+          "ai-agents",
+          "context-engineering",
+          "enterprise-ai",
+          "langgraph"
+        ],
+        "price": 0,
+        "currency": "USD",
+        "payment": "free",
+        "license": "NOASSERTION",
+        "verified": false,
+        "sentinel_score": 7,
+        "install": "pip install mcp-server-gateway || uvx mcp-server-gateway",
+        "author": "harish-gaggar",
+        "version": "1.0.0",
+        "doc": {
+          "setup": {
+            "required_env": [],
+            "install": "pip install mcp-server-gateway || uvx mcp-server-gateway",
+            "estimated_cost": "free"
+          },
+          "usage": "agent.call('real-mcp-server-gateway', { ... })",
+          "system_prompt": "# mcp-server-gateway\n\n## Source\nhttps://github.com/harish-gaggar/mcp-server-gateway\n\n## Description\nMCP gateway & OAuth MCP servers. LangGraph agent: memory, eval/tracking, PII guard, context trimming. Docker quick start for enterprise agents.\n\n## Stars\n512\n\n## Language\nPython\n"
+        },
+        "capabilities": {
+          "execution_context": "local_runtime",
+          "requires_auth": false,
+          "requires_network": false,
+          "input_types": [
+            "json"
+          ],
+          "output_types": [
+            "json",
+            "text"
+          ]
+        },
+        "sentinel": {
+          "scanned_at": "2026-11-01T06:38:19.048Z",
+          "scan_version": "L1.5+L1.6+L1.7",
+          "warnings": []
+        },
+        "source": {
+          "type": "github",
+          "url": "https://github.com/harish-gaggar/mcp-server-gateway",
+          "note": "Real MCP server. 512 stars. Language: Python. Last push: 2026-10-03T22:57:08Z. Discovered via auto-discovery.",
+          "stars": 512,
+          "language": "Python",
+          "last_push": "2026-10-03T22:57:08Z"
+        },
+        "l2_eligible": true,
+        "synthetic": false,
+        "discovered_at": "2026-11-01T06:38:19.048Z",
+        "discovered_by": "auto-discover-mcp.mjs"
+      }
+    },
+    {
+      "repo": "https://github.com/Graphicle-AI/graphicle",
+      "kind": "new",
+      "status": "pending-review",
+      "queued_at": "2026-11-01T06:38:19.943Z",
+      "skill": {
+        "id": "mn-real-graphicle",
+        "name": "graphicle",
+        "slug": "real-graphicle",
+        "description": "Code graph and memory for your coding agents, in one Rust program. For Claude Code, Codex, Cursor and any MCP client.",
+        "category": "Search",
+        "tags": [
+          "mcp",
+          "real",
+          "rust",
+          "graphicle-ai",
+          "agent-memory",
+          "ai-agents",
+          "claude-code",
+          "code-analysis",
+          "code-graph"
+        ],
+        "price": 0,
+        "currency": "USD",
+        "payment": "free",
+        "license": "Apache-2.0",
+        "verified": false,
+        "sentinel_score": 7,
+        "install": "cargo install graphicle",
+        "author": "Graphicle-AI",
+        "version": "1.0.0",
+        "doc": {
+          "setup": {
+            "required_env": [],
+            "install": "cargo install graphicle",
+            "estimated_cost": "free"
+          },
+          "usage": "agent.call('real-graphicle', { ... })",
+          "system_prompt": "# graphicle\n\n## Source\nhttps://github.com/Graphicle-AI/graphicle\n\n## Description\nCode graph and memory for your coding agents, in one Rust program. For Claude Code, Codex, Cursor and any MCP client.\n\n## Stars\n484\n\n## Language\nRust\n"
+        },
+        "capabilities": {
+          "execution_context": "local_runtime",
+          "requires_auth": false,
+          "requires_network": false,
+          "input_types": [
+            "json"
+          ],
+          "output_types": [
+            "json",
+            "text"
+          ]
+        },
+        "sentinel": {
+          "scanned_at": "2026-11-01T06:38:19.048Z",
+          "scan_version": "L1.5+L1.6+L1.7",
+          "warnings": []
+        },
+        "source": {
+          "type": "github",
+          "url": "https://github.com/Graphicle-AI/graphicle",
+          "note": "Real MCP server. 484 stars. Language: Rust. Last push: 2026-10-30T08:19:55Z. Discovered via auto-discovery.",
+          "stars": 484,
+          "language": "Rust",
+          "last_push": "2026-10-30T08:19:55Z"
+        },
+        "l2_eligible": true,
+        "synthetic": false,
+        "discovered_at": "2026-11-01T06:38:19.048Z",
+        "discovered_by": "auto-discover-mcp.mjs"
+      }
+    },
+    {
+      "repo": "https://github.com/respanai/respan-gateway",
+      "kind": "new",
+      "status": "pending-review",
+      "queued_at": "2026-11-01T06:38:19.943Z",
+      "skill": {
+        "id": "mn-real-respangateway",
+        "name": "respan-gateway",
+        "slug": "real-respan-gateway",
+        "description": "Open-source LLM gateway in Rust. One endpoint for OpenAI, Anthropic, Gemini and every other vendor. Any SDK, any model, any tool.",
+        "category": "Developer Tools",
+        "tags": [
+          "mcp",
+          "real",
+          "rust",
+          "respanai",
+          "ai-agents",
+          "ai-gateway",
+          "ai-proxy",
+          "anthropic",
+          "claude-code"
+        ],
+        "price": 0,
+        "currency": "USD",
+        "payment": "free",
+        "license": "Apache-2.0",
+        "verified": false,
+        "sentinel_score": 7,
+        "install": "cargo install respan-gateway",
+        "author": "respanai",
+        "version": "1.0.0",
+        "doc": {
+          "setup": {
+            "required_env": [],
+            "install": "cargo install respan-gateway",
+            "estimated_cost": "free"
+          },
+          "usage": "agent.call('real-respan-gateway', { ... })",
+          "system_prompt": "# respan-gateway\n\n## Source\nhttps://github.com/respanai/respan-gateway\n\n## Description\nOpen-source LLM gateway in Rust. One endpoint for OpenAI, Anthropic, Gemini and every other vendor. Any SDK, any model, any tool.\n\n## Stars\n439\n\n## Language\nRust\n"
+        },
+        "capabilities": {
+          "execution_context": "local_runtime",
+          "requires_auth": false,
+          "requires_network": false,
+          "input_types": [
+            "json"
+          ],
+          "output_types": [
+            "json",
+            "text"
+          ]
+        },
+        "sentinel": {
+          "scanned_at": "2026-11-01T06:38:19.333Z",
+          "scan_version": "L1.5+L1.6+L1.7",
+          "warnings": []
+        },
+        "source": {
+          "type": "github",
+          "url": "https://github.com/respanai/respan-gateway",
+          "note": "Real MCP server. 439 stars. Language: Rust. Last push: 2026-11-01T04:40:05Z. Discovered via auto-discovery.",
+          "stars": 439,
+          "language": "Rust",
+          "last_push": "2026-11-01T04:40:05Z"
+        },
+        "l2_eligible": true,
+        "synthetic": false,
+        "discovered_at": "2026-11-01T06:38:19.333Z",
+        "discovered_by": "auto-discover-mcp.mjs"
+      }
+    },
+    {
+      "repo": "https://github.com/GTAI-1/flow-mcp",
+      "kind": "new",
+      "status": "pending-review",
+      "queued_at": "2026-11-01T06:38:19.943Z",
+      "skill": {
+        "id": "mn-real-flowmcp",
+        "name": "flow-mcp",
+        "slug": "real-flow-mcp",
+        "description": "Drive Google Flow from Claude, Codex or a local control panel, on Mac or Windows — using your Google AI subscription credits instead of the pay-per-use video API. No browser extension.",
+        "category": "Browser Automation",
+        "tags": [
+          "mcp",
+          "real",
+          "typescript",
+          "gtai-1",
+          "ai-video",
+          "claude",
+          "codex",
+          "google-flow",
+          "mcp"
+        ],
+        "price": 0,
+        "currency": "USD",
+        "payment": "free",
+        "license": "See repo",
+        "verified": false,
+        "sentinel_score": 7,
+        "install": "npx -y flow-mcp",
+        "author": "GTAI-1",
+        "version": "1.0.0",
+        "doc": {
+          "setup": {
+            "required_env": [],
+            "install": "npx -y flow-mcp",
+            "estimated_cost": "free"
+          },
+          "usage": "agent.call('real-flow-mcp', { ... })",
+          "system_prompt": "# flow-mcp\n\n## Source\nhttps://github.com/GTAI-1/flow-mcp\n\n## Description\nDrive Google Flow from Claude, Codex or a local control panel, on Mac or Windows — using your Google AI subscription credits instead of the pay-per-use video API. No browser extension.\n\n## Stars\n425\n\n## Language\nTypeScript\n"
+        },
+        "capabilities": {
+          "execution_context": "local_runtime",
+          "requires_auth": false,
+          "requires_network": true,
+          "input_types": [
+            "json"
+          ],
+          "output_types": [
+            "json",
+            "text"
+          ]
+        },
+        "sentinel": {
+          "scanned_at": "2026-11-01T06:38:19.333Z",
+          "scan_version": "L1.5+L1.6+L1.7",
+          "warnings": []
+        },
+        "source": {
+          "type": "github",
+          "url": "https://github.com/GTAI-1/flow-mcp",
+          "note": "Real MCP server. 425 stars. Language: TypeScript. Last push: 2026-10-23T14:11:46Z. Discovered via auto-discovery.",
+          "stars": 425,
+          "language": "TypeScript",
+          "last_push": "2026-10-23T14:11:46Z"
+        },
+        "l2_eligible": true,
+        "synthetic": false,
+        "discovered_at": "2026-11-01T06:38:19.333Z",
+        "discovered_by": "auto-discover-mcp.mjs"
+      }
+    },
+    {
+      "repo": "https://github.com/leeguooooo/iphone-use",
+      "kind": "new",
+      "status": "pending-review",
+      "queued_at": "2026-11-01T06:38:19.943Z",
+      "skill": {
+        "id": "mn-real-iphoneuse",
+        "name": "iphone-use",
+        "slug": "real-iphone-use",
+        "description": "响应快 省Token， Let AI agents (Claude Code, Codex, any MCP client) drive a real iPhone · 让 AI agent 操作真实 iPhone：读屏、点击、输入、滑动，USB 或 Wi-Fi，自有 XCTest runner，可回放的 App flow。Open source, self-hosted on macOS.",
+        "category": "Developer Tools",
+        "tags": [
+          "mcp",
+          "real",
+          "rust",
+          "leeguooooo",
+          "ai-agent",
+          "automation",
+          "claude-code",
+          "codex",
+          "computer-use"
+        ],
+        "price": 0,
+        "currency": "USD",
+        "payment": "free",
+        "license": "NOASSERTION",
+        "verified": false,
+        "sentinel_score": 7,
+        "install": "cargo install iphone-use",
+        "author": "leeguooooo",
+        "version": "1.0.0",
+        "doc": {
+          "setup": {
+            "required_env": [],
+            "install": "cargo install iphone-use",
+            "estimated_cost": "free"
+          },
+          "usage": "agent.call('real-iphone-use', { ... })",
+          "system_prompt": "# iphone-use\n\n## Source\nhttps://github.com/leeguooooo/iphone-use\n\n## Description\n响应快 省Token， Let AI agents (Claude Code, Codex, any MCP client) drive a real iPhone · 让 AI agent 操作真实 iPhone：读屏、点击、输入、滑动，USB 或 Wi-Fi，自有 XCTest runner，可回放的 App flow。Open source, self-hosted on macOS.\n\n## Stars\n418\n\n## Language\nRust\n"
+        },
+        "capabilities": {
+          "execution_context": "local_runtime",
+          "requires_auth": false,
+          "requires_network": false,
+          "input_types": [
+            "json"
+          ],
+          "output_types": [
+            "json",
+            "text"
+          ]
+        },
+        "sentinel": {
+          "scanned_at": "2026-11-01T06:38:19.333Z",
+          "scan_version": "L1.5+L1.6+L1.7",
+          "warnings": []
+        },
+        "source": {
+          "type": "github",
+          "url": "https://github.com/leeguooooo/iphone-use",
+          "note": "Real MCP server. 418 stars. Language: Rust. Last push: 2026-11-01T06:24:15Z. Discovered via auto-discovery.",
+          "stars": 418,
+          "language": "Rust",
+          "last_push": "2026-11-01T06:24:15Z"
+        },
+        "l2_eligible": true,
+        "synthetic": false,
+        "discovered_at": "2026-11-01T06:38:19.333Z",
+        "discovered_by": "auto-discover-mcp.mjs"
+      }
+    },
+    {
+      "repo": "https://github.com/1llu50ry/mcp-reverse",
+      "kind": "new",
+      "status": "pending-review",
+      "queued_at": "2026-11-01T06:38:19.943Z",
+      "skill": {
+        "id": "mn-real-mcpreverse",
+        "name": "mcp-reverse",
+        "slug": "real-mcp-reverse",
+        "description": "MCP (Model Context Protocol) server for game hacking & reverse engineering. A structured knowledge base of 4,100+ skills with full source code archives, specialized agents, and workflow tools -- designed to be plugged into Claude, Cursor, or any MCP-compatible client.",
+        "category": "AI/ML",
+        "tags": [
+          "mcp",
+          "real",
+          "typescript",
+          "1llu50ry"
+        ],
+        "price": 0,
+        "currency": "USD",
+        "payment": "free",
+        "license": "MIT",
+        "verified": false,
+        "sentinel_score": 7,
+        "install": "npx -y mcp-reverse",
+        "author": "1llu50ry",
+        "version": "1.0.0",
+        "doc": {
+          "setup": {
+            "required_env": [],
+            "install": "npx -y mcp-reverse",
+            "estimated_cost": "free"
+          },
+          "usage": "agent.call('real-mcp-reverse', { ... })",
+          "system_prompt": "# mcp-reverse\n\n## Source\nhttps://github.com/1llu50ry/mcp-reverse\n\n## Description\nMCP (Model Context Protocol) server for game hacking & reverse engineering. A structured knowledge base of 4,100+ skills with full source code archives, specialized agents, and workflow tools -- designed to be plugged into Claude, Cursor, or any MCP-compatible client.\n\n## Stars\n509\n\n## Language\nTypeScript\n"
+        },
+        "capabilities": {
+          "execution_context": "local_runtime",
+          "requires_auth": false,
+          "requires_network": false,
+          "input_types": [
+            "json"
+          ],
+          "output_types": [
+            "json",
+            "text"
+          ]
+        },
+        "sentinel": {
+          "scanned_at": "2026-11-01T06:38:19.619Z",
+          "scan_version": "L1.5+L1.6+L1.7",
+          "warnings": []
+        },
+        "source": {
+          "type": "github",
+          "url": "https://github.com/1llu50ry/mcp-reverse",
+          "note": "Real MCP server. 509 stars. Language: TypeScript. Last push: 2026-10-29T17:13:23Z. Discovered via auto-discovery.",
+          "stars": 509,
+          "language": "TypeScript",
+          "last_push": "2026-10-29T17:13:23Z"
+        },
+        "l2_eligible": true,
+        "synthetic": false,
+        "discovered_at": "2026-11-01T06:38:19.619Z",
         "discovered_by": "auto-discover-mcp.mjs"
       }
     }
