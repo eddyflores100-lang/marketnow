@@ -48,16 +48,47 @@ async function ghJson(url, extra = {}) {
   return { ok: res.ok, status: res.status, json: await res.json().catch(() => ({})) };
 }
 
+const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+
 // Public-read fallback: when the token is intermittently rejected (GitHub
-// returns 401 even on a public repo's tree endpoint), retry without the
-// Authorization header. The repo is public, so anonymous reads succeed.
+// returns 401 even on a public repo's tree endpoint) or rate-limited (403),
+// retry without the Authorization header. The repo is public, so anonymous
+// reads succeed. Transient 403/5xx get a short backoff first.
 async function ghJsonWithPublicFallback(url, extra = {}) {
-  let res = await fetch(url, { headers: { ...authHeaders, ...extra }, signal: AbortSignal.timeout(20000) });
-  if (res.status === 401 && TOKEN) {
-    console.warn('! Authenticated read returned 401 — retrying as anonymous public read.');
-    res = await fetch(url, { headers: { ...anonHeaders, ...extra }, signal: AbortSignal.timeout(20000) });
+  for (let attempt = 0; attempt < 3; attempt++) {
+    let res = await fetch(url, { headers: { ...authHeaders, ...extra }, signal: AbortSignal.timeout(20000) });
+    if (res.status === 401 && TOKEN) {
+      console.warn('! Authenticated read returned 401 — retrying as anonymous public read.');
+      res = await fetch(url, { headers: { ...anonHeaders, ...extra }, signal: AbortSignal.timeout(20000) });
+    } else if ((res.status === 403 || res.status >= 500) && attempt < 2) {
+      const wait = 2000 * (attempt + 1);
+      console.warn(`! Read returned ${res.status} — retrying anonymously in ${wait / 1000}s.`);
+      await sleep(wait);
+      res = await fetch(url, { headers: { ...anonHeaders, ...extra }, signal: AbortSignal.timeout(20000) });
+    }
+    return { ok: res.ok, status: res.status, json: await res.json().catch(() => ({})) };
   }
-  return { ok: res.ok, status: res.status, json: await res.json().catch(() => ({})) };
+}
+
+// ─── 0. Token preflight — fail fast with an actionable message ───────────────
+// Without this, an expired/revoked secret burns the whole run and only shows
+// a generic "Index PUT failed: 401" at the very end.
+if (TOKEN && !DRY_RUN) {
+  const me = await ghJson(`${GH_API}/user`);
+  if (me.status === 401) {
+    console.error('\n✗ MN_SUBMIT_TOKEN is EXPIRED or REVOKED (GET /user → 401).');
+    console.error('  Fix: create a fine-grained token with Contents: Read/Write on');
+    console.error(`  ${SUBMIT_REPO}, then update the repo secret MN_SUBMIT_TOKEN in`);
+    console.error('  eddyflores100-lang/marketnow → Settings → Secrets and variables → Actions.');
+    process.exit(1);
+  }
+  if (me.status === 403 && String(me.json?.message || '').includes('rate limit')) {
+    console.warn('! /user hit the rate limit — continuing (write will still be attempted).');
+  } else if (!me.ok) {
+    console.warn(`! Token preflight returned ${me.status} — continuing anyway.`);
+  } else {
+    console.log(`Token OK (login: ${me.json.login || 'unknown'}).`);
+  }
 }
 
 // ─── 1. List every record in the tree ────────────────────────────────────────
@@ -156,5 +187,14 @@ if (putRes.ok) {
   console.log(`   Listing endpoint /api/submissions now serves ${kept.length} entries.`);
 } else {
   console.error(`\n✗ Index PUT failed: ${putRes.status} ${putJson.message || ''}`);
+  if (putRes.status === 401) {
+    console.error('  401 = the MN_SUBMIT_TOKEN secret is expired/revoked. Regenerate the');
+    console.error('  token (Contents: Read/Write on ' + SUBMIT_REPO + ') and update the repo secret.');
+  } else if (putRes.status === 403) {
+    console.error('  403 = token lacks Contents:Read/Write on ' + SUBMIT_REPO + ', or a rate');
+    console.error('  limit was hit. Check the token scopes/permissions and retry.');
+  } else if (putRes.status === 409) {
+    console.error('  409 = index changed while rebuilding (lost race). Safe to re-run.');
+  }
   process.exit(1);
 }
