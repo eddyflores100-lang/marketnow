@@ -1025,11 +1025,16 @@
       "repo": "parthod0x/satroot",
       "issue_num": 2,
       "username": "minia2auk"
+    },
+    "6592654622": {
+      "repo": "BlockRunAI/blockrun-mcp",
+      "issue_num": 193,
+      "username": "VickyXAI"
     }
   },
   "npm_last_downloads": 344,
   "github_last_stars": 0,
   "last_report": null,
   "initialized_at": "2026-07-10T01:27:15.724696+00:00",
-  "last_check": "2026-11-02T18:15:35.542369+00:00"
+  "last_check": "2026-11-03T01:32:05.396016+00:00"
 }
