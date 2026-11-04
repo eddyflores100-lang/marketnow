@@ -1,32 +1,32 @@
 {
   "$schema": "https://marketnow.site/api/npm-versions.schema.json",
-  "generated_at": "2026-11-03T16:26:51Z",
+  "generated_at": "2026-11-04T16:29:27Z",
   "source": "registry.npmjs.org dist-tags + api.npmjs.org downloads (last-month) — re-derived by scripts/sync_npm_versions.py (weekly workflow + audit gate)",
   "packages": [
     {
       "name": "marketnow-mcp",
       "version": "1.16.1",
-      "dl_month": 1063
+      "dl_month": 1067
     },
     {
       "name": "agent-trust-card",
       "version": "1.4.1",
-      "dl_month": 217
+      "dl_month": 215
     },
     {
       "name": "marketnow-install-stack",
       "version": "1.2.1",
-      "dl_month": 128
+      "dl_month": 126
     },
     {
       "name": "marketnow-audit",
       "version": "1.0.1",
-      "dl_month": 116
+      "dl_month": 117
     },
     {
       "name": "@marketnow/uts",
       "version": "2.0.3",
-      "dl_month": 139
+      "dl_month": 135
     },
     {
       "name": "@marketnow/trust-core",
@@ -41,17 +41,17 @@
     {
       "name": "@marketnow/trust-gateway",
       "version": "1.0.5",
-      "dl_month": 176
+      "dl_month": 170
     },
     {
       "name": "@marketnow/uta-verify",
       "version": "1.0.2",
-      "dl_month": 146
+      "dl_month": 147
     },
     {
       "name": "@marketnow/uta-conformance",
       "version": "1.4.0",
-      "dl_month": 190
+      "dl_month": 173
     },
     {
       "name": "@marketnow/cline-trust-plugin",
@@ -61,22 +61,22 @@
     {
       "name": "@marketnow/sentinel-rules",
       "version": "1.1.2",
-      "dl_month": 201
+      "dl_month": 192
     },
     {
       "name": "@marketnow/trust-mcp-middleware",
       "version": "1.0.2",
-      "dl_month": 166
+      "dl_month": 163
     },
     {
       "name": "@marketnow/trust-observability",
       "version": "1.0.3",
-      "dl_month": 115
+      "dl_month": 113
     }
   ],
   "totals": {
     "packages": 14,
-    "dl_month": 3116
+    "dl_month": 3077
   },
   "conformance_version": "1.4.0",
   "test_vectors": 41,
