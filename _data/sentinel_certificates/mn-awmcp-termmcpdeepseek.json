@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7267778",
+  "certificate_id": "MN-SC-2026-1197624",
   "skill_id": "mn-awmcp-termmcpdeepseek",
   "skill_name": "term_mcp_deepseek",
-  "issued_at": "2026-11-01T07:14:27.778Z",
-  "expires_at": "2026-11-08T07:14:27.778Z",
+  "issued_at": "2026-11-08T06:59:57.624Z",
+  "expires_at": "2026-11-15T06:59:57.624Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "35dcb5d6c3b84e1f541270828f0dfe577b58235c2e751cd84691b2722a13ba6e",
+  "signature": "664e05e641f5ac300e11f79b004bd487f7f4646ed51ba10230b7003ab0b11394",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-termmcpdeepseek"
 }

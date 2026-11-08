@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7419795",
+  "certificate_id": "MN-SC-2026-1293457",
   "skill_id": "mn-real-powersuntronmcp",
   "skill_name": "powersun-tron-mcp",
-  "issued_at": "2026-11-01T07:16:59.795Z",
-  "expires_at": "2026-11-08T07:16:59.795Z",
+  "issued_at": "2026-11-08T07:01:33.457Z",
+  "expires_at": "2026-11-15T07:01:33.457Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c97f396ad54f059c02ae215786f29f2fd235453bb75e3f9b69e8a9b324fa1805",
+  "signature": "f2892df730422257f98ed4b61b6ec8f748e151b71ee6b520fd6982759f305950",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-powersuntronmcp"
 }

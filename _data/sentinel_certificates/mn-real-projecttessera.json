@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7470036",
+  "certificate_id": "MN-SC-2026-1326675",
   "skill_id": "mn-real-projecttessera",
   "skill_name": "project-tessera",
-  "issued_at": "2026-11-01T07:17:50.036Z",
-  "expires_at": "2026-11-08T07:17:50.036Z",
+  "issued_at": "2026-11-08T07:02:06.675Z",
+  "expires_at": "2026-11-15T07:02:06.675Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8c96af70250b81ed5fc957d9be73dccc3bc8c289de070fca8a85a5e5f7660fd8",
+  "signature": "8802da0e10073392704882f839631caf847e2b8961fee7256f793b5367426b9f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-projecttessera"
 }

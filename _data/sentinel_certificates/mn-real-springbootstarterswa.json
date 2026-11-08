@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7355479",
+  "certificate_id": "MN-SC-2026-1251996",
   "skill_id": "mn-real-springbootstarterswa",
   "skill_name": "spring-boot-starter-swagger-mcp",
-  "issued_at": "2026-11-01T07:15:55.479Z",
-  "expires_at": "2026-11-08T07:15:55.479Z",
+  "issued_at": "2026-11-08T07:00:51.996Z",
+  "expires_at": "2026-11-15T07:00:51.996Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "139236f053779996e8f67b69a38eae334ffae6d217854470b7d0b3f6e25fa86a",
+  "signature": "a597784540f24228cd2e835d1e8720112d71790ba3062db53c3f792c11ecf55f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-springbootstarterswa"
 }

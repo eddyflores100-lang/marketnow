@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7419444",
+  "certificate_id": "MN-SC-2026-1293271",
   "skill_id": "mn-real-stooqmcp",
   "skill_name": "stooq-mcp",
-  "issued_at": "2026-11-01T07:16:59.444Z",
-  "expires_at": "2026-11-08T07:16:59.444Z",
+  "issued_at": "2026-11-08T07:01:33.271Z",
+  "expires_at": "2026-11-15T07:01:33.271Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4d8179fad2d442090114e3c9528ef612cf4a4178835ae0ef02dcab5a6d746558",
+  "signature": "f809da8e676c66bfba5472ee9beeb9333dcfba41fd6488923c251a486bf56534",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-stooqmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7406369",
+  "certificate_id": "MN-SC-2026-1284413",
   "skill_id": "mn-real-blocksizeagenticpaym",
   "skill_name": "blocksize-agentic-payments-mcp",
-  "issued_at": "2026-11-01T07:16:46.369Z",
-  "expires_at": "2026-11-08T07:16:46.369Z",
+  "issued_at": "2026-11-08T07:01:24.413Z",
+  "expires_at": "2026-11-15T07:01:24.413Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "de8c53c02bcb0682246a8d5083fb69e6abcbf609ed56928256fd367ea7d229c2",
+  "signature": "f1a4233ddfef70e273e888a2c0c254e0a75687ba6d746fdf1a1597e830e18bb1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-blocksizeagenticpaym"
 }

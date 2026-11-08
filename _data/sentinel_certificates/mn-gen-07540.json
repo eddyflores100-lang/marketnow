@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7107825",
+  "certificate_id": "MN-SC-2026-1091708",
   "skill_id": "mn-gen-07540",
   "skill_name": "mcp-sequentialthinking-tools",
-  "issued_at": "2026-11-01T07:11:47.825Z",
-  "expires_at": "2026-11-08T07:11:47.825Z",
+  "issued_at": "2026-11-08T06:58:11.708Z",
+  "expires_at": "2026-11-15T06:58:11.708Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "daadbfa1c1687f3e8c2b2a56ae790606d5a3f88c5a98373f3e421db1bababe88",
+  "signature": "d7d0512d599d7ae69da12b95aee6507c4fc004a2314383276b71df7065c35b69",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07540"
 }

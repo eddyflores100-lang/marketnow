@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7429501",
+  "certificate_id": "MN-SC-2026-1299773",
   "skill_id": "mn-real-defiyieldsmcp",
   "skill_name": "defi-yields-mcp",
-  "issued_at": "2026-11-01T07:17:09.501Z",
-  "expires_at": "2026-11-08T07:17:09.501Z",
+  "issued_at": "2026-11-08T07:01:39.773Z",
+  "expires_at": "2026-11-15T07:01:39.773Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9411daee7d8bb5d1d97b693ed90f6dadbbab143f142dd5f3334255d7c5ffb519",
+  "signature": "a5846df680b184490d40abd627da4a3bd188db4be852b0acd5236425a1a0ae22",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-defiyieldsmcp"
 }

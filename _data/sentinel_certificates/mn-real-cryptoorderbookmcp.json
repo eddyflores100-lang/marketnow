@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7426862",
+  "certificate_id": "MN-SC-2026-1298107",
   "skill_id": "mn-real-cryptoorderbookmcp",
   "skill_name": "crypto-orderbook-mcp",
-  "issued_at": "2026-11-01T07:17:06.862Z",
-  "expires_at": "2026-11-08T07:17:06.862Z",
+  "issued_at": "2026-11-08T07:01:38.107Z",
+  "expires_at": "2026-11-15T07:01:38.107Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0acd2058ca65df0be7587daf1a6e06304936955412b0f3a316c7770335062f45",
+  "signature": "473340654a612878f59f6a52fac52052ad5473de8e59f0bb88f86a8d9ab8ca13",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cryptoorderbookmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7342839",
+  "certificate_id": "MN-SC-2026-1244327",
   "skill_id": "mn-real-mcpzuul",
   "skill_name": "mcp-zuul",
-  "issued_at": "2026-11-01T07:15:42.839Z",
-  "expires_at": "2026-11-08T07:15:42.839Z",
+  "issued_at": "2026-11-08T07:00:44.327Z",
+  "expires_at": "2026-11-15T07:00:44.327Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "99d569257779bb28b0292b18b127feee36b1254749c8609f6b6c01a09dda6f3a",
+  "signature": "8a2e77cf1f81bfbf0dc7db17b2a51807adb2abd5068e964ad9c4cb0228d5832a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpzuul"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7375467",
+  "certificate_id": "MN-SC-2026-1264994",
   "skill_id": "mn-real-tarn",
   "skill_name": "tarn",
-  "issued_at": "2026-11-01T07:16:15.467Z",
-  "expires_at": "2026-11-08T07:16:15.467Z",
+  "issued_at": "2026-11-08T07:01:04.994Z",
+  "expires_at": "2026-11-15T07:01:04.994Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "50fe16ff09d20ad0391206e6a4932571b69c74025c125876100d92b7d8c7b94b",
+  "signature": "cb3b94bbc86774f3831c1bb90b15963fa9afc21856d543c8f6be6ba87336f53b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-tarn"
 }

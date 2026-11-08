@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7133805",
+  "certificate_id": "MN-SC-2026-1108925",
   "skill_id": "mn-gen-10370",
   "skill_name": "phantom",
-  "issued_at": "2026-11-01T07:12:13.805Z",
-  "expires_at": "2026-11-08T07:12:13.805Z",
+  "issued_at": "2026-11-08T06:58:28.925Z",
+  "expires_at": "2026-11-15T06:58:28.925Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "94a898bcdf682e7aa56018fa4d48e5475d56fc522f120441421c0c8e08e3e71e",
+  "signature": "f3b962c32645b612a833240a5799ead1b6b6d84eaa13acdbf90b10a1781b1d97",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-10370"
 }

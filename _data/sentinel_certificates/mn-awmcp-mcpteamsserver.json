@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7284293",
+  "certificate_id": "MN-SC-2026-1208967",
   "skill_id": "mn-awmcp-mcpteamsserver",
   "skill_name": "mcp-teams-server",
-  "issued_at": "2026-11-01T07:14:44.293Z",
-  "expires_at": "2026-11-08T07:14:44.293Z",
+  "issued_at": "2026-11-08T07:00:08.967Z",
+  "expires_at": "2026-11-15T07:00:08.967Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "86d20f4ffee172ac2f3096bc185363755059a995162a0b342f21adad2c5ec56c",
+  "signature": "0d17336d39a17fcf47fc1cc2b6e98543b93d27ea8cae12652c40551498481022",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpteamsserver"
 }

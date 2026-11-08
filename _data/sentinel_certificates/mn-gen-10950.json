@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7137652",
+  "certificate_id": "MN-SC-2026-1111430",
   "skill_id": "mn-gen-10950",
   "skill_name": "quickbooks-online-mcp-server",
-  "issued_at": "2026-11-01T07:12:17.652Z",
-  "expires_at": "2026-11-08T07:12:17.652Z",
+  "issued_at": "2026-11-08T06:58:31.430Z",
+  "expires_at": "2026-11-15T06:58:31.430Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "479858e7f3202a82bc25a201a2c1763968b30c5e481683c075bf3da7106f35dd",
+  "signature": "ff16e508f5143b4dbebf69862cf3eb3f5ada62ec8d8d0c22744b59da1897899c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-10950"
 }

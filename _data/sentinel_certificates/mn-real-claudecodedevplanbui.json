@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7352973",
+  "certificate_id": "MN-SC-2026-1250542",
   "skill_id": "mn-real-claudecodedevplanbui",
   "skill_name": "ClaudeCode-DevPlanBuilder",
-  "issued_at": "2026-11-01T07:15:52.973Z",
-  "expires_at": "2026-11-08T07:15:52.973Z",
+  "issued_at": "2026-11-08T07:00:50.542Z",
+  "expires_at": "2026-11-15T07:00:50.542Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6c6cc2096e13f108d8bd718881d43dfe787c8eed81057404f3a5537e8a38cb01",
+  "signature": "5c419fdb62b0e67f5ef7ba1e15f5910fac2eadc43d194a99e2095eee7fd08952",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-claudecodedevplanbui"
 }

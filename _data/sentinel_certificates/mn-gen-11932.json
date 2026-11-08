@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7146421",
+  "certificate_id": "MN-SC-2026-1117276",
   "skill_id": "mn-gen-11932",
   "skill_name": "smart-coding-mcp",
-  "issued_at": "2026-11-01T07:12:26.421Z",
-  "expires_at": "2026-11-08T07:12:26.421Z",
+  "issued_at": "2026-11-08T06:58:37.276Z",
+  "expires_at": "2026-11-15T06:58:37.276Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6dd7e0961c9d07c11b92897ab7050ab0d88790c0729af355714928ba7ff8bc4e",
+  "signature": "084271f3ea5042a337ca493b29a75d9cbf034e463d45d7e2140ba761749f4e0b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-11932"
 }

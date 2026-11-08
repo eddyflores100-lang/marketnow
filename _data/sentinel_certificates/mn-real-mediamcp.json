@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7343597",
+  "certificate_id": "MN-SC-2026-1244780",
   "skill_id": "mn-real-mediamcp",
   "skill_name": "media-mcp",
-  "issued_at": "2026-11-01T07:15:43.597Z",
-  "expires_at": "2026-11-08T07:15:43.597Z",
+  "issued_at": "2026-11-08T07:00:44.780Z",
+  "expires_at": "2026-11-15T07:00:44.780Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "07319ff6a0bbe8bade725f5b2d7d1a9acad4b9001a14deeb02009afbb23b8998",
+  "signature": "dfdd29ac46e5a30b0ed07a7a1aac0575f7930505e95b536936903b17f677fc0c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mediamcp"
 }

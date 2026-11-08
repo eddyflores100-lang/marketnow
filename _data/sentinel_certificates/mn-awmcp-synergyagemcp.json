@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7214142",
+  "certificate_id": "MN-SC-2026-1163327",
   "skill_id": "mn-awmcp-synergyagemcp",
   "skill_name": "synergy-age-mcp",
-  "issued_at": "2026-11-01T07:13:34.142Z",
-  "expires_at": "2026-11-08T07:13:34.142Z",
+  "issued_at": "2026-11-08T06:59:23.327Z",
+  "expires_at": "2026-11-15T06:59:23.327Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d6545b0d2f7b8d09b186af7dca5433340b735c9da8ebc7d10c73770a2b11319a",
+  "signature": "662708c4218515301cbf9d803b31d40be816d007ddd10dfcea900ce9a6c2fc57",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-synergyagemcp"
 }

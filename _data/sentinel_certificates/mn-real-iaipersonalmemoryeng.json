@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7473065",
+  "certificate_id": "MN-SC-2026-1328146",
   "skill_id": "mn-real-iaipersonalmemoryeng",
   "skill_name": "iai-personal-memory-engine",
-  "issued_at": "2026-11-01T07:17:53.065Z",
-  "expires_at": "2026-11-08T07:17:53.065Z",
+  "issued_at": "2026-11-08T07:02:08.146Z",
+  "expires_at": "2026-11-15T07:02:08.146Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "10dfbd9d290601327055d817a113de9fcd9f966da662a32f68637e7f94d410dc",
+  "signature": "c975037c8766a38225c7e2d94f8c38e9cbb17a9021c79bb674470b6993e8fed6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-iaipersonalmemoryeng"
 }

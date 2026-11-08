@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7050810",
+  "certificate_id": "MN-SC-2026-1056883",
   "skill_id": "mn-sec-00009",
   "skill_name": "MCP-Defender",
-  "issued_at": "2026-11-01T07:10:50.810Z",
-  "expires_at": "2026-11-08T07:10:50.810Z",
+  "issued_at": "2026-11-08T06:57:36.883Z",
+  "expires_at": "2026-11-15T06:57:36.883Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c1a021d9124e57f98ee4825e5fc27974f5bbbcef6aa89222ee94c0987831a4f4",
+  "signature": "cdd35b759dd99e293562a2680ecf146e67ed76e68dd36db868900ee5f2affa5e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-sec-00009"
 }

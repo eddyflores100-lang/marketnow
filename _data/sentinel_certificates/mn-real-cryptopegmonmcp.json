@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7427017",
+  "certificate_id": "MN-SC-2026-1298195",
   "skill_id": "mn-real-cryptopegmonmcp",
   "skill_name": "crypto-pegmon-mcp",
-  "issued_at": "2026-11-01T07:17:07.017Z",
-  "expires_at": "2026-11-08T07:17:07.017Z",
+  "issued_at": "2026-11-08T07:01:38.195Z",
+  "expires_at": "2026-11-15T07:01:38.195Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ad9e33a7679a27d822b26200ee7fb4fea80c42fdb45cd56d13944a0a5c059856",
+  "signature": "00991942e50b1ef52d044be2910f519eee1225f1bf7e6a086871ad9a328a8dc3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cryptopegmonmcp"
 }

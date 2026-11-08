@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7136843",
+  "certificate_id": "MN-SC-2026-1110948",
   "skill_id": "mn-gen-10795",
   "skill_name": "devpulse-mcp",
-  "issued_at": "2026-11-01T07:12:16.843Z",
-  "expires_at": "2026-11-08T07:12:16.843Z",
+  "issued_at": "2026-11-08T06:58:30.948Z",
+  "expires_at": "2026-11-15T06:58:30.948Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "307445a4befc381f680797c537ee8461a37c412315e77362da1fa0c94e928e6f",
+  "signature": "25b61d7bcba1e4661ed26a067e420c3dbe158cf008664fc5178e620fa0da97ed",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-10795"
 }

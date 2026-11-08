@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7325425",
+  "certificate_id": "MN-SC-2026-1233635",
   "skill_id": "mn-real-wpclimcp",
   "skill_name": "wp-cli-mcp",
-  "issued_at": "2026-11-01T07:15:25.425Z",
-  "expires_at": "2026-11-08T07:15:25.425Z",
+  "issued_at": "2026-11-08T07:00:33.635Z",
+  "expires_at": "2026-11-15T07:00:33.635Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ab4b2226c88ee164a32f232c98e7da4137fa8f3d7c90bc54a81093bc52fc928e",
+  "signature": "df685bbc461c9058f40ae30f9d4e68772fdcc9c728acfae1acbe9e0d5571191f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-wpclimcp"
 }

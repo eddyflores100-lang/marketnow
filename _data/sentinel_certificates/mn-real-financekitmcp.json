@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7451131",
+  "certificate_id": "MN-SC-2026-1314535",
   "skill_id": "mn-real-financekitmcp",
   "skill_name": "financekit-mcp",
-  "issued_at": "2026-11-01T07:17:31.131Z",
-  "expires_at": "2026-11-08T07:17:31.131Z",
+  "issued_at": "2026-11-08T07:01:54.535Z",
+  "expires_at": "2026-11-15T07:01:54.535Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7455ea69b0c364b194115244bf65fa36630b0d5f0444ff3cae868ef937304fa4",
+  "signature": "3963e14885c127a17a4bd42b163f9fedd76200a77d30821e359c726adbeca431",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-financekitmcp"
 }

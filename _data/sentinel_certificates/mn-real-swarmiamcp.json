@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7351504",
+  "certificate_id": "MN-SC-2026-1249693",
   "skill_id": "mn-real-swarmiamcp",
   "skill_name": "swarmia-mcp",
-  "issued_at": "2026-11-01T07:15:51.504Z",
-  "expires_at": "2026-11-08T07:15:51.504Z",
+  "issued_at": "2026-11-08T07:00:49.693Z",
+  "expires_at": "2026-11-15T07:00:49.693Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6abc41ab584b96b6ed6413896212aac1ccedadf673bb28694ecbdb76bfcbcdcf",
+  "signature": "37cf677b3626756a1a4c9e2648de2b38214c2fd556aa13baa3074d5a3a22c5b9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-swarmiamcp"
 }

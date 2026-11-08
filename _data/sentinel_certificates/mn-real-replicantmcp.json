@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7367193",
+  "certificate_id": "MN-SC-2026-1259305",
   "skill_id": "mn-real-replicantmcp",
   "skill_name": "replicant-mcp",
-  "issued_at": "2026-11-01T07:16:07.193Z",
-  "expires_at": "2026-11-08T07:16:07.193Z",
+  "issued_at": "2026-11-08T07:00:59.305Z",
+  "expires_at": "2026-11-15T07:00:59.305Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "542b83368dea69b2e443dbab81206052e9725a48c9fad0f10fa553e7aa07a054",
+  "signature": "66231990c852d77870c5102fa609a9583ad4353875a73f8b2fefbcfa97c93b62",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-replicantmcp"
 }

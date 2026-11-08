@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7071498",
+  "certificate_id": "MN-SC-2026-1070074",
   "skill_id": "mn-gen-04309",
   "skill_name": "gcloud-mcp",
-  "issued_at": "2026-11-01T07:11:11.498Z",
-  "expires_at": "2026-11-08T07:11:11.498Z",
+  "issued_at": "2026-11-08T06:57:50.074Z",
+  "expires_at": "2026-11-15T06:57:50.074Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9ebfafd7b95bbbb73304e8e41c534e8da726e4207faec426603ec02579e1f01b",
+  "signature": "e162e3170ed5b25f2138464bd7501441093cf9647c032ced4b32c1018bc83ab1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04309"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7352504",
+  "certificate_id": "MN-SC-2026-1250264",
   "skill_id": "mn-real-figmafluttermcp",
   "skill_name": "figma-flutter-mcp",
-  "issued_at": "2026-11-01T07:15:52.504Z",
-  "expires_at": "2026-11-08T07:15:52.504Z",
+  "issued_at": "2026-11-08T07:00:50.264Z",
+  "expires_at": "2026-11-15T07:00:50.264Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "979b63f2de37e62e64452430ed1bbea9f1a623b80814e44787df7f4dfd1a54b2",
+  "signature": "744d6fee3dad3f44372d773558b91db505464775db3a1fca1b7708fb7ea74bc5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-figmafluttermcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7408233",
+  "certificate_id": "MN-SC-2026-1285594",
   "skill_id": "mn-real-rugmunchmcp",
   "skill_name": "rug-munch-mcp",
-  "issued_at": "2026-11-01T07:16:48.233Z",
-  "expires_at": "2026-11-08T07:16:48.233Z",
+  "issued_at": "2026-11-08T07:01:25.594Z",
+  "expires_at": "2026-11-15T07:01:25.594Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "654ee49d1fdfa30533bb1934e9a4c8eceb22d8fb7f79ef45904bbc3e45195ce4",
+  "signature": "9809b1133094b7e5c9b5b7be8d37556e8edb8d465be4949e6dc03be8875b3b34",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-rugmunchmcp"
 }

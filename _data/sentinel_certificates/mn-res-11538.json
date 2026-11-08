@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7144022",
+  "certificate_id": "MN-SC-2026-1115854",
   "skill_id": "mn-res-11538",
   "skill_name": "searchatlas-mcp-server",
-  "issued_at": "2026-11-01T07:12:24.022Z",
-  "expires_at": "2026-11-08T07:12:24.022Z",
+  "issued_at": "2026-11-08T06:58:35.854Z",
+  "expires_at": "2026-11-15T06:58:35.854Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0837b27914d96dfb1b2fe297e472051d92148d4445a4ec8759ab88e25ec6b649",
+  "signature": "409e8008ded80e269460cb0d719305ed9a844321951d4a332e311ae29db56433",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-res-11538"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7054689",
+  "certificate_id": "MN-SC-2026-1059245",
   "skill_id": "mn-gen-02764",
   "skill_name": "mcp-context-forge",
-  "issued_at": "2026-11-01T07:10:54.689Z",
-  "expires_at": "2026-11-08T07:10:54.689Z",
+  "issued_at": "2026-11-08T06:57:39.245Z",
+  "expires_at": "2026-11-15T06:57:39.245Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6837fcfcce4304f874a38495b1a157210f6ca8ac2fd8d28f2c55801314488632",
+  "signature": "70b1e607c69d5c63d7c41174fc77072885da103c4a71b38c328243d93e3de688",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02764"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7053806",
+  "certificate_id": "MN-SC-2026-1058769",
   "skill_id": "mn-gen-02737",
   "skill_name": "context-awesome",
-  "issued_at": "2026-11-01T07:10:53.806Z",
-  "expires_at": "2026-11-08T07:10:53.806Z",
+  "issued_at": "2026-11-08T06:57:38.769Z",
+  "expires_at": "2026-11-15T06:57:38.769Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "54acf7aaa96786a3b3e2e176955ac1ed42f86963110c7b12f991b3299c51b970",
+  "signature": "2fbe30a7721cddbd42f779380fa1099dba6bc3818435f3e87f095dfd8d04d379",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02737"
 }

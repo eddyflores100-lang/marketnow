@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7313409",
+  "certificate_id": "MN-SC-2026-1226758",
   "skill_id": "mn-real-ydbmcp",
   "skill_name": "ydb-mcp",
-  "issued_at": "2026-11-01T07:15:13.409Z",
-  "expires_at": "2026-11-08T07:15:13.409Z",
+  "issued_at": "2026-11-08T07:00:26.758Z",
+  "expires_at": "2026-11-15T07:00:26.758Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cd0b6040f70d4b68d77c2491c4ca71e6731716e1093532dfc899334125531133",
+  "signature": "d4fd5c50497751a364366040609c4e5f3e2e11bd366f5f6c421534fbb1e75d22",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-ydbmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7332583",
+  "certificate_id": "MN-SC-2026-1237905",
   "skill_id": "mn-real-augmentsmcpserver",
   "skill_name": "augments-mcp-server",
-  "issued_at": "2026-11-01T07:15:32.583Z",
-  "expires_at": "2026-11-08T07:15:32.583Z",
+  "issued_at": "2026-11-08T07:00:37.905Z",
+  "expires_at": "2026-11-15T07:00:37.905Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e770ddf418f4989734dc94f66349f025e8ab41fc906d673a1307ce0631bf1c85",
+  "signature": "e7858db1743da561d345b4b8cd885b339ec756bdf98de462dddcb320bb4213ca",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-augmentsmcpserver"
 }

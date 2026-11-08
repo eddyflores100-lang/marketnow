@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7338164",
+  "certificate_id": "MN-SC-2026-1241349",
   "skill_id": "mn-real-delimitmcpserver",
   "skill_name": "delimit-mcp-server",
-  "issued_at": "2026-11-01T07:15:38.164Z",
-  "expires_at": "2026-11-08T07:15:38.164Z",
+  "issued_at": "2026-11-08T07:00:41.349Z",
+  "expires_at": "2026-11-15T07:00:41.349Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c2d1b48aeab63d170ffe1bd0a705788db8c41df6369a25e7a57a484fa7e2755f",
+  "signature": "86b154cfc6dca2a86872ec2fe3f937e072b91b50264a7ffb32864d868b36503a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-delimitmcpserver"
 }

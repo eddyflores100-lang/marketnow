@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7299023",
+  "certificate_id": "MN-SC-2026-1218769",
   "skill_id": "mn-real-nworks",
   "skill_name": "nworks",
-  "issued_at": "2026-11-01T07:14:59.023Z",
-  "expires_at": "2026-11-08T07:14:59.023Z",
+  "issued_at": "2026-11-08T07:00:18.769Z",
+  "expires_at": "2026-11-15T07:00:18.769Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "197e81f70033030c0441bd1c95687025f411b162d54f7a68ce47dc3bd4cbdfd4",
+  "signature": "90ade232e3fc0b192a7ee7192c323f64e53f7cbe78a7ab9c74a872b6f77b2a71",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-nworks"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7167421",
+  "certificate_id": "MN-SC-2026-1130297",
   "skill_id": "mn-data-004",
   "skill_name": "data-aggregator-mcp",
-  "issued_at": "2026-11-01T07:12:47.421Z",
-  "expires_at": "2026-11-08T07:12:47.421Z",
+  "issued_at": "2026-11-08T06:58:50.297Z",
+  "expires_at": "2026-11-15T06:58:50.297Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "27b8d8084e1d875b9934829424ad91d6b610edb21d4cf0fe4279ceb779f75f16",
+  "signature": "6189568d032fa51e028808d095a342f9aaf1f24d8333ce59c1198f6effe6c037",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-data-004"
 }

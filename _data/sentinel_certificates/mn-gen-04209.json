@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7070564",
+  "certificate_id": "MN-SC-2026-1069452",
   "skill_id": "mn-gen-04209",
   "skill_name": "freee-mcp",
-  "issued_at": "2026-11-01T07:11:10.564Z",
-  "expires_at": "2026-11-08T07:11:10.564Z",
+  "issued_at": "2026-11-08T06:57:49.452Z",
+  "expires_at": "2026-11-15T06:57:49.452Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -36,7 +36,7 @@
     "resolved_at": "2026-10-29T11:39:16.037Z"
   },
   "cert_v": 2,
-  "signature": "25c34ce1abbbc054abed2d54c68b79433a99e8ff1f02493ebcd853f47d9bb326",
+  "signature": "612dbf5e15b68dd51b84b81ab7e688d19dafd810b8233221e3ddee1f87275c20",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04209"
 }

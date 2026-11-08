@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7173975",
+  "certificate_id": "MN-SC-2026-1134381",
   "skill_id": "mn-awmcp-tooldefinitionqualit",
   "skill_name": "tool-definition-quality-score",
-  "issued_at": "2026-11-01T07:12:53.975Z",
-  "expires_at": "2026-11-08T07:12:53.975Z",
+  "issued_at": "2026-11-08T06:58:54.381Z",
+  "expires_at": "2026-11-15T06:58:54.381Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5224459d01852d9fb9efbdd5bd74f5b1278f052561d49800e8aae75d990fb485",
+  "signature": "b2ccda08ba87d58a66066cfea8a983380939539f80509ba24a8ff808f1116d51",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-tooldefinitionqualit"
 }

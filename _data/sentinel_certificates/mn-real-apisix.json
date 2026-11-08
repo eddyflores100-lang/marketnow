@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7331479",
+  "certificate_id": "MN-SC-2026-1237288",
   "skill_id": "mn-real-apisix",
   "skill_name": "apisix",
-  "issued_at": "2026-11-01T07:15:31.479Z",
-  "expires_at": "2026-11-08T07:15:31.479Z",
+  "issued_at": "2026-11-08T07:00:37.288Z",
+  "expires_at": "2026-11-15T07:00:37.288Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8bef6da2511011958d1926a19c11f7b7e7fbd4e04fe4e75a6959bab61f31c591",
+  "signature": "179ffa5c78abf848d9f64023d189815f21f17f8ffd887de3beab340efc8dcb15",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-apisix"
 }

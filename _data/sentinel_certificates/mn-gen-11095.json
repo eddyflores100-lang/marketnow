@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7138748",
+  "certificate_id": "MN-SC-2026-1112056",
   "skill_id": "mn-gen-11095",
   "skill_name": "dash-mcp-server",
-  "issued_at": "2026-11-01T07:12:18.748Z",
-  "expires_at": "2026-11-08T07:12:18.748Z",
+  "issued_at": "2026-11-08T06:58:32.056Z",
+  "expires_at": "2026-11-15T06:58:32.056Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8edc283f0e8692c7a39c1a7dba98f6c177f0217f0633e78030e970a9ed4f667e",
+  "signature": "2ac114f669f1bd2e125c1e7aaa5991b318ac3f78180f544724aef23c750fc39f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-11095"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7149123",
+  "certificate_id": "MN-SC-2026-1119169",
   "skill_id": "mn-gen-12204",
   "skill_name": "steam-reviews-mcp",
-  "issued_at": "2026-11-01T07:12:29.123Z",
-  "expires_at": "2026-11-08T07:12:29.123Z",
+  "issued_at": "2026-11-08T06:58:39.169Z",
+  "expires_at": "2026-11-15T06:58:39.169Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "df7acc17918d0d20c0e4fb2cbb1150dddd93dcaecc640d798471740b74c21052",
+  "signature": "cbbbaa5db2026fe872f1d15d2a6c2cd011a0f7c1f2b5bb59b48e2faa2fbc35ff",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12204"
 }

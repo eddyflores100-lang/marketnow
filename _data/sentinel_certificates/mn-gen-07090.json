@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7102390",
+  "certificate_id": "MN-SC-2026-1088480",
   "skill_id": "mn-gen-07090",
   "skill_name": "mcp-microsoft-todo",
-  "issued_at": "2026-11-01T07:11:42.390Z",
-  "expires_at": "2026-11-08T07:11:42.390Z",
+  "issued_at": "2026-11-08T06:58:08.480Z",
+  "expires_at": "2026-11-15T06:58:08.480Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0f3882f876ba9a94069c37198afffc89a0fb2060becc49b09b7a67e7a99a35ec",
+  "signature": "d46f5723002147139b14c97804f2a1d3f3efec629f0b0f3c8b406418d04eb3df",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07090"
 }

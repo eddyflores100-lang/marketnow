@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7491573",
+  "certificate_id": "MN-SC-2026-1339657",
   "skill_id": "mn-real-deadzone",
   "skill_name": "deadzone",
-  "issued_at": "2026-11-01T07:18:11.573Z",
-  "expires_at": "2026-11-08T07:18:11.573Z",
+  "issued_at": "2026-11-08T07:02:19.657Z",
+  "expires_at": "2026-11-15T07:02:19.657Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4a9137272da8e5e7a2ec63e39f107adeac97f9990d0409dc6074bc043186c84d",
+  "signature": "86095968bc0afe8e09ff3d89b89487537cec41f3f7db2a05d0944db0b7a98954",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-deadzone"
 }

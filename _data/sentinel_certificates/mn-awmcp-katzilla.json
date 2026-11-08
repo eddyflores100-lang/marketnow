@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7183858",
+  "certificate_id": "MN-SC-2026-1140663",
   "skill_id": "mn-awmcp-katzilla",
   "skill_name": "katzilla",
-  "issued_at": "2026-11-01T07:13:03.858Z",
-  "expires_at": "2026-11-08T07:13:03.858Z",
+  "issued_at": "2026-11-08T06:59:00.663Z",
+  "expires_at": "2026-11-15T06:59:00.663Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "efd5db3a4e35b7abd6b01a77059996d98ea9253730d48c3037dc9740f49eee36",
+  "signature": "5b214a4e9f188214161270e43eec53dc8166f19d8b6adac47b80c3c1fceb61f2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-katzilla"
 }

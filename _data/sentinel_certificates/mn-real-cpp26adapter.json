@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7375989",
+  "certificate_id": "MN-SC-2026-1265276",
   "skill_id": "mn-real-cpp26adapter",
   "skill_name": "cpp26-adapter",
-  "issued_at": "2026-11-01T07:16:15.989Z",
-  "expires_at": "2026-11-08T07:16:15.989Z",
+  "issued_at": "2026-11-08T07:01:05.276Z",
+  "expires_at": "2026-11-15T07:01:05.276Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6be160ef4bf1273a0ec837ab46efb48ff0134056a1d0f2c9d1ef2082de499346",
+  "signature": "5e4a299a487f47ca5c6317b3eb9554d784618180707d0ff93d2ceef3356f4875",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cpp26adapter"
 }

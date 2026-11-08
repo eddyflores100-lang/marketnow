@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7176413",
+  "certificate_id": "MN-SC-2026-1135854",
   "skill_id": "mn-awmcp-agentforge",
   "skill_name": "agentforge",
-  "issued_at": "2026-11-01T07:12:56.413Z",
-  "expires_at": "2026-11-08T07:12:56.413Z",
+  "issued_at": "2026-11-08T06:58:55.854Z",
+  "expires_at": "2026-11-15T06:58:55.854Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "977128c0213732ac813d594911a11da5661a80f15ba45318b78d69f385a8bd83",
+  "signature": "fa5a1ee38dfd5673a244a1595e9fdb7f7d6d3ec7ebeddb0617528151cb7e96ec",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-agentforge"
 }

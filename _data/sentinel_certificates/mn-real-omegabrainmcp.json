@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7370324",
+  "certificate_id": "MN-SC-2026-1261504",
   "skill_id": "mn-real-omegabrainmcp",
   "skill_name": "omega-brain-mcp",
-  "issued_at": "2026-11-01T07:16:10.324Z",
-  "expires_at": "2026-11-08T07:16:10.324Z",
+  "issued_at": "2026-11-08T07:01:01.504Z",
+  "expires_at": "2026-11-15T07:01:01.504Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4a8189f214a39d7cccd24ab9e88784957bc3c4d957a4a93cec643a0912cfdfe9",
+  "signature": "07629e33238a65ef1da3d9245cdb258dda6aa9e3b1fb0ddac28b717227d445a4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-omegabrainmcp"
 }

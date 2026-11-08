@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7398569",
+  "certificate_id": "MN-SC-2026-1279487",
   "skill_id": "mn-real-bytemcpserver",
   "skill_name": "byte-mcp-server",
-  "issued_at": "2026-11-01T07:16:38.569Z",
-  "expires_at": "2026-11-08T07:16:38.569Z",
+  "issued_at": "2026-11-08T07:01:19.487Z",
+  "expires_at": "2026-11-15T07:01:19.487Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ea90da6afb4eee6eef2999339b1001807a3a4fa2e71194ae83b3bf2eabba0b4a",
+  "signature": "8ca6b5a13a7692f30c1293d644486eeba9456ba825c5bb56bad183826a4aa0bd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-bytemcpserver"
 }

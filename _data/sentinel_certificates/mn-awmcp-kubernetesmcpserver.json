@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7242187",
+  "certificate_id": "MN-SC-2026-1180726",
   "skill_id": "mn-awmcp-kubernetesmcpserver",
   "skill_name": "kubernetes-mcp-server",
-  "issued_at": "2026-11-01T07:14:02.187Z",
-  "expires_at": "2026-11-08T07:14:02.187Z",
+  "issued_at": "2026-11-08T06:59:40.726Z",
+  "expires_at": "2026-11-15T06:59:40.726Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -36,7 +36,7 @@
     "resolved_at": "2026-10-29T11:39:28.771Z"
   },
   "cert_v": 2,
-  "signature": "455fae73632a8b057d35dc3c7492b58f0988005c2c916072906787f57d73a417",
+  "signature": "b9243d3dc0d6751ba20c7b032581d5f047b662f96f8826c3471fce4cd3f61ac4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-kubernetesmcpserver"
 }

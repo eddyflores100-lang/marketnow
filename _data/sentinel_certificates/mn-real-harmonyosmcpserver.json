@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7372386",
+  "certificate_id": "MN-SC-2026-1263056",
   "skill_id": "mn-real-harmonyosmcpserver",
   "skill_name": "HarmonyOS-mcp-server",
-  "issued_at": "2026-11-01T07:16:12.386Z",
-  "expires_at": "2026-11-08T07:16:12.386Z",
+  "issued_at": "2026-11-08T07:01:03.056Z",
+  "expires_at": "2026-11-15T07:01:03.056Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "30fb94e10523aeb48181a9b5459651e53c1945e17a8484b3df837ede2ae4cc11",
+  "signature": "bf1aace632d70048feb6b88feb29bd1137fdc7da5eac46919098980f694fe6ee",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-harmonyosmcpserver"
 }

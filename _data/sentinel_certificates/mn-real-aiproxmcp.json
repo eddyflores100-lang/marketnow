@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7401575",
+  "certificate_id": "MN-SC-2026-1281317",
   "skill_id": "mn-real-aiproxmcp",
   "skill_name": "aiprox-mcp",
-  "issued_at": "2026-11-01T07:16:41.575Z",
-  "expires_at": "2026-11-08T07:16:41.575Z",
+  "issued_at": "2026-11-08T07:01:21.317Z",
+  "expires_at": "2026-11-15T07:01:21.317Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "68ea47ce3f47c3c0e2770f3248ae5774d12214f94025473d1301e250f2fb7d9e",
+  "signature": "d4821f6a88da8967cf5f9c47650b41e896c360aef626ea2dbfdba6a84af256ff",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-aiproxmcp"
 }

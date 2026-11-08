@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7070223",
+  "certificate_id": "MN-SC-2026-1069235",
   "skill_id": "mn-dat-04195",
   "skill_name": "france-data-mcp",
-  "issued_at": "2026-11-01T07:11:10.223Z",
-  "expires_at": "2026-11-08T07:11:10.223Z",
+  "issued_at": "2026-11-08T06:57:49.235Z",
+  "expires_at": "2026-11-15T06:57:49.235Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c9d974389eed389a935d3c89e98ff31001387c509c2a62ff4470cf8f6604e23a",
+  "signature": "4a2a485987302b1d4ff977717381bf8745e29ae26467bd83ea7e070e54555024",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-dat-04195"
 }

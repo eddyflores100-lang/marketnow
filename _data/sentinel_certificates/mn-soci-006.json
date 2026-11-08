@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7168306",
+  "certificate_id": "MN-SC-2026-1130768",
   "skill_id": "mn-soci-006",
   "skill_name": "mcp-youtube",
-  "issued_at": "2026-11-01T07:12:48.306Z",
-  "expires_at": "2026-11-08T07:12:48.306Z",
+  "issued_at": "2026-11-08T06:58:50.768Z",
+  "expires_at": "2026-11-15T06:58:50.768Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "56100c57cee227fc22c16a7a1f501b719ef60b2eba2773ac8ce3df48b5ff8106",
+  "signature": "9d2d12a8ba7d13bc8f538d4b84d49b4666af5538e60c6bc578d334a16e05a0dd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-soci-006"
 }

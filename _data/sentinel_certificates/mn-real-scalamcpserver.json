@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7314758",
+  "certificate_id": "MN-SC-2026-1227365",
   "skill_id": "mn-real-scalamcpserver",
   "skill_name": "scala-mcp-server",
-  "issued_at": "2026-11-01T07:15:14.758Z",
-  "expires_at": "2026-11-08T07:15:14.758Z",
+  "issued_at": "2026-11-08T07:00:27.365Z",
+  "expires_at": "2026-11-15T07:00:27.365Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b76241e18e5d4aa56b5caf207a05de927608a19d8124c5c6da799651a9b96d99",
+  "signature": "cd27fb13381e17b7e8a21194586bd728da12bad9e3ac969796c1bb13f5a9ff9a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-scalamcpserver"
 }

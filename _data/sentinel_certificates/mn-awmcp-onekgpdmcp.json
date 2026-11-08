@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7211334",
+  "certificate_id": "MN-SC-2026-1161523",
   "skill_id": "mn-awmcp-onekgpdmcp",
   "skill_name": "onekgpd-mcp",
-  "issued_at": "2026-11-01T07:13:31.334Z",
-  "expires_at": "2026-11-08T07:13:31.334Z",
+  "issued_at": "2026-11-08T06:59:21.523Z",
+  "expires_at": "2026-11-15T06:59:21.523Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "99a6368a872e948a6f2f6a13248e6b622501b746b853d8c67387b54531933ac0",
+  "signature": "a138f679ce7f4f7c694e0020238b81a0a93d3b259f83e61704fd3cfaac7eb441",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-onekgpdmcp"
 }

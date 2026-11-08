@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7178053",
+  "certificate_id": "MN-SC-2026-1136990",
   "skill_id": "mn-awmcp-deepseekmcpserver",
   "skill_name": "deepseek-mcp-server",
-  "issued_at": "2026-11-01T07:12:58.053Z",
-  "expires_at": "2026-11-08T07:12:58.053Z",
+  "issued_at": "2026-11-08T06:58:56.990Z",
+  "expires_at": "2026-11-15T06:58:56.991Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -37,7 +37,7 @@
     "resolved_at": "2026-10-29T11:40:54.187Z"
   },
   "cert_v": 2,
-  "signature": "43b876a58cb407dc808d215c37be6fd51ca325748b84bb09e81b2a92a48d1aab",
+  "signature": "d75de6c14f516030aaa5f0ed87181c7d5da562fc5a9d13788976a0892054ec97",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-deepseekmcpserver"
 }

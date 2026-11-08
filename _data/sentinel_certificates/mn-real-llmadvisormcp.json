@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7381701",
+  "certificate_id": "MN-SC-2026-1269033",
   "skill_id": "mn-real-llmadvisormcp",
   "skill_name": "llm-advisor-mcp",
-  "issued_at": "2026-11-01T07:16:21.701Z",
-  "expires_at": "2026-11-08T07:16:21.701Z",
+  "issued_at": "2026-11-08T07:01:09.033Z",
+  "expires_at": "2026-11-15T07:01:09.033Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "827fb5dfc6cb8ee9c23f8bc513b2a559a1c911e99e2b1c96934b5a06496cc795",
+  "signature": "592ebcad8bf0e02c760e001e6bbda9922e58ffa9ce4a92c26024930a65e31047",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-llmadvisormcp"
 }

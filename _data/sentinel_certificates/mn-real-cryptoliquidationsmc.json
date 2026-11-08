@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7426452",
+  "certificate_id": "MN-SC-2026-1297831",
   "skill_id": "mn-real-cryptoliquidationsmc",
   "skill_name": "crypto-liquidations-mcp",
-  "issued_at": "2026-11-01T07:17:06.452Z",
-  "expires_at": "2026-11-08T07:17:06.452Z",
+  "issued_at": "2026-11-08T07:01:37.831Z",
+  "expires_at": "2026-11-15T07:01:37.831Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "adef051fcba0c418831aa2a9a68c05edae91bb3d499383a47c4bcd4973980e44",
+  "signature": "74816efb9cee2e4139d9f904b913f46393ac115b1c42ed948d7d4955ebb71feb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cryptoliquidationsmc"
 }

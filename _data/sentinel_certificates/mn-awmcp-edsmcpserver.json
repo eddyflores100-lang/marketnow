@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7233887",
+  "certificate_id": "MN-SC-2026-1175506",
   "skill_id": "mn-awmcp-edsmcpserver",
   "skill_name": "eds-mcp-server",
-  "issued_at": "2026-11-01T07:13:53.887Z",
-  "expires_at": "2026-11-08T07:13:53.887Z",
+  "issued_at": "2026-11-08T06:59:35.506Z",
+  "expires_at": "2026-11-15T06:59:35.506Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "13db947fefaa0096a339f568c2ca79278b0de2c28798f732e1b8a926a9d0bdfb",
+  "signature": "874281b9db4ef965e7451e610e4b4c3a961e4a8363b473dcaa7c557eba9081a0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-edsmcpserver"
 }

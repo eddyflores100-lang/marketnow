@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7098302",
+  "certificate_id": "MN-SC-2026-1086018",
   "skill_id": "mn-dat-06705",
   "skill_name": "mcp-feedback-enhanced",
-  "issued_at": "2026-11-01T07:11:38.302Z",
-  "expires_at": "2026-11-08T07:11:38.302Z",
+  "issued_at": "2026-11-08T06:58:06.018Z",
+  "expires_at": "2026-11-15T06:58:06.018Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "496a9f9459d094f5b1b9a001e58053f6fb87de27c9a7128408a10024eeaa857c",
+  "signature": "32011010d080edb42ba88870e96e8463d46a2e51c06fbc686275d644e264201b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-dat-06705"
 }

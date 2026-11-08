@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7230744",
+  "certificate_id": "MN-SC-2026-1173598",
   "skill_id": "mn-awmcp-mcpserverappleshortc",
   "skill_name": "mcp-server-apple-shortcuts",
-  "issued_at": "2026-11-01T07:13:50.744Z",
-  "expires_at": "2026-11-08T07:13:50.744Z",
+  "issued_at": "2026-11-08T06:59:33.598Z",
+  "expires_at": "2026-11-15T06:59:33.598Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -37,7 +37,7 @@
     "resolved_at": "2026-10-29T11:40:02.027Z"
   },
   "cert_v": 2,
-  "signature": "74dc35fcab3391e5ccc2a8f6268e1760f22070d4508d71fa2347c8b25140df31",
+  "signature": "a1eaca66ff8a78eaf098dc732a68d907ddb57f74271ceeb8f0ecc24d9f846b76",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpserverappleshortc"
 }

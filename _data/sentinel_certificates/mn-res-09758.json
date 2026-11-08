@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7129226",
+  "certificate_id": "MN-SC-2026-1106102",
   "skill_id": "mn-res-09758",
   "skill_name": "octagon-deep-research-mcp",
-  "issued_at": "2026-11-01T07:12:09.226Z",
-  "expires_at": "2026-11-08T07:12:09.226Z",
+  "issued_at": "2026-11-08T06:58:26.102Z",
+  "expires_at": "2026-11-15T06:58:26.102Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "bf7f1f4251da0a8b50dda48e49fd556d2e7179c2d5a1f87917ae8e46f3365ddd",
+  "signature": "db57a551b0df92e07786fdc91cc7e77714e06b997f7c405bb44d30c6a9928201",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-res-09758"
 }

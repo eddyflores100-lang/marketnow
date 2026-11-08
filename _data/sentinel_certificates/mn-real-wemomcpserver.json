@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7464561",
+  "certificate_id": "MN-SC-2026-1323283",
   "skill_id": "mn-real-wemomcpserver",
   "skill_name": "wemo-mcp-server",
-  "issued_at": "2026-11-01T07:17:44.561Z",
-  "expires_at": "2026-11-08T07:17:44.561Z",
+  "issued_at": "2026-11-08T07:02:03.283Z",
+  "expires_at": "2026-11-15T07:02:03.283Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d63a9d28471c5f98b34460ab88437529c1fddb4c7feca119a4f4c1bd934c364f",
+  "signature": "2d737388c914a9a7e57fbb18290aedb60de499dbc3079ca376a668b2088536f5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-wemomcpserver"
 }

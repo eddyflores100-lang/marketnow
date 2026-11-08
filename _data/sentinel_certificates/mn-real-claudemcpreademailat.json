@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7299370",
+  "certificate_id": "MN-SC-2026-1218986",
   "skill_id": "mn-real-claudemcpreademailat",
   "skill_name": "Claude-MCP-Read-Email-Attachments",
-  "issued_at": "2026-11-01T07:14:59.370Z",
-  "expires_at": "2026-11-08T07:14:59.370Z",
+  "issued_at": "2026-11-08T07:00:18.986Z",
+  "expires_at": "2026-11-15T07:00:18.986Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d54c3105e3b992d17615a4fab75bc6511d71855b5fc417bc0514f88a5777a5fe",
+  "signature": "19bb3890e271684598d78c93300bf4078d8924449e11c7f21cb701525e6c5a49",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-claudemcpreademailat"
 }

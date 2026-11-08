@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7312680",
+  "certificate_id": "MN-SC-2026-1226339",
   "skill_id": "mn-real-wode",
   "skill_name": "wode",
-  "issued_at": "2026-11-01T07:15:12.680Z",
-  "expires_at": "2026-11-08T07:15:12.680Z",
+  "issued_at": "2026-11-08T07:00:26.339Z",
+  "expires_at": "2026-11-15T07:00:26.339Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "889c6e3d89c6c003d44923b140f09648c0e34420921387f3b7a12911ebc4036b",
+  "signature": "61dc7b26ea3f2ebf76396da7335a05c606c5172b44554f5e3de3e2ddd734a155",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-wode"
 }

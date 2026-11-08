@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7321619",
+  "certificate_id": "MN-SC-2026-1231217",
   "skill_id": "mn-real-checkyourself",
   "skill_name": "checkyourself",
-  "issued_at": "2026-11-01T07:15:21.619Z",
-  "expires_at": "2026-11-08T07:15:21.619Z",
+  "issued_at": "2026-11-08T07:00:31.217Z",
+  "expires_at": "2026-11-15T07:00:31.217Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2e8a3a65b7ed23e9fe8f913d4b08cc860566663cd322cf78dd89337c51a2a5ad",
+  "signature": "ced18d685546beae238cca4d779e6f9d42b0076f17d74feb17a4f209bf29fd1d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-checkyourself"
 }

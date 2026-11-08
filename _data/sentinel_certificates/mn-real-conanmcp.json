@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7335883",
+  "certificate_id": "MN-SC-2026-1239922",
   "skill_id": "mn-real-conanmcp",
   "skill_name": "conan-mcp",
-  "issued_at": "2026-11-01T07:15:35.883Z",
-  "expires_at": "2026-11-08T07:15:35.883Z",
+  "issued_at": "2026-11-08T07:00:39.922Z",
+  "expires_at": "2026-11-15T07:00:39.922Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "76a9f970bc0a747b3f922ee6d596b7cf0b8ea332d92047478b08637a5f048b58",
+  "signature": "066aee7b8246dedb1eabdfb8814f644b7ff58a312c8f4bab83a48941c0043dca",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-conanmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7182613",
+  "certificate_id": "MN-SC-2026-1139866",
   "skill_id": "mn-awmcp-mcpservergeminibridg",
   "skill_name": "mcp-server-gemini-bridge",
-  "issued_at": "2026-11-01T07:13:02.613Z",
-  "expires_at": "2026-11-08T07:13:02.613Z",
+  "issued_at": "2026-11-08T06:58:59.866Z",
+  "expires_at": "2026-11-15T06:58:59.866Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ff5f6b004396f24e504ba792b8cde0cef4b2b2b5616f9fc527d6aba4ccf6f1b9",
+  "signature": "2735e427f4b09c84159b98aa4de23841644b7abbf5c4b9717442da5933e691c3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpservergeminibridg"
 }

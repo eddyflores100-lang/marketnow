@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7305824",
+  "certificate_id": "MN-SC-2026-1222258",
   "skill_id": "mn-real-influxdb3mcpserver",
   "skill_name": "influxdb3_mcp_server",
-  "issued_at": "2026-11-01T07:15:05.824Z",
-  "expires_at": "2026-11-08T07:15:05.824Z",
+  "issued_at": "2026-11-08T07:00:22.258Z",
+  "expires_at": "2026-11-15T07:00:22.258Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e3ad43e378db2cfc72898c3a5401873b63ac13a2ec2a460ca7b4d5ae53a845b5",
+  "signature": "d213e676c4d186a399bb4069a73bdb99804ecfe14b60203a11e32940ec8c24cf",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-influxdb3mcpserver"
 }

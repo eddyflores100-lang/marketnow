@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7090032",
+  "certificate_id": "MN-SC-2026-1080664",
   "skill_id": "mn-net-05759",
   "skill_name": "linkedapi-mcp",
-  "issued_at": "2026-11-01T07:11:30.032Z",
-  "expires_at": "2026-11-08T07:11:30.032Z",
+  "issued_at": "2026-11-08T06:58:00.664Z",
+  "expires_at": "2026-11-15T06:58:00.664Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8e4a0710c7e898881c49b747a57f269246a46ecc526cc2bba7df6a18df307fc7",
+  "signature": "415b2dcd30c7032bdd691bb1027ca670f9ab113bb30623b68734868106c740a9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-net-05759"
 }

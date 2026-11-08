@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7116592",
+  "certificate_id": "MN-SC-2026-1097808",
   "skill_id": "mn-gen-08194",
   "skill_name": "vet",
-  "issued_at": "2026-11-01T07:11:56.592Z",
-  "expires_at": "2026-11-08T07:11:56.592Z",
+  "issued_at": "2026-11-08T06:58:17.808Z",
+  "expires_at": "2026-11-15T06:58:17.808Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b9cdc0df5066d634e7878eac4c6ce22c186c64aa65f5ece206f08a4c479a24db",
+  "signature": "8358e0b23391214a52e5f90d95df66f546cbb10c32de16413bfc4dde90a83201",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-08194"
 }

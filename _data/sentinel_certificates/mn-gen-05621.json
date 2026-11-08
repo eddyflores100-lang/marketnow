@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7088284",
+  "certificate_id": "MN-SC-2026-1079531",
   "skill_id": "mn-gen-05621",
   "skill_name": "mcp-language-server",
-  "issued_at": "2026-11-01T07:11:28.284Z",
-  "expires_at": "2026-11-08T07:11:28.284Z",
+  "issued_at": "2026-11-08T06:57:59.531Z",
+  "expires_at": "2026-11-15T06:57:59.531Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e1bb6c81cb6fd8fa345d87e47309aff753866d4059a1124a5f1bddbd6e957f35",
+  "signature": "bbaf7048ef1750770188280f1b18db4c97aa44654f622c720bb2e64729c55d85",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05621"
 }

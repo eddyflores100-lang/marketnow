@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7138573",
+  "certificate_id": "MN-SC-2026-1111978",
   "skill_id": "mn-ai-11087",
   "skill_name": "reclaim-mcp-server",
-  "issued_at": "2026-11-01T07:12:18.573Z",
-  "expires_at": "2026-11-08T07:12:18.573Z",
+  "issued_at": "2026-11-08T06:58:31.978Z",
+  "expires_at": "2026-11-15T06:58:31.978Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9506f10d78d2a3e28895b265e44bec4f6eab478eaae43a6d606664d0fad7158a",
+  "signature": "81156ba866d542f616bebc7a642f4907d3bfb489cc25a89c8cf941f73bf94c31",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-ai-11087"
 }

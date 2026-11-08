@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7135589",
+  "certificate_id": "MN-SC-2026-1110172",
   "skill_id": "mn-gen-10641",
   "skill_name": "prediction-market-mcp",
-  "issued_at": "2026-11-01T07:12:15.589Z",
-  "expires_at": "2026-11-08T07:12:15.589Z",
+  "issued_at": "2026-11-08T06:58:30.172Z",
+  "expires_at": "2026-11-15T06:58:30.172Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "86393d2bb5a884a95934185f0321e159bd2792ee089352c79f55b181fa8ac1ed",
+  "signature": "3e36d96590c8a8791dcdbe540ac1023f1b4caeffa94b3d6d4976036327f2fdbd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-10641"
 }

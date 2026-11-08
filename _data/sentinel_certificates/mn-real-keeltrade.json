@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7423369",
+  "certificate_id": "MN-SC-2026-1295940",
   "skill_id": "mn-real-keeltrade",
   "skill_name": "keel-trade",
-  "issued_at": "2026-11-01T07:17:03.369Z",
-  "expires_at": "2026-11-08T07:17:03.369Z",
+  "issued_at": "2026-11-08T07:01:35.940Z",
+  "expires_at": "2026-11-15T07:01:35.940Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9d573712bfd41daede0557d7f008ae2f47a6cc0cc179c7e6d35e74a61810020d",
+  "signature": "10f19ce717a48e397f2d43df7d36208fc4bea4b5a8693cd450bdeb8f6c17fe00",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-keeltrade"
 }

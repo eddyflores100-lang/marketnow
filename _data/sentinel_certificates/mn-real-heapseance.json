@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7363789",
+  "certificate_id": "MN-SC-2026-1257158",
   "skill_id": "mn-real-heapseance",
   "skill_name": "heap-seance",
-  "issued_at": "2026-11-01T07:16:03.789Z",
-  "expires_at": "2026-11-08T07:16:03.789Z",
+  "issued_at": "2026-11-08T07:00:57.158Z",
+  "expires_at": "2026-11-15T07:00:57.158Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e81d4f208414e36743ce140e3332a12d2ed426d2cd152cad6b7a383308091d08",
+  "signature": "c829d6b608a6b01c8a533ff41802feb8ff8dd45b3b91446dc9048714d117a821",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-heapseance"
 }

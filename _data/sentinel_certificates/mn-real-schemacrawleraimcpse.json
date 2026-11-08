@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7309888",
+  "certificate_id": "MN-SC-2026-1224601",
   "skill_id": "mn-real-schemacrawleraimcpse",
   "skill_name": "SchemaCrawler-AI-MCP-Server-Usage",
-  "issued_at": "2026-11-01T07:15:09.888Z",
-  "expires_at": "2026-11-08T07:15:09.888Z",
+  "issued_at": "2026-11-08T07:00:24.601Z",
+  "expires_at": "2026-11-15T07:00:24.601Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1ce9adea0ac85bf7c0cc10818944755fb5b02d702cbd6f9a3f24b3f2a3f9cae0",
+  "signature": "2f365a2fbc45af91e0147903418ed62f9b14dce2b494d2f3b6d786b6111b4689",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-schemacrawleraimcpse"
 }

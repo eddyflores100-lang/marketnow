@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7131058",
+  "certificate_id": "MN-SC-2026-1107346",
   "skill_id": "mn-dat-10009",
   "skill_name": "OpenMetadata",
-  "issued_at": "2026-11-01T07:12:11.058Z",
-  "expires_at": "2026-11-08T07:12:11.058Z",
+  "issued_at": "2026-11-08T06:58:27.346Z",
+  "expires_at": "2026-11-15T06:58:27.346Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e589a69ff35e944b65b40c7bc39b5e44aead10083abc5a1797a01836dc8f1512",
+  "signature": "58d5514797123b2f35c60c5c883990c57be3b4ca4a1b705e780f5a627e79b189",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-dat-10009"
 }

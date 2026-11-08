@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7464278",
+  "certificate_id": "MN-SC-2026-1323152",
   "skill_id": "mn-real-craftymcp",
   "skill_name": "crafty-mcp",
-  "issued_at": "2026-11-01T07:17:44.278Z",
-  "expires_at": "2026-11-08T07:17:44.278Z",
+  "issued_at": "2026-11-08T07:02:03.152Z",
+  "expires_at": "2026-11-15T07:02:03.152Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "52e3563cc9271af9e1f878b6fe8aedcc94acc401f61ccc34dc6f4cc5820d28c7",
+  "signature": "bb42df0ae3300486c507b25d0b5ea067d207514f58e0aee9472f0090e61d083e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-craftymcp"
 }

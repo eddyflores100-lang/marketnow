@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7163590",
+  "certificate_id": "MN-SC-2026-1127948",
   "skill_id": "mn-gen-13587",
   "skill_name": "x402-mcp",
-  "issued_at": "2026-11-01T07:12:43.590Z",
-  "expires_at": "2026-11-08T07:12:43.590Z",
+  "issued_at": "2026-11-08T06:58:47.948Z",
+  "expires_at": "2026-11-15T06:58:47.948Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7716b59b6ebba1a0099347ddaa3ad7a41d68767cd4351a42bbec53168c5e3aae",
+  "signature": "21a8c04a8fa3ca8739b9a84f51fce9b1947549bbe2bbb64abdc480a68cfb457f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13587"
 }

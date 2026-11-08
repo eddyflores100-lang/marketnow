@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7391602",
+  "certificate_id": "MN-SC-2026-1274883",
   "skill_id": "mn-real-ozonmcp",
   "skill_name": "ozon-mcp",
-  "issued_at": "2026-11-01T07:16:31.602Z",
-  "expires_at": "2026-11-08T07:16:31.602Z",
+  "issued_at": "2026-11-08T07:01:14.883Z",
+  "expires_at": "2026-11-15T07:01:14.883Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "394688ce7dd31175b3faec87f5ec171947189f48cfd5b0cfbda9d8c9c1c22038",
+  "signature": "d3c0277cda2be235b341d7debd84e5d5ed92486973f5d2081e08f4eecfc18244",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-ozonmcp"
 }

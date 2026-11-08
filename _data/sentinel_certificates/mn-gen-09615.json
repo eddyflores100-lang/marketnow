@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7126356",
+  "certificate_id": "MN-SC-2026-1104503",
   "skill_id": "mn-gen-09615",
   "skill_name": "notebooklm-mcp",
-  "issued_at": "2026-11-01T07:12:06.356Z",
-  "expires_at": "2026-11-08T07:12:06.356Z",
+  "issued_at": "2026-11-08T06:58:24.503Z",
+  "expires_at": "2026-11-15T06:58:24.503Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "83559f1953a95f10bab8489087ce9c8a9a123145df24f8dcf832987614a19ab2",
+  "signature": "847814bfbf75966990e481adb4df67b533524c2f252dbb6898b3c79df7bd5455",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09615"
 }

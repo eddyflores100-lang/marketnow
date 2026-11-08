@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7220117",
+  "certificate_id": "MN-SC-2026-1166955",
   "skill_id": "mn-awmcp-snapdiffmcp",
   "skill_name": "snapdiff-mcp",
-  "issued_at": "2026-11-01T07:13:40.117Z",
-  "expires_at": "2026-11-08T07:13:40.117Z",
+  "issued_at": "2026-11-08T06:59:26.955Z",
+  "expires_at": "2026-11-15T06:59:26.955Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d0af2c5abf54afe0cb2570df686a4c149795ca9acce85d1602937bceb11fd15e",
+  "signature": "fa38a57fc60747b6d726d49b46726769c4afe05df15039facd5ad2b191e31c2a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-snapdiffmcp"
 }

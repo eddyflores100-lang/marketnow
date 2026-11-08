@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7444267",
+  "certificate_id": "MN-SC-2026-1310012",
   "skill_id": "mn-real-pixmcp",
   "skill_name": "pix-mcp",
-  "issued_at": "2026-11-01T07:17:24.267Z",
-  "expires_at": "2026-11-08T07:17:24.267Z",
+  "issued_at": "2026-11-08T07:01:50.012Z",
+  "expires_at": "2026-11-15T07:01:50.012Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "74e68af915edf974124e53c7f3cbe2c7e710cea6839cf03e2a70ac893bdc298a",
+  "signature": "17ac9a620fc21d61e6e6584bebfc5a367de6f8fb9f1b4491c11465492167f49b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-pixmcp"
 }

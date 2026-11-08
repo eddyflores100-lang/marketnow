@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7044837",
+  "certificate_id": "MN-SC-2026-1052850",
   "skill_id": "mn-gen-01703",
   "skill_name": "mcp-page-capture",
-  "issued_at": "2026-11-01T07:10:44.837Z",
-  "expires_at": "2026-11-08T07:10:44.837Z",
+  "issued_at": "2026-11-08T06:57:32.850Z",
+  "expires_at": "2026-11-15T06:57:32.850Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0d60a46b16842dc1ed4486e4c4c37f0f9663b29c2a9443bbdc9f997c210366ce",
+  "signature": "178dd57b9214021b7a9849496c96b680060da7e3945ee7155121ffe78910abcb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01703"
 }

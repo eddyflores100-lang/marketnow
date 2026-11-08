@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7230006",
+  "certificate_id": "MN-SC-2026-1173100",
   "skill_id": "mn-awmcp-purroxy2",
   "skill_name": "purroxy2",
-  "issued_at": "2026-11-01T07:13:50.006Z",
-  "expires_at": "2026-11-08T07:13:50.006Z",
+  "issued_at": "2026-11-08T06:59:33.100Z",
+  "expires_at": "2026-11-15T06:59:33.100Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "53d250a31ab4f9419dfb0931464cdd174025b801a854fd93e64a0fad10f2b636",
+  "signature": "4ed34504d2ca20e675fde0731b614536b8cad75b1885266ea4ce028fa0dc2582",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-purroxy2"
 }

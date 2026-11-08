@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7119016",
+  "certificate_id": "MN-SC-2026-1099771",
   "skill_id": "mn-gen-08695",
   "skill_name": "atlassian-mcp-server",
-  "issued_at": "2026-11-01T07:11:59.016Z",
-  "expires_at": "2026-11-08T07:11:59.016Z",
+  "issued_at": "2026-11-08T06:58:19.771Z",
+  "expires_at": "2026-11-15T06:58:19.771Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5d36fdb8f6b40b89e30afd98c6e575e687752b954e622407fe220bb4aa86f93b",
+  "signature": "7d46cc04b78dfea6aefe49b0a24ab2ed62c78011774702b217264c66825a00bc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-08695"
 }

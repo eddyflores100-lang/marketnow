@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7446400",
+  "certificate_id": "MN-SC-2026-1311377",
   "skill_id": "mn-real-sievemcp",
   "skill_name": "sieve-mcp",
-  "issued_at": "2026-11-01T07:17:26.400Z",
-  "expires_at": "2026-11-08T07:17:26.400Z",
+  "issued_at": "2026-11-08T07:01:51.377Z",
+  "expires_at": "2026-11-15T07:01:51.377Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "71ccc6b92a8b49996eae51a0d3a7b303bc53aa49f9d48d692d205a142827e0cf",
+  "signature": "f8cc3503f38d13f6f456b21f9bc836a31f35fedf8a5bb9c33579c7233aee2991",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-sievemcp"
 }

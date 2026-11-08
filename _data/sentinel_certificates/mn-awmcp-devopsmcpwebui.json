@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7237392",
+  "certificate_id": "MN-SC-2026-1177613",
   "skill_id": "mn-awmcp-devopsmcpwebui",
   "skill_name": "devops-mcp-webui",
-  "issued_at": "2026-11-01T07:13:57.392Z",
-  "expires_at": "2026-11-08T07:13:57.392Z",
+  "issued_at": "2026-11-08T06:59:37.613Z",
+  "expires_at": "2026-11-15T06:59:37.613Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e7e7946446ed1bd0d682a9d46775f4c12f30398806c6e33cbd37288c6cfb9837",
+  "signature": "851741ac3fff2ac09cd701193727ad680be68f721d854b52d432aae06472748c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-devopsmcpwebui"
 }

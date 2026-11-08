@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7057434",
+  "certificate_id": "MN-SC-2026-1061082",
   "skill_id": "mn-gen-03026",
   "skill_name": "cz-agents-mcp",
-  "issued_at": "2026-11-01T07:10:57.434Z",
-  "expires_at": "2026-11-08T07:10:57.434Z",
+  "issued_at": "2026-11-08T06:57:41.082Z",
+  "expires_at": "2026-11-15T06:57:41.082Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cacde968a229cba74f336162c2a7b750b10c62de6e443c31e326d32b13bea980",
+  "signature": "546e688e585530c9ced5cee23a086ef743755975b74866fe49b084a23c361d26",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03026"
 }

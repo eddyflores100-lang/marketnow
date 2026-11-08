@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7217820",
+  "certificate_id": "MN-SC-2026-1165650",
   "skill_id": "mn-awmcp-agentscrapermcp",
   "skill_name": "agent-scraper-mcp",
-  "issued_at": "2026-11-01T07:13:37.820Z",
-  "expires_at": "2026-11-08T07:13:37.820Z",
+  "issued_at": "2026-11-08T06:59:25.650Z",
+  "expires_at": "2026-11-15T06:59:25.650Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 6,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d349e61a9a795835db22b0eeb8ab91613099cc28bf64ba6b345440a0a7bdb274",
+  "signature": "d19fe623a4c0cd0cc8d9edd21256bb5fa8fc0776cc68922092cfb4e8e6268248",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-agentscrapermcp"
 }

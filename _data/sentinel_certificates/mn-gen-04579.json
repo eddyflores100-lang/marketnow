@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7078101",
+  "certificate_id": "MN-SC-2026-1073052",
   "skill_id": "mn-gen-04579",
   "skill_name": "godot-mcp-runtime",
-  "issued_at": "2026-11-01T07:11:18.101Z",
-  "expires_at": "2026-11-08T07:11:18.101Z",
+  "issued_at": "2026-11-08T06:57:53.052Z",
+  "expires_at": "2026-11-15T06:57:53.052Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3cd5910778c98597d63a5419edba5af4992950b5777345ac226e39b44f47884e",
+  "signature": "5d004f7f0b1716135eaf14b3b6e3cc9f757c1ee20a072500b805adc17852ea3e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04579"
 }

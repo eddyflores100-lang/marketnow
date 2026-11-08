@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7397538",
+  "certificate_id": "MN-SC-2026-1278807",
   "skill_id": "mn-real-distillmcp",
   "skill_name": "distill-mcp",
-  "issued_at": "2026-11-01T07:16:37.538Z",
-  "expires_at": "2026-11-08T07:16:37.538Z",
+  "issued_at": "2026-11-08T07:01:18.807Z",
+  "expires_at": "2026-11-15T07:01:18.807Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "735810d53063681572768eba002a838840b38eaed6776118bec935322b464fbf",
+  "signature": "40bcad1488e26c5f1bd8745f870165fe5ba1bc382b98700a26ab9986214e3f84",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-distillmcp"
 }

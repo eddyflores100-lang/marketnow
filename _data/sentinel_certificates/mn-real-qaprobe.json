@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7380242",
+  "certificate_id": "MN-SC-2026-1268141",
   "skill_id": "mn-real-qaprobe",
   "skill_name": "qa-probe",
-  "issued_at": "2026-11-01T07:16:20.242Z",
-  "expires_at": "2026-11-08T07:16:20.242Z",
+  "issued_at": "2026-11-08T07:01:08.141Z",
+  "expires_at": "2026-11-15T07:01:08.141Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ec1c125dca2a3a8e368b46300e9ac002f399b8c7e3fc0304423f41047bcc8a73",
+  "signature": "53c2214eef7122c05e0eac241ab39c92e4ce985465a6e262610c7e63816a16cc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-qaprobe"
 }

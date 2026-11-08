@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7251618",
+  "certificate_id": "MN-SC-2026-1186692",
   "skill_id": "mn-awmcp-vmwarensxsecurity",
   "skill_name": "VMware-NSX-Security",
-  "issued_at": "2026-11-01T07:14:11.618Z",
-  "expires_at": "2026-11-08T07:14:11.618Z",
+  "issued_at": "2026-11-08T06:59:46.692Z",
+  "expires_at": "2026-11-15T06:59:46.692Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2b68e5c36615b8ba377cabddd0f23a6d9a6ea3ff24725c53e40212ed094ccf25",
+  "signature": "dbd82b8fd1297b91d05a6484d2b1df92a185fa71fd2ca9d25ca18871cedc6aed",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-vmwarensxsecurity"
 }

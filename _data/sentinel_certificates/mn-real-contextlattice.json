@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7491103",
+  "certificate_id": "MN-SC-2026-1339388",
   "skill_id": "mn-real-contextlattice",
   "skill_name": "ContextLattice",
-  "issued_at": "2026-11-01T07:18:11.103Z",
-  "expires_at": "2026-11-08T07:18:11.103Z",
+  "issued_at": "2026-11-08T07:02:19.388Z",
+  "expires_at": "2026-11-15T07:02:19.388Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d6170e911a65b631607381f11a611c1f1180d91b195341bad97722ab3309ff85",
+  "signature": "2e63c3d6b4ccddb1fdec3762eb54a5a6667bbffc24896057d7b6b3f3034869e4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-contextlattice"
 }

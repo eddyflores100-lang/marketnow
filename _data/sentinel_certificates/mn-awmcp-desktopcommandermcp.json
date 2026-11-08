@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7271551",
+  "certificate_id": "MN-SC-2026-1200034",
   "skill_id": "mn-awmcp-desktopcommandermcp",
   "skill_name": "DesktopCommanderMCP",
-  "issued_at": "2026-11-01T07:14:31.551Z",
-  "expires_at": "2026-11-08T07:14:31.551Z",
+  "issued_at": "2026-11-08T07:00:00.034Z",
+  "expires_at": "2026-11-15T07:00:00.034Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "44d7b75458cb6bfbf2a129db52d6f03d41ca02da4f974ada0bf55da02acdcc16",
+  "signature": "eae0a909f8fe3c0eff89b02fb3573328d4c16f67dd52bf4862f6d40f621131c8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-desktopcommandermcp"
 }

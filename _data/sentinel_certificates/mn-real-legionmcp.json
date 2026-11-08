@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7310939",
+  "certificate_id": "MN-SC-2026-1225265",
   "skill_id": "mn-real-legionmcp",
   "skill_name": "legion-mcp",
-  "issued_at": "2026-11-01T07:15:10.939Z",
-  "expires_at": "2026-11-08T07:15:10.939Z",
+  "issued_at": "2026-11-08T07:00:25.265Z",
+  "expires_at": "2026-11-15T07:00:25.265Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "52dcbaa3d5eab4b301dfa616c4fe80c56e88c21a280e6f874b4924ccbffdb55c",
+  "signature": "1e3a3f845675f0cb363c6a7121ab30a70309341e5a41099d6f56b685937d0932",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-legionmcp"
 }

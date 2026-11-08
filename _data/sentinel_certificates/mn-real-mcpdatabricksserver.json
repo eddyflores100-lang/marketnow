@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7317923",
+  "certificate_id": "MN-SC-2026-1229048",
   "skill_id": "mn-real-mcpdatabricksserver",
   "skill_name": "mcp-databricks-server",
-  "issued_at": "2026-11-01T07:15:17.923Z",
-  "expires_at": "2026-11-08T07:15:17.923Z",
+  "issued_at": "2026-11-08T07:00:29.048Z",
+  "expires_at": "2026-11-15T07:00:29.048Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fd722f507871b101b70d597be3b2608c03f5d0525213e512036798030e89bc8f",
+  "signature": "2fb16fcec619f8f89951c02dc929c609e757d6f590fbd12fd6af1ebb9871cbb0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpdatabricksserver"
 }

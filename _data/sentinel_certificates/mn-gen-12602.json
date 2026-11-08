@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7152134",
+  "certificate_id": "MN-SC-2026-1121175",
   "skill_id": "mn-gen-12602",
   "skill_name": "mcp-server-thehive",
-  "issued_at": "2026-11-01T07:12:32.134Z",
-  "expires_at": "2026-11-08T07:12:32.134Z",
+  "issued_at": "2026-11-08T06:58:41.175Z",
+  "expires_at": "2026-11-15T06:58:41.175Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "148b37b741f218df1b0fc2a2a9eeadf145eb62f973b6df1876b210ee806ec8ed",
+  "signature": "4838b38071906e70a200bae6384f58d9b65c52db0372c04e1a90369ed1dd5cbd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12602"
 }

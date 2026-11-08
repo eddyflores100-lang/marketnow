@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7061331",
+  "certificate_id": "MN-SC-2026-1063682",
   "skill_id": "mn-gen-03440",
   "skill_name": "mcp-documentation-server",
-  "issued_at": "2026-11-01T07:11:01.331Z",
-  "expires_at": "2026-11-08T07:11:01.331Z",
+  "issued_at": "2026-11-08T06:57:43.682Z",
+  "expires_at": "2026-11-15T06:57:43.682Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f0b0767653df4981a30a0e313cf4e74971bd26a97de11c1045c7bd8045c8ef1c",
+  "signature": "92cca81e96ddba119ccc08ee69d46ce288a33b13df62d83c3db5d1955710bf56",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03440"
 }

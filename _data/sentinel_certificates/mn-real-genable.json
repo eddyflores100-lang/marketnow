@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7337696",
+  "certificate_id": "MN-SC-2026-1241090",
   "skill_id": "mn-real-genable",
   "skill_name": "genable",
-  "issued_at": "2026-11-01T07:15:37.696Z",
-  "expires_at": "2026-11-08T07:15:37.696Z",
+  "issued_at": "2026-11-08T07:00:41.090Z",
+  "expires_at": "2026-11-15T07:00:41.090Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b3a42070b71c32e0c8a4b8eeecc27fa38af0929fd4b532cb4de239e1a010409f",
+  "signature": "e0ba09fa67cefeaa4d703122f8208f8bc1aa1104df5da0d5c631870929d30531",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-genable"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7057062",
+  "certificate_id": "MN-SC-2026-1060824",
   "skill_id": "mn-gen-02992",
   "skill_name": "cursor-usage",
-  "issued_at": "2026-11-01T07:10:57.062Z",
-  "expires_at": "2026-11-08T07:10:57.062Z",
+  "issued_at": "2026-11-08T06:57:40.824Z",
+  "expires_at": "2026-11-15T06:57:40.824Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ae545098d2e15ec1088e3c6910366f5247e98daed7a8dee69665d0d8b95b6607",
+  "signature": "6b318cb687144b9d305d354012e96745c32431a684aecc7d9b62fdbe886de25c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02992"
 }

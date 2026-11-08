@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7411177",
+  "certificate_id": "MN-SC-2026-1287621",
   "skill_id": "mn-real-mcpserverinsumer",
   "skill_name": "mcp-server-insumer",
-  "issued_at": "2026-11-01T07:16:51.177Z",
-  "expires_at": "2026-11-08T07:16:51.177Z",
+  "issued_at": "2026-11-08T07:01:27.621Z",
+  "expires_at": "2026-11-15T07:01:27.621Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6d133966634bb4cf476a4537b8629a55733eb3754078dc81b9bd21cfd85b50cd",
+  "signature": "8c06093434617b86d0490ad1b8a1523106e81fd269c64b9b11d60a7ef00110a2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpserverinsumer"
 }

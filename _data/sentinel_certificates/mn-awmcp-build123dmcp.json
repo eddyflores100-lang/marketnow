@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7204944",
+  "certificate_id": "MN-SC-2026-1153615",
   "skill_id": "mn-awmcp-build123dmcp",
   "skill_name": "build123d-mcp",
-  "issued_at": "2026-11-01T07:13:24.944Z",
-  "expires_at": "2026-11-08T07:13:24.944Z",
+  "issued_at": "2026-11-08T06:59:13.615Z",
+  "expires_at": "2026-11-15T06:59:13.615Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "31e23af31681d3837dead7ce42902c4224f6f61634fd4e3cafbed81b2cfb3a87",
+  "signature": "0baec8876039e38c2caf15d18ff53d35675102dee7279486479d5da109aeda96",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-build123dmcp"
 }

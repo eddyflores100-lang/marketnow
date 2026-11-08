@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7300524",
+  "certificate_id": "MN-SC-2026-1219596",
   "skill_id": "mn-real-dchubmcpserver",
   "skill_name": "dchub-mcp-server",
-  "issued_at": "2026-11-01T07:15:00.524Z",
-  "expires_at": "2026-11-08T07:15:00.524Z",
+  "issued_at": "2026-11-08T07:00:19.596Z",
+  "expires_at": "2026-11-15T07:00:19.596Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e2b6c32e6d0f68860843b8588206be4d016903fcab5bdae353f2ef4f683e7e68",
+  "signature": "2c688ae392e80178f955fb6a4893bb53b293efa3f705ab51eb0381f752f74066",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-dchubmcpserver"
 }

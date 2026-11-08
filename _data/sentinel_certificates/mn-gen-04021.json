@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7067519",
+  "certificate_id": "MN-SC-2026-1067689",
   "skill_id": "mn-gen-04021",
   "skill_name": "FileScopeMCP",
-  "issued_at": "2026-11-01T07:11:07.519Z",
-  "expires_at": "2026-11-08T07:11:07.519Z",
+  "issued_at": "2026-11-08T06:57:47.689Z",
+  "expires_at": "2026-11-15T06:57:47.689Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d9790db9a581a7d7574c2ff6bb0f8c1e165858dd96cce78550ec7b5800643170",
+  "signature": "e5d9f6b19fbe0452bf6b0fd6ef33cc80c6172cf0be21d1d5c683ded522dc0275",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04021"
 }

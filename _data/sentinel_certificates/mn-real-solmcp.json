@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7403739",
+  "certificate_id": "MN-SC-2026-1282614",
   "skill_id": "mn-real-solmcp",
   "skill_name": "sol-mcp",
-  "issued_at": "2026-11-01T07:16:43.739Z",
-  "expires_at": "2026-11-08T07:16:43.739Z",
+  "issued_at": "2026-11-08T07:01:22.614Z",
+  "expires_at": "2026-11-15T07:01:22.614Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "be722519794ceb761d66d2ada29b869718a93610252afd3c19ec668bfa3c8433",
+  "signature": "5cdc7b191e91c869d9ea3d905d81ee17df66d374fe255d6660b77c5a54f473c9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-solmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7277334",
+  "certificate_id": "MN-SC-2026-1204167",
   "skill_id": "mn-awmcp-contentdistributionm",
   "skill_name": "content-distribution-mcp",
-  "issued_at": "2026-11-01T07:14:37.334Z",
-  "expires_at": "2026-11-08T07:14:37.334Z",
+  "issued_at": "2026-11-08T07:00:04.167Z",
+  "expires_at": "2026-11-15T07:00:04.167Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4e957161baa42bb971124901a1d19e12c4122ccb737919a067f08384af816b43",
+  "signature": "2b3c9e2c3b4819a3bbc28d629d846314fc5cacba6ee1cf304f7aaf243efdb255",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-contentdistributionm"
 }

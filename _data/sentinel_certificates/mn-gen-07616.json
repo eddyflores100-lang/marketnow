@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7108805",
+  "certificate_id": "MN-SC-2026-1092335",
   "skill_id": "mn-gen-07616",
   "skill_name": "deepseek-mcp-server",
-  "issued_at": "2026-11-01T07:11:48.805Z",
-  "expires_at": "2026-11-08T07:11:48.805Z",
+  "issued_at": "2026-11-08T06:58:12.335Z",
+  "expires_at": "2026-11-15T06:58:12.335Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -36,7 +36,7 @@
     "resolved_at": "2026-10-29T11:40:54.187Z"
   },
   "cert_v": 2,
-  "signature": "4cdc39744c915500ed61f4d0deaae6fb9bea466d40685d2a72f466c53c3b5f27",
+  "signature": "8de0b69bf59a6a001de89ff97f7d20981c4c66fb78744e338465fdec643132c4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07616"
 }

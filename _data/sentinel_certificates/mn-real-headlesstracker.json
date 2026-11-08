@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7448944",
+  "certificate_id": "MN-SC-2026-1313179",
   "skill_id": "mn-real-headlesstracker",
   "skill_name": "HeadlessTracker",
-  "issued_at": "2026-11-01T07:17:28.944Z",
-  "expires_at": "2026-11-08T07:17:28.944Z",
+  "issued_at": "2026-11-08T07:01:53.179Z",
+  "expires_at": "2026-11-15T07:01:53.179Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "852bc93083de360cd23e3dd14cc8eb97ce7510b2e781afbc00cc7f2007eb3dbc",
+  "signature": "047bacfa1078eccf7766283610098466d87e311f35b9f2a03032896c07ba7c64",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-headlesstracker"
 }

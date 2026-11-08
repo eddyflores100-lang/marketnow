@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7148881",
+  "certificate_id": "MN-SC-2026-1118990",
   "skill_id": "mn-gen-12203",
   "skill_name": "steam-mcp",
-  "issued_at": "2026-11-01T07:12:28.881Z",
-  "expires_at": "2026-11-08T07:12:28.881Z",
+  "issued_at": "2026-11-08T06:58:38.990Z",
+  "expires_at": "2026-11-15T06:58:38.990Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "14a0c0b25272145b95ab1e20d940b45b9780642a355452b9f5c906ef4da2d547",
+  "signature": "a917b5ab713c249235eb30e821f0ca8807e28c0e5a1fd429e5acc03c1699104b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12203"
 }

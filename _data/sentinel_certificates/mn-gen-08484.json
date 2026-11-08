@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7117804",
+  "certificate_id": "MN-SC-2026-1098920",
   "skill_id": "mn-gen-08484",
   "skill_name": "mcp-graphql",
-  "issued_at": "2026-11-01T07:11:57.804Z",
-  "expires_at": "2026-11-08T07:11:57.804Z",
+  "issued_at": "2026-11-08T06:58:18.920Z",
+  "expires_at": "2026-11-15T06:58:18.920Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -36,7 +36,7 @@
     "resolved_at": "2026-10-29T11:40:08.631Z"
   },
   "cert_v": 2,
-  "signature": "1486f61b6d7373726fae4bb44eb59537ea4e3711ee0a0585e0e4432d85acd3d4",
+  "signature": "c05bba70ff4e89feb4472cfbe542efe35a8bdaf8dc3251f3329bd11c65874bc2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-08484"
 }

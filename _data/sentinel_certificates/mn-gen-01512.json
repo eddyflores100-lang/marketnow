@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7042088",
+  "certificate_id": "MN-SC-2026-1051171",
   "skill_id": "mn-gen-01512",
   "skill_name": "Box",
-  "issued_at": "2026-11-01T07:10:42.088Z",
-  "expires_at": "2026-11-08T07:10:42.088Z",
+  "issued_at": "2026-11-08T06:57:31.171Z",
+  "expires_at": "2026-11-15T06:57:31.171Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ecf7f74e9faba403a29a996c4cd9aaedf1e3eb5075b881e0799885a15aedb799",
+  "signature": "9e27d6241f7803676a4d61aa9edd648c8b8efde8659f5d024fa09410b40d90c6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01512"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7112059",
+  "certificate_id": "MN-SC-2026-1094642",
   "skill_id": "mn-gen-07797",
   "skill_name": "scraperapi-mcp",
-  "issued_at": "2026-11-01T07:11:52.059Z",
-  "expires_at": "2026-11-08T07:11:52.059Z",
+  "issued_at": "2026-11-08T06:58:14.642Z",
+  "expires_at": "2026-11-15T06:58:14.642Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b6eec13c34a47efcc29cc3856c944da8e4d3f5f9f79751291b6385fedd45dfd3",
+  "signature": "e4295802a387db06f5246bf66355edf1646683277b6708bc15b56ef1b17c9f91",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07797"
 }

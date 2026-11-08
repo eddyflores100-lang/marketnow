@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7028974",
+  "certificate_id": "MN-SC-2026-1042433",
   "skill_id": "mn-gen-00202",
   "skill_name": "aegis",
-  "issued_at": "2026-11-01T07:10:28.974Z",
-  "expires_at": "2026-11-08T07:10:28.974Z",
+  "issued_at": "2026-11-08T06:57:22.433Z",
+  "expires_at": "2026-11-15T06:57:22.433Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "85633ad2e5ec11811b4dd5255686e33227165a483747a0c69fac7b725a473abd",
+  "signature": "75d1dc0c5e5ffe0965fb3432b4ec92497847dc401e15ac226dd81f5f70d85229",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00202"
 }

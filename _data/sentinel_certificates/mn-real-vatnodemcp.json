@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7403994",
+  "certificate_id": "MN-SC-2026-1282783",
   "skill_id": "mn-real-vatnodemcp",
   "skill_name": "vatnode-mcp",
-  "issued_at": "2026-11-01T07:16:43.994Z",
-  "expires_at": "2026-11-08T07:16:43.994Z",
+  "issued_at": "2026-11-08T07:01:22.783Z",
+  "expires_at": "2026-11-15T07:01:22.783Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1965c5d205172a5a486214ea8913b463b19cd96953c6301768371c702f53a57e",
+  "signature": "707a2c4b1585cc2bd5cd9745385347ab7236a446bc2756efa682f85e235b29f9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-vatnodemcp"
 }

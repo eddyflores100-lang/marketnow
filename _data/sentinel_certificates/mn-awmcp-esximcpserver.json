@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7236602",
+  "certificate_id": "MN-SC-2026-1177167",
   "skill_id": "mn-awmcp-esximcpserver",
   "skill_name": "esxi-mcp-server",
-  "issued_at": "2026-11-01T07:13:56.602Z",
-  "expires_at": "2026-11-08T07:13:56.602Z",
+  "issued_at": "2026-11-08T06:59:37.167Z",
+  "expires_at": "2026-11-15T06:59:37.167Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ff9fbf94fa96c961592906a5e4f7cc1f022f41a3e314462114b614fb6b3d90da",
+  "signature": "b91465759b34f5953e5cdb928587b5ee95f6bd474fdad1a79c7633e89a9dde1c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-esximcpserver"
 }

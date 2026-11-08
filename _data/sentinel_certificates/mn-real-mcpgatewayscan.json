@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7371098",
+  "certificate_id": "MN-SC-2026-1262145",
   "skill_id": "mn-real-mcpgatewayscan",
   "skill_name": "mcp-gateway-scan",
-  "issued_at": "2026-11-01T07:16:11.098Z",
-  "expires_at": "2026-11-08T07:16:11.098Z",
+  "issued_at": "2026-11-08T07:01:02.145Z",
+  "expires_at": "2026-11-15T07:01:02.145Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c4aa13a20454f034362d41f9312f63f539f8d97d96860a16223227b4a1b58d3e",
+  "signature": "2cae214062750c2623464518142d1f52f94938481b28e76dabd1cb889909226a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpgatewayscan"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7257493",
+  "certificate_id": "MN-SC-2026-1190169",
   "skill_id": "mn-awmcp-agybridge",
   "skill_name": "agy-bridge",
-  "issued_at": "2026-11-01T07:14:17.493Z",
-  "expires_at": "2026-11-08T07:14:17.493Z",
+  "issued_at": "2026-11-08T06:59:50.169Z",
+  "expires_at": "2026-11-15T06:59:50.169Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "bed87688641a96aed0514fedd2412cf2c296a716416b1d7ab61f58842681f2c8",
+  "signature": "9614054f27975e4d4c13f988ab3bee44e2e40a4bde56174b9a3f958601d6a528",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-agybridge"
 }

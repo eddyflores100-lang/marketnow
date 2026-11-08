@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7446676",
+  "certificate_id": "MN-SC-2026-1311619",
   "skill_id": "mn-real-bcbbrmcp",
   "skill_name": "bcb-br-mcp",
-  "issued_at": "2026-11-01T07:17:26.676Z",
-  "expires_at": "2026-11-08T07:17:26.676Z",
+  "issued_at": "2026-11-08T07:01:51.619Z",
+  "expires_at": "2026-11-15T07:01:51.619Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b4de07c6a1dbc6fd4d3cf78d451fc959497ddbc73510e6af6c65b8b60c7d98fb",
+  "signature": "6f6bf1a3ef9d606227cb97d5caf0638c420bc0c7aedc281fa796a717e30316dd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-bcbbrmcp"
 }

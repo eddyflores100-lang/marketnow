@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7454534",
+  "certificate_id": "MN-SC-2026-1316965",
   "skill_id": "mn-real-gainiummcp",
   "skill_name": "gainium-mcp",
-  "issued_at": "2026-11-01T07:17:34.534Z",
-  "expires_at": "2026-11-08T07:17:34.534Z",
+  "issued_at": "2026-11-08T07:01:56.965Z",
+  "expires_at": "2026-11-15T07:01:56.965Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "81bbb90b25ceff977487b4f4f3747342721a4c3e6b22d03e7033334f19666525",
+  "signature": "536788f03540c2db6aac2b4ae29ca60dddf87566d2df86f9fc09232cb949f18e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-gainiummcp"
 }

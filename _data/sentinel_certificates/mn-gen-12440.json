@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7150819",
+  "certificate_id": "MN-SC-2026-1120249",
   "skill_id": "mn-gen-12440",
   "skill_name": "talonic-mcp",
-  "issued_at": "2026-11-01T07:12:30.819Z",
-  "expires_at": "2026-11-08T07:12:30.819Z",
+  "issued_at": "2026-11-08T06:58:40.249Z",
+  "expires_at": "2026-11-15T06:58:40.249Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fd18ed00be957b2aee753d664798e42076e5115a4b8af58e529f2c692a7c09d7",
+  "signature": "162336fb11899578d7f23207624f1d496437577bc267fc33e3232a52700c7c66",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12440"
 }

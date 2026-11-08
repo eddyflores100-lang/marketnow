@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7371894",
+  "certificate_id": "MN-SC-2026-1262801",
   "skill_id": "mn-real-fafmcp",
   "skill_name": "faf-mcp",
-  "issued_at": "2026-11-01T07:16:11.894Z",
-  "expires_at": "2026-11-08T07:16:11.894Z",
+  "issued_at": "2026-11-08T07:01:02.801Z",
+  "expires_at": "2026-11-15T07:01:02.801Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 7,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2302eccabebe29abd00641fbe9c4c81d357f26fd0c5b71f077f8ce6e6c1b39bb",
+  "signature": "726453b1d5f8297fce0be66de52aa4f520d0637105ac58a00a348e327269b2fa",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-fafmcp"
 }

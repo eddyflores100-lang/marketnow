@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7081565",
+  "certificate_id": "MN-SC-2026-1075292",
   "skill_id": "mn-gen-04943",
   "skill_name": "homeassistant-mcp",
-  "issued_at": "2026-11-01T07:11:21.565Z",
-  "expires_at": "2026-11-08T07:11:21.565Z",
+  "issued_at": "2026-11-08T06:57:55.292Z",
+  "expires_at": "2026-11-15T06:57:55.292Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4aa1db9e95514c151bce471a899151dc11c2d26232d27e18650f14ec39feb8e0",
+  "signature": "439e03f7d1b04f7aad846193f252bfb2de83a874d52ebe2b5a47bd7c0018e6ac",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04943"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7054954",
+  "certificate_id": "MN-SC-2026-1059439",
   "skill_id": "mn-gen-02778",
   "skill_name": "conversation-handoff-mcp",
-  "issued_at": "2026-11-01T07:10:54.954Z",
-  "expires_at": "2026-11-08T07:10:54.954Z",
+  "issued_at": "2026-11-08T06:57:39.439Z",
+  "expires_at": "2026-11-15T06:57:39.439Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c90fe2258cf0b1e03e1381b145bd2d91d03f253bf461896de5caf6d2bcb0cf90",
+  "signature": "07826096d268fb13df3950b0179a742571cd5d3e6bc73220bc427d8b305c4535",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02778"
 }

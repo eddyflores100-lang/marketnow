@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7389052",
+  "certificate_id": "MN-SC-2026-1273134",
   "skill_id": "mn-real-agentcentralmcp",
   "skill_name": "agent-central-mcp",
-  "issued_at": "2026-11-01T07:16:29.052Z",
-  "expires_at": "2026-11-08T07:16:29.052Z",
+  "issued_at": "2026-11-08T07:01:13.134Z",
+  "expires_at": "2026-11-15T07:01:13.134Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b4eb56f8d52cb85d5b9360372487e27fcb54cd338e7bffe29a293393a491af24",
+  "signature": "82a3e347fbca0ab85470c05c639730e52a76b897e52685e9e3367b31a067b892",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-agentcentralmcp"
 }

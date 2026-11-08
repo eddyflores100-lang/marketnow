@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7461564",
+  "certificate_id": "MN-SC-2026-1321513",
   "skill_id": "mn-real-mcpromm",
   "skill_name": "mcp-romm",
-  "issued_at": "2026-11-01T07:17:41.564Z",
-  "expires_at": "2026-11-08T07:17:41.564Z",
+  "issued_at": "2026-11-08T07:02:01.513Z",
+  "expires_at": "2026-11-15T07:02:01.513Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "52c14fa0cbb8d427004955d692aa25159213fde108d5ac384414d3bcdd304ed9",
+  "signature": "ad3eaeb4d8a1c71fbf3d0a7726029793cf204fd5459b09f7d1436ab378098bcd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpromm"
 }

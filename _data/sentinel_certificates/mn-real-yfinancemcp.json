@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7438708",
+  "certificate_id": "MN-SC-2026-1306027",
   "skill_id": "mn-real-yfinancemcp",
   "skill_name": "yfinance-mcp",
-  "issued_at": "2026-11-01T07:17:18.708Z",
-  "expires_at": "2026-11-08T07:17:18.708Z",
+  "issued_at": "2026-11-08T07:01:46.027Z",
+  "expires_at": "2026-11-15T07:01:46.027Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "08904aa4d3bad2e42ae43e85c1919c02a7fcd1a21887ed5e7adc2a37844cc68c",
+  "signature": "c257d178574eb56f403414bd26e2c0b8d4be5e0982f4d7dc2fc214c238a460e3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-yfinancemcp"
 }

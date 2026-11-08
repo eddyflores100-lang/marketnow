@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7091879",
+  "certificate_id": "MN-SC-2026-1081765",
   "skill_id": "mn-gen-06046",
   "skill_name": "Windows-MCP.Net",
-  "issued_at": "2026-11-01T07:11:31.879Z",
-  "expires_at": "2026-11-08T07:11:31.879Z",
+  "issued_at": "2026-11-08T06:58:01.765Z",
+  "expires_at": "2026-11-15T06:58:01.765Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "74d7f7fcc92fbfbce1be3c16ba012b45a83878d7d582e767b267c148db72eea5",
+  "signature": "883ad601a57c731b00214bc2cfd28c6995ca9ae9bd5c1e74b78b3a0c3bc0a8db",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-06046"
 }

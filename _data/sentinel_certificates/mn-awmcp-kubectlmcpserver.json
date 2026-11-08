@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7246323",
+  "certificate_id": "MN-SC-2026-1183388",
   "skill_id": "mn-awmcp-kubectlmcpserver",
   "skill_name": "kubectl-mcp-server",
-  "issued_at": "2026-11-01T07:14:06.323Z",
-  "expires_at": "2026-11-08T07:14:06.323Z",
+  "issued_at": "2026-11-08T06:59:43.388Z",
+  "expires_at": "2026-11-15T06:59:43.388Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 7,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "255e6f9cb900b7be2765c3113ba33d9c1876ab48b3139d828570e36e5cf86811",
+  "signature": "1482a4ffa3f08426404a6253b635f5b0ad484ce85959f649cfbf91d0fa3800be",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-kubectlmcpserver"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7206779",
+  "certificate_id": "MN-SC-2026-1154786",
   "skill_id": "mn-awmcp-bazireadermcp",
   "skill_name": "bazi-reader-mcp",
-  "issued_at": "2026-11-01T07:13:26.779Z",
-  "expires_at": "2026-11-08T07:13:26.779Z",
+  "issued_at": "2026-11-08T06:59:14.786Z",
+  "expires_at": "2026-11-15T06:59:14.786Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f0c8fde4d60f180fbf94fca0328127ebe3b73c91c41ca8551fa61ffbafd158f4",
+  "signature": "5bdd76740cb8cd6012a4ae582bad838ecc96271393a4015fff6f25d9027f19ff",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-bazireadermcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7426010",
+  "certificate_id": "MN-SC-2026-1297566",
   "skill_id": "mn-real-cryptofundsmcp",
   "skill_name": "crypto-funds-mcp",
-  "issued_at": "2026-11-01T07:17:06.010Z",
-  "expires_at": "2026-11-08T07:17:06.010Z",
+  "issued_at": "2026-11-08T07:01:37.566Z",
+  "expires_at": "2026-11-15T07:01:37.566Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f51ae61166340f5024f0de2cbd303c616e3f00d4427a1463b060b2bb1b11bb34",
+  "signature": "5744eea08e2f1d4404bfe9e4e2107f4e78afedbbbe4ecf623eea2ca8a83692c8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cryptofundsmcp"
 }

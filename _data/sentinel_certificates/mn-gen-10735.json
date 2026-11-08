@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7136391",
+  "certificate_id": "MN-SC-2026-1110642",
   "skill_id": "mn-gen-10735",
   "skill_name": "propstack-mcp",
-  "issued_at": "2026-11-01T07:12:16.391Z",
-  "expires_at": "2026-11-08T07:12:16.391Z",
+  "issued_at": "2026-11-08T06:58:30.642Z",
+  "expires_at": "2026-11-15T06:58:30.642Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9dd48883ad374c5f189ae3b6bbe53b1c06595d051271ce323975b92df3b4dbec",
+  "signature": "95fe2fbdd38ee2c3917b614919fc63b75e6153913a9bf18576a20cb8737e2e33",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-10735"
 }

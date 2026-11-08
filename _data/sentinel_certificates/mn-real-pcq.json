@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7383674",
+  "certificate_id": "MN-SC-2026-1270165",
   "skill_id": "mn-real-pcq",
   "skill_name": "pcq",
-  "issued_at": "2026-11-01T07:16:23.674Z",
-  "expires_at": "2026-11-08T07:16:23.674Z",
+  "issued_at": "2026-11-08T07:01:10.165Z",
+  "expires_at": "2026-11-15T07:01:10.165Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b5ebfcdb37a79ecdfd87a04737573b375821d3bbdf873162ec303718d583f842",
+  "signature": "203831c0e23aa944d386115c0711357b52010d23a65da30b3ec07a3076e2bfca",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-pcq"
 }

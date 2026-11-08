@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7477252",
+  "certificate_id": "MN-SC-2026-1330776",
   "skill_id": "mn-real-geondagentprotocol",
   "skill_name": "geond-agent-protocol",
-  "issued_at": "2026-11-01T07:17:57.252Z",
-  "expires_at": "2026-11-08T07:17:57.252Z",
+  "issued_at": "2026-11-08T07:02:10.776Z",
+  "expires_at": "2026-11-15T07:02:10.776Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "08559ed435deb44b348ea774bc86a575bf4bedfa1e9d1d9ed335c9e239d7f627",
+  "signature": "b327568457bd2131d8c035560ba59416980dd270a1ff08ec1db0d64c2376b8b0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-geondagentprotocol"
 }

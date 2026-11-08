@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7272879",
+  "certificate_id": "MN-SC-2026-1200902",
   "skill_id": "mn-awmcp-bash",
   "skill_name": "bash",
-  "issued_at": "2026-11-01T07:14:32.879Z",
-  "expires_at": "2026-11-08T07:14:32.879Z",
+  "issued_at": "2026-11-08T07:00:00.902Z",
+  "expires_at": "2026-11-15T07:00:00.902Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fa98d0395f497b0a045ca747138bca3b3b93f1c78c0457621263faae5bac5453",
+  "signature": "0da9a7579094e96214171f6846224ec987ee0b38d7f5a6fcbe761ea11ef9cd7e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-bash"
 }

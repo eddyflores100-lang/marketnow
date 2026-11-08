@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7065852",
+  "certificate_id": "MN-SC-2026-1066559",
   "skill_id": "mn-sys-03883",
   "skill_name": "fast-filesystem-mcp",
-  "issued_at": "2026-11-01T07:11:05.852Z",
-  "expires_at": "2026-11-08T07:11:05.852Z",
+  "issued_at": "2026-11-08T06:57:46.559Z",
+  "expires_at": "2026-11-15T06:57:46.559Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 4,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8767f0361822b23c6126122169718db8c2c5d09c425f7aa6bfb1678e7aa1dadd",
+  "signature": "f3386c8875c9ff9d17a9f1742cf6b9c87bb8718b26f9e38fe37c58aff65107e0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-sys-03883"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7379725",
+  "certificate_id": "MN-SC-2026-1267744",
   "skill_id": "mn-real-codemagicmcp",
   "skill_name": "codemagic-mcp",
-  "issued_at": "2026-11-01T07:16:19.725Z",
-  "expires_at": "2026-11-08T07:16:19.725Z",
+  "issued_at": "2026-11-08T07:01:07.744Z",
+  "expires_at": "2026-11-15T07:01:07.744Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "298367abf3afcfc951d613a1d2f28811e9961724f612bbc9e324354d6637be61",
+  "signature": "bf3b2eb8835d7608d9bb230ebe176afcc1852f28467ec544684e05ff7b1c1eaa",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-codemagicmcp"
 }

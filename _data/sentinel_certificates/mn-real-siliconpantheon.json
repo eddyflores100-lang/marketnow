@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7460417",
+  "certificate_id": "MN-SC-2026-1320889",
   "skill_id": "mn-real-siliconpantheon",
   "skill_name": "Silicon-Pantheon",
-  "issued_at": "2026-11-01T07:17:40.417Z",
-  "expires_at": "2026-11-08T07:17:40.417Z",
+  "issued_at": "2026-11-08T07:02:00.889Z",
+  "expires_at": "2026-11-15T07:02:00.889Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "393be1d74b2c25a371b2834a3435f1c506e91fa8f2746e38238f961f6596b074",
+  "signature": "4e9915b86e5092c4989d27422bbee1e9b4a8bb4713527d6e199579fe25737b01",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-siliconpantheon"
 }

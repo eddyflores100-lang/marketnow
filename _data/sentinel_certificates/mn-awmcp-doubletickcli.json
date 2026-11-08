@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7280035",
+  "certificate_id": "MN-SC-2026-1206032",
   "skill_id": "mn-awmcp-doubletickcli",
   "skill_name": "doubletick-cli",
-  "issued_at": "2026-11-01T07:14:40.035Z",
-  "expires_at": "2026-11-08T07:14:40.035Z",
+  "issued_at": "2026-11-08T07:00:06.032Z",
+  "expires_at": "2026-11-15T07:00:06.032Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "96ea75fc2330cc408a374fe4f41c48e8d3447f46ad93043401b027b303d24c09",
+  "signature": "54852a761d396966ee2c67ec03dd056208d60141bf750bc76afdc880b4d86dec",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-doubletickcli"
 }

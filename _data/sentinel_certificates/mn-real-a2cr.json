@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7465946",
+  "certificate_id": "MN-SC-2026-1324156",
   "skill_id": "mn-real-a2cr",
   "skill_name": "a2cr",
-  "issued_at": "2026-11-01T07:17:45.946Z",
-  "expires_at": "2026-11-08T07:17:45.946Z",
+  "issued_at": "2026-11-08T07:02:04.156Z",
+  "expires_at": "2026-11-15T07:02:04.156Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0f9857e6dbbe3ff1ffa73c5173a3cefedee79d9eeb9df9dd345370f37bd32a99",
+  "signature": "64b53acddab094282373ce0858cf921c0ce1ed0c80ae2092f85f1f8cb3b61972",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-a2cr"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7058380",
+  "certificate_id": "MN-SC-2026-1061653",
   "skill_id": "mn-dat-03130",
   "skill_name": "db-mcp-server",
-  "issued_at": "2026-11-01T07:10:58.380Z",
-  "expires_at": "2026-11-08T07:10:58.380Z",
+  "issued_at": "2026-11-08T06:57:41.653Z",
+  "expires_at": "2026-11-15T06:57:41.653Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7419c18f6b0a1df55d76e970f1c2160c9d5f969ad94083612230fb206ce13dd2",
+  "signature": "6eb8683c16b6ae7a720d6c0a3ef82d2e3ec1433e1aabe64c430928cc20767489",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-dat-03130"
 }

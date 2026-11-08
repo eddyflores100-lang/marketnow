@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7306730",
+  "certificate_id": "MN-SC-2026-1222749",
   "skill_id": "mn-real-vikingdbmcpserver",
   "skill_name": "vikingdb-mcp-server",
-  "issued_at": "2026-11-01T07:15:06.730Z",
-  "expires_at": "2026-11-08T07:15:06.730Z",
+  "issued_at": "2026-11-08T07:00:22.749Z",
+  "expires_at": "2026-11-15T07:00:22.749Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "796e41d38955abe69e222f024de8a6aea1377ed2fea2be1c7da869a01f202234",
+  "signature": "1de71d16e293636356975acc4f307ef2e08417a40ba989fe3533e11c7e1635a4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-vikingdbmcpserver"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7199916",
+  "certificate_id": "MN-SC-2026-1150394",
   "skill_id": "mn-awmcp-mcpapplemusic",
   "skill_name": "mcp-apple-music",
-  "issued_at": "2026-11-01T07:13:19.916Z",
-  "expires_at": "2026-11-08T07:13:19.916Z",
+  "issued_at": "2026-11-08T06:59:10.394Z",
+  "expires_at": "2026-11-15T06:59:10.394Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8bca77ee86e66adf4a1afdfabdfdb9c4d34c521dfb2cb3d414965c7f3ba395d7",
+  "signature": "9e13a9a11c315ecf3ca7a41bae7426f80d83fc52c43e2838a38ca0b27ef2d9cd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpapplemusic"
 }

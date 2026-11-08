@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7097238",
+  "certificate_id": "MN-SC-2026-1085248",
   "skill_id": "mn-gen-06619",
   "skill_name": "NoteDiscovery",
-  "issued_at": "2026-11-01T07:11:37.238Z",
-  "expires_at": "2026-11-08T07:11:37.238Z",
+  "issued_at": "2026-11-08T06:58:05.248Z",
+  "expires_at": "2026-11-15T06:58:05.248Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f504ec2792b7048cc1a9a9202c6908f32dff5af95132f33a924eeba2e25d792f",
+  "signature": "1b73aa921ba7c98870b4c18c58ff299074ebaa1e667d2a175f66d19554bab7ee",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-06619"
 }

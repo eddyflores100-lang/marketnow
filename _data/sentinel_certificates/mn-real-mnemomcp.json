@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7485629",
+  "certificate_id": "MN-SC-2026-1336191",
   "skill_id": "mn-real-mnemomcp",
   "skill_name": "mnemo-mcp",
-  "issued_at": "2026-11-01T07:18:05.629Z",
-  "expires_at": "2026-11-08T07:18:05.629Z",
+  "issued_at": "2026-11-08T07:02:16.191Z",
+  "expires_at": "2026-11-15T07:02:16.191Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9c5d5d250362813525fe42ef0de30e38eabdb537028f1d3d3950fcf51d57d48b",
+  "signature": "14073ac976bf30a5c7adcd363f143a67cd2de4b92a9d664535821942e300baf9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mnemomcp"
 }

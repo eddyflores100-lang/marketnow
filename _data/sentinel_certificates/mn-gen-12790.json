@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7155139",
+  "certificate_id": "MN-SC-2026-1122823",
   "skill_id": "mn-gen-12790",
   "skill_name": "tradingview-mcp",
-  "issued_at": "2026-11-01T07:12:35.139Z",
-  "expires_at": "2026-11-08T07:12:35.139Z",
+  "issued_at": "2026-11-08T06:58:42.823Z",
+  "expires_at": "2026-11-15T06:58:42.823Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "140717caafd0517da36fbd63be6ddf328604111a798a57e00b655cfe8da7b4e0",
+  "signature": "6d1b26364a36cd4a7fd13b8638f7502cb5a8e7b600c0d34e6b7d3d4f5d59ccc0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12790"
 }

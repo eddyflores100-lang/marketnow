@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7383065",
+  "certificate_id": "MN-SC-2026-1269826",
   "skill_id": "mn-real-gnomonmcp",
   "skill_name": "gnomon-mcp",
-  "issued_at": "2026-11-01T07:16:23.065Z",
-  "expires_at": "2026-11-08T07:16:23.065Z",
+  "issued_at": "2026-11-08T07:01:09.826Z",
+  "expires_at": "2026-11-15T07:01:09.826Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fefedca50019d7cd02ed649e270ea9bd71e896b583b144ad061ed6f53ddab35e",
+  "signature": "6042951a9927bdb1a50b2920834da1819d5d208a21659ee2e37727881aea0ec6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-gnomonmcp"
 }

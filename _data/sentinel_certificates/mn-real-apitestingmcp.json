@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7335293",
+  "certificate_id": "MN-SC-2026-1239557",
   "skill_id": "mn-real-apitestingmcp",
   "skill_name": "api-testing-mcp",
-  "issued_at": "2026-11-01T07:15:35.293Z",
-  "expires_at": "2026-11-08T07:15:35.293Z",
+  "issued_at": "2026-11-08T07:00:39.557Z",
+  "expires_at": "2026-11-15T07:00:39.557Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "388e0929af59fb1c78e458a2f6a0b523e02b8b3e0419df55c7134114e3d29afe",
+  "signature": "fdd8bc3fc09874a58150990207f3d323947355c1a9d3d41e4c144616016bf15c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-apitestingmcp"
 }

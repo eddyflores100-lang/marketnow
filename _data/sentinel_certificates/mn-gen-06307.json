@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7094232",
+  "certificate_id": "MN-SC-2026-1083222",
   "skill_id": "mn-gen-06307",
   "skill_name": "brave-search-mcp",
-  "issued_at": "2026-11-01T07:11:34.232Z",
-  "expires_at": "2026-11-08T07:11:34.232Z",
+  "issued_at": "2026-11-08T06:58:03.222Z",
+  "expires_at": "2026-11-15T06:58:03.222Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1d748feb71d45ceeed85f8944eca8a6edb8a697f9535270fd373d7f156e79c31",
+  "signature": "97899151dd9adeead7c57f60caecc3b62ae417a19c02c51a82adc6c3c7b65cbb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-06307"
 }

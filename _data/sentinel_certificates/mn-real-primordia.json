@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7439687",
+  "certificate_id": "MN-SC-2026-1306748",
   "skill_id": "mn-real-primordia",
   "skill_name": "primordia",
-  "issued_at": "2026-11-01T07:17:19.687Z",
-  "expires_at": "2026-11-08T07:17:19.687Z",
+  "issued_at": "2026-11-08T07:01:46.748Z",
+  "expires_at": "2026-11-15T07:01:46.748Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "007fa6b9caa1518f950c529d75b21b6c9cd8b2a8b113512e0749e49d825962e0",
+  "signature": "e61c1ba4e28da45fbb36dbb33bbda396b3472cd1df8a32585bc5cc20cae2b8c5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-primordia"
 }

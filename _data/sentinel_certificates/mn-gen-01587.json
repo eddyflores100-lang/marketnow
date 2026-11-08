@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7043553",
+  "certificate_id": "MN-SC-2026-1052077",
   "skill_id": "mn-gen-01587",
   "skill_name": "bruno-mcp",
-  "issued_at": "2026-11-01T07:10:43.553Z",
-  "expires_at": "2026-11-08T07:10:43.553Z",
+  "issued_at": "2026-11-08T06:57:32.077Z",
+  "expires_at": "2026-11-15T06:57:32.077Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "63df38f577a3571a925108ed38a9fa4c3dfb443677ddcd6e29869303849783a3",
+  "signature": "b9b536b70fb966b2c07ea80e04d29d3a6792bdf7bff272b23986842adbbe2745",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01587"
 }

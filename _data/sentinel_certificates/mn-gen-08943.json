@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7120091",
+  "certificate_id": "MN-SC-2026-1100454",
   "skill_id": "mn-gen-08943",
   "skill_name": "mercadopago-tool",
-  "issued_at": "2026-11-01T07:12:00.091Z",
-  "expires_at": "2026-11-08T07:12:00.091Z",
+  "issued_at": "2026-11-08T06:58:20.454Z",
+  "expires_at": "2026-11-15T06:58:20.454Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9a271aba3d9fa15a9eef2f4eedeb4f3512078ac0129b9efb482d2fee0d4091c9",
+  "signature": "4c1a2a149466b80bf890b2576b4c5bbd8bead70bce37e7d012e35a9a31f40a20",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-08943"
 }

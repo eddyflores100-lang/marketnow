@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7089701",
+  "certificate_id": "MN-SC-2026-1080489",
   "skill_id": "mn-gen-05758",
   "skill_name": "linear-mcp-server",
-  "issued_at": "2026-11-01T07:11:29.701Z",
-  "expires_at": "2026-11-08T07:11:29.701Z",
+  "issued_at": "2026-11-08T06:58:00.489Z",
+  "expires_at": "2026-11-15T06:58:00.489Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3f18205a782c25d2726a5ccd1ac00263207dd89dc747dc6f63c2b22fe3151df9",
+  "signature": "d7e2bb27b065117a3b64475a2eecd536ea9be15cb613c4a3bb100fe325e5216e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05758"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7048536",
+  "certificate_id": "MN-SC-2026-1055390",
   "skill_id": "mn-gen-02178",
   "skill_name": "claude-talk-to-figma-mcp",
-  "issued_at": "2026-11-01T07:10:48.536Z",
-  "expires_at": "2026-11-08T07:10:48.536Z",
+  "issued_at": "2026-11-08T06:57:35.390Z",
+  "expires_at": "2026-11-15T06:57:35.390Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "eaebbf3f35aa1573b499600f2701bc2577a0e2187ab26389e39bf90df2ddaa43",
+  "signature": "03a21d9731b8f859624800de4f3dac111cd7cc03374e2e5d87660adcb161946e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02178"
 }

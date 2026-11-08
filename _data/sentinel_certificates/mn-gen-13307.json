@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7160923",
+  "certificate_id": "MN-SC-2026-1126438",
   "skill_id": "mn-gen-13307",
   "skill_name": "wc26-mcp",
-  "issued_at": "2026-11-01T07:12:40.923Z",
-  "expires_at": "2026-11-08T07:12:40.923Z",
+  "issued_at": "2026-11-08T06:58:46.438Z",
+  "expires_at": "2026-11-15T06:58:46.438Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6606c46dbfc783a1de53235773bbcd28edd947999a5d2538c5e88dffb5c75100",
+  "signature": "5eae014fa9f00ed9786e821439306ce5178e442c22a80a51a1f8a4483caad49b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13307"
 }

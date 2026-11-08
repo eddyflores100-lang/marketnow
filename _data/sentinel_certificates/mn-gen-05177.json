@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7082562",
+  "certificate_id": "MN-SC-2026-1075925",
   "skill_id": "mn-gen-05177",
   "skill_name": "intervals-mcp-server",
-  "issued_at": "2026-11-01T07:11:22.562Z",
-  "expires_at": "2026-11-08T07:11:22.562Z",
+  "issued_at": "2026-11-08T06:57:55.925Z",
+  "expires_at": "2026-11-15T06:57:55.925Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3622048eb8a726146650b5057d63e68a945a5b0f2ff1af1d95c7aac8094e979e",
+  "signature": "65cdf63e48826aa7f7f264a8af6a76d5b7778da89061ac1e180e41897c452b07",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05177"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7484209",
+  "certificate_id": "MN-SC-2026-1335268",
   "skill_id": "mn-real-mnemostack",
   "skill_name": "mnemostack",
-  "issued_at": "2026-11-01T07:18:04.209Z",
-  "expires_at": "2026-11-08T07:18:04.209Z",
+  "issued_at": "2026-11-08T07:02:15.268Z",
+  "expires_at": "2026-11-15T07:02:15.268Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5e0f42ccbdcf0d6e741249498a062c1ad3dc111d6a1cfd2ad6c55782ebb72f44",
+  "signature": "4fe1fe37af4634a01dd8fd51680acfc7de8f5cc5208202fd40e770dbb353e7b0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mnemostack"
 }

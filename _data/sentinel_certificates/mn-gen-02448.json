@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7050438",
+  "certificate_id": "MN-SC-2026-1056650",
   "skill_id": "mn-gen-02448",
   "skill_name": "clockify-mcp",
-  "issued_at": "2026-11-01T07:10:50.438Z",
-  "expires_at": "2026-11-08T07:10:50.438Z",
+  "issued_at": "2026-11-08T06:57:36.650Z",
+  "expires_at": "2026-11-15T06:57:36.650Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "69cb54528828f12c7875cd88d3027872cf5396f03d0d50ac4f60507cf878750a",
+  "signature": "42e7d4dcc7f75e14995686f79e4bc5df4a22a46740cc9fe22be952ec5d81d59d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02448"
 }

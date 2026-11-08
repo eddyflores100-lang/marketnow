@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7471300",
+  "certificate_id": "MN-SC-2026-1327320",
   "skill_id": "mn-real-cachlymcp",
   "skill_name": "cachly-mcp",
-  "issued_at": "2026-11-01T07:17:51.300Z",
-  "expires_at": "2026-11-08T07:17:51.300Z",
+  "issued_at": "2026-11-08T07:02:07.320Z",
+  "expires_at": "2026-11-15T07:02:07.320Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a21fb3f0ff3c0048ff47fe5eb8d74cf6dd95d84fdd9b1980e5e2e1cdfc3f43e8",
+  "signature": "8f6d07e146833330a1436a0f74634e53644327b74894f80bf729c38c4f099a71",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cachlymcp"
 }

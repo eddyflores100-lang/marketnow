@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7383545",
+  "certificate_id": "MN-SC-2026-1270112",
   "skill_id": "mn-real-oraclaw",
   "skill_name": "oraclaw",
-  "issued_at": "2026-11-01T07:16:23.545Z",
-  "expires_at": "2026-11-08T07:16:23.545Z",
+  "issued_at": "2026-11-08T07:01:10.112Z",
+  "expires_at": "2026-11-15T07:01:10.112Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3f291d714cf2ebc7038516411aab217777f92e1eb4bff251fa96a0b406907810",
+  "signature": "f0f35fbbd5a46fdae44164739f491a069302fe89270b94b7e5be4899d7ea55b3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-oraclaw"
 }

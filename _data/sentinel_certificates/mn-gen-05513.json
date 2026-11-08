@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7087903",
+  "certificate_id": "MN-SC-2026-1079279",
   "skill_id": "mn-gen-05513",
   "skill_name": "mcp-knowledge-graph",
-  "issued_at": "2026-11-01T07:11:27.903Z",
-  "expires_at": "2026-11-08T07:11:27.903Z",
+  "issued_at": "2026-11-08T06:57:59.279Z",
+  "expires_at": "2026-11-15T06:57:59.279Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 7,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "821c05772ba335d103c21e635f92c647b99c4e03f7e77a4b70303d6d23f2e4be",
+  "signature": "6bed3c91097acb9cb15e912d6c73e6af9b1341e0cf107d9106864a6ed3e3b384",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05513"
 }

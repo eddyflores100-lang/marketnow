@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7282440",
+  "certificate_id": "MN-SC-2026-1207757",
   "skill_id": "mn-awmcp-ntfymemcp",
   "skill_name": "ntfy-me-mcp",
-  "issued_at": "2026-11-01T07:14:42.440Z",
-  "expires_at": "2026-11-08T07:14:42.440Z",
+  "issued_at": "2026-11-08T07:00:07.757Z",
+  "expires_at": "2026-11-15T07:00:07.757Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "befe14aec192ad69d8c4394941fb748e1208632f5730829ca6a0f2d6e3f05fed",
+  "signature": "e3820a6107a6d69d7295b1d7ff589167f855e70d8d1421509acfea99f5222f7c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-ntfymemcp"
 }

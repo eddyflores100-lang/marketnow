@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7416810",
+  "certificate_id": "MN-SC-2026-1291474",
   "skill_id": "mn-real-finbuddatamcp",
   "skill_name": "finbud-data-mcp",
-  "issued_at": "2026-11-01T07:16:56.810Z",
-  "expires_at": "2026-11-08T07:16:56.810Z",
+  "issued_at": "2026-11-08T07:01:31.474Z",
+  "expires_at": "2026-11-15T07:01:31.474Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fae951f27fb4233192de71e73b3ae261efa41cec12a427acf2d8b24539f7c8c7",
+  "signature": "722be2c75785900ab7e80681ddd8db7200bc0014eb795aedbef35e078793ee7e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-finbuddatamcp"
 }

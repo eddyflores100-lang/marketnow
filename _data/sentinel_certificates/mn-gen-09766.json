@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7129521",
+  "certificate_id": "MN-SC-2026-1106240",
   "skill_id": "mn-gen-09766",
   "skill_name": "mcp-server-odoo",
-  "issued_at": "2026-11-01T07:12:09.521Z",
-  "expires_at": "2026-11-08T07:12:09.521Z",
+  "issued_at": "2026-11-08T06:58:26.240Z",
+  "expires_at": "2026-11-15T06:58:26.240Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "345f47fe07b8057af96356bc0dc94687ceb00677f7b73b53181647905fb758fa",
+  "signature": "7d900425c5e728999db0358d449028f423af54da6c052de18726541979c4f911",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09766"
 }

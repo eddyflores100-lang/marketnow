@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7467038",
+  "certificate_id": "MN-SC-2026-1324914",
   "skill_id": "mn-real-claudeengram",
   "skill_name": "claude-engram",
-  "issued_at": "2026-11-01T07:17:47.038Z",
-  "expires_at": "2026-11-08T07:17:47.038Z",
+  "issued_at": "2026-11-08T07:02:04.914Z",
+  "expires_at": "2026-11-15T07:02:04.914Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c2bf778697cf32b877b7a3d0fae7c2badaddd4950045502f1f82d927795aee00",
+  "signature": "465f389e6b605d454aa844e42e17de7a1691abf49c97cbc8c54deda6d7ef35d2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-claudeengram"
 }

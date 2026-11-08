@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7166389",
+  "certificate_id": "MN-SC-2026-1129727",
   "skill_id": "mn-sal-00003",
   "skill_name": "pipedrive-mcp-server",
-  "issued_at": "2026-11-01T07:12:46.389Z",
-  "expires_at": "2026-11-08T07:12:46.389Z",
+  "issued_at": "2026-11-08T06:58:49.727Z",
+  "expires_at": "2026-11-15T06:58:49.727Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "80ab6e97d346d58f45b705047834b1cacc7a898183d175ba19667768d96979a9",
+  "signature": "78cbd068e257dff744afa9918d7e25aa5bb5eb1e4085f6cffa4fd2a6fe325fee",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-sal-00003"
 }

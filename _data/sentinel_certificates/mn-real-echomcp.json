@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7334038",
+  "certificate_id": "MN-SC-2026-1238731",
   "skill_id": "mn-real-echomcp",
   "skill_name": "echo-mcp",
-  "issued_at": "2026-11-01T07:15:34.038Z",
-  "expires_at": "2026-11-08T07:15:34.038Z",
+  "issued_at": "2026-11-08T07:00:38.731Z",
+  "expires_at": "2026-11-15T07:00:38.731Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a8d0663e73b4bcb7a4676d8c1d10819f3a806e77d8038b6ca38736d19e2839a9",
+  "signature": "c8392ca91d95b63d7f7d2d03f15d62517ea15af9a5fcd02a4f40e7b58ac74ec9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-echomcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7068975",
+  "certificate_id": "MN-SC-2026-1068455",
   "skill_id": "mn-gen-04069",
   "skill_name": "firefox-devtools-mcp",
-  "issued_at": "2026-11-01T07:11:08.975Z",
-  "expires_at": "2026-11-08T07:11:08.975Z",
+  "issued_at": "2026-11-08T06:57:48.455Z",
+  "expires_at": "2026-11-15T06:57:48.455Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e76092ddbc7b4c16693a6ca6de9f21f5bb3fec8afa85498670bc0f03d7d6af5c",
+  "signature": "dd3999a4d489bd4cc1474907c0c18c9c6f080cd484d9944f2b5ec1d314a23653",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04069"
 }

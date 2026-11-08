@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7138321",
+  "certificate_id": "MN-SC-2026-1111800",
   "skill_id": "mn-gen-11081",
   "skill_name": "devrecall",
-  "issued_at": "2026-11-01T07:12:18.321Z",
-  "expires_at": "2026-11-08T07:12:18.321Z",
+  "issued_at": "2026-11-08T06:58:31.800Z",
+  "expires_at": "2026-11-15T06:58:31.800Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2790b588a874f6a319be87e101b3f9926999a8e0ccd20f5dfebf85cce533f467",
+  "signature": "31b3d08abc19601c50b216a1be15155789344d5e69e3d753ee7be02438f767d5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-11081"
 }

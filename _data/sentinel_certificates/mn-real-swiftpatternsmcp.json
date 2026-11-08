@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7338405",
+  "certificate_id": "MN-SC-2026-1241627",
   "skill_id": "mn-real-swiftpatternsmcp",
   "skill_name": "swift-patterns-mcp",
-  "issued_at": "2026-11-01T07:15:38.405Z",
-  "expires_at": "2026-11-08T07:15:38.405Z",
+  "issued_at": "2026-11-08T07:00:41.627Z",
+  "expires_at": "2026-11-15T07:00:41.627Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7d0086ee47cc1be95faf13290e1e2418d66acce73dc62e7a0a88277317baec66",
+  "signature": "0346a24aae3d7c11f0ac440ed2068c005e1a92a7733fe2c69dc582a2a5a3d2e4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-swiftpatternsmcp"
 }

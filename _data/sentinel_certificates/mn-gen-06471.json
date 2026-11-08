@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7095461",
+  "certificate_id": "MN-SC-2026-1084012",
   "skill_id": "mn-gen-06471",
   "skill_name": "code-graph-rag",
-  "issued_at": "2026-11-01T07:11:35.461Z",
-  "expires_at": "2026-11-08T07:11:35.461Z",
+  "issued_at": "2026-11-08T06:58:04.012Z",
+  "expires_at": "2026-11-15T06:58:04.012Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f7a756044c98665c15804f0c3f60f1993e008f373165e9e4c52df93864aeb0e0",
+  "signature": "9da8cfc5cc3870f1c15b5aef7910a7bb06d4a13c66b32e9006604cc171a81fe0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-06471"
 }

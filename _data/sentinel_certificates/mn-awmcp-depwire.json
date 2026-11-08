@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7179477",
+  "certificate_id": "MN-SC-2026-1137907",
   "skill_id": "mn-awmcp-depwire",
   "skill_name": "depwire",
-  "issued_at": "2026-11-01T07:12:59.477Z",
-  "expires_at": "2026-11-08T07:12:59.477Z",
+  "issued_at": "2026-11-08T06:58:57.907Z",
+  "expires_at": "2026-11-15T06:58:57.907Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "be78249f5813a9a9b780fc175b8f99160b7f882060e9c17195c300e90993352a",
+  "signature": "c7999fc363ee4cf35fddfffe9302c08feb9fa7971ff6283ed462113ed821e892",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-depwire"
 }

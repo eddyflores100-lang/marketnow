@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7387673",
+  "certificate_id": "MN-SC-2026-1272339",
   "skill_id": "mn-real-modbusmcp",
   "skill_name": "modbus-mcp",
-  "issued_at": "2026-11-01T07:16:27.673Z",
-  "expires_at": "2026-11-08T07:16:27.673Z",
+  "issued_at": "2026-11-08T07:01:12.339Z",
+  "expires_at": "2026-11-15T07:01:12.339Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "24082ace95a499dbb3eaf4b1a1bae6cf9ecb166a3b7134fd355fdd9571f4a228",
+  "signature": "9322d884b76a0d58e92725f670e0ddf2a52091f22d713d4ca9abf8dd8f63e323",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-modbusmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7057566",
+  "certificate_id": "MN-SC-2026-1061143",
   "skill_id": "mn-gen-03058",
   "skill_name": "arkforge-mcp",
-  "issued_at": "2026-11-01T07:10:57.566Z",
-  "expires_at": "2026-11-08T07:10:57.566Z",
+  "issued_at": "2026-11-08T06:57:41.143Z",
+  "expires_at": "2026-11-15T06:57:41.143Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "61221d0a7ca9aca5956cb5ad0005285838ad8e9149f097092355927827f669b1",
+  "signature": "88574d489cd74ee326669239f8cd657b915ff92f3a37b0cd36148cac127eb9e1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03058"
 }

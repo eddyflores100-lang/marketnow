@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7189874",
+  "certificate_id": "MN-SC-2026-1144391",
   "skill_id": "mn-awmcp-rhumb",
   "skill_name": "rhumb",
-  "issued_at": "2026-11-01T07:13:09.874Z",
-  "expires_at": "2026-11-08T07:13:09.874Z",
+  "issued_at": "2026-11-08T06:59:04.391Z",
+  "expires_at": "2026-11-15T06:59:04.391Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "165a65ed1a81a12b01237fe9eed842c0f53beade4fa3c1d1045a5c5b1da31eb1",
+  "signature": "5d8ed06a4d3bd038d121185bf41c90808aee858b6d201e9ce08db50a129b007b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-rhumb"
 }

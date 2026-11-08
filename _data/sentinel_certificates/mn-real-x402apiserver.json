@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7414032",
+  "certificate_id": "MN-SC-2026-1289605",
   "skill_id": "mn-real-x402apiserver",
   "skill_name": "x402-api-server",
-  "issued_at": "2026-11-01T07:16:54.032Z",
-  "expires_at": "2026-11-08T07:16:54.032Z",
+  "issued_at": "2026-11-08T07:01:29.605Z",
+  "expires_at": "2026-11-15T07:01:29.605Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fb882b9c22d1ed92ff3792831b5cce820ea0f65c6843184a148afb065bc2385a",
+  "signature": "c88640684ba450383eacd2a303cbaf0664cad35ba1b32ce14f46d13cc7c5614f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-x402apiserver"
 }

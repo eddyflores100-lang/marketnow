@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7486460",
+  "certificate_id": "MN-SC-2026-1336771",
   "skill_id": "mn-real-gnosismcp",
   "skill_name": "gnosis-mcp",
-  "issued_at": "2026-11-01T07:18:06.460Z",
-  "expires_at": "2026-11-08T07:18:06.460Z",
+  "issued_at": "2026-11-08T07:02:16.771Z",
+  "expires_at": "2026-11-15T07:02:16.771Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b3c44bf87196a33c0d6501def9b55da04b6818c7b91c43ca199102fe83e64c1d",
+  "signature": "e2c9cfd5507031cd074e3a47793e27446b6cbb0757a5ab69c5950ff9b9f9488b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-gnosismcp"
 }

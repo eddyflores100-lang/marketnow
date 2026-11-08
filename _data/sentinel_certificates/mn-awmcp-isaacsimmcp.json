@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7203948",
+  "certificate_id": "MN-SC-2026-1153020",
   "skill_id": "mn-awmcp-isaacsimmcp",
   "skill_name": "isaac-sim-mcp",
-  "issued_at": "2026-11-01T07:13:23.948Z",
-  "expires_at": "2026-11-08T07:13:23.948Z",
+  "issued_at": "2026-11-08T06:59:13.020Z",
+  "expires_at": "2026-11-15T06:59:13.020Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "12d76465ff437b7003244c4ea5f48e87935100e4ac466e6eba2c231784b18327",
+  "signature": "848d1342a653d6cf2917533de6b801f07c432f8d37b2218b8584eaa8506d0695",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-isaacsimmcp"
 }

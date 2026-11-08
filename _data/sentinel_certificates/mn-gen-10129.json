@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7131419",
+  "certificate_id": "MN-SC-2026-1107575",
   "skill_id": "mn-gen-10129",
   "skill_name": "oura-mcp-server",
-  "issued_at": "2026-11-01T07:12:11.419Z",
-  "expires_at": "2026-11-08T07:12:11.419Z",
+  "issued_at": "2026-11-08T06:58:27.575Z",
+  "expires_at": "2026-11-15T06:58:27.575Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4d877a5c9c228f8c12aee3aa38ccf6a0b468fbbc0e9b4cca54493b2e607f1eef",
+  "signature": "4fc54c36e0df535b1d0c4b0a16f660381f98da9fbc48b8316961ff74733ef165",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-10129"
 }

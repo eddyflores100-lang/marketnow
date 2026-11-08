@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7263762",
+  "certificate_id": "MN-SC-2026-1194826",
   "skill_id": "mn-awmcp-forge",
   "skill_name": "forge",
-  "issued_at": "2026-11-01T07:14:23.762Z",
-  "expires_at": "2026-11-08T07:14:23.762Z",
+  "issued_at": "2026-11-08T06:59:54.826Z",
+  "expires_at": "2026-11-15T06:59:54.826Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f4136b83ea3933ed1f6baa64ebbbe49b694ce5edf3e07971b294f96838d5bb35",
+  "signature": "464e411214133c97194fe97f252d30173764de3862a8d2face3fa9caf76f1a49",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-forge"
 }

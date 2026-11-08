@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7156979",
+  "certificate_id": "MN-SC-2026-1123930",
   "skill_id": "mn-gen-12917",
   "skill_name": "copilot-mcp",
-  "issued_at": "2026-11-01T07:12:36.979Z",
-  "expires_at": "2026-11-08T07:12:36.979Z",
+  "issued_at": "2026-11-08T06:58:43.930Z",
+  "expires_at": "2026-11-15T06:58:43.930Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a48911effa2b8169813f9e2a552346f3e0dfbc3d17dd45da618234177671a941",
+  "signature": "e6da597cc18ae5e6a575f12bf3a9e0bbd9ec4b3c8c903bd33325b9c959be2ea8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12917"
 }

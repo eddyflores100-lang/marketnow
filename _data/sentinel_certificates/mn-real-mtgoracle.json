@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7459354",
+  "certificate_id": "MN-SC-2026-1320149",
   "skill_id": "mn-real-mtgoracle",
   "skill_name": "mtg-oracle",
-  "issued_at": "2026-11-01T07:17:39.354Z",
-  "expires_at": "2026-11-08T07:17:39.354Z",
+  "issued_at": "2026-11-08T07:02:00.149Z",
+  "expires_at": "2026-11-15T07:02:00.149Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "55d5cdf74387566fc6553c25ce310ec9bcc468eb39a9b09aa15ad94c0fdb066b",
+  "signature": "0870577942666c02cf28cbc937e7042053331c757b2cbf6ed56cf752b2368a46",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mtgoracle"
 }

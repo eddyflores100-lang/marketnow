@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7301456",
+  "certificate_id": "MN-SC-2026-1220064",
   "skill_id": "mn-real-inoyumcpunomiserver",
   "skill_name": "inoyu-mcp-unomi-server",
-  "issued_at": "2026-11-01T07:15:01.456Z",
-  "expires_at": "2026-11-08T07:15:01.456Z",
+  "issued_at": "2026-11-08T07:00:20.064Z",
+  "expires_at": "2026-11-15T07:00:20.064Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9173a0adc06d93ced03bbcadc9c8263d7c9fc7d97b90c1f249237304f4bce55c",
+  "signature": "3d95d0812d09eed2c6ede822e7a1bc7218ba0cf5f4ebf84118d7c1c0ce8c4a5f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-inoyumcpunomiserver"
 }

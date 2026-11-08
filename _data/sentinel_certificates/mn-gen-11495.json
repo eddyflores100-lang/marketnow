@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7143151",
+  "certificate_id": "MN-SC-2026-1115185",
   "skill_id": "mn-gen-11495",
   "skill_name": "scrapeless-mcp-server",
-  "issued_at": "2026-11-01T07:12:23.151Z",
-  "expires_at": "2026-11-08T07:12:23.151Z",
+  "issued_at": "2026-11-08T06:58:35.185Z",
+  "expires_at": "2026-11-15T06:58:35.185Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "98647be09860fa98c2669746a2af2f64e12dcb22fb6f5b2d261b997db46f55dd",
+  "signature": "ed18c63d2fb5bce32de698efd1cd6cac0f901a882d08fd907fee48229b3d20d3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-11495"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7450155",
+  "certificate_id": "MN-SC-2026-1313858",
   "skill_id": "mn-real-cryptodataapimcp",
   "skill_name": "cryptodataapi-mcp",
-  "issued_at": "2026-11-01T07:17:30.155Z",
-  "expires_at": "2026-11-08T07:17:30.155Z",
+  "issued_at": "2026-11-08T07:01:53.858Z",
+  "expires_at": "2026-11-15T07:01:53.858Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "66b4695b74c2971477a29f34b275ac3340ed62405c1b2acf17c6fc5cbf4493b2",
+  "signature": "14fb26aefb27982cedc073c64ef11df4823515082632a7456caf567f8c25c825",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cryptodataapimcp"
 }

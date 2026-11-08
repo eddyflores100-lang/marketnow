@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7490753",
+  "certificate_id": "MN-SC-2026-1339175",
   "skill_id": "mn-real-alaya",
   "skill_name": "alaya",
-  "issued_at": "2026-11-01T07:18:10.753Z",
-  "expires_at": "2026-11-08T07:18:10.753Z",
+  "issued_at": "2026-11-08T07:02:19.175Z",
+  "expires_at": "2026-11-15T07:02:19.175Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "af6ebba0d8dbfd68a49e2ed342bc9299353ece26d43fe7b5d9dee3c9ff84574c",
+  "signature": "9211ed2374d0c0e8348cc341d2a6c86eafa64a8ba311247c02f76dba81a21788",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-alaya"
 }

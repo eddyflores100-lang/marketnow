@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7454956",
+  "certificate_id": "MN-SC-2026-1317207",
   "skill_id": "mn-real-signaldaemon",
   "skill_name": "signaldaemon",
-  "issued_at": "2026-11-01T07:17:34.956Z",
-  "expires_at": "2026-11-08T07:17:34.956Z",
+  "issued_at": "2026-11-08T07:01:57.207Z",
+  "expires_at": "2026-11-15T07:01:57.207Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2b0def7018afe65711bc0effa6892d0b185874db7a9105b9e2d04c5081158d18",
+  "signature": "6b152b6108134cec581c43845d08d9ec891a3f0a61b8de316b0eea942790fefb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-signaldaemon"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7035049",
+  "certificate_id": "MN-SC-2026-1046458",
   "skill_id": "mn-gen-00812",
   "skill_name": "any-chat-completions-mcp",
-  "issued_at": "2026-11-01T07:10:35.049Z",
-  "expires_at": "2026-11-08T07:10:35.049Z",
+  "issued_at": "2026-11-08T06:57:26.458Z",
+  "expires_at": "2026-11-15T06:57:26.458Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "acc86cbd4ca095c7d938e8a4ac7c2223b179610027be6b7cb4971bafc717264b",
+  "signature": "15bbb078a2c538991aced8a4b880214c69936aaebc7b3b7a4bdfb50a3b3c2b8c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00812"
 }

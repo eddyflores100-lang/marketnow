@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7190577",
+  "certificate_id": "MN-SC-2026-1144802",
   "skill_id": "mn-awmcp-mcpaccesspoint",
   "skill_name": "mcp-access-point",
-  "issued_at": "2026-11-01T07:13:10.577Z",
-  "expires_at": "2026-11-08T07:13:10.577Z",
+  "issued_at": "2026-11-08T06:59:04.802Z",
+  "expires_at": "2026-11-15T06:59:04.802Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d7932edf850e1bf794bebe9a8853c44040c51ee1830bd09cc1e02c0f68958fa0",
+  "signature": "be8cac56c52c6919870d22500edc1c307fea4740273ef50e963b78647fc22b88",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpaccesspoint"
 }

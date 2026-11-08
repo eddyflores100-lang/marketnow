@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7342983",
+  "certificate_id": "MN-SC-2026-1244386",
   "skill_id": "mn-real-mcpserversimulatorio",
   "skill_name": "mcp-server-simulator-ios-idb",
-  "issued_at": "2026-11-01T07:15:42.983Z",
-  "expires_at": "2026-11-08T07:15:42.983Z",
+  "issued_at": "2026-11-08T07:00:44.386Z",
+  "expires_at": "2026-11-15T07:00:44.386Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9f744d5f6913495af26c5fbca6e34bc69ee39f24165c38c66a5645070e0daa36",
+  "signature": "96ee020cd49b853cdedb6b247b6c502107580a79b20ac4b23927cee64f481cc5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpserversimulatorio"
 }

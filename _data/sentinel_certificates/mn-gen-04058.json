@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7067941",
+  "certificate_id": "MN-SC-2026-1067926",
   "skill_id": "mn-gen-04058",
   "skill_name": "firebase-mcp",
-  "issued_at": "2026-11-01T07:11:07.941Z",
-  "expires_at": "2026-11-08T07:11:07.941Z",
+  "issued_at": "2026-11-08T06:57:47.926Z",
+  "expires_at": "2026-11-15T06:57:47.926Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5268de625b8c7f6d4a17efc0ff8ed67bd8353f5f6ef5d785867570e642c72c79",
+  "signature": "ace2cdecf61ba3e4016610efe791b474c4191c313d98eb973d03430bd23e3a92",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04058"
 }

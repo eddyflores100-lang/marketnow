@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7032169",
+  "certificate_id": "MN-SC-2026-1044610",
   "skill_id": "mn-gen-00408",
   "skill_name": "agentpay-vn",
-  "issued_at": "2026-11-01T07:10:32.169Z",
-  "expires_at": "2026-11-08T07:10:32.169Z",
+  "issued_at": "2026-11-08T06:57:24.610Z",
+  "expires_at": "2026-11-15T06:57:24.610Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d99e54ed756633c910e5fdd0d84b2e57ff37ff7573ac3d76bb504b0cbe0e72dd",
+  "signature": "da940295b60cd9f52c233c174290ffb58c9d664c33b1f17906d46b36c7b778c9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00408"
 }

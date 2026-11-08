@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7247221",
+  "certificate_id": "MN-SC-2026-1184002",
   "skill_id": "mn-awmcp-infrawise",
   "skill_name": "infrawise",
-  "issued_at": "2026-11-01T07:14:07.221Z",
-  "expires_at": "2026-11-08T07:14:07.221Z",
+  "issued_at": "2026-11-08T06:59:44.002Z",
+  "expires_at": "2026-11-15T06:59:44.002Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "57ea8cc39a0d0e872bdad84a8e0e6349289141aa3df4d880df124d6d57121d50",
+  "signature": "3f56b116b21b42bf76c4da6fc4d2fdd3bf795d4ec84090c238324b1ff695db94",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-infrawise"
 }

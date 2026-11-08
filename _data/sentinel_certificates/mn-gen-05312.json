@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7084170",
+  "certificate_id": "MN-SC-2026-1076817",
   "skill_id": "mn-gen-05312",
   "skill_name": "mcp-link",
-  "issued_at": "2026-11-01T07:11:24.170Z",
-  "expires_at": "2026-11-08T07:11:24.170Z",
+  "issued_at": "2026-11-08T06:57:56.817Z",
+  "expires_at": "2026-11-15T06:57:56.817Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2327c5a530dbfcfec72c1ab9ee28413ee692870304b6d7caa1f11554c365b3e1",
+  "signature": "1544a809ff6c4d9c762d70f5655d5f911fb431ffb50d50831819fc9cee6517da",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05312"
 }

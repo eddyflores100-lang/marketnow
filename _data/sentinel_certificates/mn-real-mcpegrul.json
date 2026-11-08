@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7403355",
+  "certificate_id": "MN-SC-2026-1282397",
   "skill_id": "mn-real-mcpegrul",
   "skill_name": "mcp-egrul",
-  "issued_at": "2026-11-01T07:16:43.355Z",
-  "expires_at": "2026-11-08T07:16:43.355Z",
+  "issued_at": "2026-11-08T07:01:22.397Z",
+  "expires_at": "2026-11-15T07:01:22.397Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "69146a0d8a48cfabb7fb0183bbb5fc769386dc2912432a7e96b296614020826c",
+  "signature": "0d2d3bae604f5904d2c1d0a135bdd311b6531ef33f9ccfd6231f707acbd6032a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpegrul"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7335755",
+  "certificate_id": "MN-SC-2026-1239866",
   "skill_id": "mn-real-codelogicmcpserver",
   "skill_name": "codelogic-mcp-server",
-  "issued_at": "2026-11-01T07:15:35.755Z",
-  "expires_at": "2026-11-08T07:15:35.755Z",
+  "issued_at": "2026-11-08T07:00:39.866Z",
+  "expires_at": "2026-11-15T07:00:39.866Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c3fe7e8831df9715a5eef5a968f315db58e2045ed67e9e5b709c30d3b72e7368",
+  "signature": "ff9e642f6d9cde64143817d290f95b68aefa1a6a1f24a7e2d170576e64e73ed8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-codelogicmcpserver"
 }

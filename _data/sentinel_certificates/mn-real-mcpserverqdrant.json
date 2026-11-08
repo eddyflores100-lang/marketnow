@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7309280",
+  "certificate_id": "MN-SC-2026-1224229",
   "skill_id": "mn-real-mcpserverqdrant",
   "skill_name": "mcp-server-qdrant",
-  "issued_at": "2026-11-01T07:15:09.280Z",
-  "expires_at": "2026-11-08T07:15:09.280Z",
+  "issued_at": "2026-11-08T07:00:24.229Z",
+  "expires_at": "2026-11-15T07:00:24.229Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f9a6fb881db9a9fc48680792779fd36118a6da0e43dd7a3ff1e0e8b4915f594f",
+  "signature": "9d134fdcf860f07e69cfc7e2265e6998ee9eb3dd40471c50c76aec0f1962904b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpserverqdrant"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7075500",
+  "certificate_id": "MN-SC-2026-1071293",
   "skill_id": "mn-gen-04421",
   "skill_name": "gia-mcp-server",
-  "issued_at": "2026-11-01T07:11:15.500Z",
-  "expires_at": "2026-11-08T07:11:15.500Z",
+  "issued_at": "2026-11-08T06:57:51.293Z",
+  "expires_at": "2026-11-15T06:57:51.293Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "186d72762ee03dabb7c86a8bd77f2060c8a9d62cd8107d1065be7c2fd981c0be",
+  "signature": "f638e1b79f88a033301788f2e005e9f6661d563bebb32063bb2a9665a94bc9d7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04421"
 }

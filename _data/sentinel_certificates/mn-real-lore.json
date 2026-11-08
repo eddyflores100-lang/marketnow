@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7479700",
+  "certificate_id": "MN-SC-2026-1332499",
   "skill_id": "mn-real-lore",
   "skill_name": "lore",
-  "issued_at": "2026-11-01T07:17:59.700Z",
-  "expires_at": "2026-11-08T07:17:59.700Z",
+  "issued_at": "2026-11-08T07:02:12.499Z",
+  "expires_at": "2026-11-15T07:02:12.499Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "51e479271ae054bf6d956748b0a0ae0dc1a2e5703c8abf5e4d6531cd6de642d7",
+  "signature": "3c0e8a5a441e130ef923e2d2da75b282d585dda834e5abec030250b787afb0b0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-lore"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7283619",
+  "certificate_id": "MN-SC-2026-1208550",
   "skill_id": "mn-awmcp-acpmcp",
   "skill_name": "acp-mcp",
-  "issued_at": "2026-11-01T07:14:43.619Z",
-  "expires_at": "2026-11-08T07:14:43.619Z",
+  "issued_at": "2026-11-08T07:00:08.550Z",
+  "expires_at": "2026-11-15T07:00:08.550Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "166250d0bb9f94ece5e49e2d4aefe06905612983494dcfd0e80252383d708d14",
+  "signature": "de9cfa117245437c44976957a0e756b9ffd7b08f89dfc732262b6847ae9e0443",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-acpmcp"
 }

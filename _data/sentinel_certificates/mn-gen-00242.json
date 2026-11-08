@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7029939",
+  "certificate_id": "MN-SC-2026-1043088",
   "skill_id": "mn-gen-00242",
   "skill_name": "agent-discovery-mcp",
-  "issued_at": "2026-11-01T07:10:29.939Z",
-  "expires_at": "2026-11-08T07:10:29.939Z",
+  "issued_at": "2026-11-08T06:57:23.088Z",
+  "expires_at": "2026-11-15T06:57:23.088Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "af3e40d999fec022bb4173212f58ce43ffd1c36ffd00fd33c8e4ebe0ddde197e",
+  "signature": "19700dcc25e8693deb90bc3b4bbddd633263844f7e8c3f193f807c42e04787c3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00242"
 }

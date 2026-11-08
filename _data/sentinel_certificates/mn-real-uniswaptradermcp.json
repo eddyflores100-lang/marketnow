@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7434095",
+  "certificate_id": "MN-SC-2026-1302590",
   "skill_id": "mn-real-uniswaptradermcp",
   "skill_name": "uniswap-trader-mcp",
-  "issued_at": "2026-11-01T07:17:14.095Z",
-  "expires_at": "2026-11-08T07:17:14.095Z",
+  "issued_at": "2026-11-08T07:01:42.590Z",
+  "expires_at": "2026-11-15T07:01:42.590Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "57eff8bd9c7dbb9438f0cd8d557a3af22ad94e422d7a4cc72e985d9116e565d8",
+  "signature": "acc6fee332d72fa399602a837a32445c2a9c329006644775271c868ce39c728f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-uniswaptradermcp"
 }

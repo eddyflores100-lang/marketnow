@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7128560",
+  "certificate_id": "MN-SC-2026-1105637",
   "skill_id": "mn-net-09716",
   "skill_name": "obsidian-local-rest-api",
-  "issued_at": "2026-11-01T07:12:08.560Z",
-  "expires_at": "2026-11-08T07:12:08.560Z",
+  "issued_at": "2026-11-08T06:58:25.637Z",
+  "expires_at": "2026-11-15T06:58:25.637Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 7,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4218038ed58b012b2b2e2f3ff1331e481752ee7fc6e7c259cf9d668a432b12ea",
+  "signature": "764901133b069fcb24d3db4ef894bb51ecc0d07682f8eeed5ce348dfb3f087f7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-net-09716"
 }

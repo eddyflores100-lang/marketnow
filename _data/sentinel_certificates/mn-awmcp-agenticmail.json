@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7276510",
+  "certificate_id": "MN-SC-2026-1203536",
   "skill_id": "mn-awmcp-agenticmail",
   "skill_name": "agenticmail",
-  "issued_at": "2026-11-01T07:14:36.510Z",
-  "expires_at": "2026-11-08T07:14:36.510Z",
+  "issued_at": "2026-11-08T07:00:03.536Z",
+  "expires_at": "2026-11-15T07:00:03.536Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1fe56bfa4cefb5e7a811f198a0436a4f3531a2f364877abe3ae52ce11f3cdf40",
+  "signature": "64750d8b69276998778fd6c7915a2ef3a581c96533b6323b644807bffa9fce6a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-agenticmail"
 }

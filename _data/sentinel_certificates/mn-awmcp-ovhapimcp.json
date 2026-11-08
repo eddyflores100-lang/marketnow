@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7237053",
+  "certificate_id": "MN-SC-2026-1177412",
   "skill_id": "mn-awmcp-ovhapimcp",
   "skill_name": "ovh-api-mcp",
-  "issued_at": "2026-11-01T07:13:57.053Z",
-  "expires_at": "2026-11-08T07:13:57.053Z",
+  "issued_at": "2026-11-08T06:59:37.412Z",
+  "expires_at": "2026-11-15T06:59:37.412Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fcaf996cb0ee11410438cb0ec904dd72fe05fdaf43a1045fac98993492925193",
+  "signature": "9a1768795231612358011f97c5292a08f9b428229a2f8a4bcb8d69aa45e3ba4e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-ovhapimcp"
 }

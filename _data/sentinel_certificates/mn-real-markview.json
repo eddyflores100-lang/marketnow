@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7351033",
+  "certificate_id": "MN-SC-2026-1249325",
   "skill_id": "mn-real-markview",
   "skill_name": "markview",
-  "issued_at": "2026-11-01T07:15:51.033Z",
-  "expires_at": "2026-11-08T07:15:51.033Z",
+  "issued_at": "2026-11-08T07:00:49.325Z",
+  "expires_at": "2026-11-15T07:00:49.325Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "95a56646a9a6a1888e7cb5b72563330fb47c5a5afb6216cb9d32571a55cb7e34",
+  "signature": "4988d5e2f611abd70e9cd667aacae553611c71dce6f236a9727964595ef668ad",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-markview"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7157270",
+  "certificate_id": "MN-SC-2026-1124131",
   "skill_id": "mn-gen-12968",
   "skill_name": "unified-diff-mcp",
-  "issued_at": "2026-11-01T07:12:37.270Z",
-  "expires_at": "2026-11-08T07:12:37.270Z",
+  "issued_at": "2026-11-08T06:58:44.131Z",
+  "expires_at": "2026-11-15T06:58:44.131Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8e3dd40352ef9214f6e26b7fa8d16ac27ed5882457d19af79951c3aff0c34b49",
+  "signature": "68f5b5973a9c28f764332cb60080b7d0885eb0a64556f1ccca9667cc81b81ab7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12968"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7363272",
+  "certificate_id": "MN-SC-2026-1256796",
   "skill_id": "mn-real-selvage",
   "skill_name": "selvage",
-  "issued_at": "2026-11-01T07:16:03.272Z",
-  "expires_at": "2026-11-08T07:16:03.272Z",
+  "issued_at": "2026-11-08T07:00:56.796Z",
+  "expires_at": "2026-11-15T07:00:56.796Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "411153d7fe90f9ae0f940fc7978e04c62e369a7bd2a6f2054ac5b9fbf6a7b5ea",
+  "signature": "be6cd402ec72a26625f2e7e4ddde4c5e72b9a7cdba02c67ad71d0ae715949faf",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-selvage"
 }

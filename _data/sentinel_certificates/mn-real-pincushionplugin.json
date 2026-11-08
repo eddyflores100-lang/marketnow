@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7358445",
+  "certificate_id": "MN-SC-2026-1253844",
   "skill_id": "mn-real-pincushionplugin",
   "skill_name": "pincushion-plugin",
-  "issued_at": "2026-11-01T07:15:58.445Z",
-  "expires_at": "2026-11-08T07:15:58.445Z",
+  "issued_at": "2026-11-08T07:00:53.844Z",
+  "expires_at": "2026-11-15T07:00:53.844Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "305ead87683da4d70d11079b4c1e20fa0936dc00d91fe74ae21deaf5e5da992d",
+  "signature": "53928dad1ab91e61db34af692d231e75b5eea4094407e6b19ee46e392d4c0f92",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-pincushionplugin"
 }

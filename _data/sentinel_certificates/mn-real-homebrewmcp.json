@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7395727",
+  "certificate_id": "MN-SC-2026-1277627",
   "skill_id": "mn-real-homebrewmcp",
   "skill_name": "homebrew-mcp",
-  "issued_at": "2026-11-01T07:16:35.727Z",
-  "expires_at": "2026-11-08T07:16:35.727Z",
+  "issued_at": "2026-11-08T07:01:17.627Z",
+  "expires_at": "2026-11-15T07:01:17.627Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4374670acd1fd2377c818118e09ceb88db4ed9e60d2509afa79d8f599af1b26a",
+  "signature": "7976517e898a6caccc38a8ab9f7232ee04a2d16d3daa7da88f982f287a5b8cea",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-homebrewmcp"
 }

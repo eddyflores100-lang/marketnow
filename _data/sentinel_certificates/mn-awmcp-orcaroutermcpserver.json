@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7179080",
+  "certificate_id": "MN-SC-2026-1137636",
   "skill_id": "mn-awmcp-orcaroutermcpserver",
   "skill_name": "orcarouter-mcp-server",
-  "issued_at": "2026-11-01T07:12:59.080Z",
-  "expires_at": "2026-11-08T07:12:59.080Z",
+  "issued_at": "2026-11-08T06:58:57.636Z",
+  "expires_at": "2026-11-15T06:58:57.636Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7bf3cc36ffb46f6f9b180079f907896329353db8e772b82751d3edf3d849ac43",
+  "signature": "9f40346d5d17ebbe232f283edab89c0380e279c4ffbf56f81dd22dad742d3ed7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-orcaroutermcpserver"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7138885",
+  "certificate_id": "MN-SC-2026-1112124",
   "skill_id": "mn-gen-11102",
   "skill_name": "mcp-redis",
-  "issued_at": "2026-11-01T07:12:18.885Z",
-  "expires_at": "2026-11-08T07:12:18.885Z",
+  "issued_at": "2026-11-08T06:58:32.124Z",
+  "expires_at": "2026-11-15T06:58:32.124Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b242b2e49bb1e71e915bcf0ea0ff7235273ca9792bad6d1317dcbfd72524de51",
+  "signature": "94a21f1bea54a86a34fdba927cb2b7d148f0aa445e97813039151c43a136aa3d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-11102"
 }

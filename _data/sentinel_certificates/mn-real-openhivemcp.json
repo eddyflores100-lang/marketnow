@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7466566",
+  "certificate_id": "MN-SC-2026-1324626",
   "skill_id": "mn-real-openhivemcp",
   "skill_name": "openhive-mcp",
-  "issued_at": "2026-11-01T07:17:46.566Z",
-  "expires_at": "2026-11-08T07:17:46.566Z",
+  "issued_at": "2026-11-08T07:02:04.626Z",
+  "expires_at": "2026-11-15T07:02:04.626Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b51f7b6c826e9fe5e2f6133b891e52f1da1f2723785924e5853943d322784f72",
+  "signature": "6f54e91d1f319741b0b0b83e50372d5f8e6a1ee1569694f859fba13b9628519d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-openhivemcp"
 }

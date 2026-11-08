@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7488278",
+  "certificate_id": "MN-SC-2026-1337789",
   "skill_id": "mn-real-penfieldmcp",
   "skill_name": "penfield-mcp",
-  "issued_at": "2026-11-01T07:18:08.278Z",
-  "expires_at": "2026-11-08T07:18:08.278Z",
+  "issued_at": "2026-11-08T07:02:17.789Z",
+  "expires_at": "2026-11-15T07:02:17.789Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "37e1db7361f02232a392567eb45435ba667f95da0b0e9d49b984b867ea23d9ea",
+  "signature": "ca0b6203973918c43c031b531612d8ef762c8ef6e6ed6a3a6587346e643d00c0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-penfieldmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7056093",
+  "certificate_id": "MN-SC-2026-1060350",
   "skill_id": "mn-gen-02916",
   "skill_name": "cross-llm-mcp",
-  "issued_at": "2026-11-01T07:10:56.093Z",
-  "expires_at": "2026-11-08T07:10:56.093Z",
+  "issued_at": "2026-11-08T06:57:40.350Z",
+  "expires_at": "2026-11-15T06:57:40.350Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cd84a7cf0e1333de50758873bc54ae4ec4eb88b0ccabeb80a3053e01685a4abd",
+  "signature": "78f79262030b108afa2c3c55a4420354d8e8d81d6b77b13ca259eed217f68eee",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02916"
 }

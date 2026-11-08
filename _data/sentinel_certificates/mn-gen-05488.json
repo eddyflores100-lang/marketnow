@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7087580",
+  "certificate_id": "MN-SC-2026-1079053",
   "skill_id": "mn-gen-05488",
   "skill_name": "kite-mcp",
-  "issued_at": "2026-11-01T07:11:27.580Z",
-  "expires_at": "2026-11-08T07:11:27.580Z",
+  "issued_at": "2026-11-08T06:57:59.053Z",
+  "expires_at": "2026-11-15T06:57:59.053Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2dce9ffe243f17a0389a8182f2977545760cde8643612570f86cf1cf4d0a5eca",
+  "signature": "05539ab7828a9b603ba66d9b1c4d42b800d9a9e273cd2dfc6e722c8419e88a75",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05488"
 }

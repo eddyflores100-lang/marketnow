@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7159582",
+  "certificate_id": "MN-SC-2026-1125628",
   "skill_id": "mn-gen-13240",
   "skill_name": "vrchat-mcp",
-  "issued_at": "2026-11-01T07:12:39.582Z",
-  "expires_at": "2026-11-08T07:12:39.582Z",
+  "issued_at": "2026-11-08T06:58:45.628Z",
+  "expires_at": "2026-11-15T06:58:45.628Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f423706b7e1a06e50ac51904a2e5248165bdbb74ee80ef2fb4ed8e7a0d947f52",
+  "signature": "95366fa3a6490fe32887c0e093e1e115a227ce021132e68f630724d71fe0c522",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13240"
 }

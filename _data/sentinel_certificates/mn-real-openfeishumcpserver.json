@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7299249",
+  "certificate_id": "MN-SC-2026-1218932",
   "skill_id": "mn-real-openfeishumcpserver",
   "skill_name": "open-feishu-mcp-server",
-  "issued_at": "2026-11-01T07:14:59.249Z",
-  "expires_at": "2026-11-08T07:14:59.249Z",
+  "issued_at": "2026-11-08T07:00:18.932Z",
+  "expires_at": "2026-11-15T07:00:18.932Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "504e880042a71284d0c3b69bd8bbcec2d77d6b5598817583bb46b5a487bf6a35",
+  "signature": "8e02af053887f420e691a1db4a62820904113e730745c1389d8bb94180896faa",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-openfeishumcpserver"
 }

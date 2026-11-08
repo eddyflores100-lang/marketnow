@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7277992",
+  "certificate_id": "MN-SC-2026-1204515",
   "skill_id": "mn-awmcp-mcpgoogletasks",
   "skill_name": "mcp-googletasks",
-  "issued_at": "2026-11-01T07:14:37.992Z",
-  "expires_at": "2026-11-08T07:14:37.992Z",
+  "issued_at": "2026-11-08T07:00:04.515Z",
+  "expires_at": "2026-11-15T07:00:04.515Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "855cc38293a33ebf2cc6e579b5c2728d9ba5996507b176068866e931048ce50d",
+  "signature": "c903b27cbd736fbbd0093d7e7ac81ed01f12a4ee72b57d16d254bf4dda328d37",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpgoogletasks"
 }

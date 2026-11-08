@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7178189",
+  "certificate_id": "MN-SC-2026-1137053",
   "skill_id": "mn-awmcp-ateammcp",
   "skill_name": "ateam-mcp",
-  "issued_at": "2026-11-01T07:12:58.189Z",
-  "expires_at": "2026-11-08T07:12:58.189Z",
+  "issued_at": "2026-11-08T06:58:57.053Z",
+  "expires_at": "2026-11-15T06:58:57.053Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b9f389c2e4b2234cb199d67ff8ad8d7e782096686ab6eea77d26db66a3c0a321",
+  "signature": "3aa9ae5ce925c5755441446542573a505ee5725fc3afdcf66cd44c4d70e98f47",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-ateammcp"
 }

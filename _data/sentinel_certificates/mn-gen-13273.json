@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7160106",
+  "certificate_id": "MN-SC-2026-1125929",
   "skill_id": "mn-gen-13273",
   "skill_name": "damn-vulnerable-MCP-server",
-  "issued_at": "2026-11-01T07:12:40.106Z",
-  "expires_at": "2026-11-08T07:12:40.106Z",
+  "issued_at": "2026-11-08T06:58:45.929Z",
+  "expires_at": "2026-11-15T06:58:45.929Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2b70d77335d328b8329c083ae040c9d8270726c8fda3a671d925e6dce9a26c69",
+  "signature": "14306688cbf683f8534a34d5ea2f53d6129fd977e3809866a016685d7dcb2124",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13273"
 }

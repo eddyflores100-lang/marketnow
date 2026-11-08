@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7307224",
+  "certificate_id": "MN-SC-2026-1223018",
   "skill_id": "mn-real-sqlaugur",
   "skill_name": "SqlAugur",
-  "issued_at": "2026-11-01T07:15:07.224Z",
-  "expires_at": "2026-11-08T07:15:07.224Z",
+  "issued_at": "2026-11-08T07:00:23.018Z",
+  "expires_at": "2026-11-15T07:00:23.018Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f9024978f6ac7a29bbe2f8d5b7a018b0a1630ec8f55bbec208be7f6289bc8fe8",
+  "signature": "d804bae8fdaab7a4464b37564dd72ee0c4269a6b74679866dbc0caa2284f41ba",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-sqlaugur"
 }

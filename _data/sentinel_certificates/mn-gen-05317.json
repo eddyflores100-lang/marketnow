@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7084621",
+  "certificate_id": "MN-SC-2026-1077087",
   "skill_id": "mn-gen-05317",
   "skill_name": "jmeter-mcp-server",
-  "issued_at": "2026-11-01T07:11:24.621Z",
-  "expires_at": "2026-11-08T07:11:24.621Z",
+  "issued_at": "2026-11-08T06:57:57.087Z",
+  "expires_at": "2026-11-15T06:57:57.087Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8b784fd60978397bcd6c0f1f5ec40ab96239118d2bc15f31e2039751bfc32468",
+  "signature": "d67f51e0376072d4ef7811d81f66c96d1521f441186e568b986ebce846c7872d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05317"
 }

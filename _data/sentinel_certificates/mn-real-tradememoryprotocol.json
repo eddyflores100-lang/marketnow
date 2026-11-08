@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7452090",
+  "certificate_id": "MN-SC-2026-1315130",
   "skill_id": "mn-real-tradememoryprotocol",
   "skill_name": "tradememory-protocol",
-  "issued_at": "2026-11-01T07:17:32.090Z",
-  "expires_at": "2026-11-08T07:17:32.090Z",
+  "issued_at": "2026-11-08T07:01:55.130Z",
+  "expires_at": "2026-11-15T07:01:55.130Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "992c942c43813ad72cbf577c9899334b6630e9947eabe17aef30c2feab6f4591",
+  "signature": "f4e9da0baf7f2f1ee67e1ebe31282453e043e0219e2d9f791b670f59b2ea0e21",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-tradememoryprotocol"
 }

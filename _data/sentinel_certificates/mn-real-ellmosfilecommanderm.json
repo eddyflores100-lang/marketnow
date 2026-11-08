@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7395043",
+  "certificate_id": "MN-SC-2026-1277090",
   "skill_id": "mn-real-ellmosfilecommanderm",
   "skill_name": "ellmos-filecommander-mcp",
-  "issued_at": "2026-11-01T07:16:35.043Z",
-  "expires_at": "2026-11-08T07:16:35.043Z",
+  "issued_at": "2026-11-08T07:01:17.090Z",
+  "expires_at": "2026-11-15T07:01:17.090Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "07e291e17854e2f2333247a5f81a2eac92ed288831b37d80159ebe2580a9a1a9",
+  "signature": "bb59abdc548def32d1cff50d530fc81390851d9a7605268e54fe1b780abddee5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-ellmosfilecommanderm"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7417245",
+  "certificate_id": "MN-SC-2026-1291770",
   "skill_id": "mn-real-cryptoguardclient",
   "skill_name": "CryptoGuardClient",
-  "issued_at": "2026-11-01T07:16:57.245Z",
-  "expires_at": "2026-11-08T07:16:57.245Z",
+  "issued_at": "2026-11-08T07:01:31.770Z",
+  "expires_at": "2026-11-15T07:01:31.770Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "87161c19dd02d90defa30a72ba8ebd9b89c57bdd56fefd5193bdd6481ce4a6ad",
+  "signature": "3cc74b96064b74de9d7be03cab77be3fc10b54a7252abf1bc695834edde2fa6c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cryptoguardclient"
 }

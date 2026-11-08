@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-7171311",
+  "certificate_id": "MN-SC-2026-1132679",
   "skill_id": "mn-amcp-pipedream",
   "skill_name": "pipedream",
-  "issued_at": "2026-11-01T07:12:51.311Z",
-  "expires_at": "2026-11-08T07:12:51.311Z",
+  "issued_at": "2026-11-08T06:58:52.679Z",
+  "expires_at": "2026-11-15T06:58:52.679Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c6d0fccf3e4b482913b23597954fcbcaaa7c05d5fa20c246b42904bec32338d4",
+  "signature": "d77aa07f0cb8cbab77f3453d23f0595ca246b0751018307f0322cc349bd23744",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-amcp-pipedream"
 }
