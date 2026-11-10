@@ -1034,11 +1034,16 @@
       "repo": "BlockRunAI/blockrun-mcp",
       "issue_num": 193,
       "username": "VickyXAI"
+    },
+    "6777821795": {
+      "repo": "crewAIInc/crewAI",
+      "issue_num": 8381,
+      "username": "VibeMirror-coder"
     }
   },
   "npm_last_downloads": 180,
   "github_last_stars": 0,
   "last_report": null,
   "initialized_at": "2026-07-10T01:27:15.724696+00:00",
-  "last_check": "2026-11-10T17:45:14.889126+00:00"
+  "last_check": "2026-11-10T23:15:15.686606+00:00"
 }
