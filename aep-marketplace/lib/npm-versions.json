@@ -1,6 +1,6 @@
 {
   "$schema": "https://marketnow.site/api/npm-versions.schema.json",
-  "generated_at": "2026-11-09T19:01:50Z",
+  "generated_at": "2026-11-10T16:33:09Z",
   "source": "registry.npmjs.org dist-tags + api.npmjs.org downloads (last-month) — re-derived by scripts/sync_npm_versions.py (weekly workflow + audit gate)",
   "packages": [
     {
@@ -11,62 +11,62 @@
     {
       "name": "agent-trust-card",
       "version": "1.4.1",
-      "dl_month": 226
+      "dl_month": 231
     },
     {
       "name": "marketnow-install-stack",
       "version": "1.2.1",
-      "dl_month": 128
+      "dl_month": 132
     },
     {
       "name": "marketnow-audit",
       "version": "1.0.1",
-      "dl_month": 121
+      "dl_month": 127
     },
     {
       "name": "@marketnow/uts",
       "version": "2.0.3",
-      "dl_month": 125
+      "dl_month": 126
     },
     {
       "name": "@marketnow/trust-core",
       "version": "2.0.3",
-      "dl_month": 156
+      "dl_month": 162
     },
     {
       "name": "@marketnow/trust-adapters",
       "version": "1.0.4",
-      "dl_month": 168
+      "dl_month": 167
     },
     {
       "name": "@marketnow/trust-gateway",
       "version": "1.0.5",
-      "dl_month": 173
+      "dl_month": 171
     },
     {
       "name": "@marketnow/uta-verify",
       "version": "1.0.2",
-      "dl_month": 146
+      "dl_month": 152
     },
     {
       "name": "@marketnow/uta-conformance",
       "version": "1.4.0",
-      "dl_month": 175
+      "dl_month": 182
     },
     {
       "name": "@marketnow/cline-trust-plugin",
       "version": "1.1.2",
-      "dl_month": 134
+      "dl_month": 136
     },
     {
       "name": "@marketnow/sentinel-rules",
       "version": "1.1.2",
-      "dl_month": 177
+      "dl_month": 178
     },
     {
       "name": "@marketnow/trust-mcp-middleware",
       "version": "1.0.2",
-      "dl_month": 184
+      "dl_month": 187
     },
     {
       "name": "@marketnow/trust-observability",
@@ -76,7 +76,7 @@
   ],
   "totals": {
     "packages": 14,
-    "dl_month": 3106
+    "dl_month": 3144
   },
   "conformance_version": "1.4.0",
   "test_vectors": 41,
