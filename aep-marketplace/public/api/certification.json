@@ -198,13 +198,13 @@
     "level": 2,
     "level_name": "sentinel-scanned",
     "detail_url": "/api/certification-scans.json",
-    "scanned": 2819,
+    "scanned": 2818,
     "clean": 881,
-    "flagged_warning": 805,
+    "flagged_warning": 804,
     "flagged_error": 1234,
-    "scan_errors": 63,
-    "weekly_download_volume_covered": 21087121,
-    "generated_at": "2026-11-09T14:10:46.744Z"
+    "scan_errors": 64,
+    "weekly_download_volume_covered": 21087021,
+    "generated_at": "2026-11-10T13:42:10.181Z"
   },
   "benchmark": {
     "url": "/api/sentinel-benchmark.json",
