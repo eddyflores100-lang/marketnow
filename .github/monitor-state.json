@@ -1039,11 +1039,16 @@
       "repo": "crewAIInc/crewAI",
       "issue_num": 8381,
       "username": "VibeMirror-coder"
+    },
+    "6829580297": {
+      "repo": "crewAIInc/crewAI",
+      "issue_num": 8381,
+      "username": "renezander030"
     }
   },
-  "npm_last_downloads": 191,
+  "npm_last_downloads": 195,
   "github_last_stars": 0,
   "last_report": null,
   "initialized_at": "2026-07-10T01:27:15.724696+00:00",
-  "last_check": "2026-11-11T10:48:49.702825+00:00"
+  "last_check": "2026-11-12T18:14:04.814195+00:00"
 }
