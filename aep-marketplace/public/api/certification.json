@@ -204,7 +204,7 @@
     "flagged_error": 1238,
     "scan_errors": 64,
     "weekly_download_volume_covered": 21087021,
-    "generated_at": "2026-11-12T13:56:23.643Z"
+    "generated_at": "2026-11-13T13:21:30.934Z"
   },
   "benchmark": {
     "url": "/api/sentinel-benchmark.json",
