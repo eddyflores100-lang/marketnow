@@ -38,7 +38,7 @@ export const FALLBACK_STATS = {
   // (fuente: lib/npm-versions.json, sincronizado del registry por sync_npm_versions.py).
   // Fallback = último estado conocido del registry (13 paquetes, 2026-09-26).
   utaPackages: [
-    { name: 'marketnow-mcp', version: '1.16.1' },
+    { name: 'marketnow-mcp', version: '1.16.2' },
     { name: 'agent-trust-card', version: '1.4.1' },
     { name: 'marketnow-install-stack', version: '1.2.1' },
     { name: 'marketnow-audit', version: '1.0.1' },
@@ -54,7 +54,7 @@ export const FALLBACK_STATS = {
     { name: '@marketnow/trust-observability', version: '1.0.3' },
   ],
   utaPackagesCount: 14,
-  utaMonthlyDownloads: 3070,
+  utaMonthlyDownloads: 3094,
   utaConformance: '1.3.5',
   utaVectors: 41,
   utaChecks: 24,

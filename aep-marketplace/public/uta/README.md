@@ -46,7 +46,7 @@ npm install -g marketnow-mcp       # MCP server (15 trust tools; remote endpoint
 | Metric | Value |
 |---|---|
 | NPM packages | 14 |
-| NPM monthly downloads | 3,070 |
+| NPM monthly downloads | 3,094 |
 | Test vectors (ATC/1.0) | 5 frozen + manifest |
 | Test vectors (ATC v3.0) | 36 (8 positive + 17 negative + 5 mutation + 6 cross-language) |
 | Conformance tests | v1.3.5 — 14 public vectors · 24 checks + 10 mutants (runner-under-test) |
@@ -58,7 +58,7 @@ npm install -g marketnow-mcp       # MCP server (15 trust tools; remote endpoint
 
 | Package | Version | Description | Monthly downloads |
 |---|---|---|---|
-| [`marketnow-mcp`](https://www.npmjs.com/package/marketnow-mcp) | 1.16.1 | MCP server with 15 trust tools (remote endpoint exposes 9) | 1,839 |
+| [`marketnow-mcp`](https://www.npmjs.com/package/marketnow-mcp) | 1.16.2 | MCP server with 15 trust tools (remote endpoint exposes 9) | 1,839 |
 | [`agent-trust-card`](https://www.npmjs.com/package/agent-trust-card) | 1.4.1 | ATC/1.0 SDK (issue, verify, inspect) | 878 |
 | [`marketnow-install-stack`](https://www.npmjs.com/package/marketnow-install-stack) | 1.2.1 | Multi-source installer | 577 |
 | [`@marketnow/uts`](https://www.npmjs.com/package/@marketnow/uts) | 2.0.3 | Universal Trust Schema | 576 |
