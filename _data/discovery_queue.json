@@ -1,17 +1,23 @@
 {
   "schema": "marketnow-discovery-queue/1.0",
-  "generated_at": "2026-11-08T06:31:40.380Z",
+  "generated_at": "2026-11-14T09:14:47.215Z",
   "mode": "queue — review before import",
-  "note": "Candidatos descubiertos (awesome-mcp + GitHub Search, L1.7 pre-filtrado). La importación al catálogo es deliberada (flujo dev): exige actualizar la constelación de conteos (skills-lite, free-skills, stats-base.discovery, catalog-meta, mcp.json, ai-plugin.json, landing) y regenerar certification.json para no recrear el drift F-02. Consumir con scripts/auto-discover-mcp.mjs --import + sync de conteos.",
+  "note": "Candidatos descubiertos (awesome-mcp + GitHub Search + mcpservers.org sitemaps + Smithery registry + npm search, L1.7 pre-filtrado). Glama: bloqueado (render client-side, sin API pública). La importación al catálogo es deliberada (flujo dev): exige actualizar la constelación de conteos (skills-lite, free-skills, stats-base.discovery, catalog-meta, mcp.json, ai-plugin.json, landing) y regenerar certification.json para no recrear el drift F-02. Consumir con scripts/auto-discover-mcp.mjs --import + sync de conteos.",
   "stats": {
-    "discovered_awesome": 4630,
-    "discovered_github": 768,
-    "already_in_catalog": 4156,
-    "imported": 1063,
-    "replaced": 0,
-    "marked_synthetic": 0,
-    "total_before": 71198,
-    "total_after": 72261
+    "discovered_mcpservers_org": 12888,
+    "discovered_smithery": 500,
+    "discovered_npm": 1495,
+    "cross_validated": 5,
+    "already_in_catalog": 4094,
+    "already_in_queue": 399,
+    "enriched_github": 1953,
+    "enrichment_backlog": 5995,
+    "npm_enriched": 250,
+    "smithery_only": 0,
+    "l17_blocked": 0,
+    "queued_new": 0,
+    "queued_total": 2000,
+    "glama": "blocked — client-side rendering, no public API (documented)"
   },
   "entries": [
     {
