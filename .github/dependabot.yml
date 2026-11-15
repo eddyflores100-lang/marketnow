@@ -12,6 +12,8 @@ updates:
       interval: weekly
       day: monday
       timezone: America/Guayaquil
+    cooldown:
+      default-days: 7
     open-pull-requests-limit: 5
     labels:
       - dependencies
@@ -26,6 +28,8 @@ updates:
       interval: weekly
       day: monday
       timezone: America/Guayaquil
+    cooldown:
+      default-days: 7
     open-pull-requests-limit: 10
     labels:
       - dependencies
@@ -40,6 +44,8 @@ updates:
       interval: weekly
       day: monday
       timezone: America/Guayaquil
+    cooldown:
+      default-days: 7
     open-pull-requests-limit: 3
     labels:
       - dependencies
