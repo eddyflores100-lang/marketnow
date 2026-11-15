@@ -38,6 +38,7 @@ jobs:
           MANDATES_GITHUB_TOKEN: ${{ github.token }}
           MANDATES_REPO: eddyflores100-lang/marketnow
           NPM_PACKAGE: marketnow-mcp
+          DAYS_INPUT: ${{ github.event.inputs.days || '30' }}
         run: |
-          DAYS_ARG="--days=${{ github.event.inputs.days || '30' }}"
-          node scripts/viral-loop-tracker.mjs "$DAYS_ARG"
+          case "$DAYS_INPUT" in ''|*[!0-9]*) echo "::error::days must be numeric"; exit 2;; esac
+          node scripts/viral-loop-tracker.mjs "--days=$DAYS_INPUT"

@@ -57,6 +57,8 @@ jobs:
           SENTINEL_CERT_SECRET: ${{ secrets.SENTINEL_CERT_SECRET }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MANDATES_GITHUB_TOKEN: ${{ secrets.MANDATES_GITHUB_TOKEN }}
+          AUDIT_MAX_INPUT: ${{ github.event.inputs.max_skills || '800' }}
+          AUDIT_START_INPUT: ${{ github.event.inputs.start_from || '0' }}
         run: |
           # The audit signs certificates and cannot run without the signing
           # secret. It was never configured in this repository, so the
@@ -70,13 +72,14 @@ jobs:
 
           # Scheduled runs audit in daily batches (auto-resume from
           # _data/deep-audit-progress.json). Manual dispatch with 0 = all.
-          MAX="${{ github.event.inputs.max_skills || '800' }}"
-          START="${{ github.event.inputs.start_from || '0' }}"
-          
+          MAX="$AUDIT_MAX_INPUT"
+          START="$AUDIT_START_INPUT"
+          case "$MAX" in ''|*[!0-9]*) echo "::error::max_skills must be a nonnegative integer"; exit 2;; esac
+          case "$START" in ''|*[!0-9]*) echo "::error::start_from must be a nonnegative integer"; exit 2;; esac
           if [ "$MAX" = "0" ]; then
-            node scripts/deep-audit-all-skills.mjs --start $START
+            node scripts/deep-audit-all-skills.mjs --start "$START"
           else
-            node scripts/deep-audit-all-skills.mjs --max $MAX --start $START
+            node scripts/deep-audit-all-skills.mjs --max "$MAX" --start "$START"
           fi
 
       - name: Commit results

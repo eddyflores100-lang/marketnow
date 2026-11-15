@@ -139,4 +139,3 @@ rules:
     languages: [javascript, typescript]
     patterns:
       - pattern: registerTool($NAME, $DESC)
-        pattern-not: registerTool($NAME, $DESC, ..., inputSchema: ...)
