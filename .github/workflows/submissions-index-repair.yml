@@ -42,9 +42,10 @@ jobs:
       - name: Rebuild submission index from the durable tree
         env:
           MN_SUBMIT_TOKEN: ${{ secrets.MN_SUBMIT_TOKEN }}
+          DRY_RUN_INPUT: ${{ github.event.inputs.dry_run || 'false' }}
         run: |
           ARGS=""
-          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+          if [ "$DRY_RUN_INPUT" = "true" ]; then
             ARGS="$ARGS --dry-run"
           fi
           if [ -z "$MN_SUBMIT_TOKEN" ]; then
