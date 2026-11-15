@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1223875",
+  "certificate_id": "MN-SC-2026-8391774",
   "skill_id": "mn-real-pgtunermcp",
   "skill_name": "pgtuner_mcp",
-  "issued_at": "2026-11-08T07:00:23.875Z",
-  "expires_at": "2026-11-15T07:00:23.875Z",
+  "issued_at": "2026-11-15T07:39:51.774Z",
+  "expires_at": "2026-11-22T07:39:51.774Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e5fd18f3ce6c2d3fd28ec3c7572ba62386410ea7b4fe2e8e31bd960d690269e0",
+  "signature": "87db30e08283d2a5a35b954b336af966b08da61f8f006fbd1d5f3babad2f9c1e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-pgtunermcp"
 }

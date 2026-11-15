@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1321100",
+  "certificate_id": "MN-SC-2026-8508844",
   "skill_id": "mn-real-weppyrobloxmcp",
   "skill_name": "weppy-roblox-mcp",
-  "issued_at": "2026-11-08T07:02:01.100Z",
-  "expires_at": "2026-11-15T07:02:01.100Z",
+  "issued_at": "2026-11-15T07:41:48.844Z",
+  "expires_at": "2026-11-22T07:41:48.844Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "dfdcd1d4829c2ceaf08e0e732ea11f527f9f0cf5e14731f8e188bba234729b14",
+  "signature": "e4022af84e0f42f5780c4232b231295c73cc04113c098c9d3a022ecfddf5d821",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-weppyrobloxmcp"
 }

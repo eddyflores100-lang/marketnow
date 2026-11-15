@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1121305",
+  "certificate_id": "MN-SC-2026-8269377",
   "skill_id": "mn-gen-12619",
   "skill_name": "think-mcp",
-  "issued_at": "2026-11-08T06:58:41.305Z",
-  "expires_at": "2026-11-15T06:58:41.305Z",
+  "issued_at": "2026-11-15T07:37:49.377Z",
+  "expires_at": "2026-11-22T07:37:49.377Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1fee874e8e436d3ea1b98e069801bd7d866681722c84b37079703e0d5624b6c5",
+  "signature": "9421c54e37896a04b930577fbd4bcc1c67de7a145312aece66a0a88886b9107a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12619"
 }

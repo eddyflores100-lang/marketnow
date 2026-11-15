@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1326826",
+  "certificate_id": "MN-SC-2026-8515614",
   "skill_id": "mn-real-callimachus",
   "skill_name": "callimachus",
-  "issued_at": "2026-11-08T07:02:06.826Z",
-  "expires_at": "2026-11-15T07:02:06.826Z",
+  "issued_at": "2026-11-15T07:41:55.614Z",
+  "expires_at": "2026-11-22T07:41:55.614Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4cfb9c570530f46f3f20c5ea4c747ba8b5931bcb4986786c6da73b39a7c98808",
+  "signature": "40983aa60013aa84fd5d4e833b0d0b503f1cccab3918fa25509f2fb0fcf8f71b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-callimachus"
 }

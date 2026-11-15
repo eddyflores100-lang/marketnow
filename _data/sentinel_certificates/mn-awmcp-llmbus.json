@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1191708",
+  "certificate_id": "MN-SC-2026-8354155",
   "skill_id": "mn-awmcp-llmbus",
   "skill_name": "llm-bus",
-  "issued_at": "2026-11-08T06:59:51.708Z",
-  "expires_at": "2026-11-15T06:59:51.708Z",
+  "issued_at": "2026-11-15T07:39:14.155Z",
+  "expires_at": "2026-11-22T07:39:14.155Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "580a917c9c8558e8a63924a112e39e49c8b8d3246fa9015b8928ed7df2727b25",
+  "signature": "b99bf0ac87db66b44b14a85df0eb02b36d9ff7c664a8d2712cd53397ee3ea3bd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-llmbus"
 }

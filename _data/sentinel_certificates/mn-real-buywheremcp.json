@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1273309",
+  "certificate_id": "MN-SC-2026-8453140",
   "skill_id": "mn-real-buywheremcp",
   "skill_name": "buywhere-mcp",
-  "issued_at": "2026-11-08T07:01:13.309Z",
-  "expires_at": "2026-11-15T07:01:13.309Z",
+  "issued_at": "2026-11-15T07:40:53.140Z",
+  "expires_at": "2026-11-22T07:40:53.140Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c5379249427010a4d5fa715f20c2cc9b2b1a9bc06e8408b64dc0a812d7905b69",
+  "signature": "59b8957301de3f966972ccbafd595f7242e569d638395beeddace331efa7a692",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-buywheremcp"
 }

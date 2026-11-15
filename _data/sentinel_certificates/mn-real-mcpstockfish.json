@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1322438",
+  "certificate_id": "MN-SC-2026-8510556",
   "skill_id": "mn-real-mcpstockfish",
   "skill_name": "mcp-stockfish",
-  "issued_at": "2026-11-08T07:02:02.438Z",
-  "expires_at": "2026-11-15T07:02:02.438Z",
+  "issued_at": "2026-11-15T07:41:50.556Z",
+  "expires_at": "2026-11-22T07:41:50.556Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "298b3654525c8139b60065006d7c0ff1ba2e6a61daacdcc3aa58fbe20f1cf423",
+  "signature": "71a0c2dcea6aff81d3f6d7bfae19d95afcd608768681b4c4d2c8c0f1ea9dd38e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpstockfish"
 }

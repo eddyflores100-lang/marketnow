@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1253297",
+  "certificate_id": "MN-SC-2026-8428508",
   "skill_id": "mn-real-claudecriticalrulesm",
   "skill_name": "claude-critical-rules-mcp",
-  "issued_at": "2026-11-08T07:00:53.297Z",
-  "expires_at": "2026-11-15T07:00:53.297Z",
+  "issued_at": "2026-11-15T07:40:28.508Z",
+  "expires_at": "2026-11-22T07:40:28.508Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0687f72eb9c4413fb361892849b4cb3ca19218ff63d806c3867819d8c57718a1",
+  "signature": "8b07a03a5907a8ad69d359b425c634ced38bacc20a22bc38402182ed7248b265",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-claudecriticalrulesm"
 }

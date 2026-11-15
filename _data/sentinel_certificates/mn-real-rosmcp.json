@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1263960",
+  "certificate_id": "MN-SC-2026-8441023",
   "skill_id": "mn-real-rosmcp",
   "skill_name": "ros-mcp",
-  "issued_at": "2026-11-08T07:01:03.960Z",
-  "expires_at": "2026-11-15T07:01:03.960Z",
+  "issued_at": "2026-11-15T07:40:41.023Z",
+  "expires_at": "2026-11-22T07:40:41.023Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "07078bed5bee969f1b40d2c9934dfb697cf4819d076fb6ceef2ade4ee3095d69",
+  "signature": "d088c2e6d512f3ee97fd5eed572d904f876416aae53feacc450abcd35bae868b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-rosmcp"
 }

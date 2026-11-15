@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1092510",
+  "certificate_id": "MN-SC-2026-8235226",
   "skill_id": "mn-gen-07662",
   "skill_name": "mcp-server-giphy",
-  "issued_at": "2026-11-08T06:58:12.510Z",
-  "expires_at": "2026-11-15T06:58:12.510Z",
+  "issued_at": "2026-11-15T07:37:15.226Z",
+  "expires_at": "2026-11-22T07:37:15.226Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9b88b409f7e747728e6a33ffafbbff1f55bdf7d8f3f892d149aa042c6fa5eec0",
+  "signature": "537f3ca19b47be33e4ed9ef02fc11d8709795ad7b5b65fa970496d3595c2f3dd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07662"
 }

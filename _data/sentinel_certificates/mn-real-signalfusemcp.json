@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1292704",
+  "certificate_id": "MN-SC-2026-8477371",
   "skill_id": "mn-real-signalfusemcp",
   "skill_name": "signalfuse-mcp",
-  "issued_at": "2026-11-08T07:01:32.704Z",
-  "expires_at": "2026-11-15T07:01:32.704Z",
+  "issued_at": "2026-11-15T07:41:17.371Z",
+  "expires_at": "2026-11-22T07:41:17.371Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8cfc26fb05a64acdddc7aa9da1656c195d94e170f4c75fdda3ca20fb82f2bd2a",
+  "signature": "a43dc52bb6b5349d6b38582123a601a57eeab7b939dafb9e36c8300ce0bec360",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-signalfusemcp"
 }

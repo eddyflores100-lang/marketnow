@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1142302",
+  "certificate_id": "MN-SC-2026-8295423",
   "skill_id": "mn-awmcp-mindsdb",
   "skill_name": "mindsdb",
-  "issued_at": "2026-11-08T06:59:02.302Z",
-  "expires_at": "2026-11-15T06:59:02.302Z",
+  "issued_at": "2026-11-15T07:38:15.423Z",
+  "expires_at": "2026-11-22T07:38:15.423Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "570bba84dd89e75ac3a77cb9e6a01cb33ce5c594fb47621c772e5fb1d850eacc",
+  "signature": "028720dd06ccd0d1bdbe85335fab315ab8d5466af5c5becdd0f140626fc4f057",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mindsdb"
 }

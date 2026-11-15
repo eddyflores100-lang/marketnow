@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1317639",
+  "certificate_id": "MN-SC-2026-8504948",
   "skill_id": "mn-real-anticsmcp",
   "skill_name": "antics-mcp",
-  "issued_at": "2026-11-08T07:01:57.639Z",
-  "expires_at": "2026-11-15T07:01:57.639Z",
+  "issued_at": "2026-11-15T07:41:44.948Z",
+  "expires_at": "2026-11-22T07:41:44.948Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d8fc998596642a9636363028a1a4916e1843ac87528e5b64a9cb4730015d42c1",
+  "signature": "754b80c47e69294a0bdf2aede565b8344a10324ddf8ed388d0727cdb4963d1f3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-anticsmcp"
 }

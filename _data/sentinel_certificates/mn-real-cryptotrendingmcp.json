@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1298824",
+  "certificate_id": "MN-SC-2026-8484694",
   "skill_id": "mn-real-cryptotrendingmcp",
   "skill_name": "crypto-trending-mcp",
-  "issued_at": "2026-11-08T07:01:38.824Z",
-  "expires_at": "2026-11-15T07:01:38.824Z",
+  "issued_at": "2026-11-15T07:41:24.694Z",
+  "expires_at": "2026-11-22T07:41:24.694Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8594b24d415128bb3b5f047b02d9039f68b21afb7231fcd14f3c929673a533ee",
+  "signature": "dc143d01f1427fb0eea5fc0fa2ac1ffe99af1632af5603142f772e906035327b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cryptotrendingmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1317148",
+  "certificate_id": "MN-SC-2026-8504422",
   "skill_id": "mn-real-goldbean",
   "skill_name": "goldbean",
-  "issued_at": "2026-11-08T07:01:57.148Z",
-  "expires_at": "2026-11-15T07:01:57.148Z",
+  "issued_at": "2026-11-15T07:41:44.422Z",
+  "expires_at": "2026-11-22T07:41:44.422Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8d37d431ffd94434a3ad707c0810a7882653eb6de2e722f548bae9b888788519",
+  "signature": "a8c29375b6460fa11c67a7138f7253292e267c9b3ab32ee0b8b9ba505a64fc6f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-goldbean"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1234877",
+  "certificate_id": "MN-SC-2026-8405743",
   "skill_id": "mn-real-mindpilotmcp",
   "skill_name": "mindpilot-mcp",
-  "issued_at": "2026-11-08T07:00:34.877Z",
-  "expires_at": "2026-11-15T07:00:34.877Z",
+  "issued_at": "2026-11-15T07:40:05.743Z",
+  "expires_at": "2026-11-22T07:40:05.743Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2274f514b20a84e4b7d07430e38204cf6c01f8485649431de3e825226a3cf66a",
+  "signature": "5b2ac1e2d16ee0d10f3550534aa79ebefb942bc24adb0ef1b556d1796080ec2c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mindpilotmcp"
 }

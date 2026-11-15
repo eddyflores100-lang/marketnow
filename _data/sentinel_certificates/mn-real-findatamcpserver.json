@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1315067",
+  "certificate_id": "MN-SC-2026-8502210",
   "skill_id": "mn-real-findatamcpserver",
   "skill_name": "finData-mcp-server",
-  "issued_at": "2026-11-08T07:01:55.067Z",
-  "expires_at": "2026-11-15T07:01:55.067Z",
+  "issued_at": "2026-11-15T07:41:42.210Z",
+  "expires_at": "2026-11-22T07:41:42.210Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "564ac0a2e2adf5d3c3d91f12ae2bcd23bcdd51c5188c98cfdcbf08fe52e35f76",
+  "signature": "433b015f59154ffc6b8cf6f9e5d0f10e838a345a506b9a6b4a6a6ef036043e9d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-findatamcpserver"
 }

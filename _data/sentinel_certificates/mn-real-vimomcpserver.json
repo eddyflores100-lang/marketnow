@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1283434",
+  "certificate_id": "MN-SC-2026-8466264",
   "skill_id": "mn-real-vimomcpserver",
   "skill_name": "vimo-mcp-server",
-  "issued_at": "2026-11-08T07:01:23.434Z",
-  "expires_at": "2026-11-15T07:01:23.434Z",
+  "issued_at": "2026-11-15T07:41:06.264Z",
+  "expires_at": "2026-11-22T07:41:06.264Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8357b3c011d49b16f752c78554656af00eb682a2fb7ed847ce1719e0cb2a73a7",
+  "signature": "f8a9ca11f5b71393ae9230ec958a5aba62ef2907a6534818814f4ea004fd75a5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-vimomcpserver"
 }

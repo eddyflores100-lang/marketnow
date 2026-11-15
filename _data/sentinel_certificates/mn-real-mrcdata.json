@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1229492",
+  "certificate_id": "MN-SC-2026-8399254",
   "skill_id": "mn-real-mrcdata",
   "skill_name": "mrc-data",
-  "issued_at": "2026-11-08T07:00:29.492Z",
-  "expires_at": "2026-11-15T07:00:29.492Z",
+  "issued_at": "2026-11-15T07:39:59.254Z",
+  "expires_at": "2026-11-22T07:39:59.254Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a8239172cb4f68001757bee1b15aa20f54668ae64cb0cc15b210b39b71f97e60",
+  "signature": "b59e588a0a061958fb22da97a52a09c1ebaf2ec3612fc6b486f3b12af9f975fe",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mrcdata"
 }

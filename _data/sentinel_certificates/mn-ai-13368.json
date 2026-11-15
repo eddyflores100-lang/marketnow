@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1127093",
+  "certificate_id": "MN-SC-2026-8277202",
   "skill_id": "mn-ai-13368",
   "skill_name": "webscraping-ai-mcp-server",
-  "issued_at": "2026-11-08T06:58:47.093Z",
-  "expires_at": "2026-11-15T06:58:47.093Z",
+  "issued_at": "2026-11-15T07:37:57.202Z",
+  "expires_at": "2026-11-22T07:37:57.202Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "152393295a56fe4a9ce6554bdbd14050267977f6b98598a332c41e7b33d84f9e",
+  "signature": "3e4eca13fad4c481f0921c3174360ec62d30633b344cda069257e46f937294e5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-ai-13368"
 }

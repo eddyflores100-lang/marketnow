@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1116343",
+  "certificate_id": "MN-SC-2026-8263288",
   "skill_id": "mn-gen-11621",
   "skill_name": "DocSentinel",
-  "issued_at": "2026-11-08T06:58:36.343Z",
-  "expires_at": "2026-11-15T06:58:36.343Z",
+  "issued_at": "2026-11-15T07:37:43.288Z",
+  "expires_at": "2026-11-22T07:37:43.288Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "978e6c945773206500ded3b051a0ebaa9942971a202ad80763c9d2621e01abaa",
+  "signature": "52b572aac1c5aedb7eace8c1431200d79c78c419760ffae56c6cfce10cf52146",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-11621"
 }

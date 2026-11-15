@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1096062",
+  "certificate_id": "MN-SC-2026-8239042",
   "skill_id": "mn-gen-07895",
   "skill_name": "adr-mcp-setup",
-  "issued_at": "2026-11-08T06:58:16.062Z",
-  "expires_at": "2026-11-15T06:58:16.062Z",
+  "issued_at": "2026-11-15T07:37:19.042Z",
+  "expires_at": "2026-11-22T07:37:19.042Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e68089c2358a10270544bfee9ac32364b22f694c146f3d137926fb3e7d5472a4",
+  "signature": "89b2199cb0383da72c339d329f000aeb455fe20af852d313e91d62a50711e07f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07895"
 }

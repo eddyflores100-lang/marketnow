@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1299373",
+  "certificate_id": "MN-SC-2026-8485273",
   "skill_id": "mn-real-mcpeastmoney",
   "skill_name": "mcp-eastmoney",
-  "issued_at": "2026-11-08T07:01:39.373Z",
-  "expires_at": "2026-11-15T07:01:39.373Z",
+  "issued_at": "2026-11-15T07:41:25.273Z",
+  "expires_at": "2026-11-22T07:41:25.273Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "361f469a53ac039d54cd4941e4246745d415f5c36f7c4f98dcbdb5577e1a11cc",
+  "signature": "6903989e24b315348711570c4d07804c5c6e4d7cc6fcb2fbfb512a04ff892cfb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpeastmoney"
 }

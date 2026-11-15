@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1286373",
+  "certificate_id": "MN-SC-2026-8469780",
   "skill_id": "mn-real-heliummcp",
   "skill_name": "helium-mcp",
-  "issued_at": "2026-11-08T07:01:26.373Z",
-  "expires_at": "2026-11-15T07:01:26.373Z",
+  "issued_at": "2026-11-15T07:41:09.780Z",
+  "expires_at": "2026-11-22T07:41:09.780Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "897e3d83a59524bb8fffc1c2ef577d515004a9e82c68a5b8bf6b90570cbbde1c",
+  "signature": "9a5bd89cb5f25ad6afccf5207a8d22d8d7941ee8110c2dcd159ef291c5f38db0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-heliummcp"
 }

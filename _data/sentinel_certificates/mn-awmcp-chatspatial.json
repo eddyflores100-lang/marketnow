@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1161470",
+  "certificate_id": "MN-SC-2026-8314505",
   "skill_id": "mn-awmcp-chatspatial",
   "skill_name": "ChatSpatial",
-  "issued_at": "2026-11-08T06:59:21.470Z",
-  "expires_at": "2026-11-15T06:59:21.470Z",
+  "issued_at": "2026-11-15T07:38:34.505Z",
+  "expires_at": "2026-11-22T07:38:34.505Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4fff79608c6da25ae353476ec9016da3b9b0ce98f918b0d7f23c85e412f3cf55",
+  "signature": "822fe2d7ea4f412f8023d62ec6ed56f89dbe11785d6bc0dbf6024bc2475e13cc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-chatspatial"
 }

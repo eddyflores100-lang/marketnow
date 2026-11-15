@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1220738",
+  "certificate_id": "MN-SC-2026-8387609",
   "skill_id": "mn-real-localydbtoolkit",
   "skill_name": "local-ydb-toolkit",
-  "issued_at": "2026-11-08T07:00:20.738Z",
-  "expires_at": "2026-11-15T07:00:20.738Z",
+  "issued_at": "2026-11-15T07:39:47.609Z",
+  "expires_at": "2026-11-22T07:39:47.609Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1660be1fc70e537e36b06ef8caa7968db32206f0d73cf58b9cf5a463c54ceacb",
+  "signature": "8969ccfa989f59b00d4754fd228b784394f930a9b73ac5eb5d78e8db0d2d3813",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-localydbtoolkit"
 }

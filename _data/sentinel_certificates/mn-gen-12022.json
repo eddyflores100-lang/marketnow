@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1117658",
+  "certificate_id": "MN-SC-2026-8264985",
   "skill_id": "mn-gen-12022",
   "skill_name": "soul-mcp-server",
-  "issued_at": "2026-11-08T06:58:37.658Z",
-  "expires_at": "2026-11-15T06:58:37.658Z",
+  "issued_at": "2026-11-15T07:37:44.985Z",
+  "expires_at": "2026-11-22T07:37:44.985Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "87013e020cd6efff8f76b8841571c9115454f3e9afd3b10aa4bb58db7c9bbd2f",
+  "signature": "3dcfa536a708ee02b9097fb88cfaa93ad7a33270fd6c7c4327922b817b655c5e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12022"
 }

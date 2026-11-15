@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1103211",
+  "certificate_id": "MN-SC-2026-8247415",
   "skill_id": "mn-gen-09401",
   "skill_name": "mcp-n8n-workflow-builder",
-  "issued_at": "2026-11-08T06:58:23.211Z",
-  "expires_at": "2026-11-15T06:58:23.211Z",
+  "issued_at": "2026-11-15T07:37:27.415Z",
+  "expires_at": "2026-11-22T07:37:27.415Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2f9aed2880ea8729561e8da18dff5385da5e5567a760876bdbc0b9a11696e0ae",
+  "signature": "0dfe85ccca09f7681d0f12ad008e59b4bd3a67b31c62d143a814678b8d1626be",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09401"
 }

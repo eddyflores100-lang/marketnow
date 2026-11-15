@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1138401",
+  "certificate_id": "MN-SC-2026-8290924",
   "skill_id": "mn-awmcp-evcsparkmcp",
   "skill_name": "evc-spark-mcp",
-  "issued_at": "2026-11-08T06:58:58.401Z",
-  "expires_at": "2026-11-15T06:58:58.401Z",
+  "issued_at": "2026-11-15T07:38:10.924Z",
+  "expires_at": "2026-11-22T07:38:10.924Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "780d08d83ead40eb9822850423525708f31de01f247f9205b4607a37c6948c9f",
+  "signature": "f4f413a7a407019d7cccc0ddc26fe988c6419aa2c4af433102dc17348d0ed939",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-evcsparkmcp"
 }

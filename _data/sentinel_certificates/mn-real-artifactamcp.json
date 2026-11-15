@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1338914",
+  "certificate_id": "MN-SC-2026-8529917",
   "skill_id": "mn-real-artifactamcp",
   "skill_name": "artifacta-mcp",
-  "issued_at": "2026-11-08T07:02:18.914Z",
-  "expires_at": "2026-11-15T07:02:18.914Z",
+  "issued_at": "2026-11-15T07:42:09.917Z",
+  "expires_at": "2026-11-22T07:42:09.917Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fe3cc8313981920d2642486ecdf7314db01d17935e6dafd2a53bd6f05c41a34e",
+  "signature": "f249dab97b30c8c2c57ef5d1fa884e35f854e30973e675a6f35cecdb790ad1ad",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-artifactamcp"
 }

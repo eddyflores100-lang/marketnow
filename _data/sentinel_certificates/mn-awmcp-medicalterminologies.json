@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1164446",
+  "certificate_id": "MN-SC-2026-8318794",
   "skill_id": "mn-awmcp-medicalterminologies",
   "skill_name": "medical-terminologies-mcp",
-  "issued_at": "2026-11-08T06:59:24.446Z",
-  "expires_at": "2026-11-15T06:59:24.446Z",
+  "issued_at": "2026-11-15T07:38:38.794Z",
+  "expires_at": "2026-11-22T07:38:38.794Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 6,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6575699869e537dafa1dbe139fc6592ebc07a0a63b17f116a2597dd598a8dc4e",
+  "signature": "16212c9eb51ca2db7656b4323efc75dcd73124a6cbb0172856cd9f8954bbd167",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-medicalterminologies"
 }

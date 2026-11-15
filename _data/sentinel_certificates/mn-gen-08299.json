@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1098633",
+  "certificate_id": "MN-SC-2026-8241791",
   "skill_id": "mn-gen-08299",
   "skill_name": "yt-dlp-mcp",
-  "issued_at": "2026-11-08T06:58:18.633Z",
-  "expires_at": "2026-11-15T06:58:18.633Z",
+  "issued_at": "2026-11-15T07:37:21.791Z",
+  "expires_at": "2026-11-22T07:37:21.791Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d2f01522af0c73f8a976ca42971fc3c0c4018310ad00f6dd635d64ca19c4bebb",
+  "signature": "b2e2270941d31fac3ac02c689a3b12b3593226fd9db05ac37f484f548096f772",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-08299"
 }

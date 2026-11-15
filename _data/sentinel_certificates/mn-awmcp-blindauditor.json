@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1198319",
+  "certificate_id": "MN-SC-2026-8361636",
   "skill_id": "mn-awmcp-blindauditor",
   "skill_name": "Blind-Auditor",
-  "issued_at": "2026-11-08T06:59:58.319Z",
-  "expires_at": "2026-11-15T06:59:58.319Z",
+  "issued_at": "2026-11-15T07:39:21.636Z",
+  "expires_at": "2026-11-22T07:39:21.636Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7eeacaa733cad315157ad581a43106d241899b1b563490785096a4cff5f65200",
+  "signature": "58cf737efac5b4ee20c04ebf6d6ca728b029e678ac576f0fcb84974d0d2ed72d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-blindauditor"
 }

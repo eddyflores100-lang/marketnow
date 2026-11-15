@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1258024",
+  "certificate_id": "MN-SC-2026-8434108",
   "skill_id": "mn-real-sourcerermcp",
   "skill_name": "sourcerer-mcp",
-  "issued_at": "2026-11-08T07:00:58.024Z",
-  "expires_at": "2026-11-15T07:00:58.024Z",
+  "issued_at": "2026-11-15T07:40:34.108Z",
+  "expires_at": "2026-11-22T07:40:34.108Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e676fb2b9cc587b1156c30b55dbd7942bd529d8cd5f0c50db8fdc41cdd5c4496",
+  "signature": "ce2d7d58a5d491600ad4fc74a249a71113276e0c5afd10893c7c7aeec8d2b9d2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-sourcerermcp"
 }

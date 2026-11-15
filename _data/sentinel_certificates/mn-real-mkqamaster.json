@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1246679",
+  "certificate_id": "MN-SC-2026-8420291",
   "skill_id": "mn-real-mkqamaster",
   "skill_name": "mk-qa-master",
-  "issued_at": "2026-11-08T07:00:46.679Z",
-  "expires_at": "2026-11-15T07:00:46.679Z",
+  "issued_at": "2026-11-15T07:40:20.291Z",
+  "expires_at": "2026-11-22T07:40:20.291Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e249cd81b52f8e21e0955da75e52da4531f55c611ff5c3e3dd68ee6b8ea2e7ac",
+  "signature": "081876bbfec22a33da9b6101d5b3c99678932ba3a02d418453039538cb7442e1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mkqamaster"
 }

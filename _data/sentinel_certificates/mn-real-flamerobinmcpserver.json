@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1221371",
+  "certificate_id": "MN-SC-2026-8388486",
   "skill_id": "mn-real-flamerobinmcpserver",
   "skill_name": "flamerobin-mcp-server",
-  "issued_at": "2026-11-08T07:00:21.371Z",
-  "expires_at": "2026-11-15T07:00:21.371Z",
+  "issued_at": "2026-11-15T07:39:48.486Z",
+  "expires_at": "2026-11-22T07:39:48.486Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f0968f5bef56f0c0f12dd516a80831808181f1bc06b2f2c5ce3d839dad606ff4",
+  "signature": "376c5808cd4897da396b7874019accc61bcf7ad6809a90fd964725c2609beb45",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-flamerobinmcpserver"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1291859",
+  "certificate_id": "MN-SC-2026-8476355",
   "skill_id": "mn-real-builderssodaxmcpserv",
   "skill_name": "builders-sodax-mcp-server",
-  "issued_at": "2026-11-08T07:01:31.859Z",
-  "expires_at": "2026-11-15T07:01:31.859Z",
+  "issued_at": "2026-11-15T07:41:16.355Z",
+  "expires_at": "2026-11-22T07:41:16.355Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "82ffe50ad5234393e3c3c5961d995529172a75b33aa3068d7c034cad142ef9e4",
+  "signature": "ae866d3037b49c3ec08be1c742e2c5541add8c70208581f8f173225ce7656016",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-builderssodaxmcpserv"
 }

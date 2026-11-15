@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1124419",
+  "certificate_id": "MN-SC-2026-8273590",
   "skill_id": "mn-dat-13059",
   "skill_name": "OpenDataMCP",
-  "issued_at": "2026-11-08T06:58:44.419Z",
-  "expires_at": "2026-11-15T06:58:44.419Z",
+  "issued_at": "2026-11-15T07:37:53.590Z",
+  "expires_at": "2026-11-22T07:37:53.590Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0b033715bcf55ccef1b06fac46601f7a984996709838fb5fa1440594ccee8a5d",
+  "signature": "8a0675a863c33d98c0da145ab026ea774d8fb60fd6f3b5a827d1231145ffe489",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-dat-13059"
 }

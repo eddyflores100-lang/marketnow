@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1253895",
+  "certificate_id": "MN-SC-2026-8429238",
   "skill_id": "mn-real-pipepie",
   "skill_name": "pipepie",
-  "issued_at": "2026-11-08T07:00:53.895Z",
-  "expires_at": "2026-11-15T07:00:53.895Z",
+  "issued_at": "2026-11-15T07:40:29.238Z",
+  "expires_at": "2026-11-22T07:40:29.238Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3b4bb8b84408902f138aec45baf00b94d6e8f83beb84cb596918bfb5a4da2c92",
+  "signature": "619ac6fd4e2548310b6737c5aee2c47c58e845cb87baffcb0c9f5aa89ffe85ce",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-pipepie"
 }

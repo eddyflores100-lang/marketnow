@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1099316",
+  "certificate_id": "MN-SC-2026-8242497",
   "skill_id": "mn-gen-08594",
   "skill_name": "scout-mcp",
-  "issued_at": "2026-11-08T06:58:19.316Z",
-  "expires_at": "2026-11-15T06:58:19.316Z",
+  "issued_at": "2026-11-15T07:37:22.497Z",
+  "expires_at": "2026-11-22T07:37:22.497Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "987114a9c924471fcb92008eb2ee71e0284adbdc66bbaa5be213c605065d1b34",
+  "signature": "28eec1f3c1bcd754a608cb3fc80f51b03722d56f0a9b93ff07f667280a98bbc2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-08594"
 }

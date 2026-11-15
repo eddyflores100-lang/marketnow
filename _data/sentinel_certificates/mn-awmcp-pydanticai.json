@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1188813",
+  "certificate_id": "MN-SC-2026-8350546",
   "skill_id": "mn-awmcp-pydanticai",
   "skill_name": "pydantic-ai",
-  "issued_at": "2026-11-08T06:59:48.813Z",
-  "expires_at": "2026-11-15T06:59:48.813Z",
+  "issued_at": "2026-11-15T07:39:10.546Z",
+  "expires_at": "2026-11-22T07:39:10.546Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5179d27e54ce99fa225421d7240305fada42d27b731cb6a0493e1d27f84b657d",
+  "signature": "c13ece07e0517e389783ad336706d9b875c0de00849cf4c53350e221f8e5994e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-pydanticai"
 }

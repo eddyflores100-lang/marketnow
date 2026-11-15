@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1323907",
+  "certificate_id": "MN-SC-2026-8512200",
   "skill_id": "mn-real-ccumcp",
   "skill_name": "ccu-mcp",
-  "issued_at": "2026-11-08T07:02:03.907Z",
-  "expires_at": "2026-11-15T07:02:03.907Z",
+  "issued_at": "2026-11-15T07:41:52.200Z",
+  "expires_at": "2026-11-22T07:41:52.200Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b6677a21ed0fb904a0534b94b423e5b39da43fc7236d3db71a1ee4c2b4a7cf8b",
+  "signature": "408f6ff33cd92049b4929ca95429fe1299f0df8c319fe2a056d6d7674d83bf46",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-ccumcp"
 }

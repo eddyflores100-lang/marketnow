@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1122585",
+  "certificate_id": "MN-SC-2026-8271186",
   "skill_id": "mn-gen-12773",
   "skill_name": "trackmage-mcp-server",
-  "issued_at": "2026-11-08T06:58:42.585Z",
-  "expires_at": "2026-11-15T06:58:42.585Z",
+  "issued_at": "2026-11-15T07:37:51.186Z",
+  "expires_at": "2026-11-22T07:37:51.186Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a3f80373d5e8b987ebb4cb1b62f0dcecadc2e2be9a85064da63b71fa2188fd52",
+  "signature": "2bd6e21d6806d3ff29da7cb63c3e67dc625a46f21eefbb5100a65fb6f36c6684",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12773"
 }

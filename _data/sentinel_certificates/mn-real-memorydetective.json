@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1239089",
+  "certificate_id": "MN-SC-2026-8410870",
   "skill_id": "mn-real-memorydetective",
   "skill_name": "memorydetective",
-  "issued_at": "2026-11-08T07:00:39.089Z",
-  "expires_at": "2026-11-15T07:00:39.089Z",
+  "issued_at": "2026-11-15T07:40:10.870Z",
+  "expires_at": "2026-11-22T07:40:10.870Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "349331c2bffbef3556afa727da51a965a09dfe595384c6521e75059de50f7123",
+  "signature": "bdfe03c915cae8bccd94126c33ecc7e9b7719127c39b0271e8527929fbe9a89d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-memorydetective"
 }

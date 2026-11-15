@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1087284",
+  "certificate_id": "MN-SC-2026-8228704",
   "skill_id": "mn-gen-07028",
   "skill_name": "mcp-local-rag",
-  "issued_at": "2026-11-08T06:58:07.284Z",
-  "expires_at": "2026-11-15T06:58:07.284Z",
+  "issued_at": "2026-11-15T07:37:08.704Z",
+  "expires_at": "2026-11-22T07:37:08.704Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8960fe418ab9803ee349089c6e1ff3ffb028af22bac94061483e76a78f0edd63",
+  "signature": "876a34f8f03e40bf0cb66e60f0ec751873ac407f6d51cfe9365bce5d5dd66944",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07028"
 }

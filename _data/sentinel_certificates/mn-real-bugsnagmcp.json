@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1259100",
+  "certificate_id": "MN-SC-2026-8435495",
   "skill_id": "mn-real-bugsnagmcp",
   "skill_name": "bugsnag-mcp",
-  "issued_at": "2026-11-08T07:00:59.100Z",
-  "expires_at": "2026-11-15T07:00:59.100Z",
+  "issued_at": "2026-11-15T07:40:35.495Z",
+  "expires_at": "2026-11-22T07:40:35.495Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6385cdaa43c9266cb7d21f3764a71e38305d1fd54ee402a04eba3f28fc12d32f",
+  "signature": "68680f703b589fddf7f6a783b38be38d1104ca08af308b64be9322af76c73738",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-bugsnagmcp"
 }

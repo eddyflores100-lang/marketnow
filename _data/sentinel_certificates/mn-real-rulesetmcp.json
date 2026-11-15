@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1251504",
+  "certificate_id": "MN-SC-2026-8426366",
   "skill_id": "mn-real-rulesetmcp",
   "skill_name": "RulesetMCP",
-  "issued_at": "2026-11-08T07:00:51.504Z",
-  "expires_at": "2026-11-15T07:00:51.504Z",
+  "issued_at": "2026-11-15T07:40:26.366Z",
+  "expires_at": "2026-11-22T07:40:26.366Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "af63231d237c25c188062380f6f649acff5379f27ac758f8a3aa2834c8f700ae",
+  "signature": "f624de6f6173c4b158ecaaf032916fa81624d2372de811607b2d65f4d11cda97",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-rulesetmcp"
 }

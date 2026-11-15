@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1137468",
+  "certificate_id": "MN-SC-2026-8289835",
   "skill_id": "mn-awmcp-blockrunmcp",
   "skill_name": "blockrun-mcp",
-  "issued_at": "2026-11-08T06:58:57.468Z",
-  "expires_at": "2026-11-15T06:58:57.468Z",
+  "issued_at": "2026-11-15T07:38:09.835Z",
+  "expires_at": "2026-11-22T07:38:09.835Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "15b00856a8637f03c12a4c7ae5e332491b8f3be11439528b9698afcba8369c71",
+  "signature": "f09f9401114533e631f43520980ee630775b7bdd56248a78add24c60b81c39e0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-blockrunmcp"
 }

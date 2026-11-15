@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1165481",
+  "certificate_id": "MN-SC-2026-8319941",
   "skill_id": "mn-awmcp-uitarsdesktop",
   "skill_name": "UI-TARS-desktop",
-  "issued_at": "2026-11-08T06:59:25.481Z",
-  "expires_at": "2026-11-15T06:59:25.481Z",
+  "issued_at": "2026-11-15T07:38:39.941Z",
+  "expires_at": "2026-11-22T07:38:39.941Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c73cbf0536e336217e24c519ece8667a73f0dd83ee84fa08ea7d4e05879ea848",
+  "signature": "502b975c556f8c235463e6ad559ca1e7e1cf3f6ed046ec9bb6271b69775cba4e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-uitarsdesktop"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1238682",
+  "certificate_id": "MN-SC-2026-8410363",
   "skill_id": "mn-real-bitrisemcp",
   "skill_name": "bitrise-mcp",
-  "issued_at": "2026-11-08T07:00:38.682Z",
-  "expires_at": "2026-11-15T07:00:38.682Z",
+  "issued_at": "2026-11-15T07:40:10.363Z",
+  "expires_at": "2026-11-22T07:40:10.363Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cdd06edb917832a387c75e5d19f815ea2b7b4aff55a696b9db50dc1c4e656976",
+  "signature": "389d434e0b95364db84a639d409984257e2fe4baa9e7f7079cbf2c2b49ca3729",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-bitrisemcp"
 }

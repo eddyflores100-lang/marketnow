@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1151285",
+  "certificate_id": "MN-SC-2026-8306885",
   "skill_id": "mn-awmcp-wizzymcptmdb",
   "skill_name": "wizzy-mcp-tmdb",
-  "issued_at": "2026-11-08T06:59:11.285Z",
-  "expires_at": "2026-11-15T06:59:11.285Z",
+  "issued_at": "2026-11-15T07:38:26.885Z",
+  "expires_at": "2026-11-22T07:38:26.885Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "60b23970f75aaa86bb21b25bc30d09bbc05b424cc791e2bf8e2f9dc2419636c2",
+  "signature": "27288b9a1889bae34325b317ea56497f1055261dd9976a28de75d4c70cae6f14",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-wizzymcptmdb"
 }

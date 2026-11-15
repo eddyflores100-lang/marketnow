@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1043017",
+  "certificate_id": "MN-SC-2026-8172996",
   "skill_id": "mn-gen-00236",
   "skill_name": "agent-comm-hub",
-  "issued_at": "2026-11-08T06:57:23.017Z",
-  "expires_at": "2026-11-15T06:57:23.017Z",
+  "issued_at": "2026-11-15T07:36:12.996Z",
+  "expires_at": "2026-11-22T07:36:12.996Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a405c0c93f4e9701cf62559b904435d2b5bfd130ad449d6a1897be6c6d36c0af",
+  "signature": "c2caa14cd44dcaaeca4dca3f5295d42d5b6c29c12938c57d9215ddf42557d505",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00236"
 }

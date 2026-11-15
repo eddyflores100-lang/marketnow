@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1124792",
+  "certificate_id": "MN-SC-2026-8274059",
   "skill_id": "mn-gen-13063",
   "skill_name": "mcp-server-cortex",
-  "issued_at": "2026-11-08T06:58:44.792Z",
-  "expires_at": "2026-11-15T06:58:44.792Z",
+  "issued_at": "2026-11-15T07:37:54.059Z",
+  "expires_at": "2026-11-22T07:37:54.059Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8cf17062ee3eb23adaf62086d383c4970fb7d7559e903e8d74f41c63f3cda91c",
+  "signature": "cf065df124addc50821cc215d69518da7977ff6243c8fd632917fdb9d7a2b1ac",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13063"
 }

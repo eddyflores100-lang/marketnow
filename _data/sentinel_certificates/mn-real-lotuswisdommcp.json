@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1334569",
+  "certificate_id": "MN-SC-2026-8524413",
   "skill_id": "mn-real-lotuswisdommcp",
   "skill_name": "lotus-wisdom-mcp",
-  "issued_at": "2026-11-08T07:02:14.569Z",
-  "expires_at": "2026-11-15T07:02:14.569Z",
+  "issued_at": "2026-11-15T07:42:04.413Z",
+  "expires_at": "2026-11-22T07:42:04.413Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "752bd9200b380c55b3ccbebec05735285ef6f4cd59e451ac70cfa580b8b06779",
+  "signature": "8065fb783bc728b63d1464c8d56d6ff584cb23c84cd65f5fda9cdf32a78f11ca",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-lotuswisdommcp"
 }

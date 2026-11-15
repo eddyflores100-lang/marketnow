@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1153207",
+  "certificate_id": "MN-SC-2026-8309101",
   "skill_id": "mn-awmcp-abletonmind",
   "skill_name": "ableton-mind",
-  "issued_at": "2026-11-08T06:59:13.207Z",
-  "expires_at": "2026-11-15T06:59:13.207Z",
+  "issued_at": "2026-11-15T07:38:29.101Z",
+  "expires_at": "2026-11-22T07:38:29.101Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 6,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6a7473ff329496b1a8af52da8f84338de7b938858c4a758431a0592b16115e24",
+  "signature": "d5516e63eea2f45ec1787d9bf7a92ff5d9a6dc5af3c1917f160b9bfe4a121a24",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-abletonmind"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1337264",
+  "certificate_id": "MN-SC-2026-8527627",
   "skill_id": "mn-real-piiaengram",
   "skill_name": "piia-engram",
-  "issued_at": "2026-11-08T07:02:17.264Z",
-  "expires_at": "2026-11-15T07:02:17.264Z",
+  "issued_at": "2026-11-15T07:42:07.627Z",
+  "expires_at": "2026-11-22T07:42:07.627Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0848c1578e52e0bf9720cd6007709f97d658c1167202e71d7d8477df0e3e8a5e",
+  "signature": "8d9c9504aaa77d7d46cfa68b43b4ab6d4614ff3f39cb219887d96432272f3a11",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-piiaengram"
 }

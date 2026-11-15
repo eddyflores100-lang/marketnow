@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1327271",
+  "certificate_id": "MN-SC-2026-8516205",
   "skill_id": "mn-real-sessionmem",
   "skill_name": "sessionmem",
-  "issued_at": "2026-11-08T07:02:07.271Z",
-  "expires_at": "2026-11-15T07:02:07.271Z",
+  "issued_at": "2026-11-15T07:41:56.205Z",
+  "expires_at": "2026-11-22T07:41:56.205Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "534e9080ef388b3008f83b0bac37bc94993964a4dbbbb4a979ab45859eb8fdd4",
+  "signature": "0755d4f864c11094078bb584085cf1dfb4846a7dd5fa132aae914e65411ad499",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-sessionmem"
 }

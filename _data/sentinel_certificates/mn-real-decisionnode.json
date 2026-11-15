@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1328629",
+  "certificate_id": "MN-SC-2026-8517831",
   "skill_id": "mn-real-decisionnode",
   "skill_name": "DecisionNode",
-  "issued_at": "2026-11-08T07:02:08.629Z",
-  "expires_at": "2026-11-15T07:02:08.629Z",
+  "issued_at": "2026-11-15T07:41:57.831Z",
+  "expires_at": "2026-11-22T07:41:57.831Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7ceab0f3fcc810d84fe4018490423cf8d92655d3fc90677fae31cd389da04bf1",
+  "signature": "94dc13b24bbbb0b3a0410dd923c0337e34a1b1af6dbda0e549490019785dbdc3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-decisionnode"
 }

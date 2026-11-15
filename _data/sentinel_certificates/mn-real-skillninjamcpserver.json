@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1236534",
+  "certificate_id": "MN-SC-2026-8407817",
   "skill_id": "mn-real-skillninjamcpserver",
   "skill_name": "skill-ninja-mcp-server",
-  "issued_at": "2026-11-08T07:00:36.534Z",
-  "expires_at": "2026-11-15T07:00:36.534Z",
+  "issued_at": "2026-11-15T07:40:07.817Z",
+  "expires_at": "2026-11-22T07:40:07.817Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e384bcc67dec15fc894f35549ec0461b8734d97a5794eb4247d9b5218791c116",
+  "signature": "2ba3edd9af60ce7b1ec4696edf24c1f2b6a974c619a108b8272f952269d5ca13",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-skillninjamcpserver"
 }

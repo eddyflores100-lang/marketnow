@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1053240",
+  "certificate_id": "MN-SC-2026-8186307",
   "skill_id": "mn-gen-01867",
   "skill_name": "chess-mcp",
-  "issued_at": "2026-11-08T06:57:33.240Z",
-  "expires_at": "2026-11-15T06:57:33.240Z",
+  "issued_at": "2026-11-15T07:36:26.307Z",
+  "expires_at": "2026-11-22T07:36:26.307Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9d42c495781d25674f9c7b1493afaa9f8d2c08725fb90f21b48aa5725e017ac7",
+  "signature": "6d78a4817776397aa8e0e40e8ea74293f381cc5a7acf982ec427190ef74e72bc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01867"
 }

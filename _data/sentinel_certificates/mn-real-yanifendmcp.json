@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1220220",
+  "certificate_id": "MN-SC-2026-8386874",
   "skill_id": "mn-real-yanifendmcp",
   "skill_name": "yanifend-mcp",
-  "issued_at": "2026-11-08T07:00:20.220Z",
-  "expires_at": "2026-11-15T07:00:20.220Z",
+  "issued_at": "2026-11-15T07:39:46.874Z",
+  "expires_at": "2026-11-22T07:39:46.874Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1634ddf1bb428be9385d74dd00cc01be66b90eb63715591288fe144f1d1e7b07",
+  "signature": "a8075fa2815b3d2d86b47b105a18c7126dac617cd59ce94adae2d1e79ba4fb4c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-yanifendmcp"
 }

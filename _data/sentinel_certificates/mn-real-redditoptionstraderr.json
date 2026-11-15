@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1304727",
+  "certificate_id": "MN-SC-2026-8491021",
   "skill_id": "mn-real-redditoptionstraderr",
   "skill_name": "Reddit-Options-Trader-ROT-",
-  "issued_at": "2026-11-08T07:01:44.727Z",
-  "expires_at": "2026-11-15T07:01:44.727Z",
+  "issued_at": "2026-11-15T07:41:31.021Z",
+  "expires_at": "2026-11-22T07:41:31.021Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e6474c3888598a0af85540e2c0a78f4fc7ec8cda54f564661d121c71ccdc279d",
+  "signature": "400abb31d7880047a5e277bd2682ba5fdbb1e0391040c60c3f0b2058b517393b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-redditoptionstraderr"
 }

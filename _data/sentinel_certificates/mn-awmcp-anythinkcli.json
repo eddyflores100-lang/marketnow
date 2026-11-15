@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1175705",
+  "certificate_id": "MN-SC-2026-8334058",
   "skill_id": "mn-awmcp-anythinkcli",
   "skill_name": "anythink-cli",
-  "issued_at": "2026-11-08T06:59:35.706Z",
-  "expires_at": "2026-11-15T06:59:35.706Z",
+  "issued_at": "2026-11-15T07:38:54.058Z",
+  "expires_at": "2026-11-22T07:38:54.058Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cbbbe38deaaeae7d81b8ded34e62a4bb38344b674ed7591579984d47b1d0d2d2",
+  "signature": "3d3a74c480c9495f04540bad45a0285b3b8eced8e23008ae0b52d6610e79ca43",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-anythinkcli"
 }

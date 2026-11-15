@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1264942",
+  "certificate_id": "MN-SC-2026-8442157",
   "skill_id": "mn-real-radar",
   "skill_name": "radar",
-  "issued_at": "2026-11-08T07:01:04.942Z",
-  "expires_at": "2026-11-15T07:01:04.942Z",
+  "issued_at": "2026-11-15T07:40:42.157Z",
+  "expires_at": "2026-11-22T07:40:42.157Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b2af4c57d3fc3c9d1c8f883999e744765b92b552dea5faaf0fece61df03347c5",
+  "signature": "7497c30ee8821cb330dca6ea69b516b84d28c1ef0612611371313d8ee96d3f0c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-radar"
 }

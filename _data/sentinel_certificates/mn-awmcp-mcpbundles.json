@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1145238",
+  "certificate_id": "MN-SC-2026-8299384",
   "skill_id": "mn-awmcp-mcpbundles",
   "skill_name": "mcpbundles",
-  "issued_at": "2026-11-08T06:59:05.238Z",
-  "expires_at": "2026-11-15T06:59:05.238Z",
+  "issued_at": "2026-11-15T07:38:19.384Z",
+  "expires_at": "2026-11-22T07:38:19.384Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f43c426a59464aa8583aba8818155b6fcc2969009ccb537f2dd39dd9c37b7f4f",
+  "signature": "7405e93c36fbf59d9014ce6c25750d88941c625a237a612e10c88e189cb0825c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpbundles"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1270218",
+  "certificate_id": "MN-SC-2026-8448969",
   "skill_id": "mn-real-mcpr",
   "skill_name": "MCPR",
-  "issued_at": "2026-11-08T07:01:10.218Z",
-  "expires_at": "2026-11-15T07:01:10.218Z",
+  "issued_at": "2026-11-15T07:40:48.969Z",
+  "expires_at": "2026-11-22T07:40:48.969Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f06d0a681a3d827506ad7d87812a30562cc9174a96f695ea8fa1541aefbd967d",
+  "signature": "3a6a913026d02ec187b32e9e3e338203bcb549f00a1321e2cda835b0c154d8f7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpr"
 }

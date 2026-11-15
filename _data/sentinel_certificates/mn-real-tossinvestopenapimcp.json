@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1316756",
+  "certificate_id": "MN-SC-2026-8504011",
   "skill_id": "mn-real-tossinvestopenapimcp",
   "skill_name": "tossinvest-openapi-mcp",
-  "issued_at": "2026-11-08T07:01:56.756Z",
-  "expires_at": "2026-11-15T07:01:56.756Z",
+  "issued_at": "2026-11-15T07:41:44.011Z",
+  "expires_at": "2026-11-22T07:41:44.011Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2f2087d4a7d943aebd023f236916cd60454d23041ea111eeba60377b1b3151e0",
+  "signature": "8da8ac85dc37a170cc9e0a3be3e22e2703c2e841bd5972402c324cd7c31d39dc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-tossinvestopenapimcp"
 }

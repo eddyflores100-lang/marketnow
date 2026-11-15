@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1245481",
+  "certificate_id": "MN-SC-2026-8418808",
   "skill_id": "mn-real-repograph",
   "skill_name": "repo-graph",
-  "issued_at": "2026-11-08T07:00:45.481Z",
-  "expires_at": "2026-11-15T07:00:45.481Z",
+  "issued_at": "2026-11-15T07:40:18.808Z",
+  "expires_at": "2026-11-22T07:40:18.808Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "87bdc2cd45da5608c362380e52a8d63a6ff49174326b39215458e7adf9e2286b",
+  "signature": "ed08634e8559f1cac2e8c437b6f02eded805b6dbc87707272bab8b5e7db3528e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-repograph"
 }

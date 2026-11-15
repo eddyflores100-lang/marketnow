@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1139702",
+  "certificate_id": "MN-SC-2026-8292370",
   "skill_id": "mn-awmcp-forage",
   "skill_name": "forage",
-  "issued_at": "2026-11-08T06:58:59.702Z",
-  "expires_at": "2026-11-15T06:58:59.702Z",
+  "issued_at": "2026-11-15T07:38:12.370Z",
+  "expires_at": "2026-11-22T07:38:12.370Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c747f38825a31a492436f16ee44e6572698ddd17dc957f5d4b5800313feb2fa4",
+  "signature": "d848dd3d1f87ceea184afe3ae2c598e11bc60f8a63e61489694a513b919ed1b0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-forage"
 }

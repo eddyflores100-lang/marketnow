@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1108103",
+  "certificate_id": "MN-SC-2026-8253477",
   "skill_id": "mn-res-10193",
   "skill_name": "paper-search-mcp",
-  "issued_at": "2026-11-08T06:58:28.103Z",
-  "expires_at": "2026-11-15T06:58:28.103Z",
+  "issued_at": "2026-11-15T07:37:33.477Z",
+  "expires_at": "2026-11-22T07:37:33.477Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e32760555991d699554f9e623808fb6e33c17c5ff9aad2c9ad752443b381538f",
+  "signature": "63d347bf8cb3db10d807dc7324c8868f08732397acc48dc10bb0d54afd4866c1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-res-10193"
 }

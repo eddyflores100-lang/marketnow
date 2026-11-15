@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1067220",
+  "certificate_id": "MN-SC-2026-8203831",
   "skill_id": "mn-net-03967",
   "skill_name": "fetcher-mcp",
-  "issued_at": "2026-11-08T06:57:47.220Z",
-  "expires_at": "2026-11-15T06:57:47.220Z",
+  "issued_at": "2026-11-15T07:36:43.831Z",
+  "expires_at": "2026-11-22T07:36:43.831Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -29,14 +29,14 @@
   "artifact": {
     "bound": true,
     "source": "npm",
-    "version": "0.3.9",
-    "shasum": "148be0b2997279aa1c12e5dbd032b96f9a01d3e3",
-    "integrity": "sha512-qzirMkDTCplUNmBhfODmmVbARzCecT93ndG+Yv1gA6FmU666ThHMiiEO7JEk89ihd6xEeywaJ8GJKsUo5/S3XA==",
-    "tarball_bytes": 17751,
-    "resolved_at": "2026-10-29T11:39:30.828Z"
+    "version": "0.4.1",
+    "shasum": "6b1fdad733b5de382a950d6916f306c0f2cf2e8d",
+    "integrity": "sha512-OBDJW56aGUt42/IuzIZYhNOSDYIaF1l06UV6sogY6c4j1T1qCS1pcTmGVusBCBosFjGzPApDyLpTzBu96bdanA==",
+    "tarball_bytes": 21573,
+    "resolved_at": "2026-11-13T13:19:42.001Z"
   },
   "cert_v": 2,
-  "signature": "585b4caa4c7c6118c15f354893b37b6a535f102f342a501b8cce9d0ecfdf87bd",
+  "signature": "15f202787f0ae7ecd3973db787e6e7953bb63d0fc7bb692d244c0daa275411fa",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-net-03967"
 }

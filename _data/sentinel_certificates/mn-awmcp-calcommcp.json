@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1205767",
+  "certificate_id": "MN-SC-2026-8370397",
   "skill_id": "mn-awmcp-calcommcp",
   "skill_name": "calcom-mcp",
-  "issued_at": "2026-11-08T07:00:05.767Z",
-  "expires_at": "2026-11-15T07:00:05.767Z",
+  "issued_at": "2026-11-15T07:39:30.397Z",
+  "expires_at": "2026-11-22T07:39:30.397Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0ef7c365bad510937478a84e26ec609201d491b1af3a01473c587d40d0fb11b5",
+  "signature": "ec70f4491e48e3f42e01d1fb60a5278b13c1e37adc7effede5b6d9d0d76be688",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-calcommcp"
 }

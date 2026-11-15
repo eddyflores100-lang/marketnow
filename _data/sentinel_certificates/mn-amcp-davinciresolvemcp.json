@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1133127",
+  "certificate_id": "MN-SC-2026-8284846",
   "skill_id": "mn-amcp-davinciresolvemcp",
   "skill_name": "davinci-resolve-mcp",
-  "issued_at": "2026-11-08T06:58:53.127Z",
-  "expires_at": "2026-11-15T06:58:53.127Z",
+  "issued_at": "2026-11-15T07:38:04.846Z",
+  "expires_at": "2026-11-22T07:38:04.846Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -30,14 +30,14 @@
   "artifact": {
     "bound": true,
     "source": "npm",
-    "version": "4.15.5",
-    "shasum": "a19e609b8be7f90b49da99c51ff014b50678415f",
-    "integrity": "sha512-HDjVLiQJxDguYKavF8EXusSHVH7VP3DwHI/wK6u4PKX1gtCm8VOQaUJv7EAbhMHyZx0vDO2HizZAKMZQwiQzhg==",
-    "tarball_bytes": 3382035,
-    "resolved_at": "2026-10-28T11:30:57.712Z"
+    "version": "5.2.7",
+    "shasum": "f7ef693de5d105a329504e23bea92090930e6524",
+    "integrity": "sha512-eU61fRzgp95fGjUnIvbDEgR9eD4ou8RLZwM+M2F3V+Yy/FJqDXYu5ibltruUCatTjywxw6GuUb/vKp8wu9taHg==",
+    "tarball_bytes": 3502534,
+    "resolved_at": "2026-11-13T13:19:26.453Z"
   },
   "cert_v": 2,
-  "signature": "50bae95738b299ec69b54601b1e04aaa498380d8224e747a8f34a096d9fc9c27",
+  "signature": "23ae3680ecbada529ca010ac4e3fbb1128367912e8c903ad077aad345cc9ab53",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-amcp-davinciresolvemcp"
 }

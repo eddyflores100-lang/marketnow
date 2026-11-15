@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1083887",
+  "certificate_id": "MN-SC-2026-8224310",
   "skill_id": "mn-gen-06450",
   "skill_name": "Remote-MCP",
-  "issued_at": "2026-11-08T06:58:03.887Z",
-  "expires_at": "2026-11-15T06:58:03.887Z",
+  "issued_at": "2026-11-15T07:37:04.310Z",
+  "expires_at": "2026-11-22T07:37:04.310Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d0989db5450ef0dd20ce74e8c73d0812b45ea5ddcba851a1fcbd14ba4050c5ad",
+  "signature": "b4788f359305baef971e8cf721cd71fc9d257d7253feab402ac8e5e086567373",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-06450"
 }

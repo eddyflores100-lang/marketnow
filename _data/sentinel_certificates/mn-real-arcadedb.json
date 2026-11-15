@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1220543",
+  "certificate_id": "MN-SC-2026-8387342",
   "skill_id": "mn-real-arcadedb",
   "skill_name": "arcadedb",
-  "issued_at": "2026-11-08T07:00:20.543Z",
-  "expires_at": "2026-11-15T07:00:20.543Z",
+  "issued_at": "2026-11-15T07:39:47.342Z",
+  "expires_at": "2026-11-22T07:39:47.342Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cd86accf6a4baef0b849c871ec99a318a2ebf078f18b7be94380ba62e3ddcfa9",
+  "signature": "8cb42e6ba3f33201a0f4b40d5e2ff218f9312aa11f26341fa7c804f6e62836f2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-arcadedb"
 }

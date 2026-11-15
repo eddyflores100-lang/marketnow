@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1064093",
+  "certificate_id": "MN-SC-2026-8199853",
   "skill_id": "mn-gen-03515",
   "skill_name": "driflyte-mcp-server",
-  "issued_at": "2026-11-08T06:57:44.093Z",
-  "expires_at": "2026-11-15T06:57:44.093Z",
+  "issued_at": "2026-11-15T07:36:39.853Z",
+  "expires_at": "2026-11-22T07:36:39.853Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6cdc41c04962f41ff139fb93da9e0f8c53b2eca9f857bad443fd1b4a0c050f19",
+  "signature": "f1a14456902aeced353d424d061f9c6af8decbf7dd4fa34a605c4f473b85bd50",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03515"
 }

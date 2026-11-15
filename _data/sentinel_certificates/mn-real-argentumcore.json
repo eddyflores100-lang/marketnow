@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1291301",
+  "certificate_id": "MN-SC-2026-8475711",
   "skill_id": "mn-real-argentumcore",
   "skill_name": "argentum-core",
-  "issued_at": "2026-11-08T07:01:31.301Z",
-  "expires_at": "2026-11-15T07:01:31.301Z",
+  "issued_at": "2026-11-15T07:41:15.711Z",
+  "expires_at": "2026-11-22T07:41:15.711Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e9a8eb1c01dd96733c331c7147ef93dc90e4a4f2e2cca92274bbf61d61b86385",
+  "signature": "fff4dc7f30e4f150c20898f554376958dfbc615de3a8a85b60a254fa7b046d1a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-argentumcore"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1077023",
+  "certificate_id": "MN-SC-2026-8215887",
   "skill_id": "mn-gen-05315",
   "skill_name": "jmap-mcp",
-  "issued_at": "2026-11-08T06:57:57.023Z",
-  "expires_at": "2026-11-15T06:57:57.023Z",
+  "issued_at": "2026-11-15T07:36:55.887Z",
+  "expires_at": "2026-11-22T07:36:55.887Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "56c2f5d302cdd70f86b5d0616922d002b5cf39b8cc7a68c9d0a0611fda0f6db0",
+  "signature": "f6c5adcfe6fb09b0ed633ff5d33b6f0d10f721e141eb342cb48f7154aefd1204",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05315"
 }

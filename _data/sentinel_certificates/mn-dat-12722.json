@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1121983",
+  "certificate_id": "MN-SC-2026-8270366",
   "skill_id": "mn-dat-12722",
   "skill_name": "sandbox",
-  "issued_at": "2026-11-08T06:58:41.983Z",
-  "expires_at": "2026-11-15T06:58:41.983Z",
+  "issued_at": "2026-11-15T07:37:50.366Z",
+  "expires_at": "2026-11-22T07:37:50.366Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "892d319417a38f2582ba7ca3a230534cd3efac9991bc9f336789e0c28f846ed0",
+  "signature": "d3ee2949bba358c5308c822d3fc4677227dc43574f4c317e65c165b024f7ea47",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-dat-12722"
 }

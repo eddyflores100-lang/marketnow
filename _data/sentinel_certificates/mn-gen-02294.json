@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1056129",
+  "certificate_id": "MN-SC-2026-8189751",
   "skill_id": "mn-gen-02294",
   "skill_name": "claude-task-master",
-  "issued_at": "2026-11-08T06:57:36.129Z",
-  "expires_at": "2026-11-15T06:57:36.129Z",
+  "issued_at": "2026-11-15T07:36:29.751Z",
+  "expires_at": "2026-11-22T07:36:29.751Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ea83e93ab2eb6e5d445eb640ec16b250d9327d3056b6fc879f35fd2f27f71aab",
+  "signature": "cefa91e49da58440d831a40c21c56716fd777e2d667b9b141f6acb85365a3128",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02294"
 }

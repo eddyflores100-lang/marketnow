@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1326553",
+  "certificate_id": "MN-SC-2026-8515208",
   "skill_id": "mn-real-myco",
   "skill_name": "Myco",
-  "issued_at": "2026-11-08T07:02:06.553Z",
-  "expires_at": "2026-11-15T07:02:06.553Z",
+  "issued_at": "2026-11-15T07:41:55.208Z",
+  "expires_at": "2026-11-22T07:41:55.208Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "51b1721347294265c3e7916ed1dca2a388d13729c2e48a9b4afcfc31e5399ffa",
+  "signature": "571d98892e883c09bc78a8766fe2a786ca104aae004f371dce3a63f348f21e4e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-myco"
 }

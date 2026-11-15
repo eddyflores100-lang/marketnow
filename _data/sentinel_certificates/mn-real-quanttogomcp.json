@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1309573",
+  "certificate_id": "MN-SC-2026-8495830",
   "skill_id": "mn-real-quanttogomcp",
   "skill_name": "quanttogo-mcp",
-  "issued_at": "2026-11-08T07:01:49.573Z",
-  "expires_at": "2026-11-15T07:01:49.573Z",
+  "issued_at": "2026-11-15T07:41:35.830Z",
+  "expires_at": "2026-11-22T07:41:35.830Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a180a66577da918f99af730f9482a31b98f4d69f3af9241e235b2a793b798069",
+  "signature": "cffb220833e21dc4c7ff735d13a9c8a184e66ca65dd2b78cae91173e2be16107",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-quanttogomcp"
 }

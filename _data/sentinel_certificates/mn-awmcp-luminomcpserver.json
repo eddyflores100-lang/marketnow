@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1184561",
+  "certificate_id": "MN-SC-2026-8345049",
   "skill_id": "mn-awmcp-luminomcpserver",
   "skill_name": "lumino-mcp-server",
-  "issued_at": "2026-11-08T06:59:44.561Z",
-  "expires_at": "2026-11-15T06:59:44.561Z",
+  "issued_at": "2026-11-15T07:39:05.049Z",
+  "expires_at": "2026-11-22T07:39:05.049Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "032aff735ca5cc230b3da6e15f95794da595df98f01a109279739f769a0c2064",
+  "signature": "937e5d02b4d56f28c2151c883d0869c3ec873c113e8900d158272e8cc7f27f7b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-luminomcpserver"
 }

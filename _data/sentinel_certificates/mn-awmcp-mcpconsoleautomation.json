@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1197297",
+  "certificate_id": "MN-SC-2026-8360422",
   "skill_id": "mn-awmcp-mcpconsoleautomation",
   "skill_name": "mcp-console-automation",
-  "issued_at": "2026-11-08T06:59:57.297Z",
-  "expires_at": "2026-11-15T06:59:57.297Z",
+  "issued_at": "2026-11-15T07:39:20.422Z",
+  "expires_at": "2026-11-22T07:39:20.422Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "516fa93aac426fe88f0a5a81c0dd4daf187e2b13e1344e6f8bb494752e2b3ebb",
+  "signature": "82276ff87b66cfeb79f74162e69963891fa93bd464fe03a873069ef7e280c40d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpconsoleautomation"
 }

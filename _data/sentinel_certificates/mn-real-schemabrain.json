@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1220591",
+  "certificate_id": "MN-SC-2026-8387432",
   "skill_id": "mn-real-schemabrain",
   "skill_name": "schemabrain",
-  "issued_at": "2026-11-08T07:00:20.591Z",
-  "expires_at": "2026-11-15T07:00:20.591Z",
+  "issued_at": "2026-11-15T07:39:47.432Z",
+  "expires_at": "2026-11-22T07:39:47.432Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "56d21b68e05eb4c8a9a1bbb11b185da12fd1928101901191c23c27c206013602",
+  "signature": "62fc2111e9259b958afdb0abbc9f3d88efef02a168338e79cc144a74ebf16e3a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-schemabrain"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1206580",
+  "certificate_id": "MN-SC-2026-8371213",
   "skill_id": "mn-awmcp-feishuuserplugin",
   "skill_name": "feishu-user-plugin",
-  "issued_at": "2026-11-08T07:00:06.580Z",
-  "expires_at": "2026-11-15T07:00:06.580Z",
+  "issued_at": "2026-11-15T07:39:31.213Z",
+  "expires_at": "2026-11-22T07:39:31.213Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fcd17a73bf96df888158b716b717c1589599eb8be7930f85055457239bcc798e",
+  "signature": "6ca1e7c6d423cabd17712a3aa3be584fb2c0ad483e4a92e7901376e81948fc8f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-feishuuserplugin"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1336343",
+  "certificate_id": "MN-SC-2026-8526420",
   "skill_id": "mn-real-pinrag",
   "skill_name": "pinrag",
-  "issued_at": "2026-11-08T07:02:16.343Z",
-  "expires_at": "2026-11-15T07:02:16.343Z",
+  "issued_at": "2026-11-15T07:42:06.420Z",
+  "expires_at": "2026-11-22T07:42:06.420Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5956362518d83fa0264f7b4e007b259ed114af5a6359a2c6ff5317f23cdc8d10",
+  "signature": "214974ed3def29750287f8fd43a895aef6cf6c01eef444731e1a324bf7c711fa",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-pinrag"
 }

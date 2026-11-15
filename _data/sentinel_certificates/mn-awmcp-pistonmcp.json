@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1187248",
+  "certificate_id": "MN-SC-2026-8348492",
   "skill_id": "mn-awmcp-pistonmcp",
   "skill_name": "piston-mcp",
-  "issued_at": "2026-11-08T06:59:47.248Z",
-  "expires_at": "2026-11-15T06:59:47.248Z",
+  "issued_at": "2026-11-15T07:39:08.492Z",
+  "expires_at": "2026-11-22T07:39:08.492Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "dbaca4be67bb14d68732270a2bb9ccc1d901b5371e4fa52d5f213137ed650535",
+  "signature": "f9aeefc9e9acb12c67801dfbe4a8abe9eb7eaa945eb534c8ddec7600604ae135",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-pistonmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1237486",
+  "certificate_id": "MN-SC-2026-8408955",
   "skill_id": "mn-real-phpcodearcheology",
   "skill_name": "PhpCodeArcheology",
-  "issued_at": "2026-11-08T07:00:37.486Z",
-  "expires_at": "2026-11-15T07:00:37.486Z",
+  "issued_at": "2026-11-15T07:40:08.955Z",
+  "expires_at": "2026-11-22T07:40:08.955Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3c58ff6d8e91f32dd478a2af523ed69791aec3ad46b1f40699d24867e3f345dd",
+  "signature": "8e118f99e372e936397c125ada3c8a7b7867e09a3a27b98452995ecf1ef3943d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-phpcodearcheology"
 }

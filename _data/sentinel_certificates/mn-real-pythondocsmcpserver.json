@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1237956",
+  "certificate_id": "MN-SC-2026-8409524",
   "skill_id": "mn-real-pythondocsmcpserver",
   "skill_name": "python-docs-mcp-server",
-  "issued_at": "2026-11-08T07:00:37.956Z",
-  "expires_at": "2026-11-15T07:00:37.956Z",
+  "issued_at": "2026-11-15T07:40:09.524Z",
+  "expires_at": "2026-11-22T07:40:09.524Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c6c0737d10a323af1a965defd162b9af7b98030bcf479e95b66dfa68aa62e134",
+  "signature": "5a9a617cac074333f93f3270558fcc0342404add3bde2000a215d96ab74b62fd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-pythondocsmcpserver"
 }

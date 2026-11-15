@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1176955",
+  "certificate_id": "MN-SC-2026-8335703",
   "skill_id": "mn-awmcp-mikromcp",
   "skill_name": "MikroMCP",
-  "issued_at": "2026-11-08T06:59:36.955Z",
-  "expires_at": "2026-11-15T06:59:36.955Z",
+  "issued_at": "2026-11-15T07:38:55.703Z",
+  "expires_at": "2026-11-22T07:38:55.703Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9d590eaf01964fd8c7d880ad64d18845e5da01be88f87fb9912dd292c0d0c6f6",
+  "signature": "956d96ccf4ba59eaf69d90d8c02482f2d497d24c29ce10717c862a101802d367",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mikromcp"
 }

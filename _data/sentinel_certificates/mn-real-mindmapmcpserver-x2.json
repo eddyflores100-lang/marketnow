@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1338366",
+  "certificate_id": "MN-SC-2026-8528881",
   "skill_id": "mn-real-mindmapmcpserver-x2",
   "skill_name": "mindmap-mcp-server",
-  "issued_at": "2026-11-08T07:02:18.366Z",
-  "expires_at": "2026-11-15T07:02:18.366Z",
+  "issued_at": "2026-11-15T07:42:08.881Z",
+  "expires_at": "2026-11-22T07:42:08.881Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "bc630cca13722928893a991f0fea881b50ee458538063f6e5dac5ee5e99b95a6",
+  "signature": "b0459a84b73afd37eb83a8f13d5b69b5c12262c1f7d36130b8885191a7ec1762",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mindmapmcpserver-x2"
 }

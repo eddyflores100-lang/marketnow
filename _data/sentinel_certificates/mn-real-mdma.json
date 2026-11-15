@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1250746",
+  "certificate_id": "MN-SC-2026-8425439",
   "skill_id": "mn-real-mdma",
   "skill_name": "mdma",
-  "issued_at": "2026-11-08T07:00:50.746Z",
-  "expires_at": "2026-11-15T07:00:50.746Z",
+  "issued_at": "2026-11-15T07:40:25.439Z",
+  "expires_at": "2026-11-22T07:40:25.439Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "80fc08d74a6e4825adf8259157dd4fb4f1157921c24b6ccf8f14813d41918624",
+  "signature": "31683e59fd1382aea318725ff983990a7e6f796ac06342713eba15198ae25815",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mdma"
 }

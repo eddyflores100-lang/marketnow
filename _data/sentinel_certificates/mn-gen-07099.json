@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1088850",
+  "certificate_id": "MN-SC-2026-8230607",
   "skill_id": "mn-gen-07099",
   "skill_name": "mcp-monitor",
-  "issued_at": "2026-11-08T06:58:08.850Z",
-  "expires_at": "2026-11-15T06:58:08.850Z",
+  "issued_at": "2026-11-15T07:37:10.607Z",
+  "expires_at": "2026-11-22T07:37:10.607Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "beb82d320a38386da0efcde9c9f5948562a1fed471816fb32bd3a0a2b7958261",
+  "signature": "d89961ac0546ac9047a365c2f0cb72cfc696b51f9cbf06bed22ccc6f5706b7a6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07099"
 }

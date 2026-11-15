@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1319887",
+  "certificate_id": "MN-SC-2026-8507542",
   "skill_id": "mn-real-hearthstoneoracle",
   "skill_name": "hearthstone-oracle",
-  "issued_at": "2026-11-08T07:01:59.887Z",
-  "expires_at": "2026-11-15T07:01:59.887Z",
+  "issued_at": "2026-11-15T07:41:47.542Z",
+  "expires_at": "2026-11-22T07:41:47.542Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "79c1b8d8b5d138269690a0766ed9b495f19af48bf1293044db20bf47cea2a5d5",
+  "signature": "ba6069f9f845166114bb5450b08a3dd286ffd2c5930f5dfb1f3e5f9b85a33c7d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-hearthstoneoracle"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1073246",
+  "certificate_id": "MN-SC-2026-8211139",
   "skill_id": "mn-res-04616",
   "skill_name": "google-calendar-mcp",
-  "issued_at": "2026-11-08T06:57:53.246Z",
-  "expires_at": "2026-11-15T06:57:53.246Z",
+  "issued_at": "2026-11-15T07:36:51.139Z",
+  "expires_at": "2026-11-22T07:36:51.139Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c9455217be70bdaf1cb1d807906cbfda92b8543e50a6f249eca84e0314bfc1ef",
+  "signature": "52a031a05add06349bde3258431167ecf1c6300d2851c0b8663d99e73d1eb4aa",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-res-04616"
 }

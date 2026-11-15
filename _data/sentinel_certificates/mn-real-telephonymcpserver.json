@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1214309",
+  "certificate_id": "MN-SC-2026-8379527",
   "skill_id": "mn-real-telephonymcpserver",
   "skill_name": "telephony-mcp-server",
-  "issued_at": "2026-11-08T07:00:14.309Z",
-  "expires_at": "2026-11-15T07:00:14.309Z",
+  "issued_at": "2026-11-15T07:39:39.528Z",
+  "expires_at": "2026-11-22T07:39:39.528Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5713bcfea41186f7576c8bb0387ad5800ab9a3bf2e9a45640e72732edb36584a",
+  "signature": "d3bb811b6e069685dce0e8427344848a93d53cdd4481802b1a466b14f8f4e413",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-telephonymcpserver"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1102007",
+  "certificate_id": "MN-SC-2026-8245916",
   "skill_id": "mn-gen-09191",
   "skill_name": "lemonade",
-  "issued_at": "2026-11-08T06:58:22.007Z",
-  "expires_at": "2026-11-15T06:58:22.007Z",
+  "issued_at": "2026-11-15T07:37:25.916Z",
+  "expires_at": "2026-11-22T07:37:25.916Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "65e4988458e5349210bc718d045fdd2e63a0d5975ef78f2f302fdc62bd3d2593",
+  "signature": "47ae4f411c3769f760aaa7ee8aa211ad7b82739e6280096242fa5d8fb1b1e406",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09191"
 }

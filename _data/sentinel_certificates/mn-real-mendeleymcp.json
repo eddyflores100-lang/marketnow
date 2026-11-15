@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1337205",
+  "certificate_id": "MN-SC-2026-8527553",
   "skill_id": "mn-real-mendeleymcp",
   "skill_name": "mendeley-mcp",
-  "issued_at": "2026-11-08T07:02:17.205Z",
-  "expires_at": "2026-11-15T07:02:17.205Z",
+  "issued_at": "2026-11-15T07:42:07.553Z",
+  "expires_at": "2026-11-22T07:42:07.553Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0dca5b4395f5b68f06a8619b77e0ed36b8901c6e0ba88366a48427e781256b59",
+  "signature": "7cd780026a8b2cf7d435013af85e2bba06f82e868f3ca0c4a63be322502baecc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mendeleymcp"
 }

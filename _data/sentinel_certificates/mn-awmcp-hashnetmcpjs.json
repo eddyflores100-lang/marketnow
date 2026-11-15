@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1139345",
+  "certificate_id": "MN-SC-2026-8291942",
   "skill_id": "mn-awmcp-hashnetmcpjs",
   "skill_name": "hashnet-mcp-js",
-  "issued_at": "2026-11-08T06:58:59.345Z",
-  "expires_at": "2026-11-15T06:58:59.345Z",
+  "issued_at": "2026-11-15T07:38:11.942Z",
+  "expires_at": "2026-11-22T07:38:11.942Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "136a86609cb8aed013eda787a8b14736ce9032c871b4b685d599aad6309d0031",
+  "signature": "39a73eb7e3d11f51ff2b2af60d0da717b2e9f3748ad6685ea680d4aaea4cfe85",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-hashnetmcpjs"
 }

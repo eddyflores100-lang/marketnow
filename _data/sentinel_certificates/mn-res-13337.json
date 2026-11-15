@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1126701",
+  "certificate_id": "MN-SC-2026-8276717",
   "skill_id": "mn-res-13337",
   "skill_name": "web-search-mcp",
-  "issued_at": "2026-11-08T06:58:46.701Z",
-  "expires_at": "2026-11-15T06:58:46.701Z",
+  "issued_at": "2026-11-15T07:37:56.717Z",
+  "expires_at": "2026-11-22T07:37:56.717Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4af21dd8ff56d4430631046c9e09360e2856aa4023dcd45faf11b3db30b4693d",
+  "signature": "79c9928ef2208ae00bcf13787aa817c321329161eb5a631bd87ef365cd8a05f3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-res-13337"
 }

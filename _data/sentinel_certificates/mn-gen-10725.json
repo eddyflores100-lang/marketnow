@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1110564",
+  "certificate_id": "MN-SC-2026-8256384",
   "skill_id": "mn-gen-10725",
   "skill_name": "promptspeak-mcp-server",
-  "issued_at": "2026-11-08T06:58:30.564Z",
-  "expires_at": "2026-11-15T06:58:30.564Z",
+  "issued_at": "2026-11-15T07:37:36.384Z",
+  "expires_at": "2026-11-22T07:37:36.384Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "bafd23597afaedb6ec5dbb63cdb5f18ca49671f456361e22e7ac2ee011f3922b",
+  "signature": "2536b80f4e437de0cbe543f7a5558156938853a1ced901ff7b3a8fdf405a2126",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-10725"
 }

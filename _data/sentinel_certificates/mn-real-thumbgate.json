@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1244263",
+  "certificate_id": "MN-SC-2026-8417300",
   "skill_id": "mn-real-thumbgate",
   "skill_name": "ThumbGate",
-  "issued_at": "2026-11-08T07:00:44.263Z",
-  "expires_at": "2026-11-15T07:00:44.263Z",
+  "issued_at": "2026-11-15T07:40:17.300Z",
+  "expires_at": "2026-11-22T07:40:17.300Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "99ab81bba58b3953a8fcfa6239d94a926dda7276ee9de06c5418c27d66b93819",
+  "signature": "0e1606734783b497b1746ce2669476239e72feb2c0e58010c95bf1171748c2cc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-thumbgate"
 }

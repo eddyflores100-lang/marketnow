@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1238309",
+  "certificate_id": "MN-SC-2026-8409909",
   "skill_id": "mn-real-daimonos",
   "skill_name": "daimonos",
-  "issued_at": "2026-11-08T07:00:38.309Z",
-  "expires_at": "2026-11-15T07:00:38.309Z",
+  "issued_at": "2026-11-15T07:40:09.909Z",
+  "expires_at": "2026-11-22T07:40:09.909Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d1f884d264c7f612a1be358088314cef5a4f5dd22a0153f7b38731e9ad7cfe14",
+  "signature": "a45ea033f9ccdee5931a9c81945112867e0c522705303f480ab47812db9ee1f3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-daimonos"
 }

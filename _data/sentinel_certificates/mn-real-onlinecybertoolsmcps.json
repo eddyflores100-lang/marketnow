@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1245375",
+  "certificate_id": "MN-SC-2026-8418637",
   "skill_id": "mn-real-onlinecybertoolsmcps",
   "skill_name": "onlinecybertools-mcp-server",
-  "issued_at": "2026-11-08T07:00:45.375Z",
-  "expires_at": "2026-11-15T07:00:45.375Z",
+  "issued_at": "2026-11-15T07:40:18.637Z",
+  "expires_at": "2026-11-22T07:40:18.637Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8d6ef4919cea0bcb565f4f9d29a8f65c266966bc0f5efc6c7bf61c52061a2bd4",
+  "signature": "c8776b87204ce8decd13e8c999abb28836fdd9d7213927499224c395aa97ff38",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-onlinecybertoolsmcps"
 }

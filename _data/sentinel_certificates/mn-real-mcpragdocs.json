@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1331731",
+  "certificate_id": "MN-SC-2026-8521322",
   "skill_id": "mn-real-mcpragdocs",
   "skill_name": "mcp-ragdocs",
-  "issued_at": "2026-11-08T07:02:11.731Z",
-  "expires_at": "2026-11-15T07:02:11.731Z",
+  "issued_at": "2026-11-15T07:42:01.322Z",
+  "expires_at": "2026-11-22T07:42:01.322Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d1ac54bd732db410a10aa32dbf5ed0df7c1251ddd439300a6e0ff3087445bb56",
+  "signature": "8ba06b37237a89fccd3bf54d077ffbb8d06a71230083195dd8c962f00aba4947",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpragdocs"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1288533",
+  "certificate_id": "MN-SC-2026-8472253",
   "skill_id": "mn-real-haikumcpserver",
   "skill_name": "haiku-mcp-server",
-  "issued_at": "2026-11-08T07:01:28.533Z",
-  "expires_at": "2026-11-15T07:01:28.533Z",
+  "issued_at": "2026-11-15T07:41:12.253Z",
+  "expires_at": "2026-11-22T07:41:12.253Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a8b7ec3cd7b724226d254a32bc3000029cc44b7816e5dc0d3c1b3c757b3f265e",
+  "signature": "76e08d638a42d9bd200ccdb9d5203e6cc0e0ebc76b3b38d620c291a4376ac3e7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-haikumcpserver"
 }

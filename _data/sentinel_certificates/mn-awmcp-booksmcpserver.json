@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1185486",
+  "certificate_id": "MN-SC-2026-8346155",
   "skill_id": "mn-awmcp-booksmcpserver",
   "skill_name": "books-mcp-server",
-  "issued_at": "2026-11-08T06:59:45.486Z",
-  "expires_at": "2026-11-15T06:59:45.486Z",
+  "issued_at": "2026-11-15T07:39:06.155Z",
+  "expires_at": "2026-11-22T07:39:06.155Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b0d0a45b03e4e763b36b09cdb04b56b1a0225bbd7c189d3ea96e0879a80d53ae",
+  "signature": "15ba8c3fd413207e680f9e1c75b5984aed94402e3ba5a5eeb1a54e21c83bebe7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-booksmcpserver"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1184881",
+  "certificate_id": "MN-SC-2026-8345455",
   "skill_id": "mn-awmcp-ociregmcp",
   "skill_name": "ocireg-mcp",
-  "issued_at": "2026-11-08T06:59:44.881Z",
-  "expires_at": "2026-11-15T06:59:44.881Z",
+  "issued_at": "2026-11-15T07:39:05.455Z",
+  "expires_at": "2026-11-22T07:39:05.455Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "49300a4a115c24d2bb8da91a57414fc4b4ffc10f0a71b6b755b8b48ad8f578eb",
+  "signature": "fce77967bb86a8ae3980e9a99d7ed1eb7f082a06dca18dcc05435a334799eafc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-ociregmcp"
 }

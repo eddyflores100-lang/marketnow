@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1281381",
+  "certificate_id": "MN-SC-2026-8463717",
   "skill_id": "mn-real-alphaforgemcp",
   "skill_name": "alpha-forge-mcp",
-  "issued_at": "2026-11-08T07:01:21.381Z",
-  "expires_at": "2026-11-15T07:01:21.381Z",
+  "issued_at": "2026-11-15T07:41:03.717Z",
+  "expires_at": "2026-11-22T07:41:03.717Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "bb1ec8de23f620167e83b26ddcbff44d8b6cefa96c54f69dd3a147e067f62b61",
+  "signature": "3d49cd6ca91228b6ba6555112adac956f4946c2abb295900c2abc38760152d80",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-alphaforgemcp"
 }

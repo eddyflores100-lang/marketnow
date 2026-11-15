@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1041469",
+  "certificate_id": "MN-SC-2026-8171145",
   "skill_id": "mn-gen-00003",
   "skill_name": "discord-mcp",
-  "issued_at": "2026-11-08T06:57:21.469Z",
-  "expires_at": "2026-11-15T06:57:21.469Z",
+  "issued_at": "2026-11-15T07:36:11.145Z",
+  "expires_at": "2026-11-22T07:36:11.145Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3af1d11ff62bc434a85524dd7acf08389d24ff93632b05f80c00bc23adf11855",
+  "signature": "6aa54164e5219eb9719fbc75f73790f7d4e1ad7e17cac2dc21c84beceeb87b78",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00003"
 }

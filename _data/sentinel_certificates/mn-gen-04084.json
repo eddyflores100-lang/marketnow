@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1068719",
+  "certificate_id": "MN-SC-2026-8205768",
   "skill_id": "mn-gen-04084",
   "skill_name": "fizzy-mcp",
-  "issued_at": "2026-11-08T06:57:48.719Z",
-  "expires_at": "2026-11-15T06:57:48.719Z",
+  "issued_at": "2026-11-15T07:36:45.768Z",
+  "expires_at": "2026-11-22T07:36:45.768Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7a093544b946126a620c9808b9b15cf9d8d38f55fd92f89b3b1adc4e70e23507",
+  "signature": "1e187fd8b6b04d31dc8dbae9574edf3fc0eebf6c902748e0730a25a9e6fb2d4d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04084"
 }

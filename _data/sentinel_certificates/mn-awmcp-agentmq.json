@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1204222",
+  "certificate_id": "MN-SC-2026-8368824",
   "skill_id": "mn-awmcp-agentmq",
   "skill_name": "agent-mq",
-  "issued_at": "2026-11-08T07:00:04.222Z",
-  "expires_at": "2026-11-15T07:00:04.222Z",
+  "issued_at": "2026-11-15T07:39:28.824Z",
+  "expires_at": "2026-11-22T07:39:28.824Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2d090aec244fed7e11cd5ae53c28845f105ebe6b4dbd8964dc8a1e9dbb7113d4",
+  "signature": "cd499fc8e69ac4d0e936c2de0f13dbbe734f846ec80b803b4759d6b55fc9e4ff",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-agentmq"
 }

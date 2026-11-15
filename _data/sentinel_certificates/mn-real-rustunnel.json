@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1265935",
+  "certificate_id": "MN-SC-2026-8443414",
   "skill_id": "mn-real-rustunnel",
   "skill_name": "rustunnel",
-  "issued_at": "2026-11-08T07:01:05.935Z",
-  "expires_at": "2026-11-15T07:01:05.935Z",
+  "issued_at": "2026-11-15T07:40:43.414Z",
+  "expires_at": "2026-11-22T07:40:43.414Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "dddb615501807f770e453f3a79c2ee67f3dfb6decaf9b638ff65a5c6ac7c27d5",
+  "signature": "c07bc53e8998e462f4fb55c2e4c4fcc4d1ad258398606db55b5197c066f62e3b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-rustunnel"
 }

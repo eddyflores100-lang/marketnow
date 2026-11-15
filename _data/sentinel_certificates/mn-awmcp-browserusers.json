@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1165925",
+  "certificate_id": "MN-SC-2026-8320505",
   "skill_id": "mn-awmcp-browserusers",
   "skill_name": "browser-use-rs",
-  "issued_at": "2026-11-08T06:59:25.925Z",
-  "expires_at": "2026-11-15T06:59:25.925Z",
+  "issued_at": "2026-11-15T07:38:40.505Z",
+  "expires_at": "2026-11-22T07:38:40.505Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b9eec1cc742dda1280b40994223ec213e7417dbe1717f8bfbd58f906ca68caa9",
+  "signature": "b38a06abc5f84effa7a4443fa2e9e3893007271846dc536e7b159a61f5b341fd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-browserusers"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1279824",
+  "certificate_id": "MN-SC-2026-8461228",
   "skill_id": "mn-real-intelicamcp",
   "skill_name": "intelica-mcp",
-  "issued_at": "2026-11-08T07:01:19.824Z",
-  "expires_at": "2026-11-15T07:01:19.824Z",
+  "issued_at": "2026-11-15T07:41:01.228Z",
+  "expires_at": "2026-11-22T07:41:01.228Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4fe7ca149f072cb51a915f793393fefff2fb781d164068fac8b54fd0d617a2a5",
+  "signature": "5e009bd701fb09832723bb569ecf3f460a798529e89fe05ba23591043980d669",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-intelicamcp"
 }

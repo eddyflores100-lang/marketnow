@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1324465",
+  "certificate_id": "MN-SC-2026-8512637",
   "skill_id": "mn-real-vaultcortex",
   "skill_name": "vault-cortex",
-  "issued_at": "2026-11-08T07:02:04.465Z",
-  "expires_at": "2026-11-15T07:02:04.465Z",
+  "issued_at": "2026-11-15T07:41:52.637Z",
+  "expires_at": "2026-11-22T07:41:52.637Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "89f9fce6ddfe5a7a569450fde5a61b093992042067896e36c7303e89755867ca",
+  "signature": "4e7b8e7137dbd70dfa086783824207b929d5658ac9e4dd19afd8f0e587ec63be",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-vaultcortex"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1198730",
+  "certificate_id": "MN-SC-2026-8362077",
   "skill_id": "mn-awmcp-codeassistant",
   "skill_name": "code-assistant",
-  "issued_at": "2026-11-08T06:59:58.730Z",
-  "expires_at": "2026-11-15T06:59:58.730Z",
+  "issued_at": "2026-11-15T07:39:22.077Z",
+  "expires_at": "2026-11-22T07:39:22.077Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c6f0f2a526928491bbb83d74fb3d063f28025d297da9af492334266d134df034",
+  "signature": "c937413a2d4cc09709e626c55a01aff0ba28ba9933a942765cc79cf28591b858",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-codeassistant"
 }

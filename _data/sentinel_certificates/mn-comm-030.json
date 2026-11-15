@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1130239",
+  "certificate_id": "MN-SC-2026-8281267",
   "skill_id": "mn-comm-030",
   "skill_name": "mcp-marketplace",
-  "issued_at": "2026-11-08T06:58:50.239Z",
-  "expires_at": "2026-11-15T06:58:50.239Z",
+  "issued_at": "2026-11-15T07:38:01.267Z",
+  "expires_at": "2026-11-22T07:38:01.267Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3a318f3d132d69862378f1401be8cffab8e586048c4dc7704f8abf373b7fcc87",
+  "signature": "25d2a44e82278dfe8ee3e79f8c3a0955a6446a57ae3dddc417d29fcaea8becf8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-comm-030"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1203009",
+  "certificate_id": "MN-SC-2026-8367355",
   "skill_id": "mn-awmcp-execkit",
   "skill_name": "execkit",
-  "issued_at": "2026-11-08T07:00:03.009Z",
-  "expires_at": "2026-11-15T07:00:03.009Z",
+  "issued_at": "2026-11-15T07:39:27.355Z",
+  "expires_at": "2026-11-22T07:39:27.355Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 3,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5cb3e2735af62e2b5140621ea2fe1c540c6ae3da986ebfd714b92cb46e6d8d2f",
+  "signature": "72a65e3f47155f1798199915fe62bddfbe6dfd4c41ad53faa1afdfc974c52d3e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-execkit"
 }

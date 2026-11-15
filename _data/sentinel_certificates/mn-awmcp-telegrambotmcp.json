@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1207059",
+  "certificate_id": "MN-SC-2026-8371707",
   "skill_id": "mn-awmcp-telegrambotmcp",
   "skill_name": "telegram-bot-mcp",
-  "issued_at": "2026-11-08T07:00:07.059Z",
-  "expires_at": "2026-11-15T07:00:07.059Z",
+  "issued_at": "2026-11-15T07:39:31.707Z",
+  "expires_at": "2026-11-22T07:39:31.707Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b03f4f91d91beca28c9c0d0918f295e59c190bd01afdb188826c7d0839402b2d",
+  "signature": "cf5c74cedec705fd158fe5010248db60b632e14c5941946df0b01a5a2ec256ef",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-telegrambotmcp"
 }

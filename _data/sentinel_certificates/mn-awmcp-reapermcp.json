@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1155048",
+  "certificate_id": "MN-SC-2026-8311404",
   "skill_id": "mn-awmcp-reapermcp",
   "skill_name": "reaper-mcp",
-  "issued_at": "2026-11-08T06:59:15.048Z",
-  "expires_at": "2026-11-15T06:59:15.048Z",
+  "issued_at": "2026-11-15T07:38:31.404Z",
+  "expires_at": "2026-11-22T07:38:31.404Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "179adb17c2fcdfdf8ca9c8dd2311f1d927a8adecba0cd78952164b3238be6256",
+  "signature": "b133ea3b539ea9769f422bf85a100db6f0c6370fca6a024c28c67bc333733fba",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-reapermcp"
 }

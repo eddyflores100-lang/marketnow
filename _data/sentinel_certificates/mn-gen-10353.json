@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1108599",
+  "certificate_id": "MN-SC-2026-8254126",
   "skill_id": "mn-gen-10353",
   "skill_name": "pexbot-mcp",
-  "issued_at": "2026-11-08T06:58:28.599Z",
-  "expires_at": "2026-11-15T06:58:28.599Z",
+  "issued_at": "2026-11-15T07:37:34.126Z",
+  "expires_at": "2026-11-22T07:37:34.126Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "59272df740c17b648f8d7c6f92da0d5bbaa70893b756acb807978be0ed496403",
+  "signature": "c2a9b217893706aca4f0bb8a4c5ddcdc20f7e4a081773f9ffbaf09de3d7e18b6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-10353"
 }

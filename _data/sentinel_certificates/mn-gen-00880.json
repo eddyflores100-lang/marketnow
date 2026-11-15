@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1047519",
+  "certificate_id": "MN-SC-2026-8178763",
   "skill_id": "mn-gen-00880",
   "skill_name": "apple-docs-mcp",
-  "issued_at": "2026-11-08T06:57:27.519Z",
-  "expires_at": "2026-11-15T06:57:27.519Z",
+  "issued_at": "2026-11-15T07:36:18.763Z",
+  "expires_at": "2026-11-22T07:36:18.763Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "180e1fa14f0e84f1ab2f4a20ef6fc5a085a45d98af6d7ee187b615adc4bfb643",
+  "signature": "c7869227094ef7703bd6b8e23062365a873941af6820512ccbe2a0dd4e119b8e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00880"
 }

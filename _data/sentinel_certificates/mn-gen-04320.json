@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1070515",
+  "certificate_id": "MN-SC-2026-8208028",
   "skill_id": "mn-gen-04320",
   "skill_name": "mcp-gdrive",
-  "issued_at": "2026-11-08T06:57:50.515Z",
-  "expires_at": "2026-11-15T06:57:50.515Z",
+  "issued_at": "2026-11-15T07:36:48.028Z",
+  "expires_at": "2026-11-22T07:36:48.028Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fc421b8931e5f218bc7732b1008e1534ff14166e385298401d90a12f76609cbd",
+  "signature": "de782923ba68044bb24f58ee64b8ca83e4e8769b97a6e3e17663317e23491064",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04320"
 }

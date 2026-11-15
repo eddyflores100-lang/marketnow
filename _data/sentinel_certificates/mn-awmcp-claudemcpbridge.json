@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1195399",
+  "certificate_id": "MN-SC-2026-8358382",
   "skill_id": "mn-awmcp-claudemcpbridge",
   "skill_name": "claude-mcp-bridge",
-  "issued_at": "2026-11-08T06:59:55.399Z",
-  "expires_at": "2026-11-15T06:59:55.399Z",
+  "issued_at": "2026-11-15T07:39:18.382Z",
+  "expires_at": "2026-11-22T07:39:18.382Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "68fb2586904175010605217c49aa5beb9e41da53e4d2f48f932f56350de3f46e",
+  "signature": "2ed602912ade10054ef3781a852eb49ceb271dfa1ab1fe522374e54e11c53218",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-claudemcpbridge"
 }

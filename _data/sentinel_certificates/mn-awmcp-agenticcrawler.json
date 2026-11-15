@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1171339",
+  "certificate_id": "MN-SC-2026-8328245",
   "skill_id": "mn-awmcp-agenticcrawler",
   "skill_name": "AgenticCrawler",
-  "issued_at": "2026-11-08T06:59:31.339Z",
-  "expires_at": "2026-11-15T06:59:31.339Z",
+  "issued_at": "2026-11-15T07:38:48.245Z",
+  "expires_at": "2026-11-22T07:38:48.245Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1c2da1b91c2a0d5d07238102c6fca963594027ddb0fc1527659e75796fda916c",
+  "signature": "22567475c1592e961b3d59cb1e88c6723960558a7bc4d975ffe261d3fcbc0a14",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-agenticcrawler"
 }

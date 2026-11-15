@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1237701",
+  "certificate_id": "MN-SC-2026-8409167",
   "skill_id": "mn-real-codexpets",
   "skill_name": "codex-pets",
-  "issued_at": "2026-11-08T07:00:37.701Z",
-  "expires_at": "2026-11-15T07:00:37.701Z",
+  "issued_at": "2026-11-15T07:40:09.167Z",
+  "expires_at": "2026-11-22T07:40:09.167Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "65e54dad5d781384421076c0a1ac8fcb864b31c4d102b6b81ecc37ab12bcbad9",
+  "signature": "87052ed573e61b0884d79743adfec6a1c7971cf10b055e2f23c009c8975eef70",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-codexpets"
 }

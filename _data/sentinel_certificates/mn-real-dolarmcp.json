@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-1287105",
+  "certificate_id": "MN-SC-2026-8470598",
   "skill_id": "mn-real-dolarmcp",
   "skill_name": "dolar-mcp",
-  "issued_at": "2026-11-08T07:01:27.105Z",
-  "expires_at": "2026-11-15T07:01:27.105Z",
+  "issued_at": "2026-11-15T07:41:10.598Z",
+  "expires_at": "2026-11-22T07:41:10.598Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "03cc289a5d756acfc3357d9d016945403d72673b83b1320321c001c727515604",
+  "signature": "9d77e4ceddc0547872458e8a523e76424bb14178d9ea73162c702c5cd6f19907",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-dolarmcp"
 }
