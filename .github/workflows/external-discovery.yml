@@ -62,13 +62,15 @@ jobs:
       - name: Run external directory discovery (queue mode)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MAX_NEW_INPUT: ${{ github.event.inputs.max_new || '1995' }}
         run: |
-          ARGS=""
-          MAX_NEW="${{ github.event.inputs.max_new }}"
-          if [ -n "$MAX_NEW" ] && [ "$MAX_NEW" != "1995" ] && [ "$MAX_NEW" != "0" ]; then
-            ARGS="--max $MAX_NEW"
+          MAX_NEW="$MAX_NEW_INPUT"
+          case "$MAX_NEW" in ''|*[!0-9]*) echo "::error::max_new must be numeric"; exit 2;; esac
+          if [ "$MAX_NEW" != "1995" ] && [ "$MAX_NEW" != "0" ]; then
+            node scripts/external-discover-mcp.mjs --max "$MAX_NEW"
+          else
+            node scripts/external-discover-mcp.mjs
           fi
-          node scripts/external-discover-mcp.mjs $ARGS
 
       - name: Commit discovery queue (with retry on race)
         run: |
