@@ -1,4 +1,4 @@
-name: AliceLabs automated security audit
+name: AliceLabs automated security audit (verification)
 on:
   workflow_dispatch:
   pull_request:
