@@ -1,4 +1,4 @@
-name: AliceLabs security audit baseline
+name: AliceLabs automated security audit
 on:
   workflow_dispatch:
   pull_request:
@@ -10,12 +10,13 @@ on:
       - '**/package-lock.json'
       - '**/requirements*.txt'
       - '.github/workflows/**'
+      - 'security-audit/**'
 permissions:
   contents: read
 jobs:
-  semgrep:
+  internal-security-audit:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
@@ -23,16 +24,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install Semgrep
-        run: python -m pip install 'semgrep>=1.100,<2'
-      - name: Scan repository
-        continue-on-error: true
-        run: |
-          semgrep scan --config p/owasp-top-ten --json --output semgrep-results.json . || true
-          test -f semgrep-results.json || echo '{"errors":["scanner did not produce results"],"results":[]}' > semgrep-results.json
-      - name: Archive machine-readable findings
+      - name: Install audit tools
+        run: python -m pip install -r security-audit/requirements.txt
+      - name: Run reproducible LangGraph audit
+        run: python security-audit/audit.py --repo . --out audit-artifacts
+      - name: Upload audit evidence
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: semgrep-results
-          path: semgrep-results.json
+          name: alicelabs-internal-security-audit
+          path: |
+            audit-artifacts/
+            security-audit-results.json
+          if-no-files-found: warn
           retention-days: 30
