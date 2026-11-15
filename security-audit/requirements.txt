@@ -1,0 +1,2 @@
+langgraph>=0.2,<2
+semgrep>=1.100,<2
