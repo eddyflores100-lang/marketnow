@@ -6,7 +6,6 @@ Optional AI review can be added later without weakening evidence gates.
 """
 import argparse
 import datetime as dt
-import hashlib
 import json
 import os
 from pathlib import Path
