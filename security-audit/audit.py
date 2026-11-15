@@ -43,7 +43,8 @@ def scan(state: AuditState):
     except (OSError,ValueError,TypeError):
         payload={"results":[],"errors":[{"message":"No valid scanner JSON"}]}
         ok=False
-    return {"scan":{"exit_code":result.returncode,"output_valid":ok,"results":payload["results"],"errors":payload["errors"],"stderr_tail":result.stderr[-1500:]}}
+    error_paths=sorted({e.get("path","<unknown>") for e in payload["errors"] if isinstance(e,dict)})
+    return {"scan":{"exit_code":result.returncode,"output_valid":ok,"results":payload["results"],"errors":payload["errors"],"error_paths":error_paths,"stderr_tail":result.stderr[-1500:]}}
 
 def triage(state: AuditState):
     findings=[]
@@ -57,7 +58,7 @@ def verify(state: AuditState):
 
 def report(state: AuditState):
     now=dt.datetime.now(dt.timezone.utc).isoformat()
-    summary={"generated_at_utc":now,"repository":state["repository"],"commit_sha":state["sha"],"inventory":state["inventory"],"scanner":{"name":"Semgrep","config":"p/owasp-top-ten","exit_code":state["scan"]["exit_code"],"errors":state["scan"]["errors"],"valid_output":state["scan"]["output_valid"]},"triage":state["triage"],"verification":state["verification"],"limitations":["Automated internal scan, not third-party audit or certification","Findings are unverified until reproduced","Coverage limited to installed Semgrep rules and supported languages"]}
+    summary={"generated_at_utc":now,"repository":state["repository"],"commit_sha":state["sha"],"inventory":state["inventory"],"scanner":{"name":"Semgrep","config":"p/owasp-top-ten","exit_code":state["scan"]["exit_code"],"errors":state["scan"]["errors"],"valid_output":state["scan"]["output_valid"],"error_paths":state["scan"]["error_paths"],"error_count":len(state["scan"]["errors"])},"triage":state["triage"],"verification":state["verification"],"limitations":["Automated internal scan, not third-party audit or certification","Findings are unverified until reproduced","Coverage limited to installed Semgrep rules and supported languages"]}
     return {"report":summary}
 
 def main():
