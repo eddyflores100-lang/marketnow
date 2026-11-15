@@ -53,7 +53,7 @@ def triage(state: AuditState):
 
 def verify(state: AuditState):
     s=state["scan"]
-    return {"verification":{"scanner_completed":s["output_valid"] and s["exit_code"] in (0,1),"unverified_findings":len(state["triage"]["findings"]),"human_or_isolated_retest_completed":False}}
+    return {"verification":{"scanner_completed":s["output_valid"] and s["exit_code"] in (0,1) and not s["errors"],"unverified_findings":len(state["triage"]["findings"]),"human_or_isolated_retest_completed":False}}
 
 def report(state: AuditState):
     now=dt.datetime.now(dt.timezone.utc).isoformat()
