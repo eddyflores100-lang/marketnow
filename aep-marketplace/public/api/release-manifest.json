@@ -1,10 +1,10 @@
 {
   "schema": "marketnow-release-manifest/1.0",
-  "release_id": "rel-2026-11-18-131652",
-  "generated_at": "2026-11-18T13:16:52.734Z",
+  "release_id": "rel-2026-11-19-134037",
+  "generated_at": "2026-11-19T13:40:37.499Z",
   "generator": "scripts/release-manifest.mjs",
   "git": {
-    "sha": "60163acee3d384a7eeaf072adf23ec851aa4db89",
+    "sha": "3b6dbe3171f8edbff69db231e5b4b896cdafc822",
     "branch": "master"
   },
   "deployment": null,
@@ -142,8 +142,8 @@
   "signature": {
     "algorithm": "Ed25519 (RFC 8032)",
     "key_id": "mn-release-001",
-    "value": "666acdbaea816adeaa74514ab30d3d2c3414b4c8a32c615c82b996204dc6e3dbaff18e922734d17b43505ecb215df2401b86b5521e7c6330b7318b195bcd720b",
+    "value": "17376bd9787354294fb4e7207c1b25a16f41aa7ef77e01d1a122040eec1ad584f70933f7f73d1d63b9d3e30e3c00dd5250951c76deca8556e4ced51ac1408b08",
     "signed_object": "canonical(manifest sin signature)",
-    "canonical_sha256": "c5d97843690829954f32a6c4775ade6221028767e02494ed046368c939086c2b"
+    "canonical_sha256": "a3cf659ae45e5bb71c033c5b8f8c083f8b4a82a480ddfefd538d326ea0577d3c"
   }
 }
