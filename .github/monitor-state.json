@@ -1068,11 +1068,26 @@
       "repo": "crewAIInc/crewAI",
       "issue_num": 8381,
       "username": "zambodotdev"
+    },
+    "7033075427": {
+      "repo": "crewAIInc/crewAI",
+      "issue_num": 8381,
+      "username": "renezander030"
+    },
+    "7033128723": {
+      "repo": "crewAIInc/crewAI",
+      "issue_num": 8381,
+      "username": "zambodotdev"
+    },
+    "7037046089": {
+      "repo": "crewAIInc/crewAI",
+      "issue_num": 8381,
+      "username": "renezander030"
     }
   },
-  "npm_last_downloads": 461,
+  "npm_last_downloads": 423,
   "github_last_stars": 0,
   "last_report": null,
   "initialized_at": "2026-07-10T01:27:15.724696+00:00",
-  "last_check": "2026-11-19T21:27:37.716864+00:00"
+  "last_check": "2026-11-20T11:27:15.119842+00:00"
 }
