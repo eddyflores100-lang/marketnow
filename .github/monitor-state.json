@@ -1083,11 +1083,16 @@
       "repo": "crewAIInc/crewAI",
       "issue_num": 8381,
       "username": "renezander030"
+    },
+    "7070213471": {
+      "repo": "Slid-Phi-Labs/SlidPhiLabs",
+      "issue_num": 90,
+      "username": "ceedot-rock"
     }
   },
   "npm_last_downloads": 215,
   "github_last_stars": 0,
   "last_report": null,
   "initialized_at": "2026-07-10T01:27:15.724696+00:00",
-  "last_check": "2026-11-21T17:26:00.141383+00:00"
+  "last_check": "2026-11-21T23:09:28.521850+00:00"
 }
