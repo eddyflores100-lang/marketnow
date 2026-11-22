@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8350359",
+  "certificate_id": "MN-SC-2026-3973034",
   "skill_id": "mn-awmcp-openapitomcp",
   "skill_name": "openapi-to-mcp",
-  "issued_at": "2026-11-15T07:39:10.359Z",
-  "expires_at": "2026-11-22T07:39:10.359Z",
+  "issued_at": "2026-11-22T07:52:53.034Z",
+  "expires_at": "2026-11-29T07:52:53.034Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3da5fd85a4626f5fa03a2acb370b1ecb70a01bad9f8d791992bd9b70f0bb98d5",
+  "signature": "796852599471fdc5b0a187cad228d586f85a0815111887f33f055081e22cc94e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-openapitomcp"
 }

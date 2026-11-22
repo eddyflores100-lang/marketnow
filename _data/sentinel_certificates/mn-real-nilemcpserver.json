@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8391242",
+  "certificate_id": "MN-SC-2026-4031539",
   "skill_id": "mn-real-nilemcpserver",
   "skill_name": "nile-mcp-server",
-  "issued_at": "2026-11-15T07:39:51.242Z",
-  "expires_at": "2026-11-22T07:39:51.242Z",
+  "issued_at": "2026-11-22T07:53:51.539Z",
+  "expires_at": "2026-11-29T07:53:51.539Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7506284c9973c0ba53453dbef7fab100c75928a399608757fafae6c46d125928",
+  "signature": "70b61ca66b7408890f1be53e830c78a1d0d1bea483b73c158ed8af48d830bcf2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-nilemcpserver"
 }

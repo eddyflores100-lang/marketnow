@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8499613",
+  "certificate_id": "MN-SC-2026-4183315",
   "skill_id": "mn-real-taiwanpayroll",
   "skill_name": "taiwan-payroll",
-  "issued_at": "2026-11-15T07:41:39.613Z",
-  "expires_at": "2026-11-22T07:41:39.613Z",
+  "issued_at": "2026-11-22T07:56:23.315Z",
+  "expires_at": "2026-11-29T07:56:23.315Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "06b5623b4a7e83a7d42aec4460db607944535735b1b297f4399aefc0810ac8f9",
+  "signature": "8d8263246c6e50c50ec251ba047e4418a28b2535a7d5262415d00abfd871297b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-taiwanpayroll"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8193278",
+  "certificate_id": "MN-SC-2026-3751858",
   "skill_id": "mn-gen-02755",
   "skill_name": "context-sync",
-  "issued_at": "2026-11-15T07:36:33.278Z",
-  "expires_at": "2026-11-22T07:36:33.278Z",
+  "issued_at": "2026-11-22T07:49:11.858Z",
+  "expires_at": "2026-11-29T07:49:11.858Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "505de4e7c4a2a209a2046fef5df3df0a920d653e1bbc46c19e61cc3d2f9ab593",
+  "signature": "87cba1f83486d83a4ed4ec39ef45def272b6b59f38b62865d77c749f328850d4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02755"
 }

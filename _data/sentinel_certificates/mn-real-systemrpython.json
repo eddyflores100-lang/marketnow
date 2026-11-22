@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8499686",
+  "certificate_id": "MN-SC-2026-4183427",
   "skill_id": "mn-real-systemrpython",
   "skill_name": "systemr-python",
-  "issued_at": "2026-11-15T07:41:39.686Z",
-  "expires_at": "2026-11-22T07:41:39.686Z",
+  "issued_at": "2026-11-22T07:56:23.427Z",
+  "expires_at": "2026-11-29T07:56:23.427Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1d1786bfc00617f505f5987915b346c183374a18c82399e080a4555bfd8b7620",
+  "signature": "e94d389cabbcb51241e13afcf47691406d3da083e6daea57daf3ca5914f67fa4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-systemrpython"
 }

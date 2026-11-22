@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8292771",
+  "certificate_id": "MN-SC-2026-3894537",
   "skill_id": "mn-awmcp-mcpserverollamabridg",
   "skill_name": "mcp-server-ollama-bridge",
-  "issued_at": "2026-11-15T07:38:12.771Z",
-  "expires_at": "2026-11-22T07:38:12.771Z",
+  "issued_at": "2026-11-22T07:51:34.537Z",
+  "expires_at": "2026-11-29T07:51:34.537Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1c84a09fcb15e3a0c9189ae885b409bf11649cc3637868625cff546f9e4e482d",
+  "signature": "ab8badc97e70897d65aabee7bd1c5bfa2df7b2eb09b28afa596fd01e6070deb4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpserverollamabridg"
 }

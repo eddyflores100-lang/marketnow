@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8335099",
+  "certificate_id": "MN-SC-2026-3952273",
   "skill_id": "mn-awmcp-awsmcpserver",
   "skill_name": "aws-mcp-server",
-  "issued_at": "2026-11-15T07:38:55.099Z",
-  "expires_at": "2026-11-22T07:38:55.099Z",
+  "issued_at": "2026-11-22T07:52:32.273Z",
+  "expires_at": "2026-11-29T07:52:32.273Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f8837927f7516affd0eb9949ea3c31d0b5837d181f3f9bf20892dd992d937b27",
+  "signature": "9f57e61f568aae0c260b5ce80b6767b24657fa7fe823b6228734f88c77bfd429",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-awsmcpserver"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8225119",
+  "certificate_id": "MN-SC-2026-3797235",
   "skill_id": "mn-gen-06560",
   "skill_name": "mcp-dashboards",
-  "issued_at": "2026-11-15T07:37:05.119Z",
-  "expires_at": "2026-11-22T07:37:05.119Z",
+  "issued_at": "2026-11-22T07:49:57.235Z",
+  "expires_at": "2026-11-29T07:49:57.235Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "79cfb217ab8aef20a7db37cc4ca4d8c873ed244ba3f48eed72291155080b77cd",
+  "signature": "74c023e21c3a849f32c993e6ea544dc0b8c22fe994eeaceb7f09d9546d0574ce",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-06560"
 }

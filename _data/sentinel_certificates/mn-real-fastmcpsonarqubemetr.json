@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8408880",
+  "certificate_id": "MN-SC-2026-4056332",
   "skill_id": "mn-real-fastmcpsonarqubemetr",
   "skill_name": "fastmcp-sonarqube-metrics",
-  "issued_at": "2026-11-15T07:40:08.880Z",
-  "expires_at": "2026-11-22T07:40:08.880Z",
+  "issued_at": "2026-11-22T07:54:16.332Z",
+  "expires_at": "2026-11-29T07:54:16.332Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d28b1b7c1c86ffa400b92bd98856d77aed9860e18d3e1e16602b72b9867b2247",
+  "signature": "3e9bab7f6af8fc88936cc21b5b593e9dcf6164e02ad2853254ecb952460a5143",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-fastmcpsonarqubemetr"
 }

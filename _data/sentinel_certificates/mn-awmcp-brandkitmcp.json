@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8312527",
+  "certificate_id": "MN-SC-2026-3923475",
   "skill_id": "mn-awmcp-brandkitmcp",
   "skill_name": "brandkit-mcp",
-  "issued_at": "2026-11-15T07:38:32.527Z",
-  "expires_at": "2026-11-22T07:38:32.527Z",
+  "issued_at": "2026-11-22T07:52:03.475Z",
+  "expires_at": "2026-11-29T07:52:03.475Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "03fda6f399d0b3c7adb42378455fb72137db9861f97b936cd31cd193d74e8681",
+  "signature": "dd854c35d75f742e6518eaf1e5dc9ec807bcb006563ad400517cb45e70b955a8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-brandkitmcp"
 }

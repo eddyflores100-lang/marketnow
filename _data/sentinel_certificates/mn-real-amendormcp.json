@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8445851",
+  "certificate_id": "MN-SC-2026-4108936",
   "skill_id": "mn-real-amendormcp",
   "skill_name": "amendor-mcp",
-  "issued_at": "2026-11-15T07:40:45.851Z",
-  "expires_at": "2026-11-22T07:40:45.851Z",
+  "issued_at": "2026-11-22T07:55:08.936Z",
+  "expires_at": "2026-11-29T07:55:08.936Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7583ec02ba7adab77d61a01ed83b4d745b16fb675fef1446352794a4991dcdd8",
+  "signature": "b193c1bcdf46da0fe48ddad0445174bac5ebb2dc5cc9370e83603330d53ca64b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-amendormcp"
 }

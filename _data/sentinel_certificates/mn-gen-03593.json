@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8200672",
+  "certificate_id": "MN-SC-2026-3761430",
   "skill_id": "mn-gen-03593",
   "skill_name": "dechonet-mcp",
-  "issued_at": "2026-11-15T07:36:40.672Z",
-  "expires_at": "2026-11-22T07:36:40.672Z",
+  "issued_at": "2026-11-22T07:49:21.430Z",
+  "expires_at": "2026-11-29T07:49:21.430Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "63fd3803a48ff08281a93ab97844c66ab9955a599b39c3a425df2bb564a070f9",
+  "signature": "63b5610a12c700ca3b751a01b81f4b68ef99c03ebb2267d1ca991421784ee3f3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03593"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8304463",
+  "certificate_id": "MN-SC-2026-3912567",
   "skill_id": "mn-awmcp-nakkas",
   "skill_name": "nakkas",
-  "issued_at": "2026-11-15T07:38:24.463Z",
-  "expires_at": "2026-11-22T07:38:24.463Z",
+  "issued_at": "2026-11-22T07:51:52.567Z",
+  "expires_at": "2026-11-29T07:51:52.567Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "86a74cb60e5dde48a7aced0390c755dfb9a7e0c3e4bc3b6c95e778d8101eae17",
+  "signature": "f1515804731c49de681d5007a4728095752c78036ebb0df474826ac310c14c7b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-nakkas"
 }

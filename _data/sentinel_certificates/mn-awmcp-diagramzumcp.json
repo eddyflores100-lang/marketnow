@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8314098",
+  "certificate_id": "MN-SC-2026-3925573",
   "skill_id": "mn-awmcp-diagramzumcp",
   "skill_name": "diagramzu-mcp",
-  "issued_at": "2026-11-15T07:38:34.098Z",
-  "expires_at": "2026-11-22T07:38:34.098Z",
+  "issued_at": "2026-11-22T07:52:05.573Z",
+  "expires_at": "2026-11-29T07:52:05.573Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "891cbfce1e0668164f72e1cd9ee02f45d3df14bd3b27bd3d6ddeb5daa8ddc9f7",
+  "signature": "39e51a427b2582b8105a40c69da403c4affa1d6f7c8b72a444c1fa6e28570f75",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-diagramzumcp"
 }

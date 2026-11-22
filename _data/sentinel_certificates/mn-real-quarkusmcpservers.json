@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8392359",
+  "certificate_id": "MN-SC-2026-4033007",
   "skill_id": "mn-real-quarkusmcpservers",
   "skill_name": "quarkus-mcp-servers",
-  "issued_at": "2026-11-15T07:39:52.359Z",
-  "expires_at": "2026-11-22T07:39:52.359Z",
+  "issued_at": "2026-11-22T07:53:53.007Z",
+  "expires_at": "2026-11-29T07:53:53.007Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9b19b752c6d4888bcd027029dd21ea1c282d9b96ba4bfd5ac74f51d045d71040",
+  "signature": "512fc8b16068cbd6ebd019fa645ac0055dd5f6bb0d27f1d3dba2f8f652a1e9e4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-quarkusmcpservers"
 }

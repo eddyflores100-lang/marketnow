@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8452227",
+  "certificate_id": "MN-SC-2026-4117533",
   "skill_id": "mn-real-grmcp",
   "skill_name": "gr-mcp",
-  "issued_at": "2026-11-15T07:40:52.227Z",
-  "expires_at": "2026-11-22T07:40:52.227Z",
+  "issued_at": "2026-11-22T07:55:17.533Z",
+  "expires_at": "2026-11-29T07:55:17.533Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "79e6f528c12eec10c0d7bb27e85704dad151bcfc88a19bc2e566bf4a118466ba",
+  "signature": "656538df83425b5f2c12391cd141a6aac2a3f617d6eae6af327014ae07016ad4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-grmcp"
 }

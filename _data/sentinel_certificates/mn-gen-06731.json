@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8226890",
+  "certificate_id": "MN-SC-2026-3799977",
   "skill_id": "mn-gen-06731",
   "skill_name": "fitbit-mcp",
-  "issued_at": "2026-11-15T07:37:06.890Z",
-  "expires_at": "2026-11-22T07:37:06.890Z",
+  "issued_at": "2026-11-22T07:49:59.977Z",
+  "expires_at": "2026-11-29T07:49:59.977Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c2e2d23dafb5d528b1595365f5fc960aa101df6d8c35949b8827154763a8cb7b",
+  "signature": "66a95924d72a532f0300f4001c19cb1e83819db28c25e853b9d1ac75715b8f3e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-06731"
 }

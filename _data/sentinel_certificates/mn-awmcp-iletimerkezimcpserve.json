@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8373398",
+  "certificate_id": "MN-SC-2026-4004796",
   "skill_id": "mn-awmcp-iletimerkezimcpserve",
   "skill_name": "iletimerkezi-mcp-server",
-  "issued_at": "2026-11-15T07:39:33.398Z",
-  "expires_at": "2026-11-22T07:39:33.398Z",
+  "issued_at": "2026-11-22T07:53:24.796Z",
+  "expires_at": "2026-11-29T07:53:24.796Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c484f3958b4ce942fa1540e89b05869536e963bb8db0b3812ba4f382dc2759ed",
+  "signature": "e7afd7ea9b6cf7c8cd19272d18cf568cca6cafb2f6d3f27f5a24f57d758ca567",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-iletimerkezimcpserve"
 }

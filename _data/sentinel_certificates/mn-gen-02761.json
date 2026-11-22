@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8193629",
+  "certificate_id": "MN-SC-2026-3752291",
   "skill_id": "mn-gen-02761",
   "skill_name": "context7",
-  "issued_at": "2026-11-15T07:36:33.629Z",
-  "expires_at": "2026-11-22T07:36:33.629Z",
+  "issued_at": "2026-11-22T07:49:12.291Z",
+  "expires_at": "2026-11-29T07:49:12.291Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e31da0d84060fbc56c1031623f082b71cfa83afe87949e405e149b6ce9240012",
+  "signature": "cc5fb9de3525922608f62e25e2d74b46d07a02d4966784106839075a1adad3f6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-02761"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8284461",
+  "certificate_id": "MN-SC-2026-3880964",
   "skill_id": "mn-amcp-metamcp",
   "skill_name": "metamcp",
-  "issued_at": "2026-11-15T07:38:04.461Z",
-  "expires_at": "2026-11-22T07:38:04.461Z",
+  "issued_at": "2026-11-22T07:51:20.964Z",
+  "expires_at": "2026-11-29T07:51:20.964Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d203e88909b5d6ec299b62bb4a1ca6ff7745cbe18424f4b3791da602c871a374",
+  "signature": "b53f22a9b03de711e1d1c6f2e354cfbd57fbee1cb9885c05c699d8dc8e3948b1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-amcp-metamcp"
 }

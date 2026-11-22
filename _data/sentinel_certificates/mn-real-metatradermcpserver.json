@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8464618",
+  "certificate_id": "MN-SC-2026-4132779",
   "skill_id": "mn-real-metatradermcpserver",
   "skill_name": "metatrader-mcp-server",
-  "issued_at": "2026-11-15T07:41:04.618Z",
-  "expires_at": "2026-11-22T07:41:04.618Z",
+  "issued_at": "2026-11-22T07:55:32.779Z",
+  "expires_at": "2026-11-29T07:55:32.779Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8a1a04380fcc6d5a858edc2a694704411738f9b6c237286271bb00ee97f11d82",
+  "signature": "87631dc755c87c1e43c4f134229aebb3a7714617e0e3fc1f86f0d7ec3a965a1f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-metatradermcpserver"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8377671",
+  "certificate_id": "MN-SC-2026-4011699",
   "skill_id": "mn-real-mcpservercloudflare",
   "skill_name": "mcp-server-cloudflare",
-  "issued_at": "2026-11-15T07:39:37.671Z",
-  "expires_at": "2026-11-22T07:39:37.671Z",
+  "issued_at": "2026-11-22T07:53:31.699Z",
+  "expires_at": "2026-11-29T07:53:31.699Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "79a2da838681b9850f4a06cd981dfd52309cf9659d5a39c4900fd0d515edafae",
+  "signature": "0d4d333a10cea316b0a8ab2dee22b63fb3927f3716666289ede6bd7720287ab6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpservercloudflare"
 }

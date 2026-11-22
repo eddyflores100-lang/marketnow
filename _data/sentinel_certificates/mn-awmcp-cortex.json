@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8291623",
+  "certificate_id": "MN-SC-2026-3892923",
   "skill_id": "mn-awmcp-cortex",
   "skill_name": "cortex",
-  "issued_at": "2026-11-15T07:38:11.623Z",
-  "expires_at": "2026-11-22T07:38:11.623Z",
+  "issued_at": "2026-11-22T07:51:32.923Z",
+  "expires_at": "2026-11-29T07:51:32.923Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "06c5b1e7343b7d5a29553053c6b114a7bb3bac7b897cf204290acab6aaf3d586",
+  "signature": "2a01c6ddd97b36d7c314e4d759b8aae4b96efbc72b90236c477ce80b08718889",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-cortex"
 }

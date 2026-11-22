@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8435148",
+  "certificate_id": "MN-SC-2026-4094223",
   "skill_id": "mn-real-testcollabmcpserver",
   "skill_name": "testcollab-mcp-server",
-  "issued_at": "2026-11-15T07:40:35.148Z",
-  "expires_at": "2026-11-22T07:40:35.148Z",
+  "issued_at": "2026-11-22T07:54:54.223Z",
+  "expires_at": "2026-11-29T07:54:54.223Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5370739a70df6f1194224e13222db6a0f90d135824e30141ca92fb2752c58125",
+  "signature": "266e2dd257815a20534a2429b937d064347586bece49a4cf75d36bfe6b0e8640",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-testcollabmcpserver"
 }

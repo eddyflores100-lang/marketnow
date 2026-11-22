@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8351088",
+  "certificate_id": "MN-SC-2026-3974126",
   "skill_id": "mn-awmcp-edict",
   "skill_name": "Edict",
-  "issued_at": "2026-11-15T07:39:11.088Z",
-  "expires_at": "2026-11-22T07:39:11.088Z",
+  "issued_at": "2026-11-22T07:52:54.126Z",
+  "expires_at": "2026-11-29T07:52:54.126Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "56757d955fb56471d8036ab065854b219b11401ed7dd74d56f92169443f0fedc",
+  "signature": "9ba4656212d2aea390c0b6a7ea7de886c9eb896e7a44a8f4dcef49ffa236bdbb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-edict"
 }

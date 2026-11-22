@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8517690",
+  "certificate_id": "MN-SC-2026-4209666",
   "skill_id": "mn-real-prismcoder",
   "skill_name": "prism-coder",
-  "issued_at": "2026-11-15T07:41:57.690Z",
-  "expires_at": "2026-11-22T07:41:57.690Z",
+  "issued_at": "2026-11-22T07:56:49.666Z",
+  "expires_at": "2026-11-29T07:56:49.666Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fd971dd897eb805f4990afe61d0aac9dce1cd0358988901b3ec1907389eb5f28",
+  "signature": "3ed8a0d495a26683e72c1464fe3ea3b82e9bca572c9f3f71ec74a8bb38173b00",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-prismcoder"
 }

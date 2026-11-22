@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8434487",
+  "certificate_id": "MN-SC-2026-4093215",
   "skill_id": "mn-real-moth",
   "skill_name": "moth",
-  "issued_at": "2026-11-15T07:40:34.487Z",
-  "expires_at": "2026-11-22T07:40:34.487Z",
+  "issued_at": "2026-11-22T07:54:53.215Z",
+  "expires_at": "2026-11-29T07:54:53.215Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a4da8ef892259405c356a4877cd2a6a1ffc1071cdedb85ed487c59c13f8aed39",
+  "signature": "14e0e33358854e73db52c760a35f1882c6a8d05463a5c0a07d6d0a4543331561",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-moth"
 }

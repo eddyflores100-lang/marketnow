@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8415518",
+  "certificate_id": "MN-SC-2026-4065937",
   "skill_id": "mn-real-lynxpromptmcp",
   "skill_name": "lynxprompt-mcp",
-  "issued_at": "2026-11-15T07:40:15.518Z",
-  "expires_at": "2026-11-22T07:40:15.518Z",
+  "issued_at": "2026-11-22T07:54:25.937Z",
+  "expires_at": "2026-11-29T07:54:25.937Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "83577a2527dc289fb939df097688e22ea49ad0be49759a6d242f81908bfd512b",
+  "signature": "a2a727c225985854f2799430378a638622861ca91a34e0ad61e027d1339de24d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-lynxpromptmcp"
 }

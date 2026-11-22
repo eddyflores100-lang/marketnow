@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8372986",
+  "certificate_id": "MN-SC-2026-4004255",
   "skill_id": "mn-awmcp-resendemailmcp",
   "skill_name": "resend-email-mcp",
-  "issued_at": "2026-11-15T07:39:32.986Z",
-  "expires_at": "2026-11-22T07:39:32.986Z",
+  "issued_at": "2026-11-22T07:53:24.255Z",
+  "expires_at": "2026-11-29T07:53:24.255Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4cb11eda25def873ca2f2926a3ad2a44e5b292b638a8ec86e77b2b98643f41e8",
+  "signature": "0931134f8af09bbeaefdd265c6213ff84cabc038cc37e9091ef54968db08337d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-resendemailmcp"
 }

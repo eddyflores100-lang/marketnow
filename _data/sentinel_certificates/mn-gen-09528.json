@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8248175",
+  "certificate_id": "MN-SC-2026-3831546",
   "skill_id": "mn-gen-09528",
   "skill_name": "nexus",
-  "issued_at": "2026-11-15T07:37:28.175Z",
-  "expires_at": "2026-11-22T07:37:28.175Z",
+  "issued_at": "2026-11-22T07:50:31.546Z",
+  "expires_at": "2026-11-29T07:50:31.546Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "083c98be9286704cd5e3673bce84cbf09e465b6991fc7162f84b55ce23076ad4",
+  "signature": "5b942ed0e1f7b333bc8aafcae72cefbcaa79052087bded68824437f4df9d8656",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09528"
 }

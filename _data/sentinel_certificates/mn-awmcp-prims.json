@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8349357",
+  "certificate_id": "MN-SC-2026-3971742",
   "skill_id": "mn-awmcp-prims",
   "skill_name": "PRIMS",
-  "issued_at": "2026-11-15T07:39:09.357Z",
-  "expires_at": "2026-11-22T07:39:09.357Z",
+  "issued_at": "2026-11-22T07:52:51.742Z",
+  "expires_at": "2026-11-29T07:52:51.742Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "dbee1129f70f148a9bd1320a59ce86f0f117718194374bd96c92129795b06cbc",
+  "signature": "b985c33dfe5f54c380698b870a443b4eabe3cf5d94679d89e63f3aa0097865fd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-prims"
 }

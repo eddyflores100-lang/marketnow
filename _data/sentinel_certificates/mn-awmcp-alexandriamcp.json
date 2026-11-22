@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8303094",
+  "certificate_id": "MN-SC-2026-3908394",
   "skill_id": "mn-awmcp-alexandriamcp",
   "skill_name": "alexandria-mcp",
-  "issued_at": "2026-11-15T07:38:23.094Z",
-  "expires_at": "2026-11-22T07:38:23.094Z",
+  "issued_at": "2026-11-22T07:51:48.394Z",
+  "expires_at": "2026-11-29T07:51:48.394Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "dbf68abfc34bd1d755e38a021f0cb2aae3bf8a39a9f08524b31f309ec528799b",
+  "signature": "1db02390b27c6d25c4dea1fe2f0ddfc67cdc904b08f935fba2dc8799958accae",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-alexandriamcp"
 }

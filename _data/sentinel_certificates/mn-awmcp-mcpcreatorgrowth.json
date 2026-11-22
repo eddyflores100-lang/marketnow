@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8362760",
+  "certificate_id": "MN-SC-2026-3988806",
   "skill_id": "mn-awmcp-mcpcreatorgrowth",
   "skill_name": "mcp_creator_growth",
-  "issued_at": "2026-11-15T07:39:22.760Z",
-  "expires_at": "2026-11-22T07:39:22.760Z",
+  "issued_at": "2026-11-22T07:53:08.806Z",
+  "expires_at": "2026-11-29T07:53:08.806Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "211e94edb14c44fa27151ab0390cbc9a7de0dc9b7efc3894871a60f551c2bdb2",
+  "signature": "fb7c4721a943d19b472ddcbc436b05ddf5061eb20a815d151af960adcb6d4293",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpcreatorgrowth"
 }

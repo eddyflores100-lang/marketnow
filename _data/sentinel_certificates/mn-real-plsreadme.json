@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8458769",
+  "certificate_id": "MN-SC-2026-4125811",
   "skill_id": "mn-real-plsreadme",
   "skill_name": "plsreadme",
-  "issued_at": "2026-11-15T07:40:58.769Z",
-  "expires_at": "2026-11-22T07:40:58.769Z",
+  "issued_at": "2026-11-22T07:55:25.811Z",
+  "expires_at": "2026-11-29T07:55:25.811Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4e15198d4183104286028531a6a59241ab2f38bfead610c6df13208604e5bee5",
+  "signature": "9e9bdc19997aa7a52b97afb0e327644fa55939444911f2a06d3bd1df418a02b8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-plsreadme"
 }

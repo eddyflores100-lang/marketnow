@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8522465",
+  "certificate_id": "MN-SC-2026-4216952",
   "skill_id": "mn-real-markmapmcpserver",
   "skill_name": "markmap-mcp-server",
-  "issued_at": "2026-11-15T07:42:02.465Z",
-  "expires_at": "2026-11-22T07:42:02.465Z",
+  "issued_at": "2026-11-22T07:56:56.952Z",
+  "expires_at": "2026-11-29T07:56:56.952Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "81aeaa91ef0b750126b4fdc5434d47627580326079e2fb3280bdf589d4f507d4",
+  "signature": "559cd802d52b2ba458742936488e4047cc43dbfbad8ce55a300683859db95496",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-markmapmcpserver"
 }

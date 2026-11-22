@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8228490",
+  "certificate_id": "MN-SC-2026-3802217",
   "skill_id": "mn-ai-06948",
   "skill_name": "mcp-jetbrains",
-  "issued_at": "2026-11-15T07:37:08.490Z",
-  "expires_at": "2026-11-22T07:37:08.490Z",
+  "issued_at": "2026-11-22T07:50:02.217Z",
+  "expires_at": "2026-11-29T07:50:02.217Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6e3027e40481be1a15de03b30fc21fd03dcb9219a08780bb4264099392df050e",
+  "signature": "d4d9a174a90aa0bec10b4d516cedd0c23faf76bccac319313a543c9595fe67cd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-ai-06948"
 }

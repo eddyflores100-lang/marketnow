@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8325010",
+  "certificate_id": "MN-SC-2026-3939968",
   "skill_id": "mn-awmcp-mcpimmostage",
   "skill_name": "mcp-immostage",
-  "issued_at": "2026-11-15T07:38:45.010Z",
-  "expires_at": "2026-11-22T07:38:45.010Z",
+  "issued_at": "2026-11-22T07:52:19.968Z",
+  "expires_at": "2026-11-29T07:52:19.968Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b2329b99bd374ec6e47907d732fb44f9473ecbe415fada01beb9e0dadcf57e29",
+  "signature": "d32d73d31f5f8a7484bf8b6137b895f2a242a7f0aceb2899d3fde13d56a3cb9d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpimmostage"
 }

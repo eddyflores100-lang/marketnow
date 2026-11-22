@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8174658",
+  "certificate_id": "MN-SC-2026-3723146",
   "skill_id": "mn-gen-00391",
   "skill_name": "mcp-gsheets",
-  "issued_at": "2026-11-15T07:36:14.658Z",
-  "expires_at": "2026-11-22T07:36:14.658Z",
+  "issued_at": "2026-11-22T07:48:43.146Z",
+  "expires_at": "2026-11-29T07:48:43.146Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -36,7 +36,7 @@
     "resolved_at": "2026-11-13T13:19:55.856Z"
   },
   "cert_v": 2,
-  "signature": "7c8021ca7e0bf4a3410dceef28e8debe5d7d4789dc47e7bd07ab440b06bd78f8",
+  "signature": "0e744136adf10d3bebc1ec17d79ab1c46024d10a76022c5bdc04120385ff252d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00391"
 }

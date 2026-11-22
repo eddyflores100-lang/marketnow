@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8240663",
+  "certificate_id": "MN-SC-2026-3821874",
   "skill_id": "mn-gen-08158",
   "skill_name": "mcp-typescribe",
-  "issued_at": "2026-11-15T07:37:20.663Z",
-  "expires_at": "2026-11-22T07:37:20.663Z",
+  "issued_at": "2026-11-22T07:50:21.874Z",
+  "expires_at": "2026-11-29T07:50:21.874Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "44a988d0c06190f816a4fcda33caa6049501fcf96f59c032710f1993dc707535",
+  "signature": "768726c97179fd4bcd5fbe8611d81d80d7296a310917cb0622ed5972d7124f1b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-08158"
 }

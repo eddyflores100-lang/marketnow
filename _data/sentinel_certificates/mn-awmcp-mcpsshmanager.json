@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8364824",
+  "certificate_id": "MN-SC-2026-3991601",
   "skill_id": "mn-awmcp-mcpsshmanager",
   "skill_name": "mcp-ssh-manager",
-  "issued_at": "2026-11-15T07:39:24.824Z",
-  "expires_at": "2026-11-22T07:39:24.824Z",
+  "issued_at": "2026-11-22T07:53:11.601Z",
+  "expires_at": "2026-11-29T07:53:11.601Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4242ba45afe310aee8d4c557a89a2fc1500ed7ae6d007a102935caf8cbe97887",
+  "signature": "18d5fe0dd0e394e38459de0276ceef33ee3a272b283090eff41b016e08f7adcb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpsshmanager"
 }

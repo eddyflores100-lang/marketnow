@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8360237",
+  "certificate_id": "MN-SC-2026-3985671",
   "skill_id": "mn-awmcp-archmcp",
   "skill_name": "arch-mcp",
-  "issued_at": "2026-11-15T07:39:20.237Z",
-  "expires_at": "2026-11-22T07:39:20.237Z",
+  "issued_at": "2026-11-22T07:53:05.671Z",
+  "expires_at": "2026-11-29T07:53:05.671Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "279a56b8d56bb8ab6faa4932e2899a1b0a374f67c6ff15acabd0f4d5d3592193",
+  "signature": "b1e0fb8944150c781b1e6266f35b1500ace997b5f159ede1c3d433abc43aa5c6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-archmcp"
 }

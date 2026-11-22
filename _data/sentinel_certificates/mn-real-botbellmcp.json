@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8383308",
+  "certificate_id": "MN-SC-2026-4019664",
   "skill_id": "mn-real-botbellmcp",
   "skill_name": "botbell-mcp",
-  "issued_at": "2026-11-15T07:39:43.308Z",
-  "expires_at": "2026-11-22T07:39:43.308Z",
+  "issued_at": "2026-11-22T07:53:39.664Z",
+  "expires_at": "2026-11-29T07:53:39.664Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1b38fd3f0bd932683ddac82f7c5edd1f3f3955045d6c0c488d0428d00c665d2f",
+  "signature": "71f48acfa4b094ab02e8ccdd13a0e38ae342d739e2700a387b45bd464585b5cd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-botbellmcp"
 }

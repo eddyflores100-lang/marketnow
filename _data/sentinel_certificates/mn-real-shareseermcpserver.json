@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8497572",
+  "certificate_id": "MN-SC-2026-4180307",
   "skill_id": "mn-real-shareseermcpserver",
   "skill_name": "shareseer-mcp-server",
-  "issued_at": "2026-11-15T07:41:37.572Z",
-  "expires_at": "2026-11-22T07:41:37.572Z",
+  "issued_at": "2026-11-22T07:56:20.307Z",
+  "expires_at": "2026-11-29T07:56:20.307Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3e105f8050f7d85cd165273bfb2466e60a5c078f669bf7fc3237dd95c5e8016b",
+  "signature": "97d12fe2a1eaf02cdffa9cbfc9b1c33b3f69aa357c22cf9eaf9aab60615ca009",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-shareseermcpserver"
 }

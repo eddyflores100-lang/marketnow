@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8342395",
+  "certificate_id": "MN-SC-2026-3962428",
   "skill_id": "mn-awmcp-portainermcp",
   "skill_name": "portainer-mcp",
-  "issued_at": "2026-11-15T07:39:02.395Z",
-  "expires_at": "2026-11-22T07:39:02.395Z",
+  "issued_at": "2026-11-22T07:52:42.428Z",
+  "expires_at": "2026-11-29T07:52:42.428Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9c5f48c6e42a7be8a7b115cc4e01ee84a444a8bf697a66a78025befc7e3c0fd6",
+  "signature": "830998b75b21e4eab950354fd05027fc554765e0fe57324fd5d947999a6f05c6",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-portainermcp"
 }

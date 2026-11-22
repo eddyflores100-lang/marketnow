@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8424094",
+  "certificate_id": "MN-SC-2026-4077898",
   "skill_id": "mn-real-memorylensmcp",
   "skill_name": "memorylens-mcp",
-  "issued_at": "2026-11-15T07:40:24.094Z",
-  "expires_at": "2026-11-22T07:40:24.094Z",
+  "issued_at": "2026-11-22T07:54:37.898Z",
+  "expires_at": "2026-11-29T07:54:37.898Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e0ef8b6d787415cec7deb6264863fa3e27a8c5fc34162b698911da7c77f8bf7f",
+  "signature": "6e08272b13ee3bcc5b72ecc3480e8f09964b65881437b14e127da2e32a689b4e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-memorylensmcp"
 }

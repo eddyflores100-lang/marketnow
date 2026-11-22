@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8495337",
+  "certificate_id": "MN-SC-2026-4176444",
   "skill_id": "mn-real-coinmcpserver",
   "skill_name": "coin-mcp-server",
-  "issued_at": "2026-11-15T07:41:35.337Z",
-  "expires_at": "2026-11-22T07:41:35.337Z",
+  "issued_at": "2026-11-22T07:56:16.444Z",
+  "expires_at": "2026-11-29T07:56:16.444Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b1ccd7840e054d8eb79c19039da66983ef1b94c14afdb8eef4989b3c947dd1df",
+  "signature": "749e85a5e4479b4e8947089e1e921673c5cfffc0c7d529689a2df04205af3361",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-coinmcpserver"
 }

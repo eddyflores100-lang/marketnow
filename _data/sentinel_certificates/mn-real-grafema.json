@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8443134",
+  "certificate_id": "MN-SC-2026-4105371",
   "skill_id": "mn-real-grafema",
   "skill_name": "grafema",
-  "issued_at": "2026-11-15T07:40:43.134Z",
-  "expires_at": "2026-11-22T07:40:43.134Z",
+  "issued_at": "2026-11-22T07:55:05.371Z",
+  "expires_at": "2026-11-29T07:55:05.371Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "45041a0a97c5581935429cb815f47d78e5cebb84d0e51730157d9eda78924855",
+  "signature": "d84b4d4e7adefd975c86a0a34e045cc7f4cd7b1e0229be2979e2cad9c5dd88ac",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-grafema"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8367098",
+  "certificate_id": "MN-SC-2026-3994578",
   "skill_id": "mn-awmcp-mcptmux",
   "skill_name": "mcp-tmux",
-  "issued_at": "2026-11-15T07:39:27.098Z",
-  "expires_at": "2026-11-22T07:39:27.098Z",
+  "issued_at": "2026-11-22T07:53:14.578Z",
+  "expires_at": "2026-11-29T07:53:14.578Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b90c2f91056ee90336dfc725e9574738c920387ce3f58a790d6ec253bc3f80f7",
+  "signature": "a1f1b77e47b6b0011c0abfcf018c0d98856e25ea690f4474134a58b4dc66c8d9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcptmux"
 }

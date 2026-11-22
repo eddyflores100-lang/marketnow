@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8197611",
+  "certificate_id": "MN-SC-2026-3757671",
   "skill_id": "mn-gen-03296",
   "skill_name": "secops-mcp",
-  "issued_at": "2026-11-15T07:36:37.612Z",
-  "expires_at": "2026-11-22T07:36:37.612Z",
+  "issued_at": "2026-11-22T07:49:17.671Z",
+  "expires_at": "2026-11-29T07:49:17.671Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "65b90e2297e83e954883face5f7cf458ff6836c81b48472f5cc1053d412e549c",
+  "signature": "22a42a0af4f91a5307f4d8503cfaae3bd62f6662d9fe91c73ad334f9ea2b773d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03296"
 }

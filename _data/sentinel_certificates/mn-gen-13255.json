@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8275390",
+  "certificate_id": "MN-SC-2026-3868074",
   "skill_id": "mn-gen-13255",
   "skill_name": "mcp-golang",
-  "issued_at": "2026-11-15T07:37:55.390Z",
-  "expires_at": "2026-11-22T07:37:55.390Z",
+  "issued_at": "2026-11-22T07:51:08.074Z",
+  "expires_at": "2026-11-29T07:51:08.074Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5d07d605cc4883c07ca2b1d8fea5028e9b107b15ed1d1136c1f267832e93ed0d",
+  "signature": "b5154a02d8a3c04bed52779691f20cff7f84d6bb36a0dd2ee1f462b5e1a7e9d2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13255"
 }

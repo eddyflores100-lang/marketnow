@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8492095",
+  "certificate_id": "MN-SC-2026-4171465",
   "skill_id": "mn-real-oathscore",
   "skill_name": "oathscore",
-  "issued_at": "2026-11-15T07:41:32.095Z",
-  "expires_at": "2026-11-22T07:41:32.095Z",
+  "issued_at": "2026-11-22T07:56:11.465Z",
+  "expires_at": "2026-11-29T07:56:11.465Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c402632a3b15bf4d405681e5f33a1e55361a6880107d4fd6fe88bf8605e08d25",
+  "signature": "e8d28f9adb25ca62fef60fcab848916f2d9715c36c3b50866dacbe21ad75cfe7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-oathscore"
 }

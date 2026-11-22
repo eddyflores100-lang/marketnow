@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8470241",
+  "certificate_id": "MN-SC-2026-4140536",
   "skill_id": "mn-real-marketpulsemcp",
   "skill_name": "market-pulse-mcp",
-  "issued_at": "2026-11-15T07:41:10.241Z",
-  "expires_at": "2026-11-22T07:41:10.241Z",
+  "issued_at": "2026-11-22T07:55:40.536Z",
+  "expires_at": "2026-11-29T07:55:40.536Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7f6132a750a9a18b7d9690a576ea331c85babf01f74747b374c6a5143771bcc5",
+  "signature": "bb13de92826537839985b19f4bccfd58b53bd5dbe23868170812a5f00e18934d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-marketpulsemcp"
 }

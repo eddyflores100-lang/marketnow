@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8352732",
+  "certificate_id": "MN-SC-2026-3975806",
   "skill_id": "mn-awmcp-codexcontrolplanemcp",
   "skill_name": "codex-control-plane-mcp",
-  "issued_at": "2026-11-15T07:39:12.732Z",
-  "expires_at": "2026-11-22T07:39:12.732Z",
+  "issued_at": "2026-11-22T07:52:55.806Z",
+  "expires_at": "2026-11-29T07:52:55.806Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d328869ece8e5184177db09446f34cd1f1d9a881812acb91a579033e05241d98",
+  "signature": "c3d9c4cc56b423eedf77fc43c8451b9d2991e97611b5830342cf34d55d6260ed",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-codexcontrolplanemcp"
 }

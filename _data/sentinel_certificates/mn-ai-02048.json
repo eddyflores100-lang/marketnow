@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8187706",
+  "certificate_id": "MN-SC-2026-3742937",
   "skill_id": "mn-ai-02048",
   "skill_name": "openmcp",
-  "issued_at": "2026-11-15T07:36:27.706Z",
-  "expires_at": "2026-11-22T07:36:27.706Z",
+  "issued_at": "2026-11-22T07:49:02.937Z",
+  "expires_at": "2026-11-29T07:49:02.937Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fc74a8c1fb8bcc1e1afcdd724627bd9b4fd5ede360c27f0ce801e1bf29443b75",
+  "signature": "39481322c87034a67158a2ce33392646203c9dabda6be4c7230271a60c602a60",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-ai-02048"
 }

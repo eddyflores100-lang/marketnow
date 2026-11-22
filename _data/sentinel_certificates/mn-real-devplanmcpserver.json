@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8425071",
+  "certificate_id": "MN-SC-2026-4079241",
   "skill_id": "mn-real-devplanmcpserver",
   "skill_name": "devplan-mcp-server",
-  "issued_at": "2026-11-15T07:40:25.071Z",
-  "expires_at": "2026-11-22T07:40:25.071Z",
+  "issued_at": "2026-11-22T07:54:39.241Z",
+  "expires_at": "2026-11-29T07:54:39.241Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8e1bc5583ba361da9a5be2756273f4db911232d918f011e28c579ee6eb65bb6a",
+  "signature": "7240581bf1411069ea615aa2c6dd8d06430dc2e213249f0e5aa1135379649e29",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-devplanmcpserver"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8513624",
+  "certificate_id": "MN-SC-2026-4203730",
   "skill_id": "mn-real-recallnest",
   "skill_name": "recallnest",
-  "issued_at": "2026-11-15T07:41:53.624Z",
-  "expires_at": "2026-11-22T07:41:53.624Z",
+  "issued_at": "2026-11-22T07:56:43.730Z",
+  "expires_at": "2026-11-29T07:56:43.730Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f969ea123323b5ed2e0e2038ab4d41863ea25c67ff3ec6f7ae8187b721cde406",
+  "signature": "733129ce39c3bb71959a445811bb466faa509097537ac6b8eaf93a9b7dca5ed2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-recallnest"
 }

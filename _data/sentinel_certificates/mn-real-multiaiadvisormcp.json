@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8440764",
+  "certificate_id": "MN-SC-2026-4102055",
   "skill_id": "mn-real-multiaiadvisormcp",
   "skill_name": "multi-ai-advisor-mcp",
-  "issued_at": "2026-11-15T07:40:40.764Z",
-  "expires_at": "2026-11-22T07:40:40.764Z",
+  "issued_at": "2026-11-22T07:55:02.055Z",
+  "expires_at": "2026-11-29T07:55:02.055Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "38f9f7658e6a960b87df8e43e0cf68ad49fed6be66e32ba19c8e09d5b53392c1",
+  "signature": "1b12a0463c913a9c36ea7fd3936e78368187887192e9767fc3121eca2b189d36",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-multiaiadvisormcp"
 }

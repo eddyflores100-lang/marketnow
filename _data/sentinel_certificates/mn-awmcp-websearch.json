@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8330115",
+  "certificate_id": "MN-SC-2026-3945992",
   "skill_id": "mn-awmcp-websearch",
   "skill_name": "web-search",
-  "issued_at": "2026-11-15T07:38:50.115Z",
-  "expires_at": "2026-11-22T07:38:50.115Z",
+  "issued_at": "2026-11-22T07:52:25.992Z",
+  "expires_at": "2026-11-29T07:52:25.992Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "53636389d9753f9fd4976966fa316540b008637b390978f6181e4fd8e9f6e411",
+  "signature": "64859900e2c979db62becb462eda3aefb1d71fd7412f9ee924df6e4460bd0e29",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-websearch"
 }

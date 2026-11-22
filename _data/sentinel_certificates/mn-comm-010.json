@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8281094",
+  "certificate_id": "MN-SC-2026-3875590",
   "skill_id": "mn-comm-010",
   "skill_name": "mcp-server-calculator",
-  "issued_at": "2026-11-15T07:38:01.094Z",
-  "expires_at": "2026-11-22T07:38:01.094Z",
+  "issued_at": "2026-11-22T07:51:15.590Z",
+  "expires_at": "2026-11-29T07:51:15.590Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fb8cba99481136f736d528fb267eb75183dba7deaf6472278bb06da41a373423",
+  "signature": "2438d3188d5f2b3198f3e8c88793c84499967bc380ca9a56246e8a2792fc64e8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-comm-010"
 }

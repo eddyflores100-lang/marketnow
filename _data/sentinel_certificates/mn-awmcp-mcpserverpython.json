@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8339661",
+  "certificate_id": "MN-SC-2026-3958652",
   "skill_id": "mn-awmcp-mcpserverpython",
   "skill_name": "mcp-server-python",
-  "issued_at": "2026-11-15T07:38:59.661Z",
-  "expires_at": "2026-11-22T07:38:59.661Z",
+  "issued_at": "2026-11-22T07:52:38.652Z",
+  "expires_at": "2026-11-29T07:52:38.652Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "910b40c1b8360017329c0c7fec01514bb1a1388f97042143f257f1cfcfb5849e",
+  "signature": "a015a03672565c868314968efe687af8ee313fc023884ca39a894f217a8fcf38",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpserverpython"
 }

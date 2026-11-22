@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8501881",
+  "certificate_id": "MN-SC-2026-4186790",
   "skill_id": "mn-real-japancorporatemcp",
   "skill_name": "japan-corporate-mcp",
-  "issued_at": "2026-11-15T07:41:41.881Z",
-  "expires_at": "2026-11-22T07:41:41.881Z",
+  "issued_at": "2026-11-22T07:56:26.790Z",
+  "expires_at": "2026-11-29T07:56:26.790Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9709e8e9fc9000eba41c5b2d95ebdc12324b08bde8f2aedbde6d0d3540ae96e8",
+  "signature": "4ff5988d9a83814595a74d2ff261a9f8ac35775d6b7a0e28c18a8cf56bb4fce3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-japancorporatemcp"
 }

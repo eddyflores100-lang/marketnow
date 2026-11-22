@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8398384",
+  "certificate_id": "MN-SC-2026-4041238",
   "skill_id": "mn-real-powerbimcp",
   "skill_name": "power-bi-mcp",
-  "issued_at": "2026-11-15T07:39:58.384Z",
-  "expires_at": "2026-11-22T07:39:58.384Z",
+  "issued_at": "2026-11-22T07:54:01.238Z",
+  "expires_at": "2026-11-29T07:54:01.238Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6976cac7dd63d0092b4f2a6ed5b08809a4ce4a2d97b59045f898abc0fa937225",
+  "signature": "d911a0526a363108a3e4f19b9ad1bfc7198188e0e3bd5edbdb68e24f7a0ff6c8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-powerbimcp"
 }

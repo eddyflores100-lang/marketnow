@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8487699",
+  "certificate_id": "MN-SC-2026-4164670",
   "skill_id": "mn-real-stargatebridgemcp",
   "skill_name": "stargate-bridge-mcp",
-  "issued_at": "2026-11-15T07:41:27.699Z",
-  "expires_at": "2026-11-22T07:41:27.699Z",
+  "issued_at": "2026-11-22T07:56:04.670Z",
+  "expires_at": "2026-11-29T07:56:04.670Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "78aa67d36c134d3bab18f40c4490c9b2297ed977ff410ab1e6abffe4e4da8911",
+  "signature": "49d47e0814adbd87c4821183cd96e1e3a820e2da079510e4fe552f32cfb96cb2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-stargatebridgemcp"
 }

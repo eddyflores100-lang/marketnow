@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8478657",
+  "certificate_id": "MN-SC-2026-4152130",
   "skill_id": "mn-real-anchorx402mcp",
   "skill_name": "anchor-x402-mcp",
-  "issued_at": "2026-11-15T07:41:18.657Z",
-  "expires_at": "2026-11-22T07:41:18.657Z",
+  "issued_at": "2026-11-22T07:55:52.130Z",
+  "expires_at": "2026-11-29T07:55:52.130Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "22ee925afcd3a10aecf90ecc742a060c2deaa7e559d5261fac15b5f586b02a02",
+  "signature": "ddff68ee93f7b82c14b0b9c3cb1599e0eacf6b189f40b8b0aa9751025a0696d8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-anchorx402mcp"
 }

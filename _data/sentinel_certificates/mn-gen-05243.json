@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8214772",
+  "certificate_id": "MN-SC-2026-3780648",
   "skill_id": "mn-gen-05243",
   "skill_name": "izTolkMcp",
-  "issued_at": "2026-11-15T07:36:54.772Z",
-  "expires_at": "2026-11-22T07:36:54.772Z",
+  "issued_at": "2026-11-22T07:49:40.648Z",
+  "expires_at": "2026-11-29T07:49:40.648Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "409591c3e05eaff124fb7a2a452324e50ff6a9fcc283d2fb6011e4c6842e4cbb",
+  "signature": "6a4288f97f44bff463f2cb6b31a9d74813cf5f6708623b82521bc6e01e8611ce",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05243"
 }

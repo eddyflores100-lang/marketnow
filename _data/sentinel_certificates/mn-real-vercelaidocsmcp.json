@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8418152",
+  "certificate_id": "MN-SC-2026-4069687",
   "skill_id": "mn-real-vercelaidocsmcp",
   "skill_name": "vercel-ai-docs-mcp",
-  "issued_at": "2026-11-15T07:40:18.152Z",
-  "expires_at": "2026-11-22T07:40:18.152Z",
+  "issued_at": "2026-11-22T07:54:29.687Z",
+  "expires_at": "2026-11-29T07:54:29.687Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "aa32ceee7a316f678aba1cbaed10b318ad766fd0eeb866bf11e5d0007d413b54",
+  "signature": "c4ac0e49642d3970afa760e24480cece6a642d3419faeed621c4b2fd84f8a25a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-vercelaidocsmcp"
 }

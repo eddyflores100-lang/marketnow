@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8525436",
+  "certificate_id": "MN-SC-2026-4221381",
   "skill_id": "mn-real-counselmcp",
   "skill_name": "counsel-mcp",
-  "issued_at": "2026-11-15T07:42:05.436Z",
-  "expires_at": "2026-11-22T07:42:05.436Z",
+  "issued_at": "2026-11-22T07:57:01.381Z",
+  "expires_at": "2026-11-29T07:57:01.381Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "be7861bcc54d4f33f6827f46dee03ca482f1ec935e93b5f677ebad18e552e153",
+  "signature": "ee24e6560e23074ff6e38271601b2d6073bad5c9e7f43e72cdd3eebc63eae662",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-counselmcp"
 }

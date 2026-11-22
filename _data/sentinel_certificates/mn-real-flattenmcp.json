@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8433637",
+  "certificate_id": "MN-SC-2026-4091972",
   "skill_id": "mn-real-flattenmcp",
   "skill_name": "flatten-mcp",
-  "issued_at": "2026-11-15T07:40:33.637Z",
-  "expires_at": "2026-11-22T07:40:33.637Z",
+  "issued_at": "2026-11-22T07:54:51.972Z",
+  "expires_at": "2026-11-29T07:54:51.972Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "40d030c19e50c108a11a381c6219431454cbf823d0a30e87d70b2e1621d417a0",
+  "signature": "531c4a790c220465eb27b803b1b16102f74e51a7c762b92c588e78a0042c4ddd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-flattenmcp"
 }

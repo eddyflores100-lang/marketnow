@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8350044",
+  "certificate_id": "MN-SC-2026-3972600",
   "skill_id": "mn-awmcp-jobd",
   "skill_name": "jobd",
-  "issued_at": "2026-11-15T07:39:10.044Z",
-  "expires_at": "2026-11-22T07:39:10.044Z",
+  "issued_at": "2026-11-22T07:52:52.600Z",
+  "expires_at": "2026-11-29T07:52:52.600Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7a0c177c5be9803dbd9111af3f80182549f0d675df5e389bb075fa397d649043",
+  "signature": "b05d2eb9f0f386ed12380c7a9532c9b8b73af9dda7b50cecdf230685e8ea4b9d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-jobd"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8460407",
+  "certificate_id": "MN-SC-2026-4127837",
   "skill_id": "mn-real-bizdays",
   "skill_name": "bizdays",
-  "issued_at": "2026-11-15T07:41:00.407Z",
-  "expires_at": "2026-11-22T07:41:00.407Z",
+  "issued_at": "2026-11-22T07:55:27.837Z",
+  "expires_at": "2026-11-29T07:55:27.837Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "551f515045b7479788dff374357edb21a929f07411b54b6c6e356c8d042734d0",
+  "signature": "f32cb35e532d707429755a751695f78781b919a593ba775f64b2ea76d5b9df2a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-bizdays"
 }

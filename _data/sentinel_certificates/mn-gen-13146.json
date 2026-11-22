@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8274733",
+  "certificate_id": "MN-SC-2026-3867157",
   "skill_id": "mn-gen-13146",
   "skill_name": "vibe-check-mcp-server",
-  "issued_at": "2026-11-15T07:37:54.733Z",
-  "expires_at": "2026-11-22T07:37:54.733Z",
+  "issued_at": "2026-11-22T07:51:07.157Z",
+  "expires_at": "2026-11-29T07:51:07.157Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0651cc5450bbcff83724734fe9995e8a2cece69e8c73c38196f6289e47255c21",
+  "signature": "280a49eaf28faa9d74583be26bfffac40d7e8e9b3c93f1feab85c313804ea10d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13146"
 }

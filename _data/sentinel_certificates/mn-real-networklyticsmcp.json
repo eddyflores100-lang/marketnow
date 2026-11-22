@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8400835",
+  "certificate_id": "MN-SC-2026-4044828",
   "skill_id": "mn-real-networklyticsmcp",
   "skill_name": "networklytics-mcp",
-  "issued_at": "2026-11-15T07:40:00.835Z",
-  "expires_at": "2026-11-22T07:40:00.835Z",
+  "issued_at": "2026-11-22T07:54:04.828Z",
+  "expires_at": "2026-11-29T07:54:04.828Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "738b085e12c309a5ce40728287256f16c7e34161f762a1120e6bb9f902d010d7",
+  "signature": "4a8de3b4d4db0d5d378c072bff97e2f008b70299489cf407ed47de0937d0ad81",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-networklyticsmcp"
 }

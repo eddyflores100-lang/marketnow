@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8278749",
+  "certificate_id": "MN-SC-2026-3872187",
   "skill_id": "mn-gen-13602",
   "skill_name": "xcode-mcp-server",
-  "issued_at": "2026-11-15T07:37:58.749Z",
-  "expires_at": "2026-11-22T07:37:58.749Z",
+  "issued_at": "2026-11-22T07:51:12.188Z",
+  "expires_at": "2026-11-29T07:51:12.188Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 7,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2b262b075c547e725dec9787a37c54dc8c773b3b76e013d66571dbaef45afc79",
+  "signature": "0e2ad682d88448e1d358350708abb42e1c6bcd9662b8598b9b236ce845f6f66a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13602"
 }

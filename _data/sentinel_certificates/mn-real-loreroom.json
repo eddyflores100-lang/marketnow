@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8520164",
+  "certificate_id": "MN-SC-2026-4213518",
   "skill_id": "mn-real-loreroom",
   "skill_name": "LoreRoom",
-  "issued_at": "2026-11-15T07:42:00.164Z",
-  "expires_at": "2026-11-22T07:42:00.164Z",
+  "issued_at": "2026-11-22T07:56:53.518Z",
+  "expires_at": "2026-11-29T07:56:53.518Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "bd2e6f3aca478388e9000241fd7f42ba473a2626fc426aeaa4d447278bac0891",
+  "signature": "12352dea1c76ee1ddda1b35ae569edd40e31d7817d1e8c26c11957c70589d267",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-loreroom"
 }

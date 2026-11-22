@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8418313",
+  "certificate_id": "MN-SC-2026-4069985",
   "skill_id": "mn-real-sqlglot",
   "skill_name": "sqlglot",
-  "issued_at": "2026-11-15T07:40:18.313Z",
-  "expires_at": "2026-11-22T07:40:18.313Z",
+  "issued_at": "2026-11-22T07:54:29.985Z",
+  "expires_at": "2026-11-29T07:54:29.985Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f38c9c023b6a34f9d640d2b974ad2378ef8a5716a5141f2685d3ce3f6dae011f",
+  "signature": "8cb70ab9598ea66974f049893a30773e7f4d1a3796165a47bb0ac24c5cc2d35a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-sqlglot"
 }

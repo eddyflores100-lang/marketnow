@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8429693",
+  "certificate_id": "MN-SC-2026-4086098",
   "skill_id": "mn-real-pylonmcp",
   "skill_name": "pylon-mcp",
-  "issued_at": "2026-11-15T07:40:29.693Z",
-  "expires_at": "2026-11-22T07:40:29.693Z",
+  "issued_at": "2026-11-22T07:54:46.098Z",
+  "expires_at": "2026-11-29T07:54:46.098Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "eaee1ef02a7d405f615f28a7e79664de28e07b047e8f0e752a0c42868a9a1d1a",
+  "signature": "fd72bcb2c649b649c801bdbc6a2701cba30bcf69ff4f7abdc524b75f433703cb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-pylonmcp"
 }

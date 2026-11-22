@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8384012",
+  "certificate_id": "MN-SC-2026-4020924",
   "skill_id": "mn-real-couriermcp",
   "skill_name": "courier-mcp",
-  "issued_at": "2026-11-15T07:39:44.012Z",
-  "expires_at": "2026-11-22T07:39:44.012Z",
+  "issued_at": "2026-11-22T07:53:40.924Z",
+  "expires_at": "2026-11-29T07:53:40.924Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5f7aa3c551f9ec416cf6526b8340cc732a92aed4ec47bcf399840dfabc382bb0",
+  "signature": "57e48c1dc0bdc3b120a8e1e6f99d154aee77b7fccef1b909a6cb7d009ced8094",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-couriermcp"
 }

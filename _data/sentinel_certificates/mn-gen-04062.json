@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8205001",
+  "certificate_id": "MN-SC-2026-3767195",
   "skill_id": "mn-gen-04062",
   "skill_name": "firecrawl-mcp-server",
-  "issued_at": "2026-11-15T07:36:45.001Z",
-  "expires_at": "2026-11-22T07:36:45.001Z",
+  "issued_at": "2026-11-22T07:49:27.195Z",
+  "expires_at": "2026-11-29T07:49:27.195Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "227293e7ec82466dc678651f2ffda6a6b55e8799352c40f411f177fbe44038fc",
+  "signature": "9da3177a7f4ec5ff22907114f1c14909e1a924f604f4ca29041ce2a3f40ce490",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04062"
 }

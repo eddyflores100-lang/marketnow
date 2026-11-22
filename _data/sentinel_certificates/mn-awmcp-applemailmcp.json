@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8373596",
+  "certificate_id": "MN-SC-2026-4005121",
   "skill_id": "mn-awmcp-applemailmcp",
   "skill_name": "apple-mail-mcp",
-  "issued_at": "2026-11-15T07:39:33.596Z",
-  "expires_at": "2026-11-22T07:39:33.596Z",
+  "issued_at": "2026-11-22T07:53:25.121Z",
+  "expires_at": "2026-11-29T07:53:25.121Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0dd0f0091d5edada57a3e3bd74789903cf2aceb752d71a4ffa873f8df0142eee",
+  "signature": "28c945904e2e645aa0d4c56137b44b0b209664660c43a30960c20c78a35c811b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-applemailmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8266290",
+  "certificate_id": "MN-SC-2026-3855796",
   "skill_id": "mn-gen-12181",
   "skill_name": "starknet-mcp-server",
-  "issued_at": "2026-11-15T07:37:46.290Z",
-  "expires_at": "2026-11-22T07:37:46.290Z",
+  "issued_at": "2026-11-22T07:50:55.796Z",
+  "expires_at": "2026-11-29T07:50:55.796Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f0e9a0c6641fd60c1c6dd4a1b6c45c2014360ae905ce185568a6122753d502d3",
+  "signature": "78e041118a2b8e7f5e2b46615ddb6d28ff715d583ffd8e798ef9370b64fe76f2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12181"
 }

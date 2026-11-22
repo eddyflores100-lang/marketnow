@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8342213",
+  "certificate_id": "MN-SC-2026-3962188",
   "skill_id": "mn-awmcp-certmanager",
   "skill_name": "cert-manager",
-  "issued_at": "2026-11-15T07:39:02.213Z",
-  "expires_at": "2026-11-22T07:39:02.213Z",
+  "issued_at": "2026-11-22T07:52:42.188Z",
+  "expires_at": "2026-11-29T07:52:42.188Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "efe1e97c56305916ca7226a5f31fe7dde352466f1e907a513f7bc07223125f26",
+  "signature": "a64cd1bdb50f4c6f6a19a96cf79a1345d6afb431b9c157fc5ca2047b8cc0f943",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-certmanager"
 }

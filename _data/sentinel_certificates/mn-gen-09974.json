@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8252429",
+  "certificate_id": "MN-SC-2026-3837256",
   "skill_id": "mn-gen-09974",
   "skill_name": "mcp-adapter",
-  "issued_at": "2026-11-15T07:37:32.429Z",
-  "expires_at": "2026-11-22T07:37:32.429Z",
+  "issued_at": "2026-11-22T07:50:37.256Z",
+  "expires_at": "2026-11-29T07:50:37.256Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8ef48e3a24f2b274ad1313d95c198697e0efb096f3a7c7faea8ea7ac7489530c",
+  "signature": "0749e85a1b8295937b1ea6e31b3a72beefa39d5e54ac7518e31aad8498fdf7b0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09974"
 }

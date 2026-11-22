@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8295239",
+  "certificate_id": "MN-SC-2026-3897996",
   "skill_id": "mn-awmcp-mcpgateway",
   "skill_name": "mcp-gateway",
-  "issued_at": "2026-11-15T07:38:15.239Z",
-  "expires_at": "2026-11-22T07:38:15.239Z",
+  "issued_at": "2026-11-22T07:51:37.996Z",
+  "expires_at": "2026-11-29T07:51:37.996Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 7,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1cca7f128a785107d39cec699f9cbe313c650f7766cd564c49a2b94ae412c716",
+  "signature": "d5449acce4dc13f676836b54e1c8beb881402f797fc1b374a74c470cd5f9d2bf",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpgateway"
 }

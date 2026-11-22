@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8212106",
+  "certificate_id": "MN-SC-2026-3776466",
   "skill_id": "mn-gen-04755",
   "skill_name": "growthbook-mcp",
-  "issued_at": "2026-11-15T07:36:52.106Z",
-  "expires_at": "2026-11-22T07:36:52.106Z",
+  "issued_at": "2026-11-22T07:49:36.466Z",
+  "expires_at": "2026-11-29T07:49:36.466Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "74cfe3d5c82caa74036f9c3e2abcecfbce87777520ce0bd0bf5ad685fe6908c7",
+  "signature": "3c3853693f019dc2079dde839994992840d3e4854c6e7e34b70f59b596a3a73a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04755"
 }

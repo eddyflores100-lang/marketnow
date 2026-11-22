@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8365359",
+  "certificate_id": "MN-SC-2026-3992508",
   "skill_id": "mn-awmcp-mcpremotessh",
   "skill_name": "mcp-remote-ssh",
-  "issued_at": "2026-11-15T07:39:25.359Z",
-  "expires_at": "2026-11-22T07:39:25.359Z",
+  "issued_at": "2026-11-22T07:53:12.508Z",
+  "expires_at": "2026-11-29T07:53:12.508Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4f1d770f1fa67cd90a597f588651361c4dd7749ab7673b213c65dc8bda4be60e",
+  "signature": "74ffc26b2c27d2a6be334e624f99b65d4f2b126c27c3958946906f029b485aae",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpremotessh"
 }

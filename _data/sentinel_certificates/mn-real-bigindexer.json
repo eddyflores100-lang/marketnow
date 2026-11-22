@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8406515",
+  "certificate_id": "MN-SC-2026-4053195",
   "skill_id": "mn-real-bigindexer",
   "skill_name": "bigindexer",
-  "issued_at": "2026-11-15T07:40:06.515Z",
-  "expires_at": "2026-11-22T07:40:06.515Z",
+  "issued_at": "2026-11-22T07:54:13.195Z",
+  "expires_at": "2026-11-29T07:54:13.195Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "761a19b8ba2cd582c586d67ccea0bde6d88b360d855251865dfa766deea72e85",
+  "signature": "18dd814a9bfed1c71d892dffe130af71ba8d804c9392d8142dab8f33671bc3bd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-bigindexer"
 }

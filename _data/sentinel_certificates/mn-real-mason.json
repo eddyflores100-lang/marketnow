@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8402112",
+  "certificate_id": "MN-SC-2026-4046759",
   "skill_id": "mn-real-mason",
   "skill_name": "mason",
-  "issued_at": "2026-11-15T07:40:02.112Z",
-  "expires_at": "2026-11-22T07:40:02.112Z",
+  "issued_at": "2026-11-22T07:54:06.759Z",
+  "expires_at": "2026-11-29T07:54:06.759Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4c3626e6dc3ec2bb35ad7fefdbd72bab30cbcae7b37e50f4a20f89bcabf98e68",
+  "signature": "0fae6ed3a73ac0b7bc092fdf30a4625fa63c7025b964a2f2694e2dd59d6fc951",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mason"
 }

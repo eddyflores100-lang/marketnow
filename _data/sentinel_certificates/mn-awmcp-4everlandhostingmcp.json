@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8333476",
+  "certificate_id": "MN-SC-2026-3950413",
   "skill_id": "mn-awmcp-4everlandhostingmcp",
   "skill_name": "4everland-hosting-mcp",
-  "issued_at": "2026-11-15T07:38:53.476Z",
-  "expires_at": "2026-11-22T07:38:53.476Z",
+  "issued_at": "2026-11-22T07:52:30.413Z",
+  "expires_at": "2026-11-29T07:52:30.413Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "87d654a6880b00d6909769bb369e934e4c82914bfb16e4fadff28fabf7e2d117",
+  "signature": "812d77bc843df42d04e976fe3004f667e3c0d9e308621859b29b1636ec204091",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-4everlandhostingmcp"
 }

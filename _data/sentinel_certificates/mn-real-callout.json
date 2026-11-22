@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8414903",
+  "certificate_id": "MN-SC-2026-4065141",
   "skill_id": "mn-real-callout",
   "skill_name": "callout",
-  "issued_at": "2026-11-15T07:40:14.903Z",
-  "expires_at": "2026-11-22T07:40:14.903Z",
+  "issued_at": "2026-11-22T07:54:25.141Z",
+  "expires_at": "2026-11-29T07:54:25.141Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0aba6b98fcfdff0745fba5dae602abf1db065663eea99798309ca1bb02a4e81b",
+  "signature": "4ff9a56933616756b835d4809f31975b815a2b74c5ece15d1e0a76eef130f8c0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-callout"
 }

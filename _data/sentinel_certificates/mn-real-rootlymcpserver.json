@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8431997",
+  "certificate_id": "MN-SC-2026-4089482",
   "skill_id": "mn-real-rootlymcpserver",
   "skill_name": "rootly-mcp-server",
-  "issued_at": "2026-11-15T07:40:31.997Z",
-  "expires_at": "2026-11-22T07:40:31.997Z",
+  "issued_at": "2026-11-22T07:54:49.482Z",
+  "expires_at": "2026-11-29T07:54:49.482Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e6e5a543096c2cedc923ded56b86841a4a17dbcad50cc6782f020f4e89f154f7",
+  "signature": "48ecf75ea30468f025df1c4b59b42f40ee82ea9b305e4b8fa3cbadf72c007b37",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-rootlymcpserver"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8439546",
+  "certificate_id": "MN-SC-2026-4100493",
   "skill_id": "mn-real-hocrmcpserver",
   "skill_name": "hocr_mcp_server",
-  "issued_at": "2026-11-15T07:40:39.546Z",
-  "expires_at": "2026-11-22T07:40:39.546Z",
+  "issued_at": "2026-11-22T07:55:00.493Z",
+  "expires_at": "2026-11-29T07:55:00.493Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0d8352291bb9739fb0662c9c74452cb690686a69c837c4b29c7dcf7c1a544c16",
+  "signature": "ea52ac9730312c7d4d686f5dd9495d0344412fc36693fc579cd8246bab22a8b4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-hocrmcpserver"
 }

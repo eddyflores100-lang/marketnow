@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8342671",
+  "certificate_id": "MN-SC-2026-3962872",
   "skill_id": "mn-awmcp-portkeyadminmcp",
   "skill_name": "portkey-admin-mcp",
-  "issued_at": "2026-11-15T07:39:02.671Z",
-  "expires_at": "2026-11-22T07:39:02.671Z",
+  "issued_at": "2026-11-22T07:52:42.872Z",
+  "expires_at": "2026-11-29T07:52:42.872Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "929392a0348e4d7241d5f2d37221a6db7e9de3884dd6f3ac2734bb694e04d147",
+  "signature": "7249aa2dc0e7d7ec71c809eeac359125c2eca97f924c8f7402d65525b5e384a4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-portkeyadminmcp"
 }

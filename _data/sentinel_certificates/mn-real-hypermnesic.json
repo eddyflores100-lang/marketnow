@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8530936",
+  "certificate_id": "MN-SC-2026-4228803",
   "skill_id": "mn-real-hypermnesic",
   "skill_name": "hypermnesic",
-  "issued_at": "2026-11-15T07:42:10.936Z",
-  "expires_at": "2026-11-22T07:42:10.936Z",
+  "issued_at": "2026-11-22T07:57:08.803Z",
+  "expires_at": "2026-11-29T07:57:08.803Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "209d4ca281cd97c6964e5503f8a330fc6f24714205fb258d8dc406ef560d4d18",
+  "signature": "13878c73d0005b1b0e2bef808a2a629cec22ac5d1e5880b43efa93451abc8bdc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-hypermnesic"
 }

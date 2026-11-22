@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8420744",
+  "certificate_id": "MN-SC-2026-4073586",
   "skill_id": "mn-real-xcodestudiomcp",
   "skill_name": "xcode-studio-mcp",
-  "issued_at": "2026-11-15T07:40:20.744Z",
-  "expires_at": "2026-11-22T07:40:20.744Z",
+  "issued_at": "2026-11-22T07:54:33.586Z",
+  "expires_at": "2026-11-29T07:54:33.586Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "dde0643e8ef80ada647498cafc77e7893c8b289c825d9a0d486e5a5943554f0d",
+  "signature": "69542b715784f7cb29b0c23f787a00d458ced0ceee9879383863e0cff7a8c344",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-xcodestudiomcp"
 }

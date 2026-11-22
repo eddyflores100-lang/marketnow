@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8324308",
+  "certificate_id": "MN-SC-2026-3939060",
   "skill_id": "mn-awmcp-zenmcp",
   "skill_name": "zen-mcp",
-  "issued_at": "2026-11-15T07:38:44.308Z",
-  "expires_at": "2026-11-22T07:38:44.308Z",
+  "issued_at": "2026-11-22T07:52:19.060Z",
+  "expires_at": "2026-11-29T07:52:19.060Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f696193a4328a2b2e4179b28b9f726a71f52541f3c7dab5cdbc93778cddc2ef6",
+  "signature": "87c4a2687ec0a7869980d0f0ba395f12d65fd16f992c1feb32fb827e11436d57",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-zenmcp"
 }

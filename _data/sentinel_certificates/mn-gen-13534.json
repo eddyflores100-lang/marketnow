@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8277910",
+  "certificate_id": "MN-SC-2026-3871313",
   "skill_id": "mn-gen-13534",
   "skill_name": "workopia-mcp",
-  "issued_at": "2026-11-15T07:37:57.910Z",
-  "expires_at": "2026-11-22T07:37:57.910Z",
+  "issued_at": "2026-11-22T07:51:11.313Z",
+  "expires_at": "2026-11-29T07:51:11.313Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2cc93f2b62ff66c570fd163624ed592d9790115f910b2bf1c2d0ec13dc69b3e6",
+  "signature": "2b2520b77498e0e9f60d9b58f39a776692a0279afea1158bdd46d5d70b765c01",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13534"
 }

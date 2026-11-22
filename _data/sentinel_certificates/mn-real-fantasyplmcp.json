@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8510480",
+  "certificate_id": "MN-SC-2026-4198914",
   "skill_id": "mn-real-fantasyplmcp",
   "skill_name": "fantasy-pl-mcp",
-  "issued_at": "2026-11-15T07:41:50.480Z",
-  "expires_at": "2026-11-22T07:41:50.480Z",
+  "issued_at": "2026-11-22T07:56:38.914Z",
+  "expires_at": "2026-11-29T07:56:38.914Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a424f9cd939dd4687a838edbba34352a77fd1a5ae8d0e4e385ad1600b5ffe2ed",
+  "signature": "31be66897c61e60b602275db6bd8729fe457a61098163cf64c095990a1210b29",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-fantasyplmcp"
 }

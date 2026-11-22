@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8403538",
+  "certificate_id": "MN-SC-2026-4048858",
   "skill_id": "mn-real-aidevanalytics",
   "skill_name": "ai-dev-analytics",
-  "issued_at": "2026-11-15T07:40:03.538Z",
-  "expires_at": "2026-11-22T07:40:03.538Z",
+  "issued_at": "2026-11-22T07:54:08.858Z",
+  "expires_at": "2026-11-29T07:54:08.858Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9228fa07ca5aba30f1710753f3efe5f1aaadf8db0162c495a4b750a3e5328ba5",
+  "signature": "4054327b2bce9eba9d2c7ad59a64e985a62e5e87405f015e971cf81153af2a11",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-aidevanalytics"
 }

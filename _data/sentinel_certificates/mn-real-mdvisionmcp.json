@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8522305",
+  "certificate_id": "MN-SC-2026-4216663",
   "skill_id": "mn-real-mdvisionmcp",
   "skill_name": "md-vision-mcp",
-  "issued_at": "2026-11-15T07:42:02.305Z",
-  "expires_at": "2026-11-22T07:42:02.305Z",
+  "issued_at": "2026-11-22T07:56:56.663Z",
+  "expires_at": "2026-11-29T07:56:56.663Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "dcd65cbba8275f2bbe8d5615809a5cffbe202fcbf91dfd73471d7c64e0123c8d",
+  "signature": "db1a3037d37cdbfd80eb6a51834ed166677a746ff7f95771c7e110e728a4c19b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mdvisionmcp"
 }

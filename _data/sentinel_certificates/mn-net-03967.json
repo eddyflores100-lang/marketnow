@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8203831",
+  "certificate_id": "MN-SC-2026-3765675",
   "skill_id": "mn-net-03967",
   "skill_name": "fetcher-mcp",
-  "issued_at": "2026-11-15T07:36:43.831Z",
-  "expires_at": "2026-11-22T07:36:43.831Z",
+  "issued_at": "2026-11-22T07:49:25.675Z",
+  "expires_at": "2026-11-29T07:49:25.675Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -36,7 +36,7 @@
     "resolved_at": "2026-11-13T13:19:42.001Z"
   },
   "cert_v": 2,
-  "signature": "15f202787f0ae7ecd3973db787e6e7953bb63d0fc7bb692d244c0daa275411fa",
+  "signature": "bdfb6ce5c97f5954dc8e0b6a7b89b07d47c3136a0f5af6a0667c3d9d4c253311",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-net-03967"
 }

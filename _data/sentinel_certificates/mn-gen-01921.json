@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8186778",
+  "certificate_id": "MN-SC-2026-3741757",
   "skill_id": "mn-gen-01921",
   "skill_name": "ciphertrust-manager-mcp-server",
-  "issued_at": "2026-11-15T07:36:26.778Z",
-  "expires_at": "2026-11-22T07:36:26.778Z",
+  "issued_at": "2026-11-22T07:49:01.757Z",
+  "expires_at": "2026-11-29T07:49:01.757Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d44229bb6f50e4fcbf40681c4f317b082dc6d0440edbcf7d698d51bb3b6caab9",
+  "signature": "d43639fd69d834a377cee4db97be684d4f831a7ff1f836aef08fbbb7e3ae7a33",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01921"
 }

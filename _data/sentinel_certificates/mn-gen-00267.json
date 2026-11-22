@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8173189",
+  "certificate_id": "MN-SC-2026-3721177",
   "skill_id": "mn-gen-00267",
   "skill_name": "agent-memory",
-  "issued_at": "2026-11-15T07:36:13.189Z",
-  "expires_at": "2026-11-22T07:36:13.189Z",
+  "issued_at": "2026-11-22T07:48:41.177Z",
+  "expires_at": "2026-11-29T07:48:41.177Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1b0d48964d67dde972603e13f5591017593b77c0b6824e9afc295dde173c4bb1",
+  "signature": "3406f9eadde4ce0e61cd595266c96e7e55d67bb4d5dfca8d1e990bf5800ff228",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00267"
 }

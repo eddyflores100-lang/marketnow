@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8456447",
+  "certificate_id": "MN-SC-2026-4122611",
   "skill_id": "mn-real-atmosporemcp",
   "skill_name": "atmospore-mcp",
-  "issued_at": "2026-11-15T07:40:56.447Z",
-  "expires_at": "2026-11-22T07:40:56.447Z",
+  "issued_at": "2026-11-22T07:55:22.611Z",
+  "expires_at": "2026-11-29T07:55:22.611Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fbc927f1d0e8f9fc8a5140021da4414dc214026a628a2970a43435c0a1471139",
+  "signature": "c88312112625d0c5baa1c2ee324fab8ca947adfca7704b84e59af345a7f07228",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-atmosporemcp"
 }

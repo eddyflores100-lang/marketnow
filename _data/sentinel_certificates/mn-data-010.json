@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8281479",
+  "certificate_id": "MN-SC-2026-3876514",
   "skill_id": "mn-data-010",
   "skill_name": "anonymize-mcp",
-  "issued_at": "2026-11-15T07:38:01.479Z",
-  "expires_at": "2026-11-22T07:38:01.479Z",
+  "issued_at": "2026-11-22T07:51:16.514Z",
+  "expires_at": "2026-11-29T07:51:16.514Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e04dd4d97611b09d5d8562382101f864062dc7f83dba2e8993540368ea738beb",
+  "signature": "a63c04d2e2df30da8f0e366afbcfcd4ba3a3c42699a5d197f978e1087e90c710",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-data-010"
 }

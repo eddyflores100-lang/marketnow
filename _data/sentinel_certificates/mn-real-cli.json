@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8391870",
+  "certificate_id": "MN-SC-2026-4032373",
   "skill_id": "mn-real-cli",
   "skill_name": "cli",
-  "issued_at": "2026-11-15T07:39:51.870Z",
-  "expires_at": "2026-11-22T07:39:51.870Z",
+  "issued_at": "2026-11-22T07:53:52.373Z",
+  "expires_at": "2026-11-29T07:53:52.373Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "453d7a97b655ac8501d0da626d02619d7e65617faf4aef2ea026e99c7c7950bb",
+  "signature": "d825fa59f43bf8f0829eb2a2df2d3880cf8d4ffa2ca16a1c68e365f33a015fdc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cli"
 }

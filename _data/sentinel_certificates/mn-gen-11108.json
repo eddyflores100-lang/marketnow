@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8258718",
+  "certificate_id": "MN-SC-2026-3845662",
   "skill_id": "mn-gen-11108",
   "skill_name": "RedNote-MCP",
-  "issued_at": "2026-11-15T07:37:38.718Z",
-  "expires_at": "2026-11-22T07:37:38.718Z",
+  "issued_at": "2026-11-22T07:50:45.662Z",
+  "expires_at": "2026-11-29T07:50:45.662Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "672cb2d4543db1317021012740aeaec49c0927815908c66d28fbca4ddbf6a9d0",
+  "signature": "f27152b31871c7b06b6ad51fc3574dc4848b45d8a41d495950751b70140926c8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-11108"
 }

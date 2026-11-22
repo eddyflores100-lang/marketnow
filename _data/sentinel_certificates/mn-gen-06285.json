@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8222982",
+  "certificate_id": "MN-SC-2026-3793792",
   "skill_id": "mn-gen-06285",
   "skill_name": "backlog-mcp",
-  "issued_at": "2026-11-15T07:37:02.982Z",
-  "expires_at": "2026-11-22T07:37:02.982Z",
+  "issued_at": "2026-11-22T07:49:53.792Z",
+  "expires_at": "2026-11-29T07:49:53.792Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "87070c3540fb9190227d7ef43cef43fd5976577c67a15dccfffdfe1bacbe5310",
+  "signature": "85e4aa694c20dd7dfab7a39fcb00a7501abecc1ed89ff9198c68a8fc139c4591",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-06285"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8477818",
+  "certificate_id": "MN-SC-2026-4150945",
   "skill_id": "mn-real-verdictswarmmcp",
   "skill_name": "verdictswarm-mcp",
-  "issued_at": "2026-11-15T07:41:17.818Z",
-  "expires_at": "2026-11-22T07:41:17.818Z",
+  "issued_at": "2026-11-22T07:55:50.945Z",
+  "expires_at": "2026-11-29T07:55:50.945Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "01a80c5f10b6db760497cf4db8fd8ef685d8fc21e615f88d4511bea67861b6ba",
+  "signature": "6ec1f2f11d3b1cd12dcb52687ba9689ffca13e1402ab3cc209a152037f41336e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-verdictswarmmcp"
 }

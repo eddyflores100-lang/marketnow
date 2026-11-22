@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8503415",
+  "certificate_id": "MN-SC-2026-4188697",
   "skill_id": "mn-real-reputation",
   "skill_name": "reputation",
-  "issued_at": "2026-11-15T07:41:43.415Z",
-  "expires_at": "2026-11-22T07:41:43.415Z",
+  "issued_at": "2026-11-22T07:56:28.697Z",
+  "expires_at": "2026-11-29T07:56:28.697Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "47f8e13d6b80b7035fdfca6438115561c3c616333ad56bd99b46c2b74a4f968d",
+  "signature": "e631d033f34136c7925d02659bd1e3b74bcd1e4d670f5f036964a8dea7dcf1a1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-reputation"
 }

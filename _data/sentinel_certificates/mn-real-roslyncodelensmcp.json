@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8421870",
+  "certificate_id": "MN-SC-2026-4075101",
   "skill_id": "mn-real-roslyncodelensmcp",
   "skill_name": "roslyn-codelens-mcp",
-  "issued_at": "2026-11-15T07:40:21.870Z",
-  "expires_at": "2026-11-22T07:40:21.870Z",
+  "issued_at": "2026-11-22T07:54:35.101Z",
+  "expires_at": "2026-11-29T07:54:35.101Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5317d4e1e7e9f6d45ae729cc8899cbd23957085542377fff1c9c41d2bd3dd59f",
+  "signature": "6c40071ba9e343ba97e26a157368a7929168b1a27319b80909cf07aea058f4e0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-roslyncodelensmcp"
 }

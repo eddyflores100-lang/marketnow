@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8223179",
+  "certificate_id": "MN-SC-2026-3794042",
   "skill_id": "mn-gen-06293",
   "skill_name": "bifrost",
-  "issued_at": "2026-11-15T07:37:03.179Z",
-  "expires_at": "2026-11-22T07:37:03.179Z",
+  "issued_at": "2026-11-22T07:49:54.042Z",
+  "expires_at": "2026-11-29T07:49:54.042Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5ca591bafd6d91f34b012d62c891cf4bca8abef2c27794b731178742867ca5eb",
+  "signature": "a2735251f4ec978d11ec550bb6f550c57282fe133037862b3846e463b6077e65",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-06293"
 }

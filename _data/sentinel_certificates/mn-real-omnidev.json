@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8405658",
+  "certificate_id": "MN-SC-2026-4051773",
   "skill_id": "mn-real-omnidev",
   "skill_name": "omni-dev",
-  "issued_at": "2026-11-15T07:40:05.658Z",
-  "expires_at": "2026-11-22T07:40:05.658Z",
+  "issued_at": "2026-11-22T07:54:11.773Z",
+  "expires_at": "2026-11-29T07:54:11.773Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5fae91547d36797b84bad92781127f12e4b53a2f69fa6d0fde19d5a4b638511b",
+  "signature": "9942c021f0310622f6e63f1c44dd528e0587a63649b77e1ecf603853aa5014a1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-omnidev"
 }

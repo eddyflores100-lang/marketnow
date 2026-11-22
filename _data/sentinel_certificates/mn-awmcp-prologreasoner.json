@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8350710",
+  "certificate_id": "MN-SC-2026-3973559",
   "skill_id": "mn-awmcp-prologreasoner",
   "skill_name": "prolog-reasoner",
-  "issued_at": "2026-11-15T07:39:10.710Z",
-  "expires_at": "2026-11-22T07:39:10.710Z",
+  "issued_at": "2026-11-22T07:52:53.559Z",
+  "expires_at": "2026-11-29T07:52:53.559Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6ddba4241eb85d184df9b65f0fc9e589616950acd1dd4a1c3348185216d1eabb",
+  "signature": "d900bc4b9e23ba272cfcf9e7c1139731805841bfe3d0431608487aedf074e549",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-prologreasoner"
 }

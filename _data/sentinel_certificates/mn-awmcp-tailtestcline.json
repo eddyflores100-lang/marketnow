@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8352988",
+  "certificate_id": "MN-SC-2026-3976184",
   "skill_id": "mn-awmcp-tailtestcline",
   "skill_name": "tailtest-cline",
-  "issued_at": "2026-11-15T07:39:12.988Z",
-  "expires_at": "2026-11-22T07:39:12.988Z",
+  "issued_at": "2026-11-22T07:52:56.184Z",
+  "expires_at": "2026-11-29T07:52:56.184Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2e2338aa8e3480229f6a3e38a21f0b833e794e4c7769d2a97e8bca396c2ffb57",
+  "signature": "851f0e79496c733a108f48bceca5fed277fa3eaf0a31ee96b57470d257c9bb85",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-tailtestcline"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8275509",
+  "certificate_id": "MN-SC-2026-3868203",
   "skill_id": "mn-gen-13256",
   "skill_name": "gateway",
-  "issued_at": "2026-11-15T07:37:55.509Z",
-  "expires_at": "2026-11-22T07:37:55.509Z",
+  "issued_at": "2026-11-22T07:51:08.203Z",
+  "expires_at": "2026-11-29T07:51:08.203Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "eba71999b6b0c274f730afc075a5c5cb189aa957dba1d834e04a452e9dbb1a77",
+  "signature": "dd29dffc2051bb911826dafd97f9cdb3b47075de9164269980707fb475b52977",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13256"
 }

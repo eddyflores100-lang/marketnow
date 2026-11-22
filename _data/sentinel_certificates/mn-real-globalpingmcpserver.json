@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8419975",
+  "certificate_id": "MN-SC-2026-4072388",
   "skill_id": "mn-real-globalpingmcpserver",
   "skill_name": "globalping-mcp-server",
-  "issued_at": "2026-11-15T07:40:19.975Z",
-  "expires_at": "2026-11-22T07:40:19.975Z",
+  "issued_at": "2026-11-22T07:54:32.388Z",
+  "expires_at": "2026-11-29T07:54:32.388Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "dbd0a0f56538f567eeb3c8088fa1e39ee4c7dec08b58679410332e23fff2872c",
+  "signature": "5bf304adbe25548af92538b86691660c2615d7ebf935a460ab25b2f26be2977b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-globalpingmcpserver"
 }

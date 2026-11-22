@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8387239",
+  "certificate_id": "MN-SC-2026-4025468",
   "skill_id": "mn-real-sqlquerymcp",
   "skill_name": "sql-query-mcp",
-  "issued_at": "2026-11-15T07:39:47.239Z",
-  "expires_at": "2026-11-22T07:39:47.239Z",
+  "issued_at": "2026-11-22T07:53:45.468Z",
+  "expires_at": "2026-11-29T07:53:45.468Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5090fa957cd1ca44b23b6b4aa256ec538332f4451c5d5bdfb3cf3fa045d41946",
+  "signature": "a83296839835a916a035cd75b20ee6cbc9cb4e2544f1c35d5d4d7ebc54d6cbfc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-sqlquerymcp"
 }

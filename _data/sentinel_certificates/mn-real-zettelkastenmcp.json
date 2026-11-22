@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8519235",
+  "certificate_id": "MN-SC-2026-4212277",
   "skill_id": "mn-real-zettelkastenmcp",
   "skill_name": "zettelkasten-mcp",
-  "issued_at": "2026-11-15T07:41:59.235Z",
-  "expires_at": "2026-11-22T07:41:59.235Z",
+  "issued_at": "2026-11-22T07:56:52.277Z",
+  "expires_at": "2026-11-29T07:56:52.277Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b0d6b98f25b8ee128082bdfc0c6b76ed0eb2af871f50d1689e3462c06cb50928",
+  "signature": "ce4215ac38929c4aa10d30d03a2992645a534b12b37efd16bda2ce1beb125826",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-zettelkastenmcp"
 }

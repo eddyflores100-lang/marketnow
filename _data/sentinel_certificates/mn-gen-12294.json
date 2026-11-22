@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8267284",
+  "certificate_id": "MN-SC-2026-3857091",
   "skill_id": "mn-gen-12294",
   "skill_name": "SunoMCP",
-  "issued_at": "2026-11-15T07:37:47.284Z",
-  "expires_at": "2026-11-22T07:37:47.284Z",
+  "issued_at": "2026-11-22T07:50:57.091Z",
+  "expires_at": "2026-11-29T07:50:57.091Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9e34decbee53d4668d33e07159c3c57f0abf1775bff95f20a5b1a8fd8f231e1e",
+  "signature": "316a1e16171137e6e9b105c71aa1c9467e19f422d88fb3da5f7009ebab0dc22c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12294"
 }

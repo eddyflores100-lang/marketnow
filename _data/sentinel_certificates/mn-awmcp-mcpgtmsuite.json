@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8294286",
+  "certificate_id": "MN-SC-2026-3896592",
   "skill_id": "mn-awmcp-mcpgtmsuite",
   "skill_name": "mcp-gtm-suite",
-  "issued_at": "2026-11-15T07:38:14.286Z",
-  "expires_at": "2026-11-22T07:38:14.286Z",
+  "issued_at": "2026-11-22T07:51:36.592Z",
+  "expires_at": "2026-11-29T07:51:36.592Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "26a5135c466d77f690eea41702d2a8cdcf5d1eb90a4622356e79cff8a00bd267",
+  "signature": "2f37681ba1bed53b68fb969c5085f64bcfa78e3844ef4f548b76dd946e0d0140",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpgtmsuite"
 }

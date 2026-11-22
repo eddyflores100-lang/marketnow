@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8417884",
+  "certificate_id": "MN-SC-2026-4069304",
   "skill_id": "mn-real-mcpimagecompression",
   "skill_name": "mcp-image-compression",
-  "issued_at": "2026-11-15T07:40:17.884Z",
-  "expires_at": "2026-11-22T07:40:17.884Z",
+  "issued_at": "2026-11-22T07:54:29.304Z",
+  "expires_at": "2026-11-29T07:54:29.304Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ccebcdd89a7f5aa59786042d4aa3725f8edce1d75a4bced7555389ea32b57007",
+  "signature": "484c26040081eb16f5a8488c7554b9c172124cc76aae68318b75fb9b851e8f23",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpimagecompression"
 }

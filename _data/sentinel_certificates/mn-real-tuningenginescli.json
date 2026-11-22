@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8410966",
+  "certificate_id": "MN-SC-2026-4059571",
   "skill_id": "mn-real-tuningenginescli",
   "skill_name": "tuning-engines-cli",
-  "issued_at": "2026-11-15T07:40:10.966Z",
-  "expires_at": "2026-11-22T07:40:10.966Z",
+  "issued_at": "2026-11-22T07:54:19.571Z",
+  "expires_at": "2026-11-29T07:54:19.571Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "38e8320cf51c1c5f1748e1f4623638c5cc44ef86a9e3bc6a15a62c1e02294ec1",
+  "signature": "542fd2bbfd6b47b02aa0e82412080dd396e38fdba0cfc45f961bb563f62f9778",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-tuningenginescli"
 }

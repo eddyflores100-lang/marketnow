@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8427713",
+  "certificate_id": "MN-SC-2026-4083061",
   "skill_id": "mn-real-mcpserverdevutils",
   "skill_name": "mcp-server-devutils",
-  "issued_at": "2026-11-15T07:40:27.713Z",
-  "expires_at": "2026-11-22T07:40:27.713Z",
+  "issued_at": "2026-11-22T07:54:43.061Z",
+  "expires_at": "2026-11-29T07:54:43.061Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5da57293da6190f38832416c950a6ce4fabaf485728637cf80f6f7e2157bc740",
+  "signature": "5e800dbe5ebbc3e57aa7ada3ed128b7eeafd3bd9f40a0cf409c29e1b31c74042",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpserverdevutils"
 }

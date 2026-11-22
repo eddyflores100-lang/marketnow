@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8460842",
+  "certificate_id": "MN-SC-2026-4128380",
   "skill_id": "mn-real-savvlymcp",
   "skill_name": "savvly-mcp",
-  "issued_at": "2026-11-15T07:41:00.842Z",
-  "expires_at": "2026-11-22T07:41:00.842Z",
+  "issued_at": "2026-11-22T07:55:28.380Z",
+  "expires_at": "2026-11-29T07:55:28.380Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "113022d7752aff50e661568c8db3820f1a86a53c348da66961b2a51e97fff327",
+  "signature": "09603b14c6b959e44e253615533aaf221312a01e5755ea2a04e25ba4b455e479",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-savvlymcp"
 }

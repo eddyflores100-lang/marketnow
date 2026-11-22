@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8485001",
+  "certificate_id": "MN-SC-2026-4160800",
   "skill_id": "mn-real-cryptopanicmcpserver",
   "skill_name": "cryptopanic-mcp-server",
-  "issued_at": "2026-11-15T07:41:25.001Z",
-  "expires_at": "2026-11-22T07:41:25.001Z",
+  "issued_at": "2026-11-22T07:56:00.800Z",
+  "expires_at": "2026-11-29T07:56:00.800Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4dba797307062b6ba8108b63977e49d14e8fc38c04b38989924bb3aa541fdd23",
+  "signature": "680c2096d738ea235d591bb2a123d4fccf0971a56afcdc4fbb064741036b5d29",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cryptopanicmcpserver"
 }

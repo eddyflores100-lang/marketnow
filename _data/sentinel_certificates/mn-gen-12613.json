@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8269274",
+  "certificate_id": "MN-SC-2026-3859941",
   "skill_id": "mn-gen-12613",
   "skill_name": "thingsboard-mcp",
-  "issued_at": "2026-11-15T07:37:49.274Z",
-  "expires_at": "2026-11-22T07:37:49.274Z",
+  "issued_at": "2026-11-22T07:50:59.941Z",
+  "expires_at": "2026-11-29T07:50:59.941Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "58575e296c0f273cbc3ef66609be838222defcb80121b9e880eaa3b4792d21bc",
+  "signature": "883158bad83e96144b3f5d3f83355f24a709a7d939082900b1e8db1bb51c2421",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-12613"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8511852",
+  "certificate_id": "MN-SC-2026-4200902",
   "skill_id": "mn-real-acinfinitymcp",
   "skill_name": "ac-infinity-mcp",
-  "issued_at": "2026-11-15T07:41:51.852Z",
-  "expires_at": "2026-11-22T07:41:51.852Z",
+  "issued_at": "2026-11-22T07:56:40.902Z",
+  "expires_at": "2026-11-29T07:56:40.902Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ecf1d29457f1317f0735d17d16d01bd0856601748e67bee2ceb2e97a74d4d7d8",
+  "signature": "1f12d3baa21010b1cb680007a99296fce3e9e622c330d13f94737aeae24a3478",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-acinfinitymcp"
 }

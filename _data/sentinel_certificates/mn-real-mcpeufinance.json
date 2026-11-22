@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8492437",
+  "certificate_id": "MN-SC-2026-4172014",
   "skill_id": "mn-real-mcpeufinance",
   "skill_name": "mcp-eu-finance",
-  "issued_at": "2026-11-15T07:41:32.437Z",
-  "expires_at": "2026-11-22T07:41:32.437Z",
+  "issued_at": "2026-11-22T07:56:12.014Z",
+  "expires_at": "2026-11-29T07:56:12.014Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9ba151fe48753d5cd4e081b0dc85985585dd67abd56d256a8b9980d3221eecda",
+  "signature": "58f62be1369239f35c2ee4190bdc885bbc4d28eef2e2284237f623c2c833f661",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpeufinance"
 }

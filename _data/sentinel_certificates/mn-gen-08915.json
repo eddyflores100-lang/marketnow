@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8243662",
+  "certificate_id": "MN-SC-2026-3825670",
   "skill_id": "mn-gen-08915",
   "skill_name": "MemoryMesh",
-  "issued_at": "2026-11-15T07:37:23.662Z",
-  "expires_at": "2026-11-22T07:37:23.662Z",
+  "issued_at": "2026-11-22T07:50:25.670Z",
+  "expires_at": "2026-11-29T07:50:25.670Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "de207ae3c627581fd2c62bdbc78d6e3f0d11f95e8984117c52194d85102cbff0",
+  "signature": "502e969c1d56b6b9d2305100bf1c194f5af51ef0e6c33213c0c36cb9588837d9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-08915"
 }

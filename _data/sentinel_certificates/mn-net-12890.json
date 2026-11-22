@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8272408",
+  "certificate_id": "MN-SC-2026-3864276",
   "skill_id": "mn-net-12890",
   "skill_name": "twitterapi-io-mcp",
-  "issued_at": "2026-11-15T07:37:52.408Z",
-  "expires_at": "2026-11-22T07:37:52.408Z",
+  "issued_at": "2026-11-22T07:51:04.276Z",
+  "expires_at": "2026-11-29T07:51:04.276Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3f898d7dd251c1554bd9bef97ff0827a8c144f5174f65624cb5cbc65c18dcc69",
+  "signature": "c249a5ed5c4983fdbb0ba590ee19211009c29c7f943f1b07538853470207123c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-net-12890"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8496773",
+  "certificate_id": "MN-SC-2026-4179062",
   "skill_id": "mn-real-registrummcp",
   "skill_name": "registrum-mcp",
-  "issued_at": "2026-11-15T07:41:36.773Z",
-  "expires_at": "2026-11-22T07:41:36.773Z",
+  "issued_at": "2026-11-22T07:56:19.062Z",
+  "expires_at": "2026-11-29T07:56:19.062Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a795ae590bf7c6968b1a9b8494c5fe3fb080c93eab6e12ccc4f4abd067380472",
+  "signature": "0d4028c5cda0a3292c17db13fcbe5faf3ac19f5f051859c501fbfd5b250921b7",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-registrummcp"
 }

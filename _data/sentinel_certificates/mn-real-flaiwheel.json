@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8519919",
+  "certificate_id": "MN-SC-2026-4213145",
   "skill_id": "mn-real-flaiwheel",
   "skill_name": "flaiwheel",
-  "issued_at": "2026-11-15T07:41:59.919Z",
-  "expires_at": "2026-11-22T07:41:59.919Z",
+  "issued_at": "2026-11-22T07:56:53.145Z",
+  "expires_at": "2026-11-29T07:56:53.145Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2373c14c8f073f2026e2dd1e81ed479a58530f3ccf4d8dc868d933f5786991ae",
+  "signature": "95b286e11db09b150cb7a1b6b26aec2e70418b7d839d767839cd56ee4f4e2edb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-flaiwheel"
 }

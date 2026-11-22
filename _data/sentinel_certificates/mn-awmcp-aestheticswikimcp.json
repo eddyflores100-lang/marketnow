@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8308003",
+  "certificate_id": "MN-SC-2026-3917531",
   "skill_id": "mn-awmcp-aestheticswikimcp",
   "skill_name": "aesthetics-wiki-mcp",
-  "issued_at": "2026-11-15T07:38:28.003Z",
-  "expires_at": "2026-11-22T07:38:28.003Z",
+  "issued_at": "2026-11-22T07:51:57.531Z",
+  "expires_at": "2026-11-29T07:51:57.531Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c5904a84e418c19a4b4a168bd1e444d6ec6342232e9e1599ed8073c641d81295",
+  "signature": "8e20485d762e24c6ec2af6b067e6410eb3d3db94ebbe1bfb33592724d4f45758",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-aestheticswikimcp"
 }

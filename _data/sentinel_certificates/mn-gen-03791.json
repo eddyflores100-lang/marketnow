@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8202717",
+  "certificate_id": "MN-SC-2026-3764111",
   "skill_id": "mn-gen-03791",
   "skill_name": "mcp_excalidraw",
-  "issued_at": "2026-11-15T07:36:42.717Z",
-  "expires_at": "2026-11-22T07:36:42.717Z",
+  "issued_at": "2026-11-22T07:49:24.111Z",
+  "expires_at": "2026-11-29T07:49:24.111Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "62b1ed0b2d643bb0f118251f491a7549dc8548e2c6c17214d4e49974af9bbad1",
+  "signature": "4a93fe73284d3ae013e52b8417f2af89131eba97efe315810ed6045d4dce1559",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03791"
 }

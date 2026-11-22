@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8435058",
+  "certificate_id": "MN-SC-2026-4094093",
   "skill_id": "mn-real-jiragithubmcp",
   "skill_name": "jira-github-mcp",
-  "issued_at": "2026-11-15T07:40:35.058Z",
-  "expires_at": "2026-11-22T07:40:35.058Z",
+  "issued_at": "2026-11-22T07:54:54.093Z",
+  "expires_at": "2026-11-29T07:54:54.093Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ebfcad5a181723345c1b024b07662dd69126f40cfa1d6d035984d22244a0f8d6",
+  "signature": "a4d315773d746fe09f60e08b113fe75d4d90138b2d522ca31ed26f42a9014e97",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-jiragithubmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8276575",
+  "certificate_id": "MN-SC-2026-3869570",
   "skill_id": "mn-net-13327",
   "skill_name": "webfetch",
-  "issued_at": "2026-11-15T07:37:56.575Z",
-  "expires_at": "2026-11-22T07:37:56.575Z",
+  "issued_at": "2026-11-22T07:51:09.570Z",
+  "expires_at": "2026-11-29T07:51:09.570Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0815f6d55fd1b99c5a97f7f843320734304c4e245d36ddeec92324739fceb8fb",
+  "signature": "1fcbc3397a188519f5c682503a6883f30e4b754dd69b0a1f8c264fae71d45da2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-net-13327"
 }

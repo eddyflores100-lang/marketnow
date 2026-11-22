@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8447831",
+  "certificate_id": "MN-SC-2026-4111589",
   "skill_id": "mn-real-labelstudiomcpserver",
   "skill_name": "label-studio-mcp-server",
-  "issued_at": "2026-11-15T07:40:47.831Z",
-  "expires_at": "2026-11-22T07:40:47.831Z",
+  "issued_at": "2026-11-22T07:55:11.589Z",
+  "expires_at": "2026-11-29T07:55:11.589Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e48355c137829c6d83290f0e0bdc945036029a1e5482ca7acb52883cf8cce4a3",
+  "signature": "5e8fdc59312da134f72852877b5ce1ad71752875de01226d21e6f691ae14617e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-labelstudiomcpserver"
 }

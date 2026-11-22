@@ -1,18 +1,18 @@
 {
-  "certificate_id": "MN-SC-2026-8319793",
+  "certificate_id": "MN-SC-2026-3932969",
   "skill_id": "mn-awmcp-safarimcp",
   "skill_name": "safari-mcp",
-  "issued_at": "2026-11-15T07:38:39.793Z",
-  "expires_at": "2026-11-22T07:38:39.793Z",
+  "issued_at": "2026-11-22T07:52:12.969Z",
+  "expires_at": "2026-11-29T07:52:12.969Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
-  "overall_score": 9,
+  "overall_score": 7,
   "max_score": 10,
-  "risk_level": "medium",
+  "risk_level": "high",
   "risk_breakdown": {
-    "l15_l16_l17": "medium",
+    "l15_l16_l17": "high",
     "l17_quarantine_recommended": false,
     "l2": "not_available",
-    "final": "medium"
+    "final": "high"
   },
   "layers_run": {
     "l15": true,
@@ -23,7 +23,7 @@
     "l15_findings": 1,
     "l16_semgrep_findings": 0,
     "l16_secret_findings": 0,
-    "l16_osv_findings": 0,
+    "l16_osv_findings": 1,
     "l2_execution_status": null
   },
   "artifact": {
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b945f798f3a2fd36cc6294757c63c439e0d226964d1692fb6b22b288dd8ce630",
+  "signature": "c00adb84c0c6ffc494fc860c2cb9d54e13796b3d36b116ffab1324c274bacc56",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-safarimcp"
 }

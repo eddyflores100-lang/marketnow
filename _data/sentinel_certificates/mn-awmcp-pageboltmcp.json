@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8322273",
+  "certificate_id": "MN-SC-2026-3936478",
   "skill_id": "mn-awmcp-pageboltmcp",
   "skill_name": "pagebolt-mcp",
-  "issued_at": "2026-11-15T07:38:42.273Z",
-  "expires_at": "2026-11-22T07:38:42.273Z",
+  "issued_at": "2026-11-22T07:52:16.478Z",
+  "expires_at": "2026-11-29T07:52:16.478Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "cc5d5c3a2036e11ea4eb3b30b78d9a2a3527404f452b96e3dd6f5ed163e74871",
+  "signature": "330b42c9da08160fbe5d4fcc85953ae026e9e8dc664d558c40afca25a2800868",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-pageboltmcp"
 }

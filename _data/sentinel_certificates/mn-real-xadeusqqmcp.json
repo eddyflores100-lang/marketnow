@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8381805",
+  "certificate_id": "MN-SC-2026-4017453",
   "skill_id": "mn-real-xadeusqqmcp",
   "skill_name": "Xadeus-QQ-MCP",
-  "issued_at": "2026-11-15T07:39:41.805Z",
-  "expires_at": "2026-11-22T07:39:41.805Z",
+  "issued_at": "2026-11-22T07:53:37.453Z",
+  "expires_at": "2026-11-29T07:53:37.453Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0346c6e24cf4a98dfe576837713081c454f0919b7da5cbdfd323a171f177ce5d",
+  "signature": "7f8122d8e42b2541d351c908c7cbf126d6007d61678044c48ae9deaff3a3f725",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-xadeusqqmcp"
 }

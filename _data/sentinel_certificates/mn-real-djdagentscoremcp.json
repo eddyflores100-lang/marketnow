@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8480581",
+  "certificate_id": "MN-SC-2026-4154952",
   "skill_id": "mn-real-djdagentscoremcp",
   "skill_name": "djd-agent-score-mcp",
-  "issued_at": "2026-11-15T07:41:20.581Z",
-  "expires_at": "2026-11-22T07:41:20.581Z",
+  "issued_at": "2026-11-22T07:55:54.952Z",
+  "expires_at": "2026-11-29T07:55:54.952Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9fe5c9f72680fe734bba6e85c0cc3b8c33ae4a4d5d38f9a098211fc0f988bc2f",
+  "signature": "a69a29157f80d47f9e656994fed47a2db45cb1b23ed05853a3d5be852daafb0a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-djdagentscoremcp"
 }

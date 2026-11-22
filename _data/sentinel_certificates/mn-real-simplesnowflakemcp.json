@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8395390",
+  "certificate_id": "MN-SC-2026-4037118",
   "skill_id": "mn-real-simplesnowflakemcp",
   "skill_name": "simple_snowflake_mcp",
-  "issued_at": "2026-11-15T07:39:55.390Z",
-  "expires_at": "2026-11-22T07:39:55.390Z",
+  "issued_at": "2026-11-22T07:53:57.118Z",
+  "expires_at": "2026-11-29T07:53:57.118Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "82dfacb1cec67d75f423920711912003418f4738e8f9b86177728589ebfc937b",
+  "signature": "f44b10e5e42a7056553c3ab3a6ca5895bb86e5d2cd62601bebe4d4555af04835",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-simplesnowflakemcp"
 }

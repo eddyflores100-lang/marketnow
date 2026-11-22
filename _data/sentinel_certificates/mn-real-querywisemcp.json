@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8390385",
+  "certificate_id": "MN-SC-2026-4030086",
   "skill_id": "mn-real-querywisemcp",
   "skill_name": "querywise-mcp",
-  "issued_at": "2026-11-15T07:39:50.386Z",
-  "expires_at": "2026-11-22T07:39:50.386Z",
+  "issued_at": "2026-11-22T07:53:50.086Z",
+  "expires_at": "2026-11-29T07:53:50.086Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ba19b03ea7cab453ecceaab103e2cd88d1c955cc403c9dde797966f41aec1a96",
+  "signature": "d5090b37b65065aff0d1b0e08fa1a4a8f993e09b4084f7af0759df2347ef440b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-querywisemcp"
 }

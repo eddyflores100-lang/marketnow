@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8420655",
+  "certificate_id": "MN-SC-2026-4073377",
   "skill_id": "mn-real-metatron",
   "skill_name": "metatron",
-  "issued_at": "2026-11-15T07:40:20.655Z",
-  "expires_at": "2026-11-22T07:40:20.655Z",
+  "issued_at": "2026-11-22T07:54:33.377Z",
+  "expires_at": "2026-11-29T07:54:33.377Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "dc851dd693dc9903aa0f7bb154b316fdd2a4a81e4d0d4dd5e88a411a7e1811a0",
+  "signature": "ed54b6ee24cc07675870d25e57a91b7cb7374fa3bad0603f433d5af76f62fead",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-metatron"
 }

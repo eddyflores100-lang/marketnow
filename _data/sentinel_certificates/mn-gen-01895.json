@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8186670",
+  "certificate_id": "MN-SC-2026-3741332",
   "skill_id": "mn-gen-01895",
   "skill_name": "chrome-devtools-mcp",
-  "issued_at": "2026-11-15T07:36:26.670Z",
-  "expires_at": "2026-11-22T07:36:26.670Z",
+  "issued_at": "2026-11-22T07:49:01.332Z",
+  "expires_at": "2026-11-29T07:49:01.332Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -36,7 +36,7 @@
     "resolved_at": "2026-11-13T13:18:03.879Z"
   },
   "cert_v": 2,
-  "signature": "e175eb8533cc7402f3dc22268bd8157ac7f99df57808bda67274a3d362384989",
+  "signature": "720a8e6735b0455fc1ded4b16e1a8bee1348665975b3f8c190c60b162b003369",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-01895"
 }

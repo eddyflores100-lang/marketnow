@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8259472",
+  "certificate_id": "MN-SC-2026-3846768",
   "skill_id": "mn-gen-11138",
   "skill_name": "remembra",
-  "issued_at": "2026-11-15T07:37:39.472Z",
-  "expires_at": "2026-11-22T07:37:39.472Z",
+  "issued_at": "2026-11-22T07:50:46.768Z",
+  "expires_at": "2026-11-29T07:50:46.768Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f1f34634e33cffd8a7e5598504c8652b2ca64d6942e9ebb8e2a0f27b9c4fe55a",
+  "signature": "8f53ea89ec760b635fba910a7f5e195331116e0122217b64a3f649405761d8d5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-11138"
 }

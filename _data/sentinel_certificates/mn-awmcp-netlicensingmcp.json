@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8339859",
+  "certificate_id": "MN-SC-2026-3958889",
   "skill_id": "mn-awmcp-netlicensingmcp",
   "skill_name": "NetLicensing-MCP",
-  "issued_at": "2026-11-15T07:38:59.859Z",
-  "expires_at": "2026-11-22T07:38:59.859Z",
+  "issued_at": "2026-11-22T07:52:38.889Z",
+  "expires_at": "2026-11-29T07:52:38.889Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8af93d543e77a41a895f7e711d676dd16db6a1d93c5dd611f2c31f45ecd68910",
+  "signature": "ebce1345c9ec681a0bf46906fadd2573ccac87ba7066ffac31f8c5e82e81e2b0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-netlicensingmcp"
 }

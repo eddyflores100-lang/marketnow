@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8454272",
+  "certificate_id": "MN-SC-2026-4119984",
   "skill_id": "mn-real-aifurniturehub",
   "skill_name": "ai-furniture-hub",
-  "issued_at": "2026-11-15T07:40:54.272Z",
-  "expires_at": "2026-11-22T07:40:54.272Z",
+  "issued_at": "2026-11-22T07:55:19.984Z",
+  "expires_at": "2026-11-29T07:55:19.984Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d5d69248e8f3d71b2e2364127ab416c1d45fbc9f1c8a77601ec4e6e62e782071",
+  "signature": "f6f92e1610fcf83e192f889cd11c20284f45489dc336655aa8b9d5e59fc8e568",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-aifurniturehub"
 }

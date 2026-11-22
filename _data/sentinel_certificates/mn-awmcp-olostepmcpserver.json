@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8329139",
+  "certificate_id": "MN-SC-2026-3944560",
   "skill_id": "mn-awmcp-olostepmcpserver",
   "skill_name": "olostep-mcp-server",
-  "issued_at": "2026-11-15T07:38:49.139Z",
-  "expires_at": "2026-11-22T07:38:49.139Z",
+  "issued_at": "2026-11-22T07:52:24.560Z",
+  "expires_at": "2026-11-29T07:52:24.560Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "92db9937b0f4baf23670d6dafc1f5e44f752c6d54d460a0e06f37734f70004a2",
+  "signature": "bccf71d21da9b475782913f300c4c0d928e47efdead199770d22bd6e2769ad9c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-olostepmcpserver"
 }

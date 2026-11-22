@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8462048",
+  "certificate_id": "MN-SC-2026-4129971",
   "skill_id": "mn-real-yieldagentx402sdks",
   "skill_name": "yieldagentx402-sdks",
-  "issued_at": "2026-11-15T07:41:02.048Z",
-  "expires_at": "2026-11-22T07:41:02.048Z",
+  "issued_at": "2026-11-22T07:55:29.971Z",
+  "expires_at": "2026-11-29T07:55:29.971Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "900a16ed764bf7cd9767a9dec6ccc8aee9a7e54729577d6fbafa0aa6d843d144",
+  "signature": "375bd9a7024bb71ff71ec4e1ed9cedb7c2d6b71e8bce6bf481789ec2244cc2a5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-yieldagentx402sdks"
 }

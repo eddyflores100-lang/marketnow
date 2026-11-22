@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8409992",
+  "certificate_id": "MN-SC-2026-4058170",
   "skill_id": "mn-real-octocode",
   "skill_name": "octocode",
-  "issued_at": "2026-11-15T07:40:09.992Z",
-  "expires_at": "2026-11-22T07:40:09.992Z",
+  "issued_at": "2026-11-22T07:54:18.170Z",
+  "expires_at": "2026-11-29T07:54:18.170Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "52da971d37b63236706bf6584a2ef4c8dc671b9b1ba2a1fdb43d8043eefd45b7",
+  "signature": "e85e5efa66c86dc5d271a0af422c3c32efd792aa6e3259a5ea68c1d8949d780f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-octocode"
 }

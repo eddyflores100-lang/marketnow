@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8489593",
+  "certificate_id": "MN-SC-2026-4167525",
   "skill_id": "mn-real-trading212mcpserver",
   "skill_name": "trading212-mcp-server",
-  "issued_at": "2026-11-15T07:41:29.593Z",
-  "expires_at": "2026-11-22T07:41:29.593Z",
+  "issued_at": "2026-11-22T07:56:07.525Z",
+  "expires_at": "2026-11-29T07:56:07.525Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4aa8e797ab276cfdebed1c55a8b5ef3dab0a9d161123a9dc5381e2d5ddde511b",
+  "signature": "fba34f013e07cd832bb11b2e9f1aec3d14f46f11f1f95f4fee3246b6986592d1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-trading212mcpserver"
 }

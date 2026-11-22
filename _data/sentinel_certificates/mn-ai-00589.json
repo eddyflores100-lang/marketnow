@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8176220",
+  "certificate_id": "MN-SC-2026-3725327",
   "skill_id": "mn-ai-00589",
   "skill_name": "aibolit-mcp-server",
-  "issued_at": "2026-11-15T07:36:16.220Z",
-  "expires_at": "2026-11-22T07:36:16.220Z",
+  "issued_at": "2026-11-22T07:48:45.327Z",
+  "expires_at": "2026-11-29T07:48:45.327Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1e6cf74ba061777a33d70d230d5cc9e454b89ac08aa297008370e180890bd019",
+  "signature": "0dd23f3e8ba3192eb6930463e0ba23e53457712d5179c7f7b42b0fe958aa9a61",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-ai-00589"
 }

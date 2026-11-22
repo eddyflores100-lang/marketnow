@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8371884",
+  "certificate_id": "MN-SC-2026-4002553",
   "skill_id": "mn-awmcp-xtapdownmcp",
   "skill_name": "xtapdown-mcp",
-  "issued_at": "2026-11-15T07:39:31.884Z",
-  "expires_at": "2026-11-22T07:39:31.884Z",
+  "issued_at": "2026-11-22T07:53:22.553Z",
+  "expires_at": "2026-11-29T07:53:22.553Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "23762393caf2cf3febd8296a485d40e5e13f99a60ddd399ff6446b284de8f068",
+  "signature": "15c4be523317bdfe6bc7c5b32c9dd3c82f2794f5b9f181406cee54fd4181a25b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-xtapdownmcp"
 }

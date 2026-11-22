@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8282459",
+  "certificate_id": "MN-SC-2026-3878157",
   "skill_id": "mn-seller-77bea8df",
   "skill_name": "llm-router",
-  "issued_at": "2026-11-15T07:38:02.459Z",
-  "expires_at": "2026-11-22T07:38:02.459Z",
+  "issued_at": "2026-11-22T07:51:18.157Z",
+  "expires_at": "2026-11-29T07:51:18.157Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "eab4ebce48f022c4ca81fdd53b206b157b20a3a91ba6834d5b67c2ed5ff27268",
+  "signature": "1808c4aee8a64f7a101554f42ccdab7646cef390e318bdfe2bbab060a41f6ca8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-seller-77bea8df"
 }

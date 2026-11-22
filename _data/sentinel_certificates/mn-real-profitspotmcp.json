@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8493337",
+  "certificate_id": "MN-SC-2026-4173320",
   "skill_id": "mn-real-profitspotmcp",
   "skill_name": "profitspot-mcp",
-  "issued_at": "2026-11-15T07:41:33.337Z",
-  "expires_at": "2026-11-22T07:41:33.337Z",
+  "issued_at": "2026-11-22T07:56:13.320Z",
+  "expires_at": "2026-11-29T07:56:13.320Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "29d8d37c03914e99b5c7269bd5ce9939fca6b87bbca0c8018d3d4f812ed71e5c",
+  "signature": "c658d558e4814ea5ba100d2cb16b54a88955915ca3ca61c018d8712127301272",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-profitspotmcp"
 }

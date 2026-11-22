@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8422767",
+  "certificate_id": "MN-SC-2026-4076163",
   "skill_id": "mn-real-gptzeromcp",
   "skill_name": "gptzero-mcp",
-  "issued_at": "2026-11-15T07:40:22.767Z",
-  "expires_at": "2026-11-22T07:40:22.767Z",
+  "issued_at": "2026-11-22T07:54:36.163Z",
+  "expires_at": "2026-11-29T07:54:36.163Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "90a197cf62d37672c599f76999d942a06c842561a812fc22244ef25c0de87198",
+  "signature": "67b97045bdca6a4677fe649dd7be2b33774dea9b31771bbc1380d50f4679e169",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-gptzeromcp"
 }

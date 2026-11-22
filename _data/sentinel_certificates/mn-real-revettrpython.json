@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8463193",
+  "certificate_id": "MN-SC-2026-4130918",
   "skill_id": "mn-real-revettrpython",
   "skill_name": "revettr-python",
-  "issued_at": "2026-11-15T07:41:03.193Z",
-  "expires_at": "2026-11-22T07:41:03.193Z",
+  "issued_at": "2026-11-22T07:55:30.918Z",
+  "expires_at": "2026-11-29T07:55:30.918Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fbae22ab92ec295b67a89a17605c3b8d6dade31b8eec3faef12f67fcdb44ca7d",
+  "signature": "62106afdd1c7bd8b2876e0680f16ad518aff8a94274664a11be391d06afb033e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-revettrpython"
 }

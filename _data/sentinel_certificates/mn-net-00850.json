@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8177790",
+  "certificate_id": "MN-SC-2026-3727856",
   "skill_id": "mn-net-00850",
   "skill_name": "fable",
-  "issued_at": "2026-11-15T07:36:17.790Z",
-  "expires_at": "2026-11-22T07:36:17.790Z",
+  "issued_at": "2026-11-22T07:48:47.857Z",
+  "expires_at": "2026-11-29T07:48:47.857Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "97941cb0d9dea89337dc35ca4581419b4d84ed24614ee21124894b0d0601aeea",
+  "signature": "ddcb6da8af6e9d58dc0bad029acf166ac0d4d9149b3802467109e76e2ba410e2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-net-00850"
 }

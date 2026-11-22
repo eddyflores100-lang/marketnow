@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8395317",
+  "certificate_id": "MN-SC-2026-4036976",
   "skill_id": "mn-real-xiyanmcpserver",
   "skill_name": "xiyan_mcp_server",
-  "issued_at": "2026-11-15T07:39:55.317Z",
-  "expires_at": "2026-11-22T07:39:55.317Z",
+  "issued_at": "2026-11-22T07:53:56.976Z",
+  "expires_at": "2026-11-29T07:53:56.976Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b0b9b9417a942589eac4d99f64bdc6c9244613f672f42bff21e7c2a27e6c0d85",
+  "signature": "a0bc4217a4bd9f78ed0853633edece8dab8386d9362a1c1ba5948276ec2ca17c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-xiyanmcpserver"
 }

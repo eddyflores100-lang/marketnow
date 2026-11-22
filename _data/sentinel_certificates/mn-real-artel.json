@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8526715",
+  "certificate_id": "MN-SC-2026-4223196",
   "skill_id": "mn-real-artel",
   "skill_name": "artel",
-  "issued_at": "2026-11-15T07:42:06.715Z",
-  "expires_at": "2026-11-22T07:42:06.715Z",
+  "issued_at": "2026-11-22T07:57:03.196Z",
+  "expires_at": "2026-11-29T07:57:03.196Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a203d5a0ceed860793fcda50efa85aff396eecd7d791c99d4c64f752a3d71967",
+  "signature": "a3aaef23affa69e19020f6e7f00e8785a7760d8bd56220eac5bdfc8ce86fa265",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-artel"
 }

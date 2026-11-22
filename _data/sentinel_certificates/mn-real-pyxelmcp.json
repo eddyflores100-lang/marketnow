@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8508991",
+  "certificate_id": "MN-SC-2026-4196827",
   "skill_id": "mn-real-pyxelmcp",
   "skill_name": "pyxel-mcp",
-  "issued_at": "2026-11-15T07:41:48.991Z",
-  "expires_at": "2026-11-22T07:41:48.991Z",
+  "issued_at": "2026-11-22T07:56:36.827Z",
+  "expires_at": "2026-11-29T07:56:36.827Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7d74ba6a1c4899416177c66c0d50ddd17cd9e622d41af90df98c868896dd2c3d",
+  "signature": "c788a000d480d281b307862f9c0a01b9829da92d93de4ec54ac68ba6ed75c226",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-pyxelmcp"
 }

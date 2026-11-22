@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8225296",
+  "certificate_id": "MN-SC-2026-3797471",
   "skill_id": "mn-dat-06570",
   "skill_name": "mcp-datalink",
-  "issued_at": "2026-11-15T07:37:05.296Z",
-  "expires_at": "2026-11-22T07:37:05.296Z",
+  "issued_at": "2026-11-22T07:49:57.471Z",
+  "expires_at": "2026-11-29T07:49:57.471Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "21763d020f4a68e3f1250465b0e2285175c22d7e69ef1d1b280cafb9e1078c20",
+  "signature": "e22c8a8b76342a350e46c9993e7a756b0f430cdf343db2c092780151c24323b2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-dat-06570"
 }

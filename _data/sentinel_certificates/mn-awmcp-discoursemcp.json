@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8370488",
+  "certificate_id": "MN-SC-2026-3999912",
   "skill_id": "mn-awmcp-discoursemcp",
   "skill_name": "discourse-mcp",
-  "issued_at": "2026-11-15T07:39:30.488Z",
-  "expires_at": "2026-11-22T07:39:30.488Z",
+  "issued_at": "2026-11-22T07:53:19.912Z",
+  "expires_at": "2026-11-29T07:53:19.912Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4314a6870d9805200e7c25c4ffa3624dfb111b6c1a65edada237685a49281772",
+  "signature": "feb44c9d711c66617d1ba673eddec4d64607e7263a3b047995a10743316e2bfe",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-discoursemcp"
 }

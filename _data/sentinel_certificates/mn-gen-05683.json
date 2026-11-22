@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8219076",
+  "certificate_id": "MN-SC-2026-3787766",
   "skill_id": "mn-gen-05683",
   "skill_name": "glean",
-  "issued_at": "2026-11-15T07:36:59.076Z",
-  "expires_at": "2026-11-22T07:36:59.076Z",
+  "issued_at": "2026-11-22T07:49:47.766Z",
+  "expires_at": "2026-11-29T07:49:47.766Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3cf3846a37cde83dd7ec49f21e6368248b0db73cec7ce44a04846a76ce078b67",
+  "signature": "1f07e1d68538636e7a6edc9f8cf889b56ca43c6b011b63a2daa7c0da10dc18dd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05683"
 }

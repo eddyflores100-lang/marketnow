@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8384297",
+  "certificate_id": "MN-SC-2026-4021402",
   "skill_id": "mn-real-imessagemcp",
   "skill_name": "imessage-mcp",
-  "issued_at": "2026-11-15T07:39:44.297Z",
-  "expires_at": "2026-11-22T07:39:44.297Z",
+  "issued_at": "2026-11-22T07:53:41.402Z",
+  "expires_at": "2026-11-29T07:53:41.402Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "11ea599c283c54bd3c346e943dc776a6297fe187002120b0f971f065d31a4c08",
+  "signature": "7233e40ffb7d1f363228cd95b9adc5eeaf6ef97ea9561e1e22fc4f8fae5f7ac8",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-imessagemcp"
 }

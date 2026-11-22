@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8489508",
+  "certificate_id": "MN-SC-2026-4167397",
   "skill_id": "mn-real-liquidictionmcp",
   "skill_name": "liquidiction-mcp",
-  "issued_at": "2026-11-15T07:41:29.508Z",
-  "expires_at": "2026-11-22T07:41:29.508Z",
+  "issued_at": "2026-11-22T07:56:07.397Z",
+  "expires_at": "2026-11-29T07:56:07.397Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "137a316caec35d66e23f9a3db40f60c1d34ef5e361ec7baa3727ecdfca23429a",
+  "signature": "5d4ec5231a173504ec672132543661d27c2004442627effda9cb4930d0b17318",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-liquidictionmcp"
 }

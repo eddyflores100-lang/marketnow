@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8426636",
+  "certificate_id": "MN-SC-2026-4081574",
   "skill_id": "mn-real-gitingestmcp",
   "skill_name": "gitingest-mcp",
-  "issued_at": "2026-11-15T07:40:26.636Z",
-  "expires_at": "2026-11-22T07:40:26.636Z",
+  "issued_at": "2026-11-22T07:54:41.574Z",
+  "expires_at": "2026-11-29T07:54:41.574Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "109c929742b316befe6b9d1ecd049e39550961dd31190255f04d16411da020e4",
+  "signature": "0698b1795b4cc5f118ae7212269c93c8d5c7f3f62756f01c0e555e9c3b7a3f04",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-gitingestmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8385188",
+  "certificate_id": "MN-SC-2026-4022762",
   "skill_id": "mn-real-fivemcp",
   "skill_name": "five-mcp",
-  "issued_at": "2026-11-15T07:39:45.188Z",
-  "expires_at": "2026-11-22T07:39:45.188Z",
+  "issued_at": "2026-11-22T07:53:42.762Z",
+  "expires_at": "2026-11-29T07:53:42.762Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "8ea1b7a572d9065a15d21548ec73374b22dd3c0b587897aedb66ee35037b5766",
+  "signature": "7b6d0dca598ccc37e7fa7fbb4f41405b91d90d81bc9cb98979b5ef8748ba0735",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-fivemcp"
 }

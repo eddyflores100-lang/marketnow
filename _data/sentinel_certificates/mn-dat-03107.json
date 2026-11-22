@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8196314",
+  "certificate_id": "MN-SC-2026-3755996",
   "skill_id": "mn-dat-03107",
   "skill_name": "mcp-dataverse",
-  "issued_at": "2026-11-15T07:36:36.314Z",
-  "expires_at": "2026-11-22T07:36:36.314Z",
+  "issued_at": "2026-11-22T07:49:15.996Z",
+  "expires_at": "2026-11-29T07:49:15.996Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3c4ff3bd1198dc42023c9dde89d6cfa6f9fedbeb7b1d3e9cd81c648292d54e33",
+  "signature": "a7d7269629e7102767a47e8de6687ab48d4b7f6d6929cf62cb070c9093dd264b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-dat-03107"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8257727",
+  "certificate_id": "MN-SC-2026-3844072",
   "skill_id": "mn-gen-10993",
   "skill_name": "ragie-mcp-server",
-  "issued_at": "2026-11-15T07:37:37.727Z",
-  "expires_at": "2026-11-22T07:37:37.727Z",
+  "issued_at": "2026-11-22T07:50:44.072Z",
+  "expires_at": "2026-11-29T07:50:44.072Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "99b24936e248056ff360f30a540ecb134feea9f75b2c6e850455f4aa7b779111",
+  "signature": "e4ae89e8f5da44f656d0c874f6d270d3cb89bed8ddac35fe5888d06d1ab5302f",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-10993"
 }

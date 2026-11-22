@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8505022",
+  "certificate_id": "MN-SC-2026-4191251",
   "skill_id": "mn-real-unityaibridge",
   "skill_name": "unity-ai-bridge",
-  "issued_at": "2026-11-15T07:41:45.022Z",
-  "expires_at": "2026-11-22T07:41:45.022Z",
+  "issued_at": "2026-11-22T07:56:31.251Z",
+  "expires_at": "2026-11-29T07:56:31.251Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "162dba46341407f9d75a5474c1d23360459cb41cc09247bcd48d5ea3f21ff62a",
+  "signature": "959d7518adabc1af9f0e5d2f2c4daf36dc7a26131032c6a5af481fe86e205b9b",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-unityaibridge"
 }

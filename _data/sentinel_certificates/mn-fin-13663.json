@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8279129",
+  "certificate_id": "MN-SC-2026-3872695",
   "skill_id": "mn-fin-13663",
   "skill_name": "yahoo-finance-mcp",
-  "issued_at": "2026-11-15T07:37:59.129Z",
-  "expires_at": "2026-11-22T07:37:59.129Z",
+  "issued_at": "2026-11-22T07:51:12.695Z",
+  "expires_at": "2026-11-29T07:51:12.695Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fab2cade86e4a4f72062f516fde03aa482bfd9777bc948eba8955f6f5975d38f",
+  "signature": "ab61930d14dc82a0203009744d6d7798fa6a1c6ac54d3d284fdde2ed939197d0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-fin-13663"
 }

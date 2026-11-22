@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8459603",
+  "certificate_id": "MN-SC-2026-4126850",
   "skill_id": "mn-real-mcpserveropendal",
   "skill_name": "mcp-server-opendal",
-  "issued_at": "2026-11-15T07:40:59.603Z",
-  "expires_at": "2026-11-22T07:40:59.603Z",
+  "issued_at": "2026-11-22T07:55:26.850Z",
+  "expires_at": "2026-11-29T07:55:26.850Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "23a3ce065880cd4fad58f9652722ed46825e4049963f057a7bfd897055f7833b",
+  "signature": "5b8bc8b960591c0fe2c8a31002553093d2d52f144d6e5385d734e90ab8c4f053",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpserveropendal"
 }

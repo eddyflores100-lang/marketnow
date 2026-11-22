@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8417116",
+  "certificate_id": "MN-SC-2026-4068229",
   "skill_id": "mn-real-droidmind",
   "skill_name": "droidmind",
-  "issued_at": "2026-11-15T07:40:17.116Z",
-  "expires_at": "2026-11-22T07:40:17.116Z",
+  "issued_at": "2026-11-22T07:54:28.229Z",
+  "expires_at": "2026-11-29T07:54:28.229Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5cf3d0bd8eba2fe50647c7dde0333f6945a5a59e3d90e03539661a79d31460e5",
+  "signature": "d7d0e31e6908e1b1639d97c1a4540325ee0aef09eeacdc324aa3f24220376c2a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-droidmind"
 }

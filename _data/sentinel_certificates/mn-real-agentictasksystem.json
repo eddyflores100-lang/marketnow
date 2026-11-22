@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8523676",
+  "certificate_id": "MN-SC-2026-4218686",
   "skill_id": "mn-real-agentictasksystem",
   "skill_name": "agentic-task-system",
-  "issued_at": "2026-11-15T07:42:03.676Z",
-  "expires_at": "2026-11-22T07:42:03.676Z",
+  "issued_at": "2026-11-22T07:56:58.686Z",
+  "expires_at": "2026-11-29T07:56:58.686Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3b0c24bbababbb983540419a101953902ff375b5612b9a3ed4e91fdbc6afecd3",
+  "signature": "6929a5f736de8e057b5845b1c5643439ea192e1d1e924cae6d05b734d4edcc0d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-agentictasksystem"
 }

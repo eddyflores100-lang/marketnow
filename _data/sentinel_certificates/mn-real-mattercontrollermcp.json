@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8451195",
+  "certificate_id": "MN-SC-2026-4116216",
   "skill_id": "mn-real-mattercontrollermcp",
   "skill_name": "matter-controller-mcp",
-  "issued_at": "2026-11-15T07:40:51.195Z",
-  "expires_at": "2026-11-22T07:40:51.195Z",
+  "issued_at": "2026-11-22T07:55:16.216Z",
+  "expires_at": "2026-11-29T07:55:16.216Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2be37f776520cc73a612b1e29ffc3f9506c7d4cd08f63031126e01b3b6fea006",
+  "signature": "528ced5aaf5ce678c3b2c05ab4eed9c7564385ce5169e45b3bc636c1ae53b747",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mattercontrollermcp"
 }

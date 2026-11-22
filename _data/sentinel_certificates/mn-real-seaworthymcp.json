@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8497312",
+  "certificate_id": "MN-SC-2026-4180043",
   "skill_id": "mn-real-seaworthymcp",
   "skill_name": "seaworthy-mcp",
-  "issued_at": "2026-11-15T07:41:37.312Z",
-  "expires_at": "2026-11-22T07:41:37.312Z",
+  "issued_at": "2026-11-22T07:56:20.043Z",
+  "expires_at": "2026-11-29T07:56:20.043Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c238fb1f138358cc353ecfb769ad17f78dcb4c8c672080ea34e588d49c826db3",
+  "signature": "e400db6521b90a3257b543b0a201b325dd0e0f84780cb83e7963829cea62ee63",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-seaworthymcp"
 }

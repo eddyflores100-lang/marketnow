@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8431630",
+  "certificate_id": "MN-SC-2026-4088973",
   "skill_id": "mn-real-retrievallens",
   "skill_name": "retrieval-lens",
-  "issued_at": "2026-11-15T07:40:31.630Z",
-  "expires_at": "2026-11-22T07:40:31.630Z",
+  "issued_at": "2026-11-22T07:54:48.973Z",
+  "expires_at": "2026-11-29T07:54:48.973Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6c8b61310f14fd22b2ac5e7bf949d30d8a9b8529990e0d442793bb7ac3a8bbe4",
+  "signature": "da186b1ce9beb2b120a54669eb879088d3ddfed9fd1e6f1598f088997c78f1c4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-retrievallens"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8221282",
+  "certificate_id": "MN-SC-2026-3790876",
   "skill_id": "mn-gen-05948",
   "skill_name": "intelligence-mcp",
-  "issued_at": "2026-11-15T07:37:01.282Z",
-  "expires_at": "2026-11-22T07:37:01.282Z",
+  "issued_at": "2026-11-22T07:49:50.876Z",
+  "expires_at": "2026-11-29T07:49:50.876Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e89a8bc9cfa8ac27a61bd04da4cb266df6126bb59e9389f7e7ea3ea702e7e8db",
+  "signature": "af74287ad834c81da4fbabfa56ac73a81a08e3eda377e0f2b3d1e097e46738b2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05948"
 }

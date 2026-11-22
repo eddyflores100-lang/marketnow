@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8399615",
+  "certificate_id": "MN-SC-2026-4043070",
   "skill_id": "mn-real-oyemimcp",
   "skill_name": "oyemi-mcp",
-  "issued_at": "2026-11-15T07:39:59.615Z",
-  "expires_at": "2026-11-22T07:39:59.615Z",
+  "issued_at": "2026-11-22T07:54:03.070Z",
+  "expires_at": "2026-11-29T07:54:03.070Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "327eb271cb2eff04a464496734884bb259f0cedc410bbb4201ceb712b2eb43d2",
+  "signature": "ce1a2ca0e7c64a4f62ecd265443fa861882f282f2f77bc0f3215af10f2ba8747",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-oyemimcp"
 }

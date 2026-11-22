@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8484271",
+  "certificate_id": "MN-SC-2026-4159797",
   "skill_id": "mn-real-cryptoprojectsmcp",
   "skill_name": "crypto-projects-mcp",
-  "issued_at": "2026-11-15T07:41:24.271Z",
-  "expires_at": "2026-11-22T07:41:24.271Z",
+  "issued_at": "2026-11-22T07:55:59.797Z",
+  "expires_at": "2026-11-29T07:55:59.797Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1cdd31a30898bc170954a93eb34f018de89f467d0b34997931a5bbdc3e8c7224",
+  "signature": "cd5e8bd4f0310470492b83b1ca4986e1b9b89c9f6f95fe94e40e8fc676e57a39",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cryptoprojectsmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8208579",
+  "certificate_id": "MN-SC-2026-3771722",
   "skill_id": "mn-gen-04351",
   "skill_name": "gemini-mcp-tool",
-  "issued_at": "2026-11-15T07:36:48.579Z",
-  "expires_at": "2026-11-22T07:36:48.579Z",
+  "issued_at": "2026-11-22T07:49:31.722Z",
+  "expires_at": "2026-11-29T07:49:31.722Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 6,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0fa8a319e775757f99f9be1813435da75fbb306c95ebd10a0f034fd9b80ef509",
+  "signature": "4ffe174c32b929e7a2046ac63403c8fbefe7cc031574645388cc8f8f229a8659",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04351"
 }

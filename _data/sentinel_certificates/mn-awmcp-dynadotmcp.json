@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8340513",
+  "certificate_id": "MN-SC-2026-3959912",
   "skill_id": "mn-awmcp-dynadotmcp",
   "skill_name": "dynadot-mcp",
-  "issued_at": "2026-11-15T07:39:00.513Z",
-  "expires_at": "2026-11-22T07:39:00.513Z",
+  "issued_at": "2026-11-22T07:52:39.912Z",
+  "expires_at": "2026-11-29T07:52:39.912Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "04ded988562c6e91bb3b27c5d27390569c915ad04de01edec5f4c89640b859b6",
+  "signature": "579e5493c9a371499c0a56517577f0e68a7fc62875bbe0f0f88a5dbd87a0103d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-dynadotmcp"
 }

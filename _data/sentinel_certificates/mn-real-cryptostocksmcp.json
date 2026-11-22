@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8484580",
+  "certificate_id": "MN-SC-2026-4160220",
   "skill_id": "mn-real-cryptostocksmcp",
   "skill_name": "crypto-stocks-mcp",
-  "issued_at": "2026-11-15T07:41:24.580Z",
-  "expires_at": "2026-11-22T07:41:24.580Z",
+  "issued_at": "2026-11-22T07:56:00.220Z",
+  "expires_at": "2026-11-29T07:56:00.220Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d3fe292e1a46b4fc979e8e762fd54564a111bdb9d8f24aa0aaf3ed91e86a29d9",
+  "signature": "a6a9808cafbd18ea0fb2fa69b7b195b8815cbc3add5a6c6b05e3936d967fbc97",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cryptostocksmcp"
 }

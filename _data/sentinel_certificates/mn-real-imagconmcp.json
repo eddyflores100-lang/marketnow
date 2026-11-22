@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8407396",
+  "certificate_id": "MN-SC-2026-4054253",
   "skill_id": "mn-real-imagconmcp",
   "skill_name": "imagcon-mcp",
-  "issued_at": "2026-11-15T07:40:07.396Z",
-  "expires_at": "2026-11-22T07:40:07.396Z",
+  "issued_at": "2026-11-22T07:54:14.253Z",
+  "expires_at": "2026-11-29T07:54:14.253Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "1879fc4d5d5e11dc8e0dc48b93e9eeff1ffee26f2797d7f10bf48340dd510831",
+  "signature": "61927eb10cdd4db7ef12d191cff026210b53c7fbb65da3abfa269fb19b985570",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-imagconmcp"
 }

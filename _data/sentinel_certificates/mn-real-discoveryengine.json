@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8448203",
+  "certificate_id": "MN-SC-2026-4112103",
   "skill_id": "mn-real-discoveryengine",
   "skill_name": "discovery-engine",
-  "issued_at": "2026-11-15T07:40:48.203Z",
-  "expires_at": "2026-11-22T07:40:48.203Z",
+  "issued_at": "2026-11-22T07:55:12.103Z",
+  "expires_at": "2026-11-29T07:55:12.103Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a81e96ce7138cb3c25f358ad6490982600ee0bef0f4f88961381e7d533be657f",
+  "signature": "dfd99bbb7778303720b17d374af302e2867034f0aa77aba484aa9879273c43c2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-discoveryengine"
 }

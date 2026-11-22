@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8457448",
+  "certificate_id": "MN-SC-2026-4123957",
   "skill_id": "mn-real-chisel",
   "skill_name": "Chisel",
-  "issued_at": "2026-11-15T07:40:57.448Z",
-  "expires_at": "2026-11-22T07:40:57.448Z",
+  "issued_at": "2026-11-22T07:55:23.957Z",
+  "expires_at": "2026-11-29T07:55:23.957Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fa26f73f7359a5d7e8fef58d28ae37b6201bd73bb70daaf57c34c2055e53a8a2",
+  "signature": "ea903034d8f47dbbd571e7bcad120fc05b1e88f97fe7618ac68efeef0f04c75d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-chisel"
 }

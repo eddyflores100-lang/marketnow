@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8419501",
+  "certificate_id": "MN-SC-2026-4071648",
   "skill_id": "mn-real-lightcms",
   "skill_name": "lightcms",
-  "issued_at": "2026-11-15T07:40:19.501Z",
-  "expires_at": "2026-11-22T07:40:19.501Z",
+  "issued_at": "2026-11-22T07:54:31.648Z",
+  "expires_at": "2026-11-29T07:54:31.648Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "baf20d7ce5ea95dbbe469fb17dfc4942e026e11726ac7c11c80550d5e238cdd8",
+  "signature": "6bad43fca96b60ca59f7eed2df8bb566119ede7c8b4bab2ac5089e833d53e89a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-lightcms"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8331994",
+  "certificate_id": "MN-SC-2026-3948710",
   "skill_id": "mn-awmcp-pageshotapi",
   "skill_name": "pageshot-api",
-  "issued_at": "2026-11-15T07:38:51.994Z",
-  "expires_at": "2026-11-22T07:38:51.994Z",
+  "issued_at": "2026-11-22T07:52:28.710Z",
+  "expires_at": "2026-11-29T07:52:28.710Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e85c54219c0d0fd2ab2181ffca131e436a4c41dde0e90e81375a653ae17a0843",
+  "signature": "9f2d87d6a7e5256d1977d309b16af39a8a47060cdf3406404769b376499fdfc1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-pageshotapi"
 }

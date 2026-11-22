@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8358844",
+  "certificate_id": "MN-SC-2026-3983625",
   "skill_id": "mn-awmcp-leetcodemcpserver",
   "skill_name": "leetcode-mcp-server",
-  "issued_at": "2026-11-15T07:39:18.844Z",
-  "expires_at": "2026-11-22T07:39:18.844Z",
+  "issued_at": "2026-11-22T07:53:03.625Z",
+  "expires_at": "2026-11-29T07:53:03.625Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d60cae7d3c83c3e3b6ed50a4d527167ececb86682221c08a292d8c5b6f582f94",
+  "signature": "8683d39ad73d63638ba0f34b36f1311c3e6a1200f516b0b66a45ea74b484c4df",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-leetcodemcpserver"
 }

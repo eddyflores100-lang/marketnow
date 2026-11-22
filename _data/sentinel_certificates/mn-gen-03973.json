@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8204041",
+  "certificate_id": "MN-SC-2026-3765918",
   "skill_id": "mn-gen-03973",
   "skill_name": "fhir-mcp-server",
-  "issued_at": "2026-11-15T07:36:44.041Z",
-  "expires_at": "2026-11-22T07:36:44.041Z",
+  "issued_at": "2026-11-22T07:49:25.918Z",
+  "expires_at": "2026-11-29T07:49:25.918Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "751192bb2833a8b7b4b1d83505f8fd5fe3ef0fb91f6482c3c209166487f8a416",
+  "signature": "9b1900183d153a90834c2a492e9597fb964c00e376f2f2f8077285ddb46eb11e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-03973"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8483387",
+  "certificate_id": "MN-SC-2026-4158542",
   "skill_id": "mn-real-cryptoindicatorsmcp",
   "skill_name": "crypto-indicators-mcp",
-  "issued_at": "2026-11-15T07:41:23.387Z",
-  "expires_at": "2026-11-22T07:41:23.387Z",
+  "issued_at": "2026-11-22T07:55:58.542Z",
+  "expires_at": "2026-11-29T07:55:58.542Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b5415c91d9c45f24b70e5a6bb48f6e151958cd74ff44258da6818d44d20eb127",
+  "signature": "0e0492e0f63ab14c564d62382f2fe61ce5865d49dbca2462d134d04eb374874a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cryptoindicatorsmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8428324",
+  "certificate_id": "MN-SC-2026-4084008",
   "skill_id": "mn-real-opslevelmcp",
   "skill_name": "opslevel-mcp",
-  "issued_at": "2026-11-15T07:40:28.324Z",
-  "expires_at": "2026-11-22T07:40:28.324Z",
+  "issued_at": "2026-11-22T07:54:44.008Z",
+  "expires_at": "2026-11-29T07:54:44.008Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "028d0c5f99ed2ffaafa5ecebba3a6f4b29429ba5d066b124fc349fa9f7bcc99a",
+  "signature": "43a8cef6476171090a0e8cf004e44e6563eba857bb0577760d7ef5c903c60016",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-opslevelmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8372716",
+  "certificate_id": "MN-SC-2026-4003843",
   "skill_id": "mn-awmcp-mcpwecombotservergit",
   "skill_name": "mcp-wecombot-server.git",
-  "issued_at": "2026-11-15T07:39:32.716Z",
-  "expires_at": "2026-11-22T07:39:32.716Z",
+  "issued_at": "2026-11-22T07:53:23.843Z",
+  "expires_at": "2026-11-29T07:53:23.843Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b1a21d4517c3b5fead45251bbe6bbb0ce9ec4dde648fd0cd00cc8aba71418c84",
+  "signature": "bf845c0cd42e54df995cdc7711d1a0c82ea3e9d947ddfdb35fae1e6cea9f793a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpwecombotservergit"
 }

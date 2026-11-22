@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8458220",
+  "certificate_id": "MN-SC-2026-4125042",
   "skill_id": "mn-real-gurupdfmcp",
   "skill_name": "gurupdf-mcp",
-  "issued_at": "2026-11-15T07:40:58.220Z",
-  "expires_at": "2026-11-22T07:40:58.220Z",
+  "issued_at": "2026-11-22T07:55:25.042Z",
+  "expires_at": "2026-11-29T07:55:25.042Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "fe13999518d36bbb5abc0735c86a7c5d8e27620b61bc5bb95cb75faa878625db",
+  "signature": "60920ee684d519b323219c150a7faef020d9799c22e6501fdfc96be38ad2665c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-gurupdfmcp"
 }

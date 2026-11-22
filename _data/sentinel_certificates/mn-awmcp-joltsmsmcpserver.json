@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8374956",
+  "certificate_id": "MN-SC-2026-4007054",
   "skill_id": "mn-awmcp-joltsmsmcpserver",
   "skill_name": "joltsms-mcp-server",
-  "issued_at": "2026-11-15T07:39:34.956Z",
-  "expires_at": "2026-11-22T07:39:34.956Z",
+  "issued_at": "2026-11-22T07:53:27.054Z",
+  "expires_at": "2026-11-29T07:53:27.054Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4ec52167fb5f5bd94c2da5a1667db6c1eb84e803cfcee0137b62af1651cd9ce0",
+  "signature": "e8ca8870a857f4fcbd1e9c2386bcc489b076f162af48df03fae2fd85bf9a0df9",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-joltsmsmcpserver"
 }

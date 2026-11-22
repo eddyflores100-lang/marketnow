@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8401200",
+  "certificate_id": "MN-SC-2026-4045373",
   "skill_id": "mn-real-codebasememorymcp",
   "skill_name": "codebase-memory-mcp",
-  "issued_at": "2026-11-15T07:40:01.200Z",
-  "expires_at": "2026-11-22T07:40:01.200Z",
+  "issued_at": "2026-11-22T07:54:05.373Z",
+  "expires_at": "2026-11-29T07:54:05.373Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "4a3553506729399d0c991ca8e4276cf02a37ab1ad7e1ebcbf7a57b9ccc72aaf5",
+  "signature": "7a57d8f233a9c7e2486c338296a81b1b8d37168b687fd1806e656ca9dd2a99f3",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-codebasememorymcp"
 }

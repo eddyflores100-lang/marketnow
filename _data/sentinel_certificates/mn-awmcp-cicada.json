@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8363906",
+  "certificate_id": "MN-SC-2026-3990189",
   "skill_id": "mn-awmcp-cicada",
   "skill_name": "cicada",
-  "issued_at": "2026-11-15T07:39:23.906Z",
-  "expires_at": "2026-11-22T07:39:23.906Z",
+  "issued_at": "2026-11-22T07:53:10.189Z",
+  "expires_at": "2026-11-29T07:53:10.189Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d4909ee25ea112f343b073e6ca6029e9c38e000a14666ce818496b5f814b0f09",
+  "signature": "8b00eeba950ceb940c88f879939606990c18b12c600f1e97df56e4d62e36a32c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-cicada"
 }

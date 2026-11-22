@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8455694",
+  "certificate_id": "MN-SC-2026-4121676",
   "skill_id": "mn-real-swissgroceriesmcp",
   "skill_name": "swissgroceries-mcp",
-  "issued_at": "2026-11-15T07:40:55.694Z",
-  "expires_at": "2026-11-22T07:40:55.694Z",
+  "issued_at": "2026-11-22T07:55:21.676Z",
+  "expires_at": "2026-11-29T07:55:21.676Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "635b5e8159732876b64fedb7e95e9ce39099836b44a5cf4bda0b05ab966b9447",
+  "signature": "f6c91459cea85f3d17f43c71068a2ef387236335686874028c59033e56c09a7c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-swissgroceriesmcp"
 }

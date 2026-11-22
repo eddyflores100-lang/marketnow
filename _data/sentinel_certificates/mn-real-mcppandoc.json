@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8437734",
+  "certificate_id": "MN-SC-2026-4097815",
   "skill_id": "mn-real-mcppandoc",
   "skill_name": "mcp-pandoc",
-  "issued_at": "2026-11-15T07:40:37.734Z",
-  "expires_at": "2026-11-22T07:40:37.734Z",
+  "issued_at": "2026-11-22T07:54:57.815Z",
+  "expires_at": "2026-11-29T07:54:57.815Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "3a5766540b1839d79794116a8a64664796f7f9e3cbf93850b3e9fb6096bb6bd4",
+  "signature": "19952262271c97ab568f4fe250e5a268e683f39f3da82fab4689593f842da4fe",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcppandoc"
 }

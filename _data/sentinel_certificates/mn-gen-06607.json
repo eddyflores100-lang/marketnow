@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8225619",
+  "certificate_id": "MN-SC-2026-3798115",
   "skill_id": "mn-gen-06607",
   "skill_name": "next-devtools-mcp",
-  "issued_at": "2026-11-15T07:37:05.619Z",
-  "expires_at": "2026-11-22T07:37:05.619Z",
+  "issued_at": "2026-11-22T07:49:58.115Z",
+  "expires_at": "2026-11-29T07:49:58.115Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -36,7 +36,7 @@
     "resolved_at": "2026-11-13T13:19:07.870Z"
   },
   "cert_v": 2,
-  "signature": "a7d2a9b08c7d240a20b70e793d3644ce63aaa026ab910aecb2ec7d8737c32445",
+  "signature": "1c42dac27ebd7aaf01dc11d778295bed0f29825097baa18937c20d31b5dbb1d5",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-06607"
 }

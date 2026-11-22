@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8231603",
+  "certificate_id": "MN-SC-2026-3807093",
   "skill_id": "mn-gen-07164",
   "skill_name": "notion-mcp-server",
-  "issued_at": "2026-11-15T07:37:11.603Z",
-  "expires_at": "2026-11-22T07:37:11.603Z",
+  "issued_at": "2026-11-22T07:50:07.093Z",
+  "expires_at": "2026-11-29T07:50:07.093Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "804ca35cb25067b443274e509f6fdbb08b6f6a4b59b151eec2e3a5a9a3102524",
+  "signature": "5fca3f8f03a82acbc39da41865528e762d8883918cb2990dcc0d5d484232c59c",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-07164"
 }

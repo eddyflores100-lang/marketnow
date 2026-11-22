@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8405293",
+  "certificate_id": "MN-SC-2026-4051386",
   "skill_id": "mn-real-primitiv",
   "skill_name": "primitiv",
-  "issued_at": "2026-11-15T07:40:05.293Z",
-  "expires_at": "2026-11-22T07:40:05.293Z",
+  "issued_at": "2026-11-22T07:54:11.386Z",
+  "expires_at": "2026-11-29T07:54:11.386Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "b3ee6d6eb04c95d65cda335f3708743d85c2c9546b8804c185778cce839bd9ae",
+  "signature": "07cab283dc646c89e4e93c4223fa81b6019859704c38b0c76d042da5f3796785",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-primitiv"
 }

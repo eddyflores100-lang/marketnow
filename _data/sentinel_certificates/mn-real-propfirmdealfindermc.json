@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8468710",
+  "certificate_id": "MN-SC-2026-4138373",
   "skill_id": "mn-real-propfirmdealfindermc",
   "skill_name": "propfirmdealfinder-mcp-server",
-  "issued_at": "2026-11-15T07:41:08.710Z",
-  "expires_at": "2026-11-22T07:41:08.710Z",
+  "issued_at": "2026-11-22T07:55:38.373Z",
+  "expires_at": "2026-11-29T07:55:38.373Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "87d90de68a04fd85a47849e438a078e953e6b94c5d811e07faa5b5372bad9f30",
+  "signature": "4254cc5dbbdc0585e5d81972b24098d04a229b1037580e2c2420e0258cd4bddf",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-propfirmdealfindermc"
 }

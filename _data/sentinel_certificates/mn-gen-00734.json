@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8176977",
+  "certificate_id": "MN-SC-2026-3726684",
   "skill_id": "mn-gen-00734",
   "skill_name": "amazon-ads-mcp-server",
-  "issued_at": "2026-11-15T07:36:16.977Z",
-  "expires_at": "2026-11-22T07:36:16.977Z",
+  "issued_at": "2026-11-22T07:48:46.684Z",
+  "expires_at": "2026-11-29T07:48:46.684Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ba234f1dea5fdce5837db4eae145fc0f76d9b5a50d9ed1871ee4762c7195a92a",
+  "signature": "94fa9e17f24f5452e81b1bea71ac3d7c707b937f64420d2dabfcd39c0b7cb718",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-00734"
 }

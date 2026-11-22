@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8246036",
+  "certificate_id": "MN-SC-2026-3828727",
   "skill_id": "mn-gen-09194",
   "skill_name": "monarch-mcp-server",
-  "issued_at": "2026-11-15T07:37:26.036Z",
-  "expires_at": "2026-11-22T07:37:26.036Z",
+  "issued_at": "2026-11-22T07:50:28.727Z",
+  "expires_at": "2026-11-29T07:50:28.727Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c3a11e04b0b26c5bab35bba21f9c71171d8e46fa367eb7975730ad986cd60664",
+  "signature": "382254f96113c397437197f2af57266eae9185c31f5153521d7642cb92e3ffea",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-09194"
 }

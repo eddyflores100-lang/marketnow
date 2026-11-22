@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8323565",
+  "certificate_id": "MN-SC-2026-3938129",
   "skill_id": "mn-awmcp-mcpserverappleremind",
   "skill_name": "mcp-server-apple-reminders",
-  "issued_at": "2026-11-15T07:38:43.565Z",
-  "expires_at": "2026-11-22T07:38:43.565Z",
+  "issued_at": "2026-11-22T07:52:18.129Z",
+  "expires_at": "2026-11-29T07:52:18.129Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 5,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "c21eaddb022801b015c164dc09135fd66cb4338ac12604aff2aa6f6dadefaeab",
+  "signature": "3c6ad8c42bf0098b5a78d8211b82d00afe935deb4c724fdf9696c5205c416241",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mcpserverappleremind"
 }

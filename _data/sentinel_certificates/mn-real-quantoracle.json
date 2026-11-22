@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8495743",
+  "certificate_id": "MN-SC-2026-4177450",
   "skill_id": "mn-real-quantoracle",
   "skill_name": "quantoracle",
-  "issued_at": "2026-11-15T07:41:35.743Z",
-  "expires_at": "2026-11-22T07:41:35.743Z",
+  "issued_at": "2026-11-22T07:56:17.450Z",
+  "expires_at": "2026-11-29T07:56:17.450Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "9737e7ace41a5d2bdd77d08388496a85093585b3a2f73916fa2cd61f46ba78d4",
+  "signature": "77e0a8978aa69c0f4ad5c5403da5471b75813cd528f051d93d38008bb3e2de19",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-quantoracle"
 }

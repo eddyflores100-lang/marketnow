@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8520726",
+  "certificate_id": "MN-SC-2026-4214338",
   "skill_id": "mn-real-legooracle",
   "skill_name": "lego-oracle",
-  "issued_at": "2026-11-15T07:42:00.726Z",
-  "expires_at": "2026-11-22T07:42:00.726Z",
+  "issued_at": "2026-11-22T07:56:54.338Z",
+  "expires_at": "2026-11-29T07:56:54.338Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0a2be8ffcb4e87edcbe1ec6400e9f2cd5ceb2e03dcbf96a4ee29180a705c5a3e",
+  "signature": "25c652dd88430959972e9e3b5e3c46fd55c1114f10a4cb68d2e137aa9a6bcade",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-legooracle"
 }

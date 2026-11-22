@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8277524",
+  "certificate_id": "MN-SC-2026-3870779",
   "skill_id": "mn-gen-13431",
   "skill_name": "whoop-mcp-server",
-  "issued_at": "2026-11-15T07:37:57.524Z",
-  "expires_at": "2026-11-22T07:37:57.524Z",
+  "issued_at": "2026-11-22T07:51:10.779Z",
+  "expires_at": "2026-11-29T07:51:10.779Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "12c1dc63efe5de5157fef72fa61032035622a196711c4769d451a6105393d253",
+  "signature": "73c82352a16ad259fdbed354ab4376d5ab014dafd5ce0e9c85f6228ea1e669e2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-13431"
 }

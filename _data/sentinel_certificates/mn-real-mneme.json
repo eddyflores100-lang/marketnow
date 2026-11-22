@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8525689",
+  "certificate_id": "MN-SC-2026-4221744",
   "skill_id": "mn-real-mneme",
   "skill_name": "mneme",
-  "issued_at": "2026-11-15T07:42:05.689Z",
-  "expires_at": "2026-11-22T07:42:05.689Z",
+  "issued_at": "2026-11-22T07:57:01.744Z",
+  "expires_at": "2026-11-29T07:57:01.744Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d0411add7f3e6b0467dc8336e3e4c69d82e423aa46040599240887f4bb197416",
+  "signature": "72e6952766bce69454add9e12d38289db9e81420d7328bcea2a2ab757dea9e88",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mneme"
 }

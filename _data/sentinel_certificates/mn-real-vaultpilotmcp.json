@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8499859",
+  "certificate_id": "MN-SC-2026-4183695",
   "skill_id": "mn-real-vaultpilotmcp",
   "skill_name": "vaultpilot-mcp",
-  "issued_at": "2026-11-15T07:41:39.859Z",
-  "expires_at": "2026-11-22T07:41:39.859Z",
+  "issued_at": "2026-11-22T07:56:23.695Z",
+  "expires_at": "2026-11-29T07:56:23.695Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "dc9b6fcb5580e047a45fddf87e7848bec873d44cba4dfc091a5c62196bf51a32",
+  "signature": "eea0646d55080adc97a748b6a3972142e401fcea1d0481c6bda5d63148672f9d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-vaultpilotmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8358481",
+  "certificate_id": "MN-SC-2026-3983085",
   "skill_id": "mn-awmcp-persistproc",
   "skill_name": "persistproc",
-  "issued_at": "2026-11-15T07:39:18.481Z",
-  "expires_at": "2026-11-22T07:39:18.481Z",
+  "issued_at": "2026-11-22T07:53:03.085Z",
+  "expires_at": "2026-11-29T07:53:03.085Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "07ce78707d8f03d35fe7d90d39adfc24967924a1f4b3c6bb16d6890a28e346dd",
+  "signature": "2cafbffb674e12104456ef08d4cd82dea7d02a666e132e9de6636c2f70cc53c4",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-persistproc"
 }

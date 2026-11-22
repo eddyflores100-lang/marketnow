@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8459320",
+  "certificate_id": "MN-SC-2026-4126484",
   "skill_id": "mn-real-pdfcardmcp",
   "skill_name": "pdf-card-mcp",
-  "issued_at": "2026-11-15T07:40:59.320Z",
-  "expires_at": "2026-11-22T07:40:59.320Z",
+  "issued_at": "2026-11-22T07:55:26.484Z",
+  "expires_at": "2026-11-29T07:55:26.484Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0148fe87cb5d801f1df264405db22349151c7f358b42a8c4f17de02095c88580",
+  "signature": "1bc79110a1c7c74a13084e80539297d55335b49fde9aafa37753fc801b387b09",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-pdfcardmcp"
 }

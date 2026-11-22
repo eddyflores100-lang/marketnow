@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8479649",
+  "certificate_id": "MN-SC-2026-4153473",
   "skill_id": "mn-real-evmmcp",
   "skill_name": "evm-mcp",
-  "issued_at": "2026-11-15T07:41:19.649Z",
-  "expires_at": "2026-11-22T07:41:19.649Z",
+  "issued_at": "2026-11-22T07:55:53.473Z",
+  "expires_at": "2026-11-29T07:55:53.473Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "806ffaa84a4bc7100d42e98babd7349702f64df24c215413d7ea53db5b7bf911",
+  "signature": "4370d63353acd6f448ddd229e55aafd0ca4d6d86ab6df7f2ff6e64ea07ae8fbf",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-evmmcp"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8433068",
+  "certificate_id": "MN-SC-2026-4091087",
   "skill_id": "mn-real-mcpserverboilerplate",
   "skill_name": "mcp-server-boilerplate",
-  "issued_at": "2026-11-15T07:40:33.068Z",
-  "expires_at": "2026-11-22T07:40:33.068Z",
+  "issued_at": "2026-11-22T07:54:51.087Z",
+  "expires_at": "2026-11-29T07:54:51.087Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 7,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "32d0dad651ceab2ac32cae1528fc421ee01c20201e7c40de7e7a15d509098456",
+  "signature": "9ddfbce1100dd1cb0193d961e45b789de081fc3321c05ba9fab5d9b962b60e32",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpserverboilerplate"
 }

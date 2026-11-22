@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8264117",
+  "certificate_id": "MN-SC-2026-3852968",
   "skill_id": "mn-gen-11781",
   "skill_name": "SimBrief-MCPServer",
-  "issued_at": "2026-11-15T07:37:44.117Z",
-  "expires_at": "2026-11-22T07:37:44.117Z",
+  "issued_at": "2026-11-22T07:50:52.968Z",
+  "expires_at": "2026-11-29T07:50:52.968Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6f1a1916c896bb5786ee20a3637f521439a459116fcef28fa78efd1ffea9144e",
+  "signature": "44cf466772c0c3b1e22632af601388f94fcaa3150b4624064dc65690e9bb85dc",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-11781"
 }

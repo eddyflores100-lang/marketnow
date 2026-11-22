@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8314401",
+  "certificate_id": "MN-SC-2026-3926023",
   "skill_id": "mn-awmcp-encodetoolkit",
   "skill_name": "encode-toolkit",
-  "issued_at": "2026-11-15T07:38:34.401Z",
-  "expires_at": "2026-11-22T07:38:34.401Z",
+  "issued_at": "2026-11-22T07:52:06.023Z",
+  "expires_at": "2026-11-29T07:52:06.023Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "bfc2d846419319d92d7a4a83305f36f8f0ab1aefd1019a944783a85bc4ed7365",
+  "signature": "427de9a07f3502e3c17052e42b53968b2f02fe899fcbae3543378c7e7d42fb5a",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-encodetoolkit"
 }

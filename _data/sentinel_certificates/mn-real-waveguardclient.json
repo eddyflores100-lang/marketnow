@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8447741",
+  "certificate_id": "MN-SC-2026-4111457",
   "skill_id": "mn-real-waveguardclient",
   "skill_name": "WaveGuardClient",
-  "issued_at": "2026-11-15T07:40:47.741Z",
-  "expires_at": "2026-11-22T07:40:47.741Z",
+  "issued_at": "2026-11-22T07:55:11.457Z",
+  "expires_at": "2026-11-29T07:55:11.457Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "047a5348449520888dc1c02b2d995b69b6786a95a483906497f9ba72fa64db85",
+  "signature": "130ec62ef102f4764ea8f3e3c7f3c5c9d0ce09092ccd5b6aa972721374978819",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-waveguardclient"
 }

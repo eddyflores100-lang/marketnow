@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8176454",
+  "certificate_id": "MN-SC-2026-3725619",
   "skill_id": "mn-ai-00639",
   "skill_name": "airtable-mcp",
-  "issued_at": "2026-11-15T07:36:16.454Z",
-  "expires_at": "2026-11-22T07:36:16.454Z",
+  "issued_at": "2026-11-22T07:48:45.619Z",
+  "expires_at": "2026-11-29T07:48:45.619Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f092acac7b16908bc25aa07fae6328f64f7d83590327a6613d58254429597db3",
+  "signature": "e3c5f74847e7fb49a976193d2db631d9f05c5434cd993e09f3f9fc46b483ff4e",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-ai-00639"
 }

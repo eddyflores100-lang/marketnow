@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8383726",
+  "certificate_id": "MN-SC-2026-4020518",
   "skill_id": "mn-real-neurodock",
   "skill_name": "neurodock",
-  "issued_at": "2026-11-15T07:39:43.726Z",
-  "expires_at": "2026-11-22T07:39:43.726Z",
+  "issued_at": "2026-11-22T07:53:40.518Z",
+  "expires_at": "2026-11-29T07:53:40.518Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "11be72ac4a74567a0254aca4b7ea3247105fb46f20466ee0673d77c0e39af3e7",
+  "signature": "776e3aa4b38403f623a6999c9ae4330833b417df63922e66b1d98584932d0631",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-neurodock"
 }

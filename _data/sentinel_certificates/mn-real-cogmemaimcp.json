@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8521891",
+  "certificate_id": "MN-SC-2026-4216092",
   "skill_id": "mn-real-cogmemaimcp",
   "skill_name": "cogmemai-mcp",
-  "issued_at": "2026-11-15T07:42:01.891Z",
-  "expires_at": "2026-11-22T07:42:01.891Z",
+  "issued_at": "2026-11-22T07:56:56.092Z",
+  "expires_at": "2026-11-29T07:56:56.092Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "a9c74c83cc18e926e0ab1a9537bfe2e94ddc40ba8a0978505818a9bdca9ecb56",
+  "signature": "ab2fc4792f212a0e2e7960801fe4d01608dfa25e0140af03fc0b958a9e2a8e30",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-cogmemaimcp"
 }

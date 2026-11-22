@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8317781",
+  "certificate_id": "MN-SC-2026-3930149",
   "skill_id": "mn-awmcp-omopmcp",
   "skill_name": "omop_mcp",
-  "issued_at": "2026-11-15T07:38:37.781Z",
-  "expires_at": "2026-11-22T07:38:37.781Z",
+  "issued_at": "2026-11-22T07:52:10.149Z",
+  "expires_at": "2026-11-29T07:52:10.149Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "f27304581511eda09d2548e24bd85a274037c1131bd1e7304a146ca6f2230796",
+  "signature": "8c86ea511bdf057181c9931ea95b55d9a4a5f65f7738ff529244f20b92362e48",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-omopmcp"
 }

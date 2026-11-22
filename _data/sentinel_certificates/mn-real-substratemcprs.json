@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8500112",
+  "certificate_id": "MN-SC-2026-4184043",
   "skill_id": "mn-real-substratemcprs",
   "skill_name": "substrate-mcp-rs",
-  "issued_at": "2026-11-15T07:41:40.112Z",
-  "expires_at": "2026-11-22T07:41:40.112Z",
+  "issued_at": "2026-11-22T07:56:24.043Z",
+  "expires_at": "2026-11-29T07:56:24.043Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7a4d3fdca86cea79c42bc4f2a6f9ae4ad71c9737cbab5883e3614fca26654c08",
+  "signature": "47bc1f377785d14c86f7e66ae1b9c1f5e191881f73ac1778beb25cfbc1f4d8b0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-substratemcprs"
 }

@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8217796",
+  "certificate_id": "MN-SC-2026-3785213",
   "skill_id": "mn-gen-05446",
   "skill_name": "mcp-keycloak-admin",
-  "issued_at": "2026-11-15T07:36:57.796Z",
-  "expires_at": "2026-11-22T07:36:57.796Z",
+  "issued_at": "2026-11-22T07:49:45.213Z",
+  "expires_at": "2026-11-29T07:49:45.213Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "73df816b55de6631e33fd13bbad1bf3f5f6a1961fd614db3c0b0eab75d3bc5d4",
+  "signature": "52ea3b18769c8f595f37577bbff79efda282deaed3be9353b2febfc4b94a7193",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05446"
 }

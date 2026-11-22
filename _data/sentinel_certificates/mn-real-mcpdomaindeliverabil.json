@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8444094",
+  "certificate_id": "MN-SC-2026-4106612",
   "skill_id": "mn-real-mcpdomaindeliverabil",
   "skill_name": "mcp-domain-deliverability-checker",
-  "issued_at": "2026-11-15T07:40:44.094Z",
-  "expires_at": "2026-11-22T07:40:44.094Z",
+  "issued_at": "2026-11-22T07:55:06.612Z",
+  "expires_at": "2026-11-29T07:55:06.612Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "37b41e790a49204a43fcf30bcc6b9842c890c4cdef68c6bea6037876b0244cbb",
+  "signature": "d7dff0043a78d58683a24461fae143c60848e10a40f8d1efacb51e90b26d1764",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpdomaindeliverabil"
 }

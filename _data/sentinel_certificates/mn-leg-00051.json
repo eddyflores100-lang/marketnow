@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8280374",
+  "certificate_id": "MN-SC-2026-3874528",
   "skill_id": "mn-leg-00051",
   "skill_name": "sec-filings-mcp",
-  "issued_at": "2026-11-15T07:38:00.374Z",
-  "expires_at": "2026-11-22T07:38:00.374Z",
+  "issued_at": "2026-11-22T07:51:14.528Z",
+  "expires_at": "2026-11-29T07:51:14.528Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e08191e0caf63108f623298f84f399ac80c01e5f784f034142b71e4c0601d6b8",
+  "signature": "50f2973d2ed1459dbfa02c47580a1ee06d193bde0b56e113b1f1b4d98cd74b37",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-leg-00051"
 }

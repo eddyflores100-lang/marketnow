@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8388027",
+  "certificate_id": "MN-SC-2026-4026656",
   "skill_id": "mn-real-mcpconfluent",
   "skill_name": "mcp-confluent",
-  "issued_at": "2026-11-15T07:39:48.027Z",
-  "expires_at": "2026-11-22T07:39:48.027Z",
+  "issued_at": "2026-11-22T07:53:46.656Z",
+  "expires_at": "2026-11-29T07:53:46.656Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "df61a9391c6ffb9002df665f766e0a022bd1c175d5fd1430d0b734e0dfc31a1d",
+  "signature": "a76eefe567b818e3da83bc508fbc52b160d41c97e7ad53c06ee5ef8798a48ca2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcpconfluent"
 }

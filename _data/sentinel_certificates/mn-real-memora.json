@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8513361",
+  "certificate_id": "MN-SC-2026-4203322",
   "skill_id": "mn-real-memora",
   "skill_name": "memora",
-  "issued_at": "2026-11-15T07:41:53.361Z",
-  "expires_at": "2026-11-22T07:41:53.361Z",
+  "issued_at": "2026-11-22T07:56:43.322Z",
+  "expires_at": "2026-11-29T07:56:43.322Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "6fd29ceb6e643522553745c95981c721c3d58df057af02b5749f1b6a53746e1e",
+  "signature": "f806621726235f2a7371f0b14648ac561c79dfb643f41827703f4dfecca4718d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-memora"
 }

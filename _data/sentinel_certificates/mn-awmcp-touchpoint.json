@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8363097",
+  "certificate_id": "MN-SC-2026-3989269",
   "skill_id": "mn-awmcp-touchpoint",
   "skill_name": "touchpoint",
-  "issued_at": "2026-11-15T07:39:23.097Z",
-  "expires_at": "2026-11-22T07:39:23.097Z",
+  "issued_at": "2026-11-22T07:53:09.269Z",
+  "expires_at": "2026-11-29T07:53:09.269Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "91bc8a3c3d348ebf66238b838ab579d6afeb581a0418b7462b692139398b51a0",
+  "signature": "ef3197cd6c44d5a772de7b7fae29bc1f2fe5c6c5e2b3550978f90c76c1d7a902",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-touchpoint"
 }

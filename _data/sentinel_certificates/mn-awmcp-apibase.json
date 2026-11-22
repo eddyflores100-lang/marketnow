@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8300712",
+  "certificate_id": "MN-SC-2026-3905183",
   "skill_id": "mn-awmcp-apibase",
   "skill_name": "APIbase",
-  "issued_at": "2026-11-15T07:38:20.712Z",
-  "expires_at": "2026-11-22T07:38:20.712Z",
+  "issued_at": "2026-11-22T07:51:45.183Z",
+  "expires_at": "2026-11-29T07:51:45.183Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "e15563e0658d1b12fcd4db426ea38c2c636e69b5a462e9d6e79982a4997d83bf",
+  "signature": "ce606772b06db20431c57971315fad5bad0536070f60f76638f24b25f54764e0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-apibase"
 }

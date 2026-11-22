@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8214918",
+  "certificate_id": "MN-SC-2026-3780808",
   "skill_id": "mn-gen-05249",
   "skill_name": "jaeger-mcp",
-  "issued_at": "2026-11-15T07:36:54.918Z",
-  "expires_at": "2026-11-22T07:36:54.918Z",
+  "issued_at": "2026-11-22T07:49:40.808Z",
+  "expires_at": "2026-11-29T07:49:40.808Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "00c502c1a10d207b4d47a62e3507b2c6e6cce88dd5bbaa0e506ede5a2c5623ac",
+  "signature": "83da020b692c397f59d10828f6bdd11fb4d28b500f629fe68942b27411f59629",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-05249"
 }

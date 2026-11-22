@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8313993",
+  "certificate_id": "MN-SC-2026-3925389",
   "skill_id": "mn-awmcp-tentramcp",
   "skill_name": "tentra-mcp",
-  "issued_at": "2026-11-15T07:38:33.993Z",
-  "expires_at": "2026-11-22T07:38:33.993Z",
+  "issued_at": "2026-11-22T07:52:05.389Z",
+  "expires_at": "2026-11-29T07:52:05.389Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0e7fbffc4a9c390cb854e8c08e75a8b9a469ea360437aa732530b760bb2e9500",
+  "signature": "fb89c883d9ff1f50dd20cec412b09a32fcbf55c56403e685e02cb2dc2be8c8b0",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-tentramcp"
 }

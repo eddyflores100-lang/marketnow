@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8288340",
+  "certificate_id": "MN-SC-2026-3886613",
   "skill_id": "mn-awmcp-aiskillstore",
   "skill_name": "aiskillstore",
-  "issued_at": "2026-11-15T07:38:08.340Z",
-  "expires_at": "2026-11-22T07:38:08.340Z",
+  "issued_at": "2026-11-22T07:51:26.613Z",
+  "expires_at": "2026-11-29T07:51:26.613Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -33,7 +33,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "7849524081157485f7a0c2100bc9213a0f3248c2757538aa62d00dac092bba2b",
+  "signature": "0397470ed3e72db5b106fc372b295730d2f07886152afe20143ac489187e97a2",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-aiskillstore"
 }

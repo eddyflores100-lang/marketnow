@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8494889",
+  "certificate_id": "MN-SC-2026-4175897",
   "skill_id": "mn-real-ainumbersmcpapps",
   "skill_name": "ainumbers-mcp-apps",
-  "issued_at": "2026-11-15T07:41:34.889Z",
-  "expires_at": "2026-11-22T07:41:34.889Z",
+  "issued_at": "2026-11-22T07:56:15.897Z",
+  "expires_at": "2026-11-29T07:56:15.897Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "ae6ee7073269ede03e300c18a803eb70ae947e710224857ea4500cd434657d0f",
+  "signature": "dc6dea4a0d69a232e4e5d217b3c0c69f74ffb850144d5d18329c901c50c45f8d",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-ainumbersmcpapps"
 }

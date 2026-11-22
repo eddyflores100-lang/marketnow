@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8519990",
+  "certificate_id": "MN-SC-2026-4213276",
   "skill_id": "mn-real-openontologies",
   "skill_name": "open-ontologies",
-  "issued_at": "2026-11-15T07:41:59.990Z",
-  "expires_at": "2026-11-22T07:41:59.990Z",
+  "issued_at": "2026-11-22T07:56:53.276Z",
+  "expires_at": "2026-11-29T07:56:53.276Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "059708d4d0e041878ef7fb4e7429db2670dd50c10e667be9857db4b8c9c7f7d1",
+  "signature": "b0238687d98d69efec75c724427de3e2ea36fac88816984c633d6b2a4e5df691",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-openontologies"
 }

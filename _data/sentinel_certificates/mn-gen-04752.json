@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8212003",
+  "certificate_id": "MN-SC-2026-3776297",
   "skill_id": "mn-gen-04752",
   "skill_name": "growi-mcp-server",
-  "issued_at": "2026-11-15T07:36:52.003Z",
-  "expires_at": "2026-11-22T07:36:52.003Z",
+  "issued_at": "2026-11-22T07:49:36.297Z",
+  "expires_at": "2026-11-29T07:49:36.297Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2f5f26ec458f500c4b07428344e4b89c23f06ec1ce7702eb9587aad5aca81b6a",
+  "signature": "49a0f9c5396e054201e078d8453474466b5bc385d2d6d1ebd94e4c12985e7d45",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-gen-04752"
 }

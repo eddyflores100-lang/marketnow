@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8503490",
+  "certificate_id": "MN-SC-2026-4188816",
   "skill_id": "mn-real-pineforgecodegenmcp",
   "skill_name": "pineforge-codegen-mcp",
-  "issued_at": "2026-11-15T07:41:43.490Z",
-  "expires_at": "2026-11-22T07:41:43.490Z",
+  "issued_at": "2026-11-22T07:56:28.816Z",
+  "expires_at": "2026-11-29T07:56:28.816Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "0bea42032d12c7f907e92256c31330a0a44c912ad5d6665bc9bdc1769f9f4511",
+  "signature": "6f17dfa8e4eb3616a4162f34b5d792b33cb1784494ce92788f04391511ce6f99",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-pineforgecodegenmcp"
 }

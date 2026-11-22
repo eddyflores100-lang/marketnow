@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8303382",
+  "certificate_id": "MN-SC-2026-3908843",
   "skill_id": "mn-awmcp-manimmcpserver",
   "skill_name": "manim-mcp-server",
-  "issued_at": "2026-11-15T07:38:23.382Z",
-  "expires_at": "2026-11-22T07:38:23.382Z",
+  "issued_at": "2026-11-22T07:51:48.843Z",
+  "expires_at": "2026-11-29T07:51:48.843Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "d75c6b10c50b3be659f751de92383e4120924e087a434d526622cb6ebe2f29f2",
+  "signature": "998e531a5ba2c31998a7d9d3ae1f8f356aafb0de839056bafa818dd414988fcb",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-manimmcpserver"
 }

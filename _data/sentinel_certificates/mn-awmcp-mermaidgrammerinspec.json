@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8312101",
+  "certificate_id": "MN-SC-2026-3922887",
   "skill_id": "mn-awmcp-mermaidgrammerinspec",
   "skill_name": "mermaid_grammer_inspector_mcp",
-  "issued_at": "2026-11-15T07:38:32.101Z",
-  "expires_at": "2026-11-22T07:38:32.101Z",
+  "issued_at": "2026-11-22T07:52:02.887Z",
+  "expires_at": "2026-11-29T07:52:02.887Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 9,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "5260303667b800c397a916d6c22084d807c7d662340bad3946b39112d99794a3",
+  "signature": "588bd232929724f9bc2d2e349ef72b7624dfb8c80e7816d81ebcb7e9fffa7326",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-awmcp-mermaidgrammerinspec"
 }

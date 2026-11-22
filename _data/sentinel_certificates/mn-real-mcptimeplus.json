@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8390122",
+  "certificate_id": "MN-SC-2026-4029720",
   "skill_id": "mn-real-mcptimeplus",
   "skill_name": "mcp-timeplus",
-  "issued_at": "2026-11-15T07:39:50.122Z",
-  "expires_at": "2026-11-22T07:39:50.122Z",
+  "issued_at": "2026-11-22T07:53:49.720Z",
+  "expires_at": "2026-11-29T07:53:49.720Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "012c2709ab269d1b3dd82ab69dc52a7e3a8c2e397af99eda09413d0c89c46bab",
+  "signature": "17b728382611a0bd1df1d865479b91abff1ec02eb96b79760687b9487dbd50dd",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-mcptimeplus"
 }

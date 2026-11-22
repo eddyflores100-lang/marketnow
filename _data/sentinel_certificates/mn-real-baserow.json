@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8387688",
+  "certificate_id": "MN-SC-2026-4026140",
   "skill_id": "mn-real-baserow",
   "skill_name": "baserow",
-  "issued_at": "2026-11-15T07:39:47.688Z",
-  "expires_at": "2026-11-22T07:39:47.688Z",
+  "issued_at": "2026-11-22T07:53:46.140Z",
+  "expires_at": "2026-11-29T07:53:46.140Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "69bc0f51e79991be999765b57b61b22df6235dadf617d3655e98143f17befe81",
+  "signature": "7209f59df442289ac39d34c81f398efefb9a7543454010cd3ef0d97fea1d9dd1",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-baserow"
 }

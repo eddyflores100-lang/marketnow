@@ -1,9 +1,9 @@
 {
-  "certificate_id": "MN-SC-2026-8387946",
+  "certificate_id": "MN-SC-2026-4026524",
   "skill_id": "mn-real-chromamcp",
   "skill_name": "chroma-mcp",
-  "issued_at": "2026-11-15T07:39:47.946Z",
-  "expires_at": "2026-11-22T07:39:47.946Z",
+  "issued_at": "2026-11-22T07:53:46.524Z",
+  "expires_at": "2026-11-29T07:53:46.524Z",
   "auditor": "Sentinel L1.5 + L1.6 + L2",
   "overall_score": 8,
   "max_score": 10,
@@ -32,7 +32,7 @@
     "reason": "artifact hash not resolved at signing time (no L2 scan row for this skill)"
   },
   "cert_v": 2,
-  "signature": "2dd0d350040380c0d2dcb862cd6b60abcb3698787804ac82c431395d07a45315",
+  "signature": "66728b493881a403bc081e0f881256494de317465bdfbb280163392db75e96ff",
   "signature_algorithm": "SHA-256",
   "verification_url": "https://marketnow.site/api/audit-skill?certificate=1&skillId=mn-real-chromamcp"
 }
