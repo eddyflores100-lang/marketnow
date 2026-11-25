@@ -1,12 +1,12 @@
 {
   "$schema": "https://marketnow.site/api/npm-versions.schema.json",
-  "generated_at": "2026-11-24T19:39:06Z",
+  "generated_at": "2026-11-25T18:47:06Z",
   "source": "registry.npmjs.org dist-tags + api.npmjs.org downloads (last-month) — re-derived by scripts/sync_npm_versions.py (weekly workflow + audit gate)",
   "packages": [
     {
       "name": "marketnow-mcp",
       "version": "1.16.2",
-      "dl_month": 1333
+      "dl_month": 1329
     },
     {
       "name": "agent-trust-card",
@@ -16,17 +16,17 @@
     {
       "name": "marketnow-install-stack",
       "version": "1.2.1",
-      "dl_month": 153
+      "dl_month": 154
     },
     {
       "name": "marketnow-audit",
       "version": "1.0.1",
-      "dl_month": 125
+      "dl_month": 127
     },
     {
       "name": "@marketnow/uts",
       "version": "2.0.3",
-      "dl_month": 112
+      "dl_month": 110
     },
     {
       "name": "@marketnow/trust-core",
@@ -41,42 +41,42 @@
     {
       "name": "@marketnow/trust-gateway",
       "version": "1.0.5",
-      "dl_month": 148
+      "dl_month": 145
     },
     {
       "name": "@marketnow/uta-verify",
       "version": "1.0.2",
-      "dl_month": 138
+      "dl_month": 139
     },
     {
       "name": "@marketnow/uta-conformance",
       "version": "1.4.0",
-      "dl_month": 174
+      "dl_month": 173
     },
     {
       "name": "@marketnow/cline-trust-plugin",
       "version": "1.1.2",
-      "dl_month": 127
+      "dl_month": 126
     },
     {
       "name": "@marketnow/sentinel-rules",
       "version": "1.1.2",
-      "dl_month": 169
+      "dl_month": 164
     },
     {
       "name": "@marketnow/trust-mcp-middleware",
       "version": "1.0.2",
-      "dl_month": 181
+      "dl_month": 179
     },
     {
       "name": "@marketnow/trust-observability",
       "version": "1.0.3",
-      "dl_month": 100
+      "dl_month": 98
     }
   ],
   "totals": {
     "packages": 14,
-    "dl_month": 3318
+    "dl_month": 3302
   },
   "conformance_version": "1.4.0",
   "test_vectors": 41,
