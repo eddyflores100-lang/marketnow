@@ -15,8 +15,8 @@
     "stats": {
       "total_skills": 68388,
       "certified": 68388,
-      "with_l2": 2813,
-      "l2_clean": 870,
+      "with_l2": 2812,
+      "l2_clean": 869,
       "l2_flagged_warning": 800,
       "l2_flagged_error": 1244,
       "l2_note": "L2 numbers track /api/stats.json (security block) — this file never hardcodes them again",
